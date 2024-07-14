@@ -6,13 +6,25 @@ import unicodedata
 from random import sample
 
 
+def is_number(char):
+    if char.isdigit():
+        return True
+    else:
+        return False
+
+def has_number_sen(sentence):
+    for char in sentence:
+        if is_number(char):
+            return True
+    return False
+
 def is_chinese(char):
     if 'CJK' in unicodedata.name(char):
         return True
     else:
         return False
 
-def is_chinese_word(word):
+def is_chinese_sen(word):
     for char in word:
         if not is_chinese(char):
             return False
@@ -46,7 +58,7 @@ def get_ci_rand_list(ci):
     f = open('./data/phrase.txt', encoding='utf-8')
     for each in f:
         items = each.split()
-        if is_chinese_word(items[0]):
+        if is_chinese_sen(items[0]):
             ci_data.append(items[0])
             if len(ci_data) >= 1000:
                 break
@@ -68,7 +80,7 @@ def get_zi_rand_list(zi):
     f = open('./data/phrase.txt', encoding='utf-8')
     for each in f:
         items = each.split()
-        if len(items[0]) == 1 and is_chinese_word(items[0]):
+        if len(items[0]) == 1 and is_chinese_sen(items[0]):
             zi_data.append(items[0])
             if len(zi_data) >= 1000:
                 break
@@ -90,7 +102,7 @@ def get_zi_not_rand_list(zi):
     f = open('./data/phrase.txt', encoding='utf-8')
     for each in f:
         items = each.split()
-        if len(items[0]) == 1 and is_chinese_word(items[0]):
+        if len(items[0]) == 1 and is_chinese_sen(items[0]):
             zi_data.append(items[0])
             if len(zi_data) >= 1000:
                 break
@@ -309,37 +321,46 @@ def get_sample(tokens, a, b):
     sample_list += get_sample_wildcard(tokens, a, b)
     return sample_list    
 
-def make_sample_data(data_filename, out_filename):
+def make_sen_data(data_filenames, sen_filename):
+
+    f_sen = open(sen_filename, 'w', encoding='utf-8')
+    for data_filename in data_filenames:
+        f = open(data_filename, encoding='utf_8')
+        for each in f:
+            each = each.strip()
+            sentences = re.split(r"([.。!！?？\s+])", each)
+            sentences.append("")
+            sentences = ["".join(i) for i in zip(sentences[0::2],sentences[1::2])]
+            for sen in sentences:
+                if len(sen) >=5 and len(sen) <= 15 and not has_number_sen(sen):
+                    f_sen.write(sen)
+                    f_sen.write('\n')
+                    
+def make_query_data(sen_filename, query_filename):
     pku_seg = pkuseg.pkuseg(postag=True)
-    sample_map = {}
-    f = open(data_filename, encoding='utf_8')
+    query_list = []
+    f = open(sen_filename, encoding='utf_8')
     for each in f:
-        each = each.strip()
-        sentences = re.split(r"([.。!！?？\s+])", each)
-        sentences.append("")
-        sentences = ["".join(i) for i in zip(sentences[0::2],sentences[1::2])]
-        for sen in sentences:
-            if len(sen) >=5 and len(sen) <= 15:
-                tokens = pku_seg.cut(sen)    # 进行分词和词性标注
-                a = random.randint(0, len(tokens) - 1)
-                b = a
+        sen = each.strip()
+        tokens = pku_seg.cut(sen)    # 进行分词和词性标注
+        a = random.randint(0, len(tokens) - 1)
+        b = a
 
-                if (random.random() < 0.3):
-                    b = random.randint(0, len(tokens) - 1)
-                if a > b:
-                    c = b
-                    b = a
-                    a = c         
-                sample_list = get_sample(tokens, a, b)
-                sample_map[sen] = sample(sample_list, 10)
-                print(len(sample_map))
+        if (random.random() < 0.3):
+            b = random.randint(0, len(tokens) - 1)
+        if a > b:
+            c = b
+            b = a
+            a = c         
+        sample_list = get_sample(tokens, a, b)
+        query_list.append({'query':sample(sample_list, 1)[0], 'sentence':sen})
+        print(len(query_list))
 
-        if len(sample_map)>=10000:
-            break
-    f = open(out_filename, 'w', encoding='utf_8')
-    json.dump(sample_map, f, ensure_ascii=False, indent=4)
+    f = open(query_filename, 'w', encoding='utf_8')
+    json.dump(query_list, f, ensure_ascii=False, indent=4)
     f.close()
 
 if __name__ == '__main__':
 
-    make_sample_data('./data/rmrb/2014-01.txt', 'out.json')
+    make_sen_data(['./data/rmrb/2015-01.txt', './data/rmrb/2015-12.txt'], './data/rmrb_data.txt')
+    make_query_data('./data/rmrb_data.txt', './data/rmrb_query.json')

@@ -1,7 +1,10 @@
 from openai import OpenAI
- 
+from secret import get_secret_key
+
+secret_id, secret_key = get_secret_key('./secret/tongyi.txt')
+
 client = OpenAI(
-    api_key = "sk-0GUl6NMbzGHojuQx2N6Icrof0LdYZw6DQh7sX7XqxL4l0Lll",
+    api_key = secret_key,
     base_url = "https://api.moonshot.cn/v1",
 )
 
@@ -17,3 +20,4 @@ completion = client.chat.completions.create(
 )
  
 print(completion.choices[0].message.content)
+
