@@ -136,38 +136,36 @@ n说起来v	名词后邻说起来、动词。
 
 下面是检索式及其含义的json结构：
 ```json
-{
-    "bcc_nlq": [
-        {
-            "query": "好", 
-            "description":"包含好的句子"
-        },
-        {
-            "query": "不是", 
-            "description":"包含不是的句子"
-        },
-        {
-            "query": "高大的n", 
-            "description":"高大的 + 名词"
-        },
-        {
-            "query": "v了一v", 
-            "description":"动词 + 了一 + 动词"
-        },
-        {
-            "query": "见*面", 
-            "description":"见后面离合出现面"
-        },
-        {
-            "query": "洗.澡", 
-            "description":"洗后面隔一个字后接澡"
-        },
-        {
-            "query": "../v", 
-            "description":"二字动词"
-        }
-    ]
-}
+[
+    {
+        "query": "好", 
+        "description":"包含好的句子"
+    },
+    {
+        "query": "不是", 
+        "description":"包含不是的句子"
+    },
+    {
+        "query": "高大的n", 
+        "description":"高大的 + 名词"
+    },
+    {
+        "query": "v了一v", 
+        "description":"动词 + 了一 + 动词"
+    },
+    {
+        "query": "见*面", 
+        "description":"见后面离合出现面"
+    },
+    {
+        "query": "洗.澡", 
+        "description":"洗后面隔一个字后接澡"
+    },
+    {
+        "query": "../v", 
+        "description":"二字动词"
+    }
+]
 ```
 
-请将下列检索式转换为带含义的json结构：
+请将下列检索式转换为带含义的json结构，需要返回完整列表不能省略：

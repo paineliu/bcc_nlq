@@ -1,0 +1,2450 @@
+[
+    {
+        "query": "(m) (v){len($1)=1; len($2)=1}",
+        "description": "由一个单音节动词和一个单音节的词组成的"
+    },
+    {
+        "query": "@ 是",
+        "description": "包含一个词性的词后接'是'"
+    },
+    {
+        "query": "的 ./w 引导",
+        "description": "引导词'的'后接一个名词或代词"
+    },
+    {
+        "query": "需要 ../n 的",
+        "description": "需要后面跟着一个名词，再接'的'"
+    },
+    {
+        "query": "学会 (b) 会长{count>3}",
+        "description": "学会后接一个副词'会长'，且'会长'出现次数大于3次"
+    },
+    {
+        "query": "让",
+        "description": "仅包含'让'这个词"
+    },
+    {
+        "query": "传统 (v) 什么{count>5}",
+        "description": "传统后面接一个动词，'什么'后面出现次数大于5次"
+    },
+    {
+        "query": "(y) (w){len($1)!=2}",
+        "description": "由一个可能的语气词和一个非两字词组成的"
+    },
+    {
+        "query": "(a) ， (z){len($1)!=2}",
+        "description": "由一个形容词和一个非两字词组成的，且两者之间用逗号隔开"
+    },
+    {
+        "query": "是 ../[r v] 呢",
+        "description": "是后面接一个动词或代词，然后是'呢'"
+    },
+    {
+        "query": "呢 ？/w",
+        "description": "包含'呢'，且紧跟一个问号"
+    },
+    {
+        "query": "不可偏废 (w) 是{count>7}",
+        "description": "不可偏废后面接一个词，且'是'出现次数大于7次"
+    },
+    {
+        "query": "(v) 大家{begin($1)!=[属 声 短 批]}",
+        "description": "动词后面，但不接属性词、声音词、简称或批语"
+    },
+    {
+        "query": "是否 . 年味",
+        "description": "是否后面接一个点，再接'年味'"
+    },
+    {
+        "query": "文化 (n) ？{end($1)!=[哪 之]}",
+        "description": "文化后面接一个名词，且名词后面不是'哪'或'之'"
+    },
+    {
+        "query": "清新 。/w",
+        "description": "清新后面接一个点，且点后可能是任意字符"
+    },
+    {
+        "query": "哲理 . 润物",
+        "description": "哲理后面接一个点，再接'润物'"
+    },
+    {
+        "query": "(n) 看似 直白 ， 实则 (v){begin($2)!=[查 哼]}",
+        "description": "名词后面接看似、直白，然后是一个不以'查'或'哼'开头的动词"
+    },
+    {
+        "query": "南昌 (v) ，{begin($1)!=[交 闲 真]}",
+        "description": "南昌后面接一个动词，且动词前面不接'交'、'闲'或'真'"
+    },
+    {
+        "query": "(v) 他{len($1)!=2}",
+        "description": "动词后面接一个非两字的词"
+    },
+    {
+        "query": "../[d v] 不行",
+        "description": "一个双音节词后接一个动词，然后是'不行'"
+    },
+    {
+        "query": "敢 (v) 。{begin($1)=[露 并]}",
+        "description": "敢后面接一个动词，且动词前面是'露'或'并'"
+    },
+    {
+        "query": "民有所呼 ~/[w v] 必",
+        "description": "民有所呼后面接一个任意词性和一个动词，然后是'必'"
+    },
+    {
+        "query": "(v) 脑筋 ， (p){len($1)=2}",
+        "description": "动词后面接脑筋，且脑筋后面紧跟着一个两字的词"
+    },
+    {
+        "query": "@ 操作",
+        "description": "包含一个词性的词后接'操作'"
+    },
+    {
+        "query": "百色 ~ 靠",
+        "description": "百色后面接一个词，可能是任意词"
+    },
+    {
+        "query": "红 @/[w v] 是",
+        "description": "红后面接一个词性标记的词，然后是'是'"
+    },
+    {
+        "query": "之 ./[a v] ，",
+        "description": "之后面接一个可能是形容词或动词的词，然后是逗号"
+    },
+    {
+        "query": "市委 (n) 彭晓春{len($1)=2}",
+        "description": "市委后面接彭晓春，彭晓春是两个字的名词"
+    },
+    {
+        "query": "ns 市委",
+        "description": "ns后面接市委"
+    },
+    {
+        "query": "../[n v] 成",
+        "description": "一个名词或动词后接'成'"
+    },
+    {
+        "query": "是 ./[a v] 老板",
+        "description": "是后面接一个可能是形容词或动词的词，再接老板"
+    },
+    {
+        "query": "(r) 的 事业 (d){count<459}",
+        "description": "一个副词后接'的'，'的'后面接'事业'，且'事业'出现次数小于459次"
+    },
+    {
+        "query": "好奇 w",
+        "description": "好奇后接一个词"
+    },
+    {
+        "query": "竞争力 @",
+        "description": "竞争力后接一个词性标记的词"
+    },
+    {
+        "query": "(r) 不禁{count<945}",
+        "description": "一个副词后接'不禁'，且'不禁'出现次数小于945次"
+    },
+    {
+        "query": "鼓励 (n){len($1)=2}",
+        "description": "鼓励后面接一个两字的名词"
+    },
+    {
+        "query": "如此 ~ 好人",
+        "description": "如此后面接一个任意词，然后是'好人'"
+    },
+    {
+        "query": "(r) 问 宣传部长 (nr){count<718}",
+        "description": "询问句中提及的宣传部长角色，实例频次少于718次"
+    },
+    {
+        "query": "已 v",
+        "description": "已经发生的动词行为"
+    },
+    {
+        "query": "制图 . 蔡华伟",
+        "description": "包含制图操作，且紧随其后的可能是蔡华伟"
+    },
+    {
+        "query": "非制造业 (n) 活动{end($1)!=[爽 部 疯 定]}",
+        "description": "非制造业领域的活动，排除爽、部、疯、定这些结尾"
+    },
+    {
+        "query": "(c) (v){$1!=$2}",
+        "description": "两个连续的动词，且两者不相同"
+    },
+    {
+        "query": "(r) 预防{begin($1)!=[屎 死 期]}",
+        "description": "预防这个词开头，但不以屎、死、期开头"
+    },
+    {
+        "query": "v 踩踏 n",
+        "description": "动词踩踏后面接名词"
+    },
+    {
+        "query": "， (n) 发展{count<786}",
+        "description": "逗号后面接名词，发展实例频次少于786次"
+    },
+    {
+        "query": "薛蕾 (n) 地{middle($1)!=[暖 妈 肥]}",
+        "description": "薛蕾后面接一个名词，且这个名词中间不包含暖、妈、肥"
+    },
+    {
+        "query": "(v) 互利{end($1)!=[哎 剩]}",
+        "description": "以互利结尾的动词，排除哎和剩"
+    },
+    {
+        "query": "融资 (v) 是{count>7}",
+        "description": "融资这个词是动词，且实例频次超过7次"
+    },
+    {
+        "query": "成果 ~/[d v] 已",
+        "description": "成果后面离合出现动词或形容词，且紧跟已"
+    },
+    {
+        "query": "太原 .. ·",
+        "description": "太原后面可能跟一个汉字或符号"
+    },
+    {
+        "query": "(u) 政治 意愿 (a){end($2)!=[宁 六]}",
+        "description": "政治意愿为形容词，且不以宁、六结尾"
+    },
+    {
+        "query": "具 (n) 。{count<890}",
+        "description": "具后面接名词，且句尾为句号，实例频次少于890次"
+    },
+    {
+        "query": ".. 我们",
+        "description": "两个汉字之间的内容，可能是我们"
+    },
+    {
+        "query": "饱受 @/[a v] 。",
+        "description": "饱受后面跟一个形容词或动词，句尾为句号"
+    },
+    {
+        "query": "解放军 援/v 利比里亚",
+        "description": "解放军援救动词后面接利比里亚"
+    },
+    {
+        "query": "俄罗斯 (v) 前行{end($1)=[砺 推 证 校]}",
+        "description": "俄罗斯后面接动词，动词结尾可能是砺、推、证或校"
+    },
+    {
+        "query": "./[nr v] 源潮",
+        "description": "单音节名词或动词后面接源潮"
+    },
+    {
+        "query": "会见 @/[w v]",
+        "description": "会见后面接一个词，可能是动词或形容词"
+    },
+    {
+        "query": "进入 ~ 历史",
+        "description": "进入后面接一个词，可能是任意词性"
+    },
+    {
+        "query": "大半 ../[n v] 反",
+        "description": "大半后面跟名词或动词，再接反"
+    },
+    {
+        "query": "(r) 把 倡导 (v){begin($2)=[节 切 套]}",
+        "description": "把倡导的后面动词，且第二个动词不以节、切、套开头"
+    },
+    {
+        "query": "@ 节约",
+        "description": "节约作为词性标记"
+    },
+    {
+        "query": "创新 ../n 解棚",
+        "description": "创新后面接名词，且名词可能与解棚相关"
+    },
+    {
+        "query": "(v) 牛鼻子 ， (v){begin($2)!=[值 生 答 码]}",
+        "description": "两个连续的动词，第一个动词后面接牛鼻子，且第二个动词不以值、生、答、码开头"
+    },
+    {
+        "query": "啊 w",
+        "description": "啊后面接一个字"
+    },
+    {
+        "query": "~ 的",
+        "description": "一个词后面接的"
+    },
+    {
+        "query": "说 ~/[w v]",
+        "description": "说后面离合出现一个词，可能是动词或形容词"
+    },
+    {
+        "query": "一 ./[v v] ，",
+        "description": "一后面可能跟两个动词，且后面是逗号"
+    },
+    {
+        "query": "给力 ./w 撑起",
+        "description": "给力作为词性标记，后面接撑起"
+    },
+    {
+        "query": "说",
+        "description": "单独的说"
+    },
+    {
+        "query": ". 钢用",
+        "description": "句尾可能是一个字和钢用"
+    },
+    {
+        "query": "助力 ../[n v] 安居",
+        "description": "助力后面跟名词或动词，再接安居"
+    },
+    {
+        "query": "的 (n) 让{count>2}",
+        "description": "的后面接名词，让后面实例频次超过2次"
+    },
+    {
+        "query": "西湖区 ~/[n v] 吴江辉",
+        "description": "西湖区后面离合出现名词或动词，且可能是吴江辉"
+    },
+    {
+        "query": "推进 .. 达",
+        "description": "推进后面可能跟一个汉字或符号，再接达"
+    },
+    {
+        "query": "@/[n v] 为",
+        "description": "单音节名词或动词后面接为"
+    },
+    {
+        "query": "文化 ~",
+        "description": "文化后面有一个词"
+    },
+    {
+        "query": "前人 (a){len($1)=1}",
+        "description": "前人，前面是单个形容词"
+    },
+    {
+        "query": "(n) 在{count<433}",
+        "description": "名词后，这个位置的句子频次小于433"
+    },
+    {
+        "query": "进 ~/[n v] ，",
+        "description": "进后面离合出现名词或动词，后面是逗号"
+    },
+    {
+        "query": "这就 ./[v v] 我们",
+        "description": "这就后面是两个连续的动词，然后是‘我们’"
+    },
+    {
+        "query": "， 字 w",
+        "description": "逗号后面是一个字"
+    },
+    {
+        "query": "不 (v) 过去{len($1)!=2}",
+        "description": "不后面跟一个不是两个字的动词，过去"
+    },
+    {
+        "query": "青海省 (ns) 市委{len($1)>1}",
+        "description": "青海省后面是市委，市委的长度大于1个字"
+    },
+    {
+        "query": "大学生 (v) 摔伤{end($1)=[助 志 批]}",
+        "description": "大学生后面离合出现摔伤，摔伤后面是助词、志或批"
+    },
+    {
+        "query": "相信 (c) 好人{len($1)>1}",
+        "description": "相信后面接一个长度大于1的词，可能是好人"
+    },
+    {
+        "query": "好人 (a) ！{count<791}",
+        "description": "好人在感叹词前，且频次小于791"
+    },
+    {
+        "query": "(nr) 芝萍 游 (v){$1!=$2}",
+        "description": "芝萍后面接游，但芝萍和游不能相同"
+    },
+    {
+        "query": "大学 (n) 骆明伟{begin($1)=[教 客]}",
+        "description": "大学后面是以教或客开头的词"
+    },
+    {
+        "query": "对 (b) 活禽{len($1)=2}",
+        "description": "对后面跟一个长度为2的词，可能是活禽"
+    },
+    {
+        "query": "(w) 大众 品牌 攻陷 各 (a){count<826}",
+        "description": "大众品牌攻陷各，各前面是形容词，且频次小于826"
+    },
+    {
+        "query": "(n) (d){len($2)!=2}",
+        "description": "名词后面跟着一个不是两个字的词"
+    },
+    {
+        "query": "减少 (vn) ，{end($1)=[费 尿 胃]}",
+        "description": "减少后面跟一个以费、尿或胃结尾的词，然后是逗号"
+    },
+    {
+        "query": "比 t 减少",
+        "description": "比后面接t，然后是减少"
+    },
+    {
+        "query": "阿富汗 (a) 部队{len($1)=2}",
+        "description": "阿富汗后面跟一个长度为2的词，可能是部队"
+    },
+    {
+        "query": "客机 (vn) 工作{len($1)<3}",
+        "description": "客机后面接工作，工作长度小于3个字"
+    },
+    {
+        "query": "朝 t 互望",
+        "description": "朝后面接t，然后是互望"
+    },
+    {
+        "query": "(n) 陈 (i){len($1)=2; len($2)=2}",
+        "description": "陈后面跟两个字的词"
+    },
+    {
+        "query": "外交 ~ 突破",
+        "description": "外交后面有一个词，可能是突破"
+    },
+    {
+        "query": "有 ./q 约会",
+        "description": "有后面离合出现一个词，可能是约会"
+    },
+    {
+        "query": "晓龙 (v){count<792}",
+        "description": "晓龙后面频次小于792"
+    },
+    {
+        "query": "刘禹平 v",
+        "description": "刘禹平后面接一个动词"
+    },
+    {
+        "query": "冰雪 (n) 过瘾{len($1)=2}",
+        "description": "冰雪后面跟一个长度为2的词，可能是过瘾"
+    },
+    {
+        "query": "../[n v] 设计",
+        "description": "双音节动词后面接名词或动词，然后是设计"
+    },
+    {
+        "query": "体验 @/[n v]",
+        "description": "体验后面是名词或动词"
+    },
+    {
+        "query": "百病 @/[w v]",
+        "description": "百病后面是名词或动词"
+    },
+    {
+        "query": "服务 (c) 票价{count>7}",
+        "description": "服务后面接票价，且频次大于7"
+    },
+    {
+        "query": "? 冰雪 (n) ？{len($1)!=3}",
+        "description": "问号后面跟冰雪，冰雪后面是问号，且冰雪长度不是3个字"
+    },
+    {
+        "query": ".../n 路线",
+        "description": "连续的三个点后面接一个名词，可能是路线"
+    },
+    {
+        "query": "动",
+        "description": "单独的动词"
+    },
+    {
+        "query": "~/[n v] 磨意",
+        "description": "动词后面离合出现名词或动词，然后是磨意"
+    },
+    {
+        "query": "(d) 呼喊 ； 进攻 (w){begin($1)=[大 命]}",
+        "description": "呼喊后面接一个以大或命开头的词，然后是进攻"
+    },
+    {
+        "query": "(p) 激情 (v){$1=$2}",
+        "description": "激情后面接一个与激情相同的词，可能是激情"
+    },
+    {
+        "query": "滑雪 ~ 激促",
+        "description": "滑雪后面接一个词"
+    },
+    {
+        "query": "三环 (f) 可{len($1)>1}",
+        "description": "三环后接一个至少两个字符的词"
+    },
+    {
+        "query": "制图 @ 宋嵩",
+        "description": "制图后接一个词，统计时按照词性归并"
+    },
+    {
+        "query": "资料 ./w 刘",
+        "description": "资料后接刘，刘是单音节词"
+    },
+    {
+        "query": "哈尔滨 ... 将",
+        "description": "哈尔滨后面隔一个或多个字后接将"
+    },
+    {
+        "query": "意义 ~ 人生",
+        "description": "意义后面接一个词"
+    },
+    {
+        "query": "怎么办 @/[y v] ，",
+        "description": "怎么办后接一个词，可能是形容词或动词，后面可以是逗号"
+    },
+    {
+        "query": "天 早晨/t 醒来",
+        "description": "天后面接早晨，然后是动词醒来"
+    },
+    {
+        "query": "没有 n 。",
+        "description": "没有后面接一个名词，后面是句尾"
+    },
+    {
+        "query": "w 他 几乎 没 动 筷子 w",
+        "description": "w(标点)后接一系列词汇，筷子是句尾"
+    },
+    {
+        "query": "他 刚刚/d 进行",
+        "description": "他后面接刚刚，然后是动词进行"
+    },
+    {
+        "query": "取代 ~ 的",
+        "description": "取代后面接一个词"
+    },
+    {
+        "query": "(a) 的 不 去 ， (l){len($1)!=2}",
+        "description": "形容词后接的、不、去，但第二个词不是两个字符"
+    },
+    {
+        "query": "(u) 是 (d){len($1)=1; len($2)!=2}",
+        "description": "u(助词)后接一个字的'是'，后面跟的词不是两个字符"
+    },
+    {
+        "query": "(d) 认罚 (w){end($1)!=[传 涨]}",
+        "description": "副词后接认罚，认罚后面不接传或涨"
+    },
+    {
+        "query": "(m) (q){len($1)!=2}",
+        "description": "m(状态词)后接一个不是两个字符的词"
+    },
+    {
+        "query": "(r) 就{count>6}",
+        "description": "r(代词)后接'就'，且'就'出现次数大于6次"
+    },
+    {
+        "query": "(r) 辛苦{end($1)!=[期 客 骂 查]}",
+        "description": "r(代词)后接辛苦，辛苦后面不接期、客、骂、查"
+    },
+    {
+        "query": ". 我 也 心境 ..",
+        "description": "句尾后接心境，心境后面可以隔一个或多个字"
+    },
+    {
+        "query": "不",
+        "description": "单独的否定词"
+    },
+    {
+        "query": "的 (n) 。{count<287}",
+        "description": "的后面接一个名词，且总的'的'数量少于287个"
+    },
+    {
+        "query": "退休 (u) 年龄{len($1)=1}",
+        "description": "退休后接一个单字的年龄"
+    },
+    {
+        "query": "时候 @ 边疆",
+        "description": "时候后接边疆，统计时按照词性归并"
+    },
+    {
+        "query": "的 (i) ，{count<163}",
+        "description": "的后面接一个词，但总的'的'数量少于163个，后面可能是逗号"
+    },
+    {
+        "query": "让 n 的",
+        "description": "让后接一个名词，名词后面接'的'"
+    },
+    {
+        "query": "v 了",
+        "description": "动词后接了"
+    },
+    {
+        "query": "绿绿/z 的 小草 ，/w",
+        "description": "绿绿后接的，小草后接一个词，可能是句尾"
+    },
+    {
+        "query": "树木 .",
+        "description": "树木后面是句尾"
+    },
+    {
+        "query": "慈祥 . 目光",
+        "description": "慈祥后面隔一个字后接目光"
+    },
+    {
+        "query": "积攒",
+        "description": "积攒是一个完整的词"
+    },
+    {
+        "query": "陪 ./u 美丽",
+        "description": "陪后接美丽，美丽可能是单音节词"
+    },
+    {
+        "query": "咚咚 ../[n v] ，",
+        "description": "咚咚后接一个名词或动词，后面可能是逗号"
+    },
+    {
+        "query": "飘 (p) 无名{len($1)!=2}",
+        "description": "飘后接无名，无名不是两个字符"
+    },
+    {
+        "query": "的 (n) ，{end($1)=[忆 坑]}",
+        "description": "的后面接一个名词，名词后面可能是句尾，且不包括忆或坑"
+    },
+    {
+        "query": "来 (v) 你{len($1)!=3}",
+        "description": "来后接你，但不是三个字符"
+    },
+    {
+        "query": "(u) (n){$1!=$2}",
+        "description": "u(助词)后接一个名词，但这个名词和前面的词不同"
+    },
+    {
+        "query": "@/[r v] 说",
+        "description": "后接一个词，可能是代词或动词，然后是说"
+    },
+    {
+        "query": "我 (u) 羽毛{len($1)!=2}",
+        "description": "我后接一个不是两个字符的词"
+    },
+    {
+        "query": "飞 ../n 啦",
+        "description": "飞后接一个词，可能是动名词，然后是啦"
+    },
+    {
+        "query": "而 .. 的",
+        "description": "而后面接一个词和一个标点符号"
+    },
+    {
+        "query": "了 (n) 首都{len($1)>1}",
+        "description": "了后面接一个名词，且该名词长度大于1个字"
+    },
+    {
+        "query": "了 .../n 的",
+        "description": "了后面接任意数量的字符直到遇到名词，然后接一个的"
+    },
+    {
+        "query": "该 (v) 多么{len($1)!=2}",
+        "description": "该后面接一个动词，但动词长度不等于2"
+    },
+    {
+        "query": "明月山 (u) 竹{count>3}",
+        "description": "明月山后面至少出现4次竹"
+    },
+    {
+        "query": "地 ../v 竹",
+        "description": "地后面接一个二字动词，动词后面接竹"
+    },
+    {
+        "query": "政治 (n){count<640}",
+        "description": "政治这个词在语料库中的出现次数少于640次"
+    },
+    {
+        "query": "， ./p 民族",
+        "description": "逗号后面接民族"
+    },
+    {
+        "query": "道 (n) 早{count<688}",
+        "description": "道后面接一个名词，且该名词出现次数少于688次"
+    },
+    {
+        "query": "宏图 ./[w v]",
+        "description": "宏图后面接一个词或动词"
+    },
+    {
+        "query": "(r) (v){len($1)=1}",
+        "description": "一个括号内的副词后面接一个长度为1的动词"
+    },
+    {
+        "query": "民惟邦本 ./w 政得其民",
+        "description": "民惟邦本后面接政得其民"
+    },
+    {
+        "query": "(n) (v){len($1)<4}",
+        "description": "一个名词后面接一个长度小于4的动词"
+    },
+    {
+        "query": "(n) 爱{begin($1)!=[养 任 撒]}",
+        "description": "一个名词后面接爱，但不以养、任或撒开头"
+    },
+    {
+        "query": "(s) 有 (n){begin($1)!=[首 品]; len($2)>1}",
+        "description": "有后面接一个名词，且该名词不以首或品开头，名词长度大于1"
+    },
+    {
+        "query": "， ~/[l v] 。",
+        "description": "逗号后面接一个标点符号或动词，且该动词后可能接句点"
+    },
+    {
+        "query": "@/[i v] ，",
+        "description": "一个词性为i或v的词后面接逗号"
+    },
+    {
+        "query": "总理 (nr) 评价{middle($1)!=[的 歌 首]}",
+        "description": "总理后面接评价，但评价中间不包含的、歌或首"
+    },
+    {
+        "query": "(an) ， 就 没有 (a){begin($1)=[健 撒 吴 陈]}",
+        "description": "一个形容词后面接逗号，接着是就、没有，且不以健、撒、吴或陈开头"
+    },
+    {
+        "query": "(r) 只是{len($1)!=2}",
+        "description": "只是后面接一个长度不等于2的词"
+    },
+    {
+        "query": "(m) 破 (m){count<520}",
+        "description": "破后面接另一个破，且出现次数少于520次"
+    },
+    {
+        "query": "从严",
+        "description": "直接的从严"
+    },
+    {
+        "query": "鲜明 (vn) 。{len($1)<3}",
+        "description": "鲜明后面接一个长度小于3的词，且可能是句尾"
+    },
+    {
+        "query": "让 ./[r v] 看到",
+        "description": "让后面接一个动词或代词，可能是看到"
+    },
+    {
+        "query": "./v 好",
+        "description": "一个动词后面接好"
+    },
+    {
+        "query": "知难而进",
+        "description": "知难而进是一个完整的短语"
+    },
+    {
+        "query": "分 @ ，",
+        "description": "分后面接一个词，可能是句尾"
+    },
+    {
+        "query": "， (f) 率{len($1)=2}",
+        "description": "逗号后面接一个长度为2的词，可能是频率相关的"
+    },
+    {
+        "query": "不是 (v) 掂量{end($1)=[有 汗 表]}",
+        "description": "不是后面接掂量，掂量以有、汗或表结尾"
+    },
+    {
+        "query": "nr 斩钉截铁{count>7}",
+        "description": "斩钉截铁后面接一个人名，且该人名出现次数多于7次"
+    },
+    {
+        "query": "(v) 。{count>7}",
+        "description": "一个动词后面接句点，且该动词出现次数多于7次"
+    },
+    {
+        "query": "党校{end($1)=[央 舍]}",
+        "description": "党校后面接央或舍"
+    },
+    {
+        "query": "何 (v) 风流{count<151}",
+        "description": "何后面接风流，且风流出现次数少于151次"
+    },
+    {
+        "query": "恢弘",
+        "description": "恢弘是一个完整的词"
+    },
+    {
+        "query": "的 (a) 之{len($1)!=3}",
+        "description": "的后面接一个长度不等于3的词，可能是修饰词"
+    },
+    {
+        "query": "画卷 @/[d v] 展开",
+        "description": "画卷后面接一个词，可能是展开，词性可能是d或v"
+    },
+    {
+        "query": "一股股/m 强大",
+        "description": "一股股后面接强大，强大前面可能是数量词"
+    },
+    {
+        "query": "(a) 的 (n){len($1)!=3; len($2)=4}",
+        "description": "一个形容词后面接一个长度不等于3且长度为4的名词"
+    },
+    {
+        "query": "节不节 ~/[u v]",
+        "description": "节后面可能接‘不’，然后是介词或动词"
+    },
+    {
+        "query": "了 ~/[w v]",
+        "description": "‘了’后面可能是助词或动词"
+    },
+    {
+        "query": "@ 物丰价廉",
+        "description": "物丰价廉，这里的@表示统计时按照词性归并"
+    },
+    {
+        "query": "说 (w){count<677}",
+        "description": "包含‘说’这个词，且实例数量少于677次"
+    },
+    {
+        "query": "有时 . 相似",
+        "description": "有时后面跟一个点，表示相似"
+    },
+    {
+        "query": "中院 ../n 任尔昕",
+        "description": "中院后面接一个名词，可能是任尔昕"
+    },
+    {
+        "query": "(nr) 说{len($1)<4}",
+        "description": "人名后面说的词的长度小于4个字符"
+    },
+    {
+        "query": "@ 有人",
+        "description": "有人，这里的@表示统计时按照词性归并"
+    },
+    {
+        "query": "适应 (a) 常态{len($1)=1}",
+        "description": "适应后接一个形容词，形容词长度为1"
+    },
+    {
+        "query": "(v) 了 新 (n){begin($2)!=[帮 群 胡 兵]}",
+        "description": "动词后接了新，新后面不接帮、群、胡或兵"
+    },
+    {
+        "query": "北京 (m) 群众{end($1)=[万 勒 躺 宇]}",
+        "description": "北京后面接群众，且群众的结束位置不在万、勒、躺或宇之后"
+    },
+    {
+        "query": "成绩单",
+        "description": "直接的单词：成绩单"
+    },
+    {
+        "query": "薪酬 (v) 上限{len($1)!=3}",
+        "description": "薪酬后接上限，但薪酬前面的动词长度不为3"
+    },
+    {
+        "query": "(j) (n){end($2)=[机 贴 懂]}",
+        "description": "两个词，第一个词可能是代词，第二个词的结束位置在机、贴或懂"
+    },
+    {
+        "query": "民族",
+        "description": "直接的单词：民族"
+    },
+    {
+        "query": "(t) ，{len($1)<5}",
+        "description": "可能是逗号，且长度小于5"
+    },
+    {
+        "query": "(v) 起 宏图 (w){len($1)!=3}",
+        "description": "动词后接宏图，宏图前面的词长度不为3"
+    },
+    {
+        "query": "(n) 服务 ， 担当 起 该 担当 (u){end($1)!=[字 奥]}",
+        "description": "名词后接服务，然后是多个词，担当起该担当，担当后面不接字或奥"
+    },
+    {
+        "query": "。",
+        "description": "句尾的点"
+    },
+    {
+        "query": "句 .../n",
+        "description": "句后可能接一个词边界后接名词"
+    },
+    {
+        "query": "(n) 爱{count<941}",
+        "description": "名词后接爱，爱的实例数量少于941次"
+    },
+    {
+        "query": "有 @/[n v]",
+        "description": "有后接名词或动词，这里的@表示统计时按照词性归并"
+    },
+    {
+        "query": "(l) ，{middle($1)=[莫 经 由]}",
+        "description": "可能是逗号，且中间的字符在莫、经或由"
+    },
+    {
+        "query": "d 来 ， n",
+        "description": "可能是副词来，然后是逗号和一个名词"
+    },
+    {
+        "query": "(i) ，{middle($1)!=[量 怪 姨]}",
+        "description": "可能是逗号，且中间的字符不在量、怪或姨"
+    },
+    {
+        "query": "../[ns v] 前",
+        "description": "可能是双音节词或动词，位于某个词之前"
+    },
+    {
+        "query": "没有 (a) 小康{begin($1)!=[同 及 愿 耶]}",
+        "description": "没有后接形容词，形容词后不接同、及、愿或耶"
+    },
+    {
+        "query": "这 (d) 一个{end($1)=[是 哈 遍]}",
+        "description": "这后接一个副词，副词后不接是、哈或遍"
+    },
+    {
+        "query": "概括 @ ‘",
+        "description": "概括后接一个单引号，这里的@表示统计时按照词性归并"
+    },
+    {
+        "query": "从严 ./v 党",
+        "description": "从严后面接一个动词，动词可能是党"
+    },
+    {
+        "query": "我 (v) 了{begin($1)!=[万 蓝]}",
+        "description": "我后接动词，动词后不接万或蓝"
+    },
+    {
+        "query": "事情 @/[w v] 关键",
+        "description": "事情后接助词或动词，关键可能是句尾"
+    },
+    {
+        "query": "稳 (w){count>3}",
+        "description": "稳这个词的实例数量大于3次"
+    },
+    {
+        "query": "一 分/n 部署",
+        "description": "一后接分数，分数后接名词部署"
+    },
+    {
+        "query": "率 @ 。",
+        "description": "率后可能是句尾，这里的@表示统计时按照词性归并"
+    },
+    {
+        "query": "不是 没有/v 掂量",
+        "description": "不是和没有后接动词掂量"
+    },
+    {
+        "query": ".../[nr v] 斩钉截铁",
+        "description": "可能的词边界后接人名或动词，斩钉截铁可能是句尾"
+    },
+    {
+        "query": "(v) 。{len($1)<8}",
+        "description": "可能是动词，后面跟一个点，动词长度小于8"
+    },
+    {
+        "query": "副 (vn) 长{len($1)!=3}",
+        "description": "副词后接一个单音节动词，且单音节动词长度不为3"
+    },
+    {
+        "query": "惧 ~ .",
+        "description": "惧后接一个词"
+    },
+    {
+        "query": "乐章 奏响/v 新篇",
+        "description": "乐章后面接奏响，奏响是动词，后面接新篇"
+    },
+    {
+        "query": ".../m 久违",
+        "description": "一个词后面接久违，久违可能是名动词或形容词"
+    },
+    {
+        "query": "徐徐 (v){count<517}",
+        "description": "徐徐（动词），频次小于517"
+    },
+    {
+        "query": "正能量 (i){len($1)=4}",
+        "description": "正能量（成语），长度为4"
+    },
+    {
+        "query": "(m) 坚固 (u){middle($1)=[道 段 画]}",
+        "description": "坚固（状态词），可能位于一个词的中间位置，可能是道、段或画"
+    },
+    {
+        "query": "， (v) ，{end($1)=[看 扔 体 鸟]}",
+        "description": "逗号后面接动词，动词后面可能是看、扔、体或鸟"
+    },
+    {
+        "query": "的 ~/[w v] 说来",
+        "description": "的后面可能是形容词或动词，后面接说来"
+    },
+    {
+        "query": "中国 (v) 了{len($1)!=3}",
+        "description": "中国（地名）后面接动词，但动词长度不是3"
+    },
+    {
+        "query": "行政 ~/[n v]",
+        "description": "行政后面可能是名词或动词"
+    },
+    {
+        "query": "(j) 登记 (n){begin($1)=[工 些]}",
+        "description": "登记（名动词），可能以工或些开头"
+    },
+    {
+        "query": "先照 (n){len($1)!=3}",
+        "description": "先照（名词），长度不是3"
+    },
+    {
+        "query": "实缴制 .. 认缴制",
+        "description": "实缴制和认缴制之间可能存在一个词"
+    },
+    {
+        "query": "建立 ~/[n v] 制度",
+        "description": "建立后面可能是名词或动词，后面接制度"
+    },
+    {
+        "query": "推行",
+        "description": "推行，可能是一个动词"
+    },
+    {
+        "query": "建制镇 c 小",
+        "description": "建制镇后面接小，可能是一个形容词"
+    },
+    {
+        "query": "城市 (n) 规模{count<698}",
+        "description": "城市后面接名词规模，城市规模实例少于698个"
+    },
+    {
+        "query": "建立 (n) 统一{count<361}",
+        "description": "建立后面接名词统一，建立统一实例少于361个"
+    },
+    {
+        "query": "制定 ..../[n v] 负面",
+        "description": "制定后面可能接多词，后面接名词或动词，且可能是负面"
+    },
+    {
+        "query": "(v) 监管{len($1)<3}",
+        "description": "监管（动词），长度小于3"
+    },
+    {
+        "query": ". 设计",
+        "description": "一个词后接设计"
+    },
+    {
+        "query": "娄底 (n) 试点{len($1)>1}",
+        "description": "娄底（地名）后面接试点，试点长度大于1"
+    },
+    {
+        "query": "信息 .. ，",
+        "description": "信息后面可能接一个词，然后是逗号"
+    },
+    {
+        "query": "此前 ~/[w v] 大多",
+        "description": "此前后面可能是形容词或动词，大多接在此后"
+    },
+    {
+        "query": "@/[m v] 天",
+        "description": "可能是介词后接名词或动词，后面接天"
+    },
+    {
+        "query": "见",
+        "description": "见，可能是动词或代词"
+    },
+    {
+        "query": "， ~/[v v] 更",
+        "description": "逗号后面可能是两个动词，且第二个动词可能是更"
+    },
+    {
+        "query": "(u) (vn){len($2)>1}",
+        "description": "可能是副词后接一个长度大于1的单音节动词"
+    },
+    {
+        "query": ".../nr 说",
+        "description": "一个词后接人名，然后是说"
+    },
+    {
+        "query": "智能 ~ ，",
+        "description": "智能后面接一个词，然后是逗号"
+    },
+    {
+        "query": "了 @/[w v]",
+        "description": "了后面可能是介词后接名词或动词"
+    },
+    {
+        "query": "， ../[d v] 方便",
+        "description": "逗号后面可能是副词或动词，且动词后面接方便"
+    },
+    {
+        "query": "海迪 (v) 。{count>10}",
+        "description": "海迪（人名）后面接一个动词，且动词实例多于10个，句尾是句点"
+    },
+    {
+        "query": "共和国 (n) 索利斯{end($1)=[统 之 现]}",
+        "description": "共和国后面接索利斯，索利斯可能是以统、之或现结尾的名词"
+    },
+    {
+        "query": "索利斯 n",
+        "description": "索利斯后面接名词"
+    },
+    {
+        "query": "需要 @/[n v] 反应",
+        "description": "需要后面可能是名词或动词，然后是反应"
+    },
+    {
+        "query": "如何 @/[v v] 监督",
+        "description": "如何后面可能是两个动词，第一个动词可能是监督"
+    },
+    {
+        "query": "改革 .. 攻坚区",
+        "description": "改革后面可能接多词，然后是攻坚区"
+    },
+    {
+        "query": "， (v) 红利{count>2}",
+        "description": "逗号后面接动词，动词后面是红利，红利实例多于2个"
+    },
+    {
+        "query": "(d) ， 改革 还 需 (n){end($2)!=[米 也 木 算]}",
+        "description": "副词接‘，’，后面是‘改革’，然后是‘还’，接着是‘需’，但需后面不接‘米’、‘也’或‘木’，并且最后一个字不是‘算’"
+    },
+    {
+        "query": "@ 回归",
+        "description": "回归，统计时按照词性归并"
+    },
+    {
+        "query": "说 w",
+        "description": "说后面接一个词"
+    },
+    {
+        "query": "u 改变 v",
+        "description": "‘改变’这个词前后都是动词"
+    },
+    {
+        "query": "(nr) 坦言{len($1)!=4}",
+        "description": "名词坦言，坦言的长度不是4个字"
+    },
+    {
+        "query": "(t) ， 多 名 责任人 已 被 控制 (w){count>6}",
+        "description": "时间词，逗号后是多、名、责任人，接着是‘已’，然后是‘被’，最后是‘控制’，且实例频次大于6"
+    },
+    {
+        "query": "(v) 哈 会诊 救治 (n){count<609}",
+        "description": "动词哈，后面是会诊和救治，且实例频次小于609"
+    },
+    {
+        "query": "(n) 上升 (n){len($1)!=3}",
+        "description": "名词上升，上升后面也是一个名词，但上升本身不是3个字"
+    },
+    {
+        "query": "巍山 (n) 拱辰楼{begin($1)!=[吓 猜 宁 发]}",
+        "description": "巍山后面是拱辰楼，但拱辰楼的开始部分不包括‘吓’、‘猜’、‘宁’或‘发’"
+    },
+    {
+        "query": "(r) 经常{count<377}",
+        "description": "副词经常，实例频次小于377"
+    },
+    {
+        "query": "./nr 淑兰 的 生活 ../d",
+        "description": "动词淑兰后面可能是名词，接着是‘的’，然后是‘生活’，生活后面是‘..’，表示动词"
+    },
+    {
+        "query": "./[nr v] 淑兰",
+        "description": "淑兰后面可能是名词或动词"
+    },
+    {
+        "query": "潘 ~ 说",
+        "description": "潘后面是一个词"
+    },
+    {
+        "query": "探索 @/[v v] 驱动",
+        "description": "探索后面是两个连续的动词"
+    },
+    {
+        "query": "隧道 。/w",
+        "description": "隧道后面是一个标点符号"
+    },
+    {
+        "query": "@/[ns v] ·",
+        "description": "可能是名词或数词后面是动词"
+    },
+    {
+        "query": "展示厅 (w){count>8}",
+        "description": "展示厅后面接的词实例频次大于8"
+    },
+    {
+        "query": "志同 d 能",
+        "description": "志同后面接一个词"
+    },
+    {
+        "query": "巧 ~/[v v] 外脑",
+        "description": "巧后面可能是一个词，或者是两个连续的动词"
+    },
+    {
+        "query": "(n) 既定{len($1)>1}",
+        "description": "名词既定，且既定本身不是单字"
+    },
+    {
+        "query": "(n) 书记 赵 克志 说 (w){$1=$2}",
+        "description": "书记赵克志后面直接是‘说’"
+    },
+    {
+        "query": "工信部 (n) 苗圩{begin($1)!=[零 何 操]}",
+        "description": "工信部后面是苗圩，但苗圩的开始部分不包括‘零’、‘何’或‘操’"
+    },
+    {
+        "query": "京筑 (v) 创新{count>2}",
+        "description": "京筑后面是创新，且实例频次大于2"
+    },
+    {
+        "query": "决心 w",
+        "description": "决心后面接一个词"
+    },
+    {
+        "query": "的 (s) ，{begin($1)=[东 靠 看 洗]}",
+        "description": "的后面是逗号，且逗号前面的词可能是‘东’、‘靠’、‘看’或‘洗’"
+    },
+    {
+        "query": "有 职责/n 。",
+        "description": "有职责后面接一个名词，句尾是句点"
+    },
+    {
+        "query": "， ~/[a v] 。",
+        "description": "逗号后面可能是形容词或动词，句尾是句点"
+    },
+    {
+        "query": "(v) 得 高 ， (n){len($2)>1}",
+        "description": "动词得后面是高，逗号后面是一个长度大于1的名词"
+    },
+    {
+        "query": "./nr 祥士",
+        "description": "祥士后面可能是名词或代词"
+    },
+    {
+        "query": "做 (n) 的{begin($1)!=[为 赞]}",
+        "description": "做后面是名词，且名词的开始部分不包括‘为’或‘赞’"
+    },
+    {
+        "query": "(n) 强军 (s){len($1)<3}",
+        "description": "名词强军，且强军本身长度小于3"
+    },
+    {
+        "query": "(n) (v){len($1)=3; len($2)=2}",
+        "description": "两个名词之间是两个字的动词"
+    },
+    {
+        "query": "， (l) 。{count<666}",
+        "description": "逗号后面是句点，且实例频次小于666"
+    },
+    {
+        "query": "， 激励/v 一大",
+        "description": "逗号后面是动词激励，后面接一个词"
+    },
+    {
+        "query": "是 r 官",
+        "description": "是后面接一个词"
+    },
+    {
+        "query": "放 ~/[n v] ，",
+        "description": "放后面可能是名词或动词，后面是逗号"
+    },
+    {
+        "query": "畅销书 ./[w v]",
+        "description": "畅销书后面可能是形容词或动词"
+    },
+    {
+        "query": "(a) 笔耕{len($1)>1}",
+        "description": "形容词笔耕，且笔耕本身长度大于1"
+    },
+    {
+        "query": "(a) 的 (v){count>6}",
+        "description": "形容词后接‘的’，‘的’后面是动词，且动词实例频次大于6"
+    },
+    {
+        "query": "(d) 就 没有 诗兴 (c){len($1)=1}",
+        "description": "副词接‘就’，后面是‘没有’，然后是‘诗兴’，且诗兴的长度是1"
+    },
+    {
+        "query": "这是 (n) 受{begin($1)=[地 男 餐 肥]}",
+        "description": "这是后面接受，受字之前可能是地、男、餐或肥"
+    },
+    {
+        "query": "样子 ./w",
+        "description": "样子作为形容词"
+    },
+    {
+        "query": "的 ./n",
+        "description": "的字后面接名词"
+    },
+    {
+        "query": "(b) 的 希望 是 他 的 创作 (v){len($1)>1; len($2)>1}",
+        "description": "两个连续的词性为v的词，且每个词的长度都大于1"
+    },
+    {
+        "query": "毒药 @",
+        "description": "毒药作为一个词进行检索"
+    },
+    {
+        "query": "的 @/[n v]",
+        "description": "的字后面接名词或动词"
+    },
+    {
+        "query": "(p) 特色 (v){len($1)=1}",
+        "description": "一个单字的动词特色"
+    },
+    {
+        "query": "(c) 要{count<744}",
+        "description": "要字出现的次数少于744次"
+    },
+    {
+        "query": "记忆 ~",
+        "description": "记忆作为一个词"
+    },
+    {
+        "query": "当地 ./[m v] 位",
+        "description": "当地后面接动词或名词"
+    },
+    {
+        "query": "有意 (w){count>2}",
+        "description": "有意这个词出现的次数大于2"
+    },
+    {
+        "query": "(d) 简单{end($1)!=[富 左 鞋]}",
+        "description": "简单字后面不接富、左或鞋"
+    },
+    {
+        "query": "非洲 中国画/n",
+        "description": "非洲后面接中国画，且是中国画"
+    },
+    {
+        "query": "农田水利 (v) 威力{len($1)>1}",
+        "description": "农田水利后面接一个长度大于1的词"
+    },
+    {
+        "query": "资源 ~ 消耗",
+        "description": "资源后面接一个词，可能是消耗"
+    },
+    {
+        "query": "(i) (w){$1!=$2}",
+        "description": "两个连续的词，且不相同"
+    },
+    {
+        "query": "， .. 绿色",
+        "description": "逗号后面可能接一个词，然后是绿色"
+    },
+    {
+        "query": "了",
+        "description": "单独的了字"
+    },
+    {
+        "query": "(n) ， 保护 发展 (n){count>7}",
+        "description": "逗号后面连续的三个名词，且保护和发展出现的次数大于7"
+    },
+    {
+        "query": "什么 (n){count<377}",
+        "description": "什么后面接的名词出现的次数少于377次"
+    },
+    {
+        "query": "何去何从 ~/[w v]",
+        "description": "何去何从后面可能是动词或形容词"
+    },
+    {
+        "query": "./u 少 了 ./u",
+        "description": "少和了作为两个连续的词"
+    },
+    {
+        "query": "下 (u) 压力{count<325}",
+        "description": "下字后面接压力，且压力出现的次数少于325次"
+    },
+    {
+        "query": "(n) 如何 转型 (v){len($1)>1}",
+        "description": "如何和转型连续，且转型是动词且长度大于1"
+    },
+    {
+        "query": "u 事儿 w",
+        "description": "u后面接事儿，事儿是句尾"
+    },
+    {
+        "query": "(j) 种地 (v){end($1)!=[害 完]}",
+        "description": "种地连续，且种字后面不接害或完"
+    },
+    {
+        "query": ". 优利 .",
+        "description": "点号后面接优利，点号可能是句尾"
+    },
+    {
+        "query": "管委会 (n) 康军{len($1)=2}",
+        "description": "管委会后面接康军，康军是两个字的词"
+    },
+    {
+        "query": "有 (n) 了{len($1)<3}",
+        "description": "有 + 名词，后面跟着的词长度小于3"
+    },
+    {
+        "query": "支农 @/[v v] 真章",
+        "description": "支农后面跟一个或两个动词，然后是真章"
+    },
+    {
+        "query": "职业 (n) 有{end($1)!=[慢 变 笨]}",
+        "description": "职业 + 名词，但不以慢、变、笨结尾"
+    },
+    {
+        "query": "大姐 (u) 艰难{len($1)=1}",
+        "description": "大姐后面紧跟着一个艰难的词，且艰难仅一个字"
+    },
+    {
+        "query": "回乡 @/[v v] ，",
+        "description": "回乡后面跟一个或两个动词，后面可能是逗号"
+    },
+    {
+        "query": "专业 (vn){begin($1)!=[收 周]}",
+        "description": "专业 + 动名词，但不以收或周开头"
+    },
+    {
+        "query": "种植户 ~/[p v] 职业",
+        "description": "种植户后面离合出现介词或动词，然后是职业"
+    },
+    {
+        "query": "要 ~ 待遇",
+        "description": "要后面跟一个词，可能是待遇"
+    },
+    {
+        "query": "多",
+        "description": "多，可能是一个独立的词"
+    },
+    {
+        "query": "花牛 ../v 潘",
+        "description": "花牛后面跟一个二字动词，动词后面可能是潘"
+    },
+    {
+        "query": "在 (t) 出现{len($1)>1}",
+        "description": "在 + 时间词，后面跟着的词长度大于1"
+    },
+    {
+        "query": "(nr) 说{middle($1)=[成 甘]}",
+        "description": "某人名后面说，说字中间可能是成或甘"
+    },
+    {
+        "query": "边院镇 .../ns 村委会",
+        "description": "边院镇后面可能跟一些地名，然后是村委会"
+    },
+    {
+        "query": "农民",
+        "description": "农民，可能是一个独立的词"
+    },
+    {
+        "query": "草莓 w",
+        "description": "草莓后面可能是句尾"
+    },
+    {
+        "query": "沈北新区 ../vn 负责人",
+        "description": "沈北新区后面跟一个双音节动词，然后是负责人"
+    },
+    {
+        "query": "负责人 说/v .",
+        "description": "负责人后面跟一个动词说，动词后面可能是句尾"
+    },
+    {
+        "query": "../n 增收 ， 又 解 ./r",
+        "description": "双音节动词后面接名词，可能有逗号和再接一个词"
+    },
+    {
+        "query": "种 苞米/n 能",
+        "description": "种 + 名词苞米，后面可能是能"
+    },
+    {
+        "query": "(nr) 树先 在 市里 打零工 ， 一 (q){len($1)!=2; len($2)=2}",
+        "description": "某人名树先，后面跟在市里打零工，然后是一后面跟一个长度为2的词"
+    },
+    {
+        "query": "实践 c 创造",
+        "description": "实践后面接形容词，然后是创造"
+    },
+    {
+        "query": "陶社 (n) 中外{count<304}",
+        "description": "陶社 + 名词，陶社后面中外组合出现的次数少于304次"
+    },
+    {
+        "query": "文化 (n){count>3}",
+        "description": "文化 + 名词，文化后面出现次数多于3次"
+    },
+    {
+        "query": "是 (v) 这里{count>10}",
+        "description": "是动词后面跟这里有且次数超过10次"
+    },
+    {
+        "query": "的 (vn) 题目{begin($1)=[研 由]}",
+        "description": "的 + 动名词，动名词开头可能是研或由"
+    },
+    {
+        "query": "富饶 (u) 工艺{count>4}",
+        "description": "富饶 + 名词，富饶后面工艺出现的次数多于4次"
+    },
+    {
+        "query": "石头 (v) 什么{count<898}",
+        "description": "石头后面可能是动词，动词后面是什么，且次数少于898次"
+    },
+    {
+        "query": "(n) 在 汉代 已经 开始 (d){end($1)!=[狗 随 跳 美]}",
+        "description": "名词 + 在 + 汉代 + 已经 + 开始，最后不是狗、随、跳或美"
+    },
+    {
+        "query": "什么",
+        "description": "什么，可能是单独的疑问词"
+    },
+    {
+        "query": "这种 (n) 也{len($1)=2}",
+        "description": "这种 + 名词，也仅一个字"
+    },
+    {
+        "query": "(n) (v){len($1)>2; len($2)=2}",
+        "description": "两个词，第一个词长于2个字，第二个词也是2个字"
+    },
+    {
+        "query": "(y) (w){count>3}",
+        "description": "语气词 + 句尾，且次数多于3次"
+    },
+    {
+        "query": "求 ~/[a v] 美",
+        "description": "求后面离合出现形容词或动词，然后是美"
+    },
+    {
+        "query": "~/[n v] 为",
+        "description": "动词或名词后面离合出现为"
+    },
+    {
+        "query": "尊 (n) 还{count<351}",
+        "description": "尊 + 名词，尊后面跟的还出现次数少于351次"
+    },
+    {
+        "query": "../[v v] 新",
+        "description": "双音节动词后面接新"
+    },
+    {
+        "query": "改革 ~ 年",
+        "description": "改革后面跟一个词，可能是年"
+    },
+    {
+        "query": "(v) 关注{end($1)!=[建 洗 应]}",
+        "description": "动词关注，后面不是建、洗或应"
+    },
+    {
+        "query": "精神 ..",
+        "description": "精神后面可能是句尾或标点"
+    },
+    {
+        "query": "(v) 改革 (n){begin($1)=[激 星 君]}",
+        "description": "动词改革后面紧跟'激'、'星'或'君'作为开始"
+    },
+    {
+        "query": "用 @ 理论",
+        "description": "使用后跟一个词，词性为理论"
+    },
+    {
+        "query": "推动 文艺/n 事业",
+        "description": "推动后面接'文艺'名词，然后是'事业'"
+    },
+    {
+        "query": "国家 ../n",
+        "description": "国家后面接一个名词"
+    },
+    {
+        "query": "(v) 时代 要求 ， (v){end($1)!=[变 经 原]}",
+        "description": "动词时代后面接要求，然后是动词，但不以'变'、'经'或'原'结尾"
+    },
+    {
+        "query": "纪委 (p) 下级{len($1)!=2}",
+        "description": "纪委后面接一个非两个字的词，可能是介词"
+    },
+    {
+        "query": "~ 升级",
+        "description": "单个词升级"
+    },
+    {
+        "query": "年 ./[w v] 让",
+        "description": "年后面可能是单字或双字动词，再接让"
+    },
+    {
+        "query": "把 ../vn 质量关",
+        "description": "把后面接一个可能的动词或名词，再接质量关"
+    },
+    {
+        "query": "n ， 方案 v",
+        "description": "名词后面接逗号，然后是动词"
+    },
+    {
+        "query": "老旧 (n){count>9}",
+        "description": "老旧后面接的名词出现次数超过9次"
+    },
+    {
+        "query": "(n) 难题{len($1)!=3}",
+        "description": "难题这个词的长度不是3"
+    },
+    {
+        "query": "政策 ~ 不如",
+        "description": "政策后面接一个词"
+    },
+    {
+        "query": "重视 (n) 医疗{len($1)>1}",
+        "description": "重视后面接一个名词，名词长度大于1"
+    },
+    {
+        "query": "都 (v) 社会{len($1)!=2}",
+        "description": "都后面接一个非两个字的词，可能是动词"
+    },
+    {
+        "query": "(v) ： (nr){begin($2)!=[穿 谈 懒]}",
+        "description": "动词:后面接一个人名，但不以穿、谈或懒开始"
+    },
+    {
+        "query": "白景明 (v) 。{count<977}",
+        "description": "白景明后面是动词，且动词后面带有句号，出现次数少于977次"
+    },
+    {
+        "query": "才能 . 得",
+        "description": "才能后面隔一个字后接得"
+    },
+    {
+        "query": "知识 (n) 强国{begin($1)!=[但 我]}",
+        "description": "知识后面接名词，但不以但或我开始"
+    },
+    {
+        "query": "改革 (v) 提供{len($1)>1}",
+        "description": "改革后面接一个长度大于1的动词"
+    },
+    {
+        "query": "凝聚 v 力量",
+        "description": "凝聚后面接动词力量"
+    },
+    {
+        "query": "思想 n 武装",
+        "description": "思想后面接名词武装"
+    },
+    {
+        "query": "@ 文艺",
+        "description": "一个词，词性为文艺"
+    },
+    {
+        "query": "用 中国/ns 好",
+        "description": "用后面接'中国'，词性为名词，后面接好"
+    },
+    {
+        "query": "， @ 中国",
+        "description": "逗号后跟一个词，词性为中国"
+    },
+    {
+        "query": "基础",
+        "description": "单独的词基础"
+    },
+    {
+        "query": "前景 广阔/a",
+        "description": "前景后面接广阔的形容词"
+    },
+    {
+        "query": "平等 (d) 成为{len($1)>1}",
+        "description": "平等后面接一个长度大于1的词，词性为副词"
+    },
+    {
+        "query": "非洲 ../n",
+        "description": "非洲后面接一个名词"
+    },
+    {
+        "query": "中国 @ 重要性",
+        "description": "中国后面跟一个词，词性为重要性"
+    },
+    {
+        "query": "北京",
+        "description": "单独的词北京"
+    },
+    {
+        "query": "(ns) 总统{middle($1)=[瓜 呀]}",
+        "description": "总统这个词的中间可能是瓜或呀"
+    },
+    {
+        "query": "(nr) (n){$1!=$2}",
+        "description": "两个相邻的人名，但不相同"
+    },
+    {
+        "query": "媒体 .../[n v] 深度",
+        "description": "媒体后面可能是间隔一个词的名词或动词，再接深度"
+    },
+    {
+        "query": "(n) 承担{end($1)!=[快 尿 狠]}",
+        "description": "名词后面接的词不以快、尿或狠结尾"
+    },
+    {
+        "query": "德国",
+        "description": "单独的词德国"
+    },
+    {
+        "query": "(v) 公正{count>6}",
+        "description": "公正后面接的动词出现次数超过6次"
+    },
+    {
+        "query": "仲裁 ~ 将",
+        "description": "仲裁后面接一个词"
+    },
+    {
+        "query": "弘扬 (n) 精神{count<755}",
+        "description": "弘扬后面接名词精神，出现次数少于755次"
+    },
+    {
+        "query": "大力 v 一带",
+        "description": "大力后面接动词，可能是带动词一带"
+    },
+    {
+        "query": "祖国 ~ 启动",
+        "description": "祖国后面接一个词，这个词可能是启动"
+    },
+    {
+        "query": "讲 ./u 更",
+        "description": "讲后跟一个单字动词或形容词，然后是更"
+    },
+    {
+        "query": "眼睛 (w){count>6}",
+        "description": "包含一个出现超过6次的单词‘眼睛’"
+    },
+    {
+        "query": "就 @/[v v] 爱",
+        "description": "就后面接一个动词或另一个动词，然后是爱"
+    },
+    {
+        "query": "(r) ，{len($1)<3}",
+        "description": "一个长度小于3的逗号"
+    },
+    {
+        "query": "， @/[a v] 矣",
+        "description": "一个逗号后面接一个形容词或动词，然后是矣"
+    },
+    {
+        "query": "等于 采撷/v 了",
+        "description": "等于后面接采撷和一个动词了"
+    },
+    {
+        "query": ". 实践",
+        "description": "句尾是实践"
+    },
+    {
+        "query": "点赞 (ns) ·{len($1)>1}",
+        "description": "点赞后跟一个长度大于1的标点符号"
+    },
+    {
+        "query": "南昌湾 ~ 区设",
+        "description": "南昌湾后面接一个词，可能是区设"
+    },
+    {
+        "query": "(u) 旅游 年卡 为什么 不 能 (v){$1=$2}",
+        "description": "旅游、年卡、为什么、不能这四个词按顺序排列，且最后两个词相同"
+    },
+    {
+        "query": "说 @",
+        "description": "说后跟一个词"
+    },
+    {
+        "query": "火灾 (n) 都{begin($1)=[原 姨]}",
+        "description": "火灾后接一个以‘原’或‘姨’开头的词"
+    },
+    {
+        "query": "(j) 小区{count>8}",
+        "description": "小区这个词出现次数超过8次"
+    },
+    {
+        "query": "一 . 侥幸",
+        "description": "一后面隔一个字后接侥幸"
+    },
+    {
+        "query": "将 密切/ad 监控",
+        "description": "将后面跟一个副词密切，然后是监控"
+    },
+    {
+        "query": "裁好 迈向/v 法治",
+        "description": "裁好后接迈向和一个动词法治"
+    },
+    {
+        "query": "然法者 @/[w v] 平之如水",
+        "description": "然法者后面接一个词，可能是平之如水"
+    },
+    {
+        "query": "更 (v) 裁好{count<868}",
+        "description": "更后接一个动词，且裁好这个词出现次数少于868次"
+    },
+    {
+        "query": "再",
+        "description": "仅一个再字"
+    },
+    {
+        "query": "清正 (n) 须{len($1)<3}",
+        "description": "清正后接一个长度小于3的词"
+    },
+    {
+        "query": "讲究 (n) 。{len($1)>1}",
+        "description": "讲究后接一个名词，且后面是句尾符号"
+    },
+    {
+        "query": "的 ../[n v] 交往",
+        "description": "的后面接一个名词或动词，然后是交往"
+    },
+    {
+        "query": "n 由来已久 w",
+        "description": "一个名词后面隔一个字后接由来已久"
+    },
+    {
+        "query": "作者 (n) ：{end($1)!=[言 抄]}",
+        "description": "作者后接一个名词，但不是言或抄"
+    },
+    {
+        "query": "中国 n 中国",
+        "description": "中国后面接一个名词，然后是另一个中国"
+    },
+    {
+        "query": "敢为天下先 ./[w v]",
+        "description": "敢为天下先后跟一个词，可能是动词或形容词"
+    },
+    {
+        "query": "../v 更",
+        "description": "一个双音节动词后面接更"
+    },
+    {
+        "query": "(v) 改革业 (w){len($1)=4}",
+        "description": "一个动词后面接改革业，且改革业是四个字"
+    },
+    {
+        "query": "中华 ~ 再",
+        "description": "中华后面接一个词，可能是再"
+    },
+    {
+        "query": "给 .. 开支",
+        "description": "给后面跟一个省略的词，然后是开支"
+    },
+    {
+        "query": "留 ../[n v] 空间",
+        "description": "留后面接一个名词或动词，然后是空间"
+    },
+    {
+        "query": "， ../[v v] 三大",
+        "description": "一个逗号后面接一个双音节动词或另一个双音节动词，然后是三大"
+    },
+    {
+        "query": "公平 @/[v v] 的",
+        "description": "公平后面接一个动词或另一个动词，然后是的"
+    },
+    {
+        "query": "黑龙江/ns 黑河",
+        "description": "黑龙江后面接黑河，黑河是地名"
+    },
+    {
+        "query": "(p) 依法{count>2}",
+        "description": "依法这个词出现次数超过2次"
+    },
+    {
+        "query": "(ns) (ns){end($1)!=[朋 搭]}",
+        "description": "两个连续的ns词，且第二个词不是朋或搭"
+    },
+    {
+        "query": "塑造 .. 文化",
+        "description": "塑造后面跟一个省略的词，然后是文化"
+    },
+    {
+        "query": "(ns) 江北{len($1)<3}",
+        "description": "江北这个词长度小于3"
+    },
+    {
+        "query": "../nr 说",
+        "description": "动词后面接人名并且是两个字的句子"
+    },
+    {
+        "query": "(n) (v){len($1)!=3}",
+        "description": "一个名词后面接一个非三个字的动词"
+    },
+    {
+        "query": "一个 .. 改革 (v) 缩影{len($1)>1}",
+        "description": "一个词后面接任意数量的词，然后是改革，改革后面接一个长度大于1的动词和缩影"
+    },
+    {
+        "query": "， ../[n v] 空前",
+        "description": "逗号后面接名词或动词，但不包括句尾"
+    },
+    {
+        "query": "@/[v v] 一",
+        "description": "两个连续的动词后面接一个'一'"
+    },
+    {
+        "query": "(v) 一{end($1)=[索 酒 属]}",
+        "description": "动词后面接一个以索、酒或属结尾的词"
+    },
+    {
+        "query": "， (v) 依靠{len($1)!=3}",
+        "description": "逗号后面接一个非三个字的动词，表示依靠"
+    },
+    {
+        "query": "(v) (n){len($1)=2; len($2)=2}",
+        "description": "一个动词后面接两个长度均为两个字的名词"
+    },
+    {
+        "query": "吴敬琏 (l) 。{middle($1)!=[放 变 先 假]}",
+        "description": "吴敬琏后面接一个词，但中间的词不包含放、变、先或假"
+    },
+    {
+        "query": "vn 路上{end($1)=[革 进 钱 姐]}",
+        "description": "路上后面接一个以革、进、钱或姐结尾的动名词"
+    },
+    {
+        "query": ".. 迈",
+        "description": "两个词后面接迈"
+    },
+    {
+        "query": "增长 (u) 动力{len($1)=1}",
+        "description": "增长后面接一个长度为1的单位动词，表示动力"
+    },
+    {
+        "query": "n 是 (v){$1=$2}",
+        "description": "名词后面接一个相同的动词"
+    },
+    {
+        "query": "种 好/a 股份",
+        "description": "种后面接形容词好，形容词后接股份"
+    },
+    {
+        "query": "画好 (n) 的{count>5}",
+        "description": "画好后面接名词，且该名词实例数大于5"
+    },
+    {
+        "query": "制图",
+        "description": "制图单独作为一个检索项"
+    },
+    {
+        "query": "n 受到 (vn){count<502}",
+        "description": "名词后面接受到，受到后面接一个动词，且动词实例数小于502"
+    },
+    {
+        "query": "村庄 (n){count<544}",
+        "description": "村庄作为名词，实例数小于544"
+    },
+    {
+        "query": "(r) (m){len($1)!=2}",
+        "description": "一个代词后面接一个非两个字的词"
+    },
+    {
+        "query": "v 的 坎 (w){len($1)!=3}",
+        "description": "动词后面接'的'，'的'后面接一个非三个字的词"
+    },
+    {
+        "query": "股份 ../vn 规范",
+        "description": "股份后面接任意数量的词，然后是规范"
+    },
+    {
+        "query": "(n) (v){len($1)>1; begin($2)!=[烟 得 品]}",
+        "description": "一个名词后面接一个长度大于1的动词，且动词不以烟、得或品开头"
+    },
+    {
+        "query": "领 ~ 了",
+        "description": "领后面接一个词"
+    },
+    {
+        "query": "良性{len($1)!=3}",
+        "description": "良性后面接一个非三个字的词"
+    },
+    {
+        "query": "纳入{len($1)!=3}",
+        "description": "纳入后面接一个非三个字的词"
+    },
+    {
+        "query": "分配",
+        "description": "分配单独作为一个检索项"
+    },
+    {
+        "query": "~ 对外开放",
+        "description": "一个词，可能是对外或开放"
+    },
+    {
+        "query": "(n) 是 最好 的 (n){$1!=$2}",
+        "description": "一个名词后面接'是'，'是'后面接'最好'，'最好'后面接一个不同的名词"
+    },
+    {
+        "query": "不进则退 w",
+        "description": "不进则退后面接一个词"
+    },
+    {
+        "query": "(p) 一带 一路 (v){count>7}",
+        "description": "一带后面接一路，一路后面接一个出现次数超过7次的动词"
+    },
+    {
+        "query": "经贸 (v){begin($1)=[坚持 金 风]; len($2)=2}",
+        "description": "经贸后面接一个以坚持、金或风开头的两个字的动词"
+    },
+    {
+        "query": "布局 ~/[w v]",
+        "description": "布局后面接任意数量的词，可能是动词或名词"
+    },
+    {
+        "query": "重构 (n) 经贸{count>4}",
+        "description": "重构后面接经贸，经贸实例数大于4"
+    },
+    {
+        "query": "工作 (n) 。{len($1)>2}",
+        "description": "工作后面接一个长度大于2的名词，句尾可能带有标点"
+    },
+    {
+        "query": "梦想 (v) 未来{end($1)=[就 屁 昂]}",
+        "description": "梦想后面接未来，未来后面接一个以就、屁或昂结尾的词"
+    },
+    {
+        "query": "作者 (v) 商务部{count>10}",
+        "description": "作者后面接商务部，且商务部作为动词实例数大于10"
+    },
+    {
+        "query": "(i){begin($1)!=[刚 马 法]}",
+        "description": "一个介词后面接的词不以刚、马或法开头"
+    },
+    {
+        "query": "奋进 (n) 纵横{begin($1)!=[段 价]}",
+        "description": "奋进后面跟着名词，但不以'段'或'价'开始"
+    },
+    {
+        "query": "观念 v 与时俱进",
+        "description": "观念后面接动词，紧跟'与时俱进'"
+    },
+    {
+        "query": "(v) 上{len($1)!=3}",
+        "description": "以动词开始，后面不是三个字的句子"
+    },
+    {
+        "query": "(n) 上 (a){len($1)>1; begin($2)!=[德 丁]}",
+        "description": "名词后面接上，然后跟一个长度大于1且不以'德'或'丁'开始的形容词"
+    },
+    {
+        "query": "梦想",
+        "description": "只有'梦想'这个词"
+    },
+    {
+        "query": "开放 (n){len($1)=2}",
+        "description": "开放后面接一个长度为2的名词"
+    },
+    {
+        "query": "./p 什么",
+        "description": "什么作为标点符号后面的内容"
+    },
+    {
+        "query": "../r 开放",
+        "description": "动词后面接'开放'，开放可能是动词或形容词"
+    },
+    {
+        "query": "道路 @/[v v] 命运",
+        "description": "道路后面接动词或动词的名词"
+    },
+    {
+        "query": "命运 (n) ，{middle($1)!=[乱 闲]}",
+        "description": "命运后面可能有逗号，但中间内容不包含'乱'或'闲'"
+    },
+    {
+        "query": "改革 ./[w v]",
+        "description": "改革后面可能是动词或形容词"
+    },
+    {
+        "query": "(ns) (v){len($1)>1}",
+        "description": "某个地名后面接一个长度大于1的动词"
+    },
+    {
+        "query": "开放 . 开发",
+        "description": "开放后面隔一个字后接开发"
+    },
+    {
+        "query": "国家 (an){len($1)>1}",
+        "description": "国家后面接一个长度大于1的名形词"
+    },
+    {
+        "query": "烟叶 ~ 价格",
+        "description": "烟叶后面接一个词"
+    },
+    {
+        "query": "(n) 改革{count>3}",
+        "description": "改革后面出现次数大于3的实例"
+    },
+    {
+        "query": ": (nr){len($1)=2}",
+        "description": "冒号后面接两个字的人名"
+    },
+    {
+        "query": "可以 ~ 放开",
+        "description": "可以后面接一个词"
+    },
+    {
+        "query": "充分 。/w",
+        "description": "充分后面可能跟一个标点符号"
+    },
+    {
+        "query": "供应 a .",
+        "description": "供应后面接形容词，可能后面还有标点"
+    },
+    {
+        "query": "(m) 是 行业 运行 平稳 (w){len($1)!=2}",
+        "description": "某个数量词后面是'是'，然后行业、运行、平稳，但不是两个字的词"
+    },
+    {
+        "query": "(d) 放 了 之 (w){count>8}",
+        "description": "三个连续的动词后面出现次数大于8的实例"
+    },
+    {
+        "query": "三峡 船闸/n 通过",
+        "description": "三峡船闸后面接名词，可能是'通过'"
+    },
+    {
+        "query": "显着 ../v 。",
+        "description": "显着后面接一个动词，可能后面是句尾标点"
+    },
+    {
+        "query": "... 说",
+        "description": "省略号后面接一个词"
+    },
+    {
+        "query": "三 ./[q v] 外企",
+        "description": "三后面接量词或动词，后面可能是外企"
+    },
+    {
+        "query": "贷款 @ 提高",
+        "description": "贷款后面接动词，统计时按词性归并"
+    },
+    {
+        "query": ": ...",
+        "description": "冒号后面接省略号"
+    },
+    {
+        "query": "守望 ~ ，",
+        "description": "守望后面接一个词，可能是句尾逗号"
+    },
+    {
+        "query": "走 (u) 不{len($1)!=2}",
+        "description": "走后面接一个非语素字，但不以两个字结束"
+    },
+    {
+        "query": "(d) 深 (vx){len($1)>1}",
+        "description": "副词深后面接一个长度大于1的动词"
+    },
+    {
+        "query": "邓声豪 (v) 。{end($1)!=[德 中 签 入]}",
+        "description": "邓声豪后面接动词，动词后面不是德、中、签或入"
+    },
+    {
+        "query": "~ 次",
+        "description": "一个词后面接'次'"
+    },
+    {
+        "query": "(nr) 占 前 说 (w){count<213}",
+        "description": "某个人名后面是'占'、'前'和'说'，且总次数少于213"
+    },
+    {
+        "query": "步子 ~ 更",
+        "description": "步子后面接一个词"
+    },
+    {
+        "query": "邓声豪 (v) 。{count>8}",
+        "description": "邓声豪后面接动词，动词后面出现次数大于8的实例"
+    },
+    {
+        "query": "可以 (v) 趋势{begin($1)!=[完 性 底 动]}",
+        "description": "可以后面接动词，趋势后面不以完、性、底或动开始"
+    },
+    {
+        "query": "创始人 @/[v v] 首席",
+        "description": "创始人后面接动词或动词的名词，可能是首席"
+    },
+    {
+        "query": "移动 ... 有",
+        "description": "移动后面可能接省略号，后面接'有'"
+    },
+    {
+        "query": "升级 ~/[y v] ？",
+        "description": "升级后面接一个词，可能是语气词或动词，后面可能是问号"
+    },
+    {
+        "query": "(d) (v){$1!=$2}",
+        "description": "副词接('d')，然后接两个不同的动词"
+    },
+    {
+        "query": "个 ./v 产品",
+        "description": "个作为介词后面接动词，动词后面接产品"
+    },
+    {
+        "query": "个 @ 商业",
+        "description": "个后面接特定词性(@)的词，可能是商业"
+    },
+    {
+        "query": "土地 .. 须",
+        "description": "土地后面可能接两个连续的词，但不一定是'须'"
+    },
+    {
+        "query": "涉企 收费/vn 清单",
+        "description": "涉企后接动词'收费'，动词后面接名词'清单'"
+    },
+    {
+        "query": "@ 小长假",
+        "description": "小长假可能是单个词性(@)的词"
+    },
+    {
+        "query": "(v) (d){count>10}",
+        "description": "两个动词之间，至少有一个出现次数大于10次"
+    },
+    {
+        "query": "通 (b) 了{len($1)!=3}",
+        "description": "通后面接一个不是三个字符的词"
+    },
+    {
+        "query": "被 这些/r 保险",
+        "description": "被后面接代词'这些'，再接'保险'"
+    },
+    {
+        "query": "销售额 v 近",
+        "description": "销售额后面接动词，动词后面接近"
+    },
+    {
+        "query": "分析 (w){count<942}",
+        "description": "分析这个词出现次数少于942次"
+    },
+    {
+        "query": "能 (v){count>5}",
+        "description": "能这个动词出现次数超过5次"
+    },
+    {
+        "query": "反腐 (n) 零距离{count>5}",
+        "description": "反腐后面接名词，名词后面接'零距离'，且'零距离'出现次数超过5次"
+    },
+    {
+        "query": "监察部 (n){len($1)=2}",
+        "description": "监察部是一个两个字符的名词"
+    },
+    {
+        "query": "制图",
+        "description": "制图是一个单独的词"
+    },
+    {
+        "query": "上级 @ 对",
+        "description": "上级后面接特定词性(@)的词，可能是对"
+    },
+    {
+        "query": "全军 (n) 装备{len($1)>1}",
+        "description": "全军后面接一个长度大于1的名词，如装备"
+    },
+    {
+        "query": "@/[d v] 能",
+        "description": "可能是介词(@)后接'd'或'v'的词，再接'能'"
+    },
+    {
+        "query": "../v 及时 仍 难 避 ../v",
+        "description": "两个连续动词后面分别接及时、仍、难、避，且可能是连续的动词"
+    },
+    {
+        "query": "火灾 ../v",
+        "description": "火灾后面可能是连续的动词"
+    },
+    {
+        "query": "演出",
+        "description": "演出是一个单独的词"
+    },
+    {
+        "query": "可以 (v) 听{count>9}",
+        "description": "可以后面接动词，动词后面接听，且听的次数超过9次"
+    },
+    {
+        "query": "(n) (n){count>4}",
+        "description": "两个相邻的名词，且出现次数都大于4次"
+    },
+    {
+        "query": "古城 v 建立",
+        "description": "古城后面接动词，动词后面接建立"
+    },
+    {
+        "query": "业界",
+        "description": "业界是一个单独的词"
+    },
+    {
+        "query": "经典 (n) 文本{len($1)!=3}",
+        "description": "经典后面接一个不是三个字符的名词"
+    },
+    {
+        "query": "(n) 投票{len($1)>1}",
+        "description": "两个相邻的名词，且第二个名词的长度大于1"
+    },
+    {
+        "query": "(p) 市场 (l){len($2)=3}",
+        "description": "可能的介词(p)后面接市场，市场后面接一个长度为3的词"
+    },
+    {
+        "query": "不",
+        "description": "不是一个单独的词"
+    },
+    {
+        "query": "仍 是/v 难题",
+        "description": "仍是动词，后面接难题"
+    },
+    {
+        "query": "。",
+        "description": "句点是一个单独的符号"
+    },
+    {
+        "query": "(d) (v){$1!=$2}",
+        "description": "副词接('d')，然后接两个不同的动词"
+    },
+    {
+        "query": "../n 阳光 .../n",
+        "description": "两个连续的名词，第一个可能是阳光"
+    },
+    {
+        "query": "(v) (n){end($1)=[立 熊]}",
+        "description": "两个动词之间，最后一个动词可能是立或熊"
+    },
+    {
+        "query": ".. 前行",
+        "description": "两个连续的词，可能是前行"
+    },
+    {
+        "query": "焦晃 ~ 获奖",
+        "description": "焦晃后面接一个词，可能是获奖"
+    },
+    {
+        "query": "颁奖 (w){count>7}",
+        "description": "颁奖这个词出现次数超过7次"
+    },
+    {
+        "query": "接受 (v) 。{len($1)>1}",
+        "description": "接受动词后面接一个长度大于1的词，可能是句点"
+    },
+    {
+        "query": "是 (v) 。{len($1)=2}",
+        "description": "是动词，后面可能是句点，且长度为2"
+    },
+    {
+        "query": "扩大 (n) 高原{count<981}",
+        "description": "扩大后面接高原，高原出现次数少于981次"
+    },
+    {
+        "query": "道理 ~",
+        "description": "道理后面有一个词"
+    },
+    {
+        "query": "频次/d 多/a",
+        "description": "频次后接一个副词，再接一个形容词"
+    },
+    {
+        "query": "罗浩 v .",
+        "description": "罗浩后面接一个动词，动词后面是句点"
+    },
+    {
+        "query": "(r) (v){len($1)!=3; len($2)!=3}",
+        "description": "两个连续的动词，但两个动词都不长于3个字符"
+    },
+    {
+        "query": "了 (m) 办法{end($1)=[少 村 活]}",
+        "description": "了后面接一个名词，该名词不以'少'、'村'或'活'结尾"
+    },
+    {
+        "query": "没有 .. 洼地",
+        "description": "没有后面可以是任意数量的字符，然后接'洼地'"
+    },
+    {
+        "query": "就是 (v) 候鸟{count<293}",
+        "description": "就是后面接一个动词，该动词出现次数少于293次"
+    },
+    {
+        "query": "(nr) 说 (w){len($1)>2}",
+        "description": "一个人名后面接一个动词，动词由至少3个字符组成"
+    },
+    {
+        "query": "设计 ./[w v] 蔡华伟",
+        "description": "设计后接一个动词或名词，且蔡华伟作为后续词"
+    },
+    {
+        "query": "使用",
+        "description": "直接的使用"
+    },
+    {
+        "query": "经济 n",
+        "description": "经济后面接一个名词"
+    },
+    {
+        "query": "制图 ./[w v] 张芳曼",
+        "description": "制图后接一个动词或名词，张芳曼作为后续词，且可能离合"
+    },
+    {
+        "query": "如此 (y) ?{len($1)!=2}",
+        "description": "如此后面接一个语气词，但不是问号"
+    },
+    {
+        "query": "姚 (nr) ：{count<968}",
+        "description": "姚后面接冒号，姚的前面出现次数少于968次"
+    },
+    {
+        "query": "短暂 (w){count>7}",
+        "description": "短暂这个词出现次数多于7次"
+    },
+    {
+        "query": "的 (vn) 压力{len($1)!=3}",
+        "description": "的后面接一个动词，但动词不是3个字符"
+    },
+    {
+        "query": "防止 .. 。",
+        "description": "防止后面可以是任意数量的字符，然后接句点"
+    },
+    {
+        "query": "同样 (u) 道理{len($1)!=2}",
+        "description": "同样后面接一个词，但该词不是两个字符"
+    },
+    {
+        "query": "(c),{len($1)=2}",
+        "description": "逗号，且前后都是两个字符"
+    },
+    {
+        "query": "发挥 (a) 作用{end($1)!=[欢 恨]}",
+        "description": "发挥后面接一个形容词，但不以'欢'或'恨'结尾"
+    },
+    {
+        "query": "每月 (n) 观察{count<572}",
+        "description": "每月后面接一个名词，观察次数少于572次"
+    },
+    {
+        "query": "呢 ./w",
+        "description": "呢后面接一个标点符号"
+    },
+    {
+        "query": "关键 (w){count>2}",
+        "description": "关键这个词出现次数多于2次"
+    },
+    {
+        "query": "也 ~/[d v] 关键",
+        "description": "也后面接一个介词或动词，再接关键"
+    },
+    {
+        "query": "../[n v] 决定",
+        "description": "两个连续的词，可能是名词或动词，后面接决定"
+    },
+    {
+        "query": "(v) 到 (r){len($1)=2; len($2)=1}",
+        "description": "两个连续的动词，第一个是2个字符，第二个是1个字符"
+    },
+    {
+        "query": "(v) 哪儿 去 (v){len($2)!=3}",
+        "description": "两个连续的动词，第一个是'哪儿'，第二个不是3个字符"
+    },
+    {
+        "query": "兴起 @",
+        "description": "兴起后面跟一个词，统计时按词性归并"
+    },
+    {
+        "query": "新 (n) 。{begin($1)=[风 期 唱]}",
+        "description": "新后面接一个名词，该名词以'风'、'期'或'唱'开头"
+    },
+    {
+        "query": "(v) 、 定制化 (vn){len($1)!=4; len($2)=2}",
+        "description": "两个连续的词，第一个不是4个字符，第二个是2个字符"
+    },
+    {
+        "query": "股市 (n) 聚焦{end($1)!=[外 饱 劲 米]}",
+        "description": "股市后面接一个名词，该名词不以'外'、'饱'、'劲'或'米'结尾"
+    },
+    {
+        "query": "制图 (w) 蔡华伟{count>2}",
+        "description": "制图后面接蔡华伟，蔡华伟出现次数多于2次"
+    },
+    {
+        "query": "市场 ./[f v] 一",
+        "description": "市场后面接一个介词或动词，然后接一个'一'"
+    },
+    {
+        "query": "天量 (v) 从{count>4}",
+        "description": "天量后面接一个动词，该动词出现次数多于4次"
+    },
+    {
+        "query": "(n) 资金 的 (n){len($1)=2; len($2)!=3}",
+        "description": "资金后面接一个2个字符的'的'，'的'后面接一个不是3个字符的名词"
+    },
+    {
+        "query": "并 ~ 新",
+        "description": "并后面跟一个词，统计时按词性归并，且紧跟新"
+    },
+    {
+        "query": "~/[n v] 分化",
+        "description": "一个词后面接名词或动词，然后接分化"
+    },
+    {
+        "query": "哪儿 (w){count<301}",
+        "description": "哪儿这个词出现次数少于301次"
+    },
+    {
+        "query": "(v) (w){$1=$2}",
+        "description": "两个连续的词，且它们相同"
+    },
+    {
+        "query": "(v) 想{len($1)=1}",
+        "description": "一个动词，且动词只有一个字符"
+    }
+]
