@@ -41,8 +41,8 @@ def add_limit_list(token, num, bcc_limit):
         bcc_limit.append("{{begin(${})!=[{}]}}".format(num, ' '.join(get_zi_not_rand_list(token[0]))))
         bcc_limit.append("{{end(${})!=[{}]}}".format(num, ' '.join(get_zi_not_rand_list(token[-1]))))
     if len(token) > 2:
-        bcc_limit.append("{{middle(${})=[{}]}}".format(num, ' '.join(get_zi_rand_list(token[1]))))
-        bcc_limit.append("{{middle(${})!=[{}]}}".format(num, ' '.join(get_zi_not_rand_list(token[1]))))
+        bcc_limit.append("{{mid(${})=[{}]}}".format(num, ' '.join(get_zi_rand_list(token[1]))))
+        bcc_limit.append("{{mid(${})!=[{}]}}".format(num, ' '.join(get_zi_not_rand_list(token[1]))))
 
 def cut_sample(bcc_list, a, b):
     ret_list = []

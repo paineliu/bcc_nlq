@@ -1,6 +1,5 @@
 from openai import OpenAI
 from secret import get_secret_key
-from secret import get_secret_key
 import os
 import json
 
@@ -18,7 +17,7 @@ def kimi_bcc_description(secret_id, secret_key, prompt_filename, query_filename,
 
     f_query =  open(query_filename, encoding='utf_8')
     query_json = json.load(f_query)
-    step = 40
+    step = 20
     for i in range(0, len(query_json), step):
         query_str = ''
         for j in range(i, i + step):

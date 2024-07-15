@@ -48,7 +48,7 @@ def yuanbao_bcc_description(secret_id, secret_key, prompt_filename, query_filena
                 # 实例化一个请求对象,每个接口都会对应一个request对象
                 req = models.ChatCompletionsRequest()
                 params = {
-                    "Model": "hunyuan-pro",
+                    "Model": "hunyuan-standard",
                     "Messages": [
                         {
                             "Role": "user",
