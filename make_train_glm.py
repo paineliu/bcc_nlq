@@ -38,23 +38,23 @@ def make_train_dataset(desc_filename, train_pathname):
                 val_data.append(data)
             line_total += 1    
 
-    f = open(os.path.join(train_pathname, "bcc_train.jsonl"), 'w', encoding='utf-8')
+    f = open(os.path.join(train_pathname, "bcc_train.json"), 'w', encoding='utf-8')
     for each in train_data:
         item = json.dumps(each, ensure_ascii=False)
         f.write("{}\n".format(item))
     f.close()
 
-    f = open(os.path.join(train_pathname, "bcc_test.jsonl"), 'w', encoding='utf-8')
+    f = open(os.path.join(train_pathname, "bcc_test.json"), 'w', encoding='utf-8')
     for each in test_data:
         item = json.dumps(each, ensure_ascii=False)
         f.write("{}\n".format(item))
     f.close()
 
-    f = open(os.path.join(train_pathname, "bcc_dev.jsonl"), 'w', encoding='utf-8')
+    f = open(os.path.join(train_pathname, "bcc_dev.json"), 'w', encoding='utf-8')
     for each in val_data:
         item = json.dumps(each, ensure_ascii=False)
         f.write("{}\n".format(item))
     f.close()
 
 if __name__ == '__main__':
-    make_train_dataset('./data/rmrb_desc_tongyi.json', './data/dataset_glm_tongyi')
+    make_train_dataset('./data/rmrb_desc_tongyi.json', './chatglm3/dataset_glm_tongyi')

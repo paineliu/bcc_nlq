@@ -42,17 +42,17 @@ def make_train_dataset(desc_filename, train_pathname):
                 val_data.append(data)
             line_total += 1    
 
-    f = open(os.path.join(train_pathname, "bcc_train.jsonl"), 'w', encoding='utf-8')
+    f = open(os.path.join(train_pathname, "bcc_train.json"), 'w', encoding='utf-8')
     json.dump(train_data, f, ensure_ascii=False, indent=4)
     f.close()
 
-    f = open(os.path.join(train_pathname, "bcc_test.jsonl"), 'w', encoding='utf-8')
+    f = open(os.path.join(train_pathname, "bcc_test.json"), 'w', encoding='utf-8')
     json.dump(test_data, f, ensure_ascii=False, indent=4)
     f.close()
 
-    f = open(os.path.join(train_pathname, "bcc_dev.jsonl"), 'w', encoding='utf-8')
+    f = open(os.path.join(train_pathname, "bcc_dev.json"), 'w', encoding='utf-8')
     json.dump(val_data, f, ensure_ascii=False, indent=4)
     f.close()
 
 if __name__ == '__main__':
-    make_train_dataset('./data/rmrb_desc_tongyi.json', './data/dataset_qwen_tongyi')
+    make_train_dataset('./data/rmrb_desc_tongyi.json', './qwen/dataset_qwen_tongyi')
