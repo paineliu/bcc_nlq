@@ -46,7 +46,7 @@ python finetune.py \
   --model_name_or_path $MODEL \
   --data_path $DATA \
   --bf16 True \
-  --output_dir ./qwen/output_qwen \
+  --output_dir ./output \
   --num_train_epochs 5 \
   --per_device_train_batch_size 2 \
   --per_device_eval_batch_size 1 \
