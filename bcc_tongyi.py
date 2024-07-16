@@ -17,7 +17,7 @@ def tongyi_bcc_description(secret_id, secret_key, prompt_filename, query_filenam
     f_query =  open(query_filename, encoding='utf_8')
     query_json = json.load(f_query)
     step = 40
-    for i in range(250, len(query_json), step):
+    for i in range(11730, len(query_json), step):
         query_str = ''
         for j in range(i, i + step):
             if j < len(query_json):

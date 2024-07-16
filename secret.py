@@ -6,4 +6,3 @@ def get_secret_key(filename):
         return items[0], items[1]
     else:
         return "", items[0]
-    
