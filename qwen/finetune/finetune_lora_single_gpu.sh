@@ -1,10 +1,16 @@
 #!/bin/bash
 export CUDA_DEVICE_MAX_CONNECTIONS=1
 
-MODEL="/qwen/Qwen-7B" # Set the path if you do not want to load from huggingface directly
+MODEL="/home/liutingchao/.cache/modelscope/hub/Qwen/Qwen-7B-Chat" # Set the path if you do not want to load from huggingface directly
 # ATTENTION: specify the path to your training data, which should be a json file consisting of a list of conversations.
 # See the section for finetuning in README for more information.
-DATA="./qwen/dataset_qwen_tongyi/bcc_train.jsonl"
+DATA="./dataset_qwen_tongyi/bcc_train.jsonl"
+
+# NCCL_P2P_DISABLE="1"
+# NCCL_IB_DISABLE="1"
+# export CUDA_VISIBLE_DEVICES=2
+export NCCL_P2P_DISABLE="1"
+export NCCL_IB_DISABLE="1"
 
 function usage() {
     echo '
@@ -34,7 +40,7 @@ while [[ "$1" != "" ]]; do
     shift
 done
 
-export CUDA_VISIBLE_DEVICES=0
+export CUDA_VISIBLE_DEVICES=2
 
 python finetune.py \
   --model_name_or_path $MODEL \
