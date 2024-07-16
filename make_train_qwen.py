@@ -55,4 +55,4 @@ def make_train_dataset(desc_filename, train_pathname):
     f.close()
 
 if __name__ == '__main__':
-    make_train_dataset('./data/rmrb_desc_tongyi.json', './data/dataset_qwen_tongyi')
+    make_train_dataset('./data/rmrb_desc_tongyi.json', './qwen/dataset_qwen_tongyi')
