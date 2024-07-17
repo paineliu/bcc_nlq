@@ -34,22 +34,21 @@ def kimi_bcc_description(secret_id, secret_key, prompt_filename, query_filename,
             )
 
             out_str = completion.choices[0].message.content
-            out_item = out_str.split('```')
-            if len(out_item) >= 2:
-                print(i)
-                out_data = out_item[1][5:]
-                log_filename = os.path.join(log_pathname, "kimi_" + str(i) + ".txt")
-                f = open(log_filename, 'w', encoding='utf-8')
-                f.write(out_str)
-                f.close()
-                json_data = json.loads(out_data)
-                desc_data += json_data
-                f_desc = open(desc_filename, 'w', encoding='utf_8')
-                json.dump(desc_data, f_desc, ensure_ascii=False, indent=4)
+            log_filename = os.path.join(log_pathname, "kimi_" + str(i) + ".txt")
+            f = open(log_filename, 'w', encoding='utf-8')
+            f.write(out_str)
+            f.close()
+            print(i)
+            # out_item = out_str.split('```')
+            # if len(out_item) >= 2:
+            #     out_data = out_item[1][5:]
+            #     json_data = json.loads(out_data)
+            #     desc_data += json_data
+            #     f_desc = open(desc_filename, 'w', encoding='utf_8')
+            #     json.dump(desc_data, f_desc, ensure_ascii=False, indent=4)
             
-        except:
-            pass
-
+        except Exception as e:
+            print(e)
 
 
 if __name__ == '__main__':
