@@ -6,4 +6,4 @@ export NCCL_P2P_DISABLE="1"
 export NCCL_IB_DISABLE="1"
  
 # 执行 Python 脚本
-python finetune_hf.py  ./dataset_glm_tongyi  ./model/ZhipuAI/chatglm3-6b  ./configs/lora.yaml
+python finetune.py  ./dataset_glm_tongyi  /home/liutingchao/.cache/modelscope/hub/ZhipuAI/glm-4-9b-chat  ./configs/lora.yaml

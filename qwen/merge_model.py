@@ -6,7 +6,7 @@ from peft import AutoPeftModelForCausalLM
 
 from transformers import AutoTokenizer
 
-model = AutoPeftModelForCausalLM.from_pretrained( "./qwen/output_qwen/checkpoint-4000", device_map="auto", trust_remote_code=True ).eval()
+model = AutoPeftModelForCausalLM.from_pretrained( "./output", device_map="auto", trust_remote_code=True ).eval()
 
 merged_model = model.merge_and_unload()
 
