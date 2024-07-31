@@ -17,7 +17,7 @@ training_args:
   remove_unused_columns: false
   # settings for saving checkpoints
   save_strategy: steps
-  save_steps: 10000
+  save_steps: 1000
   # settings for logging
   log_level: info
   logging_strategy: steps
@@ -25,7 +25,7 @@ training_args:
   # settings for evaluation
   per_device_eval_batch_size: 16
   evaluation_strategy: steps
-  eval_steps: 10000
+  eval_steps: 1000
   # settings for optimizer
   # adam_epsilon: 1e-6
   # uncomment the following line to detect nan or inf values

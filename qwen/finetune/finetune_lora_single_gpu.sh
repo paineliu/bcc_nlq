@@ -47,7 +47,7 @@ python finetune.py \
   --data_path $DATA \
   --bf16 True \
   --output_dir ./output \
-  --num_train_epochs 10 \
+  --num_train_epochs 50 \
   --per_device_train_batch_size 2 \
   --per_device_eval_batch_size 1 \
   --gradient_accumulation_steps 8 \

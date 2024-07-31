@@ -6,6 +6,7 @@ from typing import Annotated, Union
 
 import typer
 import json
+import time
 from peft import AutoPeftModelForCausalLM, PeftModelForCausalLM
 from transformers import (
     AutoModelForCausalLM,
@@ -50,6 +51,8 @@ def main(
         output_file: Annotated[str, typer.Option(help='')],
 ):
     model, tokenizer = load_model_and_tokenizer(model_dir)
+    time_start = time.time()  # 记录开始时间
+
     f = open(test_file, 'r', encoding = 'utf_8')
     f_out = open(output_file, 'w', encoding = 'utf_8')
     line = 0
@@ -62,7 +65,7 @@ def main(
         data ={
 		    "conversations": [
                 {"role": "user",
-                "content": "{}{}".format("请将下文解析成CQL语句：\n", prompt)
+                "content": "{}".format(prompt)
                     }, 
                 {"role": "assistant", 
                     "content": "{}".format(response)
@@ -96,6 +99,9 @@ def main(
 
     print(r/len(map_input), r, len(map_input))
     
+    time_end = time.time()  # 记录结束时间
+    time_sum = time_end - time_start  # 计算的时间差为程序的执行时间，单位为秒/s
+    print(time_sum)
 
 if __name__ == '__main__':
     app()
