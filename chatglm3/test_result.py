@@ -65,9 +65,6 @@ def test_stat(test_file, output_file, error_file, fix_file, case_file):
                         }, 
                     {"role": "assistant", 
                         "content": "{}".format(map_out[prompt])
-                        },
-                    {"role": "system", 
-                        "content": "{}".format(map_input[prompt])
                         }
                     ]
                 }
@@ -81,9 +78,6 @@ def test_stat(test_file, output_file, error_file, fix_file, case_file):
                         }, 
                     {"role": "assistant", 
                         "content": "{}".format(map_out[prompt])
-                        },
-                    {"role": "system", 
-                        "content": "{}".format(map_input[prompt])
                         }
                     ]
                 }
@@ -98,6 +92,17 @@ def test_stat(test_file, output_file, error_file, fix_file, case_file):
     print(r/len(map_input), r, len(map_input))
 
 
+def test_case_fix(case_filename, fix_filename):
+    f_fix = open(fix_filename, 'w', encoding = 'utf_8')
+    f_case = open(case_filename, 'r', encoding = 'utf_8')
+    for each in f_case:
+        data = json.loads(each)
+        if len(data['conversations']) == 3:
+            del data['conversations'][-1]
+        
+        f_fix.write("{}\n".format(json.dumps(data, ensure_ascii=False)))
+
 if __name__ == '__main__':
     # test_stat('./chatglm3/dataset_glm_tongyi/bcc_test_case.json', './chatglm3/dataset_glm_tongyi/bcc_test_case_out.json', './chatglm3/dataset_glm_tongyi/bcc_test_err.json', './chatglm3/dataset_glm_tongyi/bcc_test_fix.json', './chatglm3/dataset_glm_tongyi/bcc_test_case.json')
-    test_stat_acc('./chatglm3/dataset_glm_tongyi/bcc_test_case.json','./chatglm3/dataset_glm_tongyi/bcc_test_case_out.json')
+    test_case_fix('./chatglm3/dataset_glm_tongyi/bcc_test_case.json','./chatglm3/dataset_glm_tongyi/bcc_test_case_fix.json')
+    # test_stat_acc('./chatglm3/dataset_glm_tongyi/bcc_test_case.json','./chatglm3/dataset_glm_tongyi/bcc_test_case_out.json')
