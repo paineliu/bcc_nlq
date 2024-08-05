@@ -1,0 +1,342 @@
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n两个相邻的词，一个是形容词，另一个是副词，且两者都是两个字符"}, {"role": "assistant", "content": "(a) (d){len($1)=2}; len($2)=2}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n形容词后面接长度为2的名词"}, {"role": "assistant", "content": "(a) (n){len($2)=2}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n形容词后面接长度为1的词"}, {"role": "assistant", "content": "(a) (~){len($1)=1}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n副形词后面跟一个长度大于1的词"}, {"role": "assistant", "content": "(ad) (~){len($1)>1}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n副词 + 坚持，副词长度小于3"}, {"role": "assistant", "content": "(d) 坚持{len($1)<3}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n主任后面接一个长度大于1的人名"}, {"role": "assistant", "content": "主任 (nr){len($1)>1}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n两个相邻的名词，第一个词以'第'或'香'开头"}, {"role": "assistant", "content": "(n) (n){begin($1)=[第 香]}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n两个名词相连，且第一个名词长度为2"}, {"role": "assistant", "content": "(n) (n){len($1)=2}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n两个相邻的名词，它们相同"}, {"role": "assistant", "content": "(n) (n){$1=$2}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n两个相邻的名词，且长度都大于1"}, {"role": "assistant", "content": "(n) (n){len($1)>1; len($2)>1}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n名词后面接一个长度大于1的动词"}, {"role": "assistant", "content": "(n) (v){len($2)>1}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n检索名词后面跟着一个长度小于3的动词的句子"}, {"role": "assistant", "content": "(n) (v){len($2)<3}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n名词后接动词，且动词的开始不是下或病"}, {"role": "assistant", "content": "(n) (v){begin($2)!=[下 病]}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n两个相邻的名词，第二个名词的长度大于1"}, {"role": "assistant", "content": "(n) (n){len($2)>1}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n名词后面接一个长度为2的动词"}, {"role": "assistant", "content": "(n) (v){len($2)=2}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n两个相邻的名词，第二个名词以'用'或'羊'开头"}, {"role": "assistant", "content": "(n) (n){end($2)=[用 羊]}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n名词、上、翻上、一万、倍、又后面是一个长度为2的动词"}, {"role": "assistant", "content": "(n) 上 翻 上 万 万 倍 又 (v){len($2)=2}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n中谋后面接两个长度为2的名词"}, {"role": "assistant", "content": "中谋 (n) {len($1)=2}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n名词后接创新，重点后面跟一个长度为2的副词"}, {"role": "assistant", "content": "(n) 创新 重点 (d){len($2)=2}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n名词劲跑后面接三个字的名词，再接大会"}, {"role": "assistant", "content": "劲跑 (n) 大会{len($1)=3}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n两个长度大于1的名词相连"}, {"role": "assistant", "content": "(n) (n){len($1)>1; len($2)>1}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n名词后接规范，规范后面接一个不是长度为3的动词"}, {"role": "assistant", "content": "(n) 规范 (v){len($2)!=3}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n名词加发改委的频次小于100"}, {"role": "assistant", "content": "发改委{count<100}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n两个名词相连，第一个名词长度为2，且第二个名词可能是'懒'、'叫'或'学'结尾"}, {"role": "assistant", "content": "(n) (n){len($1)=2; end($2)=[懒 叫 学]}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n大数据后面接一个不是三个字的名词"}, {"role": "assistant", "content": "大数据 (n){len($1)!=3}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n如何后面跟一个长度为2的动词"}, {"role": "assistant", "content": "如何 (v){len($1)=2}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n名词后接'投资'，然后是名词，但第一个名词长度不为3，第二个名词长度为2"}, {"role": "assistant", "content": "(n) 投资 (n){len($1)!=3; len($2)=2}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n名词后面接一个长度为1的副词"}, {"role": "assistant", "content": "(n) (d){len($2)=1}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n两个连续的名词，第一个名词长度大于1，且第二个名词长度也大于1"}, {"role": "assistant", "content": "(n) (n){len($1)>1; len($2)>1}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n两个长度为2的名词相连"}, {"role": "assistant", "content": "(n) (n){len($1)=2; len($2)=2}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n两个名词之间是‘是’，前一个名词长度大于1，后一个名词长度也大于1"}, {"role": "assistant", "content": "(n) 是 (n){len($1)>1; len($2)>1}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n名词后由‘驾驶’、‘主体’、‘成为’三个词，出现次数少于282次"}, {"role": "assistant", "content": "(n) 驾驶 主体 成为{count<282}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n盛赞后面接一个长度为1的词"}, {"role": "assistant", "content": "盛赞 ."}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n经济后面接动名词，且动名词不以面、场、认、赶结尾"}, {"role": "assistant", "content": "经济 (vn) {end($1)=[面 场 认 赶]}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n两个连续的名词，第一个是两个字，第二个不是三个字"}, {"role": "assistant", "content": "(n) (n){len($1)=2; len($2)!=3}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n名词后面出现'说'，且该句的'说'数量少于798次"}, {"role": "assistant", "content": "(n) 说{count<798}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n名词质量后面接总体，总体后面是长度为2的动词，且名词不以配、华或意结尾"}, {"role": "assistant", "content": "(n) 质量 总体 (v){end($1)=[配 华 意]; len($2)=2}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n起后接一个名词，且该名词不以树、达、于开头"}, {"role": "assistant", "content": "起 (n) {begin($1)!=[树 达 于]}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n名词集聚区后接让，然后接两个字的动词"}, {"role": "assistant", "content": "(n) 集聚区 让 (v){len($2)=2}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n风景区后面接一个名词，次数少于161次"}, {"role": "assistant", "content": "风景区 (n) {count<161}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n名词后面接一个长度大于3的感叹词"}, {"role": "assistant", "content": "(n) (w){len($2)>3}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n名词后接冒号，然后是两个字的动词"}, {"role": "assistant", "content": "(n) ： (v){len($2)=2}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n两个连续的人名，第二个名字可能是师、茶、部或咪结尾"}, {"role": "assistant", "content": "(nr) (nr){end($2)=[师 茶 部 咪]}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n两个名词，且总次数少于326次"}, {"role": "assistant", "content": "(n) (n){count<326}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n名词后面接一个非长度为2的动词"}, {"role": "assistant", "content": "(n) (v){len($2)!=2}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n名词后面接‘亦’，实例频次大于10"}, {"role": "assistant", "content": "(n) 亦{count>10}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n人名后面接'说'，且频次大于6"}, {"role": "assistant", "content": "(nr) 说{count>6}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n一个人名后面接一个动词，动词由至少3个字符组成"}, {"role": "assistant", "content": "(nr) (v){len($2)>2}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n名词后面接逗号，且实例数量少于221个"}, {"role": "assistant", "content": "(n) ，{count<221}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n两个地名相连，且第二个地名长度大于2"}, {"role": "assistant", "content": "(ns) (ns){len($2)>2}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n人民后面接长度为2的名词"}, {"role": "assistant", "content": "人民 (n){len($1)=2}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n一个机构团体名后面接一个长度为3的名词"}, {"role": "assistant", "content": "(nr) (n){len($2)=3}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n一个副词接有效，有效后接一个长度为2的动词"}, {"role": "assistant", "content": "(d) 有效 (v){len($2)=2}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n副词接路边，实例频次小于580"}, {"role": "assistant", "content": "(d) 路边{count<580}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n两个连续的词，第一个词是状态词，后面跟一个名词，但总次数少于375"}, {"role": "assistant", "content": "(s) (n){count<375}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n单个的三字"}, {"role": "assistant", "content": "三"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n方法后面接动词，频次大于5"}, {"role": "assistant", "content": "方法 (v) {count>5}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n一个长度小于3的动词"}, {"role": "assistant", "content": "(v) {len($1)<3}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n一个介词后面接检察院再接名词，且名词长度为2"}, {"role": "assistant", "content": "(p) 检察院 (n){len($1)=2}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n一个动词后面接一个两个字的名词"}, {"role": "assistant", "content": "(v) (n){len($2)=2}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n一个单字的代词后面接一个名词"}, {"role": "assistant", "content": "(r) (n){len($1)=1}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n‘总统’前面接的名词长度大于1"}, {"role": "assistant", "content": "(n) 总统{len($1)>1}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n枯水这个词前面接名词且名词长度大于1"}, {"role": "assistant", "content": "(n) 枯水{len($1)>1}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n洗手间后面接三个字的副词，再接有时和要"}, {"role": "assistant", "content": "洗手间 (d) 有时 要{len($1)=3}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n乾坤后接一个长度大于1的动词"}, {"role": "assistant", "content": "乾坤 (v){len($1)>1}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n检索动词后接名词，但两者长度不等于2"}, {"role": "assistant", "content": "(v) (n){len($1)!=2; len($2)!=2}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n动词后面接副词，且副词不是望、光、死或费开头"}, {"role": "assistant", "content": "(v) (d){begin($2)!=[望 光 死 费]}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n两个动词相连，第二个动词的开始不是吧或雷开头"}, {"role": "assistant", "content": "(v) (v){begin($2)!=[吧 雷]}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n以那开头，后面跟的名词长度大于1"}, {"role": "assistant", "content": "那 (n){len($1)>1}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n只能后面接两个字的动词"}, {"role": "assistant", "content": "只能 (v) {len($1)=2}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n记者后面跟一个非三个字的名词"}, {"role": "assistant", "content": "记者 (n) {len($1)!=3}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n一个助词后面接一个长度小于3的动词"}, {"role": "assistant", "content": "(u) (vn){len($1)<3}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n劳动力后面是副词，且副词不是两个字"}, {"role": "assistant", "content": "劳动力 (d){len($1)!=2}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n动词后面接一个名词，且该词以传、嫌、雪开头"}, {"role": "assistant", "content": "(v) (n){begin($2)=[传 嫌 雪]}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n动词后接一个名词，名词开始位置不在姑，任，辉中"}, {"role": "assistant", "content": "(v) (n){begin($2)!=[姑 任 辉]}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n两个动词，最后一个动词可能是立或熊结尾"}, {"role": "assistant", "content": "(v) (v){end($1)=[立 熊]}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n两个相邻的动词，第二个动词不是三个字"}, {"role": "assistant", "content": "(v) (v){len($2)!=3}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n两个动词，且至少出现过五次"}, {"role": "assistant", "content": "(v) (v){count>4}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n一个动词后接动名词，动名词结尾是烦、四或欠"}, {"role": "assistant", "content": "(v) (vn){end($1)=[烦 四 欠]}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n两个相邻的动词，但不相同"}, {"role": "assistant", "content": "(v) (v){$1!=$2}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n包含一个动词和一个词，两者组合出现次数多于8次"}, {"role": "assistant", "content": "(v) (n){count>8}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n一个动词后面接青岛和往事"}, {"role": "assistant", "content": "v 青岛 往事"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n动词后面接具体"}, {"role": "assistant", "content": "(v) 具体"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n包含'出击'后面接长度不等于3的动词"}, {"role": "assistant", "content": "出击 (v){len($1)!=3}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n制定后接一个不是三个字的动词"}, {"role": "assistant", "content": "制定 (v){len($1)!=3}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n包含一个动词和'土地'这两个词，且动词在前，'土地'在后的句子"}, {"role": "assistant", "content": "v 土地"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n一个动词后面接大气污染"}, {"role": "assistant", "content": "(v) 大气污染"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n动词后接市场"}, {"role": "assistant", "content": "(v) 市场"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n一个动词，且动词只有一个字符"}, {"role": "assistant", "content": "(v){len($1)=1}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n'才'后面跟着动词，动词至少两个字"}, {"role": "assistant", "content": "才 (v){len($1)>1}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n动词后面接拥有，动词不以书、富、音、内结尾"}, {"role": "assistant", "content": "(v) 拥有{end($1)!=[书 富 音 内]}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n动词撞后面跟人民"}, {"role": "assistant", "content": "(v) 人民"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n动词后接名词，且动词长度为1"}, {"role": "assistant", "content": "(v) (n){len($1)=1}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n动词后面跟长度大于1的名词"}, {"role": "assistant", "content": "(v) (b){len($1)>1}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n'真相'后面跟一个三个字的动词"}, {"role": "assistant", "content": "真相 (v) {len($1)!=3}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n动词接臭名远扬再接动词，两个动词不同"}, {"role": "assistant", "content": "(v) 臭名远扬 (v){$1!=$2}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n查找'讲'后面跟一个长度为2的名词"}, {"role": "assistant", "content": "讲 (n){len($1)=2}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n贴心这个词前面是动词，且该动词不是三个字"}, {"role": "assistant", "content": "(v) 贴心{len($1)!=3}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n过分后面接的动词长度大于1"}, {"role": "assistant", "content": "过分 (v){len($1)>1}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n首后面接一个动词和一个长度为2的名词"}, {"role": "assistant", "content": "首 (v) (n){len($2)=2}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n利润后面接一个动词，且动词字数大于1"}, {"role": "assistant", "content": "利润 (v) {len($1)>1}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n两个连续的动词，且第一个动词长度小于3"}, {"role": "assistant", "content": "(v) (v){len($1)<3}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n一个词后接设计"}, {"role": "assistant", "content": "~ 设计"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n任意字符后接铝"}, {"role": "assistant", "content": ". 铝"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n一个量词后面接‘年’"}, {"role": "assistant", "content": "./m 年"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n单音节名词后面接了字"}, {"role": "assistant", "content": "./n 了"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n二维码后接一个词，用于统计时按照词性归并"}, {"role": "assistant", "content": "二维码 @"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n吉祥"}, {"role": "assistant", "content": "吉祥"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n扶贫"}, {"role": "assistant", "content": "扶贫"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n世界后面是一个词"}, {"role": "assistant", "content": "世界 ~"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n敢后接单音节动词或副词，再接正"}, {"role": "assistant", "content": "敢 ./[d v] 正"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n人民后面接一个长度为2的名词"}, {"role": "assistant", "content": "人民 (n){len($1)=2}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n逗号后面接一个两字动词，动词后面接企业"}, {"role": "assistant", "content": "， ../v 企业"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n逗号后面接任意词，然后是不"}, {"role": "assistant", "content": "， ~ 不"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n枚"}, {"role": "assistant", "content": "枚"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n倒、也、是、一份、名词"}, {"role": "assistant", "content": "倒 也 是 一份 n"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n冒号后面接任意词"}, {"role": "assistant", "content": "： ~"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n中介后面接名词或动词"}, {"role": "assistant", "content": "中介 ~/[n v]"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n祥士后面可能是名词或代词"}, {"role": "assistant", "content": "祥士 ~/[n v]"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n一个动词后面接一个名词"}, {"role": "assistant", "content": "v n"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n仅包含'是'这个词，无词性要求"}, {"role": "assistant", "content": "是"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n行为这个词"}, {"role": "assistant", "content": "行为"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n一个词后面接分开"}, {"role": "assistant", "content": "~ 分开"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n两个相邻的动词，且它们的组合出现次数少于578次"}, {"role": "assistant", "content": "(v) (v){count<578}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n一个介词或动词后面接洋"}, {"role": "assistant", "content": "./[p v] 洋"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n名词后面接新规定"}, {"role": "assistant", "content": "n 新 规定"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n单个词升级"}, {"role": "assistant", "content": "升级"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n元后面接一个字符"}, {"role": "assistant", "content": "元 ."}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n直接包含王璇"}, {"role": "assistant", "content": "王璇"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n一个量词，频次大于4"}, {"role": "assistant", "content": "(m) ({count>4}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n以单字动词开头，后面接'媒体'"}, {"role": "assistant", "content": "./v 媒体"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n动词后面接无情人，再接一个动词"}, {"role": "assistant", "content": "v 无情人 v"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n一个单字动词后面接互联网"}, {"role": "assistant", "content": "(v) 互联网{len($1)=1}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n动词或名词后跟以下"}, {"role": "assistant", "content": "../[n v] 以下"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n双音节动词后接'是'"}, {"role": "assistant", "content": "../v 是"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n双音节动词后面接权力"}, {"role": "assistant", "content": "../[v] 权力"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n双音节动词后面跟冒号"}, {"role": "assistant", "content": "../v ："}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n特殊、特别、难三个词相连，后面接动词"}, {"role": "assistant", "content": "特殊 特别 难 v"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n动词后面接名词"}, {"role": "assistant", "content": "v n"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n一后面接一个量词，后面是阳光"}, {"role": "assistant", "content": "一 q 阳光"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n专业后面接一个词"}, {"role": "assistant", "content": "专业 ~"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n赠书后面接一个词，可能是任何词性"}, {"role": "assistant", "content": "赠书 ~"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n多元前面可能是形容词或动词"}, {"role": "assistant", "content": "~/[m v] 多元"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n包含一个双音节动词，后面接'警长乐'"}, {"role": "assistant", "content": "../[v] 警长乐"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n树理前面是人名或动词"}, {"role": "assistant", "content": "~/[nr v] 树理"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n人名 + 摄 + 名词"}, {"role": "assistant", "content": "(nr) 摄 (n)"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n双音节动词或动名词后接生态"}, {"role": "assistant", "content": "../[vn v] 生态"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n匹配一个词性为名词或动词的词后接自古"}, {"role": "assistant", "content": "@/[n v] 自古"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n马场前面可能接一个任意词性"}, {"role": "assistant", "content": "@ 马场"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n大地后接一个不以并、越、雨、林结尾的名词"}, {"role": "assistant", "content": "大地 (n){end($1)!=[并 越 雨 林]}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n单音节动词后面跟经费，经费后面接双音节名词"}, {"role": "assistant", "content": "(v) 经费 (n){len($1)=1; len($2)=2}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n一个词后面接领"}, {"role": "assistant", "content": "~ 领"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n一个词后面接'创新'"}, {"role": "assistant", "content": "~ 创新"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n不后面接一个词，可能是动词或名词，句尾是句点"}, {"role": "assistant", "content": "不 @/[n v] 。"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n中国后面接名词或动词，然后是科学院"}, {"role": "assistant", "content": "中国 ~/[n v] 科学院"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n一后面接一个名词，但名词长度不等于2"}, {"role": "assistant", "content": "一 (n) {len($1)!=2}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n大为后面接一个长度大于1的动词"}, {"role": "assistant", "content": "大为 (v) {len($1)>1}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n中国后面接一个词"}, {"role": "assistant", "content": "中国 ~"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n不得不后面接一个动词，句尾是句号"}, {"role": "assistant", "content": "不得不 v 。"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n中华人民共和国后面，要求接一个名词或动词，然后接'令'"}, {"role": "assistant", "content": "中华人民共和国 ~/[n v] 令"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n为字后面间隔一个或多个字，再接一个'为'"}, {"role": "assistant", "content": "为 * 为"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n一旦后接火灾"}, {"role": "assistant", "content": "一旦 火灾"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n人工后面接一个两个字的动词"}, {"role": "assistant", "content": "人工 (v) {len($1)=2}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n查找'中国'后面接一个名词，且该句子的频次少于948"}, {"role": "assistant", "content": "中国 (n) ，{count<948}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n一番后面接一个形容词或动词，再接付"}, {"role": "assistant", "content": "一番 ./[a v] 付"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n部分后面接名词，然后是乡村"}, {"role": "assistant", "content": "部分/n 乡村"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n'一'后接'首'，'首'后接'小诗'"}, {"role": "assistant", "content": "一 首 小诗"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n中央后面接一个以'法'或'啥'中间的词"}, {"role": "assistant", "content": "中央 (n) {middle($1)=[法 啥]}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n为后面接名词或动词，然后是社会"}, {"role": "assistant", "content": "为 @/[n v] 社会"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n为什么后面可能是介词或动词，再接不"}, {"role": "assistant", "content": "为什么 ~/[p v] 不"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n动词后接'寂寞'，然后是'，'，再接'也'或'都'，最后接一个长度为1的名词"}, {"role": "assistant", "content": "(v) 寂寞 ， 也 都 (n){len($1)=1}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n依然后面接一个形容词或动词，再接'的'"}, {"role": "assistant", "content": "依言 ~/[a v] 的"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n主席后面接任意一个词"}, {"role": "assistant", "content": "主席 ~"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n为何 + 副词 缺货"}, {"role": "assistant", "content": "为何 d 缺货"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n赵佗后面接一个词"}, {"role": "assistant", "content": "赵佗 ~"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n仅包含'也'这个字，统计时按照词性归并"}, {"role": "assistant", "content": "也 @"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n两后面接一个量词，然后是'面孔'"}, {"role": "assistant", "content": "两 q 面孔"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n可能是'了'作为句尾"}, {"role": "assistant", "content": "了 ./w"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n伊莲娜后面接一个词，可能是名词或动词"}, {"role": "assistant", "content": "伊莲娜 ~/[n v]"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n可能是一个介词或动词后面接来"}, {"role": "assistant", "content": "@/[m v] 来"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n一后面接单音节动词，动词以'导'、'啦'、'黑'或'日'结尾"}, {"role": "assistant", "content": "一 (v) {end($1)=[导 啦 黑 日]}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n书记后面跟一个人名，但不以李或海开头，句尾可能是句号"}, {"role": "assistant", "content": "书记 (nr) 。{begin($1)!=[李 海]}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n了后面隔一个字后接一个问号"}, {"role": "assistant", "content": "了 . ？"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n可能是'了'，后面可能是句尾的标点符号"}, {"role": "assistant", "content": "了 ./w"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n于后面跟一个词，可能是形容词或动词，后面是'说'"}, {"role": "assistant", "content": "于 @/[r v] 说"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n企业 + 介词 + 文件，文件实例多于4次"}, {"role": "assistant", "content": "企业 (i) 文件{count>4}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n传统后面接一个名词或动词，然后是利润"}, {"role": "assistant", "content": "传统 ~/[n v] 利润"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n体育后面接动名词，然后是‘与’"}, {"role": "assistant", "content": "体育 vn 与"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n候鸟后面接一个形容词或动词，然后是家园"}, {"role": "assistant", "content": "候鸟 ~/[a v] 家园"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n债务后面接一个虚词，然后是偿还"}, {"role": "assistant", "content": "债务 u 偿还"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n先后面接一个词，但不统计词性"}, {"role": "assistant", "content": "先 @"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n入股后面接单音节动词，动词后面是尊重"}, {"role": "assistant", "content": "入股 ./v 尊重"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n全党后面接一个词和向"}, {"role": "assistant", "content": "全党 @ 向"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n全国后面接'常委会'，且'常委会'的实例多于6次"}, {"role": "assistant", "content": "全国 (n) 常委会{count>6}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n数字‘六’后面接一个词，再接目标"}, {"role": "assistant", "content": "六 ~ 目标"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n关注后面接一个词，两会"}, {"role": "assistant", "content": "关注 @ 两会"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n其实后面接一个副词或动词，然后是有所"}, {"role": "assistant", "content": "其实 ~/[d v] 有所"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n内需后跟一个词，然后是加大"}, {"role": "assistant", "content": "内需 @ 加大"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n农业后面接一个词，可能是动词或形容词"}, {"role": "assistant", "content": "农业 @/[v a]"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n减贫后面接的是一个长度为2的名词"}, {"role": "assistant", "content": "减贫 (n) {len($1)=2}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n‘凡益’后面接一个词，可能是虚词或动词"}, {"role": "assistant", "content": "凡益 @/[w v]"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n创新后面接一个词，统计时按照词性归并"}, {"role": "assistant", "content": "创新 @"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n前提后面接一个词，可能是标点符号"}, {"role": "assistant", "content": "前提 ./w"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n到后面接形容词或动词，然后接句点"}, {"role": "assistant", "content": "到 @/[a v] 。"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n办法可能是句尾"}, {"role": "assistant", "content": "办法 w"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n医疗后接任意词性的词"}, {"role": "assistant", "content": "医疗 ~"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n十六后面接任意一个词"}, {"role": "assistant", "content": "十六 ~"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n升级后面接一个词，可能是语气词或动词，后面可能是问号"}, {"role": "assistant", "content": "升级 ~/[y v] ?"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n参与后接任意词再接合作"}, {"role": "assistant", "content": "参与 ~ 合作"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n又后面接一个词，可能是副词或代词，再接在"}, {"role": "assistant", "content": "又 ~/[d v] 在"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n只后接一个字，后面可能是肉眼"}, {"role": "assistant", "content": "只 . 肉眼"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n召开后面接一个名词或动词，再接常务"}, {"role": "assistant", "content": "召开 @/[n v] 常务"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n可达 + 动词 + 千年"}, {"role": "assistant", "content": "可达 v 千年"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n合作后面接一个双音节动词和海气"}, {"role": "assistant", "content": "合作 ../v 海气"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n合理后面接一个词"}, {"role": "assistant", "content": "合理 ~"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n呈现后跟动词，然后是价值观"}, {"role": "assistant", "content": "呈现 v 价值观"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n员工后面可能是形容词或动词，然后是技能"}, {"role": "assistant", "content": "员工 ./[a v] 技能"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n呢后面接一个词"}, {"role": "assistant", "content": "呢 ~"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n和平后接一个字，然后是发展"}, {"role": "assistant", "content": "和平 . 发展"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n哪里后面接一个词，可能是动词或名词"}, {"role": "assistant", "content": "哪里 @/[v n]"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n商业后接名词或动词，然后是为啥"}, {"role": "assistant", "content": "商业 ~/[n v] 为啥"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n四难后面可能接一个字，然后是对话"}, {"role": "assistant", "content": "四难 . 对话"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n团队后面接一个词，但不统计词性"}, {"role": "assistant", "content": "团队 @"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n在后面接一个名词，然后是上车"}, {"role": "assistant", "content": "在 n 上车"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n介词'在'后面接名词或动词，再接'越冬'"}, {"role": "assistant", "content": "在 ~/[n v] 越冬"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n在后面接一个词，后面可能是逗号"}, {"role": "assistant", "content": "在 @ ，"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n地方后面接一个名词，然后是车改"}, {"role": "assistant", "content": "地方 n 车改"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n‘坚持’后面接一个动词，然后是‘驱动’"}, {"role": "assistant", "content": "坚持 ./v 驱动"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n多后接一个长度为1的量词，后面是出租车"}, {"role": "assistant", "content": "多 (m) 出租车{len($1)=1}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n大后面接一个词"}, {"role": "assistant", "content": "大 ~"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n奔跑后面接一个动词兔子，兔子后面可能是动词隐现"}, {"role": "assistant", "content": "奔跑 兔子/v 隐现"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n奥运会后面接一个名词，然后是销售"}, {"role": "assistant", "content": "奥运会 n 销售"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n孙思邈后面接名词或动词，再接见解"}, {"role": "assistant", "content": "孙思邈 @/[n v] 见解"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n学校后面可能是动词或形容词"}, {"role": "assistant", "content": "学校 ~/[v a]"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n审判长后面接一个词，然后是选出"}, {"role": "assistant", "content": "审判长 @ 选出"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n宽后面接一个词，可能是任意词性"}, {"role": "assistant", "content": "宽 ~"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n富后面接一个两个字的动词，然后是基础"}, {"role": "assistant", "content": "富 (v) 基础{len($1)=2}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n市场后面接机制，机制是名词"}, {"role": "assistant", "content": "市场 机制/n"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n带来后接一个词，后面是句尾符号"}, {"role": "assistant", "content": "带来 @ 。"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n常委后面接任意一个词"}, {"role": "assistant", "content": "常委 ~"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n年后面可能是名词，且这个名词的开始字符是蓝、纯、梅或期"}, {"role": "assistant", "content": "年 (n){begin($1)=[蓝 纯 梅 期]}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n幼女后面接一个词，可能是形容词或动词，后面是怎样"}, {"role": "assistant", "content": "幼女 @/[a v] 怎样"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n建立后面跟一个名词或动词，然后是流转"}, {"role": "assistant", "content": "建立 ~/[n v] 流转"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n开始后面接单字，单字后接不少"}, {"role": "assistant", "content": "开始 . 不少"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n张万年后面接一个词，可能是名词或动词，然后是'逝世'"}, {"role": "assistant", "content": "张万年 ~/[n v] 逝世"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n形容词'绚丽夺目'修饰彩虹"}, {"role": "assistant", "content": "绚丽夺目/a 彩虹"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n疑问词'怎么'后面接任意字符，可能是一个词"}, {"role": "assistant", "content": "怎么 ~"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n成后面接一个词，可能是名词或动词，后面跟一个逗号"}, {"role": "assistant", "content": "成 @/[n v] ，"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n成都市后接一个人名或动词"}, {"role": "assistant", "content": "成都市 ~/[nr v]"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n户口后面接一个名词，然后是逗号"}, {"role": "assistant", "content": "户口 n ，"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n把后接一个词，统计时按词性归并，后面是变成"}, {"role": "assistant", "content": "把 @ 变成"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n推崇后面可能是接一个名词或动词，动词后面接的"}, {"role": "assistant", "content": "推崇 ~/[n v] 的"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n推进后面接介词或动词，后面可能是项目"}, {"role": "assistant", "content": "推进 @/[p v] 项目"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n提升后跟一个名词或动词，后面是宏观"}, {"role": "assistant", "content": "提升 ~/[n v] 宏观"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n搜寻后接一个词，可能是名词或动词，后面跟且"}, {"role": "assistant", "content": "搜寻 @/[n v] 且"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n改革后面接一个长度大于1的动词"}, {"role": "assistant", "content": "改革 (v){len($1)>1}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n放后接一个字，然后接句尾符号"}, {"role": "assistant", "content": "放 . 。"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n新年后面接一个词"}, {"role": "assistant", "content": "新年 ~"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n '无权' 后面接一个长度大于1的动词"}, {"role": "assistant", "content": "无权 (v){len($1)>1}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n易后接一个词，再接逗号"}, {"role": "assistant", "content": "易 ~ ，"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n是后面可能是介词(p)或动词(v)和路者"}, {"role": "assistant", "content": "是 ./[p v] 路者"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n是后面接单音节动词，再接根本"}, {"role": "assistant", "content": "是 ./v 根本"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n曲折后面接一个词"}, {"role": "assistant", "content": "曲折 ~"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n有后面接一个词，可能是名词或动词"}, {"role": "assistant", "content": "有 ~/[n v]"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n李后接一个词，可能是名词或动词"}, {"role": "assistant", "content": "李 ~/[n v]"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n来后面跟一个长度大于1的名词"}, {"role": "assistant", "content": "来 (n){len($1)>1}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n包含'杨秀宇'，后面可能是副词或动词，再接'删帖案'"}, {"role": "assistant", "content": "杨秀宇 ./[d v] 删帖案"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n梦染黎乡后面跟一个词，可能是标点，终生这个词语出现次数大于3"}, {"role": "assistant", "content": "梦染黎乡 (w) 终生{count>3}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n民众后接名词或动词，然后是句尾"}, {"role": "assistant", "content": "民众 ~/[n v] 。"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n治后面接名词，然后从严"}, {"role": "assistant", "content": "治 n 从严"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n海口后接一个不是丑、班、呃或只开头的动词"}, {"role": "assistant", "content": "海口 (v){begin($1)!=[丑 班 呃 只]}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n深入后面隔一个词后接三下乡"}, {"role": "assistant", "content": "深入 ~ 三下乡"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n焦虑后面接一个词"}, {"role": "assistant", "content": "焦虑 ~"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n爱后接一个词性为动词或形容词，再接是"}, {"role": "assistant", "content": "爱 @/[a v] 是"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n片后接一个字，再接的"}, {"role": "assistant", "content": "片 . 接"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n用后面接一个词，词性不限，后面是的"}, {"role": "assistant", "content": "用 @ 的"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n申奥后接一个词"}, {"role": "assistant", "content": "申奥 ~"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n百病后面是名词或动词"}, {"role": "assistant", "content": "百病 @/[n v]"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n的后面接长度不为3的名词"}, {"role": "assistant", "content": "的 (n){len($1)!=3}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n的后面接一个名词，名词的末尾不为纸、奥、向"}, {"role": "assistant", "content": "的 (n) {end($1)=[纸 奥 向]}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n的后面接头、王、型或落开头的名词"}, {"role": "assistant", "content": "的 (n){begin($1)=[头 王 型 落]}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n包含'的'后面跟着一个动词，且该动词后面出现的'了'次数少于279次"}, {"role": "assistant", "content": "的 (v) 了{count<279}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n的 + 动名词，动名词开头可能是研或由"}, {"role": "assistant", "content": "的 (vn) {begin($1)=[研 由]}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n的后面隔一个字后接‘是’"}, {"role": "assistant", "content": "的 . 是"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n‘的’后面接一个名词或动词，后面接‘号码’"}, {"role": "assistant", "content": "的 ~/[n v] 号码"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n的字后面接名词"}, {"role": "assistant", "content": "的 n"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n包含'的'，后面可能是人名或动词"}, {"role": "assistant", "content": "的 ~/[nr v]"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n的后面可能是形容词或动词，后面接说来"}, {"role": "assistant", "content": "的 ~/[a v] 来说"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n监督后面接一个词"}, {"role": "assistant", "content": "监督 ~"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n‘目前’后面可能是形容词或动词，后面接‘案’"}, {"role": "assistant", "content": "目前 ~/[a v] 案"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n真的 + 副词，放"}, {"role": "assistant", "content": "真的 ./d 放"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n石头后面跟一个助词或动词，后面是翅膀"}, {"role": "assistant", "content": "石头 ./[u v] 翅膀"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n动词'砸'后面接一个词，词尾可能是句尾的标点"}, {"role": "assistant", "content": "砸 w"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n秘书长后面接人名"}, {"role": "assistant", "content": "秘书长 nr"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n积累后面可能是名词或动词"}, {"role": "assistant", "content": "积累 @/[n v]"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n笑后面接一个词"}, {"role": "assistant", "content": "笑 @"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n第四后接一个词，可能是数量词或动词，然后是航道"}, {"role": "assistant", "content": "第四 @/[m v] 航道"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n管涛后面是单音节动词"}, {"role": "assistant", "content": "管涛 ./v"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n红后面接一个词性标记的词，然后是'是'"}, {"role": "assistant", "content": "红 @ 是"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n组织后面接一个单音节的词作为连词，再接雏形"}, {"role": "assistant", "content": "组织 ./d 雏形"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n缺乏后面接动词，动词后面接实质"}, {"role": "assistant", "content": "缺乏 v 实质"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n包含'联合国'，后面是名词或动词"}, {"role": "assistant", "content": "联合国 @/[n v]"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n胜后面接一个名词"}, {"role": "assistant", "content": "胜 n"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n舆论后面接名词，句尾是句点"}, {"role": "assistant", "content": "舆论 n 。"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n行政后面可能是名词或动词"}, {"role": "assistant", "content": "行政 @/[n v]"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n要后面接一个词"}, {"role": "assistant", "content": "要 ~"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n评论后接一个词"}, {"role": "assistant", "content": "评论 ~"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n西华县后面接地名，且'遥'或'戴'出现在中间位置"}, {"role": "assistant", "content": "西华县 (ns) {middle($1)=[遥 戴]}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n规划后面接一个介词或动词，然后是制定"}, {"role": "assistant", "content": "规划 @/[m v] 制定"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n那后面接人名或动词"}, {"role": "assistant", "content": "那 @/[nr v]"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n包含'说'这个词，无词性要求"}, {"role": "assistant", "content": "说"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n检索绍兴后接一个单音节动词，该动词后接信贷"}, {"role": "assistant", "content": "绍兴 ./v 信贷"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n经济后跟一个名词，然后是提升"}, {"role": "assistant", "content": "经济 n 提升"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n而后面是人名，且人名不是两个字"}, {"role": "assistant", "content": "而 (nr) {len($1)!=2}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n说后面可能是动词或名词"}, {"role": "assistant", "content": "说 ~/[n v]"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n说后接一个字符"}, {"role": "assistant", "content": "说 ./w"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n说后面接一个动词，然后是一个句号"}, {"role": "assistant", "content": "说 v 。"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n贡献率"}, {"role": "assistant", "content": "贡献率"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n资金后面隔一个字"}, {"role": "assistant", "content": "资金 ."}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n辩后面接'或'后接'd'或'v'，再接清"}, {"role": "assistant", "content": "辩 ~/[d v] 清"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n达成后面跟一个词，可能是名词或动词，然后是'协议'"}, {"role": "assistant", "content": "达成 @/[n v] 协议"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n迈后面接一个二字动词"}, {"role": "assistant", "content": "迈 ../v"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n都后面接一个副词，再接'知道'"}, {"role": "assistant", "content": "都 d 知道"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n重化后面接一个词"}, {"role": "assistant", "content": "重化 ~"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n闫后面接一个名词，感慨出现次数大于9次"}, {"role": "assistant", "content": "闫 (n) 感慨{count>9}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n问计后面可能是名词或动词"}, {"role": "assistant", "content": "问计 @/[n v]"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n逻辑后面可能接一个词"}, {"role": "assistant", "content": "逻辑 ~"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n需要一个长度为2的动词后接句号"}, {"role": "assistant", "content": "需要 (v) 。{len($1)=2}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n面后面接一个动词并以冒号结尾"}, {"role": "assistant", "content": "面 v ："}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n阔步后接一个动词"}, {"role": "assistant", "content": "阔步 v"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n阻碍后面接一个词"}, {"role": "assistant", "content": "阻碍 ~"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n这笔后面接一个动词，动词的结束部分不包含操或台"}, {"role": "assistant", "content": "这笔 (v) {end($1)!=[操 台]}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n进后接一个不以先或角结尾的名词"}, {"role": "assistant", "content": "进 (n){end($1)!=[先 角]}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n远后面接一个名词，且名词长度不是2"}, {"role": "assistant", "content": "远 (n) {len($1)!=2}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n逗号后接真切"}, {"role": "assistant", "content": "， 切真"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n冒号后面接人名或动词"}, {"role": "assistant", "content": "： @/[nr v]"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n名词'鸟儿'后面可能是名词或动词，可能是'的'"}, {"role": "assistant", "content": "鸟儿 ~/[n v] 的"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n麻永飞后面接一个动词，然后是句尾符号"}, {"role": "assistant", "content": "麻永飞 v 。"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n逗号后面接一个形容词，形容词后面是保护，且保护出现次数超过9次"}, {"role": "assistant", "content": "， (a) 保护{count>9}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n逗号后面接一个名词或动词，然后是解决"}, {"role": "assistant", "content": "， ~/[n v] 解决"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n冒号后面接一个词，可能是名词或动词"}, {"role": "assistant", "content": "： @/[n v]"}]}
+
