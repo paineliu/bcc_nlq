@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "据云v",
+        "description": "据云是动词，表示引用或提及某事"
+    },
+    {
+        "query": "b观点",
+        "description": "b是区别词，观点是名词，整体表示某一特定的观点"
+    },
+    {
+        "query": "v上有",
+        "description": "动词后接有，表示在某物上有"
+    },
+    {
+        "query": "V了N。",
+        "description": "动词后接了，表示动作完成，后接名词，句尾有句点"
+    },
+    {
+        "query": "v一句v一句",
+        "description": "动词后接一句，再接动词，表示重复的动作"
+    },
+    {
+        "query": "a得过",
+        "description": "形容词后接得过，表示得到或经历过的意思"
+    },
+    {
+        "query": "我v我的",
+        "description": "我作为主语，后接形容词我的，表示所属关系"
+    },
+    {
+        "query": "一周n",
+        "description": "一周是名词，表示时间单位"
+    },
+    {
+        "query": "，+n是n+？",
+        "description": "逗号后接名词，再接是，最后接问号，表示疑问句"
+    },
+    {
+        "query": "， n是n ？",
+        "description": "句首为逗号，后接名词，再接是，最后接问号，表示疑问句"
+    },
+    {
+        "query": "a卑鄙",
+        "description": "形容词卑鄙表示品质或行为的贬义"
+    },
+    {
+        "query": "m料",
+        "description": "m是量词，料是名词，表示数量单位的名词"
+    },
+    {
+        "query": "n连n也",
+        "description": "名词后接连，再接名词，然后也，表示连续的名词和附加的肯定"
+    },
+    {
+        "query": "在N上绕",
+        "description": "在后接名词，上绕表示在某个物体周围"
+    },
+    {
+        "query": "v终生",
+        "description": "动词后接终生，表示持续到一生的意思"
+    },
+    {
+        "query": "过a",
+        "description": "过是动词，a是形容词，表示经过的状态或动作"
+    },
+    {
+        "query": "一对n",
+        "description": "一对是名词，表示成双成对的事物"
+    },
+    {
+        "query": "nr也不看看",
+        "description": "nr是人名，也不看看表示对某人的否定评价"
+    },
+    {
+        "query": "v往",
+        "description": "动词后接往，表示方向或目标"
+    },
+    {
+        "query": "静静儿的V",
+        "description": "静静儿是形容词，后接的V是动词，表示静悄悄的动作"
+    },
+    {
+        "query": "v起去",
+        "description": "动词后接起，再接去，表示起身或行动"
+    },
+    {
+        "query": "耕种+n",
+        "description": "耕种是动词，后接名词，表示农事活动"
+    },
+    {
+        "query": "耕种 n",
+        "description": "耕种是动词，n是名词，表示耕种的活动或状态"
+    },
+    {
+        "query": "那个nr",
+        "description": "nr是人名，表示特定的人"
+    },
+    {
+        "query": "从+那里V",
+        "description": "从是介词，那里是副词，V是动词，表示来源或方向"
+    },
+    {
+        "query": "从 那里V",
+        "description": "从是介词，那里是副词，V是动词，表示来源或方向"
+    },
+    {
+        "query": "挺好的y",
+        "description": "y是语气词，表示评价或感叹"
+    },
+    {
+        "query": "v+n",
+        "description": "动词后接名词，表示动作对应的对象"
+    },
+    {
+        "query": "v n",
+        "description": "动词后接名词，表示动作对应的对象"
+    },
+    {
+        "query": "推v",
+        "description": "动词后接推，表示推的动作"
+    },
+    {
+        "query": "去vp",
+        "description": "去是动词，vp是拟声词，表示动作伴随的声音"
+    },
+    {
+        "query": "a就a在",
+        "description": "a是形容词，就a在表示强调的结构"
+    },
+    {
+        "query": "跟n差不多",
+        "description": "跟是介词，n是名词，表示比较的结构"
+    },
+    {
+        "query": "进N",
+        "description": "进是动词，N是名词，表示进入或前进"
+    },
+    {
+        "query": "vn器",
+        "description": "vn是动词，器是名词，表示操作的对象"
+    },
+    {
+        "query": "省得v。",
+        "description": "省得是动词，v是动词，表示避免或防止的结果"
+    },
+    {
+        "query": "一只n",
+        "description": "一只是量词，n是名词，表示数量单位的名词"
+    },
+    {
+        "query": "只+Ng",
+        "description": "只后接量词Ng，表示数量单位"
+    },
+    {
+        "query": "只 Ng",
+        "description": "只后接Ng，表示数量单位"
+    },
+    {
+        "query": "莫大n",
+        "description": "莫是拟声词，大是形容词，n是名词，表示非常大的事物"
+    }
+]
+```

@@ -1,0 +1,166 @@
+以下是将给定的检索式转换为带含义的json结构：
+
+```json
+[
+    {
+        "query": "a一心",
+        "description": "形容词后接一心"
+    },
+    {
+        "query": "N全V",
+        "description": "名词后接全动词"
+    },
+    {
+        "query": "V呢什么？",
+        "description": "动词后接呢和疑问词"
+    },
+    {
+        "query": "a一手",
+        "description": "形容词后接一手"
+    },
+    {
+        "query": "圣诞树v",
+        "description": "名词后接圣诞树动词"
+    },
+    {
+        "query": "r+n",
+        "description": "结果后接名词"
+    },
+    {
+        "query": "r n",
+        "description": "结果后接结果"
+    },
+    {
+        "query": "起q",
+        "description": "动词后接起和语气词"
+    },
+    {
+        "query": "这n+r",
+        "description": "名词后接这和结果"
+    },
+    {
+        "query": "这n r",
+        "description": "名词后接这和名词"
+    },
+    {
+        "query": "V+了下去+",
+        "description": "动词后接了、下去和动词"
+    },
+    {
+        "query": "V 了下去",
+        "description": "动词后接了、下去"
+    },
+    {
+        "query": "有a有a",
+        "description": "存在形容词重复"
+    },
+    {
+        "query": "惊心a",
+        "description": "形容词后接惊心"
+    },
+    {
+        "query": "nr记忆",
+        "description": "名词后接记忆"
+    },
+    {
+        "query": "妄想v",
+        "description": "动词后接妄想"
+    },
+    {
+        "query": "n的灾难",
+        "description": "名词后接的和名词"
+    },
+    {
+        "query": "脾气a",
+        "description": "形容词后接脾气"
+    },
+    {
+        "query": "v到n中去",
+        "description": "动词后接到、名词和去"
+    },
+    {
+        "query": "有n没有n",
+        "description": "名词后接有、没有和名词"
+    },
+    {
+        "query": "蹭V",
+        "description": "动词后接蹭"
+    },
+    {
+        "query": "客房v",
+        "description": "名词后接客房动词"
+    },
+    {
+        "query": "q情形",
+        "description": "语气词后接情形"
+    },
+    {
+        "query": "局限n",
+        "description": "名词后接局限"
+    },
+    {
+        "query": "能V多少便",
+        "description": "动词后接能、多少和动词"
+    },
+    {
+        "query": "尊重+n",
+        "description": "动词后接尊重和名词"
+    },
+    {
+        "query": "尊重 n",
+        "description": "动词后接尊重和名词"
+    },
+    {
+        "query": "m季n",
+        "description": "季节名词后接名词"
+    },
+    {
+        "query": "m沓",
+        "description": "月份名词后接沓"
+    },
+    {
+        "query": "v利索",
+        "description": "动词后接利索"
+    },
+    {
+        "query": "没v着N",
+        "description": "否定词后接动词、着和名词"
+    },
+    {
+        "query": "w自然w",
+        "description": "疑问词后接自然和疑问词"
+    },
+    {
+        "query": "a内科",
+        "description": "形容词后接内科"
+    },
+    {
+        "query": "口气w",
+        "description": "语气词后接口气"
+    },
+    {
+        "query": "v+了+N",
+        "description": "动词后接了、名词"
+    },
+    {
+        "query": "v 了 N",
+        "description": "动词后接了、名词"
+    },
+    {
+        "query": "v挂",
+        "description": "动词后接挂"
+    },
+    {
+        "query": "v仓房",
+        "description": "动词后接仓房"
+    },
+    {
+        "query": "v一文",
+        "description": "动词后接一文"
+    },
+    {
+        "query": "横竖d",
+        "description": "方位词后接横竖"
+    }
+]
+```

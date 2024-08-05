@@ -1,0 +1,166 @@
+以下是将给定的检索式转换为带含义的json结构的结果：
+
+```json
+[
+    {
+        "query": "白 了/u 头",
+        "description": "包含'白了头'的句子"
+    },
+    {
+        "query": "+/v+的+供给+侧亟+须/d",
+        "description": "包含'的供给侧亟须'的句子"
+    },
+    {
+        "query": "+/v 的 供给 侧亟 须/d",
+        "description": "包含'的供给侧亟须'的句子"
+    },
+    {
+        "query": "北京+。/w",
+        "description": "包含'北京。'的句子"
+    },
+    {
+        "query": "北京 。/w",
+        "description": "包含'北京。'的句子"
+    },
+    {
+        "query": "渠道/n+结冰",
+        "description": "包含'渠道结冰'的句子"
+    },
+    {
+        "query": "渠道/n 结冰",
+        "description": "包含'渠道结冰'的句子"
+    },
+    {
+        "query": "叫停+软件/n+打车",
+        "description": "包含'叫停软件打车'的句子"
+    },
+    {
+        "query": "叫停 软件/n 打车",
+        "description": "包含'叫停软件打车'的句子"
+    },
+    {
+        "query": "啃/v",
+        "description": "包含'啃'的句子"
+    },
+    {
+        "query": "高原/n+，+造就/v",
+        "description": "包含'高原，造就'的句子"
+    },
+    {
+        "query": "高原/n ， 造就/v",
+        "description": "包含'高原，造就'的句子"
+    },
+    {
+        "query": "第三+个/q+需",
+        "description": "包含'第三个需'的句子"
+    },
+    {
+        "query": "第三 个/q 需",
+        "description": "包含'第三个需'的句子"
+    },
+    {
+        "query": "，+俗称/v+翻砂",
+        "description": "包含'俗称翻砂'的句子"
+    },
+    {
+        "query": "， 俗称/v 翻砂",
+        "description": "包含'俗称翻砂'的句子"
+    },
+    {
+        "query": "梦想+在/p+前方",
+        "description": "包含'梦想在前方'的句子"
+    },
+    {
+        "query": "梦想 在/p 前方",
+        "description": "包含'梦想在前方'的句子"
+    },
+    {
+        "query": "详解/v+三峡",
+        "description": "包含'详解三峡'的句子"
+    },
+    {
+        "query": "详解/v 三峡",
+        "description": "包含'详解三峡'的句子"
+    },
+    {
+        "query": "百姓+事/n+无",
+        "description": "包含'百姓事无'的句子"
+    },
+    {
+        "query": "百姓 事/n 无",
+        "description": "包含'百姓事无'的句子"
+    },
+    {
+        "query": "../n客",
+        "description": "包含'客'的单字短句"
+    },
+    {
+        "query": "难+求/v+，",
+        "description": "包含'难求，'的句子"
+    },
+    {
+        "query": "难 求/v ，",
+        "description": "包含'难求，'的句子"
+    },
+    {
+        "query": "的+一/m+位",
+        "description": "包含'的一位'的句子"
+    },
+    {
+        "query": "的 一/m 位",
+        "description": "包含'的一位'的句子"
+    },
+    {
+        "query": "具/q",
+        "description": "包含'具'的句子"
+    },
+    {
+        "query": "就是+人工/b+智能",
+        "description": "包含'就是人工智能'的句子"
+    },
+    {
+        "query": "就是 人工/b 智能",
+        "description": "包含'就是人工智能'的句子"
+    },
+    {
+        "query": "司法+救助/v+与",
+        "description": "包含'司法救助与'的句子"
+    },
+    {
+        "query": "司法 救助/v 与",
+        "description": "包含'司法救助与'的句子"
+    },
+    {
+        "query": "看来/v+，+公众+并+未+反应+过度+。/w",
+        "description": "包含'看来，公众并未反应过度。'的句子"
+    },
+    {
+        "query": "看来/v ， 公众 并 未 反应 过度 。/w",
+        "description": "包含'看来，公众并未反应过度。'的句子"
+    },
+    {
+        "query": "n+的+诚意/n",
+        "description": "包含'n的诚意'的句子"
+    },
+    {
+        "query": "n 的 诚意/n",
+        "description": "包含'n的诚意'的句子"
+    },
+    {
+        "query": "刷新+见解/n",
+        "description": "包含'刷新见解'的句子"
+    },
+    {
+        "query": "刷新 见解/n",
+        "description": "包含'刷新见解'的句子"
+    },
+    {
+        "query": "舆论场/n+的+成都/ns",
+        "description": "包含'舆论场的成都'的句子"
+    },
+    {
+        "query": "舆论场/n 的 成都/ns",
+        "description": "包含'舆论场的成都'的句子"
+    }
+]
+```

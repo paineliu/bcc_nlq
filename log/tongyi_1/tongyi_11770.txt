@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "完善 (n) 间{len($1)!=3}",
+        "description": "完善后面跟着一个非长度为3的名词"
+    },
+    {
+        "query": "(m) 深化 国际 (n){len($2)=2}",
+        "description": "深化后面跟两个字的国际名词"
+    },
+    {
+        "query": "(v) 经贸 (vn){len($2)<3}",
+        "description": "经贸后面接长度小于3的动名词"
+    },
+    {
+        "query": "非洲 (vn){middle($1)=[业 现]}",
+        "description": "非洲后面中间位置是业或现的动名词"
+    },
+    {
+        "query": "农业 (v){end($1)!=[逗 香 平 雪]}",
+        "description": "农业后面不以逗、香、平、雪结尾的动词"
+    },
+    {
+        "query": "农产品 .. 。",
+        "description": "农产品后面可能有一个词或标点符号"
+    },
+    {
+        "query": "(ad) 参与{count<731}",
+        "description": "参与的实例频次少于731次"
+    },
+    {
+        "query": "(v) (ns){len($1)>1; end($2)!=[呃 托 凉]}",
+        "description": "动词后面接至少两个字的名词，且名词后面不接呃、托、凉"
+    },
+    {
+        "query": "与 (vn) 便利化{end($1)!=[坐 恨 够]}",
+        "description": "与后面接动词便利化，且便利化的前一个词不以坐、恨、够结尾"
+    },
+    {
+        "query": "深化 ../n 能源",
+        "description": "深化后面接双音节名词能源"
+    },
+    {
+        "query": "(n) 经济 (vn){end($2)!=[面 场 认 赶]}",
+        "description": "经济后面接动名词，且动名词不以面、场、认、赶结尾"
+    },
+    {
+        "query": "加强 (ns) 发展{len($1)>1}",
+        "description": "加强后面接至少两个字的名词发展"
+    },
+    {
+        "query": "(vd) 增加 对 (ns){end($2)=[洲 春 推]}",
+        "description": "增加后面接动词对，对后面接名词，名词以洲、春、推结尾"
+    },
+    {
+        "query": "教育 @/[c v] 人力",
+        "description": "教育后面接形容词或动词和人力"
+    },
+    {
+        "query": "减贫 (n){len($1)!=3}",
+        "description": "减贫的长度不为3"
+    },
+    {
+        "query": "(c) 知识 (v){len($2)<3}",
+        "description": "知识后面接长度小于3的动词"
+    },
+    {
+        "query": "(vn) 和 环境 保护 (vn){len($1)>1}",
+        "description": "和后面接环境保护这样的双音节动名词"
+    },
+    {
+        "query": "(c) 扩大 人文 领域 交流 与 (vn){len($2)<3}",
+        "description": "扩大后面接人文领域交流，再接一个长度小于3的动词"
+    },
+    {
+        "query": "与 ../[vn v]",
+        "description": "与后面接一个动词或动名词"
+    },
+    {
+        "query": "扩大 ~/[vn v] 合作",
+        "description": "扩大后面离合出现一个动词或动名词，再接合作"
+    },
+    {
+        "query": "新闻 ./c 广播",
+        "description": "新闻后面接单字连词广播"
+    },
+    {
+        "query": "学术 和/c 智库",
+        "description": "学术后面接单字连词和，再接智库"
+    },
+    {
+        "query": "民间 ../vn",
+        "description": "民间后面接一个动词或动名词"
+    },
+    {
+        "query": "(ns) (n){begin($2)!=[类 步 脚]}",
+        "description": "某个名词后面开始的名词不以类、步、脚开头"
+    },
+    {
+        "query": "安全",
+        "description": "安全"
+    },
+    {
+        "query": "与 ~/[an v]",
+        "description": "与后面离合出现一个形容词或动词"
+    },
+    {
+        "query": "(v) 军事 (vn){len($1)<3; len($2)>1}",
+        "description": "军事后面接长度小于3的动词和一个至少两个字的动名词"
+    },
+    {
+        "query": "非洲 (v) 非{begin($1)=[应 大 练 座]}",
+        "description": "非洲后面接动词，动词的开始可能是应、大、练、座"
+    },
+    {
+        "query": "在 (n) 国家{len($1)<3}",
+        "description": "在后面接一个长度小于3的名词国家"
+    },
+    {
+        "query": "中国 ~ 非洲",
+        "description": "中国后面接一个词，可能是任意词性"
+    },
+    {
+        "query": "(nr) (w){end($1)!=[房 大]}",
+        "description": "某人名后面接一个词，且词的末尾不为房、大"
+    },
+    {
+        "query": "会见",
+        "description": "会见"
+    },
+    {
+        "query": "全国 政协/j 副主席",
+        "description": "全国政协的副主席"
+    },
+    {
+        "query": "将 ..../[i v] 地",
+        "description": "将后面可能接一个词或动词，后面接地"
+    },
+    {
+        "query": "的 (n) 支持{end($1)=[融 费 搜]}",
+        "description": "的后面接名词支持，支持的前一个词以融、费、搜结尾"
+    },
+    {
+        "query": "视觉",
+        "description": "视觉"
+    },
+    {
+        "query": "友好 (v) 新{end($1)=[作 土 倒]}",
+        "description": "友好后面接一个动词，动词的末尾不为作、土、倒"
+    },
+    {
+        "query": "至",
+        "description": "至"
+    },
+    {
+        "query": "的 (n){end($1)!=[纸 奥 向]}",
+        "description": "的后面接一个名词，名词的末尾不为纸、奥、向"
+    },
+    {
+        "query": "对 ./[j v] 合作",
+        "description": "对后面接一个介词或动词和合作"
+    }
+]
+```

@@ -1,0 +1,156 @@
+```json
+[
+    {
+        "query": "成立 ？/w",
+        "description": "包含成立后以问号结尾的句子"
+    },
+    {
+        "query": "难题+如何/r+解",
+        "description": "难题后面接如何和解"
+    },
+    {
+        "query": "难题 如何/r 解",
+        "description": "难题后面接如何和解"
+    },
+    {
+        "query": "像是+讽刺/v+。",
+        "description": "像是后面接讽刺，并以句号结尾"
+    },
+    {
+        "query": "像是 讽刺/v 。",
+        "description": "像是后面直接接讽刺，并以句号结尾"
+    },
+    {
+        "query": "a+的+悬念/n",
+        "description": "a后面接的为形容词的，后面再接悬念"
+    },
+    {
+        "query": "a 的 悬念/n",
+        "description": "a后面直接接的为形容词的，后面再接悬念"
+    },
+    {
+        "query": "偏/d",
+        "description": "偏作为一个词单独出现"
+    },
+    {
+        "query": "组织+实施/v+。",
+        "description": "组织后面接实施，并以句号结尾"
+    },
+    {
+        "query": "组织 实施/v 。",
+        "description": "组织后面直接接实施，并以句号结尾"
+    },
+    {
+        "query": "人才+第一/m+资源",
+        "description": "人才后面接第一和资源"
+    },
+    {
+        "query": "人才 第一/m 资源",
+        "description": "人才后面直接接第一和资源"
+    },
+    {
+        "query": "赵+树丛/n+说",
+        "description": "赵后面接树丛，并再接说"
+    },
+    {
+        "query": "赵 树丛/n 说",
+        "description": "赵后面直接接树丛，并再接说"
+    },
+    {
+        "query": "解放军+援/v+利比里亚",
+        "description": "解放军后面接援，并再接利比里亚"
+    },
+    {
+        "query": "解放军 援/v 利比里亚",
+        "description": "解放军后面直接接援，并再接利比里亚"
+    },
+    {
+        "query": "./V上n",
+        "description": "单音节动词后面接上，并接名词"
+    },
+    {
+        "query": "唐/t+嘉阳+感慨+地+说+。/w",
+        "description": "唐嘉阳后面接感慨、地、说，并以问号结尾"
+    },
+    {
+        "query": "唐/t 嘉阳 感慨 地 说 。/w",
+        "description": "唐嘉阳后面接感慨、地、说，并以问号结尾"
+    },
+    {
+        "query": "./v去",
+        "description": "单音节动词后面直接接去"
+    },
+    {
+        "query": "应/v+把+贫困/a",
+        "description": "应后面接把，并再接贫困"
+    },
+    {
+        "query": "应/v 把 贫困/a",
+        "description": "应后面直接接把，并再接贫困"
+    },
+    {
+        "query": "../v不../a",
+        "description": "二字动词后面接不，并接形容词"
+    },
+    {
+        "query": "总统+纳波利塔诺/nr+辞职",
+        "description": "总统后面接纳波利塔诺，并再接辞职"
+    },
+    {
+        "query": "总统 纳波利塔诺/nr 辞职",
+        "description": "总统后面直接接纳波利塔诺，并再接辞职"
+    },
+    {
+        "query": "./v+./v+./v",
+        "description": "三个单音节动词依次出现"
+    },
+    {
+        "query": "打/v",
+        "description": "打作为一个单音节动词出现"
+    },
+    {
+        "query": "，/w+还有+湿度+。/w",
+        "description": "逗号后面接还有、湿度，并以问号结尾"
+    },
+    {
+        "query": "，/w 还有 湿度 。/w",
+        "description": "逗号后面直接接还有、湿度，并以问号结尾"
+    },
+    {
+        "query": "铺满+的/u+山冈",
+        "description": "铺满后面接的为形容词的，后面再接山冈"
+    },
+    {
+        "query": "铺满 的/u 山冈",
+        "description": "铺满后面直接接的为形容词的，后面再接山冈"
+    },
+    {
+        "query": "受惠/v+的+是+老百姓/n",
+        "description": "受惠后面接的为形容词的，后面再接是，并接老百姓"
+    },
+    {
+        "query": "受惠/v 的 是 老百姓/n",
+        "description": "受惠后面直接接的为形容词的，后面再接是，并接老百姓"
+    },
+    {
+        "query": "男/b+n",
+        "description": "男作为一个词单独出现，后面接名词"
+    },
+    {
+        "query": "男/b n",
+        "description": "男作为一个词单独出现，后面直接接名词"
+    },
+    {
+        "query": "南昌/ns+西汉+大+墓+启动/v",
+        "description": "南昌后面接西汉、大、墓，并再接启动"
+    },
+    {
+        "query": "南昌/ns 西汉 大 墓 启动/v",
+        "description": "南昌后面直接接西汉、大、墓，并再接启动"
+    },
+    {
+        "query": "不+再/d+折腾",
+        "description": "不后面接再，并接折腾"
+    }
+]
+```

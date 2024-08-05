@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "烦人不烦人",
+        "description": "包含'烦人'前后是否为否定疑问句的句子"
+    },
+    {
+        "query": "一定是",
+        "description": "表示确定性陈述的句子"
+    },
+    {
+        "query": "鲁甸地震",
+        "description": "直接提及地名'鲁甸'及与其相关的事件或描述"
+    },
+    {
+        "query": "仔",
+        "description": "作为单独名词或作为量词后的量词"
+    },
+    {
+        "query": "天长日久",
+        "description": "描述时间长久的句子"
+    },
+    {
+        "query": "安安顿顿",
+        "description": "形容词组表示稳定或安宁的状态"
+    },
+    {
+        "query": "似乎恰恰",
+        "description": "表示一种推测或恰好符合的句子"
+    },
+    {
+        "query": "品味",
+        "description": "与品鉴、评价相关的行为或描述"
+    },
+    {
+        "query": "高贵",
+        "description": "形容词用于描述人物、物品的品质"
+    },
+    {
+        "query": "没大大",
+        "description": "表示程度上的轻微或未达到预期的句子"
+    },
+    {
+        "query": "很多",
+        "description": "表示数量多的句子"
+    },
+    {
+        "query": "能帮上",
+        "description": "表示能够提供帮助或支援的句子"
+    },
+    {
+        "query": "俊俊",
+        "description": "作为形容词或名词，表示英俊"
+    },
+    {
+        "query": "例如说",
+        "description": "表示举例说明的句子"
+    },
+    {
+        "query": "逐一",
+        "description": "表示依次或一项一项地句子"
+    },
+    {
+        "query": "清苦",
+        "description": "形容生活或经历艰苦"
+    },
+    {
+        "query": "一结束就",
+        "description": "表示动作或状态一旦结束立即发生另一动作或状态"
+    },
+    {
+        "query": "中庸和谐",
+        "description": "描述中庸之道或和谐状态的句子"
+    },
+    {
+        "query": "人权被",
+        "description": "描述人权受到侵犯或关注的人权问题"
+    },
+    {
+        "query": "单枪匹马",
+        "description": "形容独自行动或无辅助的句子"
+    },
+    {
+        "query": "生怕",
+        "description": "表示害怕或担心的句子"
+    },
+    {
+        "query": "不过高",
+        "description": "表示高度或等级的句子"
+    },
+    {
+        "query": "她到底",
+        "description": "询问或表明某人或物最终的状况或结果"
+    },
+    {
+        "query": "决人权",
+        "description": "表示决定或解决人权问题的句子"
+    },
+    {
+        "query": "好像压根",
+        "description": "表示似乎根本不存在或完全不相关的句子"
+    },
+    {
+        "query": "打搅了",
+        "description": "表示道歉或打扰的句子"
+    },
+    {
+        "query": "沙盖",
+        "description": "可能涉及地理、文化或特定事件的地名或描述"
+    },
+    {
+        "query": "成立",
+        "description": "描述组织、项目等正式建立或开始的句子"
+    },
+    {
+        "query": "复审",
+        "description": "表示重新审查或评估的句子"
+    },
+    {
+        "query": "积分",
+        "description": "与分数、奖励点数等相关的句子"
+    },
+    {
+        "query": "之不和谐",
+        "description": "表示存在不和谐或矛盾之处的句子"
+    },
+    {
+        "query": "春秋",
+        "description": "历史时期、季节、或文化背景相关的句子"
+    },
+    {
+        "query": "软弱",
+        "description": "形容词描述个人或事物的弱点或无力感"
+    },
+    {
+        "query": "前面",
+        "description": "描述位置或方向的句子"
+    },
+    {
+        "query": "申诉",
+        "description": "表示提出投诉或请求重新审议的句子"
+    },
+    {
+        "query": "罢了",
+        "description": "表示事情到此为止或无其他结果的句子"
+    },
+    {
+        "query": "你再别",
+        "description": "表示劝阻或停止的句子"
+    },
+    {
+        "query": "时代",
+        "description": "历史时期、时代变迁或文化背景相关的句子"
+    },
+    {
+        "query": "东北",
+        "description": "地区名或与东北地区相关的事物描述"
+    },
+    {
+        "query": "和谐的诗",
+        "description": "诗歌中描述和谐主题或情感的句子"
+    }
+]
+```

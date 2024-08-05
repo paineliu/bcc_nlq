@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "V下*愉快",
+        "description": "动词后接下，后面离合出现愉快"
+    },
+    {
+        "query": "占不.",
+        "description": "占后接一个字，这个字后面是句尾符号"
+    },
+    {
+        "query": "我们..+进去w",
+        "description": "我们后面隔一个字后接一个词，这个词后接进去"
+    },
+    {
+        "query": "我们.. 进去w",
+        "description": "我们后面隔一个字后接一个词，这个词后接进去"
+    },
+    {
+        "query": "是*的？",
+        "description": "是后面离合出现的词后接一个疑问句尾符号"
+    },
+    {
+        "query": "是*的，",
+        "description": "是后面离合出现的词后接一个逗号"
+    },
+    {
+        "query": "好像*原来v",
+        "description": "好像后面离合出现原来的动词"
+    },
+    {
+        "query": "大概*明明",
+        "description": "大概后面离合出现明明"
+    },
+    {
+        "query": "在*之前",
+        "description": "在后面离合出现之前"
+    },
+    {
+        "query": "w敌.我w",
+        "description": "以敌为开始的双音节名词，后接我"
+    },
+    {
+        "query": "w外.中w",
+        "description": "以外为开始的双音节名词，后接中"
+    },
+    {
+        "query": "好像*吧！",
+        "description": "好像后面离合出现一个感叹句尾符号"
+    },
+    {
+        "query": "或许*总该",
+        "description": "或许后面离合出现总该"
+    },
+    {
+        "query": "是*的水平w",
+        "description": "是后面离合出现的词后接一个词，这个词是水平"
+    },
+    {
+        "query": "终生~",
+        "description": "一个词，后面是~"
+    },
+    {
+        "query": "w喜.忧w",
+        "description": "以喜为开始的双音节名词，后接忧"
+    },
+    {
+        "query": "w静.动w",
+        "description": "以静为开始的双音节名词，后接动"
+    },
+    {
+        "query": "多半*似乎",
+        "description": "多半后面离合出现似乎"
+    },
+    {
+        "query": "仅...就...",
+        "description": "仅后面跟着句尾符号，句尾符号跟着就"
+    },
+    {
+        "query": "怨不.",
+        "description": "怨后接一个字，这个字后面是句尾符号"
+    },
+    {
+        "query": "似乎*就是v",
+        "description": "似乎后面离合出现就是的动词"
+    },
+    {
+        "query": "w恶.善w",
+        "description": "以恶为开始的双音节名词，后接善"
+    },
+    {
+        "query": "似乎*呢？",
+        "description": "似乎后面离合出现一个疑问句尾符号"
+    },
+    {
+        "query": "w正.反w",
+        "description": "以正为开始的双音节名词，后接反"
+    },
+    {
+        "query": "恐怕*倒是",
+        "description": "恐怕后面离合出现倒是"
+    },
+    {
+        "query": "没有*，不*",
+        "description": "没有后面离合出现，不后面的句尾符号"
+    },
+    {
+        "query": "恐怕*却",
+        "description": "恐怕后面离合出现却"
+    },
+    {
+        "query": "d+再.吧",
+        "description": "d后面跟再，再后接一个词，这个词后接吧"
+    },
+    {
+        "query": "d 再.吧",
+        "description": "d后面跟再，再后接一个词，这个词后接吧"
+    },
+    {
+        "query": "w问.答w",
+        "description": "以问为开始的双音节名词，后接答"
+    },
+    {
+        "query": "愿不愿意*？",
+        "description": "愿不愿意后面离合出现一个疑问句尾符号"
+    },
+    {
+        "query": "..v++给p+",
+        "description": "一个词后跟++，++后接给，给后接一个词"
+    },
+    {
+        "query": "..v  给p",
+        "description": "一个词后跟给，给后接一个词"
+    },
+    {
+        "query": "连忙@",
+        "description": "一个词，后面按照词性归并统计"
+    },
+    {
+        "query": "一吃..就",
+        "description": "一吃后面隔一个字后接就"
+    },
+    {
+        "query": "*也是w",
+        "description": "一个词后接也是的词"
+    },
+    {
+        "query": "是*的！",
+        "description": "是后面离合出现的词后接一个感叹句尾符号"
+    },
+    {
+        "query": ",~",
+        "description": "一个标点符号，后面是~"
+    },
+    {
+        "query": "年*岁",
+        "description": "年后面离合出现一个词，这个词是岁"
+    },
+    {
+        "query": "来*呀w",
+        "description": "来后面离合出现一个词，这个词是呀"
+    }
+]
+```

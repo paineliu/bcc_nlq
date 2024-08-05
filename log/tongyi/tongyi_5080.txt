@@ -1,0 +1,168 @@
+根据给出的检索式及其含义，以下是转换为带含义的json结构的完整列表：
+
+```json
+[
+    {
+        "query": "不太a",
+        "description": "形容词不太后邻接形容词a"
+    },
+    {
+        "query": "在N上插",
+        "description": "动词在后接名词N，然后是插入动作"
+    },
+    {
+        "query": "从n下",
+        "description": "动词从后接名词n，然后是向下动作"
+    },
+    {
+        "query": "n哒",
+        "description": "名词n后接哒音"
+    },
+    {
+        "query": "a倾斜",
+        "description": "形容词a后接倾斜动作"
+    },
+    {
+        "query": "a的经历",
+        "description": "形容词a后接经历名词"
+    },
+    {
+        "query": "a丰富",
+        "description": "形容词a后接丰富名词"
+    },
+    {
+        "query": "一n",
+        "description": "数量词一后接名词n"
+    },
+    {
+        "query": "相信n",
+        "description": "动词相信后接名词n"
+    },
+    {
+        "query": "a意见",
+        "description": "形容词a后接意见名词"
+    },
+    {
+        "query": "a信件",
+        "description": "形容词a后接信件名词"
+    },
+    {
+        "query": "v退s",
+        "description": "动词v后接退动作，s作为宾语"
+    },
+    {
+        "query": "a何必",
+        "description": "形容词a后接何必动词"
+    },
+    {
+        "query": "为人a",
+        "description": "动词为人后接形容词a"
+    },
+    {
+        "query": "a付款",
+        "description": "形容词a后接付款动作"
+    },
+    {
+        "query": "试着V了",
+        "description": "动词尝试后接了动作"
+    },
+    {
+        "query": "不a就v，",
+        "description": "否定词不后接a形容词，再接就动词，最后逗号"
+    },
+    {
+        "query": "a会客",
+        "description": "形容词a后接会客动作"
+    },
+    {
+        "query": "在哪儿V过N？",
+        "description": "动词在后接疑问词哪儿，然后是过去动作V，最后名词N，问号结束"
+    },
+    {
+        "query": "把+n+v+了",
+        "description": "动词把后接名词n，然后是动词v，最后是了"
+    },
+    {
+        "query": "把 n v 了",
+        "description": "动词把后接名词n，然后是动词v，最后是了"
+    },
+    {
+        "query": "v丰满了",
+        "description": "动词v后接丰满动作"
+    },
+    {
+        "query": "a从头",
+        "description": "形容词a后接从头动作"
+    },
+    {
+        "query": "挺adj",
+        "description": "副词挺后接形容词adj"
+    },
+    {
+        "query": "一回就v",
+        "description": "数量词一回后接就动词，动作一次完成"
+    },
+    {
+        "query": "连v带v",
+        "description": "动词连后接动词v，再接动词v"
+    },
+    {
+        "query": "v在n",
+        "description": "动词v后接名词n"
+    },
+    {
+        "query": "a像样",
+        "description": "形容词a后接像样名词"
+    },
+    {
+        "query": "r+v+v+的+n+",
+        "description": "形容词r后接三个动词v，中间逗号隔开，然后是的，最后名词n"
+    },
+    {
+        "query": "r v v 的 n",
+        "description": "形容词r后接两个动词v，中间逗号隔开，然后是的，最后名词n"
+    },
+    {
+        "query": "a凑巧",
+        "description": "形容词a后接凑巧动作"
+    },
+    {
+        "query": "a亮光",
+        "description": "形容词a后接亮光名词"
+    },
+    {
+        "query": "肯定n",
+        "description": "动词肯定后接名词n"
+    },
+    {
+        "query": "w原因v",
+        "description": "标点符号w后接原因名词，然后是动词v"
+    },
+    {
+        "query": "v太a了",
+        "description": "动词v后接太形容词a，再接了"
+    },
+    {
+        "query": "a冰激凌",
+        "description": "形容词a后接冰激凌名词"
+    },
+    {
+        "query": "，或者v",
+        "description": "标点符号，后接或者动词"
+    },
+    {
+        "query": "情景a",
+        "description": "名词情景后接形容词a"
+    },
+    {
+        "query": "一首n",
+        "description": "数量词一首后接名词n"
+    },
+    {
+        "query": "v淘气了",
+        "description": "动词v后接淘气动作，再接了"
+    }
+]
+```
+
+此json结构包含了每个检索式的含义描述，形成了完整的列表。

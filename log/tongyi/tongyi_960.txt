@@ -1,0 +1,167 @@
+根据给出的检索式格式，我们可以将它们转换为带含义的JSON结构如下：
+
+```json
+[
+    {
+        "query": "济济",
+        "description": "包含'济济'这个词语的句子"
+    },
+    {
+        "query": "苦干",
+        "description": "包含'苦干'这个词语的句子"
+    },
+    {
+        "query": "不管怎样说",
+        "description": "包含'不管怎样说'这个词语的句子"
+    },
+    {
+        "query": "?一个",
+        "description": "问号后面紧跟'一个'的句子"
+    },
+    {
+        "query": "一个微笑",
+        "description": "包含'一个微笑'这个词语的句子"
+    },
+    {
+        "query": "学着",
+        "description": "包含'学着'这个词语的句子"
+    },
+    {
+        "query": "高高瘦瘦",
+        "description": "包含'高高瘦瘦'这个词语的句子"
+    },
+    {
+        "query": "瞪过++++",
+        "description": "包含'瞪过++++'这个词语的句子"
+    },
+    {
+        "query": "瞪过",
+        "description": "包含'瞪过'这个词语的句子"
+    },
+    {
+        "query": "捧车族+",
+        "description": "包含'捧车族+'这个词语的句子"
+    },
+    {
+        "query": "捧车族",
+        "description": "包含'捧车族'这个词语的句子"
+    },
+    {
+        "query": "苦心",
+        "description": "包含'苦心'这个词语的句子"
+    },
+    {
+        "query": "明眸皓齿",
+        "description": "包含'明眸皓齿'这个词语的句子"
+    },
+    {
+        "query": "省得",
+        "description": "包含'省得'这个词语的句子"
+    },
+    {
+        "query": "井井",
+        "description": "包含'井井'这个词语的句子"
+    },
+    {
+        "query": "情景读起来",
+        "description": "包含'情景读起来'这个词语的句子"
+    },
+    {
+        "query": "一个大仰身",
+        "description": "包含'一个大仰身'这个词语的句子"
+    },
+    {
+        "query": "臂膀",
+        "description": "包含'臂膀'这个词语的句子"
+    },
+    {
+        "query": "偃武修文",
+        "description": "包含'偃武修文'这个词语的句子"
+    },
+    {
+        "query": "天井",
+        "description": "包含'天井'这个词语的句子"
+    },
+    {
+        "query": "所属",
+        "description": "包含'所属'这个词语的句子"
+    },
+    {
+        "query": "擦",
+        "description": "包含'擦'这个词语的句子"
+    },
+    {
+        "query": "喋喋",
+        "description": "包含'喋喋'这个词语的句子"
+    },
+    {
+        "query": "煌煌",
+        "description": "包含'煌煌'这个词语的句子"
+    },
+    {
+        "query": "灰灰",
+        "description": "包含'灰灰'这个词语的句子"
+    },
+    {
+        "query": "满以为",
+        "description": "包含'满以为'这个词语的句子"
+    },
+    {
+        "query": "去得到",
+        "description": "包含'去得到'这个词语的句子"
+    },
+    {
+        "query": "和谐中医",
+        "description": "包含'和谐中医'这个词语的句子"
+    },
+    {
+        "query": "人权彰",
+        "description": "包含'人权彰'这个词语的句子"
+    },
+    {
+        "query": "而立",
+        "description": "包含'而立'这个词语的句子"
+    },
+    {
+        "query": "不到哪里去",
+        "description": "包含'不到哪里去'这个词语的句子"
+    },
+    {
+        "query": "幼驯染",
+        "description": "包含'幼驯染'这个词语的句子"
+    },
+    {
+        "query": "咸水歌",
+        "description": "包含'咸水歌'这个词语的句子"
+    },
+    {
+        "query": "成心",
+        "description": "包含'成心'这个词语的句子"
+    },
+    {
+        "query": "合金",
+        "description": "包含'合金'这个词语的句子"
+    },
+    {
+        "query": "子弹",
+        "description": "包含'子弹'这个词语的句子"
+    },
+    {
+        "query": "达到理想",
+        "description": "包含'达到理想'这个词语的句子"
+    },
+    {
+        "query": "到家",
+        "description": "包含'到家'这个词语的句子"
+    },
+    {
+        "query": "和谐剧都",
+        "description": "包含'和谐剧都'这个词语的句子"
+    },
+    {
+        "query": "记载在",
+        "description": "包含'记载在'这个词语的句子"
+    }
+]
+```
+以上JSON结构包含了所有的检索式及其对应的描述信息。

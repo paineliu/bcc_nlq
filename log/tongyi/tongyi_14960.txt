@@ -1,0 +1,166 @@
+以下是将给定检索式转换为带含义的JSON结构后的完整列表：
+
+```json
+[
+    {
+        "query": "时而a[，+。]", 
+        "description":"形容词后邻逗号或句点"
+    },
+    {
+        "query": "时而a[， 。]", 
+        "description":"形容词后邻逗号或句点"
+    },
+    {
+        "query": "中途v+a[，+。]", 
+        "description":"动词后邻逗号或句点，然后是形容词"
+    },
+    {
+        "query": "中途v a[， 。]", 
+        "description":"动词后邻逗号或句点，然后是形容词"
+    },
+    {
+        "query": "被n+v了[，+。]", 
+        "description":"名词后接动词，动词后邻逗号或句点，再接'了'"
+    },
+    {
+        "query": "被n v了[， 。]", 
+        "description":"名词后接动词，动词后邻逗号或句点，再接'了'"
+    },
+    {
+        "query": "尽力n[，+。]", 
+        "description":"名词后邻逗号或句点"
+    },
+    {
+        "query": "尽力n[， 。]", 
+        "description":"名词后邻逗号或句点"
+    },
+    {
+        "query": "[，+。]n也a了", 
+        "description":"逗号或句点后接名词，名词后邻'也'和'了'"
+    },
+    {
+        "query": "[， 。]n也a了", 
+        "description":"逗号或句点后接名词，名词后邻'也'和'了'"
+    },
+    {
+        "query": "大声v[，+。]", 
+        "description":"动词后邻逗号或句点"
+    },
+    {
+        "query": "大声v[， 。]", 
+        "description":"动词后邻逗号或句点"
+    },
+    {
+        "query": "暂时v[，+。]", 
+        "description":"动词后邻逗号或句点"
+    },
+    {
+        "query": "暂时v[， 。]", 
+        "description":"动词后邻逗号或句点"
+    },
+    {
+        "query": "赶紧v+n[，+。]", 
+        "description":"动词后邻名词，动词后邻逗号或句点"
+    },
+    {
+        "query": "赶紧v n[， 。]", 
+        "description":"动词后邻名词，动词后邻逗号或句点"
+    },
+    {
+        "query": "[够+评+会+跳出+组织+进来+吻]个", 
+        "description":"一系列词后接'个'"
+    },
+    {
+        "query": "[够 评 会 跳出 组织 进来 吻]个", 
+        "description":"一系列词后接'个'"
+    },
+    {
+        "query": "更加[v+a+n+r][，+。]", 
+        "description":"动词后接形容词、名词、动词、形容词，然后逗号或句点"
+    },
+    {
+        "query": "更加[v a n r][， 。]", 
+        "description":"动词后接形容词、名词、动词、形容词，然后逗号或句点"
+    },
+    {
+        "query": "们d+v[，+。]", 
+        "description":"名词后接动词，动词后邻逗号或句点"
+    },
+    {
+        "query": "们d v[， 。]", 
+        "description":"名词后接动词，动词后邻逗号或句点"
+    },
+    {
+        "query": "w[q+r+d+c+v+a++n+m++p]扬.抑w", 
+        "description":"一系列词后接'扬.抑'"
+    },
+    {
+        "query": "w[q r d c v a  n m  p]扬.抑w", 
+        "description":"一系列词后接'扬.抑'"
+    },
+    {
+        "query": "停留在+n[f+s+ns]", 
+        "description":"动词后接名词，名词后接'停留在'和一系列词"
+    },
+    {
+        "query": "停留在 n[f s ns]", 
+        "description":"动词后接名词，名词后接'停留在'和一系列词"
+    },
+    {
+        "query": "多半n[，+。]", 
+        "description":"名词后邻逗号或句点"
+    },
+    {
+        "query": "多半n[， 。]", 
+        "description":"名词后邻逗号或句点"
+    },
+    {
+        "query": "十分d+a[，+。]", 
+        "description":"形容词后接名词，形容词后邻逗号或句点"
+    },
+    {
+        "query": "十分d a[， 。]", 
+        "description":"形容词后接名词，形容词后邻逗号或句点"
+    },
+    {
+        "query": "[东+西+南][头+边+侧+方+面]的m个n", 
+        "description":"一系列词后接'的'、数量词、名词"
+    },
+    {
+        "query": "[东 西 南][头 边 侧 方 面]的m个n", 
+        "description":"一系列词后接'的'、数量词、名词"
+    },
+    {
+        "query": "整天v+u[，+。]", 
+        "description":"动词后接时间词，动词后邻逗号或句点"
+    },
+    {
+        "query": "整天v u[， 。]", 
+        "description":"动词后接时间词，动词后邻逗号或句点"
+    },
+    {
+        "query": "好v多了[，+。]", 
+        "description":"动词后接形容词，动词后邻逗号或句点，再接'多了'"
+    },
+    {
+        "query": "好v多了[， 。]", 
+        "description":"动词后接形容词，动词后邻逗号或句点，再接'多了'"
+    },
+    {
+        "query": "起初d+a[，+。]", 
+        "description":"形容词后接名词，形容词后邻逗号或句点"
+    },
+    {
+        "query": "起初d a[， 。]", 
+        "description":"形容词后接名词，形容词后邻逗号或句点"
+    },
+    {
+        "query": "修建[n+a+v]", 
+        "description":"名词后接形容词、动词、名词"
+    },
+    {
+        "query": "修建[n a v]", 
+        "description":"名词后接形容词、动词、名词"
+    }
+]
+```

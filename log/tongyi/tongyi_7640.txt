@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "发出+一+q+V",
+        "description": "发出后面接一个量词，然后接动词"
+    },
+    {
+        "query": "发出 一 q V",
+        "description": "发出后面接数字一，后面接一个量词，最后接动词"
+    },
+    {
+        "query": "n+f+v+着",
+        "description": "名词、方位词、动词后面接着"
+    },
+    {
+        "query": "n f v 着",
+        "description": "名词、方位词、动词后面接着"
+    },
+    {
+        "query": "滥竽充数u",
+        "description": "成语‘滥竽充数’"
+    },
+    {
+        "query": "让你v你就v",
+        "description": "动词让你后面接动词你就"
+    },
+    {
+        "query": "心情w",
+        "description": "形容词心情"
+    },
+    {
+        "query": "a出身",
+        "description": "形容词出身"
+    },
+    {
+        "query": "m情形",
+        "description": "名词情形"
+    },
+    {
+        "query": "v+v+w",
+        "description": "动词动词后面接形容词"
+    },
+    {
+        "query": "v v w",
+        "description": "动词动词后面接形容词"
+    },
+    {
+        "query": "意思w",
+        "description": "形容词意思"
+    },
+    {
+        "query": "一毫n",
+        "description": "数量词一后面接名词毫"
+    },
+    {
+        "query": "m版n",
+        "description": "名词版后面接名词"
+    },
+    {
+        "query": "n不了一点儿",
+        "description": "名词后面接否定词不，再接一个量词一点"
+    },
+    {
+        "query": "管他n不n",
+        "description": "名词管他后面接否定词不，再接一个名词"
+    },
+    {
+        "query": "那么v+w",
+        "description": "动词那么后面接形容词或名词"
+    },
+    {
+        "query": "那么v w",
+        "description": "动词那么后面接形容词或名词"
+    },
+    {
+        "query": "f+v+着+有+m+q",
+        "description": "方位词、动词、着后面接形容词有，再接名词"
+    },
+    {
+        "query": "f v 着 有 m q",
+        "description": "方位词、动词、着后面接形容词有，再接名词"
+    },
+    {
+        "query": "v之中",
+        "description": "动词后面接介词之中"
+    },
+    {
+        "query": "十分v",
+        "description": "形容词十分"
+    },
+    {
+        "query": "a信念",
+        "description": "形容词信念"
+    },
+    {
+        "query": "由n部门",
+        "description": "名词由后面接名词部门"
+    },
+    {
+        "query": "神仙n",
+        "description": "名词神仙"
+    },
+    {
+        "query": "v到n去",
+        "description": "动词到后面接名词去"
+    },
+    {
+        "query": "v匀了",
+        "description": "动词匀后面接了"
+    },
+    {
+        "query": "一厘n",
+        "description": "数量词一后面接名词厘"
+    },
+    {
+        "query": "Ag性",
+        "description": "形语素性"
+    },
+    {
+        "query": "a冷却",
+        "description": "形容词冷却"
+    },
+    {
+        "query": "饱受n",
+        "description": "形容词饱受后面接名词"
+    },
+    {
+        "query": "榆树v",
+        "description": "动词榆树"
+    },
+    {
+        "query": "不特别a",
+        "description": "形容词不特别"
+    },
+    {
+        "query": "a仍旧",
+        "description": "形容词仍旧"
+    },
+    {
+        "query": "n经历",
+        "description": "名词经历"
+    },
+    {
+        "query": "交通v",
+        "description": "动词交通"
+    },
+    {
+        "query": "n观点",
+        "description": "名词观点"
+    },
+    {
+        "query": "ad说",
+        "description": "副形词说"
+    },
+    {
+        "query": "m叠",
+        "description": "名词叠"
+    },
+    {
+        "query": "w+s+V着",
+        "description": "形容词、标点符号、动词后面接着"
+    }
+]
+```

@@ -1,0 +1,156 @@
+```json
+[
+    {
+        "query": "炕 ~/[v v] 热乎",
+        "description": "炕后跟一个或两个动词，然后接热乎"
+    },
+    {
+        "query": "这是 (n) 招待{middle($1)=[安 种 吹]}",
+        "description": "这是后跟一个名词，中间的词可能是安、种或吹"
+    },
+    {
+        "query": ".",
+        "description": "句尾的一个字符"
+    },
+    {
+        "query": "一 ~ 上等",
+        "description": "一后面接任意词后接上等"
+    },
+    {
+        "query": "就 已/d 包含",
+        "description": "就后跟已，副词修饰，表示包含"
+    },
+    {
+        "query": "至 . 的",
+        "description": "至后接一个字符，可能是句尾"
+    },
+    {
+        "query": "@/[r v] 惊奇",
+        "description": "以r或v开头的词后接惊奇"
+    },
+    {
+        "query": "， v 稀有",
+        "description": "逗号后接一个动词，动词后接稀有"
+    },
+    {
+        "query": "我 ./[u v] 。",
+        "description": "我后跟一个助词或动词，后面是句号"
+    },
+    {
+        "query": "~/[r v] 缘于",
+        "description": "以r或v开头的词后接缘于"
+    },
+    {
+        "query": "@ 条",
+        "description": "条作为词性标记"
+    },
+    {
+        "query": "竟 ./v ，",
+        "description": "竟后跟一个动词，后面是逗号"
+    },
+    {
+        "query": "为什么 ~ ？",
+        "description": "为什么后面接一个词，可能是疑问句"
+    },
+    {
+        "query": "总是 (c) 温暖{len($1)=1}",
+        "description": "总是后接一个长度为1的副词，表示温暖"
+    },
+    {
+        "query": "水流 . ，",
+        "description": "水流后接一个字符，可能是句尾"
+    },
+    {
+        "query": "(z) 轻柔 ， 大地 却 毫无 (n){len($1)>1; end($2)!=[并 越 雨 林]}",
+        "description": "轻柔后接一个或多个字符，大地后接一个不含并、越、雨、林的名词"
+    },
+    {
+        "query": ". 因为",
+        "description": "句尾一个字符后接因为"
+    },
+    {
+        "query": "沉默 y 。",
+        "description": "沉默后接一个语气词，可能是句尾"
+    },
+    {
+        "query": "， ~/[n v] 让",
+        "description": "逗号后跟一个名词或动词，然后让"
+    },
+    {
+        "query": "(m) 条{len($1)=2}",
+        "description": "两个字符的词后接条"
+    },
+    {
+        "query": "了 . 她们",
+        "description": "了后接一个字符，可能是句尾，她们"
+    },
+    {
+        "query": "(d) 是 飞翔 ， 飞翔 即 是 追寻 (w){count<337}",
+        "description": "两个长度为1的副词后，飞翔两次，追寻可能是句尾，且飞翔的实例少于337个"
+    },
+    {
+        "query": "./[p v] 读者",
+        "description": "单音节的介词或动词后接读者"
+    },
+    {
+        "query": "老人 ~/[w v]",
+        "description": "老人后跟一个词，可能是动词或形容词"
+    },
+    {
+        "query": "， ~ 一",
+        "description": "逗号后接一个词，可能是句尾的单字"
+    },
+    {
+        "query": "作者/n 共勉/v",
+        "description": "作者后接名词，共勉后接动词"
+    },
+    {
+        "query": "高坡 (v) 的{len($1)=1}",
+        "description": "高坡后接一个长度为1的动词，可能是形容词"
+    },
+    {
+        "query": "世界 f 飘来荡去",
+        "description": "世界后接拟声词飘来荡去"
+    },
+    {
+        "query": "咩咩声 (v) 群山{len($1)!=3}",
+        "description": "咩咩声后接一个非长度为3的词，可能是群山"
+    },
+    {
+        "query": "着 @/[r v] 的",
+        "description": "着后跟r或v开头的词，后接的"
+    },
+    {
+        "query": "山/n 绿/a",
+        "description": "山后接名词，名词后接形容词绿"
+    },
+    {
+        "query": "的 (n) 掩映{len($1)!=3}",
+        "description": "的后接一个非长度为3的名词，可能表示掩映"
+    },
+    {
+        "query": "~/[d v] 惦记",
+        "description": "以d或v开头的词后接惦记"
+    },
+    {
+        "query": "心底 @ 不由得",
+        "description": "心底后接一个词，可能是语气词，不由得"
+    },
+    {
+        "query": "的 ~",
+        "description": "的后面接一个词"
+    },
+    {
+        "query": "事 @/[d v] 能",
+        "description": "事后接一个d或v开头的词，能可能是句尾"
+    },
+    {
+        "query": "(z) (u){end($1)!=[因 穷 坐 翻]}",
+        "description": "两个长度为1的词，且第二个词的末尾不是因、穷、坐、翻"
+    },
+    {
+        "query": "(v) 肥美 的 (n){begin($1)=[抖 脏 搜 凶]}",
+        "description": "以v开头的词，后面是形容词肥美，形容词后接一个以抖、脏、搜、凶开头的名词"
+    }
+]
+```

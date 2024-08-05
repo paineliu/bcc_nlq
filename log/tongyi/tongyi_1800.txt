@@ -1,0 +1,168 @@
+以下是将给出的检索式转换为带含义的json结构的列表：
+
+```json
+[
+    {
+        "query": "调过情",
+        "description": "包含'调过情'的句子"
+    },
+    {
+        "query": "闯它一闯",
+        "description": "包含'闯它一闯'的句子"
+    },
+    {
+        "query": "采购",
+        "description": "包含'采购'的句子"
+    },
+    {
+        "query": "多士",
+        "description": "包含'多士'的句子"
+    },
+    {
+        "query": "我敢肯定",
+        "description": "包含'我敢肯定'的句子"
+    },
+    {
+        "query": "乎人权",
+        "description": "包含'乎人权'的句子"
+    },
+    {
+        "query": "实际说",
+        "description": "包含'实际说'的句子"
+    },
+    {
+        "query": "岂不",
+        "description": "包含'岂不'的句子"
+    },
+    {
+        "query": "项人权",
+        "description": "包含'项人权'的句子"
+    },
+    {
+        "query": "革人权",
+        "description": "包含'革人权'的句子"
+    },
+    {
+        "query": "和谐党约",
+        "description": "包含'和谐党约'的句子"
+    },
+    {
+        "query": "人权外",
+        "description": "包含'人权外'的句子"
+    },
+    {
+        "query": "身边",
+        "description": "包含'身边'的句子"
+    },
+    {
+        "query": "拿人权",
+        "description": "包含'拿人权'的句子"
+    },
+    {
+        "query": "人权范",
+        "description": "包含'人权范'的句子"
+    },
+    {
+        "query": "正误深浅",
+        "description": "包含'正误深浅'的句子"
+    },
+    {
+        "query": "声音听起来很",
+        "description": "包含'声音听起来很'的句子"
+    },
+    {
+        "query": "妈咪",
+        "description": "包含'妈咪'的句子"
+    },
+    {
+        "query": "人权魏",
+        "description": "包含'人权魏'的句子"
+    },
+    {
+        "query": "人权称",
+        "description": "包含'人权称'的句子"
+    },
+    {
+        "query": "一堆堆",
+        "description": "包含'一堆堆'的句子"
+    },
+    {
+        "query": "中流击楫",
+        "description": "包含'中流击楫'的句子"
+    },
+    {
+        "query": "之后",
+        "description": "包含'之后'的句子"
+    },
+    {
+        "query": "蓬蒿",
+        "description": "包含'蓬蒿'的句子"
+    },
+    {
+        "query": "唯愿",
+        "description": "包含'唯愿'的句子"
+    },
+    {
+        "query": "头发散披",
+        "description": "包含'头发散披'的句子"
+    },
+    {
+        "query": "茹苦含辛",
+        "description": "包含'茹苦含辛'的句子"
+    },
+    {
+        "query": "定居在",
+        "description": "包含'定居在'的句子"
+    },
+    {
+        "query": "种",
+        "description": "包含'种'的句子"
+    },
+    {
+        "query": "按理讲",
+        "description": "包含'按理讲'的句子"
+    },
+    {
+        "query": "似乎果真",
+        "description": "包含'似乎果真'的句子"
+    },
+    {
+        "query": "天香国色",
+        "description": "包含'天香国色'的句子"
+    },
+    {
+        "query": "复兴号",
+        "description": "包含'复兴号'的句子"
+    },
+    {
+        "query": "清亮",
+        "description": "包含'清亮'的句子"
+    },
+    {
+        "query": "担负很",
+        "description": "包含'担负很'的句子"
+    },
+    {
+        "query": "好不不",
+        "description": "包含'好不不'的句子"
+    },
+    {
+        "query": "国家公祭日",
+        "description": "包含'国家公祭日'的句子"
+    },
+    {
+        "query": "限塑令",
+        "description": "包含'限塑令'的句子"
+    },
+    {
+        "query": "一流和谐",
+        "description": "包含'一流和谐'的句子"
+    },
+    {
+        "query": "和谐的环境",
+        "description": "包含'和谐的环境'的句子"
+    }
+]
+```
+
+请注意，以上json结构中的每个元素都有一个唯一的描述字段，用于解释检索式的意思。这些描述可能需要进一步的上下文解释，以确保完全理解检索式的含义。

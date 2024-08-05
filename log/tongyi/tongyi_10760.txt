@@ -1,0 +1,166 @@
+以下是将给出的检索式转换为带含义的json结构的结果：
+
+```json
+[
+    {
+        "query": "n*细",
+        "description": "名词后接一个以‘细’结尾的词语"
+    },
+    {
+        "query": "把*给吃了",
+        "description": "把后面离合出现给吃了"
+    },
+    {
+        "query": "没有...a",
+        "description": "没有后面离合出现一个以‘a’结尾的词语"
+    },
+    {
+        "query": "a*电影*",
+        "description": "形容词后离合出现电影"
+    },
+    {
+        "query": "至少*也许",
+        "description": "至少后面离合出现也许"
+    },
+    {
+        "query": "n.差距",
+        "description": "名词后接句点，然后是差距"
+    },
+    {
+        "query": "当*时",
+        "description": "当后面离合出现时"
+    },
+    {
+        "query": "w存.亡w",
+        "description": "w后接存，后面句尾是亡，整个是两个连续的单词"
+    },
+    {
+        "query": "似乎*恰恰",
+        "description": "似乎后面离合出现恰恰"
+    },
+    {
+        "query": "仿佛*的确",
+        "description": "仿佛后面离合出现的确"
+    },
+    {
+        "query": "我们..+下来w",
+        "description": "我们后接句点，然后是加上下来的w"
+    },
+    {
+        "query": "我们.. 下来w",
+        "description": "我们后接句点，然后是下来w"
+    },
+    {
+        "query": "w右.左w",
+        "description": "w后接右，句尾是左，整个是两个连续的单词"
+    },
+    {
+        "query": "V下*心情",
+        "description": "动词后离合出现下，后面是心情"
+    },
+    {
+        "query": "放~鸽子",
+        "description": "放后接一个词，这个词是鸽子"
+    },
+    {
+        "query": "他一个......，",
+        "description": "他后接一个单词，后面跟着逗号"
+    },
+    {
+        "query": "她.+进去w",
+        "description": "她后接一个加号，然后是进去w"
+    },
+    {
+        "query": "她. 进去w",
+        "description": "她后接句点，然后是进去w"
+    },
+    {
+        "query": "一.了就",
+        "description": "一后接句点，然后是了就"
+    },
+    {
+        "query": "牛......头",
+        "description": "牛后接句点，然后是......头"
+    },
+    {
+        "query": "洗*澡",
+        "description": "洗后离合出现澡"
+    },
+    {
+        "query": "是r*也是r",
+        "description": "是r后离合出现也是r"
+    },
+    {
+        "query": "散*步",
+        "description": "散后离合出现步"
+    },
+    {
+        "query": "a.戒指",
+        "description": "形容词后接句点，然后是戒指"
+    },
+    {
+        "query": "或许*碰巧",
+        "description": "或许后面离合出现碰巧"
+    },
+    {
+        "query": "w柔.刚w",
+        "description": "w后接柔，句尾是刚，整个是两个连续的单词"
+    },
+    {
+        "query": "多*啊",
+        "description": "多后离合出现啊"
+    },
+    {
+        "query": "行不.",
+        "description": "行后面句尾是不，后面跟着句点"
+    },
+    {
+        "query": "大约*绝大",
+        "description": "大约后面离合出现绝大"
+    },
+    {
+        "query": "w幼.老w",
+        "description": "w后接幼，句尾是老，整个是两个连续的单词"
+    },
+    {
+        "query": "他.+起来w",
+        "description": "他后接一个加号，然后是起来w"
+    },
+    {
+        "query": "他. 起来w",
+        "description": "他后接句点，然后是起来w"
+    },
+    {
+        "query": "是不是*？",
+        "description": "是不是后离合出现问号"
+    },
+    {
+        "query": "大约*总是",
+        "description": "大约后面离合出现总是"
+    },
+    {
+        "query": "把*开开",
+        "description": "把后面离合出现开开"
+    },
+    {
+        "query": "毕*业",
+        "description": "毕后离合出现毕业"
+    },
+    {
+        "query": "n没有n*a",
+        "description": "名词后接没有，然后是名词，最后是a"
+    },
+    {
+        "query": "怕*好像",
+        "description": "怕后面离合出现好像"
+    },
+    {
+        "query": "也许*吧？",
+        "description": "也许后面离合出现吧，然后是问号"
+    },
+    {
+        "query": "跟~一样a",
+        "description": "跟后接一个词，这个词是~一样a"
+    }
+]
+```

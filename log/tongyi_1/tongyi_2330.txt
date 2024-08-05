@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "(ns) 李某案{begin($1)!=[岁 乱]}",
+        "description": "姓李的案件，但不包括'岁'或'乱'作为案件名称的开始"
+    },
+    {
+        "query": "石某 案/n",
+        "description": "石某的案件，后面紧跟着一个名词"
+    },
+    {
+        "query": "(ns) 陈某{begin($1)=[河 操 底]}",
+        "description": "姓陈的人名，但不以'河'、'操'或'底'开头"
+    },
+    {
+        "query": "湖北 .../[ns v]",
+        "description": "湖北省相关的句子，可能包含名词或动词"
+    },
+    {
+        "query": "中国 ../n",
+        "description": "中国的后面跟着一个名词"
+    },
+    {
+        "query": "政府 (n) 座谈会{count>3}",
+        "description": "政府组织的多于3次的座谈会"
+    },
+    {
+        "query": "(n) (n){len($2)=2}",
+        "description": "两个相邻的名词，第二个名词长度为2"
+    },
+    {
+        "query": "死刑 (v){len($1)!=3}",
+        "description": "不是由三个字符组成的死刑相关词汇"
+    },
+    {
+        "query": "清理 (n) 事业{len($1)=2}",
+        "description": "清理的事业，但清理这个词的长度为2"
+    },
+    {
+        "query": "(n) 党建 好不 (a){begin($1)=[基 马]}",
+        "description": "党建后面跟着的好不好，但不以'基'或'马'开头"
+    },
+    {
+        "query": "../v 评议",
+        "description": "两个词组成的动词后面接评议"
+    },
+    {
+        "query": "群众 (n){begin($1)=[点 农 专]}",
+        "description": "群众后面，但不以'点'、'农'或'专'开始的名词"
+    },
+    {
+        "query": "一 ~ 一",
+        "description": "一后面跟一个词然后又是一"
+    },
+    {
+        "query": "汉字 (u) 美{count<665}",
+        "description": "美的汉字，出现次数少于665次"
+    },
+    {
+        "query": "： (nr){end($1)=[嵩 爸 没 饿]}",
+        "description": "冒号后面跟着的人名，但不以'嵩'、'爸'、'没'或'饿'结束"
+    },
+    {
+        "query": "r d",
+        "description": "r后面直接跟d"
+    },
+    {
+        "query": "喜欢 . 所以",
+        "description": "喜欢后面隔一个字符后接'所以'"
+    },
+    {
+        "query": "寥寥无几 ./[w v]",
+        "description": "寥寥无几后面可能是形容词或动词"
+    },
+    {
+        "query": "下来",
+        "description": "单独的'下来'词"
+    },
+    {
+        "query": "../p 目前",
+        "description": "两个词组成的介词后面接'目前'"
+    },
+    {
+        "query": "@/[p v] 国内",
+        "description": "可能是介词或动词开头，后面接'国内'"
+    },
+    {
+        "query": "需要 r 多",
+        "description": "需要后面跟'r'，后面可能是'多'"
+    },
+    {
+        "query": "(t) 本{begin($1)!=[认 斗 封 农]}",
+        "description": "以't'开头的词，但不以'认'、'斗'、'封'或'农'开始"
+    },
+    {
+        "query": "为 @ 石窟",
+        "description": "为后面接一个词，统计时按词性归并"
+    },
+    {
+        "query": "权 (d) 可{count>7}",
+        "description": "权之后的副词'可'，出现次数超过7次"
+    },
+    {
+        "query": "孩子 ./[k v] 的",
+        "description": "孩子后面可能是'k'或'v'开头的词，后面接'的'"
+    },
+    {
+        "query": "载 (n){end($1)!=[抢 涛 水 其]}",
+        "description": "载后面，但不以'抢'、'涛'、'水'或'其'结束的名词"
+    },
+    {
+        "query": "撒播 (n){len($1)>1}",
+        "description": "撒播的名词，长度大于1"
+    },
+    {
+        "query": "~/[v v] 基层",
+        "description": "可能是两个连续的动词后面接'基层'"
+    },
+    {
+        "query": "(v) 整合{len($1)<3}",
+        "description": "整合的动词，长度小于3"
+    },
+    {
+        "query": "有",
+        "description": "单独的'有'"
+    },
+    {
+        "query": "一分收获 (w){count<389}",
+        "description": "一分收获，出现次数少于389次"
+    },
+    {
+        "query": "背后",
+        "description": "单独的'背后'"
+    },
+    {
+        "query": "是",
+        "description": "单独的'是'"
+    },
+    {
+        "query": "(n) 等 (r){len($1)=2; len($2)!=2}",
+        "description": "两个相邻的名词，第一个名词长度为2，第二个不是"
+    },
+    {
+        "query": "@/[ns v] 禁塑",
+        "description": "可能是名词或动词开头，后面接'禁塑'"
+    },
+    {
+        "query": "民生 (v){begin($1)!=[替 懒 涨]}",
+        "description": "民生开头的动词，但不以'替'、'懒'或'涨'开始"
+    },
+    {
+        "query": "得",
+        "description": "单独的'得'"
+    },
+    {
+        "query": "，",
+        "description": "逗号"
+    },
+    {
+        "query": "说 (w){count>8}",
+        "description": "说这个词出现次数超过8次"
+    }
+]
+```

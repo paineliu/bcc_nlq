@@ -1,0 +1,88 @@
+以下是您提供的检索式转换为带含义的JSON结构：
+
+```json
+[
+    {
+        "query": "@/[j v] 冲突",
+        "description": "词性为名动词或动词的词后面接冲突"
+    },
+    {
+        "query": "都 @/[v v] 给予",
+        "description": "都后面接词性为动词的词，再接给予"
+    },
+    {
+        "query": "(v) 原油 (vn){count>3}",
+        "description": "动词后接原油，且动名词的实例频次大于3"
+    },
+    {
+        "query": "越南 (n) 主席{len($1)=2}",
+        "description": "越南后接长度为2的名词，再接主席"
+    },
+    {
+        "query": "(j) 外交 与 安全 战略 对话 (v){count>3}",
+        "description": "简称略语后接外交与安全战略对话，且动词的实例频次大于3"
+    },
+    {
+        "query": "(ns) 载百{count<840}",
+        "description": "地名后接载百，且实例频次小于840"
+    },
+    {
+        "query": "美方 ad 反省",
+        "description": "美方后接副形词，再接反省"
+    },
+    {
+        "query": "中方 . 何",
+        "description": "中方后接一个字，再接何"
+    },
+    {
+        "query": "~ 旅领",
+        "description": "一个词后接旅领"
+    },
+    {
+        "query": "飞 ./[w v] 往前",
+        "description": "飞后接单字词或动词，再接往前"
+    },
+    {
+        "query": "哪",
+        "description": "包含哪的句子"
+    },
+    {
+        "query": "最 ~ 的",
+        "description": "最后接一个词，再接的"
+    },
+    {
+        "query": "选择 (w){count<623}",
+        "description": "选择后接标点符号，且实例频次小于623"
+    },
+    {
+        "query": "飞",
+        "description": "包含飞的句子"
+    },
+    {
+        "query": "起 n 来",
+        "description": "起后接名词，再接来"
+    },
+    {
+        "query": "成果 (v){end($1)!=[赶 怕]}",
+        "description": "成果后接动词，且动词的结尾不是赶或怕"
+    },
+    {
+        "query": "有 (n) ，{begin($1)!=[稳 出 勇 领]}",
+        "description": "有后接名词，逗号开始的内容不是稳、出、勇、领"
+    },
+    {
+        "query": "着 ../[n v] 返航",
+        "description": "着后接二字名词或动词，再接返航"
+    },
+    {
+        "query": "(v) 赵理准 的 (b){len($2)=2}",
+        "description": "动词后接赵理准的，区别词的长度为2"
+    },
+    {
+        "query": "， (v) 完成{count<676}",
+        "description": "逗号后接动词完成，且实例频次小于676"
+    }
+]
+```
+
+请注意，这些JSON对象中的描述是基于对您给出的检索式的理解，如有任何不准确之处，请指正。

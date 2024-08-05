@@ -1,0 +1,163 @@
+```json
+[
+    {
+        "query": "与 (vn){end($1)=[发 克 元 鱼]}", 
+        "description": "动词后，接以发、克、元、鱼结尾的词"
+    },
+    {
+        "query": "要 ../[v v] 平衡", 
+        "description": "接两个连续的动词，后面跟平衡"
+    },
+    {
+        "query": "~ 和", 
+        "description": "一个词，后面是和"
+    },
+    {
+        "query": "./d 是", 
+        "description": "一个单字的连词后接是"
+    },
+    {
+        "query": "当然/d 不是", 
+        "description": "副词当然后接不是"
+    },
+    {
+        "query": "不是 w", 
+        "description": "不是后面接一个词"
+    },
+    {
+        "query": "新 (n){len($1)!=3}", 
+        "description": "新后面接长度不为3的名词"
+    },
+    {
+        "query": "(n) 开发{count<967}", 
+        "description": "名词开发，实例频次少于967"
+    },
+    {
+        "query": "福建 (ns) 土楼{count<821}", 
+        "description": "福建和土楼，频次少于821"
+    },
+    {
+        "query": "(ns) (ns){len($1)=2}", 
+        "description": "两个地名，每个地名长度为2"
+    },
+    {
+        "query": "(vn) ： (nr){count<285}", 
+        "description": "动词后接冒号，然后接名词，频次少于285"
+    },
+    {
+        "query": "../v 文物", 
+        "description": "接文物的双音节动词"
+    },
+    {
+        "query": "开发 (d) 叫停{len($1)!=3}", 
+        "description": "开发后接副词，但副词长度不为3"
+    },
+    {
+        "query": "协调 ~/[w v]", 
+        "description": "协调后面离合出现一个词，可能是动词或形容词"
+    },
+    {
+        "query": "资金 ~/[r v] 用到", 
+        "description": "资金后面离合出现一个词，可能是关系词或动词，后面接用到"
+    },
+    {
+        "query": "的 ../[a v] 两岸", 
+        "description": "的后面接形容词或动词，然后接两岸"
+    },
+    {
+        "query": "(u) (nr){len($2)>1}", 
+        "description": "接一个长度大于1的名词的未知词"
+    },
+    {
+        "query": "原始 而/c 宁静", 
+        "description": "原始后接连词而，再接宁静"
+    },
+    {
+        "query": "时 ./w 夜色", 
+        "description": "时后面接一个词，可能是标点或词，然后接夜色"
+    },
+    {
+        "query": "热情 @/[v v] 。", 
+        "description": "热情后接一个词，统计时按词性归并，后面是句尾"
+    },
+    {
+        "query": "文化 (u) 美{len($1)!=2}", 
+        "description": "文化后接一个长度不为2的未知词，然后是美"
+    },
+    {
+        "query": "而 (a){begin($1)=[坚 姐]}", 
+        "description": "而后面接坚或姐的形容词"
+    },
+    {
+        "query": "v w", 
+        "description": "两个相邻的词"
+    },
+    {
+        "query": "(n) 讨论机{end($1)=[性 签 借 忘]}", 
+        "description": "名词讨论机，后面接性、签、借或忘"
+    },
+    {
+        "query": "(n) ！{len($1)>3}", 
+        "description": "名词后面接一个长度大于3的感叹词"
+    },
+    {
+        "query": ". 立极", 
+        "description": "一个字，后面是立极"
+    },
+    {
+        "query": "建立 (n) 和{len($1)=3}", 
+        "description": "建立后面接长度为3的和"
+    },
+    {
+        "query": "无着 墨/n 呢", 
+        "description": "无着墨后面接名词，然后是呢"
+    },
+    {
+        "query": "的 (a) 人生{len($1)<3}", 
+        "description": "的后面接形容词，人生长度小于3"
+    },
+    {
+        "query": "是 ./[v v] 呢", 
+        "description": "是后面接两个连续的动词，然后是呢"
+    },
+    {
+        "query": "的 故事/n 。", 
+        "description": "的后面接故事，名词结尾，然后是句尾"
+    },
+    {
+        "query": "被 ~/[v v] 。", 
+        "description": "被后面离合出现一个词，可能是动词，句尾"
+    },
+    {
+        "query": "明忠 (v) 酷刑{count<814}", 
+        "description": "明忠后接酷刑，频次少于814"
+    },
+    {
+        "query": "(v) (w){end($1)=[世 甜 书 骑]}", 
+        "description": "两个相邻的词，第二个词的结尾是世、甜、书或骑"
+    },
+    {
+        "query": "幼女 ./[w v] 怎样", 
+        "description": "幼女后面接一个词，可能是形容词或动词，后面是怎样"
+    },
+    {
+        "query": "陈/nr 明忠", 
+        "description": "陈后面接人名明忠"
+    },
+    {
+        "query": ".. ：" 
+    },
+    {
+        "query": "回去 (u) 开{count>4}", 
+        "description": "回去后接一个未知词，频次大于4，然后是开"
+    },
+    {
+        "query": "(v) 阵容{len($1)=2}", 
+        "description": "接一个长度为2的动词阵容"
+    },
+    {
+        "query": "球队 (v) 被动{end($1)!=[冒 听 靠 呆]}", 
+        "description": "球队后接被动的动词，但不接冒、听、靠或呆"
+    }
+]
+```

@@ -1,0 +1,84 @@
+```json
+[
+    {
+        "query": "专业 r 词",
+        "description": "专业后面接副词和词"
+    },
+    {
+        "query": "(r) (n){len($1)>1}",
+        "description": "副形词后面接名词，名词长度大于1"
+    },
+    {
+        "query": "什么 . ？",
+        "description": "什么后面接任意单字，再接问号"
+    },
+    {
+        "query": "不 @ 白花",
+        "description": "不后面接任意词性，再接白花"
+    },
+    {
+        "query": "(nr) 说{len($1)=3}",
+        "description": "人名后面接说，人名长度等于3"
+    },
+    {
+        "query": "./p 技术",
+        "description": "介词后面接技术"
+    },
+    {
+        "query": "与 (n) 考古{len($1)>1}",
+        "description": "与后面接名词，名词长度大于1，再接考古"
+    },
+    {
+        "query": "自上而下 .. 为",
+        "description": "自上而下后面接两个字，再接为"
+    },
+    {
+        "query": "铜 @ 首",
+        "description": "铜后面接任意词性，再接首"
+    },
+    {
+        "query": "(c) (n){len($1)>1; end($2)!=[共 少 像 话]}",
+        "description": "连词后面接名词，名词长度大于1，名词不以共、少、像、话结尾"
+    },
+    {
+        "query": "九 (n) 北朝{begin($1)!=[钱 并]}",
+        "description": "九后面接名词，名词不以钱或并开头，再接北朝"
+    },
+    {
+        "query": "独木棺",
+        "description": "包含独木棺的句子"
+    },
+    {
+        "query": "甘肃/ns 马鬃山",
+        "description": "甘肃作为地名后面接马鬃山"
+    },
+    {
+        "query": "(n) (n){end($2)=[址 习]}",
+        "description": "名词后面接名词，第二个名词以址或习结尾"
+    },
+    {
+        "query": "中国",
+        "description": "包含中国的句子"
+    },
+    {
+        "query": "(ns) 祥云县{end($1)=[南 呗]}",
+        "description": "地名后面接祥云县，地名以南或呗结尾"
+    },
+    {
+        "query": "考古学 (n) 序列{len($1)!=3}",
+        "description": "考古学后面接名词，名词长度不等于3，再接序列"
+    },
+    {
+        "query": "./r 遗址",
+        "description": "任意单字副词后面接遗址"
+    },
+    {
+        "query": "墓地 ./c 曲踏",
+        "description": "墓地后面接单字连词，再接曲踏"
+    },
+    {
+        "query": "复原 (n) 王国{len($1)<3}",
+        "description": "复原后面接名词，名词长度小于3，再接王国"
+    }
+]
+```

@@ -1,0 +1,167 @@
+以下是将给定的检索式转换为带含义的json结构的结果：
+
+```json
+[
+    {
+        "query": "不准v",
+        "description": "不允许动词后面的句子"
+    },
+    {
+        "query": "m肚子n",
+        "description": "由m修饰的肚子加名词的句子"
+    },
+    {
+        "query": "抓紧n",
+        "description": "抓紧加名词的句子"
+    },
+    {
+        "query": "a冻结",
+        "description": "形容词冻结的句子"
+    },
+    {
+        "query": "a共同",
+        "description": "形容词共同的句子"
+    },
+    {
+        "query": "a动用",
+        "description": "形容词动用的句子"
+    },
+    {
+        "query": "你一个n",
+        "description": "你加一个名词的句子"
+    },
+    {
+        "query": "n梗",
+        "description": "名词梗的句子"
+    },
+    {
+        "query": "兄弟n",
+        "description": "兄弟加名词的句子"
+    },
+    {
+        "query": "v了m分钟",
+        "description": "动词后加m分钟的句子"
+    },
+    {
+        "query": "a不可",
+        "description": "形容词不可的句子"
+    },
+    {
+        "query": "都什么n啦",
+        "description": "都加名词加上啦的句子"
+    },
+    {
+        "query": "a一生",
+        "description": "形容词一生的句子"
+    },
+    {
+        "query": "a偷税",
+        "description": "形容词偷税的句子"
+    },
+    {
+        "query": "，多次v",
+        "description": "逗号后加多次动词的句子"
+    },
+    {
+        "query": "a制作",
+        "description": "形容词制作的句子"
+    },
+    {
+        "query": "v着+w",
+        "description": "动词后加着，再加一个词的句子"
+    },
+    {
+        "query": "v着 w",
+        "description": "动词后加着，再加一个词的句子"
+    },
+    {
+        "query": "也许未必v",
+        "description": "也许或者未必后接动词的句子"
+    },
+    {
+        "query": "v与被v",
+        "description": "动词与被动词的句子"
+    },
+    {
+        "query": "没V",
+        "description": "没后接动词的句子"
+    },
+    {
+        "query": "开始V",
+        "description": "开始后接动词的句子"
+    },
+    {
+        "query": "搞a了n",
+        "description": "搞后加形容词加名词的句子"
+    },
+    {
+        "query": "几乎没a",
+        "description": "几乎没后接形容词的句子"
+    },
+    {
+        "query": "不论n还是n",
+        "description": "不论加名词还是加名词的句子"
+    },
+    {
+        "query": "高大的n",
+        "description": "高大的加名词的句子"
+    },
+    {
+        "query": "a不料",
+        "description": "形容词不料的句子"
+    },
+    {
+        "query": "a分红",
+        "description": "形容词分红的句子"
+    },
+    {
+        "query": "太z",
+        "description": "太后的句子"
+    },
+    {
+        "query": "关+a",
+        "description": "关后加形容词的句子"
+    },
+    {
+        "query": "关 a",
+        "description": "关后加一个词的句子"
+    },
+    {
+        "query": "当场把n+v了",
+        "description": "当场后接名词加动词的句子"
+    },
+    {
+        "query": "当场把n v了",
+        "description": "当场后接名词加动词的句子"
+    },
+    {
+        "query": "d亲手",
+        "description": "d亲手的句子"
+    },
+    {
+        "query": "经验+u",
+        "description": "经验加u的句子"
+    },
+    {
+        "query": "经验 u",
+        "description": "经验后加一个词的句子"
+    },
+    {
+        "query": "p或p",
+        "description": "p或者p的句子"
+    },
+    {
+        "query": "v死",
+        "description": "动词后接死的句子"
+    },
+    {
+        "query": "看r多么a",
+        "description": "看后接r修饰的形容词的句子"
+    },
+    {
+        "query": "n点心",
+        "description": "名词点心的句子"
+    }
+]
+```
+这个json数组包含了所有给定检索式的描述信息，每个元素都有一个`query`字段表示检索式本身，以及一个`description`字段表示检索式的含义。

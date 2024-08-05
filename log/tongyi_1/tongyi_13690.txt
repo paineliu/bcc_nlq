@@ -1,0 +1,160 @@
+```json
+[
+    {
+        "query": "是 ./a", 
+        "description": "是后面接形容词"
+    },
+    {
+        "query": "哪个 ~ 得", 
+        "description": "哪个后面接一个词"
+    },
+    {
+        "query": "等 (u) 瞧{len($1)=1}", 
+        "description": "等后面接一个字的瞧"
+    },
+    {
+        "query": "自己", 
+        "description": "自己"
+    },
+    {
+        "query": "(ns) 的 变化 看 得 见 (w){count<987}", 
+        "description": "的后面跟变化、看、得、见，这些词的组合，总频次少于987次"
+    },
+    {
+        "query": "祖法 香热/n 茶", 
+        "description": "祖法后面接香热的名词茶"
+    },
+    {
+        "query": "褚 ../[nr v] 找上门", 
+        "description": "褚后面接人名或动词，然后找上门"
+    },
+    {
+        "query": "心", 
+        "description": "心"
+    },
+    {
+        "query": "(w) (l){begin($2)!=[怕 游]}", 
+        "description": "两个相邻的词，第二个词不是怕或游"
+    },
+    {
+        "query": "法子 ./[w v] 要", 
+        "description": "法子后面接一个词或动词，然后是想要"
+    },
+    {
+        "query": "新 (n) 。{begin($1)=[希 太 牛 萌]}", 
+        "description": "新后面接名词，且名词的开头是希、太、牛或萌"
+    },
+    {
+        "query": "质量 做好/v 农业", 
+        "description": "质量后面接做好，再接农业"
+    },
+    {
+        "query": "制图 w 张芳曼", 
+        "description": "制图后面接张芳曼"
+    },
+    {
+        "query": "互通 (w) 打通{count<370}", 
+        "description": "互通后面接打通，总频次少于370次"
+    },
+    {
+        "query": "浓度", 
+        "description": "浓度"
+    },
+    {
+        "query": "(v) 搞好 功能 (vn){len($2)<3}", 
+        "description": "动词后面接搞好，然后是长度少于3个字的动名词"
+    },
+    {
+        "query": "是 ../v 科学", 
+        "description": "是后面接一个双音节动词科学"
+    },
+    {
+        "query": "是", 
+        "description": "是"
+    },
+    {
+        "query": "四 v 依法", 
+        "description": "四后面接一个动词，然后是依法"
+    },
+    {
+        "query": "造福 (n){begin($1)=[全 补 省]}", 
+        "description": "造福后面接全、补或省开头的名词"
+    },
+    {
+        "query": "大会 ~ 筹备", 
+        "description": "大会后面接一个词筹备"
+    },
+    {
+        "query": "跨界 ~ 变", 
+        "description": "跨界后面接一个词变"
+    },
+    {
+        "query": "(v) 经济 结构 之 (v){$1=$2}", 
+        "description": "两个相邻的动词，且第一个和第二个动词相同"
+    },
+    {
+        "query": "第三 (v) 发展{count>3}", 
+        "description": "第三后面接发展，总频次大于3次"
+    },
+    {
+        "query": ", ~ 经济", 
+        "description": "逗号后面接经济"
+    },
+    {
+        "query": "要 (n) 共治{count<620}", 
+        "description": "要后面接名词，且共治的频次少于620次"
+    },
+    {
+        "query": "机器人 ~/[n v]", 
+        "description": "机器人后面接一个词，可能是名词或动词"
+    },
+    {
+        "query": "(n) (n){begin($2)!=[接 联]}", 
+        "description": "两个相邻的名词，第二个名词不是接或联"
+    },
+    {
+        "query": "(ns) (n){begin($1)!=[呢 或 工]}", 
+        "description": "两个相邻的地名，第一个地名不是呢或工"
+    },
+    {
+        "query": "(ns) (n){begin($1)=[德州 风 熊]; len($2)=2}", 
+        "description": "两个相邻的地名，第一个是德州、风或熊，第二个是长度为2的名词"
+    },
+    {
+        "query": "(v) (r){end($1)=[v 辣 困 波]; len($2)=2}", 
+        "description": "动词后面接一个长度为2的词，且该词以v、辣、困或波结尾"
+    },
+    {
+        "query": "与", 
+        "description": "与"
+    },
+    {
+        "query": "治沙 (n) 显着{count<693}", 
+        "description": "治沙后面接显着，总频次少于693次"
+    },
+    {
+        "query": "竹子 行动/vn 获赞", 
+        "description": "竹子后面接行动的动名词获赞"
+    },
+    {
+        "query": "说/v 。/w", 
+        "description": "说后面接一个动词，然后是一个句号"
+    },
+    {
+        "query": "(n) (n){len($1)<3; len($2)>1}", 
+        "description": "两个相邻的名词，第一个长度小于3，第二个长度大于1"
+    },
+    {
+        "query": "走 ~ 之", 
+        "description": "走后面接一个词"
+    },
+    {
+        "query": "(n) (n){len($1)=2}", 
+        "description": "两个相邻的名词，第一个是长度为2的名词"
+    },
+    {
+        "query": "(n) (n){len($1)<3; len($2)>1}", 
+        "description": "两个相邻的名词，第一个长度小于3，第二个长度大于1"
+    }
+]
+```

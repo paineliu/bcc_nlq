@@ -1,0 +1,166 @@
+以下是将给定的检索式转换为带含义的json结构：
+
+```json
+[
+    {
+        "query": "凉不凉快",
+        "description": "包含'凉不凉快'的句子"
+    },
+    {
+        "query": "天真",
+        "description": "包含'天真'的句子"
+    },
+    {
+        "query": "想来",
+        "description": "包含'想来'的句子"
+    },
+    {
+        "query": "人权信",
+        "description": "包含'人权信'的句子"
+    },
+    {
+        "query": "都对于",
+        "description": "包含'都对于'的句子"
+    },
+    {
+        "query": "地久天长",
+        "description": "包含'地久天长'的句子"
+    },
+    {
+        "query": "千波",
+        "description": "包含'千波'的句子"
+    },
+    {
+        "query": "痴痴",
+        "description": "包含'痴痴'的句子"
+    },
+    {
+        "query": "恳恳切切",
+        "description": "包含'恳恳切切'的句子"
+    },
+    {
+        "query": "配合",
+        "description": "包含'配合'的句子"
+    },
+    {
+        "query": "定时",
+        "description": "包含'定时'的句子"
+    },
+    {
+        "query": "对言",
+        "description": "包含'对言'的句子"
+    },
+    {
+        "query": "小的小",
+        "description": "包含'小的小'的句子"
+    },
+    {
+        "query": "人物",
+        "description": "包含'人物'的句子"
+    },
+    {
+        "query": "听+你+放屁",
+        "description": "包含'听你放屁'的句子"
+    },
+    {
+        "query": "听 你 放屁",
+        "description": "包含'听 你 放屁'的句子"
+    },
+    {
+        "query": "玄不玄",
+        "description": "包含'玄不玄'的句子"
+    },
+    {
+        "query": "一个样的",
+        "description": "包含'一个样的'的句子"
+    },
+    {
+        "query": "存款",
+        "description": "包含'存款'的句子"
+    },
+    {
+        "query": "把话放",
+        "description": "包含'把话放'的句子"
+    },
+    {
+        "query": "喘气",
+        "description": "包含'喘气'的句子"
+    },
+    {
+        "query": "乱入",
+        "description": "包含'乱入'的句子"
+    },
+    {
+        "query": "带劲",
+        "description": "包含'带劲'的句子"
+    },
+    {
+        "query": "冷落",
+        "description": "包含'冷落'的句子"
+    },
+    {
+        "query": "满身",
+        "description": "包含'满身'的句子"
+    },
+    {
+        "query": "同样",
+        "description": "包含'同样'的句子"
+    },
+    {
+        "query": "稍稍的",
+        "description": "包含'稍稍的'的句子"
+    },
+    {
+        "query": "一下",
+        "description": "包含'一下'的句子"
+    },
+    {
+        "query": "和谐为主",
+        "description": "包含'和谐为主'的句子"
+    },
+    {
+        "query": "背地里",
+        "description": "包含'背地里'的句子"
+    },
+    {
+        "query": "银",
+        "description": "包含'银'的句子"
+    },
+    {
+        "query": "打透",
+        "description": "包含'打透'的句子"
+    },
+    {
+        "query": "和谐人民",
+        "description": "包含'和谐人民'的句子"
+    },
+    {
+        "query": "你这孩子",
+        "description": "包含'你这孩子'的句子"
+    },
+    {
+        "query": "和谐共事",
+        "description": "包含'和谐共事'的句子"
+    },
+    {
+        "query": "如何如何",
+        "description": "包含'如何如何'的句子"
+    },
+    {
+        "query": "说来话长",
+        "description": "包含'说来话长'的句子"
+    },
+    {
+        "query": "、促和谐",
+        "description": "包含'、促和谐'的句子"
+    },
+    {
+        "query": "可别提啦",
+        "description": "包含'可别提啦'的句子"
+    },
+    {
+        "query": "不太多",
+        "description": "包含'不太多'的句子"
+    }
+]
+```

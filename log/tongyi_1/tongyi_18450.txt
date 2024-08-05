@@ -1,0 +1,156 @@
+```json
+[
+    {
+        "query": "(u){begin($1)=[沉 们]}",
+        "description": "以沉或们开始的句子"
+    },
+    {
+        "query": "(d) 伤害 了 被 (v){count<392}",
+        "description": "包含伤害、了、被，且动词频次小于392"
+    },
+    {
+        "query": "自身 (w){count<913}",
+        "description": "自身，频次小于913"
+    },
+    {
+        "query": "结束 之际/f ，",
+        "description": "结束之际，后面可能接逗号"
+    },
+    {
+        "query": "记者 ./[u v] 崇高",
+        "description": "记者后面接一个动词或名词，再接崇高"
+    },
+    {
+        "query": "监督 n ？",
+        "description": "监督后接名词，可能以问号结尾"
+    },
+    {
+        "query": "./[n v] 海关",
+        "description": "动词或名词后接海关"
+    },
+    {
+        "query": "多媒体 信息/n 扶贫",
+        "description": "多媒体信息后接名词扶贫"
+    },
+    {
+        "query": "~ 互联网",
+        "description": "互联网，可能是一个词"
+    },
+    {
+        "query": "互联网 @/[v v] 高效",
+        "description": "互联网后接两个动词，高效"
+    },
+    {
+        "query": "互联网 (v) 流通{len($1)=1}",
+        "description": "互联网后接一个单音节动词流通"
+    },
+    {
+        "query": "生根 发芽/v",
+        "description": "生根发芽，两个动词相连"
+    },
+    {
+        "query": "满 (v) 纯真{len($1)!=2}",
+        "description": "满后接一个非两字纯真的动词"
+    },
+    {
+        "query": "传承 @/[w v] 相伴",
+        "description": "传承后接一个词性为动词或形容词，再接相伴"
+    },
+    {
+        "query": "在 @/[v v]",
+        "description": "在后接两个动词"
+    },
+    {
+        "query": ".. 专业 ..",
+        "description": "两个连续的词，可能是专业前后都有"
+    },
+    {
+        "query": "有 (vn) 精神{len($1)>1}",
+        "description": "有后接一个至少两个字的动词精神"
+    },
+    {
+        "query": "五/m 、",
+        "description": "五后面接一个/，可能表示列举"
+    },
+    {
+        "query": "亚冠 ~/[n v]",
+        "description": "亚冠后接名词或动词"
+    },
+    {
+        "query": "贪腐 (n){len($1)>1}",
+        "description": "贪腐，名词长度大于1"
+    },
+    {
+        "query": "(m) 、 世界 网坛 频 (v){len($1)!=2; len($2)!=3}",
+        "description": "可能是三个名词，中间用/隔开，第一部分长度不为2，第二部分长度不为3"
+    },
+    {
+        "query": "科比 (v) 退役{len($1)>1}",
+        "description": "科比后接一个长度大于1的动词，可能是科比退役"
+    },
+    {
+        "query": "独揽 (n){end($1)!=[课 国 入]}",
+        "description": "独揽后接一个不以课、国、入结尾的名词"
+    },
+    {
+        "query": ". 蔡华伟 图片 来源 .",
+        "description": "蔡华伟图片来源，可能前后各有一个句号"
+    },
+    {
+        "query": "向 (nr){count>10}",
+        "description": "向后接一个出现次数大于10的人名"
+    },
+    {
+        "query": "的 ./[a v] 样子",
+        "description": "的后面接形容词或动词，再接样子"
+    },
+    {
+        "query": "文工团 n 张天宇",
+        "description": "文工团后接名词张天宇"
+    },
+    {
+        "query": "的 ./[m v] 颗",
+        "description": "的后面接数量词，再接一个名词"
+    },
+    {
+        "query": "爱 ./[w v] 是",
+        "description": "爱后接一个词性为动词或形容词，再接是"
+    },
+    {
+        "query": "的 . 美",
+        "description": "的后面接一个词，可能以句号结尾"
+    },
+    {
+        "query": "香永 (v) 人间{len($1)!=2}",
+        "description": "香永后接一个非两字的动词人间"
+    },
+    {
+        "query": "~/[j v] 文工团",
+        "description": "可能以介词或动词开头，接文工团"
+    },
+    {
+        "query": "近水沐 (n){end($1)!=[回 待]}",
+        "description": "近水沐后接一个不以回或待结尾的名词"
+    },
+    {
+        "query": "那 ./[m v] 年",
+        "description": "那后接一个动词或名词，再接年"
+    },
+    {
+        "query": "~/[nr v] 民居",
+        "description": "可能以人名或动词开头，接民居"
+    },
+    {
+        "query": "(nr) (n){$1=$2}",
+        "description": "两个相同的名词"
+    },
+    {
+        "query": "人气 a 逆袭",
+        "description": "人气后接形容词，再接逆袭"
+    },
+    {
+        "query": "农村 @",
+        "description": "农村，统计时按照词性归并"
+    }
+]
+```

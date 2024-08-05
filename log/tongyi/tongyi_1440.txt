@@ -1,0 +1,168 @@
+为了将上述检索式转换为带含义的json结构，我们需要逐一解析每个检索式，并根据其描述提供相应的json表示。以下是转换后的json结构列表：
+
+```json
+[
+    {
+        "query": "二代",
+        "description": "包含“二代”的句子"
+    },
+    {
+        "query": "合",
+        "description": "包含“合”的句子"
+    },
+    {
+        "query": "则",
+        "description": "包含“则”的句子"
+    },
+    {
+        "query": "收场",
+        "description": "包含“收场”的句子"
+    },
+    {
+        "query": "算不得",
+        "description": "包含“算不得”的句子"
+    },
+    {
+        "query": "生态环境保护",
+        "description": "包含“生态环境保护”的句子"
+    },
+    {
+        "query": "惹",
+        "description": "包含“惹”的句子"
+    },
+    {
+        "query": "分流",
+        "description": "包含“分流”的句子"
+    },
+    {
+        "query": "吃饭不吃",
+        "description": "包含“吃饭不吃”的句子"
+    },
+    {
+        "query": "咯",
+        "description": "包含“咯”的句子"
+    },
+    {
+        "query": "大致说来",
+        "description": "包含“大致说来”的句子"
+    },
+    {
+        "query": "浮着",
+        "description": "包含“浮着”的句子"
+    },
+    {
+        "query": "宽松和谐",
+        "description": "包含“宽松和谐”的句子"
+    },
+    {
+        "query": "，但是",
+        "description": "包含“，但是”的句子"
+    },
+    {
+        "query": "奇异",
+        "description": "包含“奇异”的句子"
+    },
+    {
+        "query": "人权情",
+        "description": "包含“人权情”的句子"
+    },
+    {
+        "query": "骑车骑的",
+        "description": "包含“骑车骑的”的句子"
+    },
+    {
+        "query": "老公",
+        "description": "包含“老公”的句子"
+    },
+    {
+        "query": "一定会",
+        "description": "包含“一定会”的句子"
+    },
+    {
+        "query": "给你，",
+        "description": "包含“给你，”的句子"
+    },
+    {
+        "query": "面人权",
+        "description": "包含“面人权”的句子"
+    },
+    {
+        "query": "忿忿",
+        "description": "包含“忿忿”的句子"
+    },
+    {
+        "query": "可不！",
+        "description": "包含“可不！”的句子"
+    },
+    {
+        "query": "和谐思想",
+        "description": "包含“和谐思想”的句子"
+    },
+    {
+        "query": "。别管",
+        "description": "包含“。别管”的句子"
+    },
+    {
+        "query": "我没有发现",
+        "description": "包含“我没有发现”的句子"
+    },
+    {
+        "query": "硬",
+        "description": "包含“硬”的句子"
+    },
+    {
+        "query": "我想静静",
+        "description": "包含“我想静静”的句子"
+    },
+    {
+        "query": "这届",
+        "description": "包含“这届”的句子"
+    },
+    {
+        "query": "多的是",
+        "description": "包含“多的是”的句子"
+    },
+    {
+        "query": "问",
+        "description": "包含“问”的句子"
+    },
+    {
+        "query": "清醒",
+        "description": "包含“清醒”的句子"
+    },
+    {
+        "query": "似乎总是",
+        "description": "包含“似乎总是”的句子"
+    },
+    {
+        "query": "岂是",
+        "description": "包含“岂是”的句子"
+    },
+    {
+        "query": "拣在",
+        "description": "包含“拣在”的句子"
+    },
+    {
+        "query": "些儿",
+        "description": "包含“些儿”的句子"
+    },
+    {
+        "query": "长久",
+        "description": "包含“长久”的句子"
+    },
+    {
+        "query": "尚且",
+        "description": "包含“尚且”的句子"
+    },
+    {
+        "query": "经过",
+        "description": "包含“经过”的句子"
+    },
+    {
+        "query": "逆天",
+        "description": "包含“逆天”的句子"
+    }
+]
+```
+
+这个json列表包含了上述检索式对应的详细描述，每个检索式对应一条记录，便于理解和分析。

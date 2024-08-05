@@ -1,0 +1,166 @@
+以下是将给定的检索式转换为带含义的json结构的结果：
+
+```json
+[
+    {
+        "query": "偶尔d+v[，+。]", 
+        "description":"副词偶尔后接动词，动词后接逗号或句号"
+    },
+    {
+        "query": "偶尔d v[， 。]", 
+        "description":"副词偶尔后接动词，动词后接逗号或句号"
+    },
+    {
+        "query": "[不要+不用+不住]v[q+m+]v[，+。]", 
+        "description":"由不要、不用、不住组成的序列后接动词，动词后接q、m加号和逗号或句号"
+    },
+    {
+        "query": "[不要 不用 不住]v[q m ]v[， 。]", 
+        "description":"由不要、不用、不住组成的序列后接动词，动词后接q、m和逗号或句号"
+    },
+    {
+        "query": "乘机a[，+。]", 
+        "description":"乘机后接逗号或句号"
+    },
+    {
+        "query": "乘机a[， 。]", 
+        "description":"乘机后接逗号或句号"
+    },
+    {
+        "query": "[撕+耍+赚+捞+兜+扎+改+扮]个", 
+        "description":"由撕、耍、赚、捞、兜、扎、改、扮组成的序列后接一个字"
+    },
+    {
+        "query": "[撕 耍 赚 捞 兜 扎 改 扮]个", 
+        "description":"由撕、耍、赚、捞、兜、扎、改、扮组成的序列后接一个字"
+    },
+    {
+        "query": "至少d+a[，+。]", 
+        "description":"副词至少后接一个动词，动词后接逗号或句号"
+    },
+    {
+        "query": "至少d a[， 。]", 
+        "description":"副词至少后接一个动词，动词后接逗号或句号"
+    },
+    {
+        "query": "将近v+u[，+。]", 
+        "description":"动词将近后接u加号和逗号或句号"
+    },
+    {
+        "query": "将近v u[， 。]", 
+        "description":"动词将近后接u和逗号或句号"
+    },
+    {
+        "query": "足以v[，+。]", 
+        "description":"动词足以后接逗号或句号"
+    },
+    {
+        "query": "足以v[， 。]", 
+        "description":"动词足以后接逗号或句号"
+    },
+    {
+        "query": "不d+v[，+。]", 
+        "description":"副词不后接动词，动词后接逗号或句号"
+    },
+    {
+        "query": "不d v[， 。]", 
+        "description":"副词不后接动词，动词后接逗号或句号"
+    },
+    {
+        "query": "曾经v[，+。]", 
+        "description":"动词曾经后接逗号或句号"
+    },
+    {
+        "query": "曾经v[， 。]", 
+        "description":"动词曾经后接逗号或句号"
+    },
+    {
+        "query": "比较d+v[，+。]", 
+        "description":"副词比较后接动词，动词后接逗号或句号"
+    },
+    {
+        "query": "比较d v[， 。]", 
+        "description":"副词比较后接动词，动词后接逗号或句号"
+    },
+    {
+        "query": "[ns+nt+f+s]经历了", 
+        "description":"由ns、nt、f、s组成的序列后接经历了"
+    },
+    {
+        "query": "[ns nt f s]经历了", 
+        "description":"由ns、nt、f、s组成的序列后接经历了"
+    },
+    {
+        "query": "一贯v[v+a+n+r][，+。]", 
+        "description":"动词一贯后接v、a、n、r组成的序列，序列后接逗号或句号"
+    },
+    {
+        "query": "一贯v[v a n r][， 。]", 
+        "description":"动词一贯后接v、a、n、r组成的序列，序列后接逗号或句号"
+    },
+    {
+        "query": "似乎v[，+。]", 
+        "description":"动词似乎后接逗号或句号"
+    },
+    {
+        "query": "似乎v[， 。]", 
+        "description":"动词似乎后接逗号或句号"
+    },
+    {
+        "query": "[v+a]得就a+w", 
+        "description":"由v、a组成的序列后接得、就、a、w"
+    },
+    {
+        "query": "[v a]得就a w", 
+        "description":"由v、a组成的序列后接得、就、a、w"
+    },
+    {
+        "query": "不许[v+a+n+r][，+。]", 
+        "description":"动词不许后接v、a、n、r组成的序列，序列后接逗号或句号"
+    },
+    {
+        "query": "不许[v a n r][， 。]", 
+        "description":"动词不许后接v、a、n、r组成的序列，序列后接逗号或句号"
+    },
+    {
+        "query": "自行v+y[，+。]", 
+        "description":"动词自行后接y加号和逗号或句号"
+    },
+    {
+        "query": "自行v y[， 。]", 
+        "description":"动词自行后接y和逗号或句号"
+    },
+    {
+        "query": "[不问+挥+送来+绞+表演+担+怕]个", 
+        "description":"由不问、挥、送来、绞、表演、担、怕组成的序列后接一个字"
+    },
+    {
+        "query": "[不问 挥 送来 绞 表演 担 怕]个", 
+        "description":"由不问、挥、送来、绞、表演、担、怕组成的序列后接一个字"
+    },
+    {
+        "query": "[a+d+n+v++l]不易", 
+        "description":"由a、d、n、v、l组成的序列后接不易"
+    },
+    {
+        "query": "[a d n v  l]不易", 
+        "description":"由a、d、n、v、l组成的序列后接不易"
+    },
+    {
+        "query": "务必v+u[，+。]", 
+        "description":"动词务必后接u加号和逗号或句号"
+    },
+    {
+        "query": "务必v u[， 。]", 
+        "description":"动词务必后接u和逗号或句号"
+    },
+    {
+        "query": "好/a[v+p+地]", 
+        "description":"形容词好后接v、p、地"
+    },
+    {
+        "query": "好/a[v p 地]", 
+        "description":"形容词好后接v、p、地"
+    }
+]
+```

@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "N演变",
+        "description": "包含\"N\"之后演变的句子"
+    },
+    {
+        "query": "a侵害",
+        "description": "包含形容词\"a\"之后侵害的句子"
+    },
+    {
+        "query": "经验+d",
+        "description": "包含\"经验\"之后加上\"d\"的句子"
+    },
+    {
+        "query": "经验 d",
+        "description": "包含\"经验\"和\"d\"的连续句子"
+    },
+    {
+        "query": "v于人",
+        "description": "包含动词\"v\"之后于人"
+    },
+    {
+        "query": "a出世",
+        "description": "包含形容词\"a\"之后出世的句子"
+    },
+    {
+        "query": "那等V来",
+        "description": "包含\"那等\"之后动词\"V\"再来"
+    },
+    {
+        "query": "乖乖y",
+        "description": "包含\"乖乖\"之后y的句子"
+    },
+    {
+        "query": "赢n",
+        "description": "包含\"赢\"之后n的句子"
+    },
+    {
+        "query": "n犯罪",
+        "description": "包含名词\"n\"之后犯罪的句子"
+    },
+    {
+        "query": "m+q状况",
+        "description": "包含\"m+q\"之后状况的句子"
+    },
+    {
+        "query": "m q状况",
+        "description": "包含\"m\"和\"q状况\"的连续句子"
+    },
+    {
+        "query": "创造+a",
+        "description": "包含\"创造\"之后加上\"a\"的句子"
+    },
+    {
+        "query": "创造 a",
+        "description": "包含\"创造\"和\"a\"的连续句子"
+    },
+    {
+        "query": "帅气的V",
+        "description": "包含形容词\"帅气的\"之后V的句子"
+    },
+    {
+        "query": "a一身",
+        "description": "包含形容词\"a\"之后一身的句子"
+    },
+    {
+        "query": "w+v得稍a+w",
+        "description": "包含\"w+v\"之后得稍再加上\"a+w\"的句子"
+    },
+    {
+        "query": "w v得稍a w",
+        "description": "包含\"w v\"之后得稍再加上\"a w\"的句子"
+    },
+    {
+        "query": "j+死了",
+        "description": "包含\"j+\"之后死了的句子"
+    },
+    {
+        "query": "j 死了",
+        "description": "包含\"j\"之后死了的句子"
+    },
+    {
+        "query": "ns+的准备",
+        "description": "包含\"ns+\"之后的准备的句子"
+    },
+    {
+        "query": "ns 的准备",
+        "description": "包含\"ns\"之后加上\"的准备\"的句子"
+    },
+    {
+        "query": "a云彩",
+        "description": "包含形容词\"a\"之后云彩的句子"
+    },
+    {
+        "query": "m房",
+        "description": "包含\"m\"之后房的句子"
+    },
+    {
+        "query": "一瓣n",
+        "description": "包含数字\"一瓣\"之后n的句子"
+    },
+    {
+        "query": "不a就v？",
+        "description": "包含\"不a\"之后就v，最后问号的句子"
+    },
+    {
+        "query": "p和p",
+        "description": "包含\"p和p\"的句子"
+    },
+    {
+        "query": "v不v这n",
+        "description": "包含动词\"v\"之后不v这n的句子"
+    },
+    {
+        "query": "v树皮",
+        "description": "包含动词\"v\"之后树皮的句子"
+    },
+    {
+        "query": "n差不多",
+        "description": "包含名词\"n\"之后差不多的句子"
+    },
+    {
+        "query": "a的感情",
+        "description": "包含形容词\"a\"之后感情的句子"
+    },
+    {
+        "query": "引起的n",
+        "description": "包含\"引起的\"之后n的句子"
+    },
+    {
+        "query": "七v八v",
+        "description": "包含数字\"七v八v\"的句子"
+    },
+    {
+        "query": "a的尸体",
+        "description": "包含形容词\"a\"之后的尸体的句子"
+    },
+    {
+        "query": "什么时候v了n？",
+        "description": "包含\"什么时候\"之后v了n，最后问号的句子"
+    },
+    {
+        "query": "a凝固",
+        "description": "包含形容词\"a\"之后凝固的句子"
+    },
+    {
+        "query": "a充满",
+        "description": "包含形容词\"a\"之后充满的句子"
+    },
+    {
+        "query": "真的a",
+        "description": "包含形容词\"真的a\"的句子"
+    },
+    {
+        "query": "一头V",
+        "description": "包含数字\"一头\"之后V的句子"
+    },
+    {
+        "query": "nr征服了",
+        "description": "包含\"nr\"之后征服了的句子"
+    }
+]
+```

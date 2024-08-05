@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "动摇",
+        "description": "动摇"
+    },
+    {
+        "query": "抚慰",
+        "description": "抚慰"
+    },
+    {
+        "query": "鱼精",
+        "description": "鱼精"
+    },
+    {
+        "query": "·和谐",
+        "description": "·和谐"
+    },
+    {
+        "query": "督察",
+        "description": "督察"
+    },
+    {
+        "query": "完税证明",
+        "description": "完税证明"
+    },
+    {
+        "query": "替",
+        "description": "替"
+    },
+    {
+        "query": "人权朝",
+        "description": "人权朝"
+    },
+    {
+        "query": "不几乎",
+        "description": "不几乎"
+    },
+    {
+        "query": "元宇宙",
+        "description": "元宇宙"
+    },
+    {
+        "query": "盯",
+        "description": "盯"
+    },
+    {
+        "query": "风和日丽",
+        "description": "风和日丽"
+    },
+    {
+        "query": "人权讨",
+        "description": "人权讨"
+    },
+    {
+        "query": "马大",
+        "description": "马大"
+    },
+    {
+        "query": "抢手",
+        "description": "抢手"
+    },
+    {
+        "query": "月老",
+        "description": "月老"
+    },
+    {
+        "query": "恶意讨薪",
+        "description": "恶意讨薪"
+    },
+    {
+        "query": "那个，这个",
+        "description": "那个，这个"
+    },
+    {
+        "query": "。完了",
+        "description": "。完了"
+    },
+    {
+        "query": "信用合作联",
+        "description": "信用合作联"
+    },
+    {
+        "query": "老骥伏枥",
+        "description": "老骥伏枥"
+    },
+    {
+        "query": "跑道",
+        "description": "跑道"
+    },
+    {
+        "query": "大军",
+        "description": "大军"
+    },
+    {
+        "query": "和谐党领",
+        "description": "和谐党领"
+    },
+    {
+        "query": "决定不了什么",
+        "description": "决定不了什么"
+    },
+    {
+        "query": "改造",
+        "description": "改造"
+    },
+    {
+        "query": "假唱",
+        "description": "假唱"
+    },
+    {
+        "query": "不太清",
+        "description": "不太清"
+    },
+    {
+        "query": "谁还不是",
+        "description": "谁还不是"
+    },
+    {
+        "query": "谐星",
+        "description": "谐星"
+    },
+    {
+        "query": "苦劝",
+        "description": "苦劝"
+    },
+    {
+        "query": "令堂",
+        "description": "令堂"
+    },
+    {
+        "query": "神气",
+        "description": "神气"
+    },
+    {
+        "query": "说什么为",
+        "description": "说什么为"
+    },
+    {
+        "query": "和谐不稳",
+        "description": "和谐不稳"
+    },
+    {
+        "query": "常常",
+        "description": "常常"
+    },
+    {
+        "query": "明明",
+        "description": "明明"
+    },
+    {
+        "query": "甸人权",
+        "description": "甸人权"
+    },
+    {
+        "query": "冷冷冰冰",
+        "description": "冷冷冰冰"
+    },
+    {
+        "query": "东海防空识别区",
+        "description": "东海防空识别区"
+    }
+]
+```

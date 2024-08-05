@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "新 (n){begin($1)=[蓝 擦 级 升]}", 
+        "description": "新后面以蓝、擦、级或升开始的名词"
+    },
+    {
+        "query": "需要 (d) 驱动{len($1)<3}", 
+        "description": "需要副词接长度小于3的驱动"
+    },
+    {
+        "query": "取直 ./[w v] 高路", 
+        "description": "取直后面跟一个介词或动词，然后是高路"
+    },
+    {
+        "query": ". 产业链", 
+        "description": "句尾是产业链"
+    },
+    {
+        "query": "健康 ../ns", 
+        "description": "健康后面接一个地名"
+    },
+    {
+        "query": "(nr) 说 (w){len($1)!=4}", 
+        "description": "某人名后面说，但不说四个字"
+    },
+    {
+        "query": "@/[p v] 这一切", 
+        "description": "以介词或动词开头，紧接着是这一切"
+    },
+    {
+        "query": "把 (n) 当{len($1)>1}", 
+        "description": "把后面跟一个名词，且名词长度大于1"
+    },
+    {
+        "query": "(v) 药{count>2}", 
+        "description": "至少出现过三次的动词后面接药"
+    },
+    {
+        "query": "承养生 n", 
+        "description": "承养生后面接名词"
+    },
+    {
+        "query": "是 ~ 时节", 
+        "description": "是后面接一个词"
+    },
+    {
+        "query": "经典 f 来", 
+        "description": "经典后面跟一个形容词，然后是来"
+    },
+    {
+        "query": "i ， 只 为 原汁原味 w", 
+        "description": "i、只、为后面接原汁原味，且原汁原味在句尾"
+    },
+    {
+        "query": "新 (n){len($1)=2}", 
+        "description": "新后面接长度为2的名词"
+    },
+    {
+        "query": "是 @/[n v] 的", 
+        "description": "是后面接名词或动词，后面是的"
+    },
+    {
+        "query": "nr 说", 
+        "description": "某人名后面直接是说"
+    },
+    {
+        "query": "(nr) 说{begin($1)=[秦 赵 号]}", 
+        "description": "某特定人名秦、赵或号后面直接是说"
+    },
+    {
+        "query": "中华人民共和国 ../n 与", 
+        "description": "中华人民共和国后面接一个名词，然后是与"
+    },
+    {
+        "query": "规划 @/[u v] 制定", 
+        "description": "规划后面接一个介词或动词，然后是制定"
+    },
+    {
+        "query": "与 (n) 保障{len($1)<3}", 
+        "description": "与后面接一个长度小于3的名词，然后是保障"
+    },
+    {
+        "query": "(l) 技术{begin($1)!=[各 份 安]}", 
+        "description": "技术前面不是各、份或安"
+    },
+    {
+        "query": "发展 ../[n v] 的", 
+        "description": "发展后面接名词或动词，然后是的"
+    },
+    {
+        "query": "(m) 条{len($1)<4}", 
+        "description": "数量词后面接长度小于4的条"
+    },
+    {
+        "query": "(m) 条{len($1)<4}", 
+        "description": "数量词后面接长度小于4的条"
+    },
+    {
+        "query": "第十三 ./[q v]", 
+        "description": "第十三后面是序数词或动词"
+    },
+    {
+        "query": "第十四 (q){count<815}", 
+        "description": "第十四的实例数量少于815"
+    },
+    {
+        "query": "@ 条", 
+        "description": "数量词后面接条"
+    },
+    {
+        "query": "第十六 ./[q v]", 
+        "description": "第十六后面是序数词或动词"
+    },
+    {
+        "query": "第十七 (q){len($1)=1}", 
+        "description": "第十七是单个数字"
+    },
+    {
+        "query": "(m) 条{len($1)>2}", 
+        "description": "数量词后面接长度大于2的条"
+    },
+    {
+        "query": "(n) 提倡 (m){len($2)>1}", 
+        "description": "提倡后面接数量词，且数量词长度大于1"
+    },
+    {
+        "query": "(m) 条{middle($1)=[十 胡]}", 
+        "description": "数量词中间是十或胡"
+    },
+    {
+        "query": "(v) (v){len($2)>1}", 
+        "description": "连续两个动词，第二个动词长度大于1"
+    },
+    {
+        "query": "(m) (q){len($1)>2}", 
+        "description": "数量词后面接长度大于2的序数词"
+    },
+    {
+        "query": "第二十一 ./q", 
+        "description": "第二十一后面是序数词"
+    },
+    {
+        "query": "第二十二", 
+        "description": "第二十二"
+    },
+    {
+        "query": "遗弃 (n) 。{len($1)!=3}", 
+        "description": "遗弃后面接名词，但名词长度不是3"
+    },
+    {
+        "query": "社会 (vn){len($1)>1}", 
+        "description": "社会后面接长度大于1的动词"
+    },
+    {
+        "query": "(m) 条{len($1)!=5}", 
+        "description": "数量词后面接长度不是5的条"
+    },
+    {
+        "query": "第二十四 (q){count>8}", 
+        "description": "第二十四的实例数量大于8"
+    }
+]
+```

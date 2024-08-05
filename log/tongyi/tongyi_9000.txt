@@ -1,0 +1,167 @@
+以下是将给定的检索式转换为带含义的json结构的结果：
+
+```json
+[
+    {
+        "query": "w现.隐w",
+        "description": "疑问词后接现和隐的组合"
+    },
+    {
+        "query": "nr*心疼",
+        "description": "人名后接心疼"
+    },
+    {
+        "query": "你.+v了",
+        "description": "你后面接动词，且动词后面有空格"
+    },
+    {
+        "query": "你. v了",
+        "description": "你后面直接接动词"
+    },
+    {
+        "query": "或许*就v",
+        "description": "或许后面离合出现就再接动词"
+    },
+    {
+        "query": "w战.和w",
+        "description": "疑问词后接战和的组合"
+    },
+    {
+        "query": "不就*了！",
+        "description": "不后面离合出现就再接感叹词"
+    },
+    {
+        "query": "*里*气",
+        "description": "空格后接里和气的组合"
+    },
+    {
+        "query": "进...来",
+        "description": "进后面隔一个字后接来"
+    },
+    {
+        "query": "女人*男人",
+        "description": "女人后接男人"
+    },
+    {
+        "query": "望........兴叹",
+        "description": "疑问词后接兴叹"
+    },
+    {
+        "query": "w首.尾w",
+        "description": "疑问词后接首和尾的组合"
+    },
+    {
+        "query": "w疑.信w",
+        "description": "疑问词后接疑和信的组合"
+    },
+    {
+        "query": "太好*了",
+        "description": "太好后面离合出现了一个词"
+    },
+    {
+        "query": "w输.赢w",
+        "description": "疑问词后接输和赢的组合"
+    },
+    {
+        "query": "被v*v",
+        "description": "被后面离合出现两个动词"
+    },
+    {
+        "query": "v*人情",
+        "description": "动词后面离合出现人情"
+    },
+    {
+        "query": "仍然..吗",
+        "description": "仍然后面隔一个字后接问号"
+    },
+    {
+        "query": "只...没",
+        "description": "只后面隔一个字后接没"
+    },
+    {
+        "query": "也许*却",
+        "description": "也许后面离合出现却"
+    },
+    {
+        "query": "顶多*好像",
+        "description": "顶多后面离合出现好像"
+    },
+    {
+        "query": "好像*当真",
+        "description": "好像后面离合出现当真"
+    },
+    {
+        "query": "怕*也许",
+        "description": "怕后面离合出现也许"
+    },
+    {
+        "query": "恐怕*非得v",
+        "description": "恐怕后面离合出现非得再接动词"
+    },
+    {
+        "query": "他.+下去w",
+        "description": "他后面接动词，且动词后面有空格"
+    },
+    {
+        "query": "他. 下去w",
+        "description": "他后面直接接动词，且动词后面无空格"
+    },
+    {
+        "query": "l+再.吧",
+        "description": "l后面接再和吧的组合"
+    },
+    {
+        "query": "l 再.吧",
+        "description": "l后面直接接再和吧"
+    },
+    {
+        "query": "随*而*",
+        "description": "随后面离合出现而"
+    },
+    {
+        "query": "动了*情。",
+        "description": "动了后面离合出现情再接句号"
+    },
+    {
+        "query": "一连.了",
+        "description": "一连后面隔一个字后接了"
+    },
+    {
+        "query": "大概*正好",
+        "description": "大概后面离合出现正好"
+    },
+    {
+        "query": "w福.祸w",
+        "description": "疑问词后接福和祸的组合"
+    },
+    {
+        "query": "V死.了",
+        "description": "动词后面接死了"
+    },
+    {
+        "query": "大概*宁可",
+        "description": "大概后面离合出现宁可"
+    },
+    {
+        "query": "望.....兴叹",
+        "description": "疑问词后接兴叹"
+    },
+    {
+        "query": "兰花*v",
+        "description": "兰花后面接动词"
+    },
+    {
+        "query": "像...一样",
+        "description": "像后面隔一个字后接一样"
+    },
+    {
+        "query": "你一个..........，",
+        "description": "你后面隔多个字后接一个"
+    },
+    {
+        "query": "吃不. ",
+        "description": "吃后面隔一个字后接不"
+    }
+]
+```
+这个json数组包含了每个检索式的详细描述，方便理解每个表达式的具体含义。

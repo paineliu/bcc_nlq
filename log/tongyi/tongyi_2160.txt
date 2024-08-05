@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "碎碎",
+        "description": "未知含义"
+    },
+    {
+        "query": "登记日期",
+        "description": "未知含义"
+    },
+    {
+        "query": "产生和谐",
+        "description": "未知含义"
+    },
+    {
+        "query": "翔实",
+        "description": "未知含义"
+    },
+    {
+        "query": "试错",
+        "description": "未知含义"
+    },
+    {
+        "query": "符号",
+        "description": "未知含义"
+    },
+    {
+        "query": "南北",
+        "description": "未知含义"
+    },
+    {
+        "query": "鲜花",
+        "description": "未知含义"
+    },
+    {
+        "query": "所有",
+        "description": "未知含义"
+    },
+    {
+        "query": "不如",
+        "description": "未知含义"
+    },
+    {
+        "query": "补阙拾遗",
+        "description": "未知含义"
+    },
+    {
+        "query": "三羽",
+        "description": "未知含义"
+    },
+    {
+        "query": "可",
+        "description": "未知含义"
+    },
+    {
+        "query": "两对",
+        "description": "未知含义"
+    },
+    {
+        "query": "要知道",
+        "description": "未知含义"
+    },
+    {
+        "query": "活不和谐",
+        "description": "未知含义"
+    },
+    {
+        "query": "乌合之众",
+        "description": "未知含义"
+    },
+    {
+        "query": "嫩滑",
+        "description": "未知含义"
+    },
+    {
+        "query": "搞了",
+        "description": "未知含义"
+    },
+    {
+        "query": "可还行",
+        "description": "未知含义"
+    },
+    {
+        "query": "侨社和谐",
+        "description": "未知含义"
+    },
+    {
+        "query": "话可不能这么说",
+        "description": "未知含义"
+    },
+    {
+        "query": "不太陌生",
+        "description": "未知含义"
+    },
+    {
+        "query": "能力有限",
+        "description": "未知含义"
+    },
+    {
+        "query": "和谐侨界",
+        "description": "未知含义"
+    },
+    {
+        "query": "改革",
+        "description": "未知含义"
+    },
+    {
+        "query": "该是多",
+        "description": "未知含义"
+    },
+    {
+        "query": "人权'",
+        "description": "未知含义"
+    },
+    {
+        "query": "长",
+        "description": "未知含义"
+    },
+    {
+        "query": "和谐也是",
+        "description": "未知含义"
+    },
+    {
+        "query": "奔过去",
+        "description": "未知含义"
+    },
+    {
+        "query": "不愈",
+        "description": "未知含义"
+    },
+    {
+        "query": "看来好像",
+        "description": "未知含义"
+    },
+    {
+        "query": "境界不境界",
+        "description": "未知含义"
+    },
+    {
+        "query": "拔草",
+        "description": "未知含义"
+    },
+    {
+        "query": "碌碌",
+        "description": "未知含义"
+    },
+    {
+        "query": "处置",
+        "description": "未知含义"
+    },
+    {
+        "query": "铺设",
+        "description": "未知含义"
+    },
+    {
+        "query": "一整天",
+        "description": "未知含义"
+    },
+    {
+        "query": "愤慨",
+        "description": "未知含义"
+    }
+]
+```

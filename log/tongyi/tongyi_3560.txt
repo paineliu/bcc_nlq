@@ -1,0 +1,160 @@
+```json
+[
+    {
+        "query": "色彩和谐",
+        "description": "包含色彩和谐的句子"
+    },
+    {
+        "query": "门人权",
+        "description": "包含门人权的句子"
+    },
+    {
+        "query": "依葫芦画瓢",
+        "description": "依葫芦画瓢的句子"
+    },
+    {
+        "query": "伶利",
+        "description": "伶利的句子"
+    },
+    {
+        "query": "录影机",
+        "description": "包含录影机的句子"
+    },
+    {
+        "query": "教",
+        "description": "包含教的句子"
+    },
+    {
+        "query": "和谐化等",
+        "description": "包含和谐化等的句子"
+    },
+    {
+        "query": "人权了",
+        "description": "包含人权了的句子"
+    },
+    {
+        "query": "利害",
+        "description": "包含利害的句子"
+    },
+    {
+        "query": "来着",
+        "description": "包含来着的句子"
+    },
+    {
+        "query": "姊妹",
+        "description": "包含姊妹的句子"
+    },
+    {
+        "query": "好像明明",
+        "description": "包含好像明明的句子"
+    },
+    {
+        "query": "猛烈",
+        "description": "包含猛烈的句子"
+    },
+    {
+        "query": "被潜规则",
+        "description": "包含被潜规则的句子"
+    },
+    {
+        "query": "啊的偏误",
+        "description": "包含啊的偏误的句子"
+    },
+    {
+        "query": "突与和谐",
+        "description": "包含突与和谐的句子"
+    },
+    {
+        "query": "这样一个",
+        "description": "包含这样一个句子"
+    },
+    {
+        "query": "把人权",
+        "description": "包含把人权的句子"
+    },
+    {
+        "query": "便宜",
+        "description": "包含便宜的句子"
+    },
+    {
+        "query": "人权纪",
+        "description": "包含人权纪的句子"
+    },
+    {
+        "query": "现人权",
+        "description": "包含现人权的句子"
+    },
+    {
+        "query": "车水马龙",
+        "description": "包含车水马龙的句子"
+    },
+    {
+        "query": "不能自己",
+        "description": "包含不能自己的句子"
+    },
+    {
+        "query": "归零",
+        "description": "包含归零的句子"
+    },
+    {
+        "query": "无如",
+        "description": "包含无如的句子"
+    },
+    {
+        "query": "甚至于说",
+        "description": "包含甚至于说的句子"
+    },
+    {
+        "query": "各种",
+        "description": "包含各种的句子"
+    },
+    {
+        "query": "大雪",
+        "description": "包含大雪的句子"
+    },
+    {
+        "query": "波诡云谲",
+        "description": "包含波诡云谲的句子"
+    },
+    {
+        "query": "等绿灯",
+        "description": "包含等绿灯的句子"
+    },
+    {
+        "query": "学生+学生",
+        "description": "包含学生+学生句子"
+    },
+    {
+        "query": "封闭",
+        "description": "包含封闭的句子"
+    },
+    {
+        "query": "绩效管理",
+        "description": "包含绩效管理的句子"
+    },
+    {
+        "query": "地裂山崩",
+        "description": "包含地裂山崩的句子"
+    },
+    {
+        "query": "我这里是",
+        "description": "包含我这里是的句子"
+    },
+    {
+        "query": "难怪",
+        "description": "包含难怪的句子"
+    },
+    {
+        "query": "平行",
+        "description": "包含平行的句子"
+    },
+    {
+        "query": "但凡不",
+        "description": "包含但凡不的句子"
+    },
+    {
+        "query": ".别说",
+        "description": "包含.别说的句子"
+    }
+]
+```

@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "管它v不v",
+        "description": "管它后接动词，动词后离合出现不，不后接动词"
+    },
+    {
+        "query": "a关照",
+        "description": "形容词后接关照"
+    },
+    {
+        "query": "进行v",
+        "description": "进行后接动词"
+    },
+    {
+        "query": "有被+V到",
+        "description": "有被后接动词，动词后离合出现到"
+    },
+    {
+        "query": "有被 V到",
+        "description": "有被后接动词，动词后离合出现到"
+    },
+    {
+        "query": "自然v",
+        "description": "自然后接动词"
+    },
+    {
+        "query": "每个n都",
+        "description": "每个后接名词，名词后接都"
+    },
+    {
+        "query": "无v不a",
+        "description": "无后接动词，动词后离合出现不，不后接形容词"
+    },
+    {
+        "query": "n+创造",
+        "description": "名词后接创造"
+    },
+    {
+        "query": "n 创造",
+        "description": "名词后接创造"
+    },
+    {
+        "query": "d为难",
+        "description": "程度副词后接为难"
+    },
+    {
+        "query": "a心a肠",
+        "description": "形容词后接心，心后接形容词"
+    },
+    {
+        "query": "含笑n",
+        "description": "含笑后接名词"
+    },
+    {
+        "query": "技术a",
+        "description": "技术后接形容词"
+    },
+    {
+        "query": "m孔",
+        "description": "名次后接孔"
+    },
+    {
+        "query": "煎n",
+        "description": "煎后接名词"
+    },
+    {
+        "query": "怎么V的N？",
+        "description": "怎么后接动词，动词后离合出现的为N的句子"
+    },
+    {
+        "query": "m头n",
+        "description": "名次后接头，头后接名词"
+    },
+    {
+        "query": "有了n",
+        "description": "有了后接名词"
+    },
+    {
+        "query": "n将n",
+        "description": "名词后接将，将后接名词"
+    },
+    {
+        "query": "v+a了",
+        "description": "动词后接a了"
+    },
+    {
+        "query": "v a了",
+        "description": "动词后接a了"
+    },
+    {
+        "query": "v病房",
+        "description": "动词后接病房"
+    },
+    {
+        "query": "nr巴结",
+        "description": "人名后接巴结"
+    },
+    {
+        "query": "a兴建",
+        "description": "形容词后接兴建"
+    },
+    {
+        "query": "a凡是",
+        "description": "形容词后接凡是"
+    },
+    {
+        "query": "a不大",
+        "description": "形容词后接不大"
+    },
+    {
+        "query": "a修正",
+        "description": "形容词后接修正"
+    },
+    {
+        "query": "v怵了",
+        "description": "动词后接怵了"
+    },
+    {
+        "query": "v成",
+        "description": "动词后接成"
+    },
+    {
+        "query": "a刊物",
+        "description": "形容词后接刊物"
+    },
+    {
+        "query": "V上a",
+        "description": "动词后接上a"
+    },
+    {
+        "query": "v",
+        "description": "动词后接空白"
+    },
+    {
+        "query": "n齐",
+        "description": "名词后接齐"
+    },
+    {
+        "query": "v什么a+y",
+        "description": "动词后接什么，什么后接形容词或y"
+    },
+    {
+        "query": "v什么a y",
+        "description": "动词后接什么，什么后接形容词或y"
+    },
+    {
+        "query": "一V就是",
+        "description": "一后接动词，动词后离合出现就是"
+    },
+    {
+        "query": "没几a",
+        "description": "没后接几，几后接形容词"
+    },
+    {
+        "query": "地V",
+        "description": "地点副词后接动词"
+    },
+    {
+        "query": "不算什么+N",
+        "description": "不算后接什么，什么后接名词"
+    }
+]
+```

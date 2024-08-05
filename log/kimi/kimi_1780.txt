@@ -1,0 +1,86 @@
+以下是检索式及其含义的json结构：
+
+```json
+[
+    {
+        "query": "故事",
+        "description": "包含故事的句子"
+    },
+    {
+        "query": "~/[w v]",
+        "description": "故事后面接一个词，这个词是副词或动词"
+    },
+    {
+        "query": "手机 ~",
+        "description": "手机前面接一个词"
+    },
+    {
+        "query": "了 @/[w v]",
+        "description": "了后面接一个词，这个词是副词或动词，在统计时按照词性归并"
+    },
+    {
+        "query": "一直 (v) 自己{count<367}",
+        "description": "一直后面接动词和自己，且这种结构的句子频次小于367"
+    },
+    {
+        "query": "他 (v) 。{begin($1)!=[五 座 走]}",
+        "description": "他后面接动词和句号，且动词不是以五、座、走开始"
+    },
+    {
+        "query": "爸爸 . 你",
+        "description": "爸爸和你之间用单字连词连接"
+    },
+    {
+        "query": "累 ~ 就",
+        "description": "累后面接一个词，然后接就"
+    },
+    {
+        "query": "(r) 一下子{len($1)<3}",
+        "description": "副词后面接一下子，且副词的长度小于3"
+    },
+    {
+        "query": "被 ~/[n v] 惊醒",
+        "description": "被后面接一个词，这个词是名词或动词，然后接惊醒"
+    },
+    {
+        "query": "妈妈 ./w 说",
+        "description": "妈妈和说之间用单字介词连接"
+    },
+    {
+        "query": "出去",
+        "description": "包含出去的句子"
+    },
+    {
+        "query": "说 ~ 要",
+        "description": "说后面接一个词，然后接要"
+    },
+    {
+        "query": "r 是",
+        "description": "副词后面接是"
+    },
+    {
+        "query": "(r) (w){len($1)>1}",
+        "description": "副词后面接一个词性为标点符号的词，且副词的长度大于1"
+    },
+    {
+        "query": "自己 @ 灵魂",
+        "description": "自己后面接灵魂，在统计时按照词性归并"
+    },
+    {
+        "query": "的 (n) ？{begin($1)!=[左 平 睡]}",
+        "description": "的后面接名词和问号，且名词不是以左、平、睡开始"
+    },
+    {
+        "query": "生活 w 服务",
+        "description": "生活后面接标点符号和服务业"
+    },
+    {
+        "query": "是 (d) 看{count>7}",
+        "description": "是后面接副词和看，且这种结构的句子频次大于7"
+    },
+    {
+        "query": "r 跟",
+        "description": "副词后面接跟"
+    }
+]
+```

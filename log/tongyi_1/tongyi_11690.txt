@@ -1,0 +1,156 @@
+```json
+[
+    {
+        "query": "./[r v] 一点",
+        "description": "动词或代词后跟'一点'"
+    },
+    {
+        "query": "审美 ~/[vn v]",
+        "description": "审美后接一个名词或动词"
+    },
+    {
+        "query": "这不 ~ 其",
+        "description": "这不后面接任意词"
+    },
+    {
+        "query": "大学 ../[n v] 学院",
+        "description": "大学后接一个名词或动词，然后是学院"
+    },
+    {
+        "query": "大连市 @",
+        "description": "大连市作为一个词"
+    },
+    {
+        "query": "河北省 (ns) 孙路杰{len($1)>2}",
+        "description": "河北省后面跟着孙路杰，且孙路杰的长度大于2个字"
+    },
+    {
+        "query": "成都市 ../[nr v]",
+        "description": "成都市后接一个人名或动词"
+    },
+    {
+        "query": "举重若轻 ~/[u v] 诗意",
+        "description": "举重若轻后跟一个不确定词性或动词，然后是诗意"
+    },
+    {
+        "query": "是 (d) 对{len($1)=1}",
+        "description": "是后接一个副词，且副词长度为1"
+    },
+    {
+        "query": "(r) 一批{count>4}",
+        "description": "一批，且满足频次大于4"
+    },
+    {
+        "query": "(r) (v){begin($1)!=[冷 载]}",
+        "description": "一个副词后面接一个动词，但不以冷或载开始"
+    },
+    {
+        "query": "的 (n) 永远{end($1)!=[永 脳 及]}",
+        "description": "的后面接一个名词，但不以永、脑或及结尾"
+    },
+    {
+        "query": "格局 (v) 了{begin($1)!=[丫 八 却]}",
+        "description": "格局后接一个字，但不以丫、八或却开始"
+    },
+    {
+        "query": "新 ../[n v] 来自于",
+        "description": "新后面接一个名词或动词，然后是来自于"
+    },
+    {
+        "query": "中国 (n){len($1)<3}",
+        "description": "中国，且长度小于3个字"
+    },
+    {
+        "query": "， @/[v v] 不止",
+        "description": "逗号后接两个动词，且不止作为最后一个词"
+    },
+    {
+        "query": "共同 (v) 。{begin($1)=[主 陈 飞]}",
+        "description": "共同后面接一个句号，且句号前的词是主、陈或飞"
+    },
+    {
+        "query": "@/[m v] ，",
+        "description": "一个词性为代词或数量词后接一个逗号"
+    },
+    {
+        "query": "合作 (v) 。{count<265}",
+        "description": "合作后面接一个句号，且该句型出现次数少于265次"
+    },
+    {
+        "query": "v 文明 上 vn",
+        "description": "动词文明后接上一个动词或名词"
+    },
+    {
+        "query": "第四/m ，",
+        "description": "第四后面接一个逗号"
+    },
+    {
+        "query": "阔步 v 。",
+        "description": "阔步后接一个动词"
+    },
+    {
+        "query": "不 开/v 中国",
+        "description": "不后面接动词，然后是中国"
+    },
+    {
+        "query": "宴会 . 致辞",
+        "description": "宴会后接一个句点，可能是致辞"
+    },
+    {
+        "query": "(w) (ns){begin($2)=[泰 明 脚 口]}",
+        "description": "两个词性，且第二个词的开始是泰、明、脚或口"
+    },
+    {
+        "query": "(v) 的{end($1)!=[句 练]}",
+        "description": "动词后接一个的，且的字后不接句或练"
+    },
+    {
+        "query": "的 (r) 元首{count<244}",
+        "description": "的后面接一个代词，且元首出现次数少于244次"
+    },
+    {
+        "query": "委员会 ~ 祖马",
+        "description": "委员会后接一个词，可能是祖马"
+    },
+    {
+        "query": "各位 (n) ，{end($1)=[事 错]}",
+        "description": "各位后面接一个逗号，且逗号前的词是事或错"
+    },
+    {
+        "query": "： (n) 共同体 (w){begin($1)!=[撞 呢]}",
+        "description": "冒号后接一个名词，名词后接共同体，且共同体不以撞或呢开始"
+    },
+    {
+        "query": "前所未有 (u) 发展{count<779}",
+        "description": "前所未有的后面接发展，且该词组出现次数少于779次"
+    },
+    {
+        "query": "政治 (v) 平等{count>10}",
+        "description": "政治后接平等，且该词组出现次数多于10次"
+    },
+    {
+        "query": "高度 (n) 互信{len($1)>1}",
+        "description": "高度后面接一个名词，且名词长度大于1"
+    },
+    {
+        "query": "合作 (v) 。{begin($1)=[共 量]}",
+        "description": "合作后面接一个句号，且句号前的词是共或量"
+    },
+    {
+        "query": "以义 (l) 。{count<995}",
+        "description": "以义后接一个句号，且该词组出现次数少于995次"
+    },
+    {
+        "query": "(v) 文明 上 (vn){begin($1)!=[部 博 妞]}",
+        "description": "动词后接文明、上和一个名词，且动词不以部、博或妞开始"
+    },
+    {
+        "query": "世界 ../c 多彩",
+        "description": "世界后接一个连词，然后是多彩"
+    },
+    {
+        "query": "(w) (v){$1=$2}",
+        "description": "两个词性相同的词"
+    }
+]
+```

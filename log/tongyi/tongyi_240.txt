@@ -1,0 +1,168 @@
+以下是将给定的检索式转换为带含义的json结构：
+
+```json
+[
+    {
+        "query": "撰述",
+        "description": "包含撰述这个词语的句子"
+    },
+    {
+        "query": "声调听起来",
+        "description": "声调后面跟着听的句子"
+    },
+    {
+        "query": "和谐中的",
+        "description": "和谐这个词后面跟的句子"
+    },
+    {
+        "query": "笔下",
+        "description": "笔下这个词语所在的句子"
+    },
+    {
+        "query": "会合",
+        "description": "会合这个词语所在的句子"
+    },
+    {
+        "query": "也就是说，",
+        "description": "也就是说后面跟的句子"
+    },
+    {
+        "query": "花前月下",
+        "description": "花前月下这个词语所在的句子"
+    },
+    {
+        "query": "外部和谐",
+        "description": "外部和谐这个词语所在的句子"
+    },
+    {
+        "query": "傻不拉几",
+        "description": "傻不拉几这个词语所在的句子"
+    },
+    {
+        "query": "生态危机",
+        "description": "生态危机这个词语所在的句子"
+    },
+    {
+        "query": "范围",
+        "description": "范围这个词语所在的句子"
+    },
+    {
+        "query": "猖獗",
+        "description": "猖獗这个词语所在的句子"
+    },
+    {
+        "query": "名誉",
+        "description": "名誉这个词语所在的句子"
+    },
+    {
+        "query": "挺不",
+        "description": "挺不这个词语所在的句子"
+    },
+    {
+        "query": "当即",
+        "description": "当即这个词语所在的句子"
+    },
+    {
+        "query": "是什么？",
+        "description": "是什么？这个词语所在的句子"
+    },
+    {
+        "query": "饭菜",
+        "description": "饭菜这个词语所在的句子"
+    },
+    {
+        "query": "或管",
+        "description": "或管这个词语所在的句子"
+    },
+    {
+        "query": "决定",
+        "description": "决定这个词语所在的句子"
+    },
+    {
+        "query": "出命了",
+        "description": "出命了这个词语所在的句子"
+    },
+    {
+        "query": "做出",
+        "description": "做出这个词语所在的句子"
+    },
+    {
+        "query": "\"坏了。\"",
+        "description": "\"坏了.\"这个词语所在的句子"
+    },
+    {
+        "query": "裤衩儿",
+        "description": "裤衩儿这个词语所在的句子"
+    },
+    {
+        "query": "没特别",
+        "description": "没特别这个词语所在的句子"
+    },
+    {
+        "query": "好不好笑",
+        "description": "好不好笑这个词语所在的句子"
+    },
+    {
+        "query": "扫除",
+        "description": "扫除这个词语所在的句子"
+    },
+    {
+        "query": "谁都制不了",
+        "description": "谁都制不了这个词语所在的句子"
+    },
+    {
+        "query": "分家",
+        "description": "分家这个词语所在的句子"
+    },
+    {
+        "query": "都！！！！",
+        "description": "都！！！！这个词语所在的句子"
+    },
+    {
+        "query": "内定",
+        "description": "内定这个词语所在的句子"
+    },
+    {
+        "query": "用破",
+        "description": "用破这个词语所在的句子"
+    },
+    {
+        "query": "过时",
+        "description": "过时这个词语所在的句子"
+    },
+    {
+        "query": "看你说的",
+        "description": "看你说的这个词语所在的句子"
+    },
+    {
+        "query": "茶座",
+        "description": "茶座这个词语所在的句子"
+    },
+    {
+        "query": "玻璃心",
+        "description": "玻璃心这个词语所在的句子"
+    },
+    {
+        "query": "打退",
+        "description": "打退这个词语所在的句子"
+    },
+    {
+        "query": "怨念",
+        "description": "怨念这个词语所在的句子"
+    },
+    {
+        "query": "花了他",
+        "description": "花了他这个词语所在的句子"
+    },
+    {
+        "query": "勉强可以",
+        "description": "勉强可以这个词语所在的句子"
+    },
+    {
+        "query": "人权受",
+        "description": "人权受这个词语所在的句子"
+    }
+]
+```
+
+请注意，上述json结构假设每个检索式都是独立的查询，且它们各自代表包含指定词语的句子。由于原始说明文档中未提供具体的查询描述，我在此假设每个检索式均指向包含其指定词语的句子。实际应用中，查询描述可能需要根据具体应用场景和语境进行详细解释。

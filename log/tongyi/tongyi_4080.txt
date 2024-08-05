@@ -1,0 +1,166 @@
+以下是将给定的检索式转换为带含义的json结构：
+
+```json
+[
+    {
+        "query": "n把n包围",
+        "description": "名词 'n' 后面紧跟着另一个名词 'n', 形成 'n 把 n 围绕' 的结构"
+    },
+    {
+        "query": "雄伟的+n",
+        "description": "形容词 '雄伟的' 后面紧跟着一个名词 'n'"
+    },
+    {
+        "query": "雄伟的 n",
+        "description": "形容词 '雄伟的' 后面紧跟着一个名词 'n'"
+    },
+    {
+        "query": "m个w",
+        "description": "数词 'm' 后面紧跟着量词 '个', 再后面跟着名词 'w'"
+    },
+    {
+        "query": "和+n+v",
+        "description": "连接词 '和' 后面紧跟着一个名词 'n', 然后是一个动词 'v'"
+    },
+    {
+        "query": "和 n v",
+        "description": "连接词 '和' 后面紧跟着一个名词 'n', 然后是一个动词 'v'"
+    },
+    {
+        "query": "a全部",
+        "description": "形容词 'a' 后面紧跟着动词 '全部'"
+    },
+    {
+        "query": "我堂堂一个n+",
+        "description": "名词 '我' 后面加上形容词 '堂堂', 然后是一个量词 '一个', 最后是一个名词 'n+'"
+    },
+    {
+        "query": "我堂堂一个n",
+        "description": "名词 '我' 后面加上形容词 '堂堂', 然后是一个量词 '一个', 最后是一个名词 'n'"
+    },
+    {
+        "query": "时间是a",
+        "description": "名词 '时间' 是由形容词 '是' 和形容词 'a' 组成"
+    },
+    {
+        "query": "被r",
+        "description": "动词 '被' 后面紧跟着动词 'r'"
+    },
+    {
+        "query": "m个+d+n+",
+        "description": "数词 'm' 后面紧跟着量词 '个', 然后是形容词 'd', 最后是一个名词 'n+'"
+    },
+    {
+        "query": "m 个 d n ",
+        "description": "数词 'm' 后面紧跟着量词 '个', 然后是形容词 'd', 最后是一个名词 'n'"
+    },
+    {
+        "query": "a举动",
+        "description": "形容词 'a' 后面紧跟着名词 '举动'"
+    },
+    {
+        "query": "批判v",
+        "description": "动词 '批判' 后面紧跟着动词 'v'"
+    },
+    {
+        "query": "半夜+d",
+        "description": "名词 '半夜' 后面紧跟着形容词 'd'"
+    },
+    {
+        "query": "半夜 d",
+        "description": "名词 '半夜' 后面紧跟着形容词 'd'"
+    },
+    {
+        "query": "V都V了",
+        "description": "动词 'V' 后面紧跟着动词 '都', 再后面跟着动词 'V'"
+    },
+    {
+        "query": "喜爱vn",
+        "description": "动词 '喜爱' 后面紧跟着动词 'vn'"
+    },
+    {
+        "query": "推进生态文明建设n",
+        "description": "动词 '推进' 后面紧跟着名词 '生态文明建设'"
+    },
+    {
+        "query": "风味i",
+        "description": "形容词 '风味' 后面紧跟着语素 'i'"
+    },
+    {
+        "query": "a与v",
+        "description": "形容词 'a' 后面紧跟着连接词 '与', 再后面跟着动词 'v'"
+    },
+    {
+        "query": "根据p",
+        "description": "动词 '根据' 后面紧跟着动词 'p'"
+    },
+    {
+        "query": "a伸展",
+        "description": "形容词 'a' 后面紧跟着动词 '伸展'"
+    },
+    {
+        "query": "v蓝",
+        "description": "动词 'v' 后面紧跟着颜色词 '蓝'"
+    },
+    {
+        "query": "a不定",
+        "description": "形容词 'a' 后面紧跟着动词 '不定'"
+    },
+    {
+        "query": "老n了",
+        "description": "形容词 '老' 后面紧跟着名词 'n', 表示 '老了'"
+    },
+    {
+        "query": "八n",
+        "description": "数词 '八' 后面紧跟着名词 'n'"
+    },
+    {
+        "query": "w应该说",
+        "description": "动词 'w' 后面紧跟着动词 '应该说'"
+    },
+    {
+        "query": "想不V都",
+        "description": "动词 '想' 后面紧跟着动词 '不', 再后面跟着动词 'V', 最后是语气词 '都'"
+    },
+    {
+        "query": "a健全",
+        "description": "形容词 'a' 后面紧跟着形容词 '健全'"
+    },
+    {
+        "query": "一q一q",
+        "description": "数词 '一' 后面紧跟着量词 'q', 然后重复一次 '一q'"
+    },
+    {
+        "query": "投放在n+f",
+        "description": "动词 '投放在' 后面紧跟着名词 'n+f'"
+    },
+    {
+        "query": "投放在n f",
+        "description": "动词 '投放在' 后面紧跟着名词 'n f'"
+    },
+    {
+        "query": "a刚刚",
+        "description": "形容词 'a' 后面紧跟着副词 '刚刚'"
+    },
+    {
+        "query": "有所N",
+        "description": "动词 '有所' 后面紧跟着语素 'N'"
+    },
+    {
+        "query": "m缕",
+        "description": "数词 'm' 后面紧跟着量词 '缕'"
+    },
+    {
+        "query": "N上",
+        "description": "语素 'N' 后面紧跟着位置词 '上'"
+    },
+    {
+        "query": "大约只好v",
+        "description": "形容词 '大约' 后面紧跟着副词 '只好', 最后是动词 'v'"
+    },
+    {
+        "query": "百般v",
+        "description": "数量词 '百般' 后面紧跟着动词 'v'"
+    }
+]
+```

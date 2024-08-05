@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "仿佛*了。",
+        "description": "仿佛后面离合出现了一个词，该词后接了了。"
+    },
+    {
+        "query": "我一个*娘",
+        "description": "我后接一个词，该词后接一个娘。"
+    },
+    {
+        "query": "终身@",
+        "description": "终身作为词性，用于统计时按照词性归并。"
+    },
+    {
+        "query": "v*理由w",
+        "description": "动词后离合出现一个词，该词后接理由。"
+    },
+    {
+        "query": "似乎*绝非",
+        "description": "似乎后面离合出现一个词，该词后接绝非。"
+    },
+    {
+        "query": "树皮*v",
+        "description": "树皮后接一个双音节动词。"
+    },
+    {
+        "query": "这就.了",
+        "description": "这就后面隔一个字后接了。"
+    },
+    {
+        "query": "她.+下去w",
+        "description": "她后接一个词，该词后接下去。"
+    },
+    {
+        "query": "她. 下去w",
+        "description": "她后面直接接下去。"
+    },
+    {
+        "query": "容不.",
+        "description": "容后面隔一个字后接了。"
+    },
+    {
+        "query": "w胜.败w",
+        "description": "胜后面隔一个字后接败。"
+    },
+    {
+        "query": "望.......兴叹",
+        "description": "望后面隔多个字后接兴叹。"
+    },
+    {
+        "query": "我们..+过去w",
+        "description": "我们后接一个词，该词后接过去。"
+    },
+    {
+        "query": "我们.. 过去w",
+        "description": "我们后面直接接过去。"
+    },
+    {
+        "query": "这一.就",
+        "description": "这一后面隔一个字后接了。"
+    },
+    {
+        "query": "开.车",
+        "description": "开后面隔一个字后接车。"
+    },
+    {
+        "query": "不怎么~",
+        "description": "不怎么中间插入一个词。"
+    },
+    {
+        "query": "w张.弛w",
+        "description": "张后面隔一个字后接弛。"
+    },
+    {
+        "query": "w隐.现w",
+        "description": "隐后面隔一个字后接现。"
+    },
+    {
+        "query": "非*，不行*",
+        "description": "非后面离合出现一个词，该词后接，，然后又出现一个词后接不行。"
+    },
+    {
+        "query": "他们.+.v了",
+        "description": "他们后接一个词，该词后接一个动词，再后接了。"
+    },
+    {
+        "query": "他们. .v了",
+        "description": "他们后面直接接一个动词，再后接了。"
+    },
+    {
+        "query": "v*号房",
+        "description": "动词后离合出现一个词，该词后接号房。"
+    },
+    {
+        "query": "仿佛*确是",
+        "description": "仿佛后面离合出现一个词，该词后接确是。"
+    },
+    {
+        "query": "治*服",
+        "description": "治后面离合出现一个词，该词后接服。"
+    },
+    {
+        "query": "几乎*或许",
+        "description": "几乎后面离合出现一个词，该词后接或许。"
+    },
+    {
+        "query": "他..+起来w",
+        "description": "他后接一个词，该词后接起来。"
+    },
+    {
+        "query": "他.. 起来w",
+        "description": "他后面直接接起来。"
+    },
+    {
+        "query": "好像*却",
+        "description": "好像后面离合出现一个词，该词后接却。"
+    },
+    {
+        "query": "仿佛*总是",
+        "description": "仿佛后面离合出现一个词，该词后接总是。"
+    },
+    {
+        "query": "头+*",
+        "description": "头后接一个词。"
+    },
+    {
+        "query": "头 *",
+        "description": "头后面直接接一个词。"
+    },
+    {
+        "query": "一叫.就",
+        "description": "一叫后面隔一个字后接了。"
+    },
+    {
+        "query": "当然@恐怕",
+        "description": "当然作为词性，用于统计时按照词性归并。恐怕也是同样的词性用法。"
+    },
+    {
+        "query": "按*来说",
+        "description": "按后面离合出现一个词，该词后接来说。"
+    },
+    {
+        "query": "吃*亏",
+        "description": "吃后面离合出现一个词，该词后接亏。"
+    },
+    {
+        "query": "一躺..就",
+        "description": "一躺后面隔多个字后接了。"
+    },
+    {
+        "query": "v起.来+",
+        "description": "动词后接起来。"
+    },
+    {
+        "query": "v起.来 ",
+        "description": "动词后直接接起来。"
+    },
+    {
+        "query": "那...m+q+n",
+        "description": "那后接一个量词，该量词后接名词。"
+    }
+]
+```

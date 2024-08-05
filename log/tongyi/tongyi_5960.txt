@@ -1,0 +1,168 @@
+根据给出的检索式格式和解析规则，以下是将每个检索式转换为带含义的json结构的结果：
+
+```json
+[
+    {
+        "query": "放+s",
+        "description": "放之后是一个s词性"
+    },
+    {
+        "query": "放 s",
+        "description": "放之后是一个s词性"
+    },
+    {
+        "query": "a临时",
+        "description": "形容词之后是临时"
+    },
+    {
+        "query": "Mg",
+        "description": "Mg词性"
+    },
+    {
+        "query": "a匪徒",
+        "description": "形容词之后是匪徒"
+    },
+    {
+        "query": "无形中v",
+        "description": "在无形中之后是动词"
+    },
+    {
+        "query": "会V",
+        "description": "会之后是动词"
+    },
+    {
+        "query": "没a+v",
+        "description": "没之后是形容词，之后是动词"
+    },
+    {
+        "query": "没a v",
+        "description": "没之后是形容词，之后是动词"
+    },
+    {
+        "query": "使n+",
+        "description": "使之后是名词，后面有一个空位"
+    },
+    {
+        "query": "使n ",
+        "description": "使之后是名词，后面有一个空位"
+    },
+    {
+        "query": "d+v着",
+        "description": "d之后是动词，之后是着"
+    },
+    {
+        "query": "d v着",
+        "description": "d之后是动词，之后是着"
+    },
+    {
+        "query": "V了一通",
+        "description": "动词之后是一了通"
+    },
+    {
+        "query": "w+我一个n+w",
+        "description": "w之后是我，之后是一个n词性，之后是w"
+    },
+    {
+        "query": "w 我一个n w",
+        "description": "w之后是我，之后是一个n词性，之后是w"
+    },
+    {
+        "query": "のだ",
+        "description": "のだ"
+    },
+    {
+        "query": "团结v",
+        "description": "团结之后是动词"
+    },
+    {
+        "query": "n导师",
+        "description": "名词之后是导师"
+    },
+    {
+        "query": "不是n而是n",
+        "description": "不是之后是名词，而是之后是名词"
+    },
+    {
+        "query": "得到vn",
+        "description": "得到之后是动词n"
+    },
+    {
+        "query": "t+更",
+        "description": "t之后是更"
+    },
+    {
+        "query": "t 更",
+        "description": "t之后是更"
+    },
+    {
+        "query": "v饱满了",
+        "description": "v之后是饱满了"
+    },
+    {
+        "query": "没有+V",
+        "description": "没有之后是动词"
+    },
+    {
+        "query": "没有 V",
+        "description": "没有之后是动词"
+    },
+    {
+        "query": "a不惜",
+        "description": "形容词之后是不惜"
+    },
+    {
+        "query": "a的目标",
+        "description": "形容词之后是目标"
+    },
+    {
+        "query": "v蜂房",
+        "description": "动词之后是蜂房"
+    },
+    {
+        "query": "v一缕",
+        "description": "动词之后是一缕"
+    },
+    {
+        "query": "环境n",
+        "description": "环境之后是名词"
+    },
+    {
+        "query": "a休养",
+        "description": "形容词之后是休养"
+    },
+    {
+        "query": "未(a)先(v)",
+        "description": "未之后是形容词，先之后是动词"
+    },
+    {
+        "query": "v急了",
+        "description": "动词之后是急了"
+    },
+    {
+        "query": "a协商",
+        "description": "形容词之后是协商"
+    },
+    {
+        "query": "a卫生",
+        "description": "形容词之后是卫生"
+    },
+    {
+        "query": "n状况",
+        "description": "名词之后是状况"
+    },
+    {
+        "query": "n得很",
+        "description": "名词之后是得很"
+    },
+    {
+        "query": "v周到了",
+        "description": "动词之后是周到了"
+    },
+    {
+        "query": "n出来",
+        "description": "名词之后是出来"
+    }
+]
+```
+
+这个json列表包含了所有检索式的解析结果，每条记录包括了检索式和对应的含义描述。

@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "拿进来n",
+        "description": "包含'拿进来'且n为名词的句子"
+    },
+    {
+        "query": "挺a个",
+        "description": "包含'挺'且a为形容词，后面跟一个字的句子"
+    },
+    {
+        "query": "v一道",
+        "description": "动词后紧跟着'一道'的句子"
+    },
+    {
+        "query": "无论v还是v",
+        "description": "以'无论'开头，紧接着一个动词，然后是'还是'，再接一个动词的句子"
+    },
+    {
+        "query": "不(v)白不(v)",
+        "description": "以'不'开头，紧接着一个动词，然后是'白不'，再接一个动词的句子"
+    },
+    {
+        "query": "v下去了w",
+        "description": "动词后紧跟着'下去了'且w为句尾的句子"
+    },
+    {
+        "query": "佩服n+v",
+        "description": "包含'佩服'且后面跟一个名词和一个动词的句子"
+    },
+    {
+        "query": "佩服n v",
+        "description": "包含'佩服'且后面跟一个名词和一个动词的句子"
+    },
+    {
+        "query": "在N里盛",
+        "description": "动词后紧跟着'在N里盛'且N为名词的句子"
+    },
+    {
+        "query": "我应该v",
+        "description": "包含'我应该'且后面跟一个动词的句子"
+    },
+    {
+        "query": "a光明",
+        "description": "形容词后紧跟着'光明'的句子"
+    },
+    {
+        "query": "a可观",
+        "description": "形容词后紧跟着'可观'的句子"
+    },
+    {
+        "query": "a吉普车",
+        "description": "形容词后紧跟着'吉普车'的句子"
+    },
+    {
+        "query": "a劲头",
+        "description": "形容词后紧跟着'劲头'的句子"
+    },
+    {
+        "query": "衣冠楚楚v",
+        "description": "动词后紧跟着'衣冠楚楚'的句子"
+    },
+    {
+        "query": "d连忙",
+        "description": "副词后紧跟着'连忙'的句子"
+    },
+    {
+        "query": "V着V着",
+        "description": "动词后紧跟着重复的'V着'的句子"
+    },
+    {
+        "query": "a关心",
+        "description": "形容词后紧跟着'关心'的句子"
+    },
+    {
+        "query": "无所n",
+        "description": "动词后紧跟着'无所'且n为名词的句子"
+    },
+    {
+        "query": "v下n去",
+        "description": "动词后紧跟着'下n去'且n为名词的句子"
+    },
+    {
+        "query": "把N堵在",
+        "description": "动词后紧跟着'把N堵在'且N为名词的句子"
+    },
+    {
+        "query": "把N喷在",
+        "description": "动词后紧跟着'把N喷在'且N为名词的句子"
+    },
+    {
+        "query": "勒n",
+        "description": "动词后紧跟着'勒n'且n为名词的句子"
+    },
+    {
+        "query": "v得多",
+        "description": "动词后紧跟着'得多'的句子"
+    },
+    {
+        "query": "a初步",
+        "description": "形容词后紧跟着'初步'的句子"
+    },
+    {
+        "query": "a发抖",
+        "description": "形容词后紧跟着'发抖'的句子"
+    },
+    {
+        "query": "v店",
+        "description": "动词后紧跟着'店'的句子"
+    },
+    {
+        "query": "a友情",
+        "description": "形容词后紧跟着'友情'的句子"
+    },
+    {
+        "query": "v伐树",
+        "description": "动词后紧跟着'伐树'的句子"
+    },
+    {
+        "query": "v光了",
+        "description": "动词后紧跟着'光了'的句子"
+    },
+    {
+        "query": "m提",
+        "description": "动词后紧跟着'm提'的句子"
+    },
+    {
+        "query": "给以vn",
+        "description": "动词后紧跟着'给以vn'且vn为名词的句子"
+    },
+    {
+        "query": "被一q",
+        "description": "动词后紧跟着'被一q'且q为量词的句子"
+    },
+    {
+        "query": "a一招a一招",
+        "description": "形容词后紧跟着重复的'a一招'的句子"
+    },
+    {
+        "query": "了二q",
+        "description": "动词后紧跟着'了二q'且q为量词的句子"
+    },
+    {
+        "query": "垫上n",
+        "description": "动词后紧跟着'垫上n'且n为名词的句子"
+    },
+    {
+        "query": "a原理",
+        "description": "形容词后紧跟着'原理'的句子"
+    },
+    {
+        "query": "班房v",
+        "description": "动词后紧跟着'班房v'的句子"
+    },
+    {
+        "query": "v了m星期",
+        "description": "动词后紧跟着'v了m星期'且m为量词的句子"
+    },
+    {
+        "query": "再a也",
+        "description": "动词后紧跟着'再a也'且a为形容词的句子"
+    }
+]
+```

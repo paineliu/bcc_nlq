@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "读[V+a]",
+        "description": "动词读后接形容词"
+    },
+    {
+        "query": "读[V a]",
+        "description": "动词读后接名词"
+    },
+    {
+        "query": "似乎*a[了+得多+些]+w",
+        "description": "似乎后接了、多、些后接一个词"
+    },
+    {
+        "query": "似乎*a[了 得多 些] w",
+        "description": "似乎后接了、得、多、些后接一个词"
+    },
+    {
+        "query": "单独n[，+。]",
+        "description": "名词单独后接逗号或句点"
+    },
+    {
+        "query": "单独n[， 。]",
+        "description": "名词单独后接逗号和句点"
+    },
+    {
+        "query": "时而v+y[，+。]",
+        "description": "动词时而后接连词，再接逗号或句点"
+    },
+    {
+        "query": "时而v y[， 。]",
+        "description": "动词时而后接连词，再接逗号和句点"
+    },
+    {
+        "query": "还是a[，+。]",
+        "description": "形容词还是后接逗号或句点"
+    },
+    {
+        "query": "还是a[， 。]",
+        "description": "形容词还是后接逗号和句点"
+    },
+    {
+        "query": "正在d+v[，+。]",
+        "description": "副词正在后接动词，再接逗号或句点"
+    },
+    {
+        "query": "正在d v[， 。]",
+        "description": "副词正在后接动词，再接逗号和句点"
+    },
+    {
+        "query": "构建[n+a+v]",
+        "description": "名词构建后接形容词、动词和形容词"
+    },
+    {
+        "query": "构建[n a v]",
+        "description": "名词构建后接形容词、名词和动词"
+    },
+    {
+        "query": "不曾v[，+。]",
+        "description": "动词不曾后接逗号或句点"
+    },
+    {
+        "query": "不曾v[， 。]",
+        "description": "动词不曾后接逗号和句点"
+    },
+    {
+        "query": "[，+。]d+r+r+[，+。]",
+        "description": "逗号或句点后接副词、重复两次、再接副词，最后接逗号或句点"
+    },
+    {
+        "query": "[， 。]d r r [， 。]",
+        "description": "逗号和句点后接副词、重复两次，再接逗号和句点"
+    },
+    {
+        "query": "[权利+权力]",
+        "description": "名词权利和权力组合"
+    },
+    {
+        "query": "[权利 权力]",
+        "description": "名词权利和权力并列"
+    },
+    {
+        "query": "w[q+r+d+c+v+a++n+m++p]错.对w",
+        "description": "词组w后接q、r、d、c、v、a、n、m、p组成的词串，再接错、对，最后接w"
+    },
+    {
+        "query": "w[q r d c v a  n m  p]错.对w",
+        "description": "词组w后接q、r、d、c、v、a、n、m、p组成的词串，再接错、对，最后接w"
+    },
+    {
+        "query": "随即v+n[，+。]",
+        "description": "动词随即后接名词，再接逗号或句点"
+    },
+    {
+        "query": "随即v n[， 。]",
+        "description": "动词随即后接名词，再接逗号和句点"
+    },
+    {
+        "query": "出现+n[f+s+ns]",
+        "description": "名词出现后接方位词、时间词和专名"
+    },
+    {
+        "query": "出现 n[f s ns]",
+        "description": "名词出现后接方位词、时间词和专名"
+    },
+    {
+        "query": "暂时v+y[，+。]",
+        "description": "动词暂时后接连词，再接逗号或句点"
+    },
+    {
+        "query": "暂时v y[， 。]",
+        "description": "动词暂时后接连词，再接逗号和句点"
+    },
+    {
+        "query": "自古d+v[，+。]",
+        "description": "副词自古后接动词，再接逗号或句点"
+    },
+    {
+        "query": "自古d v[， 。]",
+        "description": "副词自古后接动词，再接逗号和句点"
+    },
+    {
+        "query": "总共n[，+。]",
+        "description": "名词总共后接逗号或句点"
+    },
+    {
+        "query": "总共n[， 。]",
+        "description": "名词总共后接逗号和句点"
+    },
+    {
+        "query": "w新.旧[q+r+d+c+v+a++n+m++p]w",
+        "description": "词组w后接新、旧，再接q、r、d、c、v、a、n、m、p组成的词串，最后接w"
+    },
+    {
+        "query": "w新.旧[q r d c v a  n m  p]w",
+        "description": "词组w后接新、旧，再接q、r、d、c、v、a、n、m、p组成的词串，最后接w"
+    },
+    {
+        "query": "一向v+a[，+。]",
+        "description": "动词一向后接形容词，再接逗号或句点"
+    },
+    {
+        "query": "一向v a[， 。]",
+        "description": "动词一向后接形容词，再接逗号和句点"
+    },
+    {
+        "query": "仿佛n[，+。]",
+        "description": "名词仿佛后接逗号或句点"
+    },
+    {
+        "query": "仿佛n[， 。]",
+        "description": "名词仿佛后接逗号和句点"
+    },
+    {
+        "query": "[时而+时刻+时时]v[q+m+]n[，+。]",
+        "description": "词组时而、时刻、时时后接动词，再接q、m、n，最后接逗号或句点"
+    },
+    {
+        "query": "[时而 时刻 时时]v[q m ]n[， 。]",
+        "description": "词组时而、时刻、时时后接动词，再接q、m、n，最后接逗号和句点"
+    }
+]
+```

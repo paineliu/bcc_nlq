@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "a*诚意/n",
+        "description": "形容词后接诚意（n）"
+    },
+    {
+        "query": "白/d",
+        "description": "白色（d）"
+    },
+    {
+        "query": "并+不是/c+今冬",
+        "description": "并接不是（c）接今冬"
+    },
+    {
+        "query": "并 不是/c 今冬",
+        "description": "并接不是（c）接今冬"
+    },
+    {
+        "query": "拉/nr+存款/n",
+        "description": "拉（nr）接存款（n）"
+    },
+    {
+        "query": "拉/nr 存款/n",
+        "description": "拉（nr）接存款（n）"
+    },
+    {
+        "query": "研读+七/m+遍",
+        "description": "研读（动词）接七（m）接遍（n）"
+    },
+    {
+        "query": "研读 七/m 遍",
+        "description": "研读（动词）接七（m）接遍（n）"
+    },
+    {
+        "query": "保持+开放/v+和",
+        "description": "保持（动词）接开放（v）接和（n）"
+    },
+    {
+        "query": "保持 开放/v 和",
+        "description": "保持（动词）接开放（v）接和（n）"
+    },
+    {
+        "query": "才/d+落地/v",
+        "description": "才（d）接落地（v）"
+    },
+    {
+        "query": "才/d 落地/v",
+        "description": "才（d）接落地（v）"
+    },
+    {
+        "query": "重庆/ns+扩大",
+        "description": "重庆（ns）接扩大"
+    },
+    {
+        "query": "重庆/ns 扩大",
+        "description": "重庆（ns）接扩大"
+    },
+    {
+        "query": "科技+进步/vn+特等奖",
+        "description": "科技（n）接进步（vn）接特等奖"
+    },
+    {
+        "query": "科技 进步/vn 特等奖",
+        "description": "科技（n）接进步（vn）接特等奖"
+    },
+    {
+        "query": "图片/n+均",
+        "description": "图片（n）接均"
+    },
+    {
+        "query": "图片/n 均",
+        "description": "图片（n）接均"
+    },
+    {
+        "query": "n+风情/n",
+        "description": "名词接风情（n）"
+    },
+    {
+        "query": "n 风情/n",
+        "description": "名词接风情（n）"
+    },
+    {
+        "query": "变化/v",
+        "description": "变化（v）"
+    },
+    {
+        "query": "打卡/v+上下班/j",
+        "description": "打卡（v）接上下班（j）"
+    },
+    {
+        "query": "打卡/v 上下班/j",
+        "description": "打卡（v）接上下班（j）"
+    },
+    {
+        "query": "./v+./a",
+        "description": "单音节动词接单音节形容词"
+    },
+    {
+        "query": "./v ./a",
+        "description": "单音节动词接单音节形容词"
+    },
+    {
+        "query": "v*爱心/n",
+        "description": "动词后接爱心（n）"
+    },
+    {
+        "query": "常/d+v",
+        "description": "常（d）接动词"
+    },
+    {
+        "query": "常/d v",
+        "description": "常（d）接动词"
+    },
+    {
+        "query": "为/v+民办+实事+，+群众+很/d",
+        "description": "为（v）接民办接实事接，接群众接很（d）"
+    },
+    {
+        "query": "为/v 民办 实事 ， 群众 很/d",
+        "description": "为（v）接民办接实事接，接群众接很（d）"
+    },
+    {
+        "query": "风情/n+a",
+        "description": "风情（n）接a"
+    },
+    {
+        "query": "风情/n a",
+        "description": "风情（n）接a"
+    },
+    {
+        "query": "不/d+可阻+，/w",
+        "description": "不（d）接可阻（a）接，（w）"
+    },
+    {
+        "query": "不/d 可阻 ，/w",
+        "description": "不（d）接可阻（a）接，（w）"
+    },
+    {
+        "query": "n+的+爱心/n",
+        "description": "名词接的接爱心（n）"
+    },
+    {
+        "query": "n 的 爱心/n",
+        "description": "名词接的接爱心（n）"
+    },
+    {
+        "query": "纪委+参与/v+议事",
+        "description": "纪委（n）接参与（v）接议事"
+    },
+    {
+        "query": "纪委 参与/v 议事",
+        "description": "纪委（n）接参与（v）接议事"
+    },
+    {
+        "query": "西南+联大/j+国",
+        "description": "西南（n）接联大（j）接国"
+    },
+    {
+        "query": "西南 联大/j 国",
+        "description": "西南（n）接联大（j）接国"
+    }
+]
+```

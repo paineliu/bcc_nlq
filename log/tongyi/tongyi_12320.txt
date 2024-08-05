@@ -1,0 +1,156 @@
+```json
+[
+    {
+        "query": "被迫v+u[，+。]",
+        "description": "被迫动词 + 逗号或句点"
+    },
+    {
+        "query": "被迫v u[， 。]",
+        "description": "被迫动词 + 逗号或句点"
+    },
+    {
+        "query": "多么v[，+。]",
+        "description": "多么动词 + 逗号或句点"
+    },
+    {
+        "query": "多么v[， 。]",
+        "description": "多么动词 + 逗号或句点"
+    },
+    {
+        "query": "尽快d+n[，+。]",
+        "description": "尽快副词 + 名词 + 逗号或句点"
+    },
+    {
+        "query": "尽快d n[， 。]",
+        "description": "尽快副词 + 名词 + 逗号或句点"
+    },
+    {
+        "query": "我的n++[，+。]",
+        "description": "我的名词 + 两个加号 + 逗号或句点"
+    },
+    {
+        "query": "我的n  [， 。]",
+        "description": "我的名词 + 空格 + 逗号或句点"
+    },
+    {
+        "query": "急剧n[，+。]",
+        "description": "急剧名词 + 逗号或句点"
+    },
+    {
+        "query": "急剧n[， 。]",
+        "description": "急剧名词 + 逗号或句点"
+    },
+    {
+        "query": "顺序v+y[，+。]",
+        "description": "顺序动词 + y + 逗号或句点"
+    },
+    {
+        "query": "顺序v y[， 。]",
+        "description": "顺序动词 + y + 逗号或句点"
+    },
+    {
+        "query": "过分d+v[，+。]",
+        "description": "过分副词 + 动词 + 逗号或句点"
+    },
+    {
+        "query": "过分d v[， 。]",
+        "description": "过分副词 + 动词 + 逗号或句点"
+    },
+    {
+        "query": "w顺.逆[q+r+d+c+v+a++n+m++p]w",
+        "description": "w顺.逆[q r d c v a n m p]w"
+    },
+    {
+        "query": "w顺.逆[q r d c v a  n m  p]w",
+        "description": "w顺.逆[q r d c v a n m p]w"
+    },
+    {
+        "query": "一旦v+v[，+。]",
+        "description": "一旦动词 + 逗号或句点"
+    },
+    {
+        "query": "一旦v v[， 。]",
+        "description": "一旦动词 + 逗号或句点"
+    },
+    {
+        "query": "惟独[v+a+n+r][，+。]",
+        "description": "惟独动词 + a + n + r + 逗号或句点"
+    },
+    {
+        "query": "惟独[v a n r][， 。]",
+        "description": "惟独动词 + a + n + r + 逗号或句点"
+    },
+    {
+        "query": "[，+。]c+n+v+[，+。]",
+        "description": "逗号或句点 + 名词 + 动词 + 名词 + 逗号或句点"
+    },
+    {
+        "query": "[， 。]c n v [， 。]",
+        "description": "逗号或句点 + 名词 + 动词 + 名词 + 逗号或句点"
+    },
+    {
+        "query": "成心d+v[，+。]",
+        "description": "成心副词 + 动词 + 逗号或句点"
+    },
+    {
+        "query": "成心d v[， 。]",
+        "description": "成心副词 + 动词 + 逗号或句点"
+    },
+    {
+        "query": "根本v+v[，+。]",
+        "description": "根本动词 + 逗号或句点"
+    },
+    {
+        "query": "根本v v[， 。]",
+        "description": "根本动词 + 逗号或句点"
+    },
+    {
+        "query": "仍然d+v[，+。]",
+        "description": "仍然副词 + 动词 + 逗号或句点"
+    },
+    {
+        "query": "仍然d v[， 。]",
+        "description": "仍然副词 + 动词 + 逗号或句点"
+    },
+    {
+        "query": "就地n[，+。]",
+        "description": "就地名词 + 逗号或句点"
+    },
+    {
+        "query": "就地n[， 。]",
+        "description": "就地名词 + 逗号或句点"
+    },
+    {
+        "query": "把++[n+r]+v低[，+。]",
+        "description": "把 + 两个加号 + 名词或形容词 + 动词 + 低 + 逗号或句点"
+    },
+    {
+        "query": "把  [n r] v低[， 。]",
+        "description": "把 + 名词或形容词 + 动词 + 低 + 逗号或句点"
+    },
+    {
+        "query": "[到底+得以+的确]v[q+m+]v[，+。]",
+        "description": "到底 + 得以 + 的确 + 动词 + q + m + 动词 + 逗号或句点"
+    },
+    {
+        "query": "[到底 得以 的确]v[q m ]v[， 。]",
+        "description": "到底 + 得以 + 的确 + 动词 + q + m + 动词 + 逗号或句点"
+    },
+    {
+        "query": "w[q+r+d+c+v+a++n+m++p]我.你w",
+        "description": "w[q r d c v a n m p]我.你w"
+    },
+    {
+        "query": "w[q r d c v a  n m  p]我.你w",
+        "description": "w[q r d c v a n m p]我.你w"
+    },
+    {
+        "query": "未必v+n[，+。]",
+        "description": "未必动词 + 名词 + 逗号或句点"
+    },
+    {
+        "query": "未必v n[， 。]",
+        "description": "未必动词 + 名词 + 逗号或句点"
+    }
+]
+```

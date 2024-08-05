@@ -1,0 +1,86 @@
+以下是根据给定的检索式及其含义转换的JSON结构列表：
+
+```json
+[
+    {
+        "query": "激发 (n){len($1)>1}",
+        "description": "激发后面接名词，且名词长度大于1"
+    },
+    {
+        "query": "(w) (v){len($2)=2}",
+        "description": "标点符号后接动词，动词长度为2"
+    },
+    {
+        "query": "民惟邦本 ./w 本固邦宁",
+        "description": "民惟邦本后接单字连词，然后接本固邦宁"
+    },
+    {
+        "query": "试点",
+        "description": "包含试点的句子"
+    },
+    {
+        "query": "要 .... 。",
+        "description": "要后面有四个任意字符，然后接句号"
+    },
+    {
+        "query": "发力 ./w 立行",
+        "description": "发力后接单字连词，然后接立行"
+    },
+    {
+        "query": "和 (n){len($1)>1}",
+        "description": "和后面接名词，且名词长度大于1"
+    },
+    {
+        "query": "意见 (c) 建议{count<900}",
+        "description": "意见后接连词，然后接建议，建议出现次数少于900"
+    },
+    {
+        "query": "、 @/[ad v] 记",
+        "description": "顿号后接形容词或动词，然后接记"
+    },
+    {
+        "query": ". 外",
+        "description": "任意单字后接外"
+    },
+    {
+        "query": "花儿",
+        "description": "包含花儿的句子"
+    },
+    {
+        "query": "的 (n) 审批{end($1)!=[接 日]}",
+        "description": "的后面接名词，名词不以接或日结尾，然后接审批"
+    },
+    {
+        "query": "， (v) 。{len($1)<3}",
+        "description": "逗号后接动词，动词长度小于3，然后接句号"
+    },
+    {
+        "query": "吴天文 ./[v v] 。",
+        "description": "吴天文后接双字动词，然后接句号"
+    },
+    {
+        "query": "服务 (n){count>3}",
+        "description": "服务后接名词，名词出现次数大于3"
+    },
+    {
+        "query": "说 ~",
+        "description": "说后面接一个词"
+    },
+    {
+        "query": "~/[v v] 增效",
+        "description": "以双字动词开头，中间接一个词，然后接增效"
+    },
+    {
+        "query": "是 .. 。",
+        "description": "是后面有两个任意字符，然后接句号"
+    },
+    {
+        "query": "(l) ， (n){len($1)!=5; len($2)!=3}",
+        "description": "习用语后接逗号，然后接名词，名词长度不等于5且不等于3"
+    },
+    {
+        "query": "(v) (nr){len($1)>2}",
+        "description": "动词后接人名，动词长度大于2"
+    }
+]
+```

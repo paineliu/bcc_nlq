@@ -1,0 +1,166 @@
+以下是将给出的检索式转换为带含义的json结构的结果：
+
+```json
+[
+    {
+        "query": "[n+r]+的出版",
+        "description": "名词+人后接的出版"
+    },
+    {
+        "query": "[n r] 的出版",
+        "description": "名词或人后接的出版"
+    },
+    {
+        "query": "v+m+n[,+.]",
+        "description": "动词+名+动词，句尾可接逗号或句点"
+    },
+    {
+        "query": "v m n[, .]",
+        "description": "动词+名+动词，句尾可接逗号或句点"
+    },
+    {
+        "query": "又太a[,+.]",
+        "description": "副词+太，句尾可接逗号或句点"
+    },
+    {
+        "query": "又太a[, .]",
+        "description": "副词+太，句尾可接逗号或句点"
+    },
+    {
+        "query": "没有v成[,+.]",
+        "description": "动词+没+动词，句尾可接逗号或句点"
+    },
+    {
+        "query": "没有v成[, .]",
+        "description": "动词+没+动词，句尾可接逗号或句点"
+    },
+    {
+        "query": "仿佛v+u[,+.]",
+        "description": "动词+形+动词，句尾可接逗号或句点"
+    },
+    {
+        "query": "仿佛v u[, .]",
+        "description": "动词+形+动词，句尾可接逗号或句点"
+    },
+    {
+        "query": "让r+v[,+.]",
+        "description": "代词+让+动词，句尾可接逗号或句点"
+    },
+    {
+        "query": "让r v[, .]",
+        "description": "代词+让+动词，句尾可接逗号或句点"
+    },
+    {
+        "query": "w[q+r+d+c+v+a++n+m++p]雄.雌w",
+        "description": "以雄.雌为结尾的句子，包含形容词、动词、名词等"
+    },
+    {
+        "query": "w[q r d c v a  n m  p]雄.雌w",
+        "description": "以雄.雌为结尾的句子，包含形容词、动词、名词等"
+    },
+    {
+        "query": "一连n[,+.]",
+        "description": "名词+连词，句尾可接逗号或句点"
+    },
+    {
+        "query": "一连n[, .]",
+        "description": "名词+连词，句尾可接逗号或句点"
+    },
+    {
+        "query": "方d+v[,+.]",
+        "description": "方位词+代词+动词，句尾可接逗号或句点"
+    },
+    {
+        "query": "方d v[, .]",
+        "description": "方位词+代词+动词，句尾可接逗号或句点"
+    },
+    {
+        "query": "至今[v+a+n+r][,+.]",
+        "description": "动词+连词+名词+人+时间词，句尾可接逗号或句点"
+    },
+    {
+        "query": "至今[v a n r][, .]",
+        "description": "动词+连词+名词+人+时间词，句尾可接逗号或句点"
+    },
+    {
+        "query": "d能v+n[,+.]",
+        "description": "代词+能+动词+名词，句尾可接逗号或句点"
+    },
+    {
+        "query": "d能v n[, .]",
+        "description": "代词+能+动词+名词，句尾可接逗号或句点"
+    },
+    {
+        "query": "既不a[,+.]",
+        "description": "副词+既不，句尾可接逗号或句点"
+    },
+    {
+        "query": "既不a[, .]",
+        "description": "副词+既不，句尾可接逗号或句点"
+    },
+    {
+        "query": "亲笔d+a[,+.]",
+        "description": "代词+亲笔+形容词，句尾可接逗号或句点"
+    },
+    {
+        "query": "亲笔d a[, .]",
+        "description": "代词+亲笔+形容词，句尾可接逗号或句点"
+    },
+    {
+        "query": "再三v+a[,+.]",
+        "description": "动词+再三+形容词，句尾可接逗号或句点"
+    },
+    {
+        "query": "再三v a[, .]",
+        "description": "动词+再三+形容词，句尾可接逗号或句点"
+    },
+    {
+        "query": "w好.坏[q+r+d+c+v+a++n+m++p]w",
+        "description": "以好.坏为结尾的句子，包含形容词、动词、名词等"
+    },
+    {
+        "query": "w好.坏[q r d c v a  n m  p]w",
+        "description": "以好.坏为结尾的句子，包含形容词、动词、名词等"
+    },
+    {
+        "query": "w私.公[q+r+d+c+v+a++n+m++p]w",
+        "description": "以私.公为结尾的句子，包含形容词、动词、名词等"
+    },
+    {
+        "query": "w私.公[q r d c v a  n m  p]w",
+        "description": "以私.公为结尾的句子，包含形容词、动词、名词等"
+    },
+    {
+        "query": "这个a[,+.]",
+        "description": "形容词，句尾可接逗号或句点"
+    },
+    {
+        "query": "这个a[, .]",
+        "description": "形容词，句尾可接逗号或句点"
+    },
+    {
+        "query": "当然v+n[,+.]",
+        "description": "动词+当然+名词，句尾可接逗号或句点"
+    },
+    {
+        "query": "当然v n[, .]",
+        "description": "动词+当然+名词，句尾可接逗号或句点"
+    },
+    {
+        "query": "会呼吸的[a+n]",
+        "description": "形容词+会呼吸的+名词"
+    },
+    {
+        "query": "会呼吸的[a n]",
+        "description": "形容词+会呼吸的+名词"
+    },
+    {
+        "query": "反成n[,+.]",
+        "description": "动词+反+名词，句尾可接逗号或句点"
+    },
+    {
+        "query": "反成n[, .]",
+        "description": "动词+反+名词，句尾可接逗号或句点"
+    }
+]
+```

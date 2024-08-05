@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "a主动",
+        "description": "形容词后接动词主动"
+    },
+    {
+        "query": "r说",
+        "description": "代词后接动词说"
+    },
+    {
+        "query": "这下a了",
+        "description": "指示代词后接形容词了"
+    },
+    {
+        "query": "还能v了n",
+        "description": "动词还能后接了，再接名词"
+    },
+    {
+        "query": "他n+n+v",
+        "description": "人名后接人名后接动词"
+    },
+    {
+        "query": "他n n v",
+        "description": "人名后接人名后接动词"
+    },
+    {
+        "query": "满头n",
+        "description": "量词后接名词满头"
+    },
+    {
+        "query": "v上缴",
+        "description": "动词后接上缴"
+    },
+    {
+        "query": "v一下",
+        "description": "动词后接一下"
+    },
+    {
+        "query": "v同v",
+        "description": "动词后接同，再接动词"
+    },
+    {
+        "query": "v厅房",
+        "description": "动词后接厅房"
+    },
+    {
+        "query": "a书本",
+        "description": "形容词后接书本"
+    },
+    {
+        "query": "把N撒在",
+        "description": "介词后接N撒在"
+    },
+    {
+        "query": "a丧失",
+        "description": "形容词后接丧失"
+    },
+    {
+        "query": "a言",
+        "description": "形容词后接言"
+    },
+    {
+        "query": "a厂商",
+        "description": "形容词后接厂商"
+    },
+    {
+        "query": "w当真",
+        "description": "标点符号后接当真"
+    },
+    {
+        "query": "学坏v",
+        "description": "动词学后接坏，再接动词"
+    },
+    {
+        "query": "a企业",
+        "description": "形容词后接企业"
+    },
+    {
+        "query": "w有三q",
+        "description": "标点符号后接有，再接量词三，后接名词"
+    },
+    {
+        "query": "我们一个n",
+        "description": "指示代词后接我们，再接量词一个，后接名词"
+    },
+    {
+        "query": "光+v",
+        "description": "量词后接动词光"
+    },
+    {
+        "query": "光 v",
+        "description": "量词后接动词光"
+    },
+    {
+        "query": "n这儿",
+        "description": "名词后接这儿"
+    },
+    {
+        "query": "每q都",
+        "description": "量词后接都"
+    },
+    {
+        "query": "没n不v",
+        "description": "名词后接不，再接动词"
+    },
+    {
+        "query": "a公费",
+        "description": "形容词后接公费"
+    },
+    {
+        "query": "a千万",
+        "description": "形容词后接千万"
+    },
+    {
+        "query": "a决策",
+        "description": "形容词后接决策"
+    },
+    {
+        "query": "a的仁人",
+        "description": "形容词后接的，再接名词仁人"
+    },
+    {
+        "query": "喝饱n",
+        "description": "动词喝后接饱，再接名词"
+    },
+    {
+        "query": "m编n",
+        "description": "助词后接编，再接名词"
+    },
+    {
+        "query": "v一把n",
+        "description": "动词后接一把，再接名词"
+    },
+    {
+        "query": "a公社",
+        "description": "形容词后接公社"
+    },
+    {
+        "query": "a传送",
+        "description": "形容词后接传送"
+    },
+    {
+        "query": "a书面",
+        "description": "形容词后接书面"
+    },
+    {
+        "query": "n写着",
+        "description": "名词后接写着"
+    },
+    {
+        "query": "a油灯",
+        "description": "形容词后接油灯"
+    },
+    {
+        "query": "w+a一点",
+        "description": "标点符号后接加，再接一点"
+    },
+    {
+        "query": "w a一点",
+        "description": "标点符号后接空格，再接一点"
+    }
+]
+```

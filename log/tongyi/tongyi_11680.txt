@@ -1,0 +1,166 @@
+以下是将给定的检索式转换为带含义的JSON结构的列表：
+
+```json
+[
+    {
+        "query": "[似乎+好像+看来+看起来+看上去]",
+        "description": "似乎、好像、看来、看起来、看上去的组合"
+    },
+    {
+        "query": "[似乎 好像 看来 看起来 看上去]",
+        "description": "似乎、好像、看来、看起来、看上去的单个词"
+    },
+    {
+        "query": "w[q+r+d+c+v+a++n+m++p]下.上w",
+        "description": "w下后接上，w前后的标记为[q+r+d+c+v+a++n+m++p]"
+    },
+    {
+        "query": "w[q r d c v a  n m  p]下.上w",
+        "description": "w下后接上，w前后的标记简化为[q r d c v a  n m  p]"
+    },
+    {
+        "query": "通常[v+a+n+r][，+。]",
+        "description": "通常后接名词或形容词或动词，后接逗号或句点"
+    },
+    {
+        "query": "通常[v a n r][， 。]",
+        "description": "通常后接名词或形容词或动词，后接逗号或句点"
+    },
+    {
+        "query": "v于n[，+。]",
+        "description": "动词后接名词，后接逗号或句点"
+    },
+    {
+        "query": "v于n[， 。]",
+        "description": "动词后接名词，后接逗号或句点"
+    },
+    {
+        "query": "极度v[v+a+n+r][，+。]",
+        "description": "极度后接形容词或动词或名词，后接逗号或句点"
+    },
+    {
+        "query": "极度v[v a n r][， 。]",
+        "description": "极度后接形容词或动词或名词，后接逗号或句点"
+    },
+    {
+        "query": "分别n[，+。]",
+        "description": "分别后接逗号或句点"
+    },
+    {
+        "query": "分别n[， 。]",
+        "description": "分别后接逗号或句点"
+    },
+    {
+        "query": "公平/a[v+p+地/u]",
+        "description": "公平后接动词、地点或介词，a表示形容词"
+    },
+    {
+        "query": "公平/a[v p 地/u]",
+        "description": "公平后接动词、地点或介词，a表示形容词"
+    },
+    {
+        "query": "n造诣[，+。]",
+        "description": "名词后接逗号或句点"
+    },
+    {
+        "query": "n造诣[， 。]",
+        "description": "名词后接逗号或句点"
+    },
+    {
+        "query": "故意d+v[，+。]",
+        "description": "故意后接动词，d表示副词"
+    },
+    {
+        "query": "故意d v[， 。]",
+        "description": "故意后接动词，d表示副词"
+    },
+    {
+        "query": "[哭+遇到+挑+用+签+拜]个",
+        "description": "哭、遇到、挑、用、签、拜的组合"
+    },
+    {
+        "query": "[哭 遇到 挑 用 签 拜]个",
+        "description": "哭、遇到、挑、用、签、拜的单个词"
+    },
+    {
+        "query": "几乎v[v+a+n+r][，+。]",
+        "description": "几乎后接形容词或动词或名词，后接逗号或句点"
+    },
+    {
+        "query": "几乎v[v a n r][， 。]",
+        "description": "几乎后接形容词或动词或名词，后接逗号或句点"
+    },
+    {
+        "query": "无偿v+v[，+。]",
+        "description": "无偿两次后接逗号或句点"
+    },
+    {
+        "query": "无偿v v[， 。]",
+        "description": "无偿两次后接逗号或句点"
+    },
+    {
+        "query": "w[q+r+d+c+v+a++n+m++p]尾.头w",
+        "description": "w尾后接头，w前后的标记为[q+r+d+c+v+a++n+m++p]"
+    },
+    {
+        "query": "w[q r d c v a  n m  p]尾.头w",
+        "description": "w尾后接头，w前后的标记简化为[q r d c v a  n m  p]"
+    },
+    {
+        "query": "一共v+y[，+。]",
+        "description": "一共后接年份，后接逗号或句点"
+    },
+    {
+        "query": "一共v y[， 。]",
+        "description": "一共后接年份，后接逗号或句点"
+    },
+    {
+        "query": "[或许+或者+及早]v[q+m+]n[，+。]",
+        "description": "或许、或者、及早的组合，后接疑问词或名词，后接逗号或句点"
+    },
+    {
+        "query": "[或许 或者 及早]v[q m ]n[， 。]",
+        "description": "或许、或者、及早的组合，后接疑问词或名词，后接逗号或句点"
+    },
+    {
+        "query": "别的n[，+。]",
+        "description": "别的后接逗号或句点"
+    },
+    {
+        "query": "别的n[， 。]",
+        "description": "别的后接逗号或句点"
+    },
+    {
+        "query": "交替v[v+a+n+r][，+。]",
+        "description": "交替后接形容词或动词或名词，后接逗号或句点"
+    },
+    {
+        "query": "交替v[v a n r][， 。]",
+        "description": "交替后接形容词或动词或名词，后接逗号或句点"
+    },
+    {
+        "query": "一律v+u[，+。]",
+        "description": "一律后接单位，后接逗号或句点"
+    },
+    {
+        "query": "一律v u[， 。]",
+        "description": "一律后接单位，后接逗号或句点"
+    },
+    {
+        "query": "[虽说+比方+倘若]v[v+a][，+。]",
+        "description": "虽说、比方、倘若的组合，后接形容词或动词，后接逗号或句点"
+    },
+    {
+        "query": "[虽说 比方 倘若]v[v a][， 。]",
+        "description": "虽说、比方、倘若的组合，后接形容词或动词，后接逗号或句点"
+    },
+    {
+        "query": "暗中v[，+。]",
+        "description": "暗中后接逗号或句点"
+    },
+    {
+        "query": "暗中v[， 。]",
+        "description": "暗中后接逗号或句点"
+    }
+]
+```

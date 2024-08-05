@@ -1,0 +1,166 @@
+以下是将给定的检索式转换为带含义的JSON结构：
+
+```json
+[
+    {
+        "query": "急剧v+u[，+。]",
+        "description": "急剧动词后接u，u后接逗号或句号"
+    },
+    {
+        "query": "急剧v u[， 。]",
+        "description": "急剧动词后接u，u后接逗号或句号"
+    },
+    {
+        "query": "[独自+短期+顿时]v[q+m+]n[，+。]",
+        "description": "独自、短期、顿时这三个词组合在一起作为动词的前置修饰词，动词后接n，n后接逗号或句号"
+    },
+    {
+        "query": "[独自 短期 顿时]v[q m ]n[， 。]",
+        "description": "独自、短期、顿时这三个词分别作为动词的前置修饰词，动词后接n，n后接逗号或句号"
+    },
+    {
+        "query": "义务a[，+。]",
+        "description": "义务形容词后接逗号或句号"
+    },
+    {
+        "query": "义务a[， 。]",
+        "description": "义务形容词后接逗号或句号"
+    },
+    {
+        "query": "分布+n+[f+s+ns]",
+        "description": "分布动词后接n，n后接f、s、ns中的任意词"
+    },
+    {
+        "query": "分布 n [f s ns]",
+        "description": "分布动词后接n，n后接f、s、ns中的任意词"
+    },
+    {
+        "query": "[，+。]d+r+m+[，+。]",
+        "description": "逗号或句号后接d、r、m中的任意词，再接逗号或句号"
+    },
+    {
+        "query": "[， 。]d r m [， 。]",
+        "description": "逗号或句号后接d、r、m中的任意词，再接逗号或句号"
+    },
+    {
+        "query": "终究v[，+。]",
+        "description": "终究动词后接逗号或句号"
+    },
+    {
+        "query": "终究v[， 。]",
+        "description": "终究动词后接逗号或句号"
+    },
+    {
+        "query": "眼看v+y[，+。]",
+        "description": "眼看动词后接y，y后接逗号或句号"
+    },
+    {
+        "query": "眼看v y[， 。]",
+        "description": "眼看动词后接y，y后接逗号或句号"
+    },
+    {
+        "query": "定期v+a[，+。]",
+        "description": "定期动词后接a，a后接逗号或句号"
+    },
+    {
+        "query": "定期v a[， 。]",
+        "description": "定期动词后接a，a后接逗号或句号"
+    },
+    {
+        "query": "[不觉+不禁+不堪]v[q+m+]n[，+。]",
+        "description": "不觉、不禁、不堪这三个词组合在一起作为动词的前置修饰词，动词后接n，n后接逗号或句号"
+    },
+    {
+        "query": "[不觉 不禁 不堪]v[q m ]n[， 。]",
+        "description": "不觉、不禁、不堪这三个词分别作为动词的前置修饰词，动词后接n，n后接逗号或句号"
+    },
+    {
+        "query": "独自v[v+a+n+r][，+。]",
+        "description": "独自动词后接[v+a+n+r]中的任意词，再接逗号或句号"
+    },
+    {
+        "query": "独自v[v a n r][， 。]",
+        "description": "独自动词后接[v a n r]中的任意词，再接逗号或句号"
+    },
+    {
+        "query": "随即v+u[，+。]",
+        "description": "随即动词后接u，u后接逗号或句号"
+    },
+    {
+        "query": "随即v u[， 。]",
+        "description": "随即动词后接u，u后接逗号或句号"
+    },
+    {
+        "query": "[入+出+跨+进+经过+穿+去+返回+行+走+切+攀+渡]*是",
+        "description": "入、出、跨、进、经过、穿、去、返回、行、走、切、攀、渡中的任意词作为谓语，后接是否"
+    },
+    {
+        "query": "[入 出 跨 进 经过 穿 去 返回 行 走 切 攀 渡]*是",
+        "description": "入、出、跨、进、经过、穿、去、返回、行、走、切、攀、渡中的任意词作为谓语，后接是否"
+    },
+    {
+        "query": "a[经历+经验]",
+        "description": "经历和经验这两个词作为形容词的前置修饰词"
+    },
+    {
+        "query": "a[经历 经验]",
+        "description": "经历和经验这两个词分别作为形容词的前置修饰词"
+    },
+    {
+        "query": "徐徐d+n[，+。]",
+        "description": "徐徐形容词后接n，n后接逗号或句号"
+    },
+    {
+        "query": "徐徐d n[， 。]",
+        "description": "徐徐形容词后接n，n后接逗号或句号"
+    },
+    {
+        "query": "不断d+n[，+。]",
+        "description": "不断形容词后接n，n后接逗号或句号"
+    },
+    {
+        "query": "不断d n[， 。]",
+        "description": "不断形容词后接n，n后接逗号或句号"
+    },
+    {
+        "query": "任意d+n[，+。]",
+        "description": "任意形容词后接n，n后接逗号或句号"
+    },
+    {
+        "query": "任意d n[， 。]",
+        "description": "任意形容词后接n，n后接逗号或句号"
+    },
+    {
+        "query": "[s+t]拿过来n",
+        "description": "s和t组合在一起作为动词，后接拿过来，再接n"
+    },
+    {
+        "query": "[s t]拿过来n",
+        "description": "s和t分别作为动词，后接拿过来，再接n"
+    },
+    {
+        "query": "至少a[，+。]",
+        "description": "至少形容词后接逗号或句号"
+    },
+    {
+        "query": "至少a[， 。]",
+        "description": "至少形容词后接逗号或句号"
+    },
+    {
+        "query": "这一v+[，+。]",
+        "description": "这一动词后接逗号或句号"
+    },
+    {
+        "query": "这一v [， 。]",
+        "description": "这一动词后接逗号或句号"
+    },
+    {
+        "query": "只顾d+n[，+。]",
+        "description": "只顾形容词后接n，n后接逗号或句号"
+    },
+    {
+        "query": "只顾d n[， 。]",
+        "description": "只顾形容词后接n，n后接逗号或句号"
+    }
+]
+```

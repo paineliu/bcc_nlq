@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "给/p 儿子 做/v",
+        "description": "给儿子做动词操作的句子"
+    },
+    {
+        "query": "领军者+创新/vn+故事",
+        "description": "领军者进行创新并讲述创新的故事"
+    },
+    {
+        "query": "领军者 创新/vn 故事",
+        "description": "领军者讲述创新的故事"
+    },
+    {
+        "query": "可+留蓄/v+近",
+        "description": "可进行留蓄操作并靠近的句子"
+    },
+    {
+        "query": "可 留蓄/v 近",
+        "description": "可留蓄并靠近的句子"
+    },
+    {
+        "query": "污/ng+n",
+        "description": "污垢或污染的名词描述"
+    },
+    {
+        "query": "污/ng n",
+        "description": "污垢或污染的句子描述"
+    },
+    {
+        "query": "恩情/n+a",
+        "description": "含有恩情的句子"
+    },
+    {
+        "query": "恩情/n a",
+        "description": "恩情后接a的句子"
+    },
+    {
+        "query": "n+好感/n",
+        "description": "表示好感的名词"
+    },
+    {
+        "query": "n 好感/n",
+        "description": "表示好感的句子"
+    },
+    {
+        "query": "由/p+主办",
+        "description": "由某个组织或个人主办的活动或事件"
+    },
+    {
+        "query": "由/p 主办",
+        "description": "主办的活动或事件"
+    },
+    {
+        "query": "推进+绿色/n+发展",
+        "description": "推进绿色发展的句子"
+    },
+    {
+        "query": "推进 绿色/n 发展",
+        "description": "描述推进绿色发展的句子"
+    },
+    {
+        "query": "爱好者/n+兰天+先生+十分+高兴+。/w",
+        "description": "爱好者兰天先生非常高兴的句子"
+    },
+    {
+        "query": "爱好者/n 兰天 先生 十分 高兴 。/w",
+        "description": "爱好者兰天先生非常高兴的句子"
+    },
+    {
+        "query": "减排+项目/n+备案",
+        "description": "减排项目的备案信息"
+    },
+    {
+        "query": "减排 项目/n 备案",
+        "description": "描述减排项目备案的句子"
+    },
+    {
+        "query": "，+推进/v+廉政",
+        "description": "关于推进廉政的句子，以逗号开头"
+    },
+    {
+        "query": "， 推进/v 廉政",
+        "description": "描述推进廉政的句子"
+    },
+    {
+        "query": "达标+，/w+将",
+        "description": "达标后的动作或状态，以逗号结尾"
+    },
+    {
+        "query": "达标 ，/w 将",
+        "description": "描述达标后的动作或状态"
+    },
+    {
+        "query": "再+为/v+重大",
+        "description": "再次为重大事件或情况的描述"
+    },
+    {
+        "query": "再 为/v 重大",
+        "description": "描述再次成为重大事件或情况"
+    },
+    {
+        "query": "到底/d",
+        "description": "询问或表达不确定性的词汇"
+    },
+    {
+        "query": "养殖业/n+的+衰落/vn",
+        "description": "养殖业的衰落"
+    },
+    {
+        "query": "养殖业/n 的 衰落/vn",
+        "description": "养殖业描述衰落的句子"
+    },
+    {
+        "query": "利润+同比/j+增",
+        "description": "利润与去年同期相比增加的句子"
+    },
+    {
+        "query": "利润 同比/j 增",
+        "description": "描述利润增加与去年同期对比的句子"
+    },
+    {
+        "query": "吟+琼箫/n+，",
+        "description": "吟唱琼箫的句子，以逗号结尾"
+    },
+    {
+        "query": "吟 琼箫/n ，",
+        "description": "描述吟唱琼箫的句子"
+    },
+    {
+        "query": "焦点/n+之三/nr",
+        "description": "焦点中的第三个主题或对象"
+    },
+    {
+        "query": "焦点/n 之三/nr",
+        "description": "描述焦点中的第三个主题或对象"
+    },
+    {
+        "query": "一遍遍+梳理/v+冰雪",
+        "description": "一遍遍梳理冰雪的句子"
+    },
+    {
+        "query": "一遍遍 梳理/v 冰雪",
+        "description": "描述一遍遍梳理冰雪的动作"
+    },
+    {
+        "query": "法国/ns+政府",
+        "description": "关于法国政府的句子"
+    },
+    {
+        "query": "法国/ns 政府",
+        "description": "描述法国政府的句子"
+    },
+    {
+        "query": "，/w+你+会+掉泪+吗+？/w",
+        "description": "以逗号开头询问是否会流泪的句子"
+    },
+    {
+        "query": "，/w 你 会 掉泪 吗 ？/w",
+        "description": "询问是否会流泪的句子"
+    }
+]
+```

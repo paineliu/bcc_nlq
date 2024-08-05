@@ -1,0 +1,148 @@
+```json
+[
+    {
+        "query": "要求(n)*w{len($1)=2}+",
+        "description": "要求后面跟一个长度为2的词"
+    },
+    {
+        "query": "要求(n)*w{len($1)=2} ",
+        "description": "要求后面跟一个长度为2的词"
+    },
+    {
+        "query": "(n)+复杂{count<209}",
+        "description": "一个名词加上'复杂'并且出现次数少于209次"
+    },
+    {
+        "query": "(n) 复杂{count<209}",
+        "description": "一个名词加上'复杂'并且出现次数少于209次"
+    },
+    {
+        "query": "是+(n)+得到{len($1)!=3}",
+        "description": "以'是'开头，后面跟一个名词得到的句子，且这个名词的长度不等于3"
+    },
+    {
+        "query": "是 (n) 得到{len($1)!=3}",
+        "description": "以'是'开头，后面跟一个名词得到的句子，且这个名词的长度不等于3"
+    },
+    {
+        "query": "雕刻(n)*w{len($1)=2}",
+        "description": "雕刻后面跟一个长度为2的词"
+    },
+    {
+        "query": "中职+(v)+建立{count<374}",
+        "description": "中职后面跟一个动词建立并且出现次数少于374次"
+    },
+    {
+        "query": "中职 (v) 建立{count<374}",
+        "description": "中职后面跟一个动词建立并且出现次数少于374次"
+    },
+    {
+        "query": "说(V)就(V){$1=$2;len($1)=1}",
+        "description": "说和就都是单个字母的动词，并且它们相等"
+    },
+    {
+        "query": "(n){end($1)=[生]}",
+        "description": "一个名词，以'生'作为结尾"
+    },
+    {
+        "query": "什么(n)不(n){$1=$2}",
+        "description": "什么和不都是名词，并且它们相等"
+    },
+    {
+        "query": "，+(t)+飞{count>2}",
+        "description": "逗号后面跟一个t词，且出现次数超过2次"
+    },
+    {
+        "query": "， (t) 飞{count>2}",
+        "description": "逗号后面跟一个t词，且出现次数超过2次"
+    },
+    {
+        "query": "一(v)就(v){$1=$2}",
+        "description": "一和就都是动词，并且它们相等"
+    },
+    {
+        "query": "担当+(n){end($1)!=[无+空]}",
+        "description": "担当后面跟一个名词，且这个名词不以'无+空'作为结尾"
+    },
+    {
+        "query": "担当 (n){end($1)!=[无 空]}",
+        "description": "担当后面跟一个名词，且这个名词不以'无+空'作为结尾"
+    },
+    {
+        "query": "(r)+(u){len($1)!=3; len($2)!=2}",
+        "description": "r和u都不满足长度为3和2的条件"
+    },
+    {
+        "query": "(r) (u){len($1)!=3; len($2)!=2}",
+        "description": "r和u都不满足长度为3和2的条件"
+    },
+    {
+        "query": "(v)+(w){len($1)=1}",
+        "description": "v和w都是长度为1的词"
+    },
+    {
+        "query": "(v) (w){len($1)=1}",
+        "description": "v和w都是长度为1的词"
+    },
+    {
+        "query": "正+(v){len($1)>1}",
+        "description": "正后面跟一个长度大于1的动词"
+    },
+    {
+        "query": "正 (v){len($1)>1}",
+        "description": "正后面跟一个长度大于1的动词"
+    },
+    {
+        "query": "投入+(v)+穷根{len($1)=1}",
+        "description": "投入后面跟一个长度为1的词，再跟穷根"
+    },
+    {
+        "query": "投入 (v) 穷根{len($1)=1}",
+        "description": "投入后面跟一个长度为1的词，再跟穷根"
+    },
+    {
+        "query": "(a)也罢(a)也罢{$1!=$2}",
+        "description": "两个a也罢之间必须有不同内容"
+    },
+    {
+        "query": "说+(w){count>3}",
+        "description": "说后面跟的词出现次数超过3次"
+    },
+    {
+        "query": "说 (w){count>3}",
+        "description": "说后面跟的词出现次数超过3次"
+    },
+    {
+        "query": "如此+(w){count<894}",
+        "description": "如此后面跟的词出现次数少于894次"
+    },
+    {
+        "query": "如此 (w){count<894}",
+        "description": "如此后面跟的词出现次数少于894次"
+    },
+    {
+        "query": "开始(n)*w{len($1)=2}",
+        "description": "开始后面跟一个长度为2的词"
+    },
+    {
+        "query": "首款+(n)+加密{len($1)>2}",
+        "description": "首款后面跟一个长度大于2的名词"
+    },
+    {
+        "query": "首款 (n) 加密{len($1)>2}",
+        "description": "首款后面跟一个长度大于2的名词"
+    },
+    {
+        "query": "需要+(ns)+的{count>2}",
+        "description": "需要后面跟一个ns类词，并且出现次数超过2次"
+    },
+    {
+        "query": "需要 (ns) 的{count>2}",
+        "description": "需要后面跟一个ns类词，并且出现次数超过2次"
+    },
+    {
+        "query": "(n)到底是(n){$1=$2}",
+        "description": "一个名词到底是不是另一个相同的名词"
+    }
+]
+```

@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "狗气杀",
+        "description": "包含\"狗气杀\"的句子"
+    },
+    {
+        "query": "疲软",
+        "description": "包含\"疲软\"的句子"
+    },
+    {
+        "query": "苦中苦",
+        "description": "包含\"苦中苦\"的句子"
+    },
+    {
+        "query": "写着+",
+        "description": "包含\"写着+\"的句子"
+    },
+    {
+        "query": "写着",
+        "description": "包含\"写着\"的句子"
+    },
+    {
+        "query": "及人权",
+        "description": "包含\"及人权\"的句子"
+    },
+    {
+        "query": "搭搭讪讪",
+        "description": "包含\"搭搭讪讪\"的句子"
+    },
+    {
+        "query": "和谐）",
+        "description": "包含\"和谐）\"的句子"
+    },
+    {
+        "query": "煮茶",
+        "description": "包含\"煮茶\"的句子"
+    },
+    {
+        "query": "不当上",
+        "description": "包含\"不当上\"的句子"
+    },
+    {
+        "query": "不要看",
+        "description": "包含\"不要看\"的句子"
+    },
+    {
+        "query": "半吐半吞",
+        "description": "包含\"半吐半吞\"的句子"
+    },
+    {
+        "query": "岂敢",
+        "description": "包含\"岂敢\"的句子"
+    },
+    {
+        "query": "农村不农村",
+        "description": "包含\"农村不农村\"的句子"
+    },
+    {
+        "query": "不屑",
+        "description": "包含\"不屑\"的句子"
+    },
+    {
+        "query": "腹诽心谤",
+        "description": "包含\"腹诽心谤\"的句子"
+    },
+    {
+        "query": "帐篷",
+        "description": "包含\"帐篷\"的句子"
+    },
+    {
+        "query": "起伏",
+        "description": "包含\"起伏\"的句子"
+    },
+    {
+        "query": "天国",
+        "description": "包含\"天国\"的句子"
+    },
+    {
+        "query": "幸福和谐",
+        "description": "包含\"幸福和谐\"的句子"
+    },
+    {
+        "query": "一罐可乐",
+        "description": "包含\"一罐可乐\"的句子"
+    },
+    {
+        "query": "人权党",
+        "description": "包含\"人权党\"的句子"
+    },
+    {
+        "query": "你别提了",
+        "description": "包含\"你别提了\"的句子"
+    },
+    {
+        "query": "应该",
+        "description": "包含\"应该\"的句子"
+    },
+    {
+        "query": "空腹",
+        "description": "包含\"空腹\"的句子"
+    },
+    {
+        "query": "不太挑剔",
+        "description": "包含\"不太挑剔\"的句子"
+    },
+    {
+        "query": "一些",
+        "description": "包含\"一些\"的句子"
+    },
+    {
+        "query": "学生和谐",
+        "description": "包含\"学生和谐\"的句子"
+    },
+    {
+        "query": "那可太",
+        "description": "包含\"那可太\"的句子"
+    },
+    {
+        "query": "尊崇",
+        "description": "包含\"尊崇\"的句子"
+    },
+    {
+        "query": "和谐与发",
+        "description": "包含\"和谐与发\"的句子"
+    },
+    {
+        "query": "土不土豪",
+        "description": "包含\"土不土豪\"的句子"
+    },
+    {
+        "query": "明确化",
+        "description": "包含\"明确化\"的句子"
+    },
+    {
+        "query": "来越和谐",
+        "description": "包含\"来越和谐\"的句子"
+    },
+    {
+        "query": "久久",
+        "description": "包含\"久久\"的句子"
+    },
+    {
+        "query": "我们这个",
+        "description": "包含\"我们这个\"的句子"
+    },
+    {
+        "query": "宝贝",
+        "description": "包含\"宝贝\"的句子"
+    },
+    {
+        "query": "苦熬",
+        "description": "包含\"苦熬\"的句子"
+    },
+    {
+        "query": "永久",
+        "description": "包含\"永久\"的句子"
+    },
+    {
+        "query": "能不能请",
+        "description": "包含\"能不能请\"的句子"
+    }
+]
+```

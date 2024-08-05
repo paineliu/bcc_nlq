@@ -1,0 +1,166 @@
+以下是将给定的检索式转换为带含义的json结构：
+
+```json
+[
+    {
+        "query": "似乎*反倒",
+        "description": "似乎后面离合出现反倒"
+    },
+    {
+        "query": "好像..似的",
+        "description": "好像后面隔一个字后接似的"
+    },
+    {
+        "query": "注...意",
+        "description": "注后面隔一个字后接意"
+    },
+    {
+        "query": "感情*v上",
+        "description": "感情后接上动词"
+    },
+    {
+        "query": "悲哀*V上",
+        "description": "悲哀后接上动词"
+    },
+    {
+        "query": "大约*吧？",
+        "description": "大约后面离合出现吧后询问"
+    },
+    {
+        "query": "w富.贫w",
+        "description": "w富后面隔一个字后接贫w"
+    },
+    {
+        "query": "他.+回去w",
+        "description": "他后面加上回再接去w"
+    },
+    {
+        "query": "他. 回去w",
+        "description": "他后面空格后接回去w"
+    },
+    {
+        "query": "恐怖*V上",
+        "description": "恐怖后接上动词"
+    },
+    {
+        "query": "点*头",
+        "description": "点后面离合出现头"
+    },
+    {
+        "query": "我们一个*！",
+        "description": "我们后面离合出现一个后感叹号"
+    },
+    {
+        "query": "瞧把*v的",
+        "description": "瞧后面离合出现把v的"
+    },
+    {
+        "query": "不~才怪",
+        "description": "不后面隔一个词后接才怪"
+    },
+    {
+        "query": "只要*就",
+        "description": "只要后面离合出现就"
+    },
+    {
+        "query": "悲痛*V上",
+        "description": "悲痛后接上动词"
+    },
+    {
+        "query": "至少*恐怕",
+        "description": "至少后面离合出现恐怕"
+    },
+    {
+        "query": "在*上w",
+        "description": "在后面离合出现上w"
+    },
+    {
+        "query": "开*倒车",
+        "description": "开后面离合出现倒车"
+    },
+    {
+        "query": "愤怒*V下",
+        "description": "愤怒后接下动词"
+    },
+    {
+        "query": "她们..+下来w",
+        "description": "她们后面加上下再接来w"
+    },
+    {
+        "query": "她们.. 下来w",
+        "description": "她们后面空格后接下再接来w"
+    },
+    {
+        "query": "没.过",
+        "description": "没后面隔一个字后接过"
+    },
+    {
+        "query": "帮*助",
+        "description": "帮后面离合出现助"
+    },
+    {
+        "query": "会*很多",
+        "description": "会后面离合出现很多"
+    },
+    {
+        "query": "你们一个*？",
+        "description": "你们后面离合出现一个后问号"
+    },
+    {
+        "query": "V*桉树",
+        "description": "V后面离合出现桉树"
+    },
+    {
+        "query": "实际上@也许",
+        "description": "实际上这个词性为也许"
+    },
+    {
+        "query": "@死我了",
+        "description": "死这个词性为我了"
+    },
+    {
+        "query": "w单.双w",
+        "description": "w单后面隔一个字后接双w"
+    },
+    {
+        "query": "仿佛*的。",
+        "description": "仿佛后面离合出现的后句尾"
+    },
+    {
+        "query": "洗........澡",
+        "description": "洗后面隔多个字后接澡"
+    },
+    {
+        "query": "把*v下去w",
+        "description": "把后面离合出现v再接下w"
+    },
+    {
+        "query": "错*对",
+        "description": "错后面离合出现对"
+    },
+    {
+        "query": "好像*总得",
+        "description": "好像后面离合出现总得"
+    },
+    {
+        "query": "照*不误",
+        "description": "照后面离合出现不误"
+    },
+    {
+        "query": "n....n",
+        "description": "n后面隔多个字后接n"
+    },
+    {
+        "query": "龙.虎.",
+        "description": "龙后面隔一个字后接虎."
+    },
+    {
+        "query": "在.上",
+        "description": "在后面空格后接上"
+    },
+    {
+        "query": "是*的立场w",
+        "description": "是后面离合出现的再接立场w"
+    }
+]
+```

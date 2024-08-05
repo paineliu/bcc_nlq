@@ -1,0 +1,166 @@
+以下是将给定的检索式转换为带含义的json结构的列表：
+
+```json
+[
+    {
+        "query": "v一通",
+        "description": "动词后邻一通"
+    },
+    {
+        "query": "m犋",
+        "description": "m后接犋"
+    },
+    {
+        "query": "a伺候",
+        "description": "形容词后接伺候"
+    },
+    {
+        "query": "太o",
+        "description": "太后接o"
+    },
+    {
+        "query": "v着玩",
+        "description": "动词后接着玩"
+    },
+    {
+        "query": "口味+z",
+        "description": "口味后接z"
+    },
+    {
+        "query": "口味 z",
+        "description": "口味后接一个词z"
+    },
+    {
+        "query": "没v不a",
+        "description": "没后接动词，动词后接不，不后接形容词"
+    },
+    {
+        "query": "n专卖店",
+        "description": "名词后接专卖店"
+    },
+    {
+        "query": "a叹气",
+        "description": "形容词后接叹气"
+    },
+    {
+        "query": "v上房",
+        "description": "动词后接上房"
+    },
+    {
+        "query": "v端正了",
+        "description": "动词后接端正了"
+    },
+    {
+        "query": "想V都",
+        "description": "想后接V，V后接都"
+    },
+    {
+        "query": "w+v+个n+w",
+        "description": "句首w后接动词v，v后接个，个后接名词n，最后再接w"
+    },
+    {
+        "query": "w v 个n w",
+        "description": "句首w后接v，v后接个，个后接名词n，最后再接w"
+    },
+    {
+        "query": "v个n",
+        "description": "动词后接个，个后接名词"
+    },
+    {
+        "query": "不v反v",
+        "description": "不后接动词，动词后接反，反后接动词"
+    },
+    {
+        "query": "w话说",
+        "description": "句首w后接话说"
+    },
+    {
+        "query": "a削弱",
+        "description": "形容词后接削弱"
+    },
+    {
+        "query": "宜v不宜v",
+        "description": "宜后接动词，动词后接不宜，不宜后接动词"
+    },
+    {
+        "query": "不是n是n",
+        "description": "不是后接名词，名词后接是，是后接名词"
+    },
+    {
+        "query": "在N泼",
+        "description": "在后接N，N后接泼"
+    },
+    {
+        "query": "ad拒绝",
+        "description": "副词后接拒绝"
+    },
+    {
+        "query": "好像v",
+        "description": "好像后接动词"
+    },
+    {
+        "query": "a了起来",
+        "description": "形容词后接了起来"
+    },
+    {
+        "query": "开V",
+        "description": "开后接V"
+    },
+    {
+        "query": "r界",
+        "description": "r后接界"
+    },
+    {
+        "query": "V起来",
+        "description": "动词后接起来"
+    },
+    {
+        "query": "a丘陵",
+        "description": "形容词后接丘陵"
+    },
+    {
+        "query": "V一q是一q",
+        "description": "动词后接一q，一q后接是一q"
+    },
+    {
+        "query": "排名前m",
+        "description": "排名后接前，前后接m"
+    },
+    {
+        "query": "悲痛V上",
+        "description": "悲痛后接V，V后接上"
+    },
+    {
+        "query": "有被v到",
+        "description": "有后接被，被后接动词，动词后接到"
+    },
+    {
+        "query": "关+r",
+        "description": "关后接r"
+    },
+    {
+        "query": "关 r",
+        "description": "关后接一个词r"
+    },
+    {
+        "query": "v淡",
+        "description": "动词后接淡"
+    },
+    {
+        "query": "罐车v",
+        "description": "罐车后接动词"
+    },
+    {
+        "query": "小v小的",
+        "description": "小后接动词，动词后接小的"
+    },
+    {
+        "query": "哪有n这么a的",
+        "description": "哪有后接名词，名词后接这么，这么后接形容词，形容词后接的"
+    },
+    {
+        "query": "电视n",
+        "description": "电视后接名词"
+    }
+]
+```

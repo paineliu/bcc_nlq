@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "杏花*v",
+        "description": "杏花后离合出现单音节动词"
+    },
+    {
+        "query": "w严.宽w",
+        "description": "严后面隔一个字后接宽"
+    },
+    {
+        "query": "或许*呢？",
+        "description": "或许后面离合出现呢并出现句尾问号"
+    },
+    {
+        "query": "向*V",
+        "description": "向后面离合出现单音节动词"
+    },
+    {
+        "query": "还是*吧",
+        "description": "还是后面离合出现单音节动词并出现句尾语气词"
+    },
+    {
+        "query": "w轻.重w",
+        "description": "轻后面隔一个字后接重"
+    },
+    {
+        "query": "把*进进了",
+        "description": "把后面离合出现进并出现两次"
+    },
+    {
+        "query": "按*说w",
+        "description": "按后面离合出现说并出现句尾"
+    },
+    {
+        "query": "V下*愤怒",
+        "description": "动词后离合出现下并出现愤怒"
+    },
+    {
+        "query": "老*年轻",
+        "description": "老后面离合出现年轻"
+    },
+    {
+        "query": "辛苦*了",
+        "description": "辛苦后面离合出现并出现了"
+    },
+    {
+        "query": "时间就像.n",
+        "description": "时间后面邻接像并接名词"
+    },
+    {
+        "query": "连.都",
+        "description": "连后面隔一个字后接都"
+    },
+    {
+        "query": "说不.",
+        "description": "说后面隔一个字后接不并出现句尾点号"
+    },
+    {
+        "query": "恐怕*了。",
+        "description": "恐怕后面离合出现并出现句尾问号"
+    },
+    {
+        "query": "婚*结",
+        "description": "婚后面离合出现结"
+    },
+    {
+        "query": "V上*恐怖",
+        "description": "动词后离合出现上并出现恐怖"
+    },
+    {
+        "query": "w照*说",
+        "description": "照后面离合出现说"
+    },
+    {
+        "query": "有的*有的",
+        "description": "有的后面离合出现有的"
+    },
+    {
+        "query": "*差异+++*差别",
+        "description": "差异后离合出现并出现多次差别"
+    },
+    {
+        "query": "*差异   *差别",
+        "description": "差异后离合出现并出现一次差别"
+    },
+    {
+        "query": "都快............了",
+        "description": "都快后离合出现并出现多个字"
+    },
+    {
+        "query": "会*很少",
+        "description": "会后面离合出现少并出现很"
+    },
+    {
+        "query": "也许*甚至于",
+        "description": "也许后面离合出现甚至于"
+    },
+    {
+        "query": "他一个*？",
+        "description": "他后面离合出现一个并出现问号"
+    },
+    {
+        "query": "成功*丰厚",
+        "description": "成功后面离合出现丰并出现厚"
+    },
+    {
+        "query": "那.m+q+n",
+        "description": "那后面邻接量词和名词"
+    },
+    {
+        "query": "那.m q n",
+        "description": "那后面邻接量词和名词"
+    },
+    {
+        "query": "似乎*确是",
+        "description": "似乎后面离合出现确并出现是"
+    },
+    {
+        "query": "非....不可",
+        "description": "非后离合出现并出现多个点号并接不可"
+    },
+    {
+        "query": "他.+进来w",
+        "description": "他后离合出现并接进来并出现单音节词"
+    },
+    {
+        "query": "他. 进来w",
+        "description": "他后离合出现并接进来并出现单音节词"
+    },
+    {
+        "query": "w恩.怨w",
+        "description": "恩后面隔一个字后接怨"
+    },
+    {
+        "query": "是*的款式w",
+        "description": "是后面离合出现的并接款式并出现单音节词"
+    },
+    {
+        "query": "一.也就",
+        "description": "一后邻接并出现也"
+    },
+    {
+        "query": "好像...似的",
+        "description": "好像后离合出现并出现多个点号并接似的"
+    },
+    {
+        "query": "或许*吧。",
+        "description": "或许后面离合出现并出现句尾语气词"
+    },
+    {
+        "query": "也许*确是",
+        "description": "也许后面离合出现确并出现是"
+    },
+    {
+        "query": "下*上",
+        "description": "下后离合出现上"
+    },
+    {
+        "query": "认为*！",
+        "description": "认为后离合出现并出现感叹号"
+    }
+]
+```

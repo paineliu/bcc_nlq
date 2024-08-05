@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "从新/d v",
+        "description": "从新动词"
+    },
+    {
+        "query": "........./l",
+        "description": "未知词"
+    },
+    {
+        "query": "得+民望/i+。",
+        "description": "得到民望，民望后面跟句号"
+    },
+    {
+        "query": "得 民望/i 。",
+        "description": "得到民望，民望后面跟句号"
+    },
+    {
+        "query": "怀疑/v",
+        "description": "怀疑动词"
+    },
+    {
+        "query": "这样+的/u+事情",
+        "description": "这样后面跟形容词的，然后是事情"
+    },
+    {
+        "query": "这样 的/u 事情",
+        "description": "这样后面跟形容词的，然后是事情"
+    },
+    {
+        "query": "吃/v@",
+        "description": "吃单音节动词"
+    },
+    {
+        "query": "着+说/v+。",
+        "description": "着后面跟动词说，然后是句号"
+    },
+    {
+        "query": "着 说/v 。",
+        "description": "着后面跟动词说，然后是句号"
+    },
+    {
+        "query": "没有+劳动/vn+合同",
+        "description": "没有后面跟劳动动词，然后是合同"
+    },
+    {
+        "query": "没有 劳动/vn 合同",
+        "description": "没有后面跟劳动动词，然后是合同"
+    },
+    {
+        "query": "走/v上",
+        "description": "走动词上"
+    },
+    {
+        "query": "拉/v",
+        "description": "拉动词"
+    },
+    {
+        "query": "一+把/q+梯子",
+        "description": "一后面跟数量词把，然后是梯子"
+    },
+    {
+        "query": "一 把/q 梯子",
+        "description": "一后面跟数量词把，然后是梯子"
+    },
+    {
+        "query": "各项/r+新政+落地+速度+快+见效+快+力度/n",
+        "description": "各项后面跟形容词，然后是新政、落地、速度、快、见效、快、力度"
+    },
+    {
+        "query": "各项/r 新政 落地 速度 快 见效 快 力度/n",
+        "description": "各项后面跟形容词，然后是新政、落地、速度、快、见效、快、力度"
+    },
+    {
+        "query": "是否+公开/a+透明",
+        "description": "是否后面跟形容词的，然后是公开和透明"
+    },
+    {
+        "query": "是否 公开/a 透明",
+        "description": "是否后面跟形容词的，然后是公开和透明"
+    },
+    {
+        "query": "方便/v",
+        "description": "方便动词"
+    },
+    {
+        "query": "一路+沿线/f+旅游",
+        "description": "一路后面跟方向词沿线，然后是旅游"
+    },
+    {
+        "query": "一路 沿线/f 旅游",
+        "description": "一路后面跟方向词沿线，然后是旅游"
+    },
+    {
+        "query": "第二十九/m+号",
+        "description": "第二十九后面跟量词号"
+    },
+    {
+        "query": "第二十九/m 号",
+        "description": "第二十九后面跟量词号"
+    },
+    {
+        "query": "./v完了n",
+        "description": "句末动词完，后面跟名词"
+    },
+    {
+        "query": "资格+的/u+。",
+        "description": "资格后面跟形容词的，然后是句号"
+    },
+    {
+        "query": "资格 的/u 。",
+        "description": "资格后面跟形容词的，然后是句号"
+    },
+    {
+        "query": "，/w+调水+沿线/f",
+        "description": "逗号后面跟调水，然后是方向词沿线"
+    },
+    {
+        "query": "，/w 调水 沿线/f",
+        "description": "逗号后面跟调水，然后是方向词沿线"
+    },
+    {
+        "query": "a+的+善意/n",
+        "description": "a后面跟形容词的，然后是善意"
+    },
+    {
+        "query": "a 的 善意/n",
+        "description": "a后面跟形容词的，然后是善意"
+    },
+    {
+        "query": "飞行员+不禁/d+倒",
+        "description": "飞行员后面跟副词不禁，然后是倒"
+    },
+    {
+        "query": "飞行员 不禁/d 倒",
+        "description": "飞行员后面跟副词不禁，然后是倒"
+    },
+    {
+        "query": "实习生/n+祖丽",
+        "description": "实习生后面跟人名祖丽"
+    },
+    {
+        "query": "实习生/n 祖丽",
+        "description": "实习生后面跟人名祖丽"
+    },
+    {
+        "query": "中+澳/j+自贸",
+        "description": "中后面跟国家名澳，然后是自贸"
+    },
+    {
+        "query": "中 澳/j 自贸",
+        "description": "中后面跟国家名澳，然后是自贸"
+    },
+    {
+        "query": "泓+清泉/n",
+        "description": "泓后面跟名词清泉"
+    },
+    {
+        "query": "泓 清泉/n",
+        "description": "泓后面跟名词清泉"
+    }
+]
+```

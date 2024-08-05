@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "n衣",
+        "description": "名词后接衣"
+    },
+    {
+        "query": "v禅房",
+        "description": "动词后接禅房"
+    },
+    {
+        "query": "r+过年",
+        "description": "代词后接过年"
+    },
+    {
+        "query": "r 过年",
+        "description": "代词后接过年"
+    },
+    {
+        "query": "感情v",
+        "description": "名词后接动词"
+    },
+    {
+        "query": "雇了n",
+        "description": "动词后接名词"
+    },
+    {
+        "query": "a可怜",
+        "description": "形容词后接可怜"
+    },
+    {
+        "query": "随着V的N",
+        "description": "动词后接名词"
+    },
+    {
+        "query": "a停止",
+        "description": "形容词后接停止"
+    },
+    {
+        "query": "a反正",
+        "description": "形容词后接反正"
+    },
+    {
+        "query": "招致v",
+        "description": "动词后接招致"
+    },
+    {
+        "query": "是n不是n",
+        "description": "名词后接名词"
+    },
+    {
+        "query": "别V不V+",
+        "description": "动词后接动词，动词之间有空格"
+    },
+    {
+        "query": "别V不V ",
+        "description": "动词后接动词，动词之间无空格"
+    },
+    {
+        "query": "还u呢",
+        "description": "语气词后接呢"
+    },
+    {
+        "query": "a动物园",
+        "description": "形容词后接动物园"
+    },
+    {
+        "query": "v把r包围",
+        "description": "动词后接把，把后接动词"
+    },
+    {
+        "query": "m坪",
+        "description": "名语素后接坪"
+    },
+    {
+        "query": "a的n色",
+        "description": "形容词后接的，的后接名词"
+    },
+    {
+        "query": "Ug",
+        "description": "未知词"
+    },
+    {
+        "query": "n+o声",
+        "description": "名词后接o声"
+    },
+    {
+        "query": "n o声",
+        "description": "名词后接o声"
+    },
+    {
+        "query": "n还好v",
+        "description": "名词后接动词"
+    },
+    {
+        "query": "n情况",
+        "description": "名词后接情况"
+    },
+    {
+        "query": "n型n",
+        "description": "名词后接名词"
+    },
+    {
+        "query": "V都V不",
+        "description": "动词后接都，都后接动词"
+    },
+    {
+        "query": "一枝n",
+        "description": "数量词后接名词"
+    },
+    {
+        "query": "极a+n",
+        "description": "形容词后接的，的后接名词"
+    },
+    {
+        "query": "极a n",
+        "description": "形容词后接名词"
+    },
+    {
+        "query": "a加以",
+        "description": "形容词后接加以"
+    },
+    {
+        "query": "nr+什么时候+v",
+        "description": "人名后接什么时候，什么时候后接动词"
+    },
+    {
+        "query": "nr 什么时候 v",
+        "description": "人名后接什么时候，什么时候后接动词"
+    },
+    {
+        "query": "a人格",
+        "description": "形容词后接人格"
+    },
+    {
+        "query": "d烧",
+        "description": "区别词后接烧"
+    },
+    {
+        "query": "又+v",
+        "description": "副词后接动词"
+    },
+    {
+        "query": "又 v",
+        "description": "副词后接动词"
+    },
+    {
+        "query": "n精",
+        "description": "名词后接精"
+    },
+    {
+        "query": "a头a脸",
+        "description": "形容词后接头，头后接形容词"
+    },
+    {
+        "query": "a",
+        "description": "形容词"
+    },
+    {
+        "query": "a关怀",
+        "description": "形容词后接关怀"
+    }
+]
+```

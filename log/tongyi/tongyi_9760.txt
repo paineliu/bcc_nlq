@@ -1,0 +1,163 @@
+以下是将给定的检索式转换为带含义的json结构的结果：
+
+```json
+[
+    {
+        "query": "你.. 进来w",
+        "description": "你后面跟一个空格，然后是进来"
+    },
+    {
+        "query": "小*大",
+        "description": "小后面离合出现大"
+    },
+    {
+        "query": "w送.迎w",
+        "description": "w送后面隔一个字后接迎，且都是句首"
+    },
+    {
+        "query": "大概*确有",
+        "description": "大概后面离合出现确有"
+    },
+    {
+        "query": "nr*欺骗了",
+        "description": "nr后面离合出现欺骗了"
+    },
+    {
+        "query": "~终身",
+        "description": "表示一个词，可能是终身的意思"
+    },
+    {
+        "query": "v*摇钱树",
+        "description": "v后面离合出现摇钱树"
+    },
+    {
+        "query": "再怎么*也",
+        "description": "再怎么后面离合出现也"
+    },
+    {
+        "query": "w尾.头w",
+        "description": "w尾后面隔一个字后接头，且都是句尾"
+    },
+    {
+        "query": "走不.",
+        "description": "走后面隔一个点后接不，且是句尾"
+    },
+    {
+        "query": "或许*呢。",
+        "description": "或许后面离合出现呢，且是句尾"
+    },
+    {
+        "query": "别说~，就是",
+        "description": "别说后面跟一个词，可能是~，再接就是"
+    },
+    {
+        "query": "去不.",
+        "description": "去后面隔一个点后接不，且是句尾"
+    },
+    {
+        "query": "蛮*的",
+        "description": "蛮后面离合出现的"
+    },
+    {
+        "query": "把*写写",
+        "description": "把后面离合出现写写"
+    },
+    {
+        "query": "由于*的原因，",
+        "description": "由于后面离合出现的原因，且是句中"
+    },
+    {
+        "query": "挺*的",
+        "description": "挺后面离合出现的"
+    },
+    {
+        "query": "好像*甚至",
+        "description": "好像后面离合出现甚至"
+    },
+    {
+        "query": "是*的类型w",
+        "description": "是后面离合出现的类型的w"
+    },
+    {
+        "query": "看来@大约",
+        "description": "看来以词性开始，大约以词性结束"
+    },
+    {
+        "query": "女性*男性",
+        "description": "女性后面离合出现男性"
+    },
+    {
+        "query": "@经验",
+        "description": "以词性开始，经验以词性结束"
+    },
+    {
+        "query": "似乎*索性",
+        "description": "似乎后面离合出现索性"
+    },
+    {
+        "query": "~口味",
+        "description": "表示一个词，可能是口味的意思"
+    },
+    {
+        "query": "或许*本来就",
+        "description": "或许后面离合出现本来就"
+    },
+    {
+        "query": "v*草房",
+        "description": "v后面离合出现草房"
+    },
+    {
+        "query": "w阴.阳w",
+        "description": "w阴后面隔一个字后接阳，且都是句尾"
+    },
+    {
+        "query": "罚不.",
+        "description": "罚后面隔一个点后接不，且是句尾"
+    },
+    {
+        "query": "活活.死人",
+        "description": "活活后面隔一个点后接死人"
+    },
+    {
+        "query": "想来@好像",
+        "description": "想来以词性开始，好像以词性结束"
+    },
+    {
+        "query": "这m*的n",
+        "description": "这m后面离合出现的n"
+    },
+    {
+        "query": "v*爱好",
+        "description": "v后面离合出现爱好"
+    },
+    {
+        "query": "恐怕*未必a",
+        "description": "恐怕后面离合出现未必a"
+    },
+    {
+        "query": "多加*n",
+        "description": "多加后面离合出现n"
+    },
+    {
+        "query": "w雅.俗w",
+        "description": "w雅后面隔一个字后接俗，且都是句尾"
+    },
+    {
+        "query": "w饥.饱w",
+        "description": "w饥后面隔一个字后接饱，且都是句尾"
+    },
+    {
+        "query": "v*窗花",
+        "description": "v后面离合出现窗花"
+    },
+    {
+        "query": "比~还",
+        "description": "比后面跟一个词，可能是~，再接还"
+    },
+    {
+        "query": "我.+上去w",
+        "description": "我后面跟一个空格，然后是上去w"
+    }
+]
+```
+这些json对象描述了给定检索式的意义和它们在语料库中的应用方式。

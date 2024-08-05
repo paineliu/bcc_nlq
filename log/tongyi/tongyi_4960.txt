@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "n西施，",
+        "description": "名词西施后邻一个标点符号，可能是一个逗号"
+    },
+    {
+        "query": "碎N",
+        "description": "碎后邻一个名词"
+    },
+    {
+        "query": "v上市。",
+        "description": "动词上市后接句尾的句号"
+    },
+    {
+        "query": ".n+n。",
+        "description": "句尾为一个名词，然后接另一个名词，最后为句号"
+    },
+    {
+        "query": ".n n。",
+        "description": "句尾为一个名词，然后接另一个名词，最后为句号"
+    },
+    {
+        "query": "不a不a+",
+        "description": "形容词不后接另一个相同的形容词"
+    },
+    {
+        "query": "不a不a ",
+        "description": "形容词不后接另一个相同的形容词，最后为空格"
+    },
+    {
+        "query": "寄n",
+        "description": "名词寄后接名词"
+    },
+    {
+        "query": "m口w",
+        "description": "名词m口后接形容词w"
+    },
+    {
+        "query": "说n给r",
+        "description": "动词说后接名词给，再接r"
+    },
+    {
+        "query": "a冒进",
+        "description": "形容词a后接动词冒进"
+    },
+    {
+        "query": "v+n+v的",
+        "description": "动词后接名词，再接动词，最后接形容词的"
+    },
+    {
+        "query": "v n v的",
+        "description": "动词后接名词，再接动词，最后接形容词的"
+    },
+    {
+        "query": "v有点",
+        "description": "动词后接形容词有点"
+    },
+    {
+        "query": "(n)与(v)",
+        "description": "名词后接动词与，再接动词"
+    },
+    {
+        "query": "v位n",
+        "description": "动词后接名词位，再接名词"
+    },
+    {
+        "query": "v上感情",
+        "description": "动词后接动词上，再接名词感情"
+    },
+    {
+        "query": "时间是一q+n",
+        "description": "名词时间后接量词一，再接名词n"
+    },
+    {
+        "query": "时间是一q n",
+        "description": "名词时间后接量词一，再接名词n"
+    },
+    {
+        "query": "a充分",
+        "description": "形容词a后接形容词充分"
+    },
+    {
+        "query": "m服",
+        "description": "形容词m后接名词服"
+    },
+    {
+        "query": "平房v",
+        "description": "名词平房后接动词v"
+    },
+    {
+        "query": "a公认",
+        "description": "形容词a后接动词公认"
+    },
+    {
+        "query": "a伙食",
+        "description": "形容词a后接名词伙食"
+    },
+    {
+        "query": "含恨n",
+        "description": "形容词含恨后接名词n"
+    },
+    {
+        "query": "n喊",
+        "description": "名词n后接动词喊"
+    },
+    {
+        "query": "看把n+v的w",
+        "description": "动词看后接把，再接名词v，最后接形容词的，再接名词w"
+    },
+    {
+        "query": "看把n v的w",
+        "description": "动词看后接把，再接名词v，最后接形容词的，再接名词w"
+    },
+    {
+        "query": "不应该V",
+        "description": "形容词不应该后接动词V"
+    },
+    {
+        "query": "a出卖",
+        "description": "形容词a后接动词出卖"
+    },
+    {
+        "query": "w说来w",
+        "description": "标点符号w后接动词说，再接动词来，最后接标点符号w"
+    },
+    {
+        "query": "v来n",
+        "description": "动词后接动词来，再接名词n"
+    },
+    {
+        "query": "a体重",
+        "description": "形容词a后接名词体重"
+    },
+    {
+        "query": "v得漂亮",
+        "description": "动词后接形容词得，再接形容词漂亮"
+    },
+    {
+        "query": "关+q",
+        "description": "动词关后接量词+，再接名词q"
+    },
+    {
+        "query": "关 q",
+        "description": "动词关后接量词q"
+    },
+    {
+        "query": "v就是了",
+        "description": "动词后接动词就是，再接语气词了"
+    },
+    {
+        "query": "a古人",
+        "description": "形容词a后接名词古人"
+    },
+    {
+        "query": "太a了",
+        "description": "形容词太后接形容词a，再接语气词了"
+    },
+    {
+        "query": "a分辩",
+        "description": "形容词a后接动词分辩"
+    }
+]
+```

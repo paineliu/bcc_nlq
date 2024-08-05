@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "死了",
+        "description": "包含'死了'的句子"
+    },
+    {
+        "query": "视线",
+        "description": "包含'视线'的句子"
+    },
+    {
+        "query": "反向",
+        "description": "包含'反向'的句子"
+    },
+    {
+        "query": "跑的跑",
+        "description": "包含'跑的跑'的句子"
+    },
+    {
+        "query": "客观说",
+        "description": "包含'客观说'的句子"
+    },
+    {
+        "query": "器械",
+        "description": "包含'器械'的句子"
+    },
+    {
+        "query": "垫背",
+        "description": "包含'垫背'的句子"
+    },
+    {
+        "query": "和谐度，",
+        "description": "包含'和谐度，'的句子"
+    },
+    {
+        "query": "发现没有",
+        "description": "包含'发现没有'的句子"
+    },
+    {
+        "query": "这个",
+        "description": "包含'这个'的句子"
+    },
+    {
+        "query": "欢欣鼓舞",
+        "description": "包含'欢欣鼓舞'的句子"
+    },
+    {
+        "query": "和谐做了",
+        "description": "包含'和谐做了'的句子"
+    },
+    {
+        "query": "东北人",
+        "description": "包含'东北人'的句子"
+    },
+    {
+        "query": "不瞒你说",
+        "description": "包含'不瞒你说'的句子"
+    },
+    {
+        "query": "南洋",
+        "description": "包含'南洋'的句子"
+    },
+    {
+        "query": "爱干啥就",
+        "description": "包含'爱干啥就'的句子"
+    },
+    {
+        "query": "疑人权",
+        "description": "包含'疑人权'的句子"
+    },
+    {
+        "query": "卖着关子",
+        "description": "包含'卖着关子'的句子"
+    },
+    {
+        "query": "好了？",
+        "description": "包含'好了？'的句子"
+    },
+    {
+        "query": "看来仿佛",
+        "description": "包含'看来仿佛'的句子"
+    },
+    {
+        "query": "年轻",
+        "description": "包含'年轻'的句子"
+    },
+    {
+        "query": "看错",
+        "description": "包含'看错'的句子"
+    },
+    {
+        "query": "书店",
+        "description": "包含'书店'的句子"
+    },
+    {
+        "query": "和谐劳动",
+        "description": "包含'和谐劳动'的句子"
+    },
+    {
+        "query": "够文艺",
+        "description": "包含'够文艺'的句子"
+    },
+    {
+        "query": "协调和谐",
+        "description": "包含'协调和谐'的句子"
+    },
+    {
+        "query": "不太寻常",
+        "description": "包含'不太寻常'的句子"
+    },
+    {
+        "query": "坚持和谐",
+        "description": "包含'坚持和谐'的句子"
+    },
+    {
+        "query": "惶惶",
+        "description": "包含'惶惶'的句子"
+    },
+    {
+        "query": "业更和谐",
+        "description": "包含'业更和谐'的句子"
+    },
+    {
+        "query": "推介",
+        "description": "包含'推介'的句子"
+    },
+    {
+        "query": "人权政",
+        "description": "包含'人权政'的句子"
+    },
+    {
+        "query": "哪儿",
+        "description": "包含'哪儿'的句子"
+    },
+    {
+        "query": "安安定定",
+        "description": "包含'安安定定'的句子"
+    },
+    {
+        "query": "迟迟疑疑",
+        "description": "包含'迟迟疑疑'的句子"
+    },
+    {
+        "query": "上流",
+        "description": "包含'上流'的句子"
+    },
+    {
+        "query": "三读",
+        "description": "包含'三读'的句子"
+    },
+    {
+        "query": "初犯",
+        "description": "包含'初犯'的句子"
+    },
+    {
+        "query": "病包",
+        "description": "包含'病包'的句子"
+    },
+    {
+        "query": "好好",
+        "description": "包含'好好'的句子"
+    }
+]
+```

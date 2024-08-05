@@ -1,0 +1,108 @@
+```json
+[
+    {
+        "query": "不 ./[v v] !",
+        "description": "不后跟一个动词和另一个动词，并且后面是感叹号"
+    },
+    {
+        "query": "量量 ~/[n v]。",
+        "description": "量量后面离合出现名词或动词，后面是句号"
+    },
+    {
+        "query": "结果 w",
+        "description": "结果做句首"
+    },
+    {
+        "query": "远去 ~/[w v]",
+        "description": "远去后面离合出现一个词，可能是动词或形容词"
+    },
+    {
+        "query": "的/u 是/v",
+        "description": "的后面是单音节的动词"
+    },
+    {
+        "query": "外人 (d) 很{end($1)=[怕 死 耍 几]}",
+        "description": "外人后面接一个副词，且这个副词不是怕、死、耍或几"
+    },
+    {
+        "query": "(r) 是 (ns){len($1)<3}",
+        "description": "单字的词后跟一个词，且这个词的长度小于3"
+    },
+    {
+        "query": "../[r v] 是",
+        "description": "双字词后面接'是'"
+    },
+    {
+        "query": "， (i) 。{middle($1)!=[客 昂 麽]}",
+        "description": "逗号做句首，且句中第二个字符不是客、昂或嘛"
+    },
+    {
+        "query": "期盼 (w){count>10}",
+        "description": "期盼这个词出现次数大于10"
+    },
+    {
+        "query": "关心 (c) 牵挂{count>7}",
+        "description": "关心后跟牵挂，且牵挂这个词出现次数大于7"
+    },
+    {
+        "query": "有",
+        "description": "直接'有'"
+    },
+    {
+        "query": "(n) 步行{len($1)>2}",
+        "description": "名词后面跟步行，步行这个词长度大于2"
+    },
+    {
+        "query": "习近平 听/v 后",
+        "description": "习近平后面接动词听，且听后面有内容"
+    },
+    {
+        "query": "公安 @ 从",
+        "description": "公安后接一个词，但统计时按词性归并"
+    },
+    {
+        "query": "规范 f 来",
+        "description": "规范后接一个词，可能是f的词性"
+    },
+    {
+        "query": "而 v ？",
+        "description": "而后面接一个动词，后面是问号"
+    },
+    {
+        "query": "中",
+        "description": "单独的'中'"
+    },
+    {
+        "query": "而 (v) ？{len($1)=1}",
+        "description": "而后面接一个单字动词，后面是问号"
+    },
+    {
+        "query": "来 (w){count>2}",
+        "description": "来这个词出现次数大于2"
+    },
+    {
+        "query": "公安 (w) 从{count<283}",
+        "description": "公安做句尾，且公安后面'从'出现次数小于283"
+    },
+    {
+        "query": "有力 @/[u v] 法治",
+        "description": "有力后面离合出现一个词，可能是u或v，再接法治"
+    },
+    {
+        "query": "(v) 最 大 的 温暖 今日 (v){len($2)!=2}",
+        "description": "两个连续的动词，第一个不是'最'、'大'，第二个不是长度为2的词"
+    },
+    {
+        "query": "(v) (n){len($1)=2; len($2)!=3}",
+        "description": "两个连续的词，第一个是动词，长度为2，第二个不是长度为3的词"
+    },
+    {
+        "query": "(v) 实录{len($1)>1}",
+        "description": "动词后面接实录，实录这个词长度大于1"
+    },
+    {
+        "query": ".. ：",
+        "description": "两个连续的字符，后面是冒号"
+    }
+]
+```

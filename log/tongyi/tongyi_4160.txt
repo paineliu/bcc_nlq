@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "N是N",
+        "description": "包含N是N的句子"
+    },
+    {
+        "query": "一脚就v",
+        "description": "一脚后面离合出现动词"
+    },
+    {
+        "query": "特别a",
+        "description": "包含特别a的句子"
+    },
+    {
+        "query": "让n飞一会儿",
+        "description": "让后接名词，后面跟着动词飞，再接一段时间词"
+    },
+    {
+        "query": "爆N",
+        "description": "包含爆N的句子"
+    },
+    {
+        "query": "v了又v。",
+        "description": "动词后接了又动词，句尾有句点"
+    },
+    {
+        "query": "v不进",
+        "description": "动词后接不进"
+    },
+    {
+        "query": "d亲耳",
+        "description": "副词d后接亲耳"
+    },
+    {
+        "query": "也要v嘛",
+        "description": "也后接动词，后面跟着嘛"
+    },
+    {
+        "query": "a伙伴",
+        "description": "包含a伙伴的句子"
+    },
+    {
+        "query": "v到n头上",
+        "description": "动词后接名词头上的"
+    },
+    {
+        "query": "a住了",
+        "description": "包含a住了的句子"
+    },
+    {
+        "query": "n+耕种+",
+        "description": "名词后接耕种，后面有未定义的符号"
+    },
+    {
+        "query": "n 耕种",
+        "description": "名词后接耕种"
+    },
+    {
+        "query": "最a不过",
+        "description": "包含最a不过的句子"
+    },
+    {
+        "query": "c",
+        "description": "包含c的句子"
+    },
+    {
+        "query": "v一些",
+        "description": "动词后接一些"
+    },
+    {
+        "query": "n起来",
+        "description": "名词后接起来"
+    },
+    {
+        "query": "v性",
+        "description": "动词后接性"
+    },
+    {
+        "query": "p讲",
+        "description": "包含p讲的句子"
+    },
+    {
+        "query": "不胜a",
+        "description": "不胜后接a"
+    },
+    {
+        "query": "a专心",
+        "description": "包含a专心的句子"
+    },
+    {
+        "query": "用N贴",
+        "description": "包含用N贴的句子"
+    },
+    {
+        "query": "这等V来",
+        "description": "这等后接动词来"
+    },
+    {
+        "query": "V了",
+        "description": "包含V了的句子"
+    },
+    {
+        "query": "该+n+s",
+        "description": "包含该后接名词s的句子"
+    },
+    {
+        "query": "该 n s",
+        "description": "包含该后接名词s的句子"
+    },
+    {
+        "query": "v办法",
+        "description": "动词后接办法"
+    },
+    {
+        "query": "垫n",
+        "description": "包含垫后的句子"
+    },
+    {
+        "query": "n写着a",
+        "description": "名词后接写着a"
+    },
+    {
+        "query": "a不好意思",
+        "description": "包含a不好意思的句子"
+    },
+    {
+        "query": "和谐3D",
+        "description": "包含和谐3D的句子"
+    },
+    {
+        "query": "d焖",
+        "description": "包含d焖的句子"
+    },
+    {
+        "query": "v衣",
+        "description": "动词后接衣"
+    },
+    {
+        "query": "m畈",
+        "description": "包含m畈的句子"
+    },
+    {
+        "query": "一+a+n",
+        "description": "包含一后接a再接n的句子"
+    },
+    {
+        "query": "一 a n",
+        "description": "包含一后接a再接n的句子"
+    },
+    {
+        "query": "下s",
+        "description": "包含下s的句子"
+    },
+    {
+        "query": "这a的w",
+        "description": "这a后接的w"
+    },
+    {
+        "query": "v一步",
+        "description": "动词后接一步"
+    }
+]
+```

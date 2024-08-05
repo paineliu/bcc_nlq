@@ -1,0 +1,166 @@
+以下是将给定的检索式转换为带含义的json结构的列表：
+
+```json
+[
+    {
+        "query": "毅然v+a[，+。]",
+        "description": "毅然动词后邻一个形容词，形容词后邻逗号或句号"
+    },
+    {
+        "query": "毅然v a[， 。]",
+        "description": "毅然动词后直接接形容词，形容词后邻逗号或句号"
+    },
+    {
+        "query": "亲手v[，+。]",
+        "description": "亲手动词后邻逗号或句号"
+    },
+    {
+        "query": "亲手v[， 。]",
+        "description": "亲手动词后直接接逗号或句号"
+    },
+    {
+        "query": "悄悄a[，+。]",
+        "description": "悄悄形容词后邻逗号或句号"
+    },
+    {
+        "query": "悄悄a[， 。]",
+        "description": "悄悄形容词后直接接逗号或句号"
+    },
+    {
+        "query": "过分v[v+a+n+r][，+。]",
+        "description": "过分动词后邻形容词、名词、再接逗号或句号"
+    },
+    {
+        "query": "过分v[v a n r][， 。]",
+        "description": "过分动词后直接接形容词、名词、再接逗号或句号"
+    },
+    {
+        "query": "从n下[，+。]",
+        "description": "从名词后邻下，下后邻逗号或句号"
+    },
+    {
+        "query": "从n下[， 。]",
+        "description": "从名词后邻下，下后直接接逗号或句号"
+    },
+    {
+        "query": "他的n+[，+。]",
+        "description": "他的名词后邻逗号或句号"
+    },
+    {
+        "query": "他的n [， 。]",
+        "description": "他的名词后直接接逗号或句号"
+    },
+    {
+        "query": "似乎n[，+。]",
+        "description": "似乎名词后邻逗号或句号"
+    },
+    {
+        "query": "似乎n[， 。]",
+        "description": "似乎名词后直接接逗号或句号"
+    },
+    {
+        "query": "非常v+v[，+。]",
+        "description": "非常动词后邻另一个非常动词，之后邻逗号或句号"
+    },
+    {
+        "query": "非常v v[， 。]",
+        "description": "非常动词后直接接另一个非常动词，之后邻逗号或句号"
+    },
+    {
+        "query": "恐怕d+n[，+。]",
+        "description": "恐怕形容词后邻名词，之后邻逗号或句号"
+    },
+    {
+        "query": "恐怕d n[， 。]",
+        "description": "恐怕形容词后直接接名词，之后邻逗号或句号"
+    },
+    {
+        "query": "就是v[v+a+n+r][，+。]",
+        "description": "就是动词后邻形容词、名词、再接逗号或句号"
+    },
+    {
+        "query": "就是v[v a n r][， 。]",
+        "description": "就是动词后直接接形容词、名词、再接逗号或句号"
+    },
+    {
+        "query": "另外v+a[，+。]",
+        "description": "另外动词后邻一个形容词，之后邻逗号或句号"
+    },
+    {
+        "query": "另外v a[， 。]",
+        "description": "另外动词后直接接形容词，之后邻逗号或句号"
+    },
+    {
+        "query": "根本d+v[，+。]",
+        "description": "根本形容词后邻动词，之后邻逗号或句号"
+    },
+    {
+        "query": "根本d v[， 。]",
+        "description": "根本形容词后直接接动词，之后邻逗号或句号"
+    },
+    {
+        "query": "仅仅v+a[，+。]",
+        "description": "仅仅动词后邻一个形容词，之后邻逗号或句号"
+    },
+    {
+        "query": "仅仅v a[， 。]",
+        "description": "仅仅动词后直接接形容词，之后邻逗号或句号"
+    },
+    {
+        "query": "w[q+r+d+c+v+a++n+m++p]答.问w",
+        "description": "以w开头，之后是q+r+d+c+v+a++n+m++p的组合，再接答.问，之后是w"
+    },
+    {
+        "query": "w[q r d c v a  n m  p]答.问w",
+        "description": "以w开头，之后是q r d c v a n m p的组合，再接答.问，之后是w"
+    },
+    {
+        "query": "w外.内[q+r+d+c+v+a++n+m++p]w",
+        "description": "以w外.内开头，之后是q+r+d+c+v+a++n+m++p的组合，之后是w"
+    },
+    {
+        "query": "w外.内[q r d c v a  n m  p]w",
+        "description": "以w外.内开头，之后是q r d c v a n m p的组合，之后是w"
+    },
+    {
+        "query": "a得多[，+。]",
+        "description": "以a开头的形容词后直接接逗号或句号"
+    },
+    {
+        "query": "a得多[， 。]",
+        "description": "以a开头的形容词后直接接逗号或句号"
+    },
+    {
+        "query": "到底d+a[，+。]",
+        "description": "到底形容词后直接接逗号或句号"
+    },
+    {
+        "query": "到底d a[， 。]",
+        "description": "到底形容词后直接接逗号或句号"
+    },
+    {
+        "query": "v不[回+过+]+n+[，+。]",
+        "description": "动词后接回、过、再接一个名词，之后邻逗号或句号"
+    },
+    {
+        "query": "v不[回 过 ] n [， 。]",
+        "description": "动词后接回、过、再接一个名词，之后邻逗号或句号"
+    },
+    {
+        "query": "[，+。]v+m+n+[，+。]",
+        "description": "逗号或句号后接动词，之后接一个名词、再接一个名词，之后邻逗号或句号"
+    },
+    {
+        "query": "[， 。]v m n [， 。]",
+        "description": "逗号或句号后接动词，之后接一个名词、再接一个名词，之后邻逗号或句号"
+    },
+    {
+        "query": "正巧v+u[，+。]",
+        "description": "正巧动词后接u，之后邻逗号或句号"
+    },
+    {
+        "query": "正巧v u[， 。]",
+        "description": "正巧动词后直接接u，之后邻逗号或句号"
+    }
+]
+```

@@ -1,0 +1,160 @@
+```json
+[
+    {
+        "query": "必须 .. 设计", 
+        "description": "必须后面跟一个词，然后是设计"
+    },
+    {
+        "query": "， (d) 需{len($1)!=2}", 
+        "description": "逗号后面接一个副词(d)，但副词的长度不能为2"
+    },
+    {
+        "query": "n 同心 ， 其利断金 w", 
+        "description": "名词后面跟同心，然后是其利断金，最后是句尾(w)"
+    },
+    {
+        "query": "飞扬 (w){count>4}", 
+        "description": "飞扬这个词的频次大于4"
+    },
+    {
+        "query": "~ 幅", 
+        "description": "一个词幅"
+    },
+    {
+        "query": "...../n ，", 
+        "description": "四个点后面跟一个名词，然后是逗号"
+    },
+    {
+        "query": "政治关 ~/[w v]", 
+        "description": "政治关后面跟一个动词或名词"
+    },
+    {
+        "query": "服从 (n) 过{len($1)<3}", 
+        "description": "服从后面接一个名词，这个名词后面是长度小于3的单词"
+    },
+    {
+        "query": "过 好/a 纪律关", 
+        "description": "过后面接一个形容词好，然后是纪律关"
+    },
+    {
+        "query": "有力 (vn) 。{len($1)<3}", 
+        "description": "有力后面接一个动名词，句尾是长度小于3的单词"
+    },
+    {
+        "query": "(n) ， 必作 于 (a){end($1)!=[电 那 得 词]}",
+        "description": "名词后面接逗号，然后是必作和于，但于后面不能接电、那、得或词"
+    },
+    {
+        "query": "起", 
+        "description": "单独的起字"
+    },
+    {
+        "query": "新年 (v){count<137}", 
+        "description": "新年这个词的频次小于137"
+    },
+    {
+        "query": "全面/a 小康", 
+        "description": "全面后面接形容词小康"
+    },
+    {
+        "query": "就是 ~/[v v] 。", 
+        "description": "就是后面跟两个动词"
+    },
+    {
+        "query": "为 @/[ns v] 社会", 
+        "description": "为后面接名词或动词，然后是社会"
+    },
+    {
+        "query": "动力 w", 
+        "description": "动力作为句尾(w)"
+    },
+    {
+        "query": "发展 (n) 新兴{len($1)=3}", 
+        "description": "发展后面接一个长度为3的名词新兴"
+    },
+    {
+        "query": "技术", 
+        "description": "单独的技术"
+    },
+    {
+        "query": "融资 (n) 。{len($1)=2}", 
+        "description": "融资后面接一个长度为2的名词，句尾是句号"
+    },
+    {
+        "query": "营造", 
+        "description": "营造作为单独的词"
+    },
+    {
+        "query": "先 (v) 己{count<726}", 
+        "description": "先后面接一个动词，动词后面是己，且己前面的动词频次小于726"
+    },
+    {
+        "query": "淮北 ~/[n v] 书记", 
+        "description": "淮北后面接名词或动词，然后是书记"
+    },
+    {
+        "query": "(n) (n){begin($1)=[国际 细 吃]; len($2)=3}", 
+        "description": "两个名词，第一个名词的开始可能是国际、细或吃，第二个名词长度为3"
+    },
+    {
+        "query": "./v 了", 
+        "description": "单音节动词后面接了字"
+    },
+    {
+        "query": "(v) 建 得 这么 (a){len($1)!=2; len($2)=1}", 
+        "description": "动词后面接建、得，然后是长度不为2的形容词，最后是长度为1的词"
+    },
+    {
+        "query": "没 ~ 能", 
+        "description": "没后面接一个词能"
+    },
+    {
+        "query": "新 u 传奇", 
+        "description": "新后面接一个未知词u，然后是传奇"
+    },
+    {
+        "query": "人民 (n){len($1)>1}", 
+        "description": "人民后面接一个长度大于1的名词"
+    },
+    {
+        "query": "人民 (n){len($1)<3}", 
+        "description": "人民后面接一个长度小于3的名词"
+    },
+    {
+        "query": "(nr) 摄{end($1)!=[屋 度 酒]}",
+        "description": "人名后面接摄，摄后面不能接屋、度或酒"
+    },
+    {
+        "query": "创 (n) 唱进{end($1)=[曲 哟]}",
+        "description": "创后面接一个名词，然后是唱进，唱进的末尾可能是曲或哟"
+    },
+    {
+        "query": "梦 @", 
+        "description": "梦后面接一个词，统计时按照词性归并"
+    },
+    {
+        "query": "正式 (v){len($1)!=3}", 
+        "description": "正式后面接一个长度不为3的动词"
+    },
+    {
+        "query": "绥化{count>10}", 
+        "description": "绥化这个词的频次大于10"
+    },
+    {
+        "query": "无公害 (n) 全覆盖{begin($1)!=[肿 江 票]}",
+        "description": "无公害后面接名词全覆盖，全覆盖的开始不能是肿、江或票"
+    },
+    {
+        "query": "主产区", 
+        "description": "主产区单独出现"
+    },
+    {
+        "query": "不 .. 赶", 
+        "description": "不后面跟一个词，然后是赶"
+    },
+    {
+        "query": "(v) 长江 (u){begin($1)=[加 合]}",
+        "description": "动词后面接长江，长江前面可能是加或合"
+    }
+]
+```

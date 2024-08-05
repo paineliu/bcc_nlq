@@ -1,0 +1,86 @@
+以下是检索式及其含义的JSON结构：
+
+```json
+[
+    {
+        "query": "问题 @",
+        "description": "问题后面接一个词，词性不限"
+    },
+    {
+        "query": "问题 (w){count>4}",
+        "description": "问题作为句首，且问题一词出现频次大于4次"
+    },
+    {
+        "query": "， ../v 为",
+        "description": "逗号后面接二字动词，动词后面接为"
+    },
+    {
+        "query": "要 (a){len($1)<5}",
+        "description": "要后面接形容词，形容词长度小于5"
+    },
+    {
+        "query": "党工委 (n){begin($1)=[书 转 半 摆]}",
+        "description": "党工委后面接名词，名词以书、转、半、摆之一开始"
+    },
+    {
+        "query": "另一方面 . 用",
+        "description": "另一方面后面接一个词，然后接用"
+    },
+    {
+        "query": "巾帼 (n){len($1)=3}",
+        "description": "巾帼后面接名词，名词长度等于3"
+    },
+    {
+        "query": "士有 ~",
+        "description": "士有后面接一个词"
+    },
+    {
+        "query": "体现 ../n",
+        "description": "体现后面接二字名词"
+    },
+    {
+        "query": "不 ../[v v]",
+        "description": "不后面接动词，动词后面再接动词"
+    },
+    {
+        "query": "来说 (d) 重要{len($1)>1}",
+        "description": "来说后面接副词，副词后面接重要，且重要一词长度大于1"
+    },
+    {
+        "query": "冯 ~ 光明日报社",
+        "description": "冯后面接一个词，然后接光明日报社"
+    },
+    {
+        "query": "经济 (n){len($1)<4}",
+        "description": "经济后面接名词，名词长度小于4"
+    },
+    {
+        "query": "nr 人民网",
+        "description": "人名后接人民网"
+    },
+    {
+        "query": "中国 ...",
+        "description": "中国后面接任意三个字符"
+    },
+    {
+        "query": "(r) 统筹{end($1)!=[脱 眼 原]}",
+        "description": "以方位词开始，后面接统筹，且统筹一词不以脱、眼、原之一结束"
+    },
+    {
+        "query": "： (nr){len($1)<3}",
+        "description": "冒号后面接人名，人名长度小于3"
+    },
+    {
+        "query": "地区 .. 破",
+        "description": "地区后面隔两个字接破"
+    },
+    {
+        "query": "人民 @",
+        "description": "人民后面接一个词，词性不限"
+    },
+    {
+        "query": "~ 依法",
+        "description": "任意一个词后面接依法"
+    }
+]
+```

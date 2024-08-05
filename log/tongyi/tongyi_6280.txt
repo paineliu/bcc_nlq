@@ -1,0 +1,166 @@
+以下是将给定的检索式转换为带含义的json结构后的完整列表：
+
+```json
+[
+    {
+        "query": "n",
+        "description": "名词"
+    },
+    {
+        "query": "w + a 下来",
+        "description": "动词后接形容词再接'下来'"
+    },
+    {
+        "query": "w a 下来",
+        "description": "动词后接单字再接'下来'"
+    },
+    {
+        "query": "q 意见",
+        "description": "名词后接'意见'"
+    },
+    {
+        "query": "w + v 得越 a + w",
+        "description": "动词后接'得越'，然后接形容词，再接动词"
+    },
+    {
+        "query": "w v 得越 a w",
+        "description": "动词后接'得越'，然后接形容词，再接动词"
+    },
+    {
+        "query": "ns + 经验",
+        "description": "专名后接'经验'"
+    },
+    {
+        "query": "ns 经验",
+        "description": "专名后接'经验'"
+    },
+    {
+        "query": "从 N + V",
+        "description": "介词后接处所词，再接动词"
+    },
+    {
+        "query": "从 N V",
+        "description": "介词后接处所词，再接动词"
+    },
+    {
+        "query": "在 N 上泼",
+        "description": "介词后接处所词，再接动词，最后接名词"
+    },
+    {
+        "query": "m 汪",
+        "description": "量词后接'汪'"
+    },
+    {
+        "query": "ns + 口味",
+        "description": "专名后接'口味'"
+    },
+    {
+        "query": "ns 口味",
+        "description": "专名后接'口味'"
+    },
+    {
+        "query": "v 教训",
+        "description": "动词后接'教训'"
+    },
+    {
+        "query": "。m 个 n",
+        "description": "标点符号后接量词，再接名词"
+    },
+    {
+        "query": "佩戴 n",
+        "description": "动词后接名词"
+    },
+    {
+        "query": "申明 n",
+        "description": "动词后接名词"
+    },
+    {
+        "query": "v 一趟",
+        "description": "动词后接'一趟'"
+    },
+    {
+        "query": "没 + v + m",
+        "description": "否定词后接动词，再接量词"
+    },
+    {
+        "query": "没 v m",
+        "description": "否定词后接动词，再接量词"
+    },
+    {
+        "query": "w 六个",
+        "description": "量词后接数字再接名词"
+    },
+    {
+        "query": "建设的 N + N",
+        "description": "动词后接'建设的'，再接名词"
+    },
+    {
+        "query": "建设的 N N",
+        "description": "动词后接'建设的'，再接名词"
+    },
+    {
+        "query": "无 + n 可v",
+        "description": "否定词后接名词，再接动词"
+    },
+    {
+        "query": "无 n 可v",
+        "description": "否定词后接名词，再接动词"
+    },
+    {
+        "query": "(n) 一把",
+        "description": "括号内的名词后接'一把'"
+    },
+    {
+        "query": "一 a 二 a 三",
+        "description": "数字后接形容词，重复三次"
+    },
+    {
+        "query": "a 调查",
+        "description": "形容词后接'调查'"
+    },
+    {
+        "query": "实现 n 自由",
+        "description": "动词后接名词，再接'自由'"
+    },
+    {
+        "query": "无 a 不 n",
+        "description": "否定词后接形容词，再接否定词，最后接名词"
+    },
+    {
+        "query": "给 + n + v",
+        "description": "介词后接名词，再接动词"
+    },
+    {
+        "query": "给 n v",
+        "description": "介词后接名词，再接动词"
+    },
+    {
+        "query": "m 瓐",
+        "description": "量词后接'瓩'"
+    },
+    {
+        "query": "没几 v",
+        "description": "否定词后接动词"
+    },
+    {
+        "query": "a 仓促",
+        "description": "形容词后接'仓促'"
+    },
+    {
+        "query": "skr",
+        "description": "拟声词"
+    },
+    {
+        "query": "制造 + a +",
+        "description": "动词后接形容词，再接空格"
+    },
+    {
+        "query": "制造 a ",
+        "description": "动词后接形容词"
+    },
+    {
+        "query": "生性 a",
+        "description": "名词后接形容词"
+    }
+]
+```

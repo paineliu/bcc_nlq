@@ -1,0 +1,168 @@
+以下是将给定的检索式转换为带含义的JSON结构：
+
+```json
+[
+    {
+        "query": "把N变成+", 
+        "description":"把后接N并变换成+"
+    },
+    {
+        "query": "把N变成 ", 
+        "description":"把后接N并变换成空格"
+    },
+    {
+        "query": "不要c", 
+        "description":"不要后接c"
+    },
+    {
+        "query": "汇报n", 
+        "description":"汇报后接名词"
+    },
+    {
+        "query": "未v也未v", 
+        "description":"未动词后接也未动词"
+    },
+    {
+        "query": "w+v得特a+w", 
+        "description":"w动词v得到特形容词w"
+    },
+    {
+        "query": "w v得特a w", 
+        "description":"w动词v得到特形容词w"
+    },
+    {
+        "query": "a出产", 
+        "description":"a形容词后接出产"
+    },
+    {
+        "query": "a动脉", 
+        "description":"a形容词后接动脉"
+    },
+    {
+        "query": "或d", 
+        "description":"或后接d"
+    },
+    {
+        "query": "w+v+了个n+w", 
+        "description":"w动词v加上个名词w"
+    },
+    {
+        "query": "w v 了个n w", 
+        "description":"w动词v加上个名词w"
+    },
+    {
+        "query": "铁n", 
+        "description":"铁后接名词"
+    },
+    {
+        "query": "v到n头上来了", 
+        "description":"v动词到名词头上来了"
+    },
+    {
+        "query": "a交涉", 
+        "description":"a形容词后接交涉"
+    },
+    {
+        "query": "说r就r", 
+        "description":"说动词r就动词r"
+    },
+    {
+        "query": "V上恐怖", 
+        "description":"V动词上恐怖"
+    },
+    {
+        "query": "极限a", 
+        "description":"极限后接形容词"
+    },
+    {
+        "query": "v过来", 
+        "description":"v动词过来"
+    },
+    {
+        "query": "仿佛偏偏v", 
+        "description":"仿佛后接偏偏动词"
+    },
+    {
+        "query": "a为期", 
+        "description":"a形容词为期"
+    },
+    {
+        "query": "v+n+f", 
+        "description":"v动词接名词和f"
+    },
+    {
+        "query": "v n f", 
+        "description":"v动词接名词和f"
+    },
+    {
+        "query": "真不a", 
+        "description":"真不后接形容词"
+    },
+    {
+        "query": "v+了+也+白+v", 
+        "description":"v动词加了也加白再加v"
+    },
+    {
+        "query": "v 了 也 白 v", 
+        "description":"v动词加了也加白再加v"
+    },
+    {
+        "query": "m口n", 
+        "description":"m口后接名词"
+    },
+    {
+        "query": "v+a+这", 
+        "description":"v动词a加上这"
+    },
+    {
+        "query": "v a 这", 
+        "description":"v动词a加上这"
+    },
+    {
+        "query": "似乎非得v", 
+        "description":"似乎非得动词"
+    },
+    {
+        "query": "a一样", 
+        "description":"a形容词一样"
+    },
+    {
+        "query": "女n", 
+        "description":"女后接名词"
+    },
+    {
+        "query": "a得不得了", 
+        "description":"a形容词得不得了"
+    },
+    {
+        "query": "一n月亮", 
+        "description":"一后接名词月亮"
+    },
+    {
+        "query": "你v你的", 
+        "description":"你动词你的"
+    },
+    {
+        "query": "不要++n", 
+        "description":"不要加加号后接名词"
+    },
+    {
+        "query": "不要  n", 
+        "description":"不要空格后接名词"
+    },
+    {
+        "query": "超n的", 
+        "description":"超后接名词的"
+    },
+    {
+        "query": "v了m年", 
+        "description":"v动词过了m年"
+    },
+    {
+        "query": "a保持", 
+        "description":"a形容词保持"
+    }
+]
+```
+
+这个JSON列表包含了给定检索式的含义描述。

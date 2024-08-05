@@ -1,0 +1,166 @@
+以下是检索式转换为带含义的JSON结构的列表：
+
+```json
+[
+    {
+        "query": "适合 .. ？",
+        "description": "适合后面接任意数量的词，然后是一个问号"
+    },
+    {
+        "query": "形式 (v) ?{len($1)!=3}",
+        "description": "形式后面接一个动词，且动词的长度不等于3，后面跟着一个问号"
+    },
+    {
+        "query": "(n) (v){end($2)=[拨 品 余]}",
+        "description": "一个名词后面接一个动词，且动词后面以拨、品或余结尾"
+    },
+    {
+        "query": "资产 (d) 划拨{len($1)!=3}",
+        "description": "资产后面接副词，然后是划拨，但划拨的长度不等于3"
+    },
+    {
+        "query": "(r) 负责人 表示 (w){count>10}",
+        "description": "负责人后面接表示，且表示这个组合的出现次数大于10"
+    },
+    {
+        "query": "上 (u) 限值{count<723}",
+        "description": "上后面接限值，且限值的总出现次数少于723"
+    },
+    {
+        "query": "说 .",
+        "description": "说后面接一个字符"
+    },
+    {
+        "query": "多少 .. 充实",
+        "description": "多少后面接任意数量的词，然后是充实"
+    },
+    {
+        "query": "升级 ~ 着",
+        "description": "升级后面接一个词"
+    },
+    {
+        "query": "别",
+        "description": "单独的别字"
+    },
+    {
+        "query": "了",
+        "description": "单独的了字"
+    },
+    {
+        "query": "托管 (n) 破{len($1)>1}",
+        "description": "托管后面接一个名词，且名词的长度大于1"
+    },
+    {
+        "query": "(ns) 银监分局{end($1)!=[片 婆 孙 半]}",
+        "description": "某个ns类型的名词后面接银监分局，但不以片、婆、孙或半结尾"
+    },
+    {
+        "query": "(nr) (nr){$1=$2}",
+        "description": "两个相同的nr类型的名词"
+    },
+    {
+        "query": "中产 (n) 萎缩{count<561}",
+        "description": "中产后面接萎缩，且萎缩的总出现次数少于561"
+    },
+    {
+        "query": "阻碍 ~ 社会",
+        "description": "阻碍后面接一个词"
+    },
+    {
+        "query": "@/[v v] 中产",
+        "description": "中产前面可以是两个连续的动词"
+    },
+    {
+        "query": "(j) 向 (r){begin($1)!=[课 条 才]}",
+        "description": "向后面接一个r类型的词，但不以课、条或才开始"
+    },
+    {
+        "query": "投票 ../v",
+        "description": "投票后面接一个双音节动词"
+    },
+    {
+        "query": "难民 (n){begin($1)=[危 一 郑 踢]}",
+        "description": "难民后面接以危、一、郑或踢开始的词"
+    },
+    {
+        "query": "开 @ 环球",
+        "description": "开后面接一个词"
+    },
+    {
+        "query": "(w) 以上 (r){begin($2)=[这 存 艹 了]}",
+        "description": "以上后面接一个r类型的词，但该词不以这、存、艹或了开始"
+    },
+    {
+        "query": "灾难",
+        "description": "灾难单独出现"
+    },
+    {
+        "query": "生机 ../m 现场",
+        "description": "生机后面接一个m类型的词，然后是现场"
+    },
+    {
+        "query": "分 ~/[m v] 步",
+        "description": "分后面接一个m或v类型的词，可能是中间的词"
+    },
+    {
+        "query": "发展 @ 种植",
+        "description": "发展后面接一个词，统计时按照词性归并"
+    },
+    {
+        "query": "生活/n 发生",
+        "description": "生活后面接名词发生"
+    },
+    {
+        "query": "(t) (v){len($1)=2}",
+        "description": "一个t类型的词后面接一个长度为2的动词"
+    },
+    {
+        "query": "(v) 村民{len($1)<3}",
+        "description": "一个v类型的词后面接一个长度小于3的词"
+    },
+    {
+        "query": "经济 (v) 自立{len($1)>1}",
+        "description": "经济后面接一个自立的动词，且动词长度大于1"
+    },
+    {
+        "query": "笑 v 了",
+        "description": "笑后面接一个动词，然后是了"
+    },
+    {
+        "query": "(r) (ns){begin($1)=[本 聊]}",
+        "description": "一个r类型的词后面接一个ns类型的词，且该词不以本、聊开始"
+    },
+    {
+        "query": "遥远 (v) 归来{len($1)<3}",
+        "description": "遥远后面接一个归来，且归来长度小于3"
+    },
+    {
+        "query": "(v) (w){len($1)<3}",
+        "description": "一个v类型的词后面接一个长度小于3的词"
+    },
+    {
+        "query": "../[a v] 之",
+        "description": "一个双音节词后面接之"
+    },
+    {
+        "query": "学校 (v){end($1)!=[峰 回]}",
+        "description": "学校后面接一个不以峰或回结尾的动词"
+    },
+    {
+        "query": "打出 (n){middle($1)=[合 疯 咯]}",
+        "description": "打出后面接一个包含合、疯或咯的名词"
+    },
+    {
+        "query": "召回 (m) 辆{count<430}",
+        "description": "召回后面接车辆，且车辆出现次数少于430"
+    },
+    {
+        "query": "体育 课开/v 到",
+        "description": "体育后面接课开，然后是一个动词到"
+    },
+    {
+        "query": "(n) 已经 (d){end($1)!=[额 疼 胖]}",
+        "description": "一个名词后面接已经，然后是副词，但不以额、疼或胖结尾"
+    }
+]
+```

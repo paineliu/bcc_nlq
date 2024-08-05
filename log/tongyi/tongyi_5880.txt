@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "记 s",
+        "description": "记后面跟s"
+    },
+    {
+        "query": "n所v的n",
+        "description": "名词后面跟所、动词、名词"
+    },
+    {
+        "query": "了又v+v了又",
+        "description": "了之后又动词、再之后又动词"
+    },
+    {
+        "query": "了又v v了又",
+        "description": "了之后又动词、之后又动词、之后又动词"
+    },
+    {
+        "query": "m领n",
+        "description": "名动词领、名词"
+    },
+    {
+        "query": "被v包围",
+        "description": "动词被、后面跟动词、包围"
+    },
+    {
+        "query": "a一步a一步",
+        "description": "形容词一步、形容词一步"
+    },
+    {
+        "query": "出现了n",
+        "description": "出现、名词"
+    },
+    {
+        "query": "我n+n+v",
+        "description": "我、名词、名词、动词"
+    },
+    {
+        "query": "我n n v",
+        "description": "我、名词、名词、动词"
+    },
+    {
+        "query": "敬爱的n",
+        "description": "敬爱、名词"
+    },
+    {
+        "query": "V光",
+        "description": "动词光"
+    },
+    {
+        "query": "w根据",
+        "description": "标点根据"
+    },
+    {
+        "query": "学坏n",
+        "description": "动词学、名词坏"
+    },
+    {
+        "query": "一壶n",
+        "description": "数量词一、名词壶"
+    },
+    {
+        "query": "a功课",
+        "description": "形容词功课"
+    },
+    {
+        "query": "a问题",
+        "description": "形容词问题"
+    },
+    {
+        "query": "v称",
+        "description": "动词称"
+    },
+    {
+        "query": "a出来",
+        "description": "形容词出、来"
+    },
+    {
+        "query": "w说真的",
+        "description": "标点说、真的"
+    },
+    {
+        "query": "有一点儿n",
+        "description": "有、一点儿、名词"
+    },
+    {
+        "query": "v不同",
+        "description": "动词不同"
+    },
+    {
+        "query": "不至a",
+        "description": "不、至、形容词"
+    },
+    {
+        "query": "v过n来",
+        "description": "动词过、名词、来"
+    },
+    {
+        "query": "太r",
+        "description": "副词太"
+    },
+    {
+        "query": "(v)不(f)",
+        "description": "动词不、副词f"
+    },
+    {
+        "query": "无N不N",
+        "description": "名词无、名词、名词不、名词"
+    },
+    {
+        "query": "情绪v",
+        "description": "情绪、动词"
+    },
+    {
+        "query": "v起了n来",
+        "description": "动词起、名词、来"
+    },
+    {
+        "query": "这样a+w",
+        "description": "这样、形容词a、w"
+    },
+    {
+        "query": "这样a w",
+        "description": "这样、形容词a、w"
+    },
+    {
+        "query": "只要V着",
+        "description": "只要、动词着"
+    },
+    {
+        "query": "他v的",
+        "description": "他、动词的"
+    },
+    {
+        "query": "m腔",
+        "description": "名动词腔"
+    },
+    {
+        "query": "v一代",
+        "description": "动词一、代"
+    },
+    {
+        "query": "怎么V的？",
+        "description": "怎么、动词、的、问号"
+    },
+    {
+        "query": "m盘",
+        "description": "名动词盘"
+    },
+    {
+        "query": "右的n",
+        "description": "右、名词"
+    },
+    {
+        "query": "别V",
+        "description": "别、动词"
+    },
+    {
+        "query": "执行v",
+        "description": "执行、动词"
+    }
+]
+```

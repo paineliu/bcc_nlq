@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "*鼠",
+        "description": "鼠的离合表达"
+    },
+    {
+        "query": "v+ad+再.吧",
+        "description": "动词+副词+再+句尾"
+    },
+    {
+        "query": "v ad 再.吧",
+        "description": "动词+副词+再+句尾"
+    },
+    {
+        "query": "把*过过",
+        "description": "把后面离合出现过过"
+    },
+    {
+        "query": "似乎*未尝",
+        "description": "似乎后面离合出现未尝"
+    },
+    {
+        "query": "是*的局面w",
+        "description": "是后面离合出现局面+名词"
+    },
+    {
+        "query": "女*男",
+        "description": "女后面离合出现男"
+    },
+    {
+        "query": "爱n爱*",
+        "description": "爱后面离合出现爱"
+    },
+    {
+        "query": "你一个....，",
+        "description": "你后面连着多个词，最后以逗号结尾"
+    },
+    {
+        "query": "连...也都",
+        "description": "连后面多个词，最后都结尾"
+    },
+    {
+        "query": "w甘.苦w",
+        "description": "甘后面离合出现苦"
+    },
+    {
+        "query": "非..不可",
+        "description": "非后面离合出现不可"
+    },
+    {
+        "query": "倒v*起来",
+        "description": "倒动词后面离合出现起来"
+    },
+    {
+        "query": "连@也",
+        "description": "连后面词性为@的词，再接也"
+    },
+    {
+        "query": "恐怕*宁愿v",
+        "description": "恐怕后面离合出现宁愿动词"
+    },
+    {
+        "query": "暴雨.使",
+        "description": "暴雨后面隔一个字后接使"
+    },
+    {
+        "query": "你.试试",
+        "description": "你后面加句点，再接试试"
+    },
+    {
+        "query": "她..+出去w",
+        "description": "她后面多个词，最后加出去+名词"
+    },
+    {
+        "query": "她.. 出去w",
+        "description": "她后面多个词，最后出去+句尾"
+    },
+    {
+        "query": "没...之前",
+        "description": "没后面多个词，最后之前结尾"
+    },
+    {
+        "query": "他.+下来w",
+        "description": "他后面多个词，最后加下来+名词"
+    },
+    {
+        "query": "他. 下来w",
+        "description": "他后面多个词，最后下来+句尾"
+    },
+    {
+        "query": "也许*恰好",
+        "description": "也许后面离合出现恰好"
+    },
+    {
+        "query": "w后.前w",
+        "description": "w后面离合出现前后"
+    },
+    {
+        "query": "哭.了n",
+        "description": "哭后面隔一个字后接名词"
+    },
+    {
+        "query": "被...所",
+        "description": "被后面多个词，最后所结尾"
+    },
+    {
+        "query": "恐怖*V下",
+        "description": "恐怖后面离合出现V动词下"
+    },
+    {
+        "query": "连~都",
+        "description": "连后面一个词，再接都"
+    },
+    {
+        "query": "久*仰",
+        "description": "久后面离合出现仰"
+    },
+    {
+        "query": "有被*到w",
+        "description": "有后面离合出现被+名词"
+    },
+    {
+        "query": "藏不.",
+        "description": "藏后面加句点"
+    },
+    {
+        "query": "注...重",
+        "description": "注后面多个词，最后重结尾"
+    },
+    {
+        "query": "该n+@",
+        "description": "该后面词性为n的词，再接@"
+    },
+    {
+        "query": "该n @",
+        "description": "该后面词性为n的词，再接@"
+    },
+    {
+        "query": "不.东",
+        "description": "不后面加句点，再接东"
+    },
+    {
+        "query": "不*不*",
+        "description": "不后面离合出现不"
+    },
+    {
+        "query": "w真.伪w",
+        "description": "w后面离合出现真伪"
+    },
+    {
+        "query": "u+再.吧",
+        "description": "u后面离合出现再+句尾"
+    },
+    {
+        "query": "u 再.吧",
+        "description": "u后面离合出现再+句尾"
+    },
+    {
+        "query": "即使再*也",
+        "description": "即使后面离合出现再+也"
+    }
+]
+```

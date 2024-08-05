@@ -1,0 +1,160 @@
+```json
+[
+    {
+        "query": "不", 
+        "description": "包含'不'的句子"
+    },
+    {
+        "query": "@ 、", 
+        "description": "空格前后都是单字词性"
+    },
+    {
+        "query": "思想 @", 
+        "description": "思想后跟一个词"
+    },
+    {
+        "query": "(n) (n){count<842}", 
+        "description": "两个相邻的名词，频次小于842"
+    },
+    {
+        "query": "三 (a) 原则{len($1)=2}", 
+        "description": "三后面跟一个形容词，形容词后面是长度为2的名词"
+    },
+    {
+        "query": "坚持 ./n 的", 
+        "description": "坚持后面接单音节名词，再接一个'的'"
+    },
+    {
+        "query": "坚持 (d) 有序{len($1)<3}", 
+        "description": "坚持后面接副词，副词长度小于3，有序"
+    },
+    {
+        "query": "问题 @/[n v] 。", 
+        "description": "问题后接名词或动词，句尾是句点"
+    },
+    {
+        "query": "~/[v v] 统筹", 
+        "description": "两个连续的动词，后面接统筹"
+    },
+    {
+        "query": "主要 @/[n v]", 
+        "description": "主要后接名词或动词"
+    },
+    {
+        "query": "实行 vn 全覆盖", 
+        "description": "实行后面接单音节动词，再接动名词，表示全覆盖"
+    },
+    {
+        "query": "审计 .../[vn v] 建设", 
+        "description": "审计后面可能接任意数量的词，然后是动词或名词，最后是建设"
+    },
+    {
+        "query": "机制 .", 
+        "description": "机制后接一个字符"
+    },
+    {
+        "query": "审计 (n) 思想{count>2}", 
+        "description": "审计后面接名词，思想的频次大于2"
+    },
+    {
+        "query": "(m) 完善{count<346}", 
+        "description": "完善前面是单音节词，频次小于346"
+    },
+    {
+        "query": "八 (v) 对{begin($1)!=[梅 朱]}", 
+        "description": "八后面接一个动词，但不接梅或朱"
+    },
+    {
+        "query": "组织", 
+        "description": "仅包含'组织'这个词"
+    },
+    {
+        "query": "组织 ~/[v v] 。", 
+        "description": "组织后面接动词或动词，句尾是句点"
+    },
+    {
+        "query": "推进 .", 
+        "description": "推进后接一个字符"
+    },
+    {
+        "query": "法律 n 。", 
+        "description": "法律后面接名词，句尾是句点"
+    },
+    {
+        "query": "一 w 实行", 
+        "description": "一后面接一个字符，再接实行"
+    },
+    {
+        "query": "、 ~/[p v] 公共", 
+        "description": "顿号后面接一个动词或介词，再接公共"
+    },
+    {
+        "query": "实行 (vn) 全覆盖{end($1)=[计 听 味 明]}", 
+        "description": "实行后面接动名词，全覆盖后面是计、听、味或明"
+    },
+    {
+        "query": "资源 ../v 审计", 
+        "description": "资源后面接双音节动词，再接审计"
+    },
+    {
+        "query": "资源 (vn) 整合{len($1)<3}", 
+        "description": "资源后面接动名词，动名词长度小于3"
+    },
+    {
+        "query": "创新 (vn) 技术{count>5}", 
+        "description": "创新后面接动名词，技术的频次大于5"
+    },
+    {
+        "query": "(ns) 农村 变革 (v){len($1)>1}", 
+        "description": "农村后面接变，变革后面接一个以上字符的动词"
+    },
+    {
+        "query": "宁静 ~", 
+        "description": "宁静后接一个词"
+    },
+    {
+        "query": "因为/p 它们 连片/v", 
+        "description": "因为后面接介词，它们后面接连片的动词"
+    },
+    {
+        "query": "(n) 互换 整合 (v){len($2)=2}", 
+        "description": "两个相邻的名词，互换后面接长度为2的动词"
+    },
+    {
+        "query": "(vn) (y){len($1)=2; len($2)=1}", 
+        "description": "两个连续的动词，第一个动词长度为2，第二个长度为1"
+    },
+    {
+        "query": "石角镇 (n) 书记{len($1)<3}", 
+        "description": "石角镇后面接长度小于3的名词，书记"
+    },
+    {
+        "query": "(n) 陈印带{count>4}", 
+        "description": "陈印带前面是单音节名词，频次大于4"
+    },
+    {
+        "query": "神经 末梢/n", 
+        "description": "神经后面接末梢，末梢是名词"
+    },
+    {
+        "query": "(n) 富{end($1)=[村 兰 胸 河]}", 
+        "description": "富后面接的名词是村、兰、胸或河"
+    },
+    {
+        "query": "说 w", 
+        "description": "说后接一个字符"
+    },
+    {
+        "query": "(ns) 村支部 书记 郭海添 说 (w){$1!=$2}", 
+        "description": "村支部、书记、郭海添之间有空格，郭海添后面不接说"
+    },
+    {
+        "query": "手艺助 ../v", 
+        "description": "手艺助后面接一个动词"
+    },
+    {
+        "query": "制图 ：/w 蔡华伟", 
+        "description": "制图后面跟冒号，然后是蔡华伟"
+    }
+]
+```

@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "w这样说吧",
+        "description": "以w开头的'这样说吧'作为句子的开头"
+    },
+    {
+        "query": "蒸n",
+        "description": "蒸后面的名词"
+    },
+    {
+        "query": "V得过",
+        "description": "动词V后面跟'得过'"
+    },
+    {
+        "query": "道德a",
+        "description": "形容词a修饰的'道德'"
+    },
+    {
+        "query": "v终身",
+        "description": "动词v后面跟'终身'"
+    },
+    {
+        "query": "有什么好+vn+的",
+        "description": "询问有什么好做的事情，vn表示动词"
+    },
+    {
+        "query": "有什么好 vn 的",
+        "description": "询问有什么好做的事情，vn表示动词，后面跟'的'"
+    },
+    {
+        "query": "a了a了",
+        "description": "形容词a连续两次出现"
+    },
+    {
+        "query": "n之v",
+        "description": "名词n后面跟着动词v"
+    },
+    {
+        "query": "v得a+a的",
+        "description": "动词v后面跟着'得'，后面是两个形容词a组成的词组，后面跟'的'"
+    },
+    {
+        "query": "v得a a的",
+        "description": "动词v后面跟着'得'，后面是两个形容词a组成的词组，最后跟'的'"
+    },
+    {
+        "query": "an说",
+        "description": "形容词an修饰的'说'"
+    },
+    {
+        "query": "v回n来",
+        "description": "动词v后面跟着名词n，再跟着'来'"
+    },
+    {
+        "query": "w别说，",
+        "description": "以w开头的'别说'作为句子的开头，后面跟逗号"
+    },
+    {
+        "query": "必然把n+v了",
+        "description": "形容词必然，后面把n，后面跟着动词v，最后是'了'"
+    },
+    {
+        "query": "必然把n v了",
+        "description": "形容词必然，后面把n，后面跟着动词v，最后是'了'"
+    },
+    {
+        "query": "a中v着a",
+        "description": "形容词a修饰的'中'，后面跟着动词v，最后是形容词a"
+    },
+    {
+        "query": "w十q",
+        "description": "以w开头的'十q'作为句子的开头"
+    },
+    {
+        "query": "a事故",
+        "description": "形容词a修饰的'事故'"
+    },
+    {
+        "query": "v碎",
+        "description": "动词v后面跟着'碎'"
+    },
+    {
+        "query": "不大a",
+        "description": "形容词a修饰的'不大'"
+    },
+    {
+        "query": "或许就是v",
+        "description": "或许后面跟着动词v"
+    },
+    {
+        "query": "man不man",
+        "description": "man连续两次出现，中间无其他词"
+    },
+    {
+        "query": "东v西v",
+        "description": "动词v连续两次出现，中间无其他词"
+    },
+    {
+        "query": "v在望",
+        "description": "动词v后面跟着'在望'"
+    },
+    {
+        "query": "时a时a",
+        "description": "形容词a连续两次出现"
+    },
+    {
+        "query": "在N上",
+        "description": "动词在后面跟着名词N，再跟着'上'"
+    },
+    {
+        "query": "云n",
+        "description": "名词n修饰的'云'"
+    },
+    {
+        "query": "a刀刃",
+        "description": "形容词a修饰的'刀刃'"
+    },
+    {
+        "query": "m勺",
+        "description": "m修饰的'勺'"
+    },
+    {
+        "query": ":+n是n+?",
+        "description": "冒号开头，后面跟着名词n，然后是'是'，再跟着名词n，最后是问号"
+    },
+    {
+        "query": ": n是n ？",
+        "description": "冒号开头，后面跟着名词n，然后是'是'，再跟着名词n，最后是问号"
+    },
+    {
+        "query": "勉强可以v",
+        "description": "形容词勉强，后面跟着动词v"
+    },
+    {
+        "query": "a裁判",
+        "description": "形容词a修饰的'裁判'"
+    },
+    {
+        "query": "a养殖",
+        "description": "形容词a修饰的'养殖'"
+    },
+    {
+        "query": "遍寻n",
+        "description": "形容词遍寻，后面跟着名词n"
+    },
+    {
+        "query": "q品种",
+        "description": "q修饰的'品种'"
+    },
+    {
+        "query": "a光辉",
+        "description": "形容词a修饰的'光辉'"
+    },
+    {
+        "query": "v++了+m++晚上+的+N",
+        "description": "动词v后面跟着'++了'，后面跟着m，再跟着'++晚上'，最后是'的+N'"
+    },
+    {
+        "query": "v  了 m  晚上 的 N",
+        "description": "动词v后面跟着'了'，后面跟着m，再跟着'晚上'，最后是'的+N'"
+    }
+]
+```

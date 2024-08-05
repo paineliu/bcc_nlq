@@ -1,0 +1,160 @@
+```json
+[
+    {
+        "query": "耳朵",
+        "description": "单个词语"
+    },
+    {
+        "query": "小雨",
+        "description": "单个词语"
+    },
+    {
+        "query": "爱咋地就",
+        "description": "单个词语"
+    },
+    {
+        "query": "成人权",
+        "description": "单个词语"
+    },
+    {
+        "query": "曾",
+        "description": "单个词语"
+    },
+    {
+        "query": "罪与罚",
+        "description": "单个词语"
+    },
+    {
+        "query": "艾灸",
+        "description": "单个词语"
+    },
+    {
+        "query": "也许是",
+        "description": "单个词语"
+    },
+    {
+        "query": "汉语",
+        "description": "单个词语"
+    },
+    {
+        "query": "柳绿花红",
+        "description": "单个词语"
+    },
+    {
+        "query": "搞错",
+        "description": "单个词语"
+    },
+    {
+        "query": "冲突",
+        "description": "单个词语"
+    },
+    {
+        "query": "男不男",
+        "description": "单个词语"
+    },
+    {
+        "query": "大约未必",
+        "description": "单个词语"
+    },
+    {
+        "query": "整齐",
+        "description": "单个词语"
+    },
+    {
+        "query": "换个方式说",
+        "description": "单个词语"
+    },
+    {
+        "query": "管理",
+        "description": "单个词语"
+    },
+    {
+        "query": "食指",
+        "description": "单个词语"
+    },
+    {
+        "query": "时间",
+        "description": "单个词语"
+    },
+    {
+        "query": "认真",
+        "description": "单个词语"
+    },
+    {
+        "query": "仿佛决不",
+        "description": "单个词语"
+    },
+    {
+        "query": "合身",
+        "description": "单个词语"
+    },
+    {
+        "query": "蔷薇",
+        "description": "单个词语"
+    },
+    {
+        "query": "不够朋友",
+        "description": "单个词语"
+    },
+    {
+        "query": "昏昏迷迷",
+        "description": "单个词语"
+    },
+    {
+        "query": "不太好意思",
+        "description": "单个词语"
+    },
+    {
+        "query": "耽美",
+        "description": "单个词语"
+    },
+    {
+        "query": "更多和谐",
+        "description": "单个词语"
+    },
+    {
+        "query": "签字",
+        "description": "单个词语"
+    },
+    {
+        "query": "弯弯",
+        "description": "单个词语"
+    },
+    {
+        "query": "大约会",
+        "description": "单个词语"
+    },
+    {
+        "query": "况且",
+        "description": "单个词语"
+    },
+    {
+        "query": "昂扬",
+        "description": "单个词语"
+    },
+    {
+        "query": "莫非+莫非",
+        "description": "单个词语"
+    },
+    {
+        "query": "心思思",
+        "description": "单个词语"
+    },
+    {
+        "query": "尊重科学",
+        "description": "单个词语"
+    },
+    {
+        "query": "往来",
+        "description": "单个词语"
+    },
+    {
+        "query": "二团",
+        "description": "单个词语"
+    },
+    {
+        "query": "是相当地",
+        "description": "单个词语"
+    }
+]
+```

@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "w俯.仰w",
+        "description": "以w开头，中间包含俯和仰，之后也是w"
+    },
+    {
+        "query": "你*你的吧",
+        "description": "以你开头，中间离合出现你的，之后是吧"
+    },
+    {
+        "query": "w背.向w",
+        "description": "以w开头，中间包含背和向，之后也是w"
+    },
+    {
+        "query": "w西.东w",
+        "description": "以w开头，中间包含西和东，之后也是w"
+    },
+    {
+        "query": "w头.尾w",
+        "description": "以w开头，中间包含头和尾，之后也是w"
+    },
+    {
+        "query": "n*",
+        "description": "以n开头，之后可接任意内容"
+    },
+    {
+        "query": "仿佛*啊！",
+        "description": "仿佛后面离合出现啊，之后是感叹号"
+    },
+    {
+        "query": "她..+上去w",
+        "description": "她后面隔一个或多个字符后接加，再接上去，之后是w"
+    },
+    {
+        "query": "她.. 上去w",
+        "description": "她后面隔一个或多个字符后接上，再接去，之后是w"
+    },
+    {
+        "query": "不是*，不行*",
+        "description": "不是后面离合出现，之后是，，再接不行，之后也是"
+    },
+    {
+        "query": "似乎*到底",
+        "description": "似乎后面离合出现到底"
+    },
+    {
+        "query": "你一个.....，",
+        "description": "你后面隔多个字符后接一个，再接多个不确定字符，之后是逗号"
+    },
+    {
+        "query": "地下室.层",
+        "description": "地下室后面隔一个字符后接层"
+    },
+    {
+        "query": "或许*毕竟",
+        "description": "或许后面离合出现毕竟"
+    },
+    {
+        "query": "我们一个*；",
+        "description": "我们后面离合出现一个，之后是不确定字符，再接分号"
+    },
+    {
+        "query": "不就*了；",
+        "description": "不就后面离合出现，之后是不确定字符，再接了，之后是分号"
+    },
+    {
+        "query": "把..给",
+        "description": "把后面隔一个或多个字符后接给"
+    },
+    {
+        "query": "尚未v*之前",
+        "description": "尚未动词后离合出现之前"
+    },
+    {
+        "query": "接受*n",
+        "description": "接受之后接名词"
+    },
+    {
+        "query": "从...方面来说",
+        "description": "从之后隔不确定字符后接方面，再接来说"
+    },
+    {
+        "query": "再v*也",
+        "description": "再动词后离合出现也"
+    },
+    {
+        "query": "似乎*不愧",
+        "description": "似乎后面离合出现不愧"
+    },
+    {
+        "query": "他.+上去w",
+        "description": "他后面隔一个或多个字符后接加，再接上去，之后是w"
+    },
+    {
+        "query": "他. 上去w",
+        "description": "他后面隔一个或多个字符后接上，再接去，之后是w"
+    },
+    {
+        "query": "他.这就",
+        "description": "他后面隔一个或多个字符后接就，再接这"
+    },
+    {
+        "query": "w同.异w",
+        "description": "以w开头，中间包含同和异，之后也是w"
+    },
+    {
+        "query": "他一个*；",
+        "description": "他后面离合出现一个，之后是不确定字符，再接分号"
+    },
+    {
+        "query": "似乎*绝无",
+        "description": "似乎后面离合出现绝无"
+    },
+    {
+        "query": "大概*本来",
+        "description": "大概后面离合出现本来"
+    },
+    {
+        "query": "w简.繁w",
+        "description": "以w开头，中间包含简和繁，之后也是w"
+    },
+    {
+        "query": "w就*来说",
+        "description": "以w开头，中间包含就，之后离合出现来说"
+    },
+    {
+        "query": "w赏.罚w",
+        "description": "以w开头，中间包含赏和罚，之后也是w"
+    },
+    {
+        "query": "你是懂*的w",
+        "description": "你是懂之后离合出现的，之后是确定的w"
+    },
+    {
+        "query": "也许*反倒",
+        "description": "也许之后离合出现反倒"
+    },
+    {
+        "query": "v没v*？",
+        "description": "动词后离合出现没，再接动词，最后问号"
+    },
+    {
+        "query": "w废.兴w",
+        "description": "以w开头，中间包含废和兴，之后也是w"
+    },
+    {
+        "query": "很@",
+        "description": "很之后是@，代表一个词性符号"
+    },
+    {
+        "query": "似乎*终究",
+        "description": "似乎后面离合出现终究"
+    },
+    {
+        "query": "大约*总能",
+        "description": "大约后面离合出现总能"
+    },
+    {
+        "query": "她一个*；",
+        "description": "她后面离合出现一个，之后是不确定字符，再接分号"
+    }
+]
+```

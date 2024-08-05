@@ -1,0 +1,164 @@
+根据提供的语料库检索表达式的规则，我们可以将每个检索式转换成JSON结构。以下是转换后的JSON列表：
+
+```json
+[
+    {
+        "query": "第七十三 (q){len($1)=1}",
+        "description": "长度为1的'第七十三'"
+    },
+    {
+        "query": "(m) 条{end($1)!=[员 波 掉]}",
+        "description": "以'm'开头的条，排除'员'、'波'、'掉'结尾"
+    },
+    {
+        "query": "第七十五 (q){count>6}",
+        "description": "第七十五，出现次数超过6次"
+    },
+    {
+        "query": "(m) 条{end($1)!=[占 微 爽]}",
+        "description": "以'm'开头的条，排除'占'、'微'、'爽'结尾"
+    },
+    {
+        "query": "的 @/[n v] 接触",
+        "description": "的后面接名词或动词的接触"
+    },
+    {
+        "query": "保护 ../[n v]。",
+        "description": "保护后跟名词或动词，句尾是句号"
+    },
+    {
+        "query": "第七十七 (q){count<631}",
+        "description": "第七十七，出现次数少于631次"
+    },
+    {
+        "query": "(m) (q){len($1)<5}",
+        "description": "两个相邻的词，第一个词长度小于5"
+    },
+    {
+        "query": "第八十 (q){count>6}",
+        "description": "第八十，出现次数超过6次"
+    },
+    {
+        "query": "(m) 条{begin($1)!=[稳 以]}",
+        "description": "以'm'开头的条，排除'稳'、'以'开头"
+    },
+    {
+        "query": "第八十二 条/q",
+        "description": "条后面接'q'"
+    },
+    {
+        "query": "@/[m v] 条",
+        "description": "以'm'或'v'开头的条"
+    },
+    {
+        "query": "第八十四 @/[q v]",
+        "description": "以'@'开头，后面接'q'或'v'"
+    },
+    {
+        "query": "第八十五",
+        "description": "仅'第八十五'"
+    },
+    {
+        "query": "第八十六 q",
+        "description": "仅'第八十六'后接'q'"
+    },
+    {
+        "query": "(m) 条{begin($1)=[第 呵 硬]}",
+        "description": "以'm'开头的条，且开始位置是'第'、'呵'或'硬'"
+    },
+    {
+        "query": "第八十八 (q){count>6}",
+        "description": "第八十八，出现次数超过6次"
+    },
+    {
+        "query": "..../m 条",
+        "description": "多音节词后跟'm'开头的条"
+    },
+    {
+        "query": "(m) 条{count>10}",
+        "description": "以'm'开头的条，出现次数超过10次"
+    },
+    {
+        "query": "第九十一 q",
+        "description": "仅'第九十一'后接'q'"
+    },
+    {
+        "query": "第九十二 (q){count<562}",
+        "description": "第九十二，出现次数少于562次"
+    },
+    {
+        "query": ".... 条",
+        "description": "省略号后接的条"
+    },
+    {
+        "query": "第九十四 @",
+        "description": "仅'第九十四'"
+    },
+    {
+        "query": "第九十五 (q){count<383}",
+        "description": "第九十五，出现次数少于383次"
+    },
+    {
+        "query": "第九十六 @",
+        "description": "仅'第九十六'"
+    },
+    {
+        "query": "第九十七 ~/[q v]",
+        "description": "第九十七，后面跟'q'或'v'"
+    },
+    {
+        "query": "问计",
+        "description": "仅'问计'"
+    },
+    {
+        "query": "多措/n 并举",
+        "description": "多措后面接名词并举"
+    },
+    {
+        "query": "强化 (n) 依托{end($1)!=[偷 少 解]}",
+        "description": "强化后面接名词，且'依托'后面不接'偷'、'少'、'解'"
+    },
+    {
+        "query": "培训 .",
+        "description": "培训后接句点"
+    },
+    {
+        "query": "， ../v 日间",
+        "description": "逗号后跟动词的日间"
+    },
+    {
+        "query": "鼓励 (v) 激发{begin($1)!=[果 牛 苦 低]}",
+        "description": "鼓励后接动词激发，且'鼓励'前面不接'果'、'牛'、'苦'、'低'"
+    },
+    {
+        "query": "(v) 良好 (n){end($2)!=[自 关 支]}",
+        "description": "动词后接'良好'，'良好'后面不接'自'、'关'、'支'"
+    },
+    {
+        "query": "(n) (w){begin($1)!=[硬 江 狼 春]}",
+        "description": "名词后接名词，且第一个名词不接'硬'、'江'、'狼'、'春'"
+    },
+    {
+        "query": "县委 .../[n v]",
+        "description": "县委后面跟任意数量的字符，可能是名词或动词"
+    },
+    {
+        "query": "江西省 (ns){begin($1)!=[紧 桌 老 清]}",
+        "description": "江西省后面不接'紧'、'桌'、'老'、'清'"
+    },
+    {
+        "query": "赵 ~ 重庆市",
+        "description": "赵后面接一个词，可能是任意词性，接重庆"
+    },
+    {
+        "query": "(n) (n){begin($1)!=[机 归 峰]; len($2)>2}",
+        "description": "两个相邻的名词，第一个名词不接'机'、'归'、'峰'，第二个名词长度大于2"
+    },
+    {
+        "query": "就 @/[v v] 你",
+        "description": "就后面接两个相邻的动词，再接'你'"
+    }
+]
+```
+
+这个JSON列表包含了所有给定检索式的描述和含义。

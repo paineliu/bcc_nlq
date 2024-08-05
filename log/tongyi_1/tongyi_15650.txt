@@ -1,0 +1,160 @@
+```json
+[
+    {
+        "query": "(t) 十二月{len($1)<6}",
+        "description": "检索长度小于6的'十二月'"
+    },
+    {
+        "query": "(v) 事实 的 仲裁 (v){begin($1)!=[闲 我 床]}",
+        "description": "动词开头的事实，后面跟'的'，然后是'仲裁'，但'仲裁'前面不能是闲、我或床"
+    },
+    {
+        "query": "违背 (n) 的{end($1)!=[哟 调]}",
+        "description": "违背后面接一个名词，但这个名词的结尾不能是哟或调"
+    },
+    {
+        "query": "(n) 组织 候任 (n){end($1)!=[骚 噶]}",
+        "description": "名词组织后面接候任，但候任后面不能接骚或噶"
+    },
+    {
+        "query": "地铁",
+        "description": "地铁"
+    },
+    {
+        "query": "王海滨 ./[v v] 人民",
+        "description": "王海滨后面接两个连续的动词，然后是人民"
+    },
+    {
+        "query": "(nr) 会见{len($1)!=4}",
+        "description": "人名后面接的'会见'长度不能是4"
+    },
+    {
+        "query": "关系 ~ 感到",
+        "description": "关系后面接任意词"
+    },
+    {
+        "query": "会见 俄罗斯/ns 总理",
+        "description": "会见俄罗斯总理"
+    },
+    {
+        "query": "王晨 ~ 会见",
+        "description": "王晨后面接任意词"
+    },
+    {
+        "query": "发展 (n) 检验{count>5}",
+        "description": "发展后面接一个名词，这个名词后面检验的实例多于5次"
+    },
+    {
+        "query": ". 之 成 .",
+        "description": "句尾是'之'，'成'，句尾也是."
+    },
+    {
+        "query": "经济 @ 运行",
+        "description": "经济后面接运行，统计时按照经济的词性归并"
+    },
+    {
+        "query": "促进 (n) 不断{len($1)=2}",
+        "description": "促进后面接一个长度为2的名词，不断"
+    },
+    {
+        "query": "水平 w",
+        "description": "水平后面接一个词"
+    },
+    {
+        "query": "(a) 民生 保障网 (w){len($1)>1}",
+        "description": "形容词民生后面接保障网，保障网至少包含两个字"
+    },
+    {
+        "query": "政府 ../n 转变",
+        "description": "政府后面接双音节名词，然后是转变"
+    },
+    {
+        "query": "(v) 政策 督查 落实 (w){begin($1)=[狠 傻 雨 味]}",
+        "description": "动词政策后面接督查落实，督查落实的开头不能是狠、傻、雨或味"
+    },
+    {
+        "query": "(d) (v){len($1)=2; len($2)=2}",
+        "description": "两个长度为2的连续动词"
+    },
+    {
+        "query": "(v) (r){begin($2)!=[屋 名 碗]}",
+        "description": "动词后面接一个词，且这个词的开头不能是屋、名或碗"
+    },
+    {
+        "query": "瞧 ~ 一家子",
+        "description": "瞧后面接任意词"
+    },
+    {
+        "query": "中国 (n) 善举{len($1)<4}",
+        "description": "中国后面接一个长度小于4的名词，善举"
+    },
+    {
+        "query": "../[n v] 病",
+        "description": "双音节词后面接病"
+    },
+    {
+        "query": "谈 ~/[v v]",
+        "description": "谈后面接任意词"
+    },
+    {
+        "query": "学无止境 w",
+        "description": "学无止境后面接一个词"
+    },
+    {
+        "query": "治病 (v) 不行{len($1)!=2}",
+        "description": "治病后面接一个动词，但这个动词的长度不能是2"
+    },
+    {
+        "query": "(n) (v){end($2)!=[能 青 吓]}",
+        "description": "名词后面接一个动词，但这个动词的结尾不能是能、青或吓"
+    },
+    {
+        "query": "(b) (n){len($1)=2; begin($2)=[劫手机 奥]}",
+        "description": "两个长度为2的连续名词，且第二个名词的开头不能是劫手机或奥"
+    },
+    {
+        "query": "信息 ./[w v]",
+        "description": "信息后面可能是标点或动词"
+    },
+    {
+        "query": "(s) 公然{count<848}",
+        "description": "公然这个词的实例少于848次"
+    },
+    {
+        "query": "安全 何/r 所",
+        "description": "安全后面接何或所"
+    },
+    {
+        "query": "亦 ~/[nr v]",
+        "description": "亦后面接任意词"
+    },
+    {
+        "query": "涵养 ../[r v] 的",
+        "description": "涵养后面接一个词，然后是的"
+    },
+    {
+        "query": "(m) 天{len($1)!=2}",
+        "description": "天后面接一个长度不是2的词"
+    },
+    {
+        "query": "一 . 展示",
+        "description": "一后面接一个字，然后是展示"
+    },
+    {
+        "query": "展示 ~ 是",
+        "description": "展示后面接任意词"
+    },
+    {
+        "query": "(n) (v){len($1)!=3}",
+        "description": "名词后面接一个动词，但这个动词的长度不是3"
+    },
+    {
+        "query": "n 增值 治理者 v",
+        "description": "名词后面接增值治理者，增值治理者可能是动词"
+    },
+    {
+        "query": "一 @/[q v] 错觉",
+        "description": "一后面接一个词，可能是量词或动词，然后是错觉"
+    }
+]
+```

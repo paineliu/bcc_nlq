@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "个鬼",
+        "description": "包含'个鬼'这个词语的句子"
+    },
+    {
+        "query": "车管所",
+        "description": "包含'车管所'这个词语的句子"
+    },
+    {
+        "query": "说走就走。",
+        "description": "包含'说走就走。'这个句子的表述"
+    },
+    {
+        "query": "妻子",
+        "description": "包含'妻子'这个词语的句子"
+    },
+    {
+        "query": "说句玩笑话",
+        "description": "包含'说句玩笑话'这个句子的表述"
+    },
+    {
+        "query": "调理",
+        "description": "包含'调理'这个词语的句子"
+    },
+    {
+        "query": "身段",
+        "description": "包含'身段'这个词语的句子"
+    },
+    {
+        "query": "可达约",
+        "description": "包含'可达约'这个词语的句子"
+    },
+    {
+        "query": "不多",
+        "description": "包含'不多'这个词语的句子"
+    },
+    {
+        "query": "没想到",
+        "description": "包含'没想到'这个词语的句子"
+    },
+    {
+        "query": "唇焦舌敝",
+        "description": "包含'唇焦舌敝'这个词语的句子"
+    },
+    {
+        "query": "开个",
+        "description": "包含'开个'这个词语的句子"
+    },
+    {
+        "query": "始终",
+        "description": "包含'始终'这个词语的句子"
+    },
+    {
+        "query": "什么的",
+        "description": "包含'什么的'这个词语的句子"
+    },
+    {
+        "query": "谁都拯救不了",
+        "description": "包含'谁都拯救不了'这个句子的表述"
+    },
+    {
+        "query": "差错",
+        "description": "包含'差错'这个词语的句子"
+    },
+    {
+        "query": "谨言慎行",
+        "description": "包含'谨言慎行'这个词语的句子"
+    },
+    {
+        "query": "和谐到和",
+        "description": "包含'和谐到和'这个词语的句子"
+    },
+    {
+        "query": "然则",
+        "description": "包含'然则'这个词语的句子"
+    },
+    {
+        "query": "时间是筛子",
+        "description": "包含'时间是筛子'这个句子的表述"
+    },
+    {
+        "query": "日人权",
+        "description": "包含'日人权'这个词语的句子"
+    },
+    {
+        "query": "废柴",
+        "description": "包含'废柴'这个词语的句子"
+    },
+    {
+        "query": "做的菜",
+        "description": "包含'做的菜'这个词语的句子"
+    },
+    {
+        "query": "金戈铁马",
+        "description": "包含'金戈铁马'这个词语的句子"
+    },
+    {
+        "query": "不太平衡",
+        "description": "包含'不太平衡'这个词语的句子"
+    },
+    {
+        "query": "德人权",
+        "description": "包含'德人权'这个词语的句子"
+    },
+    {
+        "query": "。肯定我",
+        "description": "包含'.肯定我'这个句子的表述"
+    },
+    {
+        "query": "关人权",
+        "description": "包含'关人权'这个词语的句子"
+    },
+    {
+        "query": "破",
+        "description": "包含'破'这个词语的句子"
+    },
+    {
+        "query": "、尚和谐",
+        "description": "包含'、尚和谐'这个词语的句子"
+    },
+    {
+        "query": "桑",
+        "description": "包含'桑'这个词语的句子"
+    },
+    {
+        "query": "有失于",
+        "description": "包含'有失于'这个词语的句子"
+    },
+    {
+        "query": "输",
+        "description": "包含'输'这个词语的句子"
+    },
+    {
+        "query": "有幸",
+        "description": "包含'有幸'这个词语的句子"
+    },
+    {
+        "query": "试着",
+        "description": "包含'试着'这个词语的句子"
+    },
+    {
+        "query": "仿佛总是",
+        "description": "包含'仿佛总是'这个词语的句子"
+    },
+    {
+        "query": "和谐的需",
+        "description": "包含'和谐的需'这个词语的句子"
+    },
+    {
+        "query": "和谐元素",
+        "description": "包含'和谐元素'这个词语的句子"
+    },
+    {
+        "query": "才怪",
+        "description": "包含'才怪'这个词语的句子"
+    },
+    {
+        "query": "三中全会",
+        "description": "包含'三中全会'这个词语的句子"
+    }
+]
+```

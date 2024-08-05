@@ -1,0 +1,166 @@
+以下是将检索式转换为带含义的json结构的结果：
+
+```json
+[
+    {
+        "query": "日渐v",
+        "description": "动词 '日渐' 后面接动词"
+    },
+    {
+        "query": "有点太N",
+        "description": "形容词 '有点' 和 '太' 之后接形容词N"
+    },
+    {
+        "query": "情况v",
+        "description": "动词 '情况' 后面接动词"
+    },
+    {
+        "query": "还挺v的",
+        "description": "动词 '挺' 后面接形容词的句子"
+    },
+    {
+        "query": "v下来n",
+        "description": "动词后面接名词 '下来' 和 'n'"
+    },
+    {
+        "query": "w那么说",
+        "description": "句首接词 'w', 然后是 '那么说'"
+    },
+    {
+        "query": "怎么a+w",
+        "description": "形容词 '怎么' 后接词 'a' 和 'w'"
+    },
+    {
+        "query": "怎么a w",
+        "description": "形容词 '怎么' 后接词 'a' 和 'w'"
+    },
+    {
+        "query": "n的生活",
+        "description": "名词 'n' 后面接 '的生活'"
+    },
+    {
+        "query": "v一颗",
+        "description": "动词后面接名词 '一颗'"
+    },
+    {
+        "query": "n有力",
+        "description": "名词 'n' 后面接 '有力'"
+    },
+    {
+        "query": "N细",
+        "description": "形容词N后面接 '细'"
+    },
+    {
+        "query": "a古文",
+        "description": "形容词 'a' 后面接 '古文'"
+    },
+    {
+        "query": "被n夺去生命",
+        "description": "被字句，'n' 后面接 '夺去生命'"
+    },
+    {
+        "query": "v了m分钟的n",
+        "description": "动词后面接量词 'm分钟的n'"
+    },
+    {
+        "query": "纪念n",
+        "description": "名词 '纪念' 后面接 'n'"
+    },
+    {
+        "query": "a充实",
+        "description": "形容词 'a' 后面接 '充实'"
+    },
+    {
+        "query": "的w",
+        "description": "词 '的' 后面接 'w'"
+    },
+    {
+        "query": "a关节炎",
+        "description": "形容词 'a' 后面接 '关节炎'"
+    },
+    {
+        "query": "m小时",
+        "description": "量词 'm小时'"
+    },
+    {
+        "query": "w理由a",
+        "description": "词 'w' 后面接 '理由a'"
+    },
+    {
+        "query": "有点很a",
+        "description": "形容词 '有点' 和 '很' 之后接形容词 'a'"
+    },
+    {
+        "query": "推测n",
+        "description": "名词 '推测' 后面接 'n'"
+    },
+    {
+        "query": "r跟r",
+        "description": "代词 'r' 后面接 '跟r'"
+    },
+    {
+        "query": "一小杯n",
+        "description": "量词 '一小杯n'"
+    },
+    {
+        "query": "很N",
+        "description": "形容词 '很' 后面接形容词 'N'"
+    },
+    {
+        "query": "v上级",
+        "description": "动词后面接 '上级'"
+    },
+    {
+        "query": "满++N",
+        "description": "形容词 '满' 后面接 '++N'"
+    },
+    {
+        "query": "满  N",
+        "description": "形容词 '满' 后面接空格和形容词 'N'"
+    },
+    {
+        "query": "a+f+v着a",
+        "description": "形容词 'a' 后面接 'f+v着a'"
+    },
+    {
+        "query": "a f v着a",
+        "description": "形容词 'a' 后面接 'f+v着a'"
+    },
+    {
+        "query": "a药包",
+        "description": "形容词 'a' 后面接 '药包'"
+    },
+    {
+        "query": "怎么v+w",
+        "description": "形容词 '怎么' 后面接动词 'v+w'"
+    },
+    {
+        "query": "怎么v w",
+        "description": "形容词 '怎么' 后面接动词 'v w'"
+    },
+    {
+        "query": "a一同",
+        "description": "形容词 'a' 后面接 '一同'"
+    },
+    {
+        "query": "考察n",
+        "description": "名词 '考察' 后面接 'n'"
+    },
+    {
+        "query": "多少q",
+        "description": "量词 '多少q'"
+    },
+    {
+        "query": "蹭蹭+N",
+        "description": "量词 '蹭蹭' 后面接形容词 'N'"
+    },
+    {
+        "query": "蹭蹭 N",
+        "description": "量词 '蹭蹭' 后面接空格和形容词 'N'"
+    },
+    {
+        "query": "m把n",
+        "description": "量词 'm' 后面接 '把n'"
+    }
+]
+```

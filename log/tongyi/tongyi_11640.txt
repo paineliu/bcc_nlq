@@ -1,0 +1,166 @@
+以下是将给定的检索式转换为带含义的JSON结构后的完整列表：
+
+```json
+[
+    {
+        "query": "几乎d+n[，+。]",
+        "description": "几乎后接名词，名词后接逗号或句点"
+    },
+    {
+        "query": "几乎d n[， 。]",
+        "description": "几乎后接名词，名词后可接逗号或句点"
+    },
+    {
+        "query": "w害.利[q+r+d+c+v+a++n+m++p]w",
+        "description": "w后接一系列包含q, r, d, c, v, a, n, m, p的词串，词串后接w"
+    },
+    {
+        "query": "w害.利[q r d c v a  n m  p]w",
+        "description": "w后接一系列包含q, r, d, c, v, a, n, m, p的词串，词串后接w"
+    },
+    {
+        "query": "必定v+u[，+。]",
+        "description": "必定后接u，u后接逗号或句点"
+    },
+    {
+        "query": "必定v u[， 。]",
+        "description": "必定后接u，u后接逗号或句点"
+    },
+    {
+        "query": "格外[v+a+n+r][，+。]",
+        "description": "格外后接a, n, r组成的词串，词串后接逗号或句点"
+    },
+    {
+        "query": "格外[v a n r][， 。]",
+        "description": "格外后接a, n, r组成的词串，词串后接逗号或句点"
+    },
+    {
+        "query": "w暗.明[q+r+d+c+v+a++n+m++p]w",
+        "description": "w后接一系列包含q, r, d, c, v, a, n, m, p的词串，词串后接w"
+    },
+    {
+        "query": "w暗.明[q r d c v a  n m  p]w",
+        "description": "w后接一系列包含q, r, d, c, v, a, n, m, p的词串，词串后接w"
+    },
+    {
+        "query": "毕竟[v+a+n+r][，+。]",
+        "description": "毕竟后接a, n, r组成的词串，词串后接逗号或句点"
+    },
+    {
+        "query": "毕竟[v a n r][， 。]",
+        "description": "毕竟后接a, n, r组成的词串，词串后接逗号或句点"
+    },
+    {
+        "query": "从来n[，+。]",
+        "description": "从来后接名词，名词后接逗号或句点"
+    },
+    {
+        "query": "从来n[， 。]",
+        "description": "从来后接名词，名词后可接逗号或句点"
+    },
+    {
+        "query": "一致v[，+。]",
+        "description": "一致后接逗号或句点"
+    },
+    {
+        "query": "一致v[， 。]",
+        "description": "一致后接逗号或句点"
+    },
+    {
+        "query": "生[n+r]的气[，+。]",
+        "description": "生后接n, r组成的词串，词串后接'的'，再接名词，名词后接逗号或句点"
+    },
+    {
+        "query": "生[n r]的气[， 。]",
+        "description": "生后接n, r组成的词串，词串后接'的'，再接名词，名词后可接逗号或句点"
+    },
+    {
+        "query": "不觉v[v+a+n+r][，+。]",
+        "description": "不觉后接a, n, r组成的词串，词串后接逗号或句点"
+    },
+    {
+        "query": "不觉v[v a n r][， 。]",
+        "description": "不觉后接a, n, r组成的词串，词串后接逗号或句点"
+    },
+    {
+        "query": "自行a[，+。]",
+        "description": "自行后接逗号或句点"
+    },
+    {
+        "query": "自行a[， 。]",
+        "description": "自行后接逗号或句点"
+    },
+    {
+        "query": "[这+那+m]片+n",
+        "description": "这和那之后接m，m之后接片，片之后接名词"
+    },
+    {
+        "query": "[这 那 m]片 n",
+        "description": "这和那之后接m，m之后接片，片之后接名词"
+    },
+    {
+        "query": "暂且v+y[，+。]",
+        "description": "暂且后接y，y后接逗号或句点"
+    },
+    {
+        "query": "暂且v y[， 。]",
+        "description": "暂且后接y，y后接逗号或句点"
+    },
+    {
+        "query": "白白v+v[，+。]",
+        "description": "白白后接两次v，第二次v后接逗号或句点"
+    },
+    {
+        "query": "白白v v[， 。]",
+        "description": "白白后接两次v，第二次v后可接逗号或句点"
+    },
+    {
+        "query": "渐渐v[，+。]",
+        "description": "渐渐后接逗号或句点"
+    },
+    {
+        "query": "渐渐v[， 。]",
+        "description": "渐渐后接逗号或句点"
+    },
+    {
+        "query": "[这+那+m]不力",
+        "description": "这和那之后接m，m之后接不力"
+    },
+    {
+        "query": "[这 那 m]不力",
+        "description": "这和那之后接m，m之后接不力"
+    },
+    {
+        "query": "[这+那+m]不一",
+        "description": "这和那之后接m，m之后接不一"
+    },
+    {
+        "query": "[这 那 m]不一",
+        "description": "这和那之后接m，m之后接不一"
+    },
+    {
+        "query": "这n里[，+。]",
+        "description": "这后接名词，名词后接逗号或句点"
+    },
+    {
+        "query": "这n里[， 。]",
+        "description": "这后接名词，名词后可接逗号或句点"
+    },
+    {
+        "query": "向来v+a[，+。]",
+        "description": "向来后接a，a后接逗号或句点"
+    },
+    {
+        "query": "向来v a[， 。]",
+        "description": "向来后接a，a后接逗号或句点"
+    },
+    {
+        "query": "更加d+v[，+。]",
+        "description": "更加后接v，v后接逗号或句点"
+    },
+    {
+        "query": "更加d v[， 。]",
+        "description": "更加后接v，v后接逗号或句点"
+    }
+]
+```

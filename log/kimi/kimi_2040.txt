@@ -1,0 +1,86 @@
+以下是根据给定的检索式及其含义转换为JSON结构的完整列表：
+
+```json
+[
+    {
+        "query": "../n 空间",
+        "description": "双音节名词，后接空间"
+    },
+    {
+        "query": "信息 ../an 加速",
+        "description": "信息后面接双音节名形词，加速"
+    },
+    {
+        "query": "依旧 ../[a v] ？",
+        "description": "依旧后面接单音节形容词或动词，后接问号"
+    },
+    {
+        "query": "稳步 ../v 。",
+        "description": "稳步后面接双音节动词，句尾为句点"
+    },
+    {
+        "query": "@/[n v] 企业",
+        "description": "以名词或动词为词性的词，后接企业"
+    },
+    {
+        "query": "(n) 跨界{count<386}",
+        "description": "名词跨界，出现次数少于386"
+    },
+    {
+        "query": "新 (u) 传奇{count<158}",
+        "description": "新后面接助词，传奇，出现次数少于158"
+    },
+    {
+        "query": "互联网 v 新",
+        "description": "互联网后接动词，再接新"
+    },
+    {
+        "query": "的 . 蓝海",
+        "description": "的后面隔一个字接蓝海"
+    },
+    {
+        "query": "延续 (n) ？{end($1)=[式 奥]}",
+        "description": "延续后面接名词，名词以式或奥结尾，后接问号"
+    },
+    {
+        "query": "： nr",
+        "description": "冒号后面接人名"
+    },
+    {
+        "query": "如何 @/[n v] 调查",
+        "description": "如何后面接名词或动词，再接调查"
+    },
+    {
+        "query": "丰田 .. 。",
+        "description": "丰田后面隔两个字接句点"
+    },
+    {
+        "query": "是 (v) 高额{count<667}",
+        "description": "是后面接动词，高额，出现次数少于667"
+    },
+    {
+        "query": "./nr 师傅",
+        "description": "单音节词后面接人名师傅"
+    },
+    {
+        "query": "不禁 (v) 公司{count<337}",
+        "description": "不禁后面接动词，公司，出现次数少于337"
+    },
+    {
+        "query": "， ./nr 师傅",
+        "description": "逗号后面隔一个字接人名师傅"
+    },
+    {
+        "query": "(n) 不 能 再 饥饿 (v){end($1)=[n 西 路 关]; len($2)=2}",
+        "description": "名词后面接不能、再、饥饿，动词以西、路、关结尾，且动词长度为2"
+    },
+    {
+        "query": "挣 @/[u v] 什么",
+        "description": "挣后面接助词或动词，再接什么"
+    },
+    {
+        "query": "p 不 打 w",
+        "description": "介词后面接不、打、标点符号"
+    }
+]
+```

@@ -1,0 +1,166 @@
+根据提供的检索式，我们可以将其转换为带含义的json结构。以下是转换后的json列表：
+
+```json
+[
+    {
+        "query": "V+起來",
+        "description": "动词 + 起来"
+    },
+    {
+        "query": "V 起來",
+        "description": "动词 后面直接接起来"
+    },
+    {
+        "query": "a兴趣",
+        "description": "形容词 加 兴趣"
+    },
+    {
+        "query": "v了二q+n",
+        "description": "动词 + 了 + 二 + 名词"
+    },
+    {
+        "query": "v了二q n",
+        "description": "动词 + 了 + 二 + 名词"
+    },
+    {
+        "query": "v工具房",
+        "description": "动词 后接 工具房"
+    },
+    {
+        "query": "nr，一个",
+        "description": "人名 后接 ， 再接 一个"
+    },
+    {
+        "query": "。n的n是n，",
+        "description": "句尾标点 后接 名词 的 名词 是 名词"
+    },
+    {
+        "query": "m掌",
+        "description": "数词 加 掌"
+    },
+    {
+        "query": "a不顾",
+        "description": "形容词 加 不顾"
+    },
+    {
+        "query": "a削减",
+        "description": "形容词 加 削减"
+    },
+    {
+        "query": "V生态",
+        "description": "动词 生态"
+    },
+    {
+        "query": "v见",
+        "description": "动词 见"
+    },
+    {
+        "query": "a军队",
+        "description": "形容词 加 军队"
+    },
+    {
+        "query": "a切实",
+        "description": "形容词 加 切实"
+    },
+    {
+        "query": "一副N",
+        "description": "形容词 加 一副 + 名词"
+    },
+    {
+        "query": "一杆n",
+        "description": "数词 加 杆 + 名词"
+    },
+    {
+        "query": "a口气",
+        "description": "形容词 加 气口"
+    },
+    {
+        "query": "a中医",
+        "description": "形容词 加 中医"
+    },
+    {
+        "query": "把N绑在",
+        "description": "介词 把 + 名词 绑 在"
+    },
+    {
+        "query": "m肩n",
+        "description": "数词 加 肩 + 名词"
+    },
+    {
+        "query": "v上来",
+        "description": "动词 上来"
+    },
+    {
+        "query": "nr重用",
+        "description": "人名 重用"
+    },
+    {
+        "query": "d+v+r",
+        "description": "副词 + 动词 + 副词"
+    },
+    {
+        "query": "d v r",
+        "description": "副词 + 动词 + 副词"
+    },
+    {
+        "query": "经验+i",
+        "description": "词性 标记 经验 + 形容词"
+    },
+    {
+        "query": "经验 i",
+        "description": "经验 + 形容词"
+    },
+    {
+        "query": "(a)与(n)",
+        "description": "形容词 + 与 + 名词"
+    },
+    {
+        "query": "V上来",
+        "description": "动词 上来"
+    },
+    {
+        "query": "a净化",
+        "description": "形容词 加 净化"
+    },
+    {
+        "query": "很+v",
+        "description": "副词 加 动词"
+    },
+    {
+        "query": "很 v",
+        "description": "副词 加 动词"
+    },
+    {
+        "query": "m+服+n",
+        "description": "数词 + 服 + 名词"
+    },
+    {
+        "query": "m 服 n",
+        "description": "数词 服 名词"
+    },
+    {
+        "query": "a医药",
+        "description": "形容词 加 医药"
+    },
+    {
+        "query": "a依次",
+        "description": "形容词 加 依次"
+    },
+    {
+        "query": "a主体",
+        "description": "形容词 加 主体"
+    },
+    {
+        "query": "有点儿v了",
+        "description": "形容词 加 点儿 + 动词 加 了"
+    },
+    {
+        "query": "a终生",
+        "description": "形容词 加 终生"
+    },
+    {
+        "query": "n扩建",
+        "description": "名词 加 扩建"
+    }
+]
+```

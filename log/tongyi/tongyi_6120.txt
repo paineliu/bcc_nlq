@@ -1,0 +1,166 @@
+以下是将给定的检索式转换为带含义的JSON结构：
+
+```json
+[
+    {
+        "query": "b 目标",
+        "description": "目标为形容词"
+    },
+    {
+        "query": "v 一届",
+        "description": "一届为动词，表示经历一次任期"
+    },
+    {
+        "query": "a 十字架",
+        "description": "十字架为形容词"
+    },
+    {
+        "query": "禅房 v",
+        "description": "禅房为名词，后接动词，可能表示在禅房里进行的活动"
+    },
+    {
+        "query": "外 v 内 v",
+        "description": "外动词 + 内动词，表示对外部和内部同时进行的动作"
+    },
+    {
+        "query": "m 贴",
+        "description": "贴为名词"
+    },
+    {
+        "query": "v 稳了",
+        "description": "稳了为动词，表示稳定或稳固的状态"
+    },
+    {
+        "query": "a 具备",
+        "description": "具备为形容词，表示拥有或具备某种条件或能力"
+    },
+    {
+        "query": "老 ad",
+        "description": "老为形容词，ad为未知词，可能表示形容词之后的连词或修饰语"
+    },
+    {
+        "query": "这么 a+w",
+        "description": "这么为形容词，后接未知词w，可能表示程度或数量"
+    },
+    {
+        "query": "这么 a w",
+        "description": "这么为形容词，后接形容词w，可能表示比较或评价"
+    },
+    {
+        "query": "一个不 V",
+        "description": "一个不为形容词，V为动词，表示一个不做什么动作"
+    },
+    {
+        "query": "v + m 指",
+        "description": "动词 + m指，表示具体的指向或指示动作"
+    },
+    {
+        "query": "v m 指",
+        "description": "动词m + 指，表示具体的指向或指示动作"
+    },
+    {
+        "query": "我 这个 n",
+        "description": "我为主语，这个为宾语或形容词，表示我这个（某物）"
+    },
+    {
+        "query": "一伙 n",
+        "description": "一伙为数量词+名词，表示一群或一组"
+    },
+    {
+        "query": "一块 n",
+        "description": "一块为名词，可能表示物质或面积单位"
+    },
+    {
+        "query": "挨了 + n + m",
+        "description": "挨了为动词，n为名词，m为未知词，表示遭受或受到某种影响"
+    },
+    {
+        "query": "挨了 n m",
+        "description": "挨了为动词，n为名词，m为名词，表示遭受或受到某种影响"
+    },
+    {
+        "query": "a 偏偏",
+        "description": "偏偏为形容词，表示意外或出乎意料"
+    },
+    {
+        "query": "v 一去",
+        "description": "一去为动词，表示离开或离去"
+    },
+    {
+        "query": "vn + 经历",
+        "description": "vn为名词，经历为名词，表示经历某种事件或过程"
+    },
+    {
+        "query": "vn 经历",
+        "description": "vn为名词，经历为名词，表示经历某种事件或过程"
+    },
+    {
+        "query": "一栋 n",
+        "description": "一栋为名词，表示建筑物或一组建筑物"
+    },
+    {
+        "query": "v 不比 v",
+        "description": "不比为动词，表示比较或对比"
+    },
+    {
+        "query": "n 同 n",
+        "description": "同为连词，n为名词，表示相同或相同的对象"
+    },
+    {
+        "query": "a 争夺",
+        "description": "争夺为形容词，表示竞争或争夺的倾向"
+    },
+    {
+        "query": "按期 v + v了",
+        "description": "按期为形容词，v为动词，v了为动词的完成形式，表示按时完成或实现"
+    },
+    {
+        "query": "按期 v v了",
+        "description": "按期为形容词，v为动词，v了为动词的完成形式，表示按时完成或实现"
+    },
+    {
+        "query": "教育 n",
+        "description": "教育为名词，表示教育活动或领域"
+    },
+    {
+        "query": "a 争论",
+        "description": "争论为形容词，表示辩论或争议的状态"
+    },
+    {
+        "query": "亲身 n",
+        "description": "亲身为主语，n为宾语或名词，表示亲自经历或参与"
+    },
+    {
+        "query": "v 哭了 n",
+        "description": "v为动词，哭了为动词的完成形式，n为主语或名词，表示哭泣的行为"
+    },
+    {
+        "query": "d 服",
+        "description": "服为形容词，表示服从或服气的状态"
+    },
+    {
+        "query": "跑 n",
+        "description": "跑为动词，n为宾语或名词，表示奔跑的行为"
+    },
+    {
+        "query": "情形 a",
+        "description": "情形为形容词，表示情况或状况"
+    },
+    {
+        "query": "v 桃树",
+        "description": "v为动词，可能表示在桃树上进行的动作"
+    },
+    {
+        "query": "大概 只好 v",
+        "description": "大概为形容词，只好为动词，表示在某种情况下不得不采取行动"
+    },
+    {
+        "query": "大概 V",
+        "description": "大概为形容词，V为动词，表示不确定的未来动作或情况"
+    },
+    {
+        "query": "a 制度",
+        "description": "制度为形容词，表示规范或规则的状态"
+    }
+]
+```

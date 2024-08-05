@@ -1,0 +1,95 @@
+以下是根据您提供的检索式转换为的带含义的JSON结构：
+
+```json
+[
+  {
+    "query": "(n) 将 聚焦 京津冀 、 太湖 (n)",
+    "description": "名词后面接将聚焦京津冀、太湖，再接名词，且第一个名词长度为2，第二个名词的结尾不是路、及、困、那、俺",
+    "constraints": "len($1)=2; end($2)![n 困 那 俺]"
+  },
+  {
+    "query": "专项 ./u 收官",
+    "description": "专项后面接单字动词，然后接收官"
+  },
+  {
+    "query": "农村 @/[vn v] 垃圾",
+    "description": "农村后面接一个词，词性为名动词或动词，然后接垃圾"
+  },
+  {
+    "query": "美丽 (ns) ·",
+    "description": "美丽后面接一个地名，且该地名的开始不是路、及",
+    "constraints": "begin($1)![路 及]"
+  },
+  {
+    "query": "脊椎动物 ../n 名录",
+    "description": "脊椎动物后面接双音节名词，然后接名录"
+  },
+  {
+    "query": "落地",
+    "description": "包含落地这个词的句子"
+  },
+  {
+    "query": "不灵 w",
+    "description": "不灵作为句尾"
+  },
+  {
+    "query": "新华社 (nr) 绘",
+    "description": "新华社后面接一个人名，且该人名长度大于2",
+    "constraints": "len($1)>2"
+  },
+  {
+    "query": "目录化 ../[v v]",
+    "description": "目录化后面接双音节动词"
+  },
+  {
+    "query": "./d 再",
+    "description": "单音节副词后再接再"
+  },
+  {
+    "query": "@ 作出",
+    "description": "一个词性符号后面接作出"
+  },
+  {
+    "query": "(p) 程序",
+    "description": "介词后面接程序，且程序的频次小于133",
+    "constraints": "count<133"
+  },
+  {
+    "query": "不 动/v",
+    "description": "不后面接动作为动词"
+  },
+  {
+    "query": "(s) 走",
+    "description": "处所词后面接走，且处所词长度为2",
+    "constraints": "len($1)=2"
+  },
+  {
+    "query": "让 (n) 决策",
+    "description": "让后面接名词，然后接决策，且名词长度为2",
+    "constraints": "len($1)=2"
+  },
+  {
+    "query": "决策",
+    "description": "包含决策这个词的句子"
+  },
+  {
+    "query": "发展 应有/v 法治",
+    "description": "发展后面接应有作为动词，然后接法治"
+  },
+  {
+    "query": "建议 。/w",
+    "description": "建议后面接句尾标点"
+  },
+  {
+    "query": "直面 (n)",
+    "description": "直面后面接名词，且名词的开始是问、啦、丽",
+    "constraints": "begin($1)=[问 啦 丽]"
+  },
+  {
+    "query": "正阳 ~",
+    "description": "正阳后面接一个词"
+  }
+]
+```
+
+请注意，每个检索式的描述是根据您给出的格式和特殊含义符号进行解释的，可能需要根据实际情况进一步调整。

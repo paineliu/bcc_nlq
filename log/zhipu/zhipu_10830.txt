@@ -1,0 +1,88 @@
+以下是您提供的检索式转换为带含义的JSON结构：
+
+```json
+[
+    {
+        "query": "追求 ~ 发展",
+        "description": "追求后接一个词，再接发展"
+    },
+    {
+        "query": "v 合作 v",
+        "description": "两个动词之间接合作"
+    },
+    {
+        "query": "~ 说",
+        "description": "一个词后接说"
+    },
+    {
+        "query": "举 (n){begin($1)!=[假 热]}",
+        "description": "举后接一个名词，且该名词不以假或热开头"
+    },
+    {
+        "query": "中",
+        "description": "包含中字的句子"
+    },
+    {
+        "query": "外景 ~/[w v]",
+        "description": "外景后接一个词，该词可以是标点符号或动词"
+    },
+    {
+        "query": "友好 ./[p v] 遥远",
+        "description": "友好后接一个词，该词是介词或动词，再接遥远"
+    },
+    {
+        "query": "../ns 是",
+        "description": "双音节名词后接是"
+    },
+    {
+        "query": "埃博拉 (n) ，{begin($1)!=[入 九]}",
+        "description": "埃博拉后接一个名词，并且该名词不以入或九开头，整个句子以逗号结尾"
+    },
+    {
+        "query": ".. ：",
+        "description": "双音节词后接冒号"
+    },
+    {
+        "query": "王",
+        "description": "包含王字的句子"
+    },
+    {
+        "query": "病人 就/d 离",
+        "description": "病人后接副词就，再接离"
+    },
+    {
+        "query": "说 w",
+        "description": "说后接标点符号"
+    },
+    {
+        "query": "、 ~ ，",
+        "description": "顿号后接一个词，再接逗号"
+    },
+    {
+        "query": "， (v) 授人以渔{len($1)=2}",
+        "description": "逗号后接一个长度为两个字节的动词，再接授人以渔"
+    },
+    {
+        "query": "(v) (d){count<798}",
+        "description": "一个动词后接一个副词，且这样的实例出现次数少于798次"
+    },
+    {
+        "query": "中华民族",
+        "description": "包含中华民族的句子"
+    },
+    {
+        "query": ": 我/r 很",
+        "description": "冒号后接代词我，再接很"
+    },
+    {
+        "query": ".. 去 ， ..",
+        "description": "双音节词后接去，然后是逗号，再接双音节词"
+    },
+    {
+        "query": ".. 持续",
+        "description": "双音节词后接持续"
+    }
+]
+```
+
+请注意，以上JSON结构中的描述是基于您提供的检索式进行推测的，可能需要根据实际使用场景进行微调。

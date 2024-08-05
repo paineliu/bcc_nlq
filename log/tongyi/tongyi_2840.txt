@@ -1,0 +1,166 @@
+根据给出的检索式及其含义的json结构模板，我们可以将下列检索式转换为带含义的json结构如下：
+
+```json
+[
+    {
+        "query": "冲刷",
+        "description": "包含'冲刷'这个词语的句子"
+    },
+    {
+        "query": "和谐与端",
+        "description": "包含'和谐与端'这个词语序列的句子"
+    },
+    {
+        "query": "赦免",
+        "description": "包含'赦免'这个词语的句子"
+    },
+    {
+        "query": "应是和谐",
+        "description": "包含'应是和谐'这个词语序列的句子"
+    },
+    {
+        "query": "强",
+        "description": "包含单个词语'强'"
+    },
+    {
+        "query": "那倒也是",
+        "description": "包含'那倒也是'这个词语序列的句子"
+    },
+    {
+        "query": "采购采购",
+        "description": "包含重复词语'采购采购'"
+    },
+    {
+        "query": "和谐中也",
+        "description": "包含'和谐中也'这个词语序列的句子"
+    },
+    {
+        "query": "苍老",
+        "description": "包含单个词语'苍老'"
+    },
+    {
+        "query": "和谐宜人",
+        "description": "包含'和谐宜人'这个词语序列的句子"
+    },
+    {
+        "query": "和谐双赢",
+        "description": "包含'和谐双赢'这个词语序列的句子"
+    },
+    {
+        "query": "不上和谐",
+        "description": "包含'不上和谐'这个词语序列的句子"
+    },
+    {
+        "query": "仁爱",
+        "description": "包含单个词语'仁爱'"
+    },
+    {
+        "query": "共同。",
+        "description": "包含句尾词语'.共同。'"
+    },
+    {
+        "query": "和谐融入",
+        "description": "包含'和谐融入'这个词语序列的句子"
+    },
+    {
+        "query": "矮矮胖胖",
+        "description": "包含'矮矮胖胖'这个词语序列的句子"
+    },
+    {
+        "query": "反问",
+        "description": "包含'反问'这个词语的句子"
+    },
+    {
+        "query": "那样，",
+        "description": "包含句尾词语',那样。'"
+    },
+    {
+        "query": "齿",
+        "description": "包含单个词语'齿'"
+    },
+    {
+        "query": "强势",
+        "description": "包含单个词语'强势'"
+    },
+    {
+        "query": "不够水平",
+        "description": "包含'不够水平'这个词语序列的句子"
+    },
+    {
+        "query": "握瑜怀瑾",
+        "description": "包含'握瑜怀瑾'这个词语序列的句子"
+    },
+    {
+        "query": "你们还说什么",
+        "description": "包含'你们还说什么'这个词语序列的句子"
+    },
+    {
+        "query": "夜晚",
+        "description": "包含单个词语'夜晚'"
+    },
+    {
+        "query": "远远",
+        "description": "包含单个词语'远远'"
+    },
+    {
+        "query": "换了是别人",
+        "description": "包含'换了是别人'这个词语序列的句子"
+    },
+    {
+        "query": "极度没",
+        "description": "包含'极度没'这个词语序列的句子"
+    },
+    {
+        "query": "完全和谐",
+        "description": "包含'完全和谐'这个词语序列的句子"
+    },
+    {
+        "query": "嬭",
+        "description": "包含单个词语'嬭'"
+    },
+    {
+        "query": "伤心的是",
+        "description": "包含'伤心的是'这个词语序列的句子"
+    },
+    {
+        "query": "额定",
+        "description": "包含单个词语'额定'"
+    },
+    {
+        "query": "人权变",
+        "description": "包含'人权变'这个词语序列的句子"
+    },
+    {
+        "query": "如何",
+        "description": "包含单个词语'如何'"
+    },
+    {
+        "query": "近近",
+        "description": "包含单个词语'近近'"
+    },
+    {
+        "query": "老",
+        "description": "包含单个词语'老'"
+    },
+    {
+        "query": "收敛",
+        "description": "包含单个词语'收敛'"
+    },
+    {
+        "query": "频率",
+        "description": "包含单个词语'频率'"
+    },
+    {
+        "query": "说好听的",
+        "description": "包含'说好听的'这个词语序列的句子"
+    },
+    {
+        "query": "脏脏",
+        "description": "包含单个词语'脏脏'"
+    },
+    {
+        "query": "人权官",
+        "description": "包含单个词语'人权官'"
+    }
+]
+```

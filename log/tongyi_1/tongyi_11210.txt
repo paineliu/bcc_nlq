@@ -1,0 +1,152 @@
+```json
+[
+    {
+        "query": "教改 (n){count>7}",
+        "description": "包含教改的名词实例，且出现次数大于7次"
+    },
+    {
+        "query": "校长 (nr){begin($1)!=[唱 杨 嗨]}",
+        "description": "校长这个词后面不直接跟唱、杨或嗨"
+    },
+    {
+        "query": "， ~",
+        "description": "逗号后面是一个词"
+    },
+    {
+        "query": "不 (a){len($1)!=3}",
+        "description": "不是一个3字的形容词"
+    },
+    {
+        "query": "(n) ， (ad){begin($2)!=[开 能 总]}",
+        "description": "名词后面跟着一个不是开、能或总开头的副词"
+    },
+    {
+        "query": "喜",
+        "description": "喜单独出现"
+    },
+    {
+        "query": "屋 ~/[v v] 成功",
+        "description": "屋后面离合出现一个或两个动词，然后是成功"
+    },
+    {
+        "query": "是 @",
+        "description": "是后面跟着一个词，统计时按照词性归并"
+    },
+    {
+        "query": "， ~ 就",
+        "description": "逗号后面跟着一个词，然后是就"
+    },
+    {
+        "query": "一言一行 ...",
+        "description": "一言一行后面可能有多个字"
+    },
+    {
+        "query": "~ 乡贤",
+        "description": "一个词后面是乡贤"
+    },
+    {
+        "query": "怎么办 @ ？{count>10}",
+        "description": "怎么办后面跟着一个词，且出现次数大于10次，问号结尾"
+    },
+    {
+        "query": "乡亲 ~ 信得过",
+        "description": "乡亲后面跟着一个词，且信得过可能是句尾"
+    },
+    {
+        "query": "引领 (n){len($1)<4}",
+        "description": "引领后面接的名词长度小于4个字符"
+    },
+    {
+        "query": "与 @ 属性",
+        "description": "与后面跟着一个词，统计时按照词性归并"
+    },
+    {
+        "query": "的 。/w",
+        "description": "的后面跟一个词，可能是句尾"
+    },
+    {
+        "query": ". 互联网",
+        "description": "互联网是一个词"
+    },
+    {
+        "query": "了 ../v ？",
+        "description": "了后面离合出现一个动词，可能有疑问句尾"
+    },
+    {
+        "query": "无知 (w){count<632}",
+        "description": "无知这个单词出现次数少于632次"
+    },
+    {
+        "query": "v 做 w",
+        "description": "一个动词后面接一个词，可能是句尾"
+    },
+    {
+        "query": "， ../[c v] 跟",
+        "description": "逗号后面离合出现一个连词或动词，然后是跟"
+    },
+    {
+        "query": "社区 (v) 什么{count>4}",
+        "description": "社区后面接一个动词，然后是什么，且出现次数大于4次"
+    },
+    {
+        "query": "静态 (n) 一{begin($1)=[收 赌 短]}",
+        "description": "静态后面接一个以收、赌或短开头的单字"
+    },
+    {
+        "query": "~/[nr v] 女士",
+        "description": "一个词后面离合出现女士，可能是名词或动词"
+    },
+    {
+        "query": "一 (r) (vn){len($1)=2}",
+        "description": "一个字后面接一个长度为2的名动词"
+    },
+    {
+        "query": "全球 ... 最",
+        "description": "全球后面可能有多个字，最后是‘最’"
+    },
+    {
+        "query": "编织 (n) 成{end($1)=[丝 紧]}",
+        "description": "编织后面接一个以丝或紧结尾的名词"
+    },
+    {
+        "query": "保姆",
+        "description": "保姆单独出现"
+    },
+    {
+        "query": "(n) 发展 ， 构建 企业 (vn){len($1)=2; len($2)=2}",
+        "description": "名词后面先接两个长度为2的词，然后是企业"
+    },
+    {
+        "query": "飘扬 ~",
+        "description": "飘扬后面跟着一个词"
+    },
+    {
+        "query": "经济 (n){end($1)!=[格 亚 想 深]}",
+        "description": "经济后面不是以格、亚、想或深结尾的名词"
+    },
+    {
+        "query": "交通 ~",
+        "description": "交通后面跟着一个词"
+    },
+    {
+        "query": "之 ~",
+        "description": "之后面跟着一个词"
+    },
+    {
+        "query": "东盟",
+        "description": "东盟单独出现"
+    },
+    {
+        "query": "终点 (w){count>9}",
+        "description": "终点这个词出现次数大于9次"
+    },
+    {
+        "query": "初 (n) (nr){len($1)>2; end($2)!=[峰 迷 删]}",
+        "description": "初后面接一个长度大于2的名词，然后是非峰、迷或删结尾的人名"
+    },
+    {
+        "query": "中/j 老",
+        "description": "中后面接一个/j的字，然后是老"
+    }
+]
+```

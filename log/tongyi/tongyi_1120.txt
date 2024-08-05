@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "串通",
+        "description": "包含'串通'的句子"
+    },
+    {
+        "query": "月工",
+        "description": "包含'月工'的句子"
+    },
+    {
+        "query": "和谐典雅",
+        "description": "包含'和谐典雅'的句子"
+    },
+    {
+        "query": "贷款",
+        "description": "包含'贷款'的句子"
+    },
+    {
+        "query": "暑往寒来",
+        "description": "包含'暑往寒来'的句子"
+    },
+    {
+        "query": "爱吃啥就",
+        "description": "包含'爱吃啥就'的句子"
+    },
+    {
+        "query": "裁定",
+        "description": "包含'裁定'的句子"
+    },
+    {
+        "query": "达",
+        "description": "包含'达'的句子"
+    },
+    {
+        "query": "瞧着",
+        "description": "包含'瞧着'的句子"
+    },
+    {
+        "query": "恐怕确实",
+        "description": "包含'恐怕确实'的句子"
+    },
+    {
+        "query": "差不多",
+        "description": "包含'差不多'的句子"
+    },
+    {
+        "query": "跌跌撞撞",
+        "description": "包含'跌跌撞撞'的句子"
+    },
+    {
+        "query": "压根",
+        "description": "包含'压根'的句子"
+    },
+    {
+        "query": "洗浴",
+        "description": "包含'洗浴'的句子"
+    },
+    {
+        "query": "没甚",
+        "description": "包含'没甚'的句子"
+    },
+    {
+        "query": "满面",
+        "description": "包含'满面'的句子"
+    },
+    {
+        "query": "好没",
+        "description": "包含'好没'的句子"
+    },
+    {
+        "query": "知彼知己",
+        "description": "包含'知彼知己'的句子"
+    },
+    {
+        "query": "适合",
+        "description": "包含'适合'的句子"
+    },
+    {
+        "query": "吃过",
+        "description": "包含'吃过'的句子"
+    },
+    {
+        "query": "，将和谐",
+        "description": "包含','将和谐的句子"
+    },
+    {
+        "query": "老实说",
+        "description": "包含'老实说'的句子"
+    },
+    {
+        "query": "红字",
+        "description": "包含'红字'的句子"
+    },
+    {
+        "query": "我上学那会",
+        "description": "包含'我上学那会'的句子"
+    },
+    {
+        "query": "，猛然",
+        "description": "包含','猛然的句子"
+    },
+    {
+        "query": "和谐之声",
+        "description": "包含'和谐之声'的句子"
+    },
+    {
+        "query": "漂流",
+        "description": "包含'漂流'的句子"
+    },
+    {
+        "query": "个不和谐",
+        "description": "包含'个不和谐'的句子"
+    },
+    {
+        "query": "虽则",
+        "description": "包含'虽则'的句子"
+    },
+    {
+        "query": "眈眈",
+        "description": "包含'眈眈'的句子"
+    },
+    {
+        "query": "基本上说",
+        "description": "包含'基本上说'的句子"
+    },
+    {
+        "query": "到来",
+        "description": "包含'到来'的句子"
+    },
+    {
+        "query": "车牌号码",
+        "description": "包含'车牌号码'的句子"
+    },
+    {
+        "query": "贪杯",
+        "description": "包含'贪杯'的句子"
+    },
+    {
+        "query": "镇定",
+        "description": "包含'镇定'的句子"
+    },
+    {
+        "query": "多长时间",
+        "description": "包含'多长时间'的句子"
+    },
+    {
+        "query": "换成",
+        "description": "包含'换成'的句子"
+    },
+    {
+        "query": "古惑仔",
+        "description": "包含'古惑仔'的句子"
+    },
+    {
+        "query": "蛇精",
+        "description": "包含'蛇精'的句子"
+    },
+    {
+        "query": "打痛",
+        "description": "包含'打痛'的句子"
+    }
+]
+```

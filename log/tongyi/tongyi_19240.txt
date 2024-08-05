@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "陈+新民/nr",
+        "description": "陈+新民（nr）组合的检索式"
+    },
+    {
+        "query": "陈 新民/nr",
+        "description": "陈和新民（nr）作为连续的名词进行检索"
+    },
+    {
+        "query": "........../l",
+        "description": "以符号（.）进行分隔的未知词进行检索"
+    },
+    {
+        "query": "人文/n+社会",
+        "description": "人文+n和社会作为连续的名词进行检索"
+    },
+    {
+        "query": "人文/n 社会",
+        "description": "人文+n和单词社会进行检索"
+    },
+    {
+        "query": "何/r+谈",
+        "description": "何+r和谈作为连续的词语进行检索"
+    },
+    {
+        "query": "何/r 谈",
+        "description": "何+r和单词谈进行检索"
+    },
+    {
+        "query": "、/w+打赢+脱贫+攻坚战+的+总体/n",
+        "description": "逗号（,）后跟打赢、脱贫、攻坚战、的、总体（n）进行检索"
+    },
+    {
+        "query": "、/w 打赢 脱贫 攻坚战 的 总体/n",
+        "description": "逗号（,）后跟赢、脱贫、攻坚战、的、总体（n）进行检索"
+    },
+    {
+        "query": "v+真情/n",
+        "description": "v后跟真情（n）进行检索"
+    },
+    {
+        "query": "v 真情/n",
+        "description": "v后跟单词真情进行检索"
+    },
+    {
+        "query": "以+开放/v+促",
+        "description": "以后跟开放（v）和促作为连续的词语进行检索"
+    },
+    {
+        "query": "以 开放/v 促",
+        "description": "以后跟开放（v）和促作为连续的词语进行检索"
+    },
+    {
+        "query": "./v兴奋了",
+        "description": "单词v后跟兴奋了进行检索"
+    },
+    {
+        "query": "最后/f+，/w",
+        "description": "最后（f）后跟，（w）进行检索"
+    },
+    {
+        "query": "最后/f ，/w",
+        "description": "最后（f）后跟，（w）进行检索"
+    },
+    {
+        "query": "./v小了",
+        "description": "单词v后跟小了进行检索"
+    },
+    {
+        "query": "个个+健硕/a+。",
+        "description": "个个和健硕（a）作为连续的词语进行检索，最后跟句号"
+    },
+    {
+        "query": "个个 健硕/a 。",
+        "description": "个个和健硕（a）作为连续的词语进行检索，最后跟句号"
+    },
+    {
+        "query": "育种/v+结/v",
+        "description": "育种（v）后跟结（v）进行检索"
+    },
+    {
+        "query": "育种/v 结/v",
+        "description": "育种（v）后跟结（v）进行检索"
+    },
+    {
+        "query": "v+友情/n",
+        "description": "v后跟友情（n）进行检索"
+    },
+    {
+        "query": "v 友情/n",
+        "description": "v后跟单词友情进行检索"
+    },
+    {
+        "query": "会+不/d+会",
+        "description": "会后跟不（d）和会作为连续的词语进行检索"
+    },
+    {
+        "query": "会 不/d 会",
+        "description": "会后跟不（d）和会作为连续的词语进行检索"
+    },
+    {
+        "query": "中央/n+编译局",
+        "description": "中央（n）后跟编译局进行检索"
+    },
+    {
+        "query": "中央/n 编译局",
+        "description": "中央（n）后跟编译局进行检索"
+    },
+    {
+        "query": "那+你/r+就",
+        "description": "那后跟你（r）和就作为连续的词语进行检索"
+    },
+    {
+        "query": "那 你/r 就",
+        "description": "那后跟你（r）和就作为连续的词语进行检索"
+    },
+    {
+        "query": "北方+就/p+雾霾",
+        "description": "北方后跟就（p）和雾霾进行检索"
+    },
+    {
+        "query": "北方 就/p 雾霾",
+        "description": "北方后跟就（p）和雾霾进行检索"
+    },
+    {
+        "query": "n+的+口味/n",
+        "description": "n后跟的和口味（n）进行检索"
+    },
+    {
+        "query": "n 的 口味/n",
+        "description": "n后跟的和口味（n）进行检索"
+    },
+    {
+        "query": "从+哪儿/r+来",
+        "description": "从后跟哪儿（r）和来作为连续的词语进行检索"
+    },
+    {
+        "query": "从 哪儿/r 来",
+        "description": "从后跟哪儿（r）和来作为连续的词语进行检索"
+    },
+    {
+        "query": "n+口味/n",
+        "description": "n后跟口味（n）进行检索"
+    },
+    {
+        "query": "n 口味/n",
+        "description": "n后跟单词口味进行检索"
+    },
+    {
+        "query": "../a人",
+        "description": "单词后跟a和人进行检索"
+    },
+    {
+        "query": "博物学+既/c+是",
+        "description": "博物学后跟既（c）和是作为连续的词语进行检索"
+    },
+    {
+        "query": "博物学 既/c 是",
+        "description": "博物学后跟既（c）和是作为连续的词语进行检索"
+    }
+]
+```

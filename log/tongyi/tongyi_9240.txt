@@ -1,0 +1,168 @@
+以下是将给定的检索式转换为带含义的json结构后的完整列表：
+
+```json
+[
+    {
+        "query": "时.时.", 
+        "description": "时后面隔一个字后接时"
+    },
+    {
+        "query": "他..+出来w", 
+        "description": "他后面隔一个或多个字后接出来"
+    },
+    {
+        "query": "他.. 出来w", 
+        "description": "他后面隔一个或多个字后接出来"
+    },
+    {
+        "query": "V上*愉快", 
+        "description": "动词后离合出现上后接愉快"
+    },
+    {
+        "query": "给*好看", 
+        "description": "给后面离合出现好看"
+    },
+    {
+        "query": "不v*v谁", 
+        "description": "不的后面离合出现动词再接动词后接谁"
+    },
+    {
+        "query": ".七.八", 
+        "description": "句尾有数字七和八"
+    },
+    {
+        "query": "仿佛*绝大", 
+        "description": "仿佛后面离合出现绝大"
+    },
+    {
+        "query": "本来就*d", 
+        "description": "本来就后接副词"
+    },
+    {
+        "query": "这样一.就", 
+        "description": "这样后接一个字后接就"
+    },
+    {
+        "query": "他..+进来w", 
+        "description": "他后面隔一个或多个字后接进来"
+    },
+    {
+        "query": "他.. 进来w", 
+        "description": "他后面隔一个或多个字后接进来"
+    },
+    {
+        "query": "w断.续w", 
+        "description": "断后面隔一个字后接续"
+    },
+    {
+        "query": "既然*就", 
+        "description": "既然后面离合出现就"
+    },
+    {
+        "query": "那+m+q+*的n", 
+        "description": "那后接m后接q后接的后接名词"
+    },
+    {
+        "query": "那 m q *的n", 
+        "description": "那后接m后接q后接的后接名词"
+    },
+    {
+        "query": "连...也", 
+        "description": "连后面隔一个或多个字后接也"
+    },
+    {
+        "query": "也许*居然", 
+        "description": "也许后面离合出现居然"
+    },
+    {
+        "query": "比*还a", 
+        "description": "比后面离合出现形容词"
+    },
+    {
+        "query": "熬不.", 
+        "description": "熬后接一个字后停顿"
+    },
+    {
+        "query": "其实@好像", 
+        "description": "其实后接一个词性为形容词的词"
+    },
+    {
+        "query": "仿佛*居然", 
+        "description": "仿佛后面离合出现居然"
+    },
+    {
+        "query": "一.就是", 
+        "description": "一后接一个字后接就是"
+    },
+    {
+        "query": "一只.n", 
+        "description": "一只后接名词"
+    },
+    {
+        "query": "或许*的确", 
+        "description": "或许后面离合出现的确"
+    },
+    {
+        "query": "w外.里w", 
+        "description": "外后面隔一个字后接里"
+    },
+    {
+        "query": "很大*会", 
+        "description": "很大后面离合出现会"
+    },
+    {
+        "query": "愉快*V上", 
+        "description": "愉快后面离合出现动词后接上"
+    },
+    {
+        "query": "比*更加V", 
+        "description": "比后面离合出现动词后接更加"
+    },
+    {
+        "query": "她.+v了", 
+        "description": "她后接一个词性为动词的词后接了"
+    },
+    {
+        "query": "她. v了", 
+        "description": "她后接一个词性为动词的词后接了"
+    },
+    {
+        "query": "w硬.软w", 
+        "description": "硬后面隔一个字后接软"
+    },
+    {
+        "query": "我们..+进来w", 
+        "description": "我们后面隔一个或多个字后接进来"
+    },
+    {
+        "query": "我们.. 进来w", 
+        "description": "我们后面隔一个或多个字后接进来"
+    },
+    {
+        "query": "她们一个*;", 
+        "description": "她们后接一个词性为数词的词后接一个分号"
+    },
+    {
+        "query": "正*穿着", 
+        "description": "正后面离合出现穿着"
+    },
+    {
+        "query": "v*卓有建树", 
+        "description": "动词后面离合出现卓有建树"
+    },
+    {
+        "query": "~叭", 
+        "description": "一个词，类似拟声词"
+    },
+    {
+        "query": "或许*势必", 
+        "description": "或许后面离合出现势必"
+    },
+    {
+        "query": "你一个*的，", 
+        "description": "你后接一个词性为数词的词后接一个词性为形容词的词后接一个逗号"
+    }
+]
+```
+
+以上json结构包含了所有给定检索式的描述信息，每一项都对应了一个具体的检索式及其解释。

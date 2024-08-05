@@ -1,0 +1,166 @@
+以下是将给定的检索式转换为带含义的json结构：
+
+```json
+[
+    {
+        "query": "如何v+[，+。]", 
+        "description":"动词如何后接逗号或句点"
+    },
+    {
+        "query": "如何v [， 。]", 
+        "description":"动词如何后接逗号或句点"
+    },
+    {
+        "query": "不妨v+a[，+。]", 
+        "description":"动词不妨后接逗号或句点，且a为形容词"
+    },
+    {
+        "query": "不妨v a[， 。]", 
+        "description":"动词不妨后接逗号或句点，且a为形容词"
+    },
+    {
+        "query": "n之初[，+。]", 
+        "description":"名词n之初后接逗号或句点"
+    },
+    {
+        "query": "n之初[， 。]", 
+        "description":"名词n之初后接逗号或句点"
+    },
+    {
+        "query": "照例v+u[，+。]", 
+        "description":"动词照例后接逗号或句点，且u为名词"
+    },
+    {
+        "query": "照例v u[， 。]", 
+        "description":"动词照例后接逗号或句点，且u为名词"
+    },
+    {
+        "query": "本来v+a[，+。]", 
+        "description":"动词本来后接逗号或句点，且a为形容词"
+    },
+    {
+        "query": "本来v a[， 。]", 
+        "description":"动词本来后接逗号或句点，且a为形容词"
+    },
+    {
+        "query": "表现在+n[f+s+ns]", 
+        "description":"动词表现在后接n为名词，且n可为[f, s, ns]"
+    },
+    {
+        "query": "表现在 n[f s ns]", 
+        "description":"动词表现在后接n为名词，且n可为[f, s, ns]"
+    },
+    {
+        "query": "一时v+n[，+。]", 
+        "description":"动词一时后接逗号或句点，且n为名词"
+    },
+    {
+        "query": "一时v n[， 。]", 
+        "description":"动词一时后接逗号或句点，且n为名词"
+    },
+    {
+        "query": "暂时d+a[，+。]", 
+        "description":"形容词暂时后接逗号或句点，且a为形容词"
+    },
+    {
+        "query": "暂时d a[， 。]", 
+        "description":"形容词暂时后接逗号或句点，且a为形容词"
+    },
+    {
+        "query": "w盛.衰[q+r+d+c+v+a++n+m++p]w", 
+        "description":"名词w后接盛衰，且盛衰由[q, r, d, c, v, a]组成，后接n为名词，m为动词，p为名词"
+    },
+    {
+        "query": "w盛.衰[q r d c v a  n m  p]w", 
+        "description":"名词w后接盛衰，且盛衰由[q, r, d, c, v, a]组成，后接n为名词，m为动词，p为名词"
+    },
+    {
+        "query": "交替d+a[，+。]", 
+        "description":"形容词交替后接逗号或句点，且a为形容词"
+    },
+    {
+        "query": "交替d a[， 。]", 
+        "description":"形容词交替后接逗号或句点，且a为形容词"
+    },
+    {
+        "query": "[虽说+比方+倘若][v+a][，+。]", 
+        "description":"动词v后接a为形容词，且v前由虽说、比方、倘若组成"
+    },
+    {
+        "query": "[虽说 比方 倘若][v a][， 。]", 
+        "description":"动词v后接a为形容词，且v前由虽说、比方、倘若组成"
+    },
+    {
+        "query": "不断v+u[，+。]", 
+        "description":"动词不断后接逗号或句点，且u为名词"
+    },
+    {
+        "query": "不断v u[， 。]", 
+        "description":"动词不断后接逗号或句点，且u为名词"
+    },
+    {
+        "query": "v这么a[，+。]", 
+        "description":"动词v后接a为形容词，且v前为这么"
+    },
+    {
+        "query": "v这么a[， 。]", 
+        "description":"动词v后接a为形容词，且v前为这么"
+    },
+    {
+        "query": "早日v+u[，+。]", 
+        "description":"动词早日后接逗号或句点，且u为名词"
+    },
+    {
+        "query": "早日v u[， 。]", 
+        "description":"动词早日后接逗号或句点，且u为名词"
+    },
+    {
+        "query": "w[q+r+d+c+v+a++n+m++p]邪.正w", 
+        "description":"名词w后接邪正，且邪正由[q, r, d, c, v, a]组成，后接n为名词，m为动词，p为名词"
+    },
+    {
+        "query": "w[q r d c v a  n m  p]邪.正w", 
+        "description":"名词w后接邪正，且邪正由[q, r, d, c, v, a]组成，后接n为名词，m为动词，p为名词"
+    },
+    {
+        "query": "那样a+[，+。]", 
+        "description":"形容词那样后接逗号或句点"
+    },
+    {
+        "query": "那样a [， 。]", 
+        "description":"形容词那样后接逗号或句点"
+    },
+    {
+        "query": "特意d+n[，+。]", 
+        "description":"形容词特意后接逗号或句点，且n为名词"
+    },
+    {
+        "query": "特意d n[， 。]", 
+        "description":"形容词特意后接逗号或句点，且n为名词"
+    },
+    {
+        "query": "公然d+n[，+。]", 
+        "description":"形容词公然后接逗号或句点，且n为名词"
+    },
+    {
+        "query": "公然d n[， 。]", 
+        "description":"形容词公然后接逗号或句点，且n为名词"
+    },
+    {
+        "query": "衷心n[，+。]", 
+        "description":"名词衷心后接逗号或句点"
+    },
+    {
+        "query": "衷心n[， 。]", 
+        "description":"名词衷心后接逗号或句点"
+    },
+    {
+        "query": "不觉a[，+。]", 
+        "description":"形容词不觉后接逗号或句点"
+    },
+    {
+        "query": "不觉a[， 。]", 
+        "description":"形容词不觉后接逗号或句点"
+    }
+]
+```

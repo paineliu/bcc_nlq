@@ -1,0 +1,166 @@
+以下是检索式及其含义的JSON结构：
+
+```json
+[
+    {
+        "query": "改革 (v) 道路{len($1)<3}",
+        "description": "动词改革后面接长度小于3的单词"
+    },
+    {
+        "query": "(d) 发展 (w){len($1)!=3}",
+        "description": "副词发展后面接长度不等于3的词"
+    },
+    {
+        "query": "回暖 。/w",
+        "description": "回暖后面接一个词，可能是句尾标点"
+    },
+    {
+        "query": "回升 ./w",
+        "description": "回升后面接一个词，可能是句尾词"
+    },
+    {
+        "query": "刘建伟 ~/[v v] 。",
+        "description": "刘建伟后面接两个动词，可能有句尾标点"
+    },
+    {
+        "query": "(v) 更{begin($1)!=[格 敏 慢]}",
+        "description": "动词更后面接的不是'格'、'敏'或'慢'"
+    },
+    {
+        "query": "(n) 将 成为 未来 发展 (a){end($1)=[网 弄 县 肉]}",
+        "description": "名词将、成为、未来、发展，其中末尾不接网、弄、县、肉"
+    },
+    {
+        "query": "新型",
+        "description": "单个词：新型"
+    },
+    {
+        "query": "(r) (v){len($1)<3}",
+        "description": "代词后面接长度小于3的动词"
+    },
+    {
+        "query": "新 (v) 何处{len($1)=1}",
+        "description": "新后面接单音节动词，后面可能接一个词"
+    },
+    {
+        "query": "?",
+        "description": "单个问号"
+    },
+    {
+        "query": "电科{len($1)=2}",
+        "description": "电科，长度为2"
+    },
+    {
+        "query": "医疗 (v) 医患{count<907}",
+        "description": "医疗后面接医患，实例频次小于907"
+    },
+    {
+        "query": "加快 .. 发展",
+        "description": "加快后面可能接两个词，后面接发展"
+    },
+    {
+        "query": "、 ~/[v v] 网络",
+        "description": "并列词前后接动词和网络"
+    },
+    {
+        "query": "三 . 共享",
+        "description": "三后面接一个词，可能是句尾"
+    },
+    {
+        "query": "和平 (an) 。{len($1)<3}",
+        "description": "和平后面接一个形容词，且形容词长度小于3，可能句尾"
+    },
+    {
+        "query": "(m)、{count<633}",
+        "description": "并列词，数量小于633"
+    },
+    {
+        "query": "企业 ./[v v] 出去",
+        "description": "企业后面接两个动词，可能接出去"
+    },
+    {
+        "query": "登录",
+        "description": "单独的登录"
+    },
+    {
+        "query": "~/[nr v] 摄",
+        "description": "动宾结构，可能是拍摄"
+    },
+    {
+        "query": "让 ~/[r v] 对",
+        "description": "让后面接代词和动词，可能接对"
+    },
+    {
+        "query": "国家 ./[w v]",
+        "description": "国家后面接一个词，可能是动词"
+    },
+    {
+        "query": "(nr) (v){len($1)!=6; len($2)=1}",
+        "description": "人名后面接一个非6个字母的动词，动词后面接一个单字"
+    },
+    {
+        "query": "藏 特电/n",
+        "description": "藏后面接特电，特电是名词"
+    },
+    {
+        "query": "记者会 (v){len($1)=2; len($2)!=3}",
+        "description": "记者会可能是两个字的动词，且后面不是三个字的词"
+    },
+    {
+        "query": "和平 协议 (v){middle($1)=[比 底]}",
+        "description": "和平协议可能是两个词的动词，且动词内部可能包含比或底"
+    },
+    {
+        "query": "将 (v){count<649}",
+        "description": "将后面接的动词频次小于649"
+    },
+    {
+        "query": "共建 (ns) 绿色{len($1)<3}",
+        "description": "共建后面接绿色，绿色长度小于3"
+    },
+    {
+        "query": "(p) 布隆迪 派遣 (n){len($1)=1; len($2)=2}",
+        "description": "布隆迪后面接一个单字和一个两字名词"
+    },
+    {
+        "query": "加入 (j) 组织{len($1)=2}",
+        "description": "加入后面接两个字的组织"
+    },
+    {
+        "query": "试点",
+        "description": "试点"
+    },
+    {
+        "query": "~/[v v] 金刚",
+        "description": "动宾结构，可能是金刚"
+    },
+    {
+        "query": "../[ns v] 制造",
+        "description": "两个词的动词制造"
+    },
+    {
+        "query": "(m) 段 名为 堪称 (a){end($2)!=[听 呗 初 嘛]}",
+        "description": "段后面接名为、堪称，且不接听、呗、初、嘛"
+    },
+    {
+        "query": "（ns） ， 频频 刷新 世界 (n){end($1)!=[压 郑 爽]; len($2)>1}",
+        "description": "逗号后面接频繁刷新世界，刷新后面接一个大于1个字的名词，且不接压、郑、爽"
+    },
+    {
+        "query": "翻山越岭 (w) 施工{count>2}",
+        "description": "翻山越岭后面接施工，施工实例频次大于2"
+    },
+    {
+        "query": "刑事犯罪 要/v 严查",
+        "description": "刑事犯罪后面接动词要，要后面接严查"
+    },
+    {
+        "query": "中国 (n) 新{end($1)=[济 吵 莫 近]}",
+        "description": "中国后面接新，新后面不接济、吵、莫、近"
+    },
+    {
+        "query": "创新 v 强劲",
+        "description": "创新后面接一个动词强劲"
+    }
+]
+```

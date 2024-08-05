@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": ".绝了！", 
+        "description":"句尾是‘绝了’，中间可能有标点符号，最后以感叹号结尾"
+    },
+    {
+        "query": "满足地", 
+        "description":"以‘满足地’为整体词组"
+    },
+    {
+        "query": "信汇", 
+        "description":"作为一个整体的词汇或短语"
+    },
+    {
+        "query": "盘过", 
+        "description":"作为一个整体的词汇或短语"
+    },
+    {
+        "query": "多了一", 
+        "description":"作为一个整体的词汇或短语"
+    },
+    {
+        "query": "好不真实", 
+        "description":"作为一个整体的词汇或短语"
+    },
+    {
+        "query": "的士", 
+        "description":"作为一个整体的词汇或短语"
+    },
+    {
+        "query": "那倒", 
+        "description":"作为一个整体的词汇或短语"
+    },
+    {
+        "query": "阐释和谐", 
+        "description":"作为一个整体的词汇或短语"
+    },
+    {
+        "query": "觉得", 
+        "description":"作为一个整体的词汇或短语"
+    },
+    {
+        "query": "一个不留神", 
+        "description":"作为一个整体的词汇或短语"
+    },
+    {
+        "query": "老年的", 
+        "description":"作为一个整体的词汇或短语"
+    },
+    {
+        "query": "若非", 
+        "description":"作为一个整体的词汇或短语"
+    },
+    {
+        "query": "高高大大", 
+        "description":"作为一个整体的词汇或短语"
+    },
+    {
+        "query": "太开心", 
+        "description":"作为一个整体的词汇或短语"
+    },
+    {
+        "query": "换客", 
+        "description":"作为一个整体的词汇或短语"
+    },
+    {
+        "query": "学人权", 
+        "description":"作为一个整体的词汇或短语"
+    },
+    {
+        "query": "虎视眈眈", 
+        "description":"作为一个整体的词汇或短语"
+    },
+    {
+        "query": "到顶", 
+        "description":"作为一个整体的词汇或短语"
+    },
+    {
+        "query": "应该会", 
+        "description":"作为一个整体的词汇或短语"
+    },
+    {
+        "query": "不太好使", 
+        "description":"作为一个整体的词汇或短语"
+    },
+    {
+        "query": "笼笼统统", 
+        "description":"作为一个整体的词汇或短语"
+    },
+    {
+        "query": "盾与和谐", 
+        "description":"作为一个整体的词汇或短语"
+    },
+    {
+        "query": "不够牛", 
+        "description":"作为一个整体的词汇或短语"
+    },
+    {
+        "query": "冷冷淡淡", 
+        "description":"作为一个整体的词汇或短语"
+    },
+    {
+        "query": "差事", 
+        "description":"作为一个整体的词汇或短语"
+    },
+    {
+        "query": "农历", 
+        "description":"作为一个整体的词汇或短语"
+    },
+    {
+        "query": "好不好使", 
+        "description":"作为一个整体的词汇或短语"
+    },
+    {
+        "query": "和谐之力", 
+        "description":"作为一个整体的词汇或短语"
+    },
+    {
+        "query": "经常", 
+        "description":"作为一个整体的词汇或短语"
+    },
+    {
+        "query": "贸易战", 
+        "description":"作为一个整体的词汇或短语"
+    },
+    {
+        "query": "上下", 
+        "description":"作为一个整体的词汇或短语"
+    },
+    {
+        "query": "没绝", 
+        "description":"作为一个整体的词汇或短语"
+    },
+    {
+        "query": "事必", 
+        "description":"作为一个整体的词汇或短语"
+    },
+    {
+        "query": "我跟你说", 
+        "description":"作为一个整体的词汇或短语"
+    },
+    {
+        "query": "拧在", 
+        "description":"作为一个整体的词汇或短语"
+    },
+    {
+        "query": "吃过亏", 
+        "description":"作为一个整体的词汇或短语"
+    },
+    {
+        "query": "传达和谐", 
+        "description":"作为一个整体的词汇或短语"
+    },
+    {
+        "query": "面具", 
+        "description":"作为一个整体的词汇或短语"
+    },
+    {
+        "query": "学校", 
+        "description":"作为一个整体的词汇或短语"
+    }
+]
+```

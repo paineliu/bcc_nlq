@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "临时v+y[，+。]",
+        "description": "临时动词后接y，y后面可以是逗号或句号"
+    },
+    {
+        "query": "临时v y[， 。]",
+        "description": "临时动词后接y，y后面只能是逗号或句号"
+    },
+    {
+        "query": "不定v+y[，+。]",
+        "description": "不定动词后接y，y后面可以是逗号或句号"
+    },
+    {
+        "query": "不定v y[， 。]",
+        "description": "不定动词后接y，y后面只能是逗号或句号"
+    },
+    {
+        "query": "一道v+u[，+。]",
+        "description": "一道动词后接u，u后面可以是逗号或句号"
+    },
+    {
+        "query": "一道v u[， 。]",
+        "description": "一道动词后接u，u后面只能是逗号或句号"
+    },
+    {
+        "query": "w重.轻[q+r+d+c+v+a++n+m++p]w",
+        "description": "w后面接重，然后是q、r、d、c、v、a、n、m、p序列，最后w"
+    },
+    {
+        "query": "w重.轻[q r d c v a  n m  p]w",
+        "description": "w后面接重，然后是q、r、d、c、v、a、n、m、p序列，最后w"
+    },
+    {
+        "query": "只得[v+a+n+r][，+。]",
+        "description": "只得动词后接a、n、r序列，序列后面可以是逗号或句号"
+    },
+    {
+        "query": "只得[v a n r][， 。]",
+        "description": "只得动词后接a、n、r序列，序列后面只能是逗号或句号"
+    },
+    {
+        "query": "偶尔n[，+。]",
+        "description": "偶尔名词后面可以是逗号或句号"
+    },
+    {
+        "query": "偶尔n[， 。]",
+        "description": "偶尔名词后面只能是逗号或句号"
+    },
+    {
+        "query": "恰恰d+n[，+。]",
+        "description": "恰恰d后面接名词，名词后面可以是逗号或句号"
+    },
+    {
+        "query": "恰恰d n[， 。]",
+        "description": "恰恰d后面接名词，名词后面只能是逗号或句号"
+    },
+    {
+        "query": "n里的n[，+。]",
+        "description": "名词后接n，n后面可以是逗号或句号"
+    },
+    {
+        "query": "n里的n[， 。]",
+        "description": "名词后接n，n后面只能是逗号或句号"
+    },
+    {
+        "query": "有意n[，+。]",
+        "description": "有意名词后面可以是逗号或句号"
+    },
+    {
+        "query": "有意n[， 。]",
+        "description": "有意名词后面只能是逗号或句号"
+    },
+    {
+        "query": "猛然[v+a+n+r][，+。]",
+        "description": "猛然动词后接a、n、r序列，序列后面可以是逗号或句号"
+    },
+    {
+        "query": "猛然[v a n r][， 。]",
+        "description": "猛然动词后接a、n、r序列，序列后面只能是逗号或句号"
+    },
+    {
+        "query": "天生v+y[，+。]",
+        "description": "天生动词后接y，y后面可以是逗号或句号"
+    },
+    {
+        "query": "天生v y[， 。]",
+        "description": "天生动词后接y，y后面只能是逗号或句号"
+    },
+    {
+        "query": "一旦[v+a+n+r][，+。]",
+        "description": "一旦动词后接a、n、r序列，序列后面可以是逗号或句号"
+    },
+    {
+        "query": "一旦[v a n r][， 。]",
+        "description": "一旦动词后接a、n、r序列，序列后面只能是逗号或句号"
+    },
+    {
+        "query": "[a+d+n+v++l]上场",
+        "description": "序列a、d、n、v、l组合后接上场"
+    },
+    {
+        "query": "[a d n v  l]上场",
+        "description": "序列a、d、n、v、l组合后接上场"
+    },
+    {
+        "query": "下了[下+一下+]",
+        "description": "下了动词后接下，然后是+一下+序列"
+    },
+    {
+        "query": "下了[下 一下 ]",
+        "description": "下了动词后接下，然后是+一下"
+    },
+    {
+        "query": "w[q+r+d+c+v+a++n+m++p]高.矮w",
+        "description": "w后面接q、r、d、c、v、a、n、m、p序列，然后是高、矮，最后w"
+    },
+    {
+        "query": "w[q r d c v a  n m  p]高.矮w",
+        "description": "w后面接q、r、d、c、v、a、n、m、p序列，然后是高、矮，最后w"
+    },
+    {
+        "query": "时隔m年[，+。]",
+        "description": "时隔m年后面可以是逗号或句号"
+    },
+    {
+        "query": "时隔m年[， 。]",
+        "description": "时隔m年后面只能是逗号或句号"
+    },
+    {
+        "query": "不时v+n[，+。]",
+        "description": "不时动词后接n，n后面可以是逗号或句号"
+    },
+    {
+        "query": "不时v n[， 。]",
+        "description": "不时动词后接n，n后面只能是逗号或句号"
+    },
+    {
+        "query": "明明[v+a+n+r][，+。]",
+        "description": "明明动词后接a、n、r序列，序列后面可以是逗号或句号"
+    },
+    {
+        "query": "明明[v a n r][， 。]",
+        "description": "明明动词后接a、n、r序列，序列后面只能是逗号或句号"
+    },
+    {
+        "query": "来n里[，+。]",
+        "description": "来名词后接n，n后面可以是逗号或句号"
+    },
+    {
+        "query": "来n里[， 。]",
+        "description": "来名词后接n，n后面只能是逗号或句号"
+    },
+    {
+        "query": "[最+更+很+非常+挺+特+太]+f",
+        "description": "序列最、更、很、非常、挺、特、太组合后接f"
+    },
+    {
+        "query": "[最 更 很 非常 挺 特 太] f",
+        "description": "序列最、更、很、非常、挺、特、太组合后接f"
+    }
+]
+```

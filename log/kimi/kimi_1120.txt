@@ -1,0 +1,86 @@
+以下是根据给定的检索式及其含义转换为JSON结构的列表：
+
+```json
+[
+    {
+        "query": "历史 ./w",
+        "description": "历史后面跟一个词性为标点符号w的字符"
+    },
+    {
+        "query": "讨薪",
+        "description": "包含讨薪的短语"
+    },
+    {
+        "query": "请 寄/v ：",
+        "description": "请后面接寄，寄为动词，并且以冒号结尾"
+    },
+    {
+        "query": "(n) 岂能 总 在 路上 评论员 (v){end($1)!=[松 恨 抽]; len($2)>1}",
+        "description": "岂能 总 在 路上 评论员后面接一个动词，该动词的词尾不能是松、恨、抽，且评论员的长度大于1"
+    },
+    {
+        "query": "， (n) 难除{len($1)!=4}",
+        "description": "逗号后接名词，该名词的长度不等于4"
+    },
+    {
+        "query": "拔出 n ，",
+        "description": "拔出后面接名词，以逗号结束"
+    },
+    {
+        "query": "次 (vn){count>4}",
+        "description": "次后面接动名词，且动名词的出现次数大于4"
+    },
+    {
+        "query": "(n) (v){len($2)>1}",
+        "description": "名词后面接动词，动词的长度大于1"
+    },
+    {
+        "query": "： ~/[nr v]",
+        "description": "冒号后面接一个词，这个词可以是人名或动词"
+    },
+    {
+        "query": "m 是",
+        "description": "数词后面接是"
+    },
+    {
+        "query": "审核 (w){count<217}",
+        "description": "审核后面接标点符号，且标点符号的出现次数小于217"
+    },
+    {
+        "query": "三 (v) 严厉{count<114}",
+        "description": "三后面接动词严厉，严厉的出现次数小于114"
+    },
+    {
+        "query": "是 ../v 重点",
+        "description": "是后面接双音节动词，动词后面接重点"
+    },
+    {
+        "query": "@ 是",
+        "description": "任意词性后面接是"
+    },
+    {
+        "query": "把 (n){len($1)!=2}",
+        "description": "把后面接名词，名词的长度不等于2"
+    },
+    {
+        "query": "外教 ~/[v v] 给",
+        "description": "外教后面接一个词，这个词可以是动词，再接给"
+    },
+    {
+        "query": "外教 ~ ．",
+        "description": "外教后面接一个词，以句号结束"
+    },
+    {
+        "query": "说 ~",
+        "description": "说后面接一个词"
+    },
+    {
+        "query": "为了 a 的",
+        "description": "为了后面接形容词，再接的"
+    },
+    {
+        "query": "(r) 一{count<472}",
+        "description": "代词后面接一，一的出现次数小于472"
+    }
+]
+```

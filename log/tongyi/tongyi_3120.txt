@@ -1,0 +1,156 @@
+```json
+[
+    {
+        "query": "一个时期",
+        "description": "包含一个时期这个词的句子"
+    },
+    {
+        "query": "虚心",
+        "description": "包含虚心这个词的句子"
+    },
+    {
+        "query": "开得开",
+        "description": "包含开得开这个词组的句子"
+    },
+    {
+        "query": "苦日子",
+        "description": "包含苦日子这个词组的句子"
+    },
+    {
+        "query": "发酸",
+        "description": "包含发酸这个词组的句子"
+    },
+    {
+        "query": "一句话，",
+        "description": "包含一句话，这个短语的句子"
+    },
+    {
+        "query": "阿婆",
+        "description": "包含阿婆这个词的句子"
+    },
+    {
+        "query": "恍恍惚惚",
+        "description": "包含恍恍惚惚这个词组的句子"
+    },
+    {
+        "query": "向前看",
+        "description": "包含向前看这个词组的句子"
+    },
+    {
+        "query": "求",
+        "description": "包含求这个词的句子"
+    },
+    {
+        "query": "车船税",
+        "description": "包含车船税这个词组的句子"
+    },
+    {
+        "query": "以成败论英雄",
+        "description": "包含以成败论英雄这个成语的句子"
+    },
+    {
+        "query": "违人权",
+        "description": "包含违人权这个词组的句子"
+    },
+    {
+        "query": "好像决不",
+        "description": "包含好像决不这个短语的句子"
+    },
+    {
+        "query": "他们这个",
+        "description": "包含他们这个这个短语的句子"
+    },
+    {
+        "query": "主打+主打",
+        "description": "包含主打+主打这个短语的句子"
+    },
+    {
+        "query": "不太粗",
+        "description": "包含不太粗这个词组的句子"
+    },
+    {
+        "query": "叮",
+        "description": "包含叮这个词的句子"
+    },
+    {
+        "query": "纲要",
+        "description": "包含纲要这个词组的句子"
+    },
+    {
+        "query": "和谐一点",
+        "description": "包含和谐一点这个短语的句子"
+    },
+    {
+        "query": "不太安稳",
+        "description": "包含不太安稳这个短语的句子"
+    },
+    {
+        "query": "颜色看看",
+        "description": "包含颜色看看这个短语的句子"
+    },
+    {
+        "query": "寻找",
+        "description": "包含寻找这个词的句子"
+    },
+    {
+        "query": "可以嫁的",
+        "description": "包含可以嫁的这个短语的句子"
+    },
+    {
+        "query": "粗粗糙糙",
+        "description": "包含粗粗糙糙这个短语的句子"
+    },
+    {
+        "query": "挤挤擦擦",
+        "description": "包含挤挤擦擦这个短语的句子"
+    },
+    {
+        "query": "的说",
+        "description": "包含的说这个短语的句子"
+    },
+    {
+        "query": "平安和谐",
+        "description": "包含平安和谐这个短语的句子"
+    },
+    {
+        "query": "我把话放这",
+        "description": "包含我把话放这这个短语的句子"
+    },
+    {
+        "query": "白老鼠",
+        "description": "包含白老鼠这个词的句子"
+    },
+    {
+        "query": "多咱晚",
+        "description": "包含多咱晚这个短语的句子"
+    },
+    {
+        "query": "失手",
+        "description": "包含失手这个词的句子"
+    },
+    {
+        "query": "现在好了",
+        "description": "包含现在好了这个短语的句子"
+    },
+    {
+        "query": "摄影",
+        "description": "包含摄影这个词的句子"
+    },
+    {
+        "query": "粪青+粪青",
+        "description": "包含粪青+粪青这个短语的句子"
+    },
+    {
+        "query": "大概愿意",
+        "description": "包含大概愿意这个短语的句子"
+    },
+    {
+        "query": "牙床",
+        "description": "包含牙床这个词的句子"
+    },
+    {
+        "query": "哼哼哧哧",
+        "description": "包含哼哼哧哧这个短语的句子"
+    }
+]
+```

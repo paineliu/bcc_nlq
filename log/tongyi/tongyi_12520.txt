@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "暂时v+v[，+。]", 
+        "description":"暂时动词 + 暂时动词 + 半角逗号或句号"
+    },
+    {
+        "query": "暂时v v[， 。]", 
+        "description":"暂时动词 + 暂时动词 + 全角逗号或句号"
+    },
+    {
+        "query": "分别v[，+。]", 
+        "description":"分别动词 + 半角逗号或句号"
+    },
+    {
+        "query": "分别v[， 。]", 
+        "description":"分别动词 + 全角逗号或句号"
+    },
+    {
+        "query": "连续d+v[，+。]", 
+        "description":"连续副词 + 动词 + 半角逗号或句号"
+    },
+    {
+        "query": "连续d v[， 。]", 
+        "description":"连续副词 + 动词 + 全角逗号或句号"
+    },
+    {
+        "query": "把++[n+r]+v好[，+。]", 
+        "description":"把 + 名词或人名 + 动词 + 好 + 半角逗号或句号"
+    },
+    {
+        "query": "把  [n r] v好[， 。]", 
+        "description":"把 + 名词或人名 + 动词 + 好 + 全角逗号或句号"
+    },
+    {
+        "query": "连夜d+a[，+。]", 
+        "description":"连夜副词 + 形容词 + 半角逗号或句号"
+    },
+    {
+        "query": "连夜d a[， 。]", 
+        "description":"连夜副词 + 形容词 + 全角逗号或句号"
+    },
+    {
+        "query": "[一+二]+根+烟", 
+        "description":"数字相加 + 根 + 烟"
+    },
+    {
+        "query": "[一 二] 根 烟", 
+        "description":"一或二 + 根 + 烟"
+    },
+    {
+        "query": "自动[v+a+n+r][，+。]", 
+        "description":"自动 + 副词或形容词或名词或人名 + 半角逗号或句号"
+    },
+    {
+        "query": "自动[v a n r][， 。]", 
+        "description":"自动 + 副词或形容词或名词或人名 + 全角逗号或句号"
+    },
+    {
+        "query": "n[一+二+三+四+五+六+七+八+九+]张", 
+        "description":"名词 + 数字相加 + 张"
+    },
+    {
+        "query": "n[一 二 三 四 五 六 七 八 九 ]张", 
+        "description":"名词 + 一到九 + 张"
+    },
+    {
+        "query": "v不了a+n+[，+。]", 
+        "description":"动词 + 不了 + 副词或形容词 + 名词 + 半角逗号或句号"
+    },
+    {
+        "query": "v不了a n [， 。]", 
+        "description":"动词 + 不了 + 副词或形容词 + 名词 + 全角逗号或句号"
+    },
+    {
+        "query": "[立即+立刻+立体]v[v+a+n+r][，+。]", 
+        "description":"立即或立刻或立体 + 动词 + 副词或形容词或名词或人名 + 半角逗号或句号"
+    },
+    {
+        "query": "[立即 立刻 立体]v[v a n r][， 。]", 
+        "description":"立即或立刻或立体 + 动词 + 副词或形容词或名词或人名 + 全角逗号或句号"
+    },
+    {
+        "query": "a起来[，+。]", 
+        "description":"副词或形容词 + 起来 + 半角逗号或句号"
+    },
+    {
+        "query": "a起来[， 。]", 
+        "description":"副词或形容词 + 起来 + 全角逗号或句号"
+    },
+    {
+        "query": "同年v[v+a+n+r][，+。]", 
+        "description":"同年 + 动词 + 副词或形容词或名词或人名 + 半角逗号或句号"
+    },
+    {
+        "query": "同年v[v a n r][， 。]", 
+        "description":"同年 + 动词 + 副词或形容词或名词或人名 + 全角逗号或句号"
+    },
+    {
+        "query": "或许a[，+。]", 
+        "description":"或许 + 副词或形容词 + 半角逗号或句号"
+    },
+    {
+        "query": "或许a[， 。]", 
+        "description":"或许 + 副词或形容词 + 全角逗号或句号"
+    },
+    {
+        "query": "固然d+a[，+。]", 
+        "description":"固然副词 + 形容词 + 半角逗号或句号"
+    },
+    {
+        "query": "固然d a[， 。]", 
+        "description":"固然副词 + 形容词 + 全角逗号或句号"
+    },
+    {
+        "query": "w起.落[q+r+d+c+v+a++n+m++p]w", 
+        "description":"w起半角句点落全角句点 + q+r+d+c+v+a++n+m++p"
+    },
+    {
+        "query": "w起.落[q r d c v a  n m  p]w", 
+        "description":"w起半角句点落全角句点 + q r d c v a n m p"
+    },
+    {
+        "query": "何等d+n[，+。]", 
+        "description":"何等副词 + 名词 + 半角逗号或句号"
+    },
+    {
+        "query": "何等d n[， 。]", 
+        "description":"何等副词 + 名词 + 全角逗号或句号"
+    },
+    {
+        "query": "原来v+n[，+。]", 
+        "description":"原来动词 + 名词 + 半角逗号或句号"
+    },
+    {
+        "query": "原来v n[， 。]", 
+        "description":"原来动词 + 名词 + 全角逗号或句号"
+    },
+    {
+        "query": "[看+听+说+学]n+t", 
+        "description":"看或听或说或学 + 名词 + t"
+    },
+    {
+        "query": "[看 听 说 学]n t", 
+        "description":"看或听或说或学 + 名词 + t"
+    },
+    {
+        "query": "[a+d+n+v++l]人手", 
+        "description":"a或d或n或v或l + 人手"
+    },
+    {
+        "query": "[a d n v  l]人手", 
+        "description":"a或d或n或v或l + 人手"
+    },
+    {
+        "query": "逐渐v+a[，+。]", 
+        "description":"逐渐动词 + 副词或形容词 + 半角逗号或句号"
+    },
+    {
+        "query": "逐渐v a[， 。]", 
+        "description":"逐渐动词 + 副词或形容词 + 全角逗号或句号"
+    }
+]
+```

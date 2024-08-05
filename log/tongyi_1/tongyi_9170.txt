@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "曼努埃尔·瓦尔斯",
+        "description": "包含曼努埃尔·瓦尔斯的句子"
+    },
+    {
+        "query": "印度 ~/[n v] 部长",
+        "description": "印度后面接名词或动词，然后是部长"
+    },
+    {
+        "query": "行进 .. ·",
+        "description": "行进后面跟一个点符号"
+    },
+    {
+        "query": "中 ./u 一",
+        "description": "中后面接一个虚词‘一’"
+    },
+    {
+        "query": "集团 (n) 王晶说{len($1)<3}",
+        "description": "集团后面紧跟一个名词，王晶说的句子长度小于3个字符"
+    },
+    {
+        "query": "困难 (v) 山{count>9}",
+        "description": "困难后接动词，困难相关的山的数量大于9次"
+    },
+    {
+        "query": "艰难 @/[u v] 时候",
+        "description": "艰难后面接一个虚词或动词，然后是时候"
+    },
+    {
+        "query": "是 @/[n v] 的",
+        "description": "是后面接一个名词或动词，然后是的"
+    },
+    {
+        "query": "一码 @/[p v] 先",
+        "description": "一码后面接一个介词或动词，然后是先"
+    },
+    {
+        "query": "年 算/v 一码",
+        "description": "年后面接动词‘算’，然后是一码"
+    },
+    {
+        "query": "(m) 反 应当 (a){len($1)!=3}",
+        "description": "反后面接一个副词，应当后面接一个形容词，且反和应当的长度不等于3"
+    },
+    {
+        "query": "来源 (v) 可靠{begin($1)!=[死 擦 板]}",
+        "description": "来源后接动词，可靠，但不以死、擦或板开始"
+    },
+    {
+        "query": "情况 (c) 背景{len($1)!=2}",
+        "description": "情况后接名词，背景，但情况的长度不等于2"
+    },
+    {
+        "query": "v v",
+        "description": "两个连续的动词"
+    },
+    {
+        "query": "是否 (a) ？{end($1)=[面 血 抓 躺]}",
+        "description": "是否后面接一个形容词，问号结尾，且可能是面、血、抓或躺"
+    },
+    {
+        "query": "鱼跃人 (v) 新年{count<448}",
+        "description": "鱼跃人后接动词，新年，鱼跃人的新年相关实例少于448次"
+    },
+    {
+        "query": "传染 ../n 不实",
+        "description": "传染后面接名词，然后是非实"
+    },
+    {
+        "query": "(n) (n){len($1)=2; end($2)=[n 文 当]}",
+        "description": "两个相邻的名词，第一个名词长度为2，且第二个名词可能是n、文或当"
+    },
+    {
+        "query": "及时",
+        "description": "及时单独出现"
+    },
+    {
+        "query": "(r) 这么 选 深 (v){$1=$2}",
+        "description": "三个连续的词，且第一个词等于第二个词，都是虚词"
+    },
+    {
+        "query": "不易 ， (v){count<675}",
+        "description": "不易后面接一个逗号，然后是动词，不易后的动词实例少于675次"
+    },
+    {
+        "query": "海南 (r) 进行{count<472}",
+        "description": "海南后面接进行，海南进行的相关实例少于472次"
+    },
+    {
+        "query": "这么 @ ？",
+        "description": "这么后面接一个词，然后是问号"
+    },
+    {
+        "query": "采访 w",
+        "description": "采访后接一个虚词"
+    },
+    {
+        "query": "要 考/v ？",
+        "description": "要后面接动词，然后是问号"
+    },
+    {
+        "query": "这么 @ 推动",
+        "description": "这么后面接一个词，然后是推动"
+    },
+    {
+        "query": "选任 ~",
+        "description": "选任后面接一个词"
+    },
+    {
+        "query": "(n) 也 (d){len($2)!=2}",
+        "description": "两个相邻的名词，第二个名词不是长度为2的词"
+    },
+    {
+        "query": "... 呢",
+        "description": "三个点符号后面接一个‘呢’"
+    },
+    {
+        "query": "公平 (w){count<174}",
+        "description": "公平单独出现，且实例少于174次"
+    },
+    {
+        "query": "(w) 再 上报 到 (n){begin($2)!=[国 师]}",
+        "description": "两个相邻的虚词，再后面接上报，然后是到，但不以国或师开始"
+    },
+    {
+        "query": "来 (y) ！{len($1)=1}",
+        "description": "来后面接一个感叹号，且来是一个字"
+    },
+    {
+        "query": "(r) 界限{count<613}",
+        "description": "界限单独出现，且实例少于613次"
+    },
+    {
+        "query": "放缓",
+        "description": "放缓单独出现"
+    },
+    {
+        "query": "不易 .",
+        "description": "不易后面接一个点"
+    },
+    {
+        "query": "一样 (y) ？{count>9}",
+        "description": "一样后面接一个虚词，然后是问号，且一样相关的问句多于9次"
+    },
+    {
+        "query": "凭 m 慢字",
+        "description": "凭后面接一个字母m，然后是慢字"
+    },
+    {
+        "query": "为",
+        "description": "为单独出现"
+    },
+    {
+        "query": "n 求情",
+        "description": "n后面接求情"
+    },
+    {
+        "query": "任性 n 时评",
+        "description": "任性后面接名词，然后是时评"
+    }
+]
+```

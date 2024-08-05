@@ -1,0 +1,160 @@
+```json
+[
+    {
+        "query": "学生 ../[v v] 增加",
+        "description": "学生后面跟两个连续的动词后接增加"
+    },
+    {
+        "query": "~ 传播",
+        "description": "一个词，可能是传播"
+    },
+    {
+        "query": "火车票 @ 验",
+        "description": "火车票后面接一个词，可能是验票"
+    },
+    {
+        "query": "开始 无偿/d 使用",
+        "description": "开始后接副词无偿，再接动词使用"
+    },
+    {
+        "query": "(n) 需{len($1)<3}",
+        "description": "一个名词，长度小于3"
+    },
+    {
+        "query": "蒋效愚",
+        "description": "直接匹配名字蒋效愚"
+    },
+    {
+        "query": "要 (v){end($1)!=[结 付 同 君]}",
+        "description": "要后面接一个不是结、付、同、君的动词"
+    },
+    {
+        "query": "(nr) (v){end($1)=[东 补 岁 吧]}",
+        "description": "一个人名后面接一个以东、补、岁、吧结尾的动词"
+    },
+    {
+        "query": "人才 ~/[v v] 关键",
+        "description": "人才后面离合出现两个动词，其中一个是关键"
+    },
+    {
+        "query": "~/[nr v] 一流",
+        "description": "离合出现一个人名和一个动词，动词后面是一流"
+    },
+    {
+        "query": "最 (a) 指征{len($1)>1}",
+        "description": "最后面接一个形容词，形容词后面至少还有一个字"
+    },
+    {
+        "query": "， ./nr 振民",
+        "description": "逗号后面接一个NR类型的振民"
+    },
+    {
+        "query": "@/[d v] ，",
+        "description": "以d或v开头的词后面接一个逗号"
+    },
+    {
+        "query": "(v) (w){$1=$2}",
+        "description": "两个相邻的动词，且它们的内容相同"
+    },
+    {
+        "query": "(p) 抹黄{len($1)=1}",
+        "description": "一个长度为1的动词，可能是抹黄"
+    },
+    {
+        "query": "孩子 ../v 也",
+        "description": "孩子后面接一个动词，动词后面是也"
+    },
+    {
+        "query": "能",
+        "description": "单独的能字"
+    },
+    {
+        "query": "设计 @ 张芳曼",
+        "description": "设计后面接一个词，可能是张芳曼"
+    },
+    {
+        "query": "(v) 先 扶智 (vn){begin($1)!=[狼 嘿 涛]}",
+        "description": "一个动词先接扶智，但扶智前面不能是狼、嘿、涛"
+    },
+    {
+        "query": "城市 ../[n v]",
+        "description": "城市后面跟一个名词或动词"
+    },
+    {
+        "query": "是/v 什么/r",
+        "description": "是后面接一个动词，动词后面接什么"
+    },
+    {
+        "query": "的 .. 都",
+        "description": "的后面可能接一个词，后面是都"
+    },
+    {
+        "query": "... 教育局",
+        "description": "三个点后面接教育局"
+    },
+    {
+        "query": "局长 (nr) 说{count<540}",
+        "description": "局长后面跟一个名字，这个名字出现次数少于540次"
+    },
+    {
+        "query": "注重",
+        "description": "直接匹配注重"
+    },
+    {
+        "query": "吃",
+        "description": "直接匹配吃"
+    },
+    {
+        "query": "@/[n v] 问道",
+        "description": "以n或v开头的词后面接问道"
+    },
+    {
+        "query": "工资 ，/w 在",
+        "description": "工资后面接一个逗号，然后是单词在"
+    },
+    {
+        "query": "行政 (n){begin($1)=[级 枪 古]}",
+        "description": "行政后面接一个以级、枪、古开头的名词"
+    },
+    {
+        "query": "空前 ~",
+        "description": "空前后面接一个词"
+    },
+    {
+        "query": "好的",
+        "description": "直接匹配好的"
+    },
+    {
+        "query": "让 ../[v v] 之",
+        "description": "让后面接两个连续的动词，动词后面接之"
+    },
+    {
+        "query": "不如 (v) 。{len($1)<5}",
+        "description": "不如后面接一个长度小于5的动词，然后是句点"
+    },
+    {
+        "query": "参观 (n) 。{len($1)=2}",
+        "description": "参观后面接一个长度为2的名词，然后是句点"
+    },
+    {
+        "query": "(d) (v){len($1)!=2; len($2)=2}",
+        "description": "两个相邻的词，其中一个长度不是2，另一个长度是2"
+    },
+    {
+        "query": "讲课 ~/[w v]",
+        "description": "讲课后面离合出现一个词，可能是动词或形容词"
+    },
+    {
+        "query": "(nr) (n){begin($1)!=[贱 国 语]; len($2)>1}",
+        "description": "一个人名后面接一个不以贱、国、语开头的名词，且名词长度大于1"
+    },
+    {
+        "query": "钮小桦 nr",
+        "description": "直接匹配钮小桦"
+    },
+    {
+        "query": "且 (v) 且{len($1)=1}",
+        "description": "且后面接一个长度为1的动词"
+    }
+]
+```

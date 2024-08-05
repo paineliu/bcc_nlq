@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "主任 ~ 说",
+        "description": "主任后面跟一个词"
+    },
+    {
+        "query": "进军 (vn) 强国{len($1)!=3}",
+        "description": "进军后面接一个长度不是3的动词和强国"
+    },
+    {
+        "query": "(v) 升级{begin($1)!=[觉 瘦 离]}",
+        "description": "升级这个词开头，但不以觉、瘦或离开头"
+    },
+    {
+        "query": "国家 (n) 局长{middle($1)!=[或 管 晒 富]}",
+        "description": "国家后面接一个局长，但局长中间不包含或、管、晒或富"
+    },
+    {
+        "query": "n 入篮",
+        "description": "名词后面接入篮"
+    },
+    {
+        "query": "@ 开放",
+        "description": "开放，以@作为词性标记"
+    },
+    {
+        "query": "只 v 今朝",
+        "description": "只后面接一个动词和今朝"
+    },
+    {
+        "query": "(nr) 说 (w){len($1)<3}",
+        "description": "人名后面紧跟一个长度小于3的词，可能是说"
+    },
+    {
+        "query": "连平 (v) 。{count>3}",
+        "description": "连平后面出现次数超过3的句尾符号（.）"
+    },
+    {
+        "query": "共赢 (u) 窗{count<672}",
+        "description": "共赢后面接窗，且共赢后面这个短语出现次数少于672次"
+    },
+    {
+        "query": "权力 .. 司法",
+        "description": "权力后面接任意数量的词然后是司法"
+    },
+    {
+        "query": "(vn) 步入 (n){len($1)!=3; len($2)!=4}",
+        "description": "单音节动词后面接步入，但不接长度为3或4的名词"
+    },
+    {
+        "query": "年关 (t) ，{count<485}",
+        "description": "年关后面接一个逗号，且年关后面的内容出现次数少于485次"
+    },
+    {
+        "query": "强则 i 。",
+        "description": "强则后面跟一个形容词并且以句号结尾"
+    },
+    {
+        "query": "良好 ./u 开端",
+        "description": "良好后面接一个未知词性（u）的词作为开端"
+    },
+    {
+        "query": "(vn) 体制{len($1)=2}",
+        "description": "体制这个词由两个音节组成的动词"
+    },
+    {
+        "query": "中 (v) 到{end($1)=[受 睡]}",
+        "description": "中后面接一个以受或睡结尾的动词"
+    },
+    {
+        "query": "(d) 回头 箭 (w){begin($1)!=[挑 卡 炸]}",
+        "description": "回头后面接箭，箭以一个词(w)结尾，且不以挑、卡或炸开头"
+    },
+    {
+        "query": "(v) 八十{begin($1)=[握 运]}",
+        "description": "八十这个词开头，且以握或运开头的动词"
+    },
+    {
+        "query": "~ 六十六",
+        "description": "一个词后面接六十六"
+    },
+    {
+        "query": "协商 (an) 制度化{len($1)=2}",
+        "description": "协商后面接制度化，协商为两个字的成语"
+    },
+    {
+        "query": "(v) 好 (v){len($1)=2}",
+        "description": "好后面接一个长度为2的动词"
+    },
+    {
+        "query": "立案 (n){begin($1)!=[江 另 拿]}",
+        "description": "立案后面接一个不以江、另或拿开头的名词"
+    },
+    {
+        "query": "再",
+        "description": "单独的再"
+    },
+    {
+        "query": "(v) 司法{begin($1)!=[撒 骂 挑 志]}",
+        "description": "司法这个词开头，但不以撒、骂、挑或志开头的动词"
+    },
+    {
+        "query": "关键 .. 带头",
+        "description": "关键后面接任意数量的词然后是带头"
+    },
+    {
+        "query": "在 ~ 大",
+        "description": "在后面接一个词然后是大"
+    },
+    {
+        "query": "阅读 @",
+        "description": "阅读，以@作为词性标记"
+    },
+    {
+        "query": "一亿 @/[w v]",
+        "description": "一亿后面接一个词，可能是动词或名词"
+    },
+    {
+        "query": "(v) 人们 在 (n){len($1)!=2; len($2)!=4}",
+        "description": "动词人们后面接一个不是两个也不是四个字的名词"
+    },
+    {
+        "query": "(ns) 博物院 (n){end($1)=[ns 更]; len($2)=2}",
+        "description": "博物院后面接一个以ns或更结尾的名词，博物院本身是两个字"
+    },
+    {
+        "query": "好人/n 文化 风行/v",
+        "description": "好人后面接名词文化，文化后面接动词风行"
+    },
+    {
+        "query": "~ 向前",
+        "description": "一个词后面接向前"
+    },
+    {
+        "query": "中国 ../[n v] 世界",
+        "description": "中国后面接任意数量的词然后是世界"
+    },
+    {
+        "query": "看 @/[n v] 不难",
+        "description": "看后面接一个词，可能是名词或动词，且不难出现在后面"
+    },
+    {
+        "query": "@ 整合",
+        "description": "整合，以@作为词性标记"
+    },
+    {
+        "query": "故宫 (m) 年{len($1)=2}",
+        "description": "故宫后面接一个长度为2的名词，可能是年"
+    },
+    {
+        "query": "(a) 宫殿{len($1)>1}",
+        "description": "宫殿这个词为一个长度大于1的形容词"
+    },
+    {
+        "query": "消失 ../v 均等",
+        "description": "消失后面接任意数量的词然后是均等"
+    },
+    {
+        "query": "v j",
+        "description": "一个动词后面接一个j结尾的词"
+    }
+]
+```

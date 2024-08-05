@@ -1,0 +1,166 @@
+以下是将上述检索式转换为带含义的json结构后的完整列表：
+
+```json
+[
+    {
+        "query": "斯文扫地/nr+也",
+        "description": "斯文扫地后接'也'"
+    },
+    {
+        "query": "斯文扫地/nr 也",
+        "description": "斯文扫地后接'也'"
+    },
+    {
+        "query": "重/a",
+        "description": "形容词后接'重'"
+    },
+    {
+        "query": "江中/s+泥沙+少+了+岸上+村民+富/v",
+        "description": "江中后接泥沙，泥沙后接少，少后接了，了后接岸上，岸上后接村民，村民后接富动词"
+    },
+    {
+        "query": "江中/s 泥沙 少 了 岸上 村民 富/v",
+        "description": "江中后接泥沙，泥沙后接少，少后接了，了后接岸上，岸上后接村民，村民后接富动词"
+    },
+    {
+        "query": "重中之重+是/v+改革",
+        "description": "重中之重后接是动词，是动词后接改革"
+    },
+    {
+        "query": "重中之重 是/v 改革",
+        "description": "重中之重后接是动词，是动词后接改革"
+    },
+    {
+        "query": "贡献+是/v+亮点",
+        "description": "贡献后接是动词，是动词后接亮点"
+    },
+    {
+        "query": "贡献 是/v 亮点",
+        "description": "贡献后接是动词，是动词后接亮点"
+    },
+    {
+        "query": "理论+贡献/n",
+        "description": "理论后接贡献名词"
+    },
+    {
+        "query": "理论 贡献/n",
+        "description": "理论后接贡献名词"
+    },
+    {
+        "query": "的/u+又+一+轮+高潮+是否+到来+？/w",
+        "description": "的后接又，又后接一，一后接轮，轮后接高潮，高潮后接是否，是否后接到来，到来后接问号"
+    },
+    {
+        "query": "的/u 又 一 轮 高潮 是否 到来 ？/w",
+        "description": "的后接又，又后接一，一后接轮，轮后接高潮，高潮后接是否，是否后接到来，到来后接问号"
+    },
+    {
+        "query": "了/u+衣服/n",
+        "description": "了后接衣服名词"
+    },
+    {
+        "query": "了/u 衣服/n",
+        "description": "了后接衣服名词"
+    },
+    {
+        "query": "爱情/n+a",
+        "description": "爱情后接a"
+    },
+    {
+        "query": "爱情/n a",
+        "description": "爱情后接a"
+    },
+    {
+        "query": "v+交情/n",
+        "description": "动词后接交情名词"
+    },
+    {
+        "query": "v 交情/n",
+        "description": "动词后接交情名词"
+    },
+    {
+        "query": "主角儿+。/w",
+        "description": "主角儿后接句尾符号。"
+    },
+    {
+        "query": "主角儿 。/w",
+        "description": "主角儿后接句尾符号。"
+    },
+    {
+        "query": "非./v",
+        "description": "非后接动词"
+    },
+    {
+        "query": "吃./v",
+        "description": "吃后接动词"
+    },
+    {
+        "query": ".民/n",
+        "description": "句尾符号后接民名词"
+    },
+    {
+        "query": "强化/v+谦诚",
+        "description": "强化后接谦诚"
+    },
+    {
+        "query": "强化/v 谦诚",
+        "description": "强化后接谦诚"
+    },
+    {
+        "query": "./v+来",
+        "description": "句尾符号后接来"
+    },
+    {
+        "query": "./v 来",
+        "description": "句尾符号后接来"
+    },
+    {
+        "query": "，/w+恼恨/v",
+        "description": "逗号后接恼恨动词"
+    },
+    {
+        "query": ",/w 恼恨/v",
+        "description": "逗号后接恼恨动词"
+    },
+    {
+        "query": "有../v",
+        "description": "有后接动词"
+    },
+    {
+        "query": "体育+足球/n+城市赛",
+        "description": "体育后接足球名词，足球后接城市赛"
+    },
+    {
+        "query": "体育 足球/n 城市赛",
+        "description": "体育后接足球名词，足球后接城市赛"
+    },
+    {
+        "query": "的+作用/n+。",
+        "description": "的后接作用名词，作用后接句尾符号。"
+    },
+    {
+        "query": "的 作用/n 。",
+        "description": "的后接作用名词，作用后接句尾符号。"
+    },
+    {
+        "query": "汇+成/v+江河",
+        "description": "汇后接成动词，成动词后接江河"
+    },
+    {
+        "query": "汇 成/v 江河",
+        "description": "汇后接成动词，成动词后接江河"
+    },
+    {
+        "query": "调查/v+。/w",
+        "description": "调查后接句尾符号。"
+    },
+    {
+        "query": "调查/v 。/w",
+        "description": "调查后接句尾符号。"
+    },
+    {
+        "query": "发展+清洁/a+能源",
+        "description": "发展后接清洁形容词，清洁形容词后接能源"
+    }
+]
+```

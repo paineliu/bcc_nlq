@@ -1,0 +1,166 @@
+以下是将给定的检索式转换为带含义的json结构的列表：
+
+```json
+[
+    {
+        "query": "a 人物",
+        "description": "形容词后接人物"
+    },
+    {
+        "query": "w 美 是",
+        "description": "单音节动词后接美，然后是句尾"
+    },
+    {
+        "query": "v 着 v",
+        "description": "动词后邻着，再接动词"
+    },
+    {
+        "query": "习惯 w",
+        "description": "习惯后接单音节动词"
+    },
+    {
+        "query": "a 鬼",
+        "description": "形容词后接鬼"
+    },
+    {
+        "query": "延迟 v",
+        "description": "延迟后的动词"
+    },
+    {
+        "query": "m 扎",
+        "description": "数词后接扎"
+    },
+    {
+        "query": "： + n 是 n + ;",
+        "description": "冒号后接n，然后是n，再接分号"
+    },
+    {
+        "query": "： n 是 n ；",
+        "description": "冒号后接n，然后是n，最后是句尾符号"
+    },
+    {
+        "query": "n 不 比 n",
+        "description": "名词后接不，再接名词"
+    },
+    {
+        "query": "a 便利",
+        "description": "形容词后接便利"
+    },
+    {
+        "query": "不 作为 n。",
+        "description": "否定词后接作为，再接名词，句尾是句点"
+    },
+    {
+        "query": "树 敌 v",
+        "description": "树后接敌，再接动词"
+    },
+    {
+        "query": "重复 v",
+        "description": "重复后的动词"
+    },
+    {
+        "query": "正在 V",
+        "description": "正在进行时的动词"
+    },
+    {
+        "query": "v 惨了",
+        "description": "动词后接惨了"
+    },
+    {
+        "query": "若干 m",
+        "description": "数词后接若干"
+    },
+    {
+        "query": "让 n",
+        "description": "让后接名词"
+    },
+    {
+        "query": "重要的是 n",
+        "description": "形容词后接重要的是，再接名词"
+    },
+    {
+        "query": "吸饱 n",
+        "description": "动词后接饱，再接名词"
+    },
+    {
+        "query": "n 是 n + 。",
+        "description": "名词后接是，再接n，最后是句点"
+    },
+    {
+        "query": "n 是 n 。",
+        "description": "名词后接是，再接名词，最后是句点"
+    },
+    {
+        "query": "枣 树 v",
+        "description": "枣后接树，再接动词"
+    },
+    {
+        "query": "(d) (a) 的 ",
+        "description": "副词后接形容词，再接形容词，最后空格"
+    },
+    {
+        "query": "(d) + (a) 的",
+        "description": "副词后接形容词，再接形容词，最后空格"
+    },
+    {
+        "query": "n 师傅",
+        "description": "名词后接师傅"
+    },
+    {
+        "query": "nr 怪 a 的",
+        "description": "人名后接形容词，再接形容词，最后空格"
+    },
+    {
+        "query": "n + 教 人 + v",
+        "description": "名词后接教，再接人，最后接动词"
+    },
+    {
+        "query": "n 教 人 v",
+        "description": "名词后接教，再接人，最后接动词"
+    },
+    {
+        "query": "有所 V",
+        "description": "形容词后接有所，再接动词"
+    },
+    {
+        "query": "多 加 ad",
+        "description": "形容词后接多，再接加"
+    },
+    {
+        "query": "v 了 m 月",
+        "description": "动词后接了，再接数词"
+    },
+    {
+        "query": "ad 讲",
+        "description": "副词后接讲"
+    },
+    {
+        "query": "p 局限",
+        "description": "介词后接局限"
+    },
+    {
+        "query": "a 专人",
+        "description": "形容词后接专人"
+    },
+    {
+        "query": "a 储备",
+        "description": "形容词后接储备"
+    },
+    {
+        "query": "从 n + f",
+        "description": "名词后接加，再接f"
+    },
+    {
+        "query": "从 n f",
+        "description": "名词后接f"
+    },
+    {
+        "query": "w + a 得",
+        "description": "单音节动词后接a，再接得"
+    },
+    {
+        "query": "w a 得",
+        "description": "单音节动词后接a，再接得"
+    }
+]
+```

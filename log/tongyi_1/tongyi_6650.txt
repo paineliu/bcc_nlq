@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "作风 (vn), {count<495}",
+        "description": "作风作为动词后面，出现频次小于495次"
+    },
+    {
+        "query": "@/[r v] 标本兼治",
+        "description": "动词或代词后接标本兼治"
+    },
+    {
+        "query": "以为 ~ 要",
+        "description": "以为后面跟一个词"
+    },
+    {
+        "query": "(c), {begin($1)!=[夸 婆 灵]}",
+        "description": "副词后，但不以夸、婆、灵开头"
+    },
+    {
+        "query": "中华 (n) 如何{count<780}",
+        "description": "名词中华后面，如何出现频次小于780次"
+    },
+    {
+        "query": "现实 (n) 由{len($1)!=2}",
+        "description": "名词现实后面，后面内容的长度不等于2"
+    },
+    {
+        "query": "要 (a) 。{len($1)>3}",
+        "description": "形容词要后面，后面内容的长度大于3"
+    },
+    {
+        "query": ", ~/[v v] 依托",
+        "description": "逗号后面，离合出现两个动词，紧接着依托"
+    },
+    {
+        "query": ", ~ 立足",
+        "description": "逗号后面，紧接着立足"
+    },
+    {
+        "query": "(v) (v){len($1)=2; len($2)!=3}",
+        "description": "两个相邻的动词，第一个动词长度为2，第二个动词长度不为3"
+    },
+    {
+        "query": "(n) 暗卷{count>3}",
+        "description": "名词后面，暗卷出现频次大于3"
+    },
+    {
+        "query": "玉石 (a) 。{end($1)!=[欠 手]}",
+        "description": "形容词玉石后面，句尾不是欠或手"
+    },
+    {
+        "query": "好 ./v 雅贿",
+        "description": "好后接动词，雅贿作为动宾结构"
+    },
+    {
+        "query": "荡涤 贪腐/a 始见",
+        "description": "荡涤后面接形容词贪腐，然后是始见"
+    },
+    {
+        "query": "图",
+        "description": "仅包含图"
+    },
+    {
+        "query": "(n) (v){begin($2)=[时 块 药]}",
+        "description": "名词后面接动词，动词以时、块、药开头"
+    },
+    {
+        "query": "~ 很",
+        "description": "一个词后面接很"
+    },
+    {
+        "query": "重大 (n) 就此{len($1)!=3}",
+        "description": "重大后面接名词，但整体长度不为3"
+    },
+    {
+        "query": "问责如山 @/[w v]",
+        "description": "问责如山后面接动词或代词"
+    },
+    {
+        "query": "看 (n) 在{len($1)!=3}",
+        "description": "看后面接名词，但后面内容的长度不等于3"
+    },
+    {
+        "query": "(n) 盼{begin($1)!=[勇 则 嫁]}",
+        "description": "名词后面，但不以勇、则、嫁开头"
+    },
+    {
+        "query": "在 (r) 住{count>10}",
+        "description": "在后接介词，住的频次大于10"
+    },
+    {
+        "query": "../nr 面露 难色 ./w",
+        "description": "两个连续的名词后面接面露，再接难色，难色是句尾"
+    },
+    {
+        "query": "古 (n) 保护{len($1)=2}",
+        "description": "古后面接名词，保护的长度为2"
+    },
+    {
+        "query": "~/[m v] 位",
+        "description": "离合出现一个数词或动词，紧接着位"
+    },
+    {
+        "query": "(u) (n){len($2)=2}",
+        "description": "一个未知词后接名词，名词长度为2"
+    },
+    {
+        "query": "变 乐居/v",
+        "description": "变后接乐居，乐居是动词"
+    },
+    {
+        "query": "(ns) (ns){count>5}",
+        "description": "两个连续的地名，出现频次大于5"
+    },
+    {
+        "query": "成 (u) 香饽饽{count<430}",
+        "description": "成后面接未知词，香饽饽出现频次小于430"
+    },
+    {
+        "query": "土地 ./[v v] 来",
+        "description": "土地后面接两个动词，最后一个动词是来"
+    },
+    {
+        "query": "(w) 这种 老办法 (v){middle($2)!=[捏 删 日 校]}",
+        "description": "这个或那个老办法后面接动词，动词中间不是捏、删、日、校"
+    },
+    {
+        "query": "根 (v) 让{count<796}",
+        "description": "根后接动词，让的频次小于796"
+    },
+    {
+        "query": "联手 (v) 假{end($1)=[击 电 远 丹]}",
+        "description": "联手后接动词，动词以击、电、远、丹结尾"
+    },
+    {
+        "query": "@ 自涛",
+        "description": "自涛，词性标记为代词"
+    },
+    {
+        "query": "(n) 搁置{begin($1)=[三 因 后 屋]}",
+        "description": "名词后面，搁置以三、因、后、屋开头"
+    },
+    {
+        "query": "n 面积 居 n",
+        "description": "两个相邻的名词"
+    },
+    {
+        "query": "建成 (n) 社会{len($1)>1}",
+        "description": "建成后面接名词，名词长度大于1"
+    },
+    {
+        "query": "全面",
+        "description": "仅包含全面"
+    },
+    {
+        "query": "(v) 党 (v){count>7}",
+        "description": "两个相邻的动词，党后接动词，频次大于7"
+    },
+    {
+        "query": "治 @ 关系",
+        "description": "治后接一个词，统计时按词性归并"
+    }
+]
+```

@@ -1,0 +1,88 @@
+以下是您提供的检索式转换为带含义的JSON结构：
+
+```json
+[
+    {
+        "query": "(v) 卡成{len($1)!=3}",
+        "description": "动词后接卡成，且动词长度不等于3"
+    },
+    {
+        "query": "阳城县 刘/nr 国信",
+        "description": "阳城县后接人名刘，再接国信"
+    },
+    {
+        "query": "极 @/[v v] 。",
+        "description": "极后接任意词性为动词的词，然后再接句号"
+    },
+    {
+        "query": "有些 (n) ，{len($1)!=2}",
+        "description": "有些后接名词，名词长度不等于2"
+    },
+    {
+        "query": "何在 @",
+        "description": "何在后面接任意词性"
+    },
+    {
+        "query": "让 ./v 三甲",
+        "description": "让后接单音节动词，再接三甲"
+    },
+    {
+        "query": "的 @/[n v] 。",
+        "description": "的后面接名词或动词，然后再接句号"
+    },
+    {
+        "query": "视觉",
+        "description": "包含视觉的句子"
+    },
+    {
+        "query": "开 (n) ？{len($1)>1}",
+        "description": "开后接名词，名词长度大于1，且句子以问号结尾"
+    },
+    {
+        "query": "开 (w){count<848}",
+        "description": "开后面接标点符号，且该实例的频次小于848"
+    },
+    {
+        "query": "河南 (ns) 真真{len($1)>2}",
+        "description": "河南后接地名，且地名长度大于2的真真"
+    },
+    {
+        "query": "何时 . 需",
+        "description": "何时后隔一个字接需"
+    },
+    {
+        "query": "南城县",
+        "description": "包含南城县的句子"
+    },
+    {
+        "query": "璧山区",
+        "description": "包含璧山区的句子"
+    },
+    {
+        "query": "广东 (ns) 李荣灿{count<979}",
+        "description": "广东后接地名，且人名李荣灿的频次小于979"
+    },
+    {
+        "query": "(v) 牌{len($1)!=2}",
+        "description": "动词后接牌，且动词长度不等于2"
+    },
+    {
+        "query": "开车",
+        "description": "包含开车的句子"
+    },
+    {
+        "query": "司机 . 校车",
+        "description": "司机后隔一个字接校车"
+    },
+    {
+        "query": "山西 ... 鲍",
+        "description": "山西后隔三个字接鲍"
+    },
+    {
+        "query": "下期 (v) ：{begin($1)!=[难 帮]}",
+        "description": "下期后接动词，且动词不以难或帮开头"
+    }
+]
+```
+
+请注意，这个JSON列表是根据您提供的检索式和含义进行转换的，确保每个检索式都对应了适当的描述。

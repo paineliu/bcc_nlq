@@ -1,0 +1,158 @@
+以下是将给定的检索式转换为带含义的json结构后的完整列表：
+
+```json
+[
+    {
+        "query": "向来d+n[，+。]",
+        "description": "向来后接名词，名词后可接逗号或句号"
+    },
+    {
+        "query": "向来d n[， 。]",
+        "description": "向来后接名词，名词后可接逗号或句号"
+    },
+    {
+        "query": "不要v+u[，+。]",
+        "description": "不要后接u，u后可接逗号或句号"
+    },
+    {
+        "query": "不要v u[， 。]",
+        "description": "不要后接u，u后可接逗号或句号"
+    },
+    {
+        "query": "[，+。]c+q+v+[，+。]",
+        "description": "逗号或句号后接c、q、v，v后可接逗号或句号"
+    },
+    {
+        "query": "[， 。]c q v [， 。]",
+        "description": "逗号或句号后接c、q、v，v后可接逗号或句号"
+    },
+    {
+        "query": "v上那q+n+[，+。]",
+        "description": "动词后接上、那，随后接名词，名词后可接逗号或句号"
+    },
+    {
+        "query": "v上那q n [， 。]",
+        "description": "动词后接上、那，随后接名词，名词后可接逗号或句号"
+    },
+    {
+        "query": "暗中d+n[，+。]",
+        "description": "暗中后接名词，名词后可接逗号或句号"
+    },
+    {
+        "query": "暗中d n[， 。]",
+        "description": "暗中后接名词，名词后可接逗号或句号"
+    },
+    {
+        "query": "偷偷v+y[，+。]",
+        "description": "偷偷后接动词，动词后可接y，y后可接逗号或句号"
+    },
+    {
+        "query": "偷偷v y[， 。]",
+        "description": "偷偷后接动词，动词后可接y，y后可接逗号或句号"
+    },
+    {
+        "query": "不必v[v+a+n+r][，+。]",
+        "description": "不必后接v、a、n、r，v、a、n、r后可接逗号或句号"
+    },
+    {
+        "query": "不必v[v a n r][， 。]",
+        "description": "不必后接v、a、n、r，v、a、n、r后可接逗号或句号"
+    },
+    {
+        "query": "[调整+咬+炸+忘+剥+接受+闪+夹]个",
+        "description": "一组词汇后接个"
+    },
+    {
+        "query": "[调整 咬 炸 忘 剥 接受 闪 夹]个",
+        "description": "一组词汇后接个"
+    },
+    {
+        "query": "随时d+v[，+。]",
+        "description": "随时后接动词，动词后可接逗号或句号"
+    },
+    {
+        "query": "随时d v[， 。]",
+        "description": "随时后接动词，动词后可接逗号或句号"
+    },
+    {
+        "query": "按期a[，+。]",
+        "description": "按期后可接逗号或句号"
+    },
+    {
+        "query": "按期a[， 。]",
+        "description": "按期后可接逗号或句号"
+    },
+    {
+        "query": "w[q+r+d+c+v+a++n+m++p]慢.快w",
+        "description": "w后接q、r、d、c、v、a、n、m、p，随后接慢、快，慢、快后接w"
+    },
+    {
+        "query": "w[q r d c v a  n m  p]慢.快w",
+        "description": "w后接q、r、d、c、v、a、n、m、p，随后接慢、快，慢、快后接w"
+    },
+    {
+        "query": "尽快a[，+。]",
+        "description": "尽快后可接逗号或句号"
+    },
+    {
+        "query": "尽快a[， 。]",
+        "description": "尽快后可接逗号或句号"
+    },
+    {
+        "query": "[赶快+赶忙+刚刚][v+a+n+r][，+。]",
+        "description": "一组词汇后接v、a、n、r，v、a、n、r后可接逗号或句号"
+    },
+    {
+        "query": "[赶快 赶忙 刚刚][v a n r][， 。]",
+        "description": "一组词汇后接v、a、n、r，v、a、n、r后可接逗号或句号"
+    },
+    {
+        "query": "V[上+下+起]*[生气+气愤+恼怒]",
+        "description": "动词V后接上、下、起，随后接生气、气愤、恼怒"
+    },
+    {
+        "query": "V[上 下 起]*[生气 气愤 恼怒]",
+        "description": "动词V后接上、下、起，随后接生气、气愤、恼怒"
+    },
+    {
+        "query": "[藏+删+割+外加+补充+抹+再说]个",
+        "description": "一组词汇后接个"
+    },
+    {
+        "query": "[藏 删 割 外加 补充 抹 再说]个",
+        "description": "一组词汇后接个"
+    },
+    {
+        "query": "v[点+点儿]n吧w",
+        "description": "动词后接点、点儿，随后接名词，名词后接吧，最后接w"
+    },
+    {
+        "query": "v[点 点儿]n吧w",
+        "description": "动词后接点、点儿，随后接名词，名词后接吧，最后接w"
+    },
+    {
+        "query": "w[q+r+d+c+v+a++n+m++p]甜.苦w",
+        "description": "w后接q、r、d、c、v、a、n、m、p，随后接甜、苦，甜、苦后接w"
+    },
+    {
+        "query": "w[q r d c v a  n m  p]甜.苦w",
+        "description": "w后接q、r、d、c、v、a、n、m、p，随后接甜、苦，甜、苦后接w"
+    },
+    {
+        "query": "挂n上[，+。]",
+        "description": "挂后接名词，名词后可接逗号或句号"
+    },
+    {
+        "query": "挂n上[， 。]",
+        "description": "挂后接名词，名词后可接逗号或句号"
+    },
+    {
+        "query": "w近.远[q+r+d+c+v+a++n+m++p]w",
+        "description": "w后接近、远，随后接q、r、d、c、v、a、n、m、p，q、r、d、c、v、a、n、m、p后接w"
+    },
+    {
+        "query": "w近.远[q r d c v a  n m  p]w",
+        "description": "w后接近、远，随后接q、r、d、c、v、a、n、m、p，q、r、d、c、v、a、n、m、p后接w"
+    }
+]
+```

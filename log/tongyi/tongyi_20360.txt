@@ -1,0 +1,166 @@
+以下是将给定的检索式转换为带含义的JSON结构的结果：
+
+```json
+[
+    {
+        "query": "片人+文化/n",
+        "description": "包含\"片人\"和\"文化/n\"的句子"
+    },
+    {
+        "query": "片人 文化/n",
+        "description": "\"片人\"后面紧跟\"文化/n\"的句子"
+    },
+    {
+        "query": "科学/n",
+        "description": "包含\"科学/n\"的句子"
+    },
+    {
+        "query": "来+了/y+！",
+        "description": "包含\"来+了/y+！\"的句子"
+    },
+    {
+        "query": "来 了/y ！",
+        "description": "\"来 了/y ！\"的句子"
+    },
+    {
+        "query": "零../n",
+        "description": "以\"零../n\"开头的句子"
+    },
+    {
+        "query": "刚才/t+./v",
+        "description": "包含\"刚才/t+./v\"的句子"
+    },
+    {
+        "query": "刚才/t ./v",
+        "description": "\"刚才/t ./v\"的句子"
+    },
+    {
+        "query": "创新+？/w",
+        "description": "包含\"创新+？/w\"的句子"
+    },
+    {
+        "query": "创新 ？/w",
+        "description": "\"创新 ？/w\"的句子"
+    },
+    {
+        "query": "没有/d+引入",
+        "description": "包含\"没有/d+引入\"的句子"
+    },
+    {
+        "query": "没有/d 引入",
+        "description": "\"没有/d 引入\"的句子"
+    },
+    {
+        "query": "风起+于/p+青萍",
+        "description": "包含\"风起+于/p+青萍\"的句子"
+    },
+    {
+        "query": "风起 于/p 青萍",
+        "description": "\"风起 于/p 青萍\"的句子"
+    },
+    {
+        "query": "的+./v+d",
+        "description": "包含\"的+./v+d\"的句子"
+    },
+    {
+        "query": "的 ./v d",
+        "description": "\"的 ./v d\"的句子"
+    },
+    {
+        "query": "各地+出/v+重拳",
+        "description": "包含\"各地+出/v+重拳\"的句子"
+    },
+    {
+        "query": "各地 出/v 重拳",
+        "description": "\"各地 出/v 重拳\"的句子"
+    },
+    {
+        "query": "农工党+十五/m+届",
+        "description": "包含\"农工党+十五/m+届\"的句子"
+    },
+    {
+        "query": "农工党 十五/m 届",
+        "description": "\"农工党 十五/m 届\"的句子"
+    },
+    {
+        "query": "这样/r+的/u",
+        "description": "包含\"这样/r+的/u\"的句子"
+    },
+    {
+        "query": "这样/r 的/u",
+        "description": "\"这样/r 的/u\"的句子"
+    },
+    {
+        "query": "浅./v",
+        "description": "包含\"浅./v\"的句子"
+    },
+    {
+        "query": "感情/n+a",
+        "description": "包含\"感情/n+a\"的句子"
+    },
+    {
+        "query": "感情/n a",
+        "description": "\"感情/n a\"的句子"
+    },
+    {
+        "query": "v+兴趣/n",
+        "description": "包含\"v+兴趣/n\"的句子"
+    },
+    {
+        "query": "v 兴趣/n",
+        "description": "\"v 兴趣/n\"的句子"
+    },
+    {
+        "query": "n+劲头/n",
+        "description": "包含\"n+劲头/n\"的句子"
+    },
+    {
+        "query": "n 劲头/n",
+        "description": "\"n 劲头/n\"的句子"
+    },
+    {
+        "query": "../v+得漂亮",
+        "description": "包含\"../v+得漂亮\"的句子"
+    },
+    {
+        "query": "../v 得漂亮",
+        "description": "\"../v 得漂亮\"的句子"
+    },
+    {
+        "query": "大学/n+教授/n",
+        "description": "包含\"大学/n+教授/n\"的句子"
+    },
+    {
+        "query": "大学/n 教授/n",
+        "description": "\"大学/n 教授/n\"的句子"
+    },
+    {
+        "query": "首先+难/a+在",
+        "description": "包含\"首先+难/a+在\"的句子"
+    },
+    {
+        "query": "首先 难/a 在",
+        "description": "\"首先 难/a 在\"的句子"
+    },
+    {
+        "query": "激情+../a",
+        "description": "包含\"激情+../a\"的句子"
+    },
+    {
+        "query": "激情 ../a",
+        "description": "\"激情 ../a\"的句子"
+    },
+    {
+        "query": "发+稳岗/vn+补贴",
+        "description": "包含\"发+稳岗/vn+补贴\"的句子"
+    },
+    {
+        "query": "发 稳岗/vn 补贴",
+        "description": "\"发 稳岗/vn 补贴\"的句子"
+    },
+    {
+        "query": "聚焦·大病+保险/n+新",
+        "description": "包含\"聚焦·大病+保险/n+新\"的句子"
+    }
+]
+```

@@ -1,0 +1,156 @@
+```json
+[
+    {
+        "query": "指标 u 累计", 
+        "description": "指标后面接'u'，然后是累计"
+    },
+    {
+        "query": "图形/n 验证码", 
+        "description": "图形名词后面接验证码"
+    },
+    {
+        "query": "的 (n) 何{len($1)<4}", 
+        "description": "的后面接长度小于4的任何词"
+    },
+    {
+        "query": "。\n(ns) 草原 (v){$1=$2}", 
+        "description": "句尾的点后接'草原'，且前后词相同"
+    },
+    {
+        "query": "ns 残联", 
+        "description": "ns后直接接残联"
+    },
+    {
+        "query": "../[ns v] 南康", 
+        "description": "动词后面的ns后接南康"
+    },
+    {
+        "query": "就 ~ 要", 
+        "description": "就后接任意词要"
+    },
+    {
+        "query": "， 吃/v 住", 
+        "description": "逗号后接动词吃和动词住"
+    },
+    {
+        "query": "事 (w) 谁{count<989}", 
+        "description": "事后面接'谁'，且实例数量小于989"
+    },
+    {
+        "query": "村 ./[f v] ，", 
+        "description": "村后接方位词或动词，后面是逗号"
+    },
+    {
+        "query": "村 内/f ，", 
+        "description": "村后接'内'，后面是逗号"
+    },
+    {
+        "query": "(v) (n){len($1)=1; len($2)!=2}", 
+        "description": "两个相邻词，其中一个为单音节动词，另一个不是双音节词"
+    },
+    {
+        "query": "个 (n) ，{count>7}", 
+        "description": "个后面接名词，且实例数量大于7"
+    },
+    {
+        "query": "(r) ， 难怪 贫弱 (w){count>3}", 
+        "description": "两个相邻词，其中一个为关系词，后面是'难怪'和'贫弱'，且实例数量大于3"
+    },
+    {
+        "query": "重在 ..../n 。", 
+        "description": "重在后面接任意词和名词，句尾是句号"
+    },
+    {
+        "query": "养殖业 ~", 
+        "description": "养殖业后面接任意词"
+    },
+    {
+        "query": "不大 (w) 汉族{count>3}", 
+        "description": "不大后面接汉族，实例数量大于3"
+    },
+    {
+        "query": "， ~ 有", 
+        "description": "逗号后面接任意词，然后是'有'"
+    },
+    {
+        "query": "故事 (w) 不胜枚举{count>5}", 
+        "description": "故事后面接不胜枚举，实例数量大于5"
+    },
+    {
+        "query": "巡视员 (nr) 说{len($1)>2}", 
+        "description": "巡视员后接的词长度大于2"
+    },
+    {
+        "query": "(n) (w){begin($1)=[硬 冲]}", 
+        "description": "两个相邻词，第一个词以'硬'或'冲'开头"
+    },
+    {
+        "query": "(d) (v){len($2)!=2}", 
+        "description": "两个相邻词，第二个词不是双音节词"
+    },
+    {
+        "query": "大班村 ~/[w v] 位于", 
+        "description": "大班村后面接动词或名词，然后是'位于'"
+    },
+    {
+        "query": "集体 (a) ，{count>3}", 
+        "description": "集体后面接形容词，且实例数量大于3"
+    },
+    {
+        "query": "有点 ~/[n v] 的", 
+        "description": "有点后面接名词或动词，后面接'的'"
+    },
+    {
+        "query": "(n) 很 (n){len($2)=2}", 
+        "description": "两个相邻名词，前面的名词后面接长度为2的名词"
+    },
+    {
+        "query": "了 (m) 。{count<847}", 
+        "description": "了后面接任意词，句尾是句号，实例数量小于847"
+    },
+    {
+        "query": "~/[r v] ，", 
+        "description": "任意词后接动词或关系词，后面是逗号"
+    },
+    {
+        "query": "， (v) 成{len($1)!=2}", 
+        "description": "逗号后面接单音节动词，但不接双音节词"
+    },
+    {
+        "query": "老八路 @ 回来", 
+        "description": "老八路后面接任意词，统计时按词性归并"
+    },
+    {
+        "query": "../m 走 ， 一路 ./v", 
+        "description": "两个相邻词，第一个是动词，后面是走，再接动词一路"
+    },
+    {
+        "query": "又 ../v 了", 
+        "description": "又后面接任意动词，后面是了"
+    },
+    {
+        "query": "晋 (j) 无法{len($1)=1}", 
+        "description": "晋后面接长度为1的任意词，可能是无法"
+    },
+    {
+        "query": "当 ~ ？", 
+        "description": "当后面接任意词，然后是问号"
+    },
+    {
+        "query": "谁 . 群众", 
+        "description": "谁后面接任意词，句尾是点"
+    },
+    {
+        "query": "长 (r) ？{len($1)=3}", 
+        "description": "长后面接长度为3的关系词，然后是问号"
+    },
+    {
+        "query": "小算盘 w 小九九", 
+        "description": "小算盘后面接'小九九'"
+    },
+    {
+        "query": "， . 想", 
+        "description": "逗号后面接句号，然后是想"
+    }
+]
+```

@@ -1,0 +1,156 @@
+```json
+[
+    {
+        "query": "汇聚 (n){begin($1)=[动 林]}",
+        "description": "汇聚，后面紧跟动或林的名词"
+    },
+    {
+        "query": "经济 ./[a v] 常态",
+        "description": "经济后接形容词或动词的常态"
+    },
+    {
+        "query": "(n) 看 (n){len($1)=2; end($2)=[n 语 害]}",
+        "description": "看后面紧跟着长度为2的名词，且该名词后面是n、语或害"
+    },
+    {
+        "query": "肯定 (w){count>4}",
+        "description": "肯定这个词的出现次数大于4次"
+    },
+    {
+        "query": "(n) 新{len($1)>1}",
+        "description": "新后面跟着的名词长度大于1"
+    },
+    {
+        "query": "创新化 (n){count>9}",
+        "description": "创新化这个词的出现次数大于9次"
+    },
+    {
+        "query": "新 n",
+        "description": "新后面直接跟一个名词"
+    },
+    {
+        "query": "能助 (v){count<147}",
+        "description": "能助这个动词的出现次数少于147次"
+    },
+    {
+        "query": "胡塞 (n) 达成{begin($1)=[武 杰 起]}",
+        "description": "胡塞后面跟着达成，且达成的前面可能是武、杰或起"
+    },
+    {
+        "query": "表示 (w){count>6}",
+        "description": "表示这个词的出现次数大于6次"
+    },
+    {
+        "query": "(n) 援{len($1)>2}",
+        "description": "援后面跟着的名词长度大于2"
+    },
+    {
+        "query": "是 (d) 要{len($1)<3}",
+        "description": "是后跟一个副词，且副词长度小于3"
+    },
+    {
+        "query": "n 们",
+        "description": "一个名词后面跟着一个'们'"
+    },
+    {
+        "query": "商讨 (ad) 解决{count>7}",
+        "description": "商讨后接一个副词，然后是解决，且总次数大于7"
+    },
+    {
+        "query": "扩大 军事/n 领域",
+        "description": "扩大后面直接接军事领域"
+    },
+    {
+        "query": "如期 (v){end($1)=[出 鱼]}",
+        "description": "如期后面以出或鱼结尾的动词"
+    },
+    {
+        "query": "会",
+        "description": "单独的会"
+    },
+    {
+        "query": "出访 @/[v v]",
+        "description": "出访后跟一个动词，可能是双音节动词"
+    },
+    {
+        "query": "(ns) 铁建{len($1)>1}",
+        "description": "ns开头的词后面跟着长度大于1的铁建"
+    },
+    {
+        "query": "郑建兵 (v) 。{len($1)=2}",
+        "description": "郑建兵后面跟着一个长度为2的动词，后面可能带句点"
+    },
+    {
+        "query": "每 (m) 步{count>6}",
+        "description": "每后面跟一个数量词，然后是步，总次数大于6"
+    },
+    {
+        "query": "说 .",
+        "description": "说后跟一个句点"
+    },
+    {
+        "query": "吃苦 ~/[w v] 重",
+        "description": "吃苦后面离合出现一个动词或形容词，然后是重"
+    },
+    {
+        "query": "(ns) 姑娘{len($1)!=4}",
+        "description": "ns开头的词后面跟着的名词长度不是4"
+    },
+    {
+        "query": "经历 (u) 这样{count<567}",
+        "description": "经历后跟一个介词，然后是这样，总次数少于567"
+    },
+    {
+        "query": "说 ~/[w v]",
+        "description": "说后面离合出现一个动词或形容词"
+    },
+    {
+        "query": "(v) 难 (w){len($1)=2}",
+        "description": "难后面跟一个长度为2的词"
+    },
+    {
+        "query": "(j) 工程{begin($1)=[中 先 前 眼]}",
+        "description": "工程后面紧跟中、先、前或眼的词"
+    },
+    {
+        "query": "邓锡军 (v) 。{count>2}",
+        "description": "邓锡军后面跟着一个动词，后面可能带句点，且次数大于2"
+    },
+    {
+        "query": "(v) 缩小 (f){end($1)=[图 美 上]}",
+        "description": "缩小后面跟一个副动词，然后是以图、美或上结尾的动词"
+    },
+    {
+        "query": "想 (v) 经济{len($1)!=2}",
+        "description": "想后面跟一个动词，但不是长度为2的经济"
+    },
+    {
+        "query": "(ns) 时装{count<650}",
+        "description": "ns开头的词后面跟着时装，总次数少于650"
+    },
+    {
+        "query": "将",
+        "description": "单独的将"
+    },
+    {
+        "query": "一方面 ~/[v v] 推进",
+        "description": "一方面后面离合出现两个动词，然后是推进"
+    },
+    {
+        "query": "改革 ~",
+        "description": "改革后面跟着一个词"
+    },
+    {
+        "query": "民众 (ad) 缺乏{len($1)!=3}",
+        "description": "民众后面接一个副词，但副词长度不是3"
+    },
+    {
+        "query": "质量 ~ 。",
+        "description": "质量后面跟着一个词，后面带句点"
+    },
+    {
+        "query": "平衡 @/[n v] 与",
+        "description": "平衡后面接一个名词或动词，然后是与"
+    }
+]
+```

@@ -1,0 +1,166 @@
+以下是将上述检索式转换为带含义的json结构：
+
+```json
+[
+    {
+        "query": "结个婚",
+        "description": "包含'结个婚'的句子"
+    },
+    {
+        "query": "忡忡",
+        "description": "包含'忡忡'的句子"
+    },
+    {
+        "query": "照直说",
+        "description": "包含'照直说'的句子"
+    },
+    {
+        "query": "大概几十年",
+        "description": "包含'大概几十年'的句子"
+    },
+    {
+        "query": "你们吵什么",
+        "description": "包含'你们吵什么'的句子"
+    },
+    {
+        "query": "效果和谐",
+        "description": "包含'效果和谐'的句子"
+    },
+    {
+        "query": "和谐做有",
+        "description": "包含'和谐做有'的句子"
+    },
+    {
+        "query": "一个没注意",
+        "description": "包含'一个没注意'的句子"
+    },
+    {
+        "query": "合计",
+        "description": "包含'合计'的句子"
+    },
+    {
+        "query": "不太稳",
+        "description": "包含'不太稳'的句子"
+    },
+    {
+        "query": "人权保",
+        "description": "包含'人权保'的句子"
+    },
+    {
+        "query": "知道",
+        "description": "包含'知道'的句子"
+    },
+    {
+        "query": "损坏",
+        "description": "包含'损坏'的句子"
+    },
+    {
+        "query": "交强险",
+        "description": "包含'交强险'的句子"
+    },
+    {
+        "query": "好像可以",
+        "description": "包含'好像可以'的句子"
+    },
+    {
+        "query": "登记局",
+        "description": "包含'登记局'的句子"
+    },
+    {
+        "query": "纳尼",
+        "description": "包含'纳尼'的句子"
+    },
+    {
+        "query": "思绪",
+        "description": "包含'思绪'的句子"
+    },
+    {
+        "query": "嘴是",
+        "description": "包含'嘴是'的句子"
+    },
+    {
+        "query": "难解难分",
+        "description": "包含'难解难分'的句子"
+    },
+    {
+        "query": "像没有",
+        "description": "包含'像没有'的句子"
+    },
+    {
+        "query": "蹑手蹑脚",
+        "description": "包含'蹑手蹑脚'的句子"
+    },
+    {
+        "query": "来也是",
+        "description": "包含'来也是'的句子"
+    },
+    {
+        "query": "确认",
+        "description": "包含'确认'的句子"
+    },
+    {
+        "query": "人权局",
+        "description": "包含'人权局'的句子"
+    },
+    {
+        "query": "啊",
+        "description": "包含'啊'的句子"
+    },
+    {
+        "query": "通俗而言",
+        "description": "包含'通俗而言'的句子"
+    },
+    {
+        "query": "推定",
+        "description": "包含'推定'的句子"
+    },
+    {
+        "query": "不知道",
+        "description": "包含'不知道'的句子"
+    },
+    {
+        "query": "换句话讲",
+        "description": "包含'换句话讲'的句子"
+    },
+    {
+        "query": "震惊",
+        "description": "包含'震惊'的句子"
+    },
+    {
+        "query": "洽而和谐",
+        "description": "包含'洽而和谐'的句子"
+    },
+    {
+        "query": "吃了我",
+        "description": "包含'吃了我'的句子"
+    },
+    {
+        "query": "他一个",
+        "description": "包含'他一个'的句子"
+    },
+    {
+        "query": "千丝万缕",
+        "description": "包含'千丝万缕'的句子"
+    },
+    {
+        "query": "把手",
+        "description": "包含'把手'的句子"
+    },
+    {
+        "query": "和谐之家",
+        "description": "包含'和谐之家'的句子"
+    },
+    {
+        "query": "人权博",
+        "description": "包含'人权博'的句子"
+    },
+    {
+        "query": "在乎",
+        "description": "包含'在乎'的句子"
+    },
+    {
+        "query": "不煞",
+        "description": "包含'不煞'的句子"
+    }
+]
+```

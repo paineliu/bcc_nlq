@@ -1,0 +1,88 @@
+以下是您提供的检索式转换为带含义的JSON结构：
+
+```json
+[
+  {
+    "query": "江苏 ~/[ns v] 吴",
+    "description": "江苏后接一个词，词性为名词或动词，再接吴"
+  },
+  {
+    "query": "评估 v 立法",
+    "description": "评估后接动词，再接立法"
+  },
+  {
+    "query": "该 v 矣",
+    "description": "该后接动词，再接矣"
+  },
+  {
+    "query": "(ns) 徐 (nr){len($1)<3}",
+    "description": "名词后接徐，再接人名，且名词长度小于3"
+  },
+  {
+    "query": "(n) 上 (v){len($1)<3}",
+    "description": "名词后接上，再接动词，且名词长度小于3"
+  },
+  {
+    "query": "该 ./[v v] 矣",
+    "description": "该后接一个单音节动词，再接一个单音节动词，最后接矣"
+  },
+  {
+    "query": "(n) 纠正 错案 应 (d){end($1)!=[茶 穷]}",
+    "description": "名词后接纠正、错案、应，再接副词，且名词不是茶或穷结尾"
+  },
+  {
+    "query": "异地 (v) 十分{count>6}",
+    "description": "异地后接动词，再接十分，且出现次数大于6"
+  },
+  {
+    "query": "诉讼/v 搬到 线/n",
+    "description": "诉讼作为动词后接搬到，再接名词线"
+  },
+  {
+    "query": "避免/v 暗箱",
+    "description": "避免作为动词后接暗箱"
+  },
+  {
+    "query": "说 (w){count<963}",
+    "description": "说后接标点符号，且出现次数小于963"
+  },
+  {
+    "query": "@/[nr v] 说",
+    "description": "一个词性为人名或动词的词后接说"
+  },
+  {
+    "query": "把/p 死",
+    "description": "把作为介词后接死"
+  },
+  {
+    "query": "说 。/w",
+    "description": "说后接句号"
+  },
+  {
+    "query": "在 全球/n 引发",
+    "description": "在后面接名词全球，再接引发"
+  },
+  {
+    "query": "呵护 ~/[v v]",
+    "description": "呵护后接两个动词组成的词"
+  },
+  {
+    "query": "新",
+    "description": "包含新字的句子"
+  },
+  {
+    "query": "(nr) 感叹{len($1)<4}",
+    "description": "人名后接感叹，且人名长度小于4"
+  },
+  {
+    "query": "坎坷 @/[w v]",
+    "description": "坎坷后接一个词性为标点或动词的词"
+  },
+  {
+    "query": "正义 @/[w v]",
+    "description": "正义后接一个词性为标点或动词的词"
+  }
+]
+```
+
+请注意，每个JSON对象的"query"字段代表原始检索式，"description"字段提供了对应检索式的含义描述。根据您的要求，返回了完整的列表。

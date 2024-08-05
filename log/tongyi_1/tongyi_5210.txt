@@ -1,0 +1,160 @@
+```json
+[
+    {
+        "query": "境内", 
+        "description": "境内"
+    },
+    {
+        "query": "~ 与", 
+        "description": "匹配一个词和与"
+    },
+    {
+        "query": "(v) 将 加强 反 (v){$1=$2}", 
+        "description": "动词将加强后接反动词，且两者相同"
+    },
+    {
+        "query": "多 医生/n 计划", 
+        "description": "多后面接医生和名词计划"
+    },
+    {
+        "query": "新加坡 d 反腐", 
+        "description": "新加坡后面接d(区别词)，反腐"
+    },
+    {
+        "query": "， 拖累 (w){count<638}", 
+        "description": "逗号后面出现频次小于638的拖累"
+    },
+    {
+        "query": "不 (a) 。{len($1)!=3}", 
+        "description": "不后面接一个非3字的形容词，然后是句点"
+    },
+    {
+        "query": "(n) (nr){middle($2)=[尼 踢]}", 
+        "description": "两个名词之间包含尼或踢"
+    },
+    {
+        "query": "@ 、", 
+        "description": "匹配一个词性和逗号"
+    },
+    {
+        "query": "(ns) 望云九州{end($1)=[南 顿 梁]}", 
+        "description": "ns类型的词，望云九州，且末尾是南、顿或梁"
+    },
+    {
+        "query": "不 (a) 。{count>7}", 
+        "description": "不后面接一个形容词，且该形容词出现频次大于7，然后是句点"
+    },
+    {
+        "query": "的 (n) ，{len($1)!=2}", 
+        "description": "的后面接一个非2字的名词，然后是逗号"
+    },
+    {
+        "query": "长调 (v) ，{count>7}", 
+        "description": "长调后面是频次大于7的逗号"
+    },
+    {
+        "query": "(v) 苍穹 (w){len($1)=2}", 
+        "description": "两个字的动词后面接苍穹"
+    },
+    {
+        "query": "(v) 了 (n){begin($1)=[回 提]}", 
+        "description": "动词后接了，且了后面以回或提开头的名词"
+    },
+    {
+        "query": "~/[c v] 清晰", 
+        "description": "模糊匹配c或v类型的词，后面是清晰"
+    },
+    {
+        "query": "(c) (v){$1!=$2}", 
+        "description": "两个连续的词，第一个是c(连词)，第二个不是c(连词)"
+    },
+    {
+        "query": "@/[c v] 天地", 
+        "description": "匹配一个词性为c或v的词，后面是天地"
+    },
+    {
+        "query": "无垠 .. 的", 
+        "description": "无垠后面跟两个点"
+    },
+    {
+        "query": "的 (n){len($1)<3}", 
+        "description": "的后面接一个长度小于3的名词"
+    },
+    {
+        "query": "(d) 那么{len($1)!=3}", 
+        "description": "副词那么，且长度不是3"
+    },
+    {
+        "query": "旱烟 (n){len($1)<3}", 
+        "description": "旱烟这个名词长度小于3"
+    },
+    {
+        "query": "只 (n) ，{len($1)!=3}", 
+        "description": "只后面接一个非3字的名词，然后是逗号"
+    },
+    {
+        "query": "平静 (a) 的{end($1)!=[远 华]}",
+        "description": "平静形容词后面接的‘的’后面不接远或华"
+    },
+    {
+        "query": "(a) 的{len($1)<5}", 
+        "description": "形容词后面接的‘的’长度小于5"
+    },
+    {
+        "query": "(d) 娓娓道来{begin($1)=[总 值]}", 
+        "description": "副词娓娓道来，且开始是总或值"
+    },
+    {
+        "query": "厚重 ~ 似山", 
+        "description": "厚重后面接一个词，类似山"
+    },
+    {
+        "query": "望望 @", 
+        "description": "匹配一个词望望"
+    },
+    {
+        "query": "~/[c v] 阴雨绵绵", 
+        "description": "模糊匹配c或v类型的词，后面是阴雨绵绵"
+    },
+    {
+        "query": "能 .. 播报", 
+        "description": "能后面跟两个点"
+    },
+    {
+        "query": "帽檐", 
+        "description": "帽檐"
+    },
+    {
+        "query": "着 a 的", 
+        "description": "着后面接形容词和的"
+    },
+    {
+        "query": "(nr) 上{end($1)!=[话 连]}", 
+        "description": "人名后面接上，且末尾不是话或连"
+    },
+    {
+        "query": "(d) 那般{len($1)=2}", 
+        "description": "副词那般，且长度是2"
+    },
+    {
+        "query": "嘴 @ 在", 
+        "description": "嘴后面接一个词，在"
+    },
+    {
+        "query": "(n) (v){$1!=$2}", 
+        "description": "两个连续的词，第一个是名词，第二个不是名词"
+    },
+    {
+        "query": "水车 吱呀/nr", 
+        "description": "水车后面接拟声词吱呀"
+    },
+    {
+        "query": "的/u 蝉/n", 
+        "description": "的后面接u(语气词)和蝉(名词)"
+    },
+    {
+        "query": "的 藤椅/n 上", 
+        "description": "的后面接藤椅名词，藤椅后面接上"
+    }
+]
+```

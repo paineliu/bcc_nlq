@@ -1,0 +1,88 @@
+以下是您提供的检索式转换为带含义的 JSON 结构：
+
+```json
+[
+    {
+        "query": "感慨 ./[u v] 说",
+        "description": "感慨后接助词或动词，再说"
+    },
+    {
+        "query": "对接 @/[n v] 才",
+        "description": "对接后接名词或动词，再才"
+    },
+    {
+        "query": "你 v 青年观",
+        "description": "你后接动词，再接青年观"
+    },
+    {
+        "query": "问 ../n ，",
+        "description": "问后接双音节名词，再接逗号"
+    },
+    {
+        "query": "~ 便",
+        "description": "一个词后接便"
+    },
+    {
+        "query": "格局 ./[w v] 还要",
+        "description": "格局后接标点符号或动词，再接还要"
+    },
+    {
+        "query": "@ 其它",
+        "description": "一个词性后接其它"
+    },
+    {
+        "query": "时代 @/[d v] 定",
+        "description": "时代后接副词或动词，再定"
+    },
+    {
+        "query": "大于 天/n 。",
+        "description": "大于后接名词天，再句号"
+    },
+    {
+        "query": "是 ./[w v] 速度",
+        "description": "是后接标点符号或动词，再接速度"
+    },
+    {
+        "query": "说",
+        "description": "包含说的句子"
+    },
+    {
+        "query": "陈建军 ~/[v v] 。",
+        "description": "陈建军后接一个词，再接动词，句尾句号"
+    },
+    {
+        "query": "陈建军 (v) 。{len($1)=1}",
+        "description": "陈建军后接一个单音节动词，句尾句号"
+    },
+    {
+        "query": "赢家 (u) 密码{len($1)!=2}",
+        "description": "赢家后接一个非双音节的助词，再接密码"
+    },
+    {
+        "query": "他",
+        "description": "包含他的句子"
+    },
+    {
+        "query": "的 密码/n ，",
+        "description": "的后面接名词密码，再接逗号"
+    },
+    {
+        "query": "(n) 分化 (v){$1=$2}",
+        "description": "名词后接分化，且这两个词相同"
+    },
+    {
+        "query": "俄",
+        "description": "包含俄的句子"
+    },
+    {
+        "query": "介入",
+        "description": "包含介入的句子"
+    },
+    {
+        "query": "(n) 联盟{count>2}",
+        "description": "名词后接联盟，且这个组合出现次数大于2次"
+    }
+]
+```
+
+以上 JSON 结构完整，没有省略任何检索式及其含义。

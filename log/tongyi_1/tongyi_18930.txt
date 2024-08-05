@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "一一 ~ 。",
+        "description": "一一后面接一个词，且后面可能有一个标点符号"
+    },
+    {
+        "query": "金融 (n) 的{len($1)=2}",
+        "description": "金融后面跟着一个长度为2的名词"
+    },
+    {
+        "query": "有 ~/[n v]",
+        "description": "有后面匹配名词或动词"
+    },
+    {
+        "query": "， (j) 已经{end($1)=[院 员]}",
+        "description": "已经后面不接院或员"
+    },
+    {
+        "query": "热烈 (n){len($1)<3}",
+        "description": "热烈后面接的名词长度小于3"
+    },
+    {
+        "query": "何以 (v){end($1)!=[近 压]}",
+        "description": "何以后面不接近或压"
+    },
+    {
+        "query": "马克思主义 @/[ad v] 指导",
+        "description": "马克思主义后面接形容词或动词"
+    },
+    {
+        "query": "(v) 具有{count<272}",
+        "description": "动词后面具有实例数量少于272个"
+    },
+    {
+        "query": "自信 @ 着眼点",
+        "description": "自信后面接着眼点，统计时按照词性归并"
+    },
+    {
+        "query": "北京 @ 教授",
+        "description": "北京后面接教授，统计时按照词性归并"
+    },
+    {
+        "query": "./v 核心 价值观 ../v",
+        "description": "单音节动词后面接核心，然后接动词和价值观"
+    },
+    {
+        "query": "(nr) ，{count<221}",
+        "description": "名词后面接逗号，且实例数量少于221个"
+    },
+    {
+        "query": "温故而知新 @",
+        "description": "温故而知新，统计时按照词性归并"
+    },
+    {
+        "query": "(v) 起于{begin($1)=[挑 批]}",
+        "description": "动词后面以挑或批开头"
+    },
+    {
+        "query": "(n) (w){count<121}",
+        "description": "名词后面接一个词，且实例数量少于121个"
+    },
+    {
+        "query": "的 (i) 。{begin($1)!=[奶 正 这]}",
+        "description": "的后面接一个词，且不是奶、正或这开头"
+    },
+    {
+        "query": "价值 (n) 的{len($1)=2}",
+        "description": "价值后面接一个长度为2的名词"
+    },
+    {
+        "query": "， v 排斥",
+        "description": "逗号后面接一个动词"
+    },
+    {
+        "query": "个人 ../n 价值",
+        "description": "个人后面接名词"
+    },
+    {
+        "query": "~ 为",
+        "description": "一个词后接为"
+    },
+    {
+        "query": "振长空 (n) 视线{end($1)=[防 传 腰 团]}",
+        "description": "振长空后面接名词，但不接防、传、腰或团"
+    },
+    {
+        "query": "(v) 协同{len($1)!=4}",
+        "description": "动词后面接协同，但协同不是四个字"
+    },
+    {
+        "query": "斗智斗勇 (w){count<372}",
+        "description": "斗智斗勇，实例数量少于372个"
+    },
+    {
+        "query": "v v",
+        "description": "两个连续的动词"
+    },
+    {
+        "query": "说 ~",
+        "description": "说后面接一个词"
+    },
+    {
+        "query": "对手 (l){end($1)!=[去 嫩 根]}",
+        "description": "对手后面不接去、嫩或根"
+    },
+    {
+        "query": "./[u v] 褒奖电",
+        "description": "单音节词或动词后面接褒奖电"
+    },
+    {
+        "query": "， (d) 制胜{count>7}",
+        "description": "逗号后面接制胜，且实例数量大于7"
+    },
+    {
+        "query": "n 喙",
+        "description": "名词后面接喙"
+    },
+    {
+        "query": "一 (q) ，{count<791}",
+        "description": "一后面接逗号，且实例数量少于791个"
+    },
+    {
+        "query": "岂止 ./p 战场",
+        "description": "岂止后面接战场"
+    },
+    {
+        "query": "要 ./p 战机",
+        "description": "要后面接战机"
+    },
+    {
+        "query": "他们 (d) 下定决心{begin($1)=[暗 咯 言 抽]}",
+        "description": "他们后面接下定决心，且决心不是暗、咯、言或抽开头"
+    },
+    {
+        "query": "飞行员 .. 倒",
+        "description": "飞行员后面接一个词，但不接倒"
+    },
+    {
+        "query": "地 降落/v 在",
+        "description": "地后面接降落，降落后面接在"
+    },
+    {
+        "query": "牺牲 v 在",
+        "description": "牺牲后面接一个动词"
+    },
+    {
+        "query": "满月 (w) 枕{count>5}",
+        "description": "满月后面接枕头，实例数量大于5"
+    },
+    {
+        "query": "周海涛 参与/v 采写",
+        "description": "周海涛后面参与动词采写"
+    },
+    {
+        "query": "作者 (v) 兰州{len($1)!=2}",
+        "description": "作者后面接兰州，但兰州不是两个字"
+    },
+    {
+        "query": ".. 很",
+        "description": "两个词后面接很"
+    }
+]
+```

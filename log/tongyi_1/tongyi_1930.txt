@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "明显 w",
+        "description": "明显后跟一个词"
+    },
+    {
+        "query": "不 (v) ？{len($1)=1}",
+        "description": "不后跟一个单音节动词，并以问号结尾"
+    },
+    {
+        "query": "的 (n) 取向{begin($1)=[价 懒 撞 如]}",
+        "description": "的后面接取向，且取向词的开始可能是价、懒、撞或如"
+    },
+    {
+        "query": "何 ~/[c v] 来",
+        "description": "何后跟一个词，可能是连词或动词"
+    },
+    {
+        "query": "(l){count>8}",
+        "description": "满足频次限制，至少出现9次"
+    },
+    {
+        "query": "图片 ~/[n v] ：",
+        "description": "图片后跟一个名词或动词，后面是冒号"
+    },
+    {
+        "query": "../[v v] ：",
+        "description": "连续的两个动词后跟冒号"
+    },
+    {
+        "query": "(v) (v){len($2)<3}",
+        "description": "两个动词，第二个动词长度小于3"
+    },
+    {
+        "query": "上访 (v){begin($1)=[观 新]}",
+        "description": "上访后接的动词开始可能是观或新"
+    },
+    {
+        "query": "这/r 在 过去 连 想 都 不 敢/v",
+        "description": "这后接一个代词，然后是连词、过去、连词、想、都不、动词"
+    },
+    {
+        "query": "是 (ns) 的{end($1)!=[答 爱]}",
+        "description": "是后接一个地名，且地名后不是答或爱"
+    },
+    {
+        "query": "这次 (d) 给{begin($1)=[一 寄 炒]}",
+        "description": "这次后接一个副词，且副词开始可能是一、寄或炒"
+    },
+    {
+        "query": "教师 ./[v v] 本",
+        "description": "教师后接一个动词或动词，后面是本"
+    },
+    {
+        "query": ".. 大计",
+        "description": "连续的两个词，第二个词可能是大计"
+    },
+    {
+        "query": "老师 (l) 的{middle($1)=[不 去 换 烂]}",
+        "description": "老师后接一个代词，代词的中间可能是不、去、换或烂"
+    },
+    {
+        "query": "老师 (u) 根本{len($1)=1}",
+        "description": "老师后接一个代词，代词长度为1"
+    },
+    {
+        "query": "./v 成为 好 老师 的 前提 ./w",
+        "description": "动词后接成为、好、老师、的、前提，后面是句首的词"
+    },
+    {
+        "query": "(v) (v){end($2)!=[于 影]}",
+        "description": "两个动词，第二个动词末尾不是于或影"
+    },
+    {
+        "query": "仁爱 @ 心",
+        "description": "仁爱后接一个词，统计时按照词性归并"
+    },
+    {
+        "query": "要 (s) 有{count>8}",
+        "description": "要后跟一个量词，至少出现9次"
+    },
+    {
+        "query": "， @ 心中",
+        "description": "逗号后接一个词，统计时按照词性归并"
+    },
+    {
+        "query": "是/v 责任 和/c",
+        "description": "是后接一个动词，动词后是责任和连词"
+    },
+    {
+        "query": "满腔 ad 培养",
+        "description": "满腔后接形容词，然后是培养"
+    },
+    {
+        "query": "， . 重",
+        "description": "逗号后接一个词，后面是句尾符号"
+    },
+    {
+        "query": "师范 ../n 党委",
+        "description": "师范后接一个动词，动词后接名词党委"
+    },
+    {
+        "query": "的 @ ？",
+        "description": "的后接一个词，统计时按照词性归并，后面是问号"
+    },
+    {
+        "query": "为 (ns) 大学{count>8}",
+        "description": "为后接一个地名，至少出现9次"
+    },
+    {
+        "query": "(r) 宪法{len($1)>1}",
+        "description": "一个词，词长超过1，可能是宪法"
+    },
+    {
+        "query": "的 (n){len($1)<4}",
+        "description": "的后面接一个长度小于4的名词"
+    },
+    {
+        "query": "带来 . 制度",
+        "description": "带来后接一个词，后面是句尾符号"
+    },
+    {
+        "query": "在 @/[v v] 中",
+        "description": "在后接一个词，可能是动词或动词，后面是中"
+    },
+    {
+        "query": "../v 制度 变革 ./u",
+        "description": "连续的两个动词后接制度、变革，后面是句尾符号"
+    },
+    {
+        "query": "借鉴",
+        "description": "单独的借鉴"
+    },
+    {
+        "query": "(n) 共存 (d){begin($1)!=[各 动 让]}",
+        "description": "两个名词，第二个名词前的词不是各、动或让"
+    },
+    {
+        "query": "(v) 制度{len($1)<3}",
+        "description": "一个动词后接制度，动词长度小于3"
+    },
+    {
+        "query": "为 @ 党校",
+        "description": "为后接一个词，统计时按照词性归并"
+    },
+    {
+        "query": "为 (n) 提供{end($1)!=[词 哼 敏 站]}",
+        "description": "为后接一个名词，名词后不是词、哼、敏或站"
+    },
+    {
+        "query": "说 。/w",
+        "description": "说后接句尾符号"
+    },
+    {
+        "query": "(v) (w){len($1)!=3}",
+        "description": "两个词，第二个词不是长度为3"
+    },
+    {
+        "query": "清流 (w) 解陇中之渴{count<834}",
+        "description": "清流后接一个词，词频小于834，可能是解陇中之渴"
+    }
+]
+```

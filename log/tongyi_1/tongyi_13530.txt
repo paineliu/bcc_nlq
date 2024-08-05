@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "说 。/w",
+        "description": "说后跟一个空格，然后是一个标点符号"
+    },
+    {
+        "query": "小牛 (n) 说{len($1)<3}",
+        "description": "小牛后面跟着一个长度小于3的词"
+    },
+    {
+        "query": "黄纪凯 . 。",
+        "description": "黄纪凯后面接一个点和一个句号"
+    },
+    {
+        "query": "政治 算计/v 几时",
+        "description": "政治算计后面接'几时'"
+    },
+    {
+        "query": "(ns) 籍{len($1)>1}",
+        "description": "一个地名后面接一个长度大于1的词"
+    },
+    {
+        "query": "n 多多",
+        "description": "名词多多"
+    },
+    {
+        "query": "王尧 (nr){end($1)!=[射 屋 妹]}",
+        "description": "王尧后面接的不是'射'、'屋'或'妹'"
+    },
+    {
+        "query": "展板 @/[f v] 。",
+        "description": "展板后面接'f'或'v'，后面跟一个句点"
+    },
+    {
+        "query": "(u) 航海 (n){$1!=$2}",
+        "description": "航海后面接一个名词，但这个名词不能与航海相同"
+    },
+    {
+        "query": "从 (t) 到{len($1)=2}",
+        "description": "从后面接一个长度为2的词"
+    },
+    {
+        "query": "了 .",
+        "description": "了后面接一个句点"
+    },
+    {
+        "query": "的 ../n 先行者",
+        "description": "的后面接一个名词，且名词是先行者"
+    },
+    {
+        "query": "(n) 变化 巴黎 大会 进入 (vn){len($1)>1; begin($2)!=[倒 服 抓 好]}",
+        "description": "变化后面接巴黎大会进入，且'进入'不是'倒'、'服'、'抓'或'好'"
+    },
+    {
+        "query": "进程",
+        "description": "进程"
+    },
+    {
+        "query": "倒计时 ../d 开始",
+        "description": "倒计时后面接'd'开头的词"
+    },
+    {
+        "query": "意愿 ./[c v] 自主",
+        "description": "意愿后面接一个'c'或'v'开头的词，再接自主"
+    },
+    {
+        "query": "积极 (n){end($1)=[果 准 双 理]}",
+        "description": "积极后面接以'果'、'准'、'双'或'理'结尾的词"
+    },
+    {
+        "query": "(j) 政党 论坛 首次 (n){len($1)!=2}",
+        "description": "政党论坛首次后面接一个长度不为2的名词"
+    },
+    {
+        "query": "@ 最后",
+        "description": "最后"
+    },
+    {
+        "query": "大屠杀 (u) 历史{count>5}",
+        "description": "大屠杀后面接历史，且历史实例频次大于5"
+    },
+    {
+        "query": "记者 说/v 。",
+        "description": "记者后面接'说'，然后是一个句点"
+    },
+    {
+        "query": "不少/m 日本",
+        "description": "不少后面接一个量词，再接日本"
+    },
+    {
+        "query": "../ns 首家",
+        "description": "一个词后面接'ns'开头的词，且是首个"
+    },
+    {
+        "query": "是 (r) 管{begin($1)!=[伤 口]}",
+        "description": "是后面接'管'，且'管'前面的词不是'伤'、'口'"
+    },
+    {
+        "query": "改变 ../n",
+        "description": "改变后面接一个名词"
+    },
+    {
+        "query": "记者 ./[nr v] 懿春",
+        "description": "记者后面接人名或动词，再接懿春"
+    },
+    {
+        "query": "./c 纯粹",
+        "description": "一个词后面接'c'开头的词，纯粹"
+    },
+    {
+        "query": "(n) 稀少{begin($1)=[交 消 尼]}",
+        "description": "名词稀少，且'稀少'前面的词是'交'、'消'或'尼'"
+    },
+    {
+        "query": "(r) 驻{begin($1)=[本 敢 删 男]}",
+        "description": "驻后面接的词是'本'、'敢'、'删'或'男'"
+    },
+    {
+        "query": "韩国 (l) ？{len($1)=2}",
+        "description": "韩国后面接一个长度为2的词，且是问号"
+    },
+    {
+        "query": "(d) 不是{count>6}",
+        "description": "不是后面接的实例频次大于6"
+    },
+    {
+        "query": "力度 @/[w v] 的确",
+        "description": "力度后面接'w'或'v'开头的词，然后是的确"
+    },
+    {
+        "query": "扰民 ../[n v]",
+        "description": "扰民后面接名词或动词"
+    },
+    {
+        "query": "(r) 驻 德国 记者 冯 (nr){len($1)<3; len($2)>1}",
+        "description": "驻后面接德国，然后是记者冯，其中记者冯的长度大于1且小于3"
+    },
+    {
+        "query": "记者",
+        "description": "记者"
+    },
+    {
+        "query": "， (n) 向{begin($1)=[记 由 尼]}",
+        "description": "逗号后面接一个名词，且名词的开始是'记'、'由'或'尼'"
+    },
+    {
+        "query": "邻居 (d) 老实{begin($1)=[终 照 听]}",
+        "description": "邻居后面接老实，且老实前面的词是'终'、'照'或'听'"
+    },
+    {
+        "query": "强调 w",
+        "description": "强调后面接一个字"
+    },
+    {
+        "query": "可能 ~/[v v]",
+        "description": "可能后面接两个连续的动词"
+    },
+    {
+        "query": "记者 (nr){end($1)=[泓 工 枪]}",
+        "description": "记者后面接的人名以'泓'、'工'或'枪'结尾"
+    }
+]
+```

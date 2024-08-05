@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "可算v",
+        "description": "可算之后接动词"
+    },
+    {
+        "query": "制造n",
+        "description": "制造之后接名词"
+    },
+    {
+        "query": "a劝说",
+        "description": "形容词之后接劝说"
+    },
+    {
+        "query": "a反思",
+        "description": "形容词之后接反思"
+    },
+    {
+        "query": "还V呢",
+        "description": "还之后接动词，后面跟着呢"
+    },
+    {
+        "query": "a剪彩",
+        "description": "形容词之后接剪彩"
+    },
+    {
+        "query": "格外a+n",
+        "description": "格外之后接形容词加名词"
+    },
+    {
+        "query": "格外a n",
+        "description": "格外之后接形容词，后面跟着一个空格，再接名词"
+    },
+    {
+        "query": "a乡亲",
+        "description": "形容词之后接乡亲"
+    },
+    {
+        "query": "在N外罩",
+        "description": "在之后接处所词，外罩作为补语"
+    },
+    {
+        "query": "无论a还a",
+        "description": "无论之后接形容词，还之后接形容词"
+    },
+    {
+        "query": "要V",
+        "description": "要之后接动词"
+    },
+    {
+        "query": "在+n+下",
+        "description": "在之后接名词，后接下"
+    },
+    {
+        "query": "在 n 下",
+        "description": "在之后接名词，后面跟着一个空格，再接下"
+    },
+    {
+        "query": "白白v+v了",
+        "description": "白白之后接动词，动词之后接v了"
+    },
+    {
+        "query": "白白v v了",
+        "description": "白白之后接动词，动词之后接动词，最后接v了"
+    },
+    {
+        "query": "挺有n",
+        "description": "挺之后接形容词，有之后接名词"
+    },
+    {
+        "query": "经历+d",
+        "description": "经历之后接动词"
+    },
+    {
+        "query": "经历 d",
+        "description": "经历之后接名词"
+    },
+    {
+        "query": "n状",
+        "description": "名词之后接状语"
+    },
+    {
+        "query": "效果a",
+        "description": "形容词之后接效果"
+    },
+    {
+        "query": "不+v",
+        "description": "不之后接动词"
+    },
+    {
+        "query": "不 v",
+        "description": "不之后接动词"
+    },
+    {
+        "query": "v一想",
+        "description": "动词之后接一想"
+    },
+    {
+        "query": "担心n",
+        "description": "担心之后接名词"
+    },
+    {
+        "query": "有n+v",
+        "description": "有之后接名词，动词"
+    },
+    {
+        "query": "有n v",
+        "description": "有之后接名词，动词"
+    },
+    {
+        "query": "a产品",
+        "description": "形容词之后接产品"
+    },
+    {
+        "query": "一所n",
+        "description": "一个之后接名词"
+    },
+    {
+        "query": "a发病",
+        "description": "形容词之后接发病"
+    },
+    {
+        "query": "n哥",
+        "description": "名词之后接哥"
+    },
+    {
+        "query": "有+q+n+v",
+        "description": "有之后接量词，名词，动词"
+    },
+    {
+        "query": "有 q n v",
+        "description": "有之后接量词，名词，动词"
+    },
+    {
+        "query": "a人群",
+        "description": "形容词之后接人群"
+    },
+    {
+        "query": "n了一下",
+        "description": "名词之后接了一下"
+    },
+    {
+        "query": "百般a",
+        "description": "形容词之后接百般"
+    },
+    {
+        "query": "a叫唤",
+        "description": "形容词之后接叫唤"
+    },
+    {
+        "query": "v或v",
+        "description": "动词之后接或，之后再接动词"
+    },
+    {
+        "query": "V满",
+        "description": "动词之后接满"
+    },
+    {
+        "query": "a义务",
+        "description": "形容词之后接义务"
+    }
+]
+```

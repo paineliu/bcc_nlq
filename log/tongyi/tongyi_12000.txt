@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "立体v+n[，+。]",
+        "description": "立体动词后接名词，名词后可能接逗号或句号"
+    },
+    {
+        "query": "立体v n[， 。]",
+        "description": "立体动词后接名词，名词后可能接逗号或句号"
+    },
+    {
+        "query": "一道v+y[，+。]",
+        "description": "一道动词后接y，y后可能接逗号或句号"
+    },
+    {
+        "query": "一道v y[， 。]",
+        "description": "一道动词后接y，y后可能接逗号或句号"
+    },
+    {
+        "query": "难以v[，+。]",
+        "description": "难以动词后可能接逗号或句号"
+    },
+    {
+        "query": "难以v[， 。]",
+        "description": "难以动词后可能接逗号或句号"
+    },
+    {
+        "query": "w[q+r+d+c+v+a++n+m++p]祸.福w",
+        "description": "以w开头，后接由q、r、d、c、v、a、n、m、p构成的序列，序列后接祸.福，w结尾"
+    },
+    {
+        "query": "w[q r d c v a  n m  p]祸.福w",
+        "description": "以w开头，后接由q、r、d、c、v、a、n、m、p构成的序列，序列后接祸.福，w结尾"
+    },
+    {
+        "query": "持续[v+a+n+r][，+。]",
+        "description": "持续动词后接a、n、r，序列后可能接逗号或句号"
+    },
+    {
+        "query": "持续[v a n r][， 。]",
+        "description": "持续动词后接a、n、r，序列后可能接逗号或句号"
+    },
+    {
+        "query": "[敲+再生+拽+维护+套+发表+返]个",
+        "description": "由敲、再生、拽、维护、套、发表、返组成的序列后接一个单位"
+    },
+    {
+        "query": "[敲 再生 拽 维护 套 发表 返]个",
+        "description": "由敲、再生、拽、维护、套、发表、返组成的序列后接一个单位"
+    },
+    {
+        "query": "不用[v+a+n+r][，+。]",
+        "description": "不用动词后接a、n、r，序列后可能接逗号或句号"
+    },
+    {
+        "query": "不用[v a n r][， 。]",
+        "description": "不用动词后接a、n、r，序列后可能接逗号或句号"
+    },
+    {
+        "query": "一起d+a[，+。]",
+        "description": "一起动词后接a，a后可能接逗号或句号"
+    },
+    {
+        "query": "一起d a[， 。]",
+        "description": "一起动词后接a，a后可能接逗号或句号"
+    },
+    {
+        "query": "如[n+v+vn+an+nr+ns+nt+nz+r]a",
+        "description": "如后接名词、动词、动名词、形容词、名词、地名、机构团体名、其他专名、形容词，序列后接a"
+    },
+    {
+        "query": "如[n v vn an nr ns nt nz r]a",
+        "description": "如后接名词、动词、动名词、形容词、名词、地名、机构团体名、其他专名、形容词，序列后接a"
+    },
+    {
+        "query": "不禁d+a[，+。]",
+        "description": "不禁动词后接a，a后可能接逗号或句号"
+    },
+    {
+        "query": "不禁d a[， 。]",
+        "description": "不禁动词后接a，a后可能接逗号或句号"
+    },
+    {
+        "query": "逐步d+n[，+。]",
+        "description": "逐步动词后接名词，名词后可能接逗号或句号"
+    },
+    {
+        "query": "逐步d n[， 。]",
+        "description": "逐步动词后接名词，名词后可能接逗号或句号"
+    },
+    {
+        "query": "万万v+n[，+。]",
+        "description": "万万动词后接名词，名词后可能接逗号或句号"
+    },
+    {
+        "query": "万万v n[， 。]",
+        "description": "万万动词后接名词，名词后可能接逗号或句号"
+    },
+    {
+        "query": "n很低[，+。]",
+        "description": "名词后接很低，很低后可能接逗号或句号"
+    },
+    {
+        "query": "n很低[， 。]",
+        "description": "名词后接很低，很低后可能接逗号或句号"
+    },
+    {
+        "query": "就是v[，+。]",
+        "description": "就是动词后可能接逗号或句号"
+    },
+    {
+        "query": "就是v[， 。]",
+        "description": "就是动词后可能接逗号或句号"
+    },
+    {
+        "query": "简直v+a[，+。]",
+        "description": "简直动词后接a，a后可能接逗号或句号"
+    },
+    {
+        "query": "简直v a[， 。]",
+        "description": "简直动词后接a，a后可能接逗号或句号"
+    },
+    {
+        "query": "不可d+n[，+。]",
+        "description": "不可动词后接名词，名词后可能接逗号或句号"
+    },
+    {
+        "query": "不可d n[， 。]",
+        "description": "不可动词后接名词，名词后可能接逗号或句号"
+    },
+    {
+        "query": "胡乱v+v[，+。]",
+        "description": "胡乱动词后接另一个胡乱动词，两个动词后可能接逗号或句号"
+    },
+    {
+        "query": "胡乱v v[， 。]",
+        "description": "胡乱动词后接另一个胡乱动词，两个动词后可能接逗号或句号"
+    },
+    {
+        "query": "反而d+a[，+。]",
+        "description": "反而动词后接a，a后可能接逗号或句号"
+    },
+    {
+        "query": "反而d a[， 。]",
+        "description": "反而动词后接a，a后可能接逗号或句号"
+    },
+    {
+        "query": "时刻a[，+。]",
+        "description": "时刻后接a，a后可能接逗号或句号"
+    },
+    {
+        "query": "时刻a[， 。]",
+        "description": "时刻后接a，a后可能接逗号或句号"
+    },
+    {
+        "query": "正巧n[，+。]",
+        "description": "正巧后接名词，名词后可能接逗号或句号"
+    },
+    {
+        "query": "正巧n[， 。]",
+        "description": "正巧后接名词，名词后可能接逗号或句号"
+    }
+]
+```

@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "令人吃惊的是",
+        "description": "包含\"令人\"和\"吃惊的是\"的句子"
+    },
+    {
+        "query": "脸色一变",
+        "description": "脸色之后跟着\"一变\""
+    },
+    {
+        "query": "看把",
+        "description": "\"看\"后面跟\"把\""
+    },
+    {
+        "query": "插曲",
+        "description": "独立词汇\"插曲\""
+    },
+    {
+        "query": "开了倒车",
+        "description": "\"开\"后面跟着\"了倒车\""
+    },
+    {
+        "query": "和谐·稳",
+        "description": "\"和谐\"与\"稳\"通过特殊符号连接"
+    },
+    {
+        "query": "可见",
+        "description": "独立词汇\"可见\""
+    },
+    {
+        "query": "导向",
+        "description": "独立词汇\"导向\""
+    },
+    {
+        "query": "和谐党称",
+        "description": "\"和谐\"后面跟着\"党称\""
+    },
+    {
+        "query": "和谐之岸",
+        "description": "\"和谐\"后面跟着\"之岸\""
+    },
+    {
+        "query": "第三手",
+        "description": "独立词汇\"第三手\""
+    },
+    {
+        "query": "和谐力量",
+        "description": "\"和谐\"后面跟着\"力量\""
+    },
+    {
+        "query": "和谐犹如",
+        "description": "\"和谐\"后面跟着\"犹如\""
+    },
+    {
+        "query": "人权祖",
+        "description": "独立词汇\"人权祖\""
+    },
+    {
+        "query": "不太雅观",
+        "description": "\"不太\"后面跟着\"雅观\""
+    },
+    {
+        "query": "旁大",
+        "description": "独立词汇\"旁大\""
+    },
+    {
+        "query": "反弹",
+        "description": "独立词汇\"反弹\""
+    },
+    {
+        "query": "不太合身",
+        "description": "\"不太\"后面跟着\"合身\""
+    },
+    {
+        "query": "呆滞",
+        "description": "独立词汇\"呆滞\""
+    },
+    {
+        "query": "、增和谐",
+        "description": "使用特殊符号\"、\"连接\"增和谐\""
+    },
+    {
+        "query": "大红花",
+        "description": "独立词汇\"大红花\""
+    },
+    {
+        "query": "风云变幻",
+        "description": "独立词汇\"风云变幻\""
+    },
+    {
+        "query": "时间是魔法",
+        "description": "\"时间\"后面跟着\"是魔法\""
+    },
+    {
+        "query": "蛙泳",
+        "description": "独立词汇\"蛙泳\""
+    },
+    {
+        "query": "拎",
+        "description": "独立词汇\"拎\""
+    },
+    {
+        "query": "升华",
+        "description": "独立词汇\"升华\""
+    },
+    {
+        "query": "溶化",
+        "description": "独立词汇\"溶化\""
+    },
+    {
+        "query": "笑破",
+        "description": "\"笑\"后面跟着\"破\""
+    },
+    {
+        "query": "减少",
+        "description": "独立词汇\"减少\""
+    },
+    {
+        "query": "金枝玉叶",
+        "description": "独立词汇\"金枝玉叶\""
+    },
+    {
+        "query": "暖",
+        "description": "独立词汇\"暖\""
+    },
+    {
+        "query": "恣睢暴戾",
+        "description": "\"恣睢\"后面跟着\"暴戾\""
+    },
+    {
+        "query": "小龙女",
+        "description": "独立词汇\"小龙女\""
+    },
+    {
+        "query": "横行霸道",
+        "description": "独立词汇\"横行霸道\""
+    },
+    {
+        "query": "芒果",
+        "description": "独立词汇\"芒果\""
+    },
+    {
+        "query": "娱乐活动",
+        "description": "\"娱乐\"后面跟着\"活动\""
+    },
+    {
+        "query": "剪破",
+        "description": "\"剪\"后面跟着\"破\""
+    },
+    {
+        "query": "一方面",
+        "description": "独立词汇\"一方面\""
+    },
+    {
+        "query": "应该说，",
+        "description": "\"应该说\"后面跟句号"
+    },
+    {
+        "query": "套",
+        "description": "独立词汇\"套\""
+    }
+]
+```

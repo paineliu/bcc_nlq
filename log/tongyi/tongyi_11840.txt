@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "从小v+u[，+。]", 
+        "description":"从小时候动词+u+逗号或句号"
+    },
+    {
+        "query": "从小v u[， 。]", 
+        "description":"从小时候动词+u+逗号或句号"
+    },
+    {
+        "query": "大力[v+a+n+r][，+。]", 
+        "description":"大力+形容词+名词+动词+逗号或句号"
+    },
+    {
+        "query": "大力[v a n r][， 。]", 
+        "description":"大力+逗号或句号+形容词+名词+动词"
+    },
+    {
+        "query": "口头v[，+。]", 
+        "description":"口头+动词+逗号或句号"
+    },
+    {
+        "query": "口头v[， 。]", 
+        "description":"口头+逗号或句号+动词"
+    },
+    {
+        "query": "从未d+a[，+。]", 
+        "description":"从未+副词+形容词+逗号或句号"
+    },
+    {
+        "query": "从未d a[， 。]", 
+        "description":"从未+逗号或句号+副词+形容词"
+    },
+    {
+        "query": "极度[v+a+n+r][，+。]", 
+        "description":"极度+动词+形容词+名词+逗号或句号"
+    },
+    {
+        "query": "极度[v a n r][， 。]", 
+        "description":"极度+逗号或句号+动词+形容词+名词"
+    },
+    {
+        "query": "[，+。]+v+p+n+f+[，+。]", 
+        "description":"逗号或句号+动词+助词+名词+功能词+逗号或句号"
+    },
+    {
+        "query": "[， 。] v p n f [， 。]", 
+        "description":"逗号或句号+动词+助词+名词+功能词+逗号或句号"
+    },
+    {
+        "query": "v得+u+a+[，+。]", 
+        "description":"动词+得+u+副词+逗号或句号"
+    },
+    {
+        "query": "v得 u a [， 。]", 
+        "description":"动词+得+逗号或句号+u+副词"
+    },
+    {
+        "query": "必定v+v[，+。]", 
+        "description":"必定+动词+必定+动词+逗号或句号"
+    },
+    {
+        "query": "必定v v[， 。]", 
+        "description":"必定+逗号或句号+动词+必定+动词"
+    },
+    {
+        "query": "连续a[，+。]", 
+        "description":"连续+副词+逗号或句号"
+    },
+    {
+        "query": "连续a[， 。]", 
+        "description":"连续+逗号或句号+副词"
+    },
+    {
+        "query": "的r+q+n[，+。]", 
+        "description":"的+助词+量词+名词+逗号或句号"
+    },
+    {
+        "query": "的r q n[， 。]", 
+        "description":"的+助词+量词+名词+逗号或句号"
+    },
+    {
+        "query": "[，+。]p+a+d+[，+。]", 
+        "description":"逗号或句号+助词+形容词+动词+逗号或句号"
+    },
+    {
+        "query": "[， 。]p a d [， 。]", 
+        "description":"逗号或句号+助词+形容词+动词+逗号或句号"
+    },
+    {
+        "query": "在[v+vn]+w", 
+        "description":"在+动词或动名词+名词"
+    },
+    {
+        "query": "在[v vn] w", 
+        "description":"在+动词或动名词+w"
+    },
+    {
+        "query": "亲眼a[，+。]", 
+        "description":"亲眼+副词+逗号或句号"
+    },
+    {
+        "query": "亲眼a[， 。]", 
+        "description":"亲眼+逗号或句号+副词"
+    },
+    {
+        "query": "w浮.沉[q+r+d+c+v+a++n+m++p]w", 
+        "description":"w+浮.沉+q+r+d+c+v+a++n+m++p+w"
+    },
+    {
+        "query": "w浮.沉[q r d c v a  n m  p]w", 
+        "description":"w+浮.沉+q r d c v a  n m  p+w"
+    },
+    {
+        "query": "照例v[v+a+n+r][，+。]", 
+        "description":"照例+动词+形容词+名词+动词+逗号或句号"
+    },
+    {
+        "query": "照例v[v a n r][， 。]", 
+        "description":"照例+动词+形容词+名词+动词+逗号或句号"
+    },
+    {
+        "query": "快速v+n[，+。]", 
+        "description":"快速+动词+名词+逗号或句号"
+    },
+    {
+        "query": "快速v n[， 。]", 
+        "description":"快速+逗号或句号+动词+名词"
+    },
+    {
+        "query": "n时节[，+。]", 
+        "description":"n+时节+逗号或句号"
+    },
+    {
+        "query": "n时节[， 。]", 
+        "description":"n+时节+逗号或句号"
+    },
+    {
+        "query": "只好d+v[，+。]", 
+        "description":"只好+副词+动词+逗号或句号"
+    },
+    {
+        "query": "只好d v[， 。]", 
+        "description":"只好+逗号或句号+副词+动词"
+    },
+    {
+        "query": "早已v[v+a+n+r][，+。]", 
+        "description":"早已+动词+形容词+名词+动词+逗号或句号"
+    },
+    {
+        "query": "早已v[v a n r][， 。]", 
+        "description":"早已+动词+形容词+名词+动词+逗号或句号"
+    },
+    {
+        "query": "[早已+长年+长期][v+a+n+r][，+。]", 
+        "description":"早已+长年+长期+动词+形容词+名词+动词+逗号或句号"
+    },
+    {
+        "query": "[早已 长年 长期][v a n r][， 。]", 
+        "description":"早已+长年+长期+动词+形容词+名词+动词+逗号或句号"
+    }
+]
+```

@@ -1,0 +1,166 @@
+以下是将给定检索式转换为带含义的json结构后的完整列表：
+
+```json
+[
+    {
+        "query": "三/m+：+国旗/n",
+        "description": "三/m作为前置修饰词，后接国旗/n"
+    },
+    {
+        "query": "三/m ： 国旗/n",
+        "description": "三/m作为后置修饰词，前接冒号，后接国旗/n"
+    },
+    {
+        "query": "化石+猴/n+。",
+        "description": "化石作为前置修饰词，后接猴/n，最后以句号结尾"
+    },
+    {
+        "query": "化石 猴/n 。",
+        "description": "化石和猴/n作为并列的词语，最后以句号结尾"
+    },
+    {
+        "query": "表现/v",
+        "description": "表现作为动词"
+    },
+    {
+        "query": "违规+的/u+网站",
+        "description": "违规作为前置修饰词，后接的/u作为前置修饰词，最后接网站"
+    },
+    {
+        "query": "违规 的/u 网站",
+        "description": "违规作为前置修饰词，的/u作为前置修饰词，最后接网站"
+    },
+    {
+        "query": "曼妙/a+的",
+        "description": "曼妙/a作为前置修饰词，后接的"
+    },
+    {
+        "query": "曼妙/a 的",
+        "description": "曼妙/a作为前置修饰词，最后接的"
+    },
+    {
+        "query": "甜/a",
+        "description": "甜/a作为形容词"
+    },
+    {
+        "query": "吮/v",
+        "description": "吮/v作为动词"
+    },
+    {
+        "query": "把*+./v+一+./v",
+        "description": "把作为前置修饰词，后接./v作为动词，中间以空格分隔，然后再次接./v作为动词"
+    },
+    {
+        "query": "把* ./v 一 ./v",
+        "description": "把作为前置修饰词，后接./v作为动词，中间以空格分隔，然后再次接./v作为动词"
+    },
+    {
+        "query": "./v困了",
+        "description": "作为动词的./v后接困了"
+    },
+    {
+        "query": "宁波+大学生/n+扶助",
+        "description": "宁波作为前置修饰词，后接大学生/n，最后接扶助"
+    },
+    {
+        "query": "宁波 大学生/n 扶助",
+        "description": "宁波和大学生/n作为并列的词语，最后接扶助"
+    },
+    {
+        "query": "第四十五+条/q",
+        "description": "第四十五作为前置修饰词，后接条/q"
+    },
+    {
+        "query": "第四十五 条/q",
+        "description": "第四十五作为前置修饰词，最后接条/q"
+    },
+    {
+        "query": "河南/ns+的",
+        "description": "河南/ns作为前置修饰词，后接的"
+    },
+    {
+        "query": "河南/ns 的",
+        "description": "河南/ns作为前置修饰词，最后接的"
+    },
+    {
+        "query": "文化+遗产/n+的",
+        "description": "文化作为前置修饰词，后接遗产/n，最后接的"
+    },
+    {
+        "query": "文化 遗产/n 的",
+        "description": "文化和遗产/n作为并列的词语，最后接的"
+    },
+    {
+        "query": "既来之则安之/c+，",
+        "description": "既来之则安之/c作为前置修饰词，后接，"
+    },
+    {
+        "query": "既来之则安之/c ，",
+        "description": "既来之则安之/c作为前置修饰词，最后接，"
+    },
+    {
+        "query": "./v复杂了",
+        "description": "作为动词的./v后接复杂了"
+    },
+    {
+        "query": "爱心/n+v",
+        "description": "爱心/n作为前置修饰词，后接v"
+    },
+    {
+        "query": "爱心/n v",
+        "description": "爱心/n作为前置修饰词，最后接v"
+    },
+    {
+        "query": "马上/d+就+v",
+        "description": "马上/d作为前置修饰词，后接就+v"
+    },
+    {
+        "query": "马上/d 就 v",
+        "description": "马上/d作为前置修饰词，最后接就+v"
+    },
+    {
+        "query": "易纲/nr+说+。/w",
+        "description": "易纲/nr作为前置修饰词，后接说+。/w"
+    },
+    {
+        "query": "易纲/nr 说 。/w",
+        "description": "易纲/nr作为前置修饰词，最后接说+。/w"
+    },
+    {
+        "query": "n+兴致/n",
+        "description": "n作为前置修饰词，后接兴致/n"
+    },
+    {
+        "query": "n 兴致/n",
+        "description": "n作为前置修饰词，最后接兴致/n"
+    },
+    {
+        "query": "本期/r+统筹+：+许诺/v",
+        "description": "本期/r作为前置修饰词，后接统筹+：+许诺/v"
+    },
+    {
+        "query": "本期/r 统筹 ： 许诺/v",
+        "description": "本期/r作为前置修饰词，最后接统筹 ： 许诺/v"
+    },
+    {
+        "query": "放/v+../n+",
+        "description": "放/v作为前置修饰词，后接../n+"
+    },
+    {
+        "query": "放/v ../n ",
+        "description": "放/v作为前置修饰词，最后接../n "
+    },
+    {
+        "query": "文化/n+建设+促/v",
+        "description": "文化/n作为前置修饰词，后接建设+促/v"
+    },
+    {
+        "query": "文化/n 建设 促/v",
+        "description": "文化/n作为前置修饰词，最后接建设 促/v"
+    },
+    {
+        "query": "，+不/d+搞",
+        "description": "逗号开头，不/d作为前置修饰词，最后接搞"
+    }
+]
+```

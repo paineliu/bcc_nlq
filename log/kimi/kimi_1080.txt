@@ -1,0 +1,86 @@
+以下是根据提供的检索式及其含义，转换为带含义的JSON结构列表：
+
+```json
+[
+    {
+        "query": "../[ns v] 创新",
+        "description": "地名或动词后接创新"
+    },
+    {
+        "query": "中国",
+        "description": "包含中国的句子"
+    },
+    {
+        "query": "(b) 会议 有关 (n){middle($1)!=[罗 昨 火 喊]}",
+        "description": "副词后接会议，有关，名词，且名词中间不包含罗、昨、火、喊"
+    },
+    {
+        "query": "战略 .. 。",
+        "description": "战略后跟两个任意字符，然后是句号"
+    },
+    {
+        "query": "(ad) (v){begin($1)!=[吊 严]}",
+        "description": "副形词后接动词，动词不以吊或严开始"
+    },
+    {
+        "query": "是 ../[r v] ？",
+        "description": "是后接二字代词或动词，然后是问号"
+    },
+    {
+        "query": "众 ../vn ．",
+        "description": "众后接二字动名词，然后是句号"
+    },
+    {
+        "query": "@ 四风",
+        "description": "四风，统计时按照词性归并"
+    },
+    {
+        "query": "围绕 (n){begin($1)!=[区 梁 菜 周]}",
+        "description": "围绕后接名词，名词不以区、梁、菜、周开始"
+    },
+    {
+        "query": "冰冻三尺非一日之寒 @",
+        "description": "检索整个成语，统计时按照词性归并"
+    },
+    {
+        "query": "(a) (n){end($2)!=[言 唱]}",
+        "description": "形容词后接名词，名词不以言或唱结束"
+    },
+    {
+        "query": "(ad) 执纪{end($1)=[格 晓 并 开]}",
+        "description": "副形词后接执纪，执纪以格、晓、并、开结束"
+    },
+    {
+        "query": "严格 ..",
+        "description": "严格后跟两个任意字符"
+    },
+    {
+        "query": "落实 ../n",
+        "description": "落实后接单音节名词"
+    },
+    {
+        "query": "为 ~/[d v] 拼",
+        "description": "为后接一个词（任意词性），然后是拼"
+    },
+    {
+        "query": "../n 滴答",
+        "description": "二字名词后接滴答"
+    },
+    {
+        "query": "光阴似箭 ./w",
+        "description": "光阴似箭后接单字标点符号"
+    },
+    {
+        "query": "随手 ./[v v]",
+        "description": "随手后接二字动词"
+    },
+    {
+        "query": "落下 @",
+        "description": "落下，统计时按照词性归并"
+    },
+    {
+        "query": "深 ../v",
+        "description": "深后接二字动词"
+    }
+]
+```

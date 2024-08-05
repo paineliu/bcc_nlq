@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "类人权",
+        "description": "包含\"类人权\"这个词的句子"
+    },
+    {
+        "query": "简洁说",
+        "description": "包含\"简洁说\"这个词的句子"
+    },
+    {
+        "query": "网上",
+        "description": "描述在网上相关的句子"
+    },
+    {
+        "query": "老半天",
+        "description": "描述经历时间较长的动作或状态的句子"
+    },
+    {
+        "query": "思念",
+        "description": "表达思念之情的句子"
+    },
+    {
+        "query": "不太合理",
+        "description": "表达某事不合理或不恰当的句子"
+    },
+    {
+        "query": "回忆",
+        "description": "描述回忆过去事件或情景的句子"
+    },
+    {
+        "query": "取悦",
+        "description": "描述试图使他人满意或高兴的行为或动作"
+    },
+    {
+        "query": "拍",
+        "description": "描述拍照或击打等动作的句子"
+    },
+    {
+        "query": "左右",
+        "description": "描述不确定数量或位置的句子"
+    },
+    {
+        "query": "风声鹤唳",
+        "description": "比喻紧张、恐惧或谣传导致的恐慌"
+    },
+    {
+        "query": "菜不菜",
+        "description": "询问或表达对食物质量的评价"
+    },
+    {
+        "query": "差一点",
+        "description": "描述差点发生但未发生的事件或情况"
+    },
+    {
+        "query": "见恕",
+        "description": "请求原谅或道歉的表达"
+    },
+    {
+        "query": "重译",
+        "description": "描述重新翻译文本的句子"
+    },
+    {
+        "query": "去不去",
+        "description": "询问或表达是否去某地的句子"
+    },
+    {
+        "query": "出版",
+        "description": "描述出版书籍、文章或其他作品的过程或结果"
+    },
+    {
+        "query": "经过大门",
+        "description": "描述经过或路过门的句子"
+    },
+    {
+        "query": "岸然道貌",
+        "description": "形容人的外表严肃正直，内心可能并不如此"
+    },
+    {
+        "query": "不算",
+        "description": "描述未达到标准或未计入的情况"
+    },
+    {
+        "query": "总体说",
+        "description": "描述整体或总的情况或观点"
+    },
+    {
+        "query": "和谐概念",
+        "description": "描述关于和谐理念或实践的句子"
+    },
+    {
+        "query": "舌头",
+        "description": "描述涉及舌头的动作或状况"
+    },
+    {
+        "query": "和谐不断",
+        "description": "描述持续或不断追求和谐的状态或行为"
+    },
+    {
+        "query": "流金铄石",
+        "description": "形容天气非常炎热"
+    },
+    {
+        "query": "漫漫",
+        "description": "描述时间或路程漫长或无尽"
+    },
+    {
+        "query": "生，和谐",
+        "description": "描述生命与和谐共存的关系或状态"
+    },
+    {
+        "query": "姑奶奶",
+        "description": "口语中对女性的尊称或昵称"
+    },
+    {
+        "query": "不太意外",
+        "description": "描述预期之外但又不完全出乎意料的情况"
+    },
+    {
+        "query": "心不心",
+        "description": "询问或表达对某事是否关心或在意"
+    },
+    {
+        "query": "高等",
+        "description": "描述高级别、高水准或高地位的情况"
+    },
+    {
+        "query": "上",
+        "description": "描述上升、上行或到达顶部的动作或状态"
+    },
+    {
+        "query": "足",
+        "description": "描述足够、满足或符合要求的情况"
+    },
+    {
+        "query": "跳远",
+        "description": "描述跳跃或运动项目跳远的句子"
+    },
+    {
+        "query": "安抚",
+        "description": "描述安慰、平静或缓解情绪的句子"
+    },
+    {
+        "query": "蹦出来",
+        "description": "描述突然出现或跳出的情况"
+    },
+    {
+        "query": "重要的事情说三遍",
+        "description": "强调重要信息重复三次"
+    },
+    {
+        "query": "肠",
+        "description": "描述涉及肠道或消化系统的句子"
+    },
+    {
+        "query": "回事儿",
+        "description": "询问或表达某事是否真实或存在"
+    },
+    {
+        "query": "人权国",
+        "description": "描述与人权相关或国家人权状况的句子"
+    }
+]
+```

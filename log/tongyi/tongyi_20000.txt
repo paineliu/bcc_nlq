@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "如何/r 界定",
+        "description": "如何/r 紧跟在 界定 后面"
+    },
+    {
+        "query": "干/v+../n+",
+        "description": "干/v 后面紧跟一个名词"
+    },
+    {
+        "query": "干/v ../n",
+        "description": "干/v 后面紧跟一个名词"
+    },
+    {
+        "query": "项目+更/d+接地",
+        "description": "项目 后面紧跟 更/d 接地"
+    },
+    {
+        "query": "项目 更/d 接地",
+        "description": "项目 后面紧跟 更/d 接地"
+    },
+    {
+        "query": "../n女",
+        "description": "一个名词后紧跟 女"
+    },
+    {
+        "query": "猪生病+和/c+肉价",
+        "description": "猪生病 和/c 肉价"
+    },
+    {
+        "query": "猪生病 和/c 肉价",
+        "description": "猪生病 和/c 肉价"
+    },
+    {
+        "query": "：+刘枫/nr+。",
+        "description": "冒号 后面紧跟 刘枫/nr 再跟句号"
+    },
+    {
+        "query": "： 刘枫/nr 。",
+        "description": "冒号 后面紧跟 刘枫/nr 再跟句号"
+    },
+    {
+        "query": "鼓励+扶持/v+互联网",
+        "description": "鼓励 扶持/v 互联网"
+    },
+    {
+        "query": "鼓励 扶持/v 互联网",
+        "description": "鼓励 扶持/v 互联网"
+    },
+    {
+        "query": "政治/n+上+要+过硬+，+讲+纪律+、+守+规矩+。",
+        "description": "政治/n 上 要 过硬 ， 讲 纪律 、 守 规矩 。"
+    },
+    {
+        "query": "政治/n 上 要 过硬 ， 讲 纪律 、 守 规矩 。",
+        "description": "政治/n 上 要 过硬 ， 讲 纪律 、 守 规矩 。"
+    },
+    {
+        "query": "综合+设置/vn+机构",
+        "description": "综合 设置/vn 机构"
+    },
+    {
+        "query": "综合 设置/vn 机构",
+        "description": "综合 设置/vn 机构"
+    },
+    {
+        "query": "吞/v",
+        "description": "吞/v"
+    },
+    {
+        "query": "./v舒服了",
+        "description": "一个动词后面紧跟 舒服了"
+    },
+    {
+        "query": "低/v",
+        "description": "低/v"
+    },
+    {
+        "query": "照/p",
+        "description": "照/p"
+    },
+    {
+        "query": "生/v+../n+",
+        "description": "生/v 后面紧跟一个名词"
+    },
+    {
+        "query": "生/v ../n",
+        "description": "生/v 后面紧跟一个名词"
+    },
+    {
+        "query": "在+持续/v",
+        "description": "在+ 持续/v"
+    },
+    {
+        "query": "在 持续/v",
+        "description": "在 持续/v"
+    },
+    {
+        "query": "a+恩情/n",
+        "description": "a 后面紧跟 恩情/n"
+    },
+    {
+        "query": "a 恩情/n",
+        "description": "a 后面紧跟 恩情/n"
+    },
+    {
+        "query": "./v满了",
+        "description": "一个动词后面紧跟 满了"
+    },
+    {
+        "query": "老陈/nr+，",
+        "description": "老陈/nr 后面紧跟 ，"
+    },
+    {
+        "query": "老陈/nr ，",
+        "description": "老陈/nr 后面紧跟 ，"
+    },
+    {
+        "query": "电建+集团/n+董事长",
+        "description": "电建 集团/n 董事长"
+    },
+    {
+        "query": "电建 集团/n 董事长",
+        "description": "电建 集团/n 董事长"
+    },
+    {
+        "query": "不/d+稳定+因素/n",
+        "description": "不/d 稳定 因素/n"
+    },
+    {
+        "query": "不/d 稳定 因素/n",
+        "description": "不/d 稳定 因素/n"
+    },
+    {
+        "query": "总/d",
+        "description": "总/d"
+    },
+    {
+        "query": "刘俊海/nr+说/v",
+        "description": "刘俊海/nr 说/v"
+    },
+    {
+        "query": "刘俊海/nr 说/v",
+        "description": "刘俊海/nr 说/v"
+    },
+    {
+        "query": "寒./v",
+        "description": "一个动词后面紧跟 寒"
+    },
+    {
+        "query": ".越/v",
+        "description": "一个动词后面紧跟 越"
+    },
+    {
+        "query": "会面+，/w+改革",
+        "description": "会面 ，/w 改革"
+    },
+    {
+        "query": "会面 ，/w 改革",
+        "description": "会面 ，/w 改革"
+    }
+]
+```

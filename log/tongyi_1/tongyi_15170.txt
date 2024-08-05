@@ -1,0 +1,140 @@
+```json
+[
+    {
+        "query": "国际 女子/n 冰壶",
+        "description": "国际 + 女子 + 名词冰壶"
+    },
+    {
+        "query": "(j) 发布 转会 (n){len($2)>1}",
+        "description": "发布 + 动词(长于两个字)转会 + 名词"
+    },
+    {
+        "query": "夺冠 @ 女单",
+        "description": "夺冠 + 一个词 + 女单"
+    },
+    {
+        "query": "(m) (n){len($2)!=2}",
+        "description": "一个词 + 长度不为2的名词"
+    },
+    {
+        "query": "全国 (n) 冰雪季{end($1)=[众 这 抓]}",
+        "description": "全国 + 长度不为3的名词 + 冰雪季，且冰雪季不在末尾"
+    },
+    {
+        "query": "对阵 (v){begin($1)!=[然 子]}",
+        "description": "对阵 + 非然或子开头的动词"
+    },
+    {
+        "query": "为何 b 缺货",
+        "description": "为何 + 副词 缺货"
+    },
+    {
+        "query": "~/[n v] 身患",
+        "description": "身患 + 名词或动词"
+    },
+    {
+        "query": "好疼 ~",
+        "description": "好疼 + 一个词"
+    },
+    {
+        "query": "~ 全国",
+        "description": "一个词 + 全国"
+    },
+    {
+        "query": "(f) 怎么办{len($1)<3}",
+        "description": "怎么 + 长度小于3的词办法"
+    },
+    {
+        "query": "@ 药",
+        "description": "一个词 + 药"
+    },
+    {
+        "query": "罕见病 (n){begin($1)!=[入 噶]}",
+        "description": "罕见病 + 非入或噶开头的名词"
+    },
+    {
+        "query": "由 @ 储备",
+        "description": "由 + 一个词 + 储备"
+    },
+    {
+        "query": "廉价 n ， 帮 好/a 邻居",
+        "description": "廉价 + 名词，帮 + 形容词好 + 名词邻居"
+    },
+    {
+        "query": "党委 (n) 杨勇说{end($1)!=[仔 家 性]}",
+        "description": "党委 + 名词，杨勇说 + 非仔家性结尾"
+    },
+    {
+        "query": "(r) 研发 出 抗 (n){len($1)>1; end($2)!=[哭 修 钱 美]}",
+        "description": "研发 + 长于1字的动词 出 + 非哭修钱美结尾的名词"
+    },
+    {
+        "query": "(v) 游戏 再 打针 不 (a){len($1)!=2; len($2)=2}",
+        "description": "游戏 + 再 + 动词(非2字)打针 + 不 + 形容词"
+    },
+    {
+        "query": "(m) 来 场 头脑 (n){len($1)<3; len($2)>1}",
+        "description": "来 + 长于1字的名词 场 + 长于2字的名词"
+    },
+    {
+        "query": "~/[n v] 风暴",
+        "description": "风暴 + 名词或动词"
+    },
+    {
+        "query": "(n) (n){len($1)>1; begin($2)!=[照 北]}",
+        "description": "一个词 + 长于1字的名词 + 非照北开头的名词"
+    },
+    {
+        "query": "下 . 风行",
+        "description": "下 + 单字后接风行"
+    },
+    {
+        "query": "解决 (vn) 难题{len($1)!=3}",
+        "description": "解决 + 动名词(非3字)难题"
+    },
+    {
+        "query": "如何 (v) 互联网{len($1)>1}",
+        "description": "如何 + 长于1字的动词 互联网"
+    },
+    {
+        "query": "(n) 就是{len($1)=2}",
+        "description": "一个词 + 长度为2的词就是"
+    },
+    {
+        "query": "搞 .../v",
+        "description": "搞 + 三个点后接动词"
+    },
+    {
+        "query": "(n) 志愿者 服务 暖 (n){end($1)=[n 夜 唐 则]; len($2)=2}",
+        "description": "一个词 + 志愿者 + 服务 + 长度为2的名词暖"
+    },
+    {
+        "query": "严格 @",
+        "description": "严格 + 一个词"
+    },
+    {
+        "query": ": @/[n v] 党校",
+        "description": "冒号 + 一个词 + 名词党校"
+    },
+    {
+        "query": "一路 .../v 亮",
+        "description": "一路 + 三个点后接动词亮"
+    },
+    {
+        "query": "市民 (v){len($1)<4}",
+        "description": "市民 + 长度小于4的动词"
+    },
+    {
+        "query": "学校 应运而生/i 。",
+        "description": "学校 + 应运而生 + 形语素句尾"
+    },
+    {
+        "query": "评估 (v) 的{len($1)>1}",
+        "description": "评估 + 长于1字的动词的"
+    },
+    {
+        "query": "有为 ./d 有",
+        "description": "有为 + 代词有"
+    }
+]
+```

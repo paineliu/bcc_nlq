@@ -1,0 +1,166 @@
+以下是将给定检索式转换为带含义的json结构的结果：
+
+```json
+[
+    {
+        "query": "n黄",
+        "description": "名词后接黄"
+    },
+    {
+        "query": "a副食",
+        "description": "形容词后接副食"
+    },
+    {
+        "query": "v远了",
+        "description": "动词后接远了"
+    },
+    {
+        "query": "关+vn",
+        "description": "关后面接动词"
+    },
+    {
+        "query": "关 vn",
+        "description": "关后接动词"
+    },
+    {
+        "query": "a分数",
+        "description": "形容词后接分数"
+    },
+    {
+        "query": "v着v着",
+        "description": "动词后接两个连续的动词着"
+    },
+    {
+        "query": "m盒",
+        "description": "量词后接盒"
+    },
+    {
+        "query": "a分清",
+        "description": "形容词后接分清"
+    },
+    {
+        "query": "不a也不a",
+        "description": "否定词后接两个相同的形容词"
+    },
+    {
+        "query": "得a把",
+        "description": "助动词后接得、形容词、把"
+    },
+    {
+        "query": "a压缩",
+        "description": "形容词后接压缩"
+    },
+    {
+        "query": "没+v+p",
+        "description": "否定词后接动词和助词"
+    },
+    {
+        "query": "没 v p",
+        "description": "否定词后接动词和助词"
+    },
+    {
+        "query": "不V晕",
+        "description": "否定词后接动词和语气词"
+    },
+    {
+        "query": "a医生",
+        "description": "形容词后接医生"
+    },
+    {
+        "query": "w没有，",
+        "description": "标点符号后接没有、逗号"
+    },
+    {
+        "query": "V不起",
+        "description": "动词后接不起"
+    },
+    {
+        "query": "评价的n",
+        "description": "动词后接的后接名词"
+    },
+    {
+        "query": "似乎确实v",
+        "description": "似乎后面接确实、动词"
+    },
+    {
+        "query": "v你们",
+        "description": "动词后接你们"
+    },
+    {
+        "query": "V去",
+        "description": "动词后接去"
+    },
+    {
+        "query": "a勇于",
+        "description": "形容词后接勇于"
+    },
+    {
+        "query": "a兑现",
+        "description": "形容词后接兑现"
+    },
+    {
+        "query": "a先行",
+        "description": "形容词后接先行"
+    },
+    {
+        "query": "n和n+",
+        "description": "名词后接和、名词"
+    },
+    {
+        "query": "n和n ",
+        "description": "名词后接和、名词"
+    },
+    {
+        "query": "帮N",
+        "description": "动词后接帮、专名"
+    },
+    {
+        "query": "能V几q就V几q",
+        "description": "动词后接能、数量词、就、数量词"
+    },
+    {
+        "query": "w主要是",
+        "description": "标点符号后接主要是"
+    },
+    {
+        "query": "伪ad",
+        "description": "形容词后接伪"
+    },
+    {
+        "query": "未a",
+        "description": "形容词后接未"
+    },
+    {
+        "query": "进入s",
+        "description": "动词后接进入"
+    },
+    {
+        "query": "v妥当了",
+        "description": "动词后接妥当了"
+    },
+    {
+        "query": "a医疗",
+        "description": "形容词后接医疗"
+    },
+    {
+        "query": "r发现",
+        "description": "代词后接发现"
+    },
+    {
+        "query": "就m",
+        "description": "副词后接就、助词"
+    },
+    {
+        "query": "小+n+v+着",
+        "description": "形容词后接小、名词、动词、动词后接着"
+    },
+    {
+        "query": "小 n v 着",
+        "description": "形容词后接小、名词、动词、动词后接着"
+    },
+    {
+        "query": "记+s",
+        "description": "动词后接记"
+    }
+]
+```

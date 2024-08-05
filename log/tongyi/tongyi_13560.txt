@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "卡在[nt+ns+s+f+r]", 
+        "description":"卡在由nt、ns、s、f、r组成的机构团体、地名、简称略语、方位词、代词组成的词串"
+    },
+    {
+        "query": "卡在[nt ns s f r]", 
+        "description":"卡在由nt、ns、s、f、r组成的机构团体、地名、简称略语、方位词、代词组成的词串"
+    },
+    {
+        "query": "[千万+悄悄+亲笔]v[q+m+]v[，+。]", 
+        "description":"由千万、悄悄、亲笔组成的词串后接动词，动词后接q、m的词性组合，最后接逗号或句点"
+    },
+    {
+        "query": "[千万 悄悄 亲笔]v[q m ]v[， 。]", 
+        "description":"由千万、悄悄、亲笔组成的词串后接动词，动词后接q、m的词性组合，最后接逗号或句点"
+    },
+    {
+        "query": "[迎面+永远+尤其]v[q+m+]v[，+。]", 
+        "description":"由迎面、永远、尤其组成的词串后接动词，动词后接q、m的词性组合，最后接逗号或句点"
+    },
+    {
+        "query": "[迎面 永远 尤其]v[q m ]v[， 。]", 
+        "description":"由迎面、永远、尤其组成的词串后接动词，动词后接q、m的词性组合，最后接逗号或句点"
+    },
+    {
+        "query": "特地v+n[，+。]", 
+        "description":"特地后接名词，最后接逗号或句点"
+    },
+    {
+        "query": "特地v n[， 。]", 
+        "description":"特地后接名词，最后接逗号或句点"
+    },
+    {
+        "query": "[，+。]n里的", 
+        "description":"逗号或句点后接名词，再接'里'"
+    },
+    {
+        "query": "[， 。]n里的", 
+        "description":"逗号或句点后接名词，再接'里'"
+    },
+    {
+        "query": "又太v了[，+。]", 
+        "description":"又太后接动词，动词后接逗号或句点"
+    },
+    {
+        "query": "又太v了[， 。]", 
+        "description":"又太后接动词，动词后接逗号或句点"
+    },
+    {
+        "query": "全都v+n[，+。]", 
+        "description":"全都后接名词，最后接逗号或句点"
+    },
+    {
+        "query": "全都v n[， 。]", 
+        "description":"全都后接名词，最后接逗号或句点"
+    },
+    {
+        "query": "极其v+y[，+。]", 
+        "description":"极其后接形容词y，最后接逗号或句点"
+    },
+    {
+        "query": "极其v y[， 。]", 
+        "description":"极其后接形容词y，最后接逗号或句点"
+    },
+    {
+        "query": "过分d+n[，+。]", 
+        "description":"过分后接名词，最后接逗号或句点"
+    },
+    {
+        "query": "过分d n[， 。]", 
+        "description":"过分后接名词，最后接逗号或句点"
+    },
+    {
+        "query": "四处v+y[，+。]", 
+        "description":"四处后接形容词y，最后接逗号或句点"
+    },
+    {
+        "query": "四处v y[， 。]", 
+        "description":"四处后接形容词y，最后接逗号或句点"
+    },
+    {
+        "query": "纷纷d+a[，+。]", 
+        "description":"纷纷后接副词a，最后接逗号或句点"
+    },
+    {
+        "query": "纷纷d a[， 。]", 
+        "description":"纷纷后接副词a，最后接逗号或句点"
+    },
+    {
+        "query": "事先a[，+。]", 
+        "description":"事先后接副词a，最后接逗号或句点"
+    },
+    {
+        "query": "事先a[， 。]", 
+        "description":"事先后接副词a，最后接逗号或句点"
+    },
+    {
+        "query": "顺序d+n[，+。]", 
+        "description":"顺序后接名词，最后接逗号或句点"
+    },
+    {
+        "query": "顺序d n[， 。]", 
+        "description":"顺序后接名词，最后接逗号或句点"
+    },
+    {
+        "query": "一时v+y[，+。]", 
+        "description":"一时后接形容词y，最后接逗号或句点"
+    },
+    {
+        "query": "一时v y[， 。]", 
+        "description":"一时后接形容词y，最后接逗号或句点"
+    },
+    {
+        "query": "全力v+a[，+。]", 
+        "description":"全力后接副词a，最后接逗号或句点"
+    },
+    {
+        "query": "全力v a[， 。]", 
+        "description":"全力后接副词a，最后接逗号或句点"
+    },
+    {
+        "query": "w[q+r+d+c+v+a++n+m++p]落.起w", 
+        "description":"由q、r、d、c、v、a、n、m、p组成的词性组合后接动词落，再接起，最后接w"
+    },
+    {
+        "query": "w[q r d c v a  n m  p]落.起w", 
+        "description":"由q、r、d、c、v、a、n、m、p组成的词性组合后接动词落，再接起，最后接w"
+    },
+    {
+        "query": "不堪n[，+。]", 
+        "description":"不堪后接名词，最后接逗号或句点"
+    },
+    {
+        "query": "不堪n[， 。]", 
+        "description":"不堪后接名词，最后接逗号或句点"
+    },
+    {
+        "query": "时刻[v+a+n+r][，+。]", 
+        "description":"由v、a、n、r组成的动词、副词、名词、形容词组成的组合后接逗号或句点"
+    },
+    {
+        "query": "时刻[v a n r][， 。]", 
+        "description":"由v、a、n、r组成的动词、副词、名词、形容词组成的组合后接逗号或句点"
+    },
+    {
+        "query": "将近[v+a+n+r][，+。]", 
+        "description":"由v、a、n、r组成的动词、副词、名词、形容词组成的组合后接逗号或句点"
+    },
+    {
+        "query": "将近[v a n r][， 。]", 
+        "description":"由v、a、n、r组成的动词、副词、名词、形容词组成的组合后接逗号或句点"
+    },
+    {
+        "query": "[a+d+n+v++l]上船", 
+        "description":"由a、d、n、v、l组成的词性组合后接上船"
+    },
+    {
+        "query": "[a d n v  l]上船", 
+        "description":"由a、d、n、v、l组成的词性组合后接上船"
+    }
+]
+```

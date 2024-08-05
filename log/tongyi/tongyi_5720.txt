@@ -1,0 +1,166 @@
+以下是将给定的检索式转换为带含义的json结构：
+
+```json
+[
+    {
+        "query": "不定把n+v了",
+        "description": "不定修饰的名词 + 把 + 单音节动词 + 了"
+    },
+    {
+        "query": "不定把n v了",
+        "description": "不定修饰的名词 + 把 + 动词 + 了"
+    },
+    {
+        "query": "这般一V",
+        "description": "这般 + 名词或动词"
+    },
+    {
+        "query": "有什么好+l+的",
+        "description": "有什么 + 好 + 助词 + 的"
+    },
+    {
+        "query": "有什么好 l 的",
+        "description": "有什么 + 好 + 词性l + 的"
+    },
+    {
+        "query": "欣喜v下",
+        "description": "欣喜 + 双音节动词 + 下"
+    },
+    {
+        "query": "n一q",
+        "description": "名词或其它专名 + 一 + 量词"
+    },
+    {
+        "query": "抢v+n",
+        "description": "抢 + 动词 + 名词"
+    },
+    {
+        "query": "抢v n",
+        "description": "抢 + 动词 + 名词"
+    },
+    {
+        "query": "m进房",
+        "description": "m + 进 + 房"
+    },
+    {
+        "query": "跟n一样",
+        "description": "跟 + 名词 + 一样"
+    },
+    {
+        "query": "a的太阳",
+        "description": "形容词 + 的 + 太阳"
+    },
+    {
+        "query": "V进n来",
+        "description": "动词 + 进 + 名词 + 来"
+    },
+    {
+        "query": "v醉了",
+        "description": "动词 + 醉了"
+    },
+    {
+        "query": "N来N去",
+        "description": "名词 + 来 + 名词 + 去"
+    },
+    {
+        "query": "好V。",
+        "description": "好 + 动词 + 结束符号"
+    },
+    {
+        "query": "有+n+v",
+        "description": "有 + 名词 + 动词"
+    },
+    {
+        "query": "有 n v",
+        "description": "有 + 名词 + 动词"
+    },
+    {
+        "query": "m情况",
+        "description": "m + 情况"
+    },
+    {
+        "query": "经验+Ng",
+        "description": "经验 + 名语素"
+    },
+    {
+        "query": "经验 Ng",
+        "description": "经验 + 词性Ng"
+    },
+    {
+        "query": "v一大",
+        "description": "动词 + 一大"
+    },
+    {
+        "query": "a凳子",
+        "description": "形容词 + 铜子"
+    },
+    {
+        "query": "不曾把n+v了",
+        "description": "不曾 + 把 + 名词 + 动词 + 了"
+    },
+    {
+        "query": "不曾把n v了",
+        "description": "不曾 + 把 + 名词 + 动词 + 了"
+    },
+    {
+        "query": "a争气",
+        "description": "形容词 + 争气"
+    },
+    {
+        "query": "a变形",
+        "description": "形容词 + 变形"
+    },
+    {
+        "query": "抬过来n",
+        "description": "抬 + 过来 + 名词"
+    },
+    {
+        "query": "v+去+s",
+        "description": "动词 + 去 + s"
+    },
+    {
+        "query": "v 去 s",
+        "description": "动词 + 去 + s"
+    },
+    {
+        "query": "，再v！",
+        "description": "逗号 + 再 + 动词 + 结束符号"
+    },
+    {
+        "query": "不足a",
+        "description": "形容词 + 不足"
+    },
+    {
+        "query": "太a而a",
+        "description": "太 + 形容词 + 而 + 形容词"
+    },
+    {
+        "query": "一些a",
+        "description": "一些 + 形容词"
+    },
+    {
+        "query": "a便道",
+        "description": "形容词 + 便道"
+    },
+    {
+        "query": "尤其a+n",
+        "description": "尤其 + 形容词 + 名词"
+    },
+    {
+        "query": "尤其a n",
+        "description": "尤其 + 形容词 + 名词"
+    },
+    {
+        "query": "N算什么N",
+        "description": "名词 + 算什么 + 名词"
+    },
+    {
+        "query": "自己v",
+        "description": "自己 + 动词"
+    },
+    {
+        "query": "被n包围",
+        "description": "被 + 名词 + 包围"
+    }
+]
+```

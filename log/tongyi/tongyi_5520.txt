@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "什么时候r v",
+        "description": "时间词后面接动词"
+    },
+    {
+        "query": "在n+f",
+        "description": "在名词后接方位词"
+    },
+    {
+        "query": "在n f",
+        "description": "在名词后接方位词"
+    },
+    {
+        "query": "有v没n",
+        "description": "动词后接疑问词"
+    },
+    {
+        "query": "a办学",
+        "description": "形容词后接名词"
+    },
+    {
+        "query": "a的眼神",
+        "description": "形容词后接名词"
+    },
+    {
+        "query": "v将v",
+        "description": "动词后接动词"
+    },
+    {
+        "query": "a分割",
+        "description": "形容词后接动词"
+    },
+    {
+        "query": "看起来a",
+        "description": "动词后接形容词"
+    },
+    {
+        "query": "m股n",
+        "description": "数词后接名词"
+    },
+    {
+        "query": "真d",
+        "description": "副词后接形容词"
+    },
+    {
+        "query": "v回忆",
+        "description": "动词后接动词"
+    },
+    {
+        "query": "v号房",
+        "description": "动词后接名词"
+    },
+    {
+        "query": "p说",
+        "description": "代词后接动词"
+    },
+    {
+        "query": "你这个n",
+        "description": "名词后接名词"
+    },
+    {
+        "query": "Vg说",
+        "description": "动语素后接动词"
+    },
+    {
+        "query": "v一行",
+        "description": "动词后接名词"
+    },
+    {
+        "query": "不管是v还是v",
+        "description": "动词后接动词，表示选择关系"
+    },
+    {
+        "query": "弄a了n",
+        "description": "形容词后接动词"
+    },
+    {
+        "query": "a上当",
+        "description": "形容词后接名词"
+    },
+    {
+        "query": "v弹子房",
+        "description": "动词后接名词"
+    },
+    {
+        "query": "邪气n",
+        "description": "名词后接名词"
+    },
+    {
+        "query": "连n都",
+        "description": "名词后接连词，再接名词"
+    },
+    {
+        "query": "迎面v来",
+        "description": "方位词后接动词"
+    },
+    {
+        "query": "a作案",
+        "description": "形容词后接动词"
+    },
+    {
+        "query": "感情n",
+        "description": "名词后接名词"
+    },
+    {
+        "query": "v柏树",
+        "description": "动词后接名词"
+    },
+    {
+        "query": "v一只",
+        "description": "动词后接数词"
+    },
+    {
+        "query": "n和n",
+        "description": "名词后接名词"
+    },
+    {
+        "query": "有V又有V",
+        "description": "名词后接名词，表示并列关系"
+    },
+    {
+        "query": "最a的m个n",
+        "description": "形容词后接数词"
+    },
+    {
+        "query": "炝n",
+        "description": "动词后接名词"
+    },
+    {
+        "query": "说a就a",
+        "description": "动词后接动词"
+    },
+    {
+        "query": "w+大半+",
+        "description": "句首标点后接词汇"
+    },
+    {
+        "query": "w 大半 ",
+        "description": "句首标点后接词汇"
+    },
+    {
+        "query": "小a",
+        "description": "形容词后接词汇"
+    },
+    {
+        "query": "那样a+w",
+        "description": "形容词后接词汇"
+    },
+    {
+        "query": "那样a w",
+        "description": "形容词后接词汇"
+    },
+    {
+        "query": "有被n到",
+        "description": "动词后接被动语态"
+    },
+    {
+        "query": "不a不v",
+        "description": "形容词后接否定动词"
+    }
+]
+```

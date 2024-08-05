@@ -1,0 +1,160 @@
+```json
+[
+    {
+        "query": "部门 ./[v v] 真",
+        "description": "部门后面跟两个动词，然后是真"
+    },
+    {
+        "query": "是 @ 着",
+        "description": "是后面跟着一个词"
+    },
+    {
+        "query": "， @/[v v] 了",
+        "description": "逗号后面接两个动词，后面是了"
+    },
+    {
+        "query": "~ 是",
+        "description": "一个词后紧跟的是"
+    },
+    {
+        "query": "(v) 用 在 了 刀刃 (v){count<568}",
+        "description": "使用动词用，后面是介词在，再接了，最后是动词刀刃，且总频次小于568"
+    },
+    {
+        "query": "再 @/[v v] ？",
+        "description": "再后面接两个动词，后面是问号"
+    },
+    {
+        "query": "提高 ../[v v] 的",
+        "description": "提高后面接两个动词，后面是的"
+    },
+    {
+        "query": "./u 老年 大学 .../n",
+        "description": "以老年大学开始，后面可能接任意数量的字符直到遇到名词"
+    },
+    {
+        "query": "专业 ../[n v] 来",
+        "description": "专业后面接名词或动词，后面是来"
+    },
+    {
+        "query": "课程 ~/[v v] 得",
+        "description": "课程后面接动词，后面可能是得"
+    },
+    {
+        "query": "全 ~/[v v] 。",
+        "description": "全后面接动词，后面可能是句号"
+    },
+    {
+        "query": "说 (w){count>9}",
+        "description": "说，出现次数大于9"
+    },
+    {
+        "query": "场地 (a){begin($1)=[不 兆]}",
+        "description": "场地，开始的两个字是不或兆"
+    },
+    {
+        "query": "(vn) 政策{len($1)!=3}",
+        "description": "政策，但长度不是3"
+    },
+    {
+        "query": "。",
+        "description": "句尾的标点符号"
+    },
+    {
+        "query": "消费 (n) 更{len($1)!=3}",
+        "description": "消费后面接一个词，但长度不是3"
+    },
+    {
+        "query": "了 (w){count<986}",
+        "description": "了，出现次数小于986"
+    },
+    {
+        "query": "旅行 @/[w v] 在",
+        "description": "旅行后面接一个动词或名词，后面是介词在"
+    },
+    {
+        "query": "(v) 住宿{end($1)=[行 亚]}",
+        "description": "以住宿开始的动词，结束的两个字是行或亚"
+    },
+    {
+        "query": "@ 本土化",
+        "description": "后面接本土化的词"
+    },
+    {
+        "query": "多样化 (w){count>9}",
+        "description": "多样化，出现次数大于9"
+    },
+    {
+        "query": "(d) 稳 (w){count<749}",
+        "description": "稳定的形容词，后面是稳，出现次数小于749"
+    },
+    {
+        "query": "能否 (v) ？{len($1)<4}",
+        "description": "能否，前面是动词，问号，且动词长度小于4"
+    },
+    {
+        "query": "(nr) 说{middle($1)=[连 电 撞 完]}",
+        "description": "人名说，人名中间是连、电、撞或完"
+    },
+    {
+        "query": "国外 的/u 分享",
+        "description": "国外后面接的词是名词，后面是介词，然后是分享"
+    },
+    {
+        "query": "免密 (v){len($1)!=3}",
+        "description": "免密，动词长度不是3"
+    },
+    {
+        "query": "逆转 ./y ？",
+        "description": "逆转后面接一个词，然后是问号"
+    },
+    {
+        "query": "怎么 ./v 全面",
+        "description": "怎么后面接动词，然后是全面"
+    },
+    {
+        "query": "@/[v v] ：",
+        "description": "后面接两个动词，然后是冒号"
+    },
+    {
+        "query": "人口 (vn) 趋势{middle($1)=[龄 记 拍]}",
+        "description": "人口趋势，人口后面接的词，中间是龄、记或拍"
+    },
+    {
+        "query": "(n) (n){len($1)>1; end($2)!=[狼 烟 姨]}",
+        "description": "两个相邻的名词，第一个名词长度大于1，第二个名词排除狼、烟或姨"
+    },
+    {
+        "query": "需要 ../ad 思考",
+        "description": "需要后面接副词，然后是思考"
+    },
+    {
+        "query": "../[v v] 目标",
+        "description": "两个动词后面接目标"
+    },
+    {
+        "query": "说 ./[w v]",
+        "description": "说后面接一个词或动词"
+    },
+    {
+        "query": "(v) 的{begin($1)=[还 穷]}",
+        "description": "以还或穷开始的动词，后面接的词"
+    },
+    {
+        "query": "缓解 (n) 结构{end($1)!=[宝 情 饱 报]}",
+        "description": "缓解后面接名词，名词后面排除宝、情、饱或报"
+    },
+    {
+        "query": "(ns) 人口 学会 会长 翟 振武 说 (w){begin($1)=[中 转]}",
+        "description": "人口学会会长翟振武说，翟振武前面可能是中或转"
+    },
+    {
+        "query": "王金营 @ 。",
+        "description": "王金营后面接一个词"
+    },
+    {
+        "query": "均衡 (v){len($1)!=3}",
+        "description": "均衡，动词长度不是3"
+    }
+]
+```

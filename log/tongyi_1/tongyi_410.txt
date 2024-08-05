@@ -1,0 +1,156 @@
+```json
+[
+    {
+        "query": "而 .. 的",
+        "description": "而后面接一个词和一个标点符号"
+    },
+    {
+        "query": "了 (n) 首都{len($1)>1}",
+        "description": "了后面接一个名词，且该名词长度大于1个字"
+    },
+    {
+        "query": "了 .../n 的",
+        "description": "了后面接任意数量的字符直到遇到名词，然后接一个的"
+    },
+    {
+        "query": "该 (v) 多么{len($1)!=2}",
+        "description": "该后面接一个动词，但动词长度不等于2"
+    },
+    {
+        "query": "明月山 (u) 竹{count>3}",
+        "description": "明月山后面至少出现4次竹"
+    },
+    {
+        "query": "地 ../v 竹",
+        "description": "地后面接一个二字动词，动词后面接竹"
+    },
+    {
+        "query": "政治 (n){count<640}",
+        "description": "政治这个词在语料库中的出现次数少于640次"
+    },
+    {
+        "query": "， ./p 民族",
+        "description": "逗号后面接民族"
+    },
+    {
+        "query": "道 (n) 早{count<688}",
+        "description": "道后面接一个名词，且该名词出现次数少于688次"
+    },
+    {
+        "query": "宏图 ./[w v]",
+        "description": "宏图后面接一个词或动词"
+    },
+    {
+        "query": "(r) (v){len($1)=1}",
+        "description": "一个括号内的副词后面接一个长度为1的动词"
+    },
+    {
+        "query": "民惟邦本 ./w 政得其民",
+        "description": "民惟邦本后面接政得其民"
+    },
+    {
+        "query": "(n) (v){len($1)<4}",
+        "description": "一个名词后面接一个长度小于4的动词"
+    },
+    {
+        "query": "(n) 爱{begin($1)!=[养 任 撒]}",
+        "description": "一个名词后面接爱，但不以养、任或撒开头"
+    },
+    {
+        "query": "(s) 有 (n){begin($1)!=[首 品]; len($2)>1}",
+        "description": "有后面接一个名词，且该名词不以首或品开头，名词长度大于1"
+    },
+    {
+        "query": "， ~/[l v] 。",
+        "description": "逗号后面接一个标点符号或动词，且该动词后可能接句点"
+    },
+    {
+        "query": "@/[i v] ，",
+        "description": "一个词性为i或v的词后面接逗号"
+    },
+    {
+        "query": "总理 (nr) 评价{middle($1)!=[的 歌 首]}",
+        "description": "总理后面接评价，但评价中间不包含的、歌或首"
+    },
+    {
+        "query": "(an) ， 就 没有 (a){begin($1)=[健 撒 吴 陈]}",
+        "description": "一个形容词后面接逗号，接着是就、没有，且不以健、撒、吴或陈开头"
+    },
+    {
+        "query": "(r) 只是{len($1)!=2}",
+        "description": "只是后面接一个长度不等于2的词"
+    },
+    {
+        "query": "(m) 破 (m){count<520}",
+        "description": "破后面接另一个破，且出现次数少于520次"
+    },
+    {
+        "query": "从严",
+        "description": "直接的从严"
+    },
+    {
+        "query": "鲜明 (vn) 。{len($1)<3}",
+        "description": "鲜明后面接一个长度小于3的词，且可能是句尾"
+    },
+    {
+        "query": "让 ./[r v] 看到",
+        "description": "让后面接一个动词或代词，可能是看到"
+    },
+    {
+        "query": "./v 好",
+        "description": "一个动词后面接好"
+    },
+    {
+        "query": "知难而进",
+        "description": "知难而进是一个完整的短语"
+    },
+    {
+        "query": "分 @ ，",
+        "description": "分后面接一个词，可能是句尾"
+    },
+    {
+        "query": "， (f) 率{len($1)=2}",
+        "description": "逗号后面接一个长度为2的词，可能是频率相关的"
+    },
+    {
+        "query": "不是 (v) 掂量{end($1)=[有 汗 表]}",
+        "description": "不是后面接掂量，掂量以有、汗或表结尾"
+    },
+    {
+        "query": "nr 斩钉截铁{count>7}",
+        "description": "斩钉截铁后面接一个人名，且该人名出现次数多于7次"
+    },
+    {
+        "query": "(v) 。{count>7}",
+        "description": "一个动词后面接句点，且该动词出现次数多于7次"
+    },
+    {
+        "query": "党校{end($1)=[央 舍]}",
+        "description": "党校后面接央或舍"
+    },
+    {
+        "query": "何 (v) 风流{count<151}",
+        "description": "何后面接风流，且风流出现次数少于151次"
+    },
+    {
+        "query": "恢弘",
+        "description": "恢弘是一个完整的词"
+    },
+    {
+        "query": "的 (a) 之{len($1)!=3}",
+        "description": "的后面接一个长度不等于3的词，可能是修饰词"
+    },
+    {
+        "query": "画卷 @/[d v] 展开",
+        "description": "画卷后面接一个词，可能是展开，词性可能是d或v"
+    },
+    {
+        "query": "一股股/m 强大",
+        "description": "一股股后面接强大，强大前面可能是数量词"
+    },
+    {
+        "query": "(a) 的 (n){len($1)!=3; len($2)=4}",
+        "description": "一个形容词后面接一个长度不等于3且长度为4的名词"
+    }
+]
+```

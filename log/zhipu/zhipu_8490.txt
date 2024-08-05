@@ -1,0 +1,88 @@
+以下是您提供的检索式转换为带含义的JSON结构：
+
+```json
+[
+    {
+        "query": "实践 ./w",
+        "description": "实践后接单字词"
+    },
+    {
+        "query": "才能 (v) 发展{len($1)<3}",
+        "description": "才能后接一个长度小于3的动词，再接发展"
+    },
+    {
+        "query": "../v 年度",
+        "description": "双音节动词后接年度"
+    },
+    {
+        "query": "导演 (d) 出{len($1)=1}",
+        "description": "导演后接一个长度为1的副词，再接出"
+    },
+    {
+        "query": "烦恼 (m){count<517}",
+        "description": "限制烦恼的实例频次小于517"
+    },
+    {
+        "query": "(vn) (w){count<676}",
+        "description": "动名词后接标点符号，限制实例频次小于676"
+    },
+    {
+        "query": "(n) 艺术{len($1)>2}",
+        "description": "名词后接艺术，且名词长度大于2"
+    },
+    {
+        "query": "日记 ~",
+        "description": "日记后接一个词"
+    },
+    {
+        "query": "宁瀛 (n){len($1)!=3}",
+        "description": "宁瀛后接一个长度不等于3的名词"
+    },
+    {
+        "query": "是 . 扇",
+        "description": "是后隔一个字接扇"
+    },
+    {
+        "query": "小",
+        "description": "包含小的句子"
+    },
+    {
+        "query": "屋脊 ./[u v] 歌声",
+        "description": "屋脊后接一个助词或动词，再接歌声"
+    },
+    {
+        "query": "(nr) 导演{len($1)!=4}",
+        "description": "人名后接导演，且人名的长度不等于4"
+    },
+    {
+        "query": "(nr) 编剧{end($1)!=[考 左 帅 君]}",
+        "description": "人名后接编剧，且人名的结尾不是考、左、帅、君"
+    },
+    {
+        "query": "市场 葆/v 初心",
+        "description": "市场葆接一个动词，再接初心"
+    },
+    {
+        "query": "《",
+        "description": "包含左书名号的句子"
+    },
+    {
+        "query": "(nr) 亦{count>10}",
+        "description": "人名后接亦，限制实例频次大于10"
+    },
+    {
+        "query": "(nr) (d){len($1)=1}",
+        "description": "人名后接一个长度为1的副词"
+    },
+    {
+        "query": "矛盾 (v){count<993}",
+        "description": "矛盾后接动词，限制实例频次小于993"
+    },
+    {
+        "query": "亲爱/b 的/u",
+        "description": "亲爱作为区别词后接的作为助词"
+    }
+]
+```
+
+请注意，对于描述的内容，我尽可能根据检索式提供了直观的解释，但某些检索式的具体用法可能需要根据实际语料库和查询需求进行详细解释。

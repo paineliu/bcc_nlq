@@ -1,0 +1,160 @@
+```json
+[
+    {
+        "query": "更 (a) 的{len($1)<3}",
+        "description": "形容词更后面跟着长度小于3的词"
+    },
+    {
+        "query": "教训 ~ 痛",
+        "description": "教训后接一个词"
+    },
+    {
+        "query": "要 ./v .",
+        "description": "要后跟动词，且动词后是句尾"
+    },
+    {
+        "query": "环保厅 (n) 刘尧臣{len($1)!=3}",
+        "description": "环保厅后面接刘尧臣，但刘尧臣不是三个字"
+    },
+    {
+        "query": "好/a ， 任务 重 ， 道路 长/a",
+        "description": "形容词好，后面接逗号，然后是任务重和道路长，都是形容词"
+    },
+    {
+        "query": "@/[n v] 毫说",
+        "description": "一个词，可能是名词或动词，后面接毫说"
+    },
+    {
+        "query": "的",
+        "description": "单独的词‘的’"
+    },
+    {
+        "query": "(nr) 坦言{len($1)>2}",
+        "description": "人名坦言，坦言是三个字以上的词"
+    },
+    {
+        "query": "印坊 ../v",
+        "description": "印坊后面是二字动词"
+    },
+    {
+        "query": "~/[nr v] 全",
+        "description": "一个词，可能是人名或动词，后面接全"
+    },
+    {
+        "query": "(ns) 县级 公立 医院 医改 (n){$1=$2}",
+        "description": "县级公立医院医改，医改和县级是同一个词"
+    },
+    {
+        "query": "上 ../v 地沟",
+        "description": "上后面是二字动词，动词后面接地沟"
+    },
+    {
+        "query": "说 w",
+        "description": "说后面是句首的单字"
+    },
+    {
+        "query": "县长 (nr) 海宁{len($1)=1}",
+        "description": "县长后面接一个字的人名海宁"
+    },
+    {
+        "query": "n 理事长",
+        "description": "名词后面接理事长"
+    },
+    {
+        "query": "(p) 赵{count>4}",
+        "description": "姓赵的人名出现次数大于4次"
+    },
+    {
+        "query": "位 企业/n 负责人",
+        "description": "位后面接企业名词，企业名词后面接负责人"
+    },
+    {
+        "query": "失踪 (r) 谁{count<433}",
+        "description": "失踪后接代词‘谁’，并且‘谁’出现次数少于433次"
+    },
+    {
+        "query": "放 ./p 哪里",
+        "description": "放后面接介词，介词后面接‘哪里’"
+    },
+    {
+        "query": "答案 (v) ：{len($1)=1}",
+        "description": "答案是动词，后面紧跟一个单字"
+    },
+    {
+        "query": "折扣 .",
+        "description": "折扣后面是一个句尾符号"
+    },
+    {
+        "query": "相比 ./w 储户",
+        "description": "相比后面接‘储户’，可能表示比较"
+    },
+    {
+        "query": "地税 (p) 地{len($1)=1}",
+        "description": "地税后面接一个字的地"
+    },
+    {
+        "query": "(nr) 远泮{len($1)=1}",
+        "description": "人名远泮，远泮是一个字的人名"
+    },
+    {
+        "query": "首 (q) 铜{count>3}",
+        "description": "首后面接铜字，铜字出现次数大于3"
+    },
+    {
+        "query": "清单 (v){len($1)!=3}",
+        "description": "清单是动词，但不是三个字"
+    },
+    {
+        "query": "新 常态/n 走",
+        "description": "新常态名词后面接走"
+    },
+    {
+        "query": "院长 (nr) 评价{middle($1)=[清 果]}",
+        "description": "院长后面接一个词，可能是‘清’或‘果’"
+    },
+    {
+        "query": "步伐 (d) 加快{len($1)=2}",
+        "description": "步伐后面接加快，加快是两个字的词"
+    },
+    {
+        "query": "是",
+        "description": "单个词‘是’"
+    },
+    {
+        "query": "二 . 资源",
+        "description": "数字二后面隔一个字接资源"
+    },
+    {
+        "query": "三 . 技术",
+        "description": "数字三后面隔一个字接技术"
+    },
+    {
+        "query": "助 (a) 企业{len($1)!=2}",
+        "description": "形容词助后面接企业，但企业不是两个字"
+    },
+    {
+        "query": "围墙 ../[n v] 岁末",
+        "description": "围墙后面是名词或动词，后面接岁末"
+    },
+    {
+        "query": "@/[a v] 墙围",
+        "description": "一个词，可能是形容词或动词，后面接墙围"
+    },
+    {
+        "query": "可 ./[v v] 县委",
+        "description": "可后面是动词或动词，后面接县委"
+    },
+    {
+        "query": "吗 .",
+        "description": "疑问词‘吗’后面是句尾符号"
+    },
+    {
+        "query": "近日 (v) 当地{begin($1)!=[送 它 伤]}",
+        "description": "近日是动词，后面接当地，但不以送、它、伤开头"
+    },
+    {
+        "query": "县委办 ~/[r v] 走",
+        "description": "县委办后面是代词或动词，后面接走"
+    }
+]
+```

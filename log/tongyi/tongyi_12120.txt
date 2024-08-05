@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "索性v+a[，+。]",
+        "description": "索性动词后邻接一个或两个标点符号"
+    },
+    {
+        "query": "索性v a[， 。]",
+        "description": "索性动词后邻接一个标点符号"
+    },
+    {
+        "query": "渐渐v[v+a+n+r][，+。]",
+        "description": "渐渐动词后邻接一个或两个标点符号，渐进动词序列"
+    },
+    {
+        "query": "渐渐v[v a n r][， 。]",
+        "description": "渐渐动词后邻接一个标点符号，渐进动词序列"
+    },
+    {
+        "query": "十分v[v+a+n+r][，+。]",
+        "description": "十分动词后邻接一个或两个标点符号，表示程度"
+    },
+    {
+        "query": "十分v[v a n r][， 。]",
+        "description": "十分动词后邻接一个标点符号，表示程度"
+    },
+    {
+        "query": "写在+n[f+s]",
+        "description": "写在后接一个名词，名词属于[f+s]类"
+    },
+    {
+        "query": "写在 n[f s]",
+        "description": "写在后接一个名词，名词属于[f+s]类"
+    },
+    {
+        "query": "[，+。]+v一q+[，+。]",
+        "description": "逗号或句点后接一q动词，然后接逗号或句点"
+    },
+    {
+        "query": "[， 。] v一q [， 。]",
+        "description": "逗号或句点后接一q动词，然后接逗号或句点"
+    },
+    {
+        "query": "何必[v+a+n+r][，+。]",
+        "description": "何必动词后邻接一个或两个标点符号，表示疑问"
+    },
+    {
+        "query": "何必[v a n r][， 。]",
+        "description": "何必动词后邻接一个标点符号，表示疑问"
+    },
+    {
+        "query": "[梳+塞+征+管+隔+猜+爬+休]个",
+        "description": "由多个词组成的序列后接一个量词"
+    },
+    {
+        "query": "[梳 塞 征 管 隔 猜 爬 休]个",
+        "description": "由多个词组成的序列后接一个量词"
+    },
+    {
+        "query": "被v过[，+。]",
+        "description": "被动词后接逗号或句点，表示被动语态"
+    },
+    {
+        "query": "被v过[， 。]",
+        "description": "被动词后接逗号或句点，表示被动语态"
+    },
+    {
+        "query": "一通v[，+。]",
+        "description": "一通动词后接逗号或句点，表示动作的连续性"
+    },
+    {
+        "query": "一通v[， 。]",
+        "description": "一通动词后接逗号或句点，表示动作的连续性"
+    },
+    {
+        "query": "再三v+n[，+。]",
+        "description": "再三动词后接名词，表示反复的动作"
+    },
+    {
+        "query": "再三v n[， 。]",
+        "description": "再三动词后接名词，表示反复的动作"
+    },
+    {
+        "query": "v个[v+a+l]",
+        "description": "动词后接一个词，该词属于[v+a+l]类"
+    },
+    {
+        "query": "v个[v a l]",
+        "description": "动词后接一个词，该词属于[v+a+l]类"
+    },
+    {
+        "query": "哪里+n[，+。]",
+        "description": "哪里后接一个名词，表示询问地点"
+    },
+    {
+        "query": "哪里 n[， 。]",
+        "description": "哪里后接一个名词，表示询问地点"
+    },
+    {
+        "query": "[a+d+n+v++l]中介",
+        "description": "由多个词组成的序列后接中介词"
+    },
+    {
+        "query": "[a d n v  l]中介",
+        "description": "由多个词组成的序列后接中介词"
+    },
+    {
+        "query": "高度d+v[，+。]",
+        "description": "高度形容词后接动词，表示程度"
+    },
+    {
+        "query": "高度d v[， 。]",
+        "description": "高度形容词后接动词，表示程度"
+    },
+    {
+        "query": "[连连+连忙+连年]v[v+a+n+][，+。]",
+        "description": "由多个词组成的序列后接动词，表示连续的动作"
+    },
+    {
+        "query": "[连连 连忙 连年]v[v a n ][， 。]",
+        "description": "由多个词组成的序列后接动词，表示连续的动作"
+    },
+    {
+        "query": "驻守在+n[f+s+ns]",
+        "description": "驻守在后接一个名词，该名词属于[f+s+ns]类"
+    },
+    {
+        "query": "驻守在 n[f s ns]",
+        "description": "驻守在后接一个名词，该名词属于[f+s+ns]类"
+    },
+    {
+        "query": "躺+n[f+s]",
+        "description": "躺后接一个名词，该名词属于[f+s]类"
+    },
+    {
+        "query": "躺 n[f s]",
+        "description": "躺后接一个名词，该名词属于[f+s]类"
+    },
+    {
+        "query": "连忙a[，+。]",
+        "description": "连忙形容词后接逗号或句点"
+    },
+    {
+        "query": "连忙a[， 。]",
+        "description": "连忙形容词后接逗号或句点"
+    },
+    {
+        "query": "常常n[，+。]",
+        "description": "常常后接一个名词，表示频率"
+    },
+    {
+        "query": "常常n[， 。]",
+        "description": "常常后接一个名词，表示频率"
+    },
+    {
+        "query": "光荣/a[v+p+地/u]",
+        "description": "光荣形容词后接动词或地/u，表示荣誉"
+    },
+    {
+        "query": "光荣/a[v p 地/u]",
+        "description": "光荣形容词后接动词或地/u，表示荣誉"
+    }
+]
+```

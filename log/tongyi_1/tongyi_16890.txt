@@ -1,0 +1,162 @@
+以下是检索式及其含义的JSON结构：
+
+```json
+[
+    {
+        "query": "(v) 协同 (n){len($1)=2; len($2)=2}",
+        "description": "协同的二字动词后面跟着另一个二字名词"
+    },
+    {
+        "query": "(v) 发展 (n){len($1)=2; begin($2)=[均衡性 及]}",
+        "description": "发展后面以均衡性或及开头的名词"
+    },
+    {
+        "query": "俾臻 ~ 。",
+        "description": "俾臻后面接一个词，可能是任意词性"
+    },
+    {
+        "query": "至关重要 ./w",
+        "description": "至关重要是单音节动词"
+    },
+    {
+        "query": "(n) 交流{count>2}",
+        "description": "交流这个词出现次数大于2"
+    },
+    {
+        "query": "。",
+        "description": "句尾点"
+    },
+    {
+        "query": "致 (n) 刷新{end($1)=[赢 插 广 体]}",
+        "description": "致后面接名词，且该名词以赢、插、广或体结尾"
+    },
+    {
+        "query": ", (v) 避免{count>3}",
+        "description": "逗号后面是动词，且避免这个词出现次数大于3"
+    },
+    {
+        "query": "要 (i) 。{len($1)<3}",
+        "description": "要作为形容词，且长度小于3，后面是句尾"
+    },
+    {
+        "query": "社会 (n) 副院长{len($1)!=4}",
+        "description": "社会后面接名词，但不包含4个字的副院长"
+    },
+    {
+        "query": "(n), 到底 (r){len($1)<3; len($2)>1}",
+        "description": "名词后面跟到底，名词长度小于3，到底长度大于1"
+    },
+    {
+        "query": "有 @ 担当",
+        "description": "有后面接一个词，统计时按照词性归并"
+    },
+    {
+        "query": "好 ../[n v]",
+        "description": "好后面离合出现名词或动词"
+    },
+    {
+        "query": "(r) (v){begin($2)=[遏 沙]}",
+        "description": "副词后面接动词，且动词以遏或沙开头"
+    },
+    {
+        "query": "科学 细化/v 城市",
+        "description": "科学细化后面接动词城市"
+    },
+    {
+        "query": "冲突 (f) 寻找{len($1)!=2}",
+        "description": "冲突后面接寻找，冲突不是二字词"
+    },
+    {
+        "query": "ns) 国务院{end($1)=[国 快 捏]}",
+        "description": "国务院这个词的结尾是国、快或捏"
+    },
+    {
+        "query": "总理 (nr){begin($1)=[李 餐]}",
+        "description": "总理后面是以李或餐开头的人名"
+    },
+    {
+        "query": ". 、",
+        "description": "句尾点或顿号"
+    },
+    {
+        "query": "边检 ../[n v] 段",
+        "description": "边检后面离合出现名词或动词，后面接段"
+    },
+    {
+        "query": "河段 ~",
+        "description": "河段后面接一个词，可能是任意词性"
+    },
+    {
+        "query": "、 ../[s v] 部分",
+        "description": "顿号后面离合出现名词或动词，后面接部分"
+    },
+    {
+        "query": ". 内",
+        "description": "句尾点后面接内"
+    },
+    {
+        "query": "二 (q) 氹{count<433}",
+        "description": "二后面接凼，且凼出现次数少于433次"
+    },
+    {
+        "query": "南部 (n) 段{len($1)!=3}",
+        "description": "南部后面接名词，但不包含3个字的段"
+    },
+    {
+        "query": "./m 澳门",
+        "description": "单音节动词后面接澳门"
+    },
+    {
+        "query": "人工 n 。",
+        "description": "人工后面接名词，句尾点"
+    },
+    {
+        "query": "... 采用 ...",
+        "description": "省略号连续出现两次"
+    },
+    {
+        "query": "(n) (d){len($2)=1}",
+        "description": "名词后面接一个单字的副词"
+    },
+    {
+        "query": "(j) (n){$1!=$2}",
+        "description": "两个不同词性的词并列"
+    },
+    {
+        "query": "ns) 建 一站式 (vn){len($1)>1; end($2)!=[辣 去]}",
+        "description": "建后面接二字名词，且不以辣或去结尾"
+    },
+    {
+        "query": "公示 (v) 执纪{count>6}",
+        "description": "公示后面接执纪，执纪出现次数大于6"
+    },
+    {
+        "query": "车改 . 拍",
+        "description": "车改后面接一个字，可能是任意词性"
+    },
+    {
+        "query": "不 .. ，",
+        "description": "不后面接两个词，可能是任意词性，后面是逗号"
+    },
+    {
+        "query": "(v) 突出 监督 执纪 (v){$1=$2}",
+        "description": "突出监督执纪，监督和执纪是同一个词"
+    },
+    {
+        "query": "../vn 教育",
+        "description": "二字动词后面接教育"
+    },
+    {
+        "query": "设立 (n) 监督员{len($1)=2}",
+        "description": "设立后面接二字名词监督员"
+    },
+    {
+        "query": "北海 ~ 亿",
+        "description": "北海后面接一个词，可能是任意词性"
+    },
+    {
+        "query": "在线 (v) 倒逼{len($1)>1}",
+        "description": "在线后面接倒逼，且在线是二字动词"
+    }
+]
+```

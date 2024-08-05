@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "(nr) 依朴 湖南省 (ns){count<553}",
+        "description": "依朴后面接湖南省，且湖南省的提及次数少于553次"
+    },
+    {
+        "query": "多 ../[v v] 群众",
+        "description": "多后面离合出现两个动词，然后接群众"
+    },
+    {
+        "query": "局长 nr 介绍",
+        "description": "局长后面接人名，然后是介绍"
+    },
+    {
+        "query": "班禅 圆满/ad 结束",
+        "description": "班禅后面接圆满的副形词，然后是结束"
+    },
+    {
+        "query": "整体 (v) 盼{begin($1)!=[叼 喊]}",
+        "description": "整体后面接一个动词，但不包括叼或喊"
+    },
+    {
+        "query": "， ./[v v] 兰州",
+        "description": "逗号后面接两个动词，然后是兰州"
+    },
+    {
+        "query": "热 y ，",
+        "description": "热后面接一个语气词，然后是逗号"
+    },
+    {
+        "query": "职能 @",
+        "description": "职能后面是一个词，但不区分词性"
+    },
+    {
+        "query": "企业 (v) 独立{len($1)=2}",
+        "description": "企业后面接一个两字动词，表示独立"
+    },
+    {
+        "query": "流失 @/[w v]",
+        "description": "流失后面接一个词，可能是形容词或动词"
+    },
+    {
+        "query": "这 (v) 一{len($1)>1}",
+        "description": "这后面接一个长度大于1的动词"
+    },
+    {
+        "query": "(d) 扩大{len($1)>2}",
+        "description": "副词扩大，且副词的长度大于2"
+    },
+    {
+        "query": "对 (l) 的{middle($1)=[展 夸 认 余]}",
+        "description": "对后面接的形容词中包含展、夸、认或余"
+    },
+    {
+        "query": "../vn 投资 机制 ./w",
+        "description": "动词后面接投资，投资后面接机制，机制是句尾"
+    },
+    {
+        "query": "何在 ~",
+        "description": "何在后面接一个词"
+    },
+    {
+        "query": "并 . 高",
+        "description": "并后面接一个字，然后是高"
+    },
+    {
+        "query": "(v) (n){begin($1)=[认 餐]}",
+        "description": "一个动词后面接一个名词，但名词的开始不是认或餐"
+    },
+    {
+        "query": "意义 ./w",
+        "description": "意义后面接一个词，但不区分词性"
+    },
+    {
+        "query": "开放",
+        "description": "开放"
+    },
+    {
+        "query": "出去 ~",
+        "description": "出去后面接一个词"
+    },
+    {
+        "query": "@ 互通",
+        "description": "一个词，但不区分词性"
+    },
+    {
+        "query": "~ 一马当先",
+        "description": "一马当先"
+    },
+    {
+        "query": "， v 产业",
+        "description": "逗号后面接一个动词，然后是产业"
+    },
+    {
+        "query": "， @/[a v] 边贸",
+        "description": "逗号后面接一个词，可能是形容词或动词，然后是边贸"
+    },
+    {
+        "query": "， (n) 一{len($1)>1}",
+        "description": "逗号后面接一个名词，且名词的长度大于1"
+    },
+    {
+        "query": "信心 (w){count<464}",
+        "description": "信心后面接一个词，且该词的提及次数少于464次"
+    },
+    {
+        "query": "如火如荼",
+        "description": "如火如荼"
+    },
+    {
+        "query": "秘书长 nr 非",
+        "description": "秘书长后面接人名，然后是非"
+    },
+    {
+        "query": "太 好/a 了",
+        "description": "太后面接形容词好，然后是语气词了"
+    },
+    {
+        "query": "顾盛玮 ~ 道",
+        "description": "顾盛玮后面接一个词"
+    },
+    {
+        "query": "交通 (v) 人人{count<338}",
+        "description": "交通后面接一个动词，且动词后面接人人，且人人提及次数少于338次"
+    },
+    {
+        "query": "(vn) 公司 做 大 做 (a){len($1)!=3; len($2)!=2}",
+        "description": "公司后面接两个动词做，但不包括长度为3或2的"
+    },
+    {
+        "query": "就 (v) 好{len($1)!=2}",
+        "description": "就后面接一个动词，但动词的长度不是2"
+    },
+    {
+        "query": "之 ~",
+        "description": "之后面接一个词"
+    },
+    {
+        "query": "(v) 精准 (vn){$1=$2}",
+        "description": "一个动词后面接精准，且两者相同"
+    },
+    {
+        "query": "(n) (nr){begin($1)!=[院 找]; len($2)>2}",
+        "description": "一个名词后面接一个人名，人名的开始不是院或找，且人名长度大于2"
+    },
+    {
+        "query": "载 (ns) 携手{end($1)=[非 拖]}",
+        "description": "载后面接一个地名，地名的结束不是非或拖"
+    },
+    {
+        "query": "互信 (n) 增强{end($1)!=[毛 贱 背]}",
+        "description": "互信后面接一个名词，名词的结束不是毛、贱或背"
+    },
+    {
+        "query": "../v 合作 成果 ../a",
+        "description": "动词后面接合作，合作后面接成果，成果也是句尾"
+    },
+    {
+        "query": "人文 ../[vn v] 丰富多彩",
+        "description": "人文后面接一个动词或名词，然后是丰富多彩"
+    }
+]
+```

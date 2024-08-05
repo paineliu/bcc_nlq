@@ -1,0 +1,167 @@
+根据提供的检索式，我们将其转换为带含义的json结构如下：
+
+```json
+[
+    {
+        "query": "得怪a w",
+        "description": "得怪形容词后接动词"
+    },
+    {
+        "query": "就d+v",
+        "description": "就动词后接形容词"
+    },
+    {
+        "query": "就d v",
+        "description": "就动词后接动词"
+    },
+    {
+        "query": "V下",
+        "description": "动词后接下"
+    },
+    {
+        "query": "N的共建",
+        "description": "名词后接的名词构成的短语"
+    },
+    {
+        "query": "a制定",
+        "description": "形容词后接制定"
+    },
+    {
+        "query": "属实w",
+        "description": "属实动词"
+    },
+    {
+        "query": "q情况",
+        "description": "情况后接量词和名词"
+    },
+    {
+        "query": "团an",
+        "description": "团队后接名词"
+    },
+    {
+        "query": "自从n+n+",
+        "description": "自从后接两个名词"
+    },
+    {
+        "query": "自从n n",
+        "description": "自从后接名词"
+    },
+    {
+        "query": "。n的n是n。",
+        "description": "句尾是名词、的、名词、是、名词"
+    },
+    {
+        "query": "a取得",
+        "description": "形容词后接取得"
+    },
+    {
+        "query": "a学",
+        "description": "形容词后接学习"
+    },
+    {
+        "query": "V他个",
+        "description": "动词后接他个"
+    },
+    {
+        "query": "m倍n",
+        "description": "量词后接倍、名词"
+    },
+    {
+        "query": "值得V。",
+        "description": "值得动词，句尾为句点"
+    },
+    {
+        "query": "n后遗症",
+        "description": "名词后接后遗症"
+    },
+    {
+        "query": "半n不n",
+        "description": "名词后接半、不、名词"
+    },
+    {
+        "query": "n的准备",
+        "description": "名词后接的、名词"
+    },
+    {
+        "query": "继续v",
+        "description": "继续动词"
+    },
+    {
+        "query": "m泓",
+        "description": "量词后接泓"
+    },
+    {
+        "query": "太d",
+        "description": "太形容词"
+    },
+    {
+        "query": "一场v+n",
+        "description": "一场动词后接名词"
+    },
+    {
+        "query": "一场v n",
+        "description": "一场动词后接名词"
+    },
+    {
+        "query": "v味",
+        "description": "动词后接味"
+    },
+    {
+        "query": "v迂了",
+        "description": "动词后接迂了"
+    },
+    {
+        "query": "a情绪",
+        "description": "形容词后接情绪"
+    },
+    {
+        "query": "一项n",
+        "description": "一项名词"
+    },
+    {
+        "query": "v回",
+        "description": "动词后接回"
+    },
+    {
+        "query": "n+d行w",
+        "description": "名词后接d行、动词"
+    },
+    {
+        "query": "n d行w",
+        "description": "名词后接d行、动词"
+    },
+    {
+        "query": "更加z+了w",
+        "description": "更加后接了、动词"
+    },
+    {
+        "query": "更加z 了w",
+        "description": "更加后接了、动词"
+    },
+    {
+        "query": "a创建",
+        "description": "形容词后接创建"
+    },
+    {
+        "query": "热爱v",
+        "description": "热爱动词"
+    },
+    {
+        "query": "v了v了v",
+        "description": "动词后接了、了、了、动词"
+    },
+    {
+        "query": "在图书馆V",
+        "description": "在图书馆动词"
+    },
+    {
+        "query": "没n不a",
+        "description": "没名词后接不、形容词"
+    },
+    {
+        "query": "把N包在",
+        "description": "把名词后接包、在"
+    }
+]
+```
+以上json结构完整包含了所有检索式及其对应的描述。

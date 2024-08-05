@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "v 了 m q",
+        "description": "动词后接了、名动词、量词"
+    },
+    {
+        "query": "使n+v",
+        "description": "使、名词后接动词"
+    },
+    {
+        "query": "使n v",
+        "description": "使、名词后接动词"
+    },
+    {
+        "query": "n女",
+        "description": "名词后接女"
+    },
+    {
+        "query": "煲n",
+        "description": "名词后接煲"
+    },
+    {
+        "query": "a可以",
+        "description": "形容词后接可以"
+    },
+    {
+        "query": "把+n+踩+",
+        "description": "把、名词后接踩、后跟空白字符"
+    },
+    {
+        "query": "把 n 踩",
+        "description": "把、名词后接踩"
+    },
+    {
+        "query": "担负n",
+        "description": "名词后接担负"
+    },
+    {
+        "query": "特+a",
+        "description": "特、形容词"
+    },
+    {
+        "query": "特 a",
+        "description": "特、形容词"
+    },
+    {
+        "query": "这群n",
+        "description": "名词后接群、名词"
+    },
+    {
+        "query": "一组n",
+        "description": "名词后接组、名词"
+    },
+    {
+        "query": "n自由",
+        "description": "名词后接自由"
+    },
+    {
+        "query": "n不大",
+        "description": "名词后接不大"
+    },
+    {
+        "query": "w太好了w",
+        "description": "标点符号后接太好了、标点符号"
+    },
+    {
+        "query": "n帝国主义",
+        "description": "名词后接帝国主义"
+    },
+    {
+        "query": "V错",
+        "description": "动词后接错"
+    },
+    {
+        "query": "看N的！",
+        "description": "动词后接N、的、标点符号"
+    },
+    {
+        "query": "nr嫉妒",
+        "description": "人名后接嫉妒"
+    },
+    {
+        "query": "n界w",
+        "description": "名词后接界、标点符号"
+    },
+    {
+        "query": "a+a的",
+        "description": "形容词、形容词后接的"
+    },
+    {
+        "query": "a a的",
+        "description": "形容词、形容词后接的"
+    },
+    {
+        "query": "宅p",
+        "description": "形容词后接宅"
+    },
+    {
+        "query": "m刀纸",
+        "description": "名动词后接刀、纸"
+    },
+    {
+        "query": "r不",
+        "description": "副词后接不"
+    },
+    {
+        "query": "a发达",
+        "description": "形容词后接发达"
+    },
+    {
+        "query": "p经验",
+        "description": "名动词后接经验"
+    },
+    {
+        "query": "能a就a",
+        "description": "动词后接能、形容词、就、形容词"
+    },
+    {
+        "query": "不够v",
+        "description": "动词后接不够"
+    },
+    {
+        "query": "口味+i",
+        "description": "名动词后接口味、拟声词"
+    },
+    {
+        "query": "口味 i",
+        "description": "名动词后接口味、拟声词"
+    },
+    {
+        "query": "一张n",
+        "description": "名词后接张、名词"
+    },
+    {
+        "query": "朝+r+v",
+        "description": "方向词后接朝、副词、动词"
+    },
+    {
+        "query": "朝 r v",
+        "description": "方向词后接朝、副词、动词"
+    },
+    {
+        "query": "一身n",
+        "description": "名词后接身、名词"
+    },
+    {
+        "query": "m造",
+        "description": "名动词后接造"
+    },
+    {
+        "query": "a刊登",
+        "description": "形容词后接刊登"
+    },
+    {
+        "query": "打N",
+        "description": "动词后接N"
+    },
+    {
+        "query": "N才是N",
+        "description": "名词后接才是、名词"
+    }
+]
+```

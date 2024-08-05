@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "(j) (ns){len($1)!=3; len($2)!=3}",
+        "description": "j后跟的ns长度不等于3，且紧接着的ns长度也不等于3"
+    },
+    {
+        "query": "(vn) (vn){$1=$2}",
+        "description": "两个相邻的vn必须内容相同"
+    },
+    {
+        "query": "建行 (ns) 分行{len($1)=2}",
+        "description": "建行后面跟着的ns，且分行的长度为2"
+    },
+    {
+        "query": "推出 (n) 热购卡{len($1)>1}",
+        "description": "推出后面接的名词，且名词长度大于1"
+    },
+    {
+        "query": "免费 (n){len($1)<3}",
+        "description": "免费后面接的名词，且名词长度小于3"
+    },
+    {
+        "query": ": ~",
+        "description": "冒号后面接任意字符"
+    },
+    {
+        "query": "(r) (u){len($2)!=2}",
+        "description": "r后跟的u长度不等于2"
+    },
+    {
+        "query": "将 (r) 体现{begin($1)!=[短 树 留]}",
+        "description": "将后跟的r，且紧跟的词不以短、树、留开头"
+    },
+    {
+        "query": "采访 @",
+        "description": "采访，统计时按照@词性归并"
+    },
+    {
+        "query": "上限 ~ 放开",
+        "description": "上限后面接任意字符，然后是放开"
+    },
+    {
+        "query": "没 涨/v ？",
+        "description": "没后跟的涨，紧接着是/v，且末尾是问号"
+    },
+    {
+        "query": "在 (j) 航线{begin($1)!=[远 楼 菜 试]}",
+        "description": "在后跟的j，且航线的开始不包含远、楼、菜、试"
+    },
+    {
+        "query": "胡华清 ~/[v v] 。",
+        "description": "胡华清后面接任意词性，且可能紧接着另一个词性"
+    },
+    {
+        "query": "步",
+        "description": "单个字符步"
+    },
+    {
+        "query": "胡华清 说/v 。",
+        "description": "胡华清后跟的词性为动词，且末尾是句号"
+    },
+    {
+        "query": "、 (v) 充分{len($1)=2}",
+        "description": "顿号后跟的词性为动词，且充分的长度为2"
+    },
+    {
+        "query": "的",
+        "description": "的"
+    },
+    {
+        "query": "胡华清 (v) 。{len($1)=2}",
+        "description": "胡华清后跟的词性为动词，且末尾是句号，动词长度为2"
+    },
+    {
+        "query": "~ 说",
+        "description": "任意字符后接说"
+    },
+    {
+        "query": "高铁 ~ 竞争",
+        "description": "高铁后面接任意字符，然后是竞争"
+    },
+    {
+        "query": "不妨 (v) 些{len($1)=2}",
+        "description": "不妨后跟的词性为动词，且有些的长度为2"
+    },
+    {
+        "query": "玩具 . 有",
+        "description": "玩具后隔一个字符后接有"
+    },
+    {
+        "query": "好几 @ 妈妈",
+        "description": "好几后接妈妈，统计时按照@词性归并"
+    },
+    {
+        "query": "过 w",
+        "description": "过后接任意字符"
+    },
+    {
+        "query": "(n) 召回{begin($1)!=[底 逛 林]}",
+        "description": "名词后召回，且召回的开始不包含底、逛、林"
+    },
+    {
+        "query": "的 (n) 。{len($1)>1}",
+        "description": "的后接的名词，且名词长度大于1"
+    },
+    {
+        "query": "支持 .",
+        "description": "支持后接任意字符"
+    },
+    {
+        "query": ". 铝",
+        "description": "任意字符后接铝"
+    },
+    {
+        "query": "增",
+        "description": "增"
+    },
+    {
+        "query": "一个 ~ 是",
+        "description": "一个后接任意字符，然后是是"
+    },
+    {
+        "query": "一大 n 。",
+        "description": "一大后接名词，且末尾是句号"
+    },
+    {
+        "query": "年 ./[f v] ，",
+        "description": "年后接f或v，然后是逗号"
+    },
+    {
+        "query": "(v) 如此 (a){len($1)=2; len($2)=2}",
+        "description": "两个相邻的词性为动词和形容词，且动词长度为2，形容词长度也为2"
+    },
+    {
+        "query": "(d) 有 哪些 (n){len($2)!=3}",
+        "description": "副词后接有，然后是哪些，且哪些的长度不等于3"
+    },
+    {
+        "query": "探测 (n) ？{count>8}",
+        "description": "探测后接名词，且该类型的实例频次大于8，末尾是问号"
+    },
+    {
+        "query": "决定 (d) 有{len($1)!=3}",
+        "description": "决定后跟的副词，且副词长度不等于3"
+    },
+    {
+        "query": "这 ~/[d v] 不",
+        "description": "这后接任意词性，然后是不"
+    },
+    {
+        "query": "问题 (v) 起来{len($1)=2}",
+        "description": "问题后跟的动词，且动词长度为2"
+    },
+    {
+        "query": "(v) (n){begin($2)=[能 鸡 飞]}",
+        "description": "动词后接名词，且名词的开始是能、鸡、飞中的一个"
+    },
+    {
+        "query": "创新 n",
+        "description": "创新后接名词"
+    }
+]
+```

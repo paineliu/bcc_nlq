@@ -1,0 +1,90 @@
+以下是根据您提供的检索式及其含义的JSON结构列表：
+
+```json
+[
+    {
+        "query": "~/[n v]", 
+        "description":"单音节名词或动词后面接一个词"
+    },
+    {
+        "query": "(c)", 
+        "description":"连词"
+    },
+    {
+        "query": "{begin($1)!=[超 晚 请]}",
+        "description":"限定$1的开始不是超、晚或请"
+    },
+    {
+        "query": "中华人民共和国 .../n",
+        "description":"中华人民共和国后面接任意三个字符再接名词"
+    },
+    {
+        "query": "中华 (n) 共和国{len($1)=2}",
+        "description":"中华后面接长度为2的名词，再接共和国"
+    },
+    {
+        "query": "(nz) 人民 共和国 (n){$1=$2}",
+        "description":"其他专名后面接人民和共和国，且$1与$2内容相同"
+    },
+    {
+        "query": "(m) 章 (n){len($1)<3; len($2)>1}",
+        "description":"数词后面接章和长度小于3的名词，且名词长度大于1"
+    },
+    {
+        "query": "(m) 章 航道 (n){len($1)!=3}",
+        "description":"数词后面接章和航道，且名词长度不等于3"
+    },
+    {
+        "query": "航道 (vn){count>9}",
+        "description":"航道作为动名词，出现次数大于9"
+    },
+    {
+        "query": "(m) 章 航道 (vn){begin($1)=[第 东]}",
+        "description":"数词后面接章和航道，且数词以第或东开始"
+    },
+    {
+        "query": "~/[m v] 章",
+        "description":"单音节名词或动词后面接章"
+    },
+    {
+        "query": "法律",
+        "description":"包含法律的句子"
+    },
+    {
+        "query": "章",
+        "description":"包含章的句子"
+    },
+    {
+        "query": "@ 章",
+        "description":"章，统计时按照词性归并"
+    },
+    {
+        "query": "(m) (q){len($1)=2}",
+        "description":"数词后面接一个词性为量词的词，且数词长度为2"
+    },
+    {
+        "query": "第七 @ 航道",
+        "description":"第七后面接航道，统计时按照词性归并"
+    },
+    {
+        "query": "(n) (vn){begin($2)!=[下 病]}",
+        "description":"名词后面接动名词，动名词不以下或病开始"
+    },
+    {
+        "query": "第四 ~/[q v] 航道",
+        "description":"第四后面接一个词性为量词或动词的词，再接航道"
+    },
+    {
+        "query": "(n) (v){len($1)>1; begin($2)!=[愿 苦 杰 冰]}",
+        "description":"名词后面接动词，名词长度大于1，动词不以愿、苦、杰、冰开始"
+    },
+    {
+        "query": "上 v 的",
+        "description":"上后面接动词和的"
+    },
+    {
+        "query": "./[m v] 危害",
+        "description":"单音节名词或动词后面接危害"
+    }
+]
+```

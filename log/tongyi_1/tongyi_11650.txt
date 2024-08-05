@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "(ns) (d){len($1)>1}",
+        "description": "包含('ns'后面跟随一个长度大于1的副词)"
+    },
+    {
+        "query": "搭",
+        "description": "搭"
+    },
+    {
+        "query": "二十局 ~/[n v] 供图",
+        "description": "二十局后面离合出现名词或动词，然后是供图"
+    },
+    {
+        "query": "铁路 .. 打通",
+        "description": "铁路后面可能是两个词，用于表示打通"
+    },
+    {
+        "query": "。",
+        "description": "句尾是一个点"
+    },
+    {
+        "query": "(n) 网络{end($1)=[空 系 康 活]}",
+        "description": "名词后面是网络，且网络的结尾是空、系、康或活"
+    },
+    {
+        "query": "远 @/[v v] 加纳",
+        "description": "远后接一个或两个动词，然后是加纳"
+    },
+    {
+        "query": "罗成/nr 表示",
+        "description": "罗成作为人名后面跟'表示'"
+    },
+    {
+        "query": "~ 深深",
+        "description": "后面是一个词，可能是'深深'"
+    },
+    {
+        "query": "园区 ~ 合作",
+        "description": "园区后面跟一个词，可能是'合作'"
+    },
+    {
+        "query": "(nr) 说{middle($1)=[登 体 断 帮]}",
+        "description": "人名后面，说字前后各有一个指定的字"
+    },
+    {
+        "query": "举 (n){len($1)=2}",
+        "description": "两个字的名词，紧跟着'举'"
+    },
+    {
+        "query": "(u) 举 (w){count<900}",
+        "description": "一个字的举，且举的前面出现次数少于900次"
+    },
+    {
+        "query": "不 ./[v v] 以邻为壑",
+        "description": "不后面可以是单音节动词或双音节动词，然后是'以邻为壑'"
+    },
+    {
+        "query": "协调 .. ，",
+        "description": "协调后面可能是两个词，然后是逗号"
+    },
+    {
+        "query": "说",
+        "description": "仅'说'"
+    },
+    {
+        "query": "来 ../[n v] ，",
+        "description": "来后面可能是名词或动词，然后是逗号"
+    },
+    {
+        "query": "(v) ， (v){len($1)!=3}",
+        "description": "两个动词，且第一个动词不是三个字"
+    },
+    {
+        "query": "刘",
+        "description": "仅'刘'"
+    },
+    {
+        "query": "建",
+        "description": "仅'建'"
+    },
+    {
+        "query": "张光伟 ~ 。",
+        "description": "张光伟后面跟着一个词，然后是句尾点"
+    },
+    {
+        "query": "这个 . 工资",
+        "description": "这个后面是一个点，然后是'工资'"
+    },
+    {
+        "query": "(p) (r){len($1)=1; len($2)=3}",
+        "description": "一个介词后面跟着一个长度为3的词"
+    },
+    {
+        "query": "(n) 上 翻上 一万 倍 又 (r){len($1)=2; len($2)=2}",
+        "description": "名词、上、翻上、一万、倍、又后面是一个长度为2的词"
+    },
+    {
+        "query": "意义 (y) ！{len($1)!=2}",
+        "description": "意义后面是一个感叹词，但感叹词不是两个字"
+    },
+    {
+        "query": "(w) 会 掩盖 掉 许多 (n){end($2)!=[耍 他 此 文]}",
+        "description": "会掩盖掉许多名词，且名词后面不是耍、他、此或文"
+    },
+    {
+        "query": "扶贫 上/v ，",
+        "description": "扶贫后面是动词上，然后是逗号"
+    },
+    {
+        "query": "漫漫 冬雨/n 袭",
+        "description": "漫漫冬雨后面是名词袭"
+    },
+    {
+        "query": "@ 平王",
+        "description": "可能是'平王'"
+    },
+    {
+        "query": "安徽 (v) 农业{begin($1)=[试 他 娘]}",
+        "description": "安徽后面是动词，农业的开头是试、他或娘"
+    },
+    {
+        "query": "上",
+        "description": "仅'上'"
+    },
+    {
+        "query": "北京 @/[d v] 研究",
+        "description": "北京后面可能是介词或动词，然后是研究"
+    },
+    {
+        "query": "残疾人 @/[n v] 上演",
+        "description": "残疾人后面可能是名词或动词，然后是上演"
+    },
+    {
+        "query": "大勇 (u) 人格{count<328}",
+        "description": "大勇后面是人格，人格前面出现次数少于328次"
+    },
+    {
+        "query": "而 (nr) 渔入{len($1)!=2}",
+        "description": "而后面是人名，且人名不是两个字"
+    },
+    {
+        "query": "理想",
+        "description": "仅'理想'"
+    },
+    {
+        "query": "(a) 的 创作 (n){len($1)>1}",
+        "description": "一个形容词后面是'的'，然后是创作（后面可能是长度大于1的名词）"
+    },
+    {
+        "query": "../d ，",
+        "description": "可能是两个词，然后是逗号"
+    },
+    {
+        "query": ".. ， 本 也 ..",
+        "description": "可能是两个词，然后是逗号，再是'本'和'也'，最后可能是两个词"
+    },
+    {
+        "query": "： ... 声",
+        "description": "冒号后面可能是多个字，然后是省略号和可能的其他字符"
+    }
+]
+```

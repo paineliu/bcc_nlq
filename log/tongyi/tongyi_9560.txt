@@ -1,0 +1,167 @@
+以下是将给定检索式转换为带含义的json结构的结果：
+
+```json
+[
+    {
+        "query": "关@", 
+        "description":"检索以'关'开头的词性"
+    },
+    {
+        "query": "她.+上去w", 
+        "description":"她后面连续一个词性，再接'上去'，且整个表达式作为一个整体被检索"
+    },
+    {
+        "query": "她. 上去w", 
+        "description":"她后面隔一个字后接'上去'"
+    },
+    {
+        "query": "就要...了", 
+        "description":"即将发生，可能含有省略的字或标点"
+    },
+    {
+        "query": "w东.西w", 
+        "description":"以'东西'为中间隔开的两个单字表达式"
+    },
+    {
+        "query": "不说*", 
+        "description":"检索以'说'开头的离合表达式"
+    },
+    {
+        "query": "说句........话", 
+        "description":"说后连续多个点后接话"
+    },
+    {
+        "query": "或许*实在", 
+        "description":"或许后面离合出现'实在'"
+    },
+    {
+        "query": "是*的人格w", 
+        "description":"是后面离合出现'的人格'"
+    },
+    {
+        "query": "起码*也许", 
+        "description":"起码后面离合出现'也许'"
+    },
+    {
+        "query": "恐.", 
+        "description":"恐后面跟一个点"
+    },
+    {
+        "query": "她.+进来w", 
+        "description":"她后面连续一个词性，再接'进来'"
+    },
+    {
+        "query": "她. 进来w", 
+        "description":"她后面隔一个字后接'进来'"
+    },
+    {
+        "query": "w密.疏w", 
+        "description":"以'密疏'为中间隔开的两个单字表达式"
+    },
+    {
+        "query": "她们..+回来w", 
+        "description":"她们后面连续多个点后接'回来'"
+    },
+    {
+        "query": "她们.. 回来w", 
+        "description":"她们后面连续多个点后接'回来'"
+    },
+    {
+        "query": "老人*大", 
+        "description":"老人后面离合出现'大'"
+    },
+    {
+        "query": "拿不.", 
+        "description":"拿后跟一个点"
+    },
+    {
+        "query": "怪*的", 
+        "description":"怪后面离合出现'的'"
+    },
+    {
+        "query": "睡*觉", 
+        "description":"睡后离合出现'觉'"
+    },
+    {
+        "query": "劳*动", 
+        "description":"劳后离合出现'动'"
+    },
+    {
+        "query": "或许*甚至", 
+        "description":"或许后面离合出现'甚至'"
+    },
+    {
+        "query": "就是...也", 
+        "description":"就是后面连续多个点后接'也'"
+    },
+    {
+        "query": "都快..............了", 
+        "description":"都快后连续多个点后接'了'"
+    },
+    {
+        "query": "看把*a的", 
+        "description":"看后连续一个词性，再接'a的'"
+    },
+    {
+        "query": "在*里w", 
+        "description":"在后面离合出现'里'"
+    },
+    {
+        "query": "V着*呢", 
+        "description":"V着后面离合出现'呢'"
+    },
+    {
+        "query": "你.别说", 
+        "description":"你后面隔一个字后接'别说'"
+    },
+    {
+        "query": "是*的主题w", 
+        "description":"是后面离合出现'的主题'"
+    },
+    {
+        "query": "引发@", 
+        "description":"检索以'引发'开头的词性"
+    },
+    {
+        "query": "七.八.", 
+        "description":"以'七八'为中间隔开的两个单字表达式"
+    },
+    {
+        "query": "似乎*总能", 
+        "description":"似乎后面离合出现'总能'"
+    },
+    {
+        "query": "V起.来", 
+        "description":"V着后面连续一个词性，再接'起来'"
+    },
+    {
+        "query": "高兴*忧郁", 
+        "description":"高兴后面离合出现'忧郁'"
+    },
+    {
+        "query": "他一个*！", 
+        "description":"他后面连续一个词性，再接'一个！'"
+    },
+    {
+        "query": "w真.假w", 
+        "description":"以'真假'为中间隔开的两个单字表达式"
+    },
+    {
+        "query": "也不是..也不是", 
+        "description":"也不是后连续多个点后接'也不是'"
+    },
+    {
+        "query": "恐怕*宁可", 
+        "description":"恐怕后面离合出现'宁可'"
+    },
+    {
+        "query": "a.蜡烛", 
+        "description":"a后面跟一个点后接'蜡烛'"
+    },
+    {
+        "query": "是@的w", 
+        "description":"是后面以词性'的'结尾"
+    }
+]
+```
+以上json结构包含了所有的检索式及其对应的描述。

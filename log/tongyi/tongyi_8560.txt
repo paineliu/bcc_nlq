@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "？+n是n+！",
+        "description": "问号后面接名词，然后是是，再接名词，最后是感叹号"
+    },
+    {
+        "query": "？ n是n ！",
+        "description": "问号后面接单个名词，然后是是，再接单个名词，最后是感叹号"
+    },
+    {
+        "query": "大肆v",
+        "description": "动词大肆"
+    },
+    {
+        "query": "V权力",
+        "description": "动词V后面接权力"
+    },
+    {
+        "query": "a发表",
+        "description": "形容词a后面接发表"
+    },
+    {
+        "query": "是n而不是n",
+        "description": "是名词后面接而不是，再接名词"
+    },
+    {
+        "query": "a准确",
+        "description": "形容词a后面接准确"
+    },
+    {
+        "query": "有多a呢？",
+        "description": "有多形容词后面接呢，后面是问号"
+    },
+    {
+        "query": "w似乎w",
+        "description": "疑问词w后面接似乎，再接疑问词"
+    },
+    {
+        "query": "v严了",
+        "description": "动词v后面接严了"
+    },
+    {
+        "query": "a储藏",
+        "description": "形容词a后面接储藏"
+    },
+    {
+        "query": "仓房v",
+        "description": "名词仓房后面接动词v"
+    },
+    {
+        "query": "p检查",
+        "description": "介词p后面接检查"
+    },
+    {
+        "query": "(v)+n+(v)在",
+        "description": "动词+名词+动词在"
+    },
+    {
+        "query": "(v) n (v)在",
+        "description": "动词n动词在"
+    },
+    {
+        "query": "一天a一天a",
+        "description": "形容词一天后面接形容词一天"
+    },
+    {
+        "query": "m名w",
+        "description": "量词m后面接名疑问词w"
+    },
+    {
+        "query": "v一言",
+        "description": "动词v后面接一言"
+    },
+    {
+        "query": "a中游",
+        "description": "形容词a后面接中游"
+    },
+    {
+        "query": "v到底了",
+        "description": "动词v后面接到底了"
+    },
+    {
+        "query": "d没有发现",
+        "description": "副词d后面接没有发现"
+    },
+    {
+        "query": "v下欢乐",
+        "description": "动词v后面接下欢乐"
+    },
+    {
+        "query": "你们一个n",
+        "description": "你们后面接一个名词"
+    },
+    {
+        "query": "m个n",
+        "description": "量词m后面接个名词"
+    },
+    {
+        "query": "立在s",
+        "description": "动词立后面接在s"
+    },
+    {
+        "query": "早不V晚不V",
+        "description": "早动词V后面不接任何东西，晚动词V后面也不接任何东西"
+    },
+    {
+        "query": "表明+n",
+        "description": "动词表明后面接名词"
+    },
+    {
+        "query": "表明 n",
+        "description": "动词表明后面接单个名词"
+    },
+    {
+        "query": "制造+n",
+        "description": "动词制造后面接名词"
+    },
+    {
+        "query": "制造 n",
+        "description": "动词制造后面接单个名词"
+    },
+    {
+        "query": "nr虐待",
+        "description": "人名nr后面接虐待"
+    },
+    {
+        "query": "不V破",
+        "description": "否定词不后面接破"
+    },
+    {
+        "query": "v了他m个",
+        "description": "动词v后面接了，再接他，后面接量词m个"
+    },
+    {
+        "query": "但是d",
+        "description": "转折词但是后面接d"
+    },
+    {
+        "query": "m包n",
+        "description": "量词m后面接包名词"
+    },
+    {
+        "query": "a仪式",
+        "description": "形容词a后面接仪式"
+    },
+    {
+        "query": "上v着",
+        "description": "动词上后面接着"
+    },
+    {
+        "query": "w像",
+        "description": "疑问词w后面接像"
+    },
+    {
+        "query": "看r多么v",
+        "description": "动词看后面接r，再接多么动词"
+    },
+    {
+        "query": "，n多次v",
+        "description": "逗号n后面接多次动词"
+    }
+]
+```

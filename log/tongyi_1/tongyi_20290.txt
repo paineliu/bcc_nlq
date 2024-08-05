@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "(n) 共同体{count<600}",
+        "description": "共同体，实例频次少于600次"
+    },
+    {
+        "query": "为此 ，/w 转变",
+        "description": "为此，后面接'，'然后是动词或形容词"
+    },
+    {
+        "query": "和平 ../v ！",
+        "description": "和平后面接双音节动词，感叹号结尾"
+    },
+    {
+        "query": "@/[n v] 必胜",
+        "description": "必胜前面可以是名词或动词"
+    },
+    {
+        "query": "必胜",
+        "description": "必胜单独出现"
+    },
+    {
+        "query": "../n 必胜",
+        "description": "必胜后面接单音节名词"
+    },
+    {
+        "query": "值得 ~ 永远",
+        "description": "值得后面接任意词"
+    },
+    {
+        "query": "大国 ../n",
+        "description": "大国后面接单音节名词"
+    },
+    {
+        "query": "要 p 建设性",
+        "description": "要后面接介词，然后是建设性"
+    },
+    {
+        "query": "新型 (n) 关系{count<694}",
+        "description": "新型后面接名词，实例频次少于694次"
+    },
+    {
+        "query": "新型 (n) 关系{count<755}",
+        "description": "新型后面接名词，实例频次少于755次"
+    },
+    {
+        "query": "(n) 治理{count>3}",
+        "description": "治理，实例频次大于3次"
+    },
+    {
+        "query": "出访",
+        "description": "出访单独出现"
+    },
+    {
+        "query": "进行 ~/[l v]",
+        "description": "进行后面接'~'，后面可以是动词或量词"
+    },
+    {
+        "query": "新加坡 (vx) 国事访问{len($1)=2}",
+        "description": "新加坡后面接两个字的动词，可能是国事访问"
+    },
+    {
+        "query": "之 ~",
+        "description": "之后面接任意词"
+    },
+    {
+        "query": "(d) 作为{count>2}",
+        "description": "作为，实例频次大于2次"
+    },
+    {
+        "query": "真心 @ 中国",
+        "description": "真心后面接一个词，可能是中国"
+    },
+    {
+        "query": "驻 (nt) 记者{end($1)!=[她 么 哎 赢]}",
+        "description": "驻后面接名词记者，排除特定词汇"
+    },
+    {
+        "query": "~ 驻",
+        "description": "驻后面接任意词"
+    },
+    {
+        "query": "就 @/[p v] 我们",
+        "description": "就后面接介词或动词，然后是'我们'"
+    },
+    {
+        "query": "(n) 曲颂 (v){end($1)!=[过 桌 缺 哈]; len($2)>1}",
+        "description": "曲颂后面接一个动词，动词长度大于1，排除特定词汇"
+    },
+    {
+        "query": "中国 @ 很",
+        "description": "中国后面接一个词，可能是很"
+    },
+    {
+        "query": "采访 (v){count>4}",
+        "description": "采访，动词实例频次大于4次"
+    },
+    {
+        "query": "泰国/ns 记者 张 志文/nr",
+        "description": "泰国后面接名词记者，然后是张志文"
+    },
+    {
+        "query": "银行 (n){end($1)!=[咬 迟 插 宁]}",
+        "description": "银行后面接名词，排除特定词汇"
+    },
+    {
+        "query": "视觉 @ ：",
+        "description": "视觉后面接冒号"
+    },
+    {
+        "query": "(n) 为 民 ， 危难 (n){len($1)>1; len($2)>1}",
+        "description": "为后面接民，危难后面接两个字的名词"
+    },
+    {
+        "query": "接受 @/[w v]",
+        "description": "接受后面接动词或助词"
+    },
+    {
+        "query": "名 n 如是说",
+        "description": "名后面接名词，如是说"
+    },
+    {
+        "query": "真 朋友/n ，",
+        "description": "真后面接形容词，朋友后面接名词，逗号结尾"
+    },
+    {
+        "query": "(r) 全都 看 在 眼里 ， 记 在 (s){len($2)>1}",
+        "description": "全都后面接看，看后面接在眼里，记后面接在两个字的词，逗号结尾"
+    },
+    {
+        "query": "他们 ./[d v] 是",
+        "description": "他们后面接副词或动词，然后是'是'"
+    },
+    {
+        "query": "王耀平 说/v ，",
+        "description": "王耀平后面接动词，逗号结尾"
+    },
+    {
+        "query": "行动",
+        "description": "行动单独出现"
+    },
+    {
+        "query": "(p) 战火 阴影 ， 当地 (n){len($1)!=2; len($2)=2}",
+        "description": "战火后面接阴影，阴影后面接两个字的当地"
+    },
+    {
+        "query": "好 ../[n v] ，",
+        "description": "好后面接单音节名词或动词，逗号结尾"
+    },
+    {
+        "query": "时间 (v) 震区{len($1)!=3}",
+        "description": "时间后面接动词，但动词长度不是3"
+    },
+    {
+        "query": "志雄 (v) 。{len($1)=1}",
+        "description": "志雄后面接一个字的动词，句号结尾"
+    },
+    {
+        "query": "队长 @ 告诉",
+        "description": "队长后面接一个词，可能是告诉"
+    }
+]
+```

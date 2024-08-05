@@ -1,0 +1,200 @@
+```json
+[
+    {
+        "query": "你 @/[v v] 去",
+        "description": "你后面跟两个连续的动词后接去"
+    },
+    {
+        "query": "咱 @/[v v] 走",
+        "description": "咱后面跟两个连续的动词后接走"
+    },
+    {
+        "query": "就 @/[v v] 回家",
+        "description": "就后面跟两个连续的动词后接回家"
+    },
+    {
+        "query": "上 (n) 游{begin($1)!=[缺 够]}",
+        "description": "上后面接一个名词，但不是缺或够"
+    },
+    {
+        "query": "n 王璇",
+        "description": "直接包含王璇"
+    },
+    {
+        "query": "天 (v) ，{end($1)!=[咯 浪 爷]}",
+        "description": "天后面接一个动词，但不接咯、浪或爷"
+    },
+    {
+        "query": "放心 @ 划算",
+        "description": "放心后面接一个词，可能是动词或形容词"
+    },
+    {
+        "query": "网购 @/[v v] 起来",
+        "description": "网购后面跟两个连续的动词"
+    },
+    {
+        "query": "背后 ~ 传统",
+        "description": "背后后面接一个词"
+    },
+    {
+        "query": "什么 (w){count>3}",
+        "description": "什么后面出现次数多于3次的词"
+    },
+    {
+        "query": "把 (a) 穿{len($1)>1}",
+        "description": "把后面接一个长度大于1的形容词"
+    },
+    {
+        "query": "， @/[r v] 的",
+        "description": "逗号后面接一个连词或动词，后面可能是的"
+    },
+    {
+        "query": ". 张",
+        "description": "句尾是张"
+    },
+    {
+        "query": "自助游 @ 不用",
+        "description": "自助游后面接一个词，可能是动词或形容词"
+    },
+    {
+        "query": "本报 ~ 泰国",
+        "description": "本报后面接一个词"
+    },
+    {
+        "query": "小院 @/[v v] 五星",
+        "description": "小院后面跟两个连续的动词后接五星"
+    },
+    {
+        "query": "@ 两",
+        "description": "直接包含两"
+    },
+    {
+        "query": ": (nr){begin($1)!=[像 否]}",
+        "description": "冒号后面接一个人名，但不以像或否开头"
+    },
+    {
+        "query": "(n) ： (n){len($1)!=3}",
+        "description": "两个相邻的名词，但长度不是3"
+    },
+    {
+        "query": "新年 @ 祝福观",
+        "description": "新年后面接一个词"
+    },
+    {
+        "query": "(j) 农民{count>2}",
+        "description": "农民这个词出现次数多于2次"
+    },
+    {
+        "query": "(v) (w){end($1)!=[猪 月]}",
+        "description": "两个相邻的词，且第二个词不以猪或月结尾"
+    },
+    {
+        "query": "许渊冲 (n){end($1)=[音 哼 踩 根]}",
+        "description": "许渊冲后面接一个词，可能是音、哼、踩或根"
+    },
+    {
+        "query": "冲速",
+        "description": "直接包含冲速"
+    },
+    {
+        "query": "~/[n v] 简介",
+        "description": "前后词边界附近包含简介"
+    },
+    {
+        "query": "(p) 生活 里 掘 (m){len($1)=1; len($2)!=2}",
+        "description": "生活、里、掘三个词，掘的长度为1，且不是两个字"
+    },
+    {
+        "query": "(w) 老农民 》 (n){begin($2)!=[使 系]}",
+        "description": "老农民后面接一个名词，但不以使或系开头"
+    },
+    {
+        "query": "耍 ../[v v] 小聪明",
+        "description": "耍后面跟两个连续的动词，可能接小聪明"
+    },
+    {
+        "query": "../v 政府 责任 是 此次 修订 的 ../n",
+        "description": "两个连续的动词后接政府、责任、是、此次、修订、的、名词"
+    },
+    {
+        "query": "一 . 增设",
+        "description": "一后面接一个点，可能是标点"
+    },
+    {
+        "query": "(m) 是{len($1)=1}",
+        "description": "一个数词后面接一个单字的词"
+    },
+    {
+        "query": "增设 vn 责任",
+        "description": "增设后面接一个名词"
+    },
+    {
+        "query": "绷紧/a 安全",
+        "description": "绷紧后面接形容词安全"
+    },
+    {
+        "query": "迎来 ~ 。",
+        "description": "迎来后面接一个词，可能是句尾符号"
+    },
+    {
+        "query": "动车",
+        "description": "直接包含动车"
+    },
+    {
+        "query": "坚刘 a 珍民",
+        "description": "坚刘后面接形容词珍民"
+    },
+    {
+        "query": "严出 新/a 景象",
+        "description": "严出后面接形容词新，然后是景象"
+    },
+    {
+        "query": "' ~/[a v] 城管",
+        "description": "引号前后词边界附近包含城管"
+    },
+    {
+        "query": "(u) 改革 动力 何 (v){len($1)=1}",
+        "description": "改革、动力、何三个词，何的长度为1"
+    },
+    {
+        "query": "向 (n) 斑点{len($1)<3}",
+        "description": "向后面接一个名词，但长度小于3"
+    },
+    {
+        "query": "有为 @",
+        "description": "有为后面接一个词"
+    },
+    {
+        "query": "变 (n){middle($1)!=[奥 澡 忘 级]}",
+        "description": "变后面接一个名词，但中间不是奥、澡、忘或级"
+    },
+    {
+        "query": "以前",
+        "description": "直接包含以前"
+    },
+    {
+        "query": "周 丽蓉/nr 感慨",
+        "description": "周丽蓉后面接感慨"
+    },
+    {
+        "query": "(ns) 全力{len($1)!=3}",
+        "description": "全力这个词出现次数多于2次"
+    },
+    {
+        "query": "制图 ~/[w v] 蔡华伟",
+        "description": "制图前后词边界附近包含蔡华伟"
+    },
+    {
+        "query": "~ 人员",
+        "description": "前后词边界附近包含人员"
+    },
+    {
+        "query": "中国",
+        "description": "直接包含中国"
+    },
+    {
+        "query": "m 本 压缩机 兵书 研读 七 q",
+        "description": "直接包含七个词：m、本、压缩机、兵书、研读、七和q"
+    }
+]
+```

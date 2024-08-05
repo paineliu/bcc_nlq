@@ -1,0 +1,170 @@
+以下是将给定检索式转换为带含义的json结构的结果：
+
+```json
+[
+    {
+        "query": "暖冬/n+冬季+美食/n",
+        "description": "暖冬后接冬季，冬季后再接美食"
+    },
+    {
+        "query": "暖冬/n 冬季 美食/n",
+        "description": "暖冬与冬季之间有空格，之后是美食"
+    },
+    {
+        "query": "位+学生/n+家长",
+        "description": "位后接学生，学生后接家长"
+    },
+    {
+        "query": "位 学生/n 家长",
+        "description": "位与学生之间有空格，学生与家长之间有空格"
+    },
+    {
+        "query": "结构+。/w",
+        "description": "结构后接句尾符号。"
+    },
+    {
+        "query": "结构 。/w",
+        "description": "结构后接句尾符号。"
+    },
+    {
+        "query": "n+的+深情/n",
+        "description": "n后接的，再接深情"
+    },
+    {
+        "query": "n 的 深情/n",
+        "description": "n与的之间有空格，之后是深情"
+    },
+    {
+        "query": "常常/d+v",
+        "description": "常常后接动词"
+    },
+    {
+        "query": "常常/d v",
+        "description": "常常与v之间有空格"
+    },
+    {
+        "query": "创模+坚守/v+生态",
+        "description": "创模后接坚守，坚守后接生态"
+    },
+    {
+        "query": "创模 坚守/v 生态",
+        "description": "创模与坚守之间有空格，坚守与生态之间有空格"
+    },
+    {
+        "query": "a+口味/n",
+        "description": "a后接口味"
+    },
+    {
+        "query": "a 口味/n",
+        "description": "a与口味之间有空格"
+    },
+    {
+        "query": "n+爱心/n",
+        "description": "n后接爱心"
+    },
+    {
+        "query": "n 爱心/n",
+        "description": "n与爱心之间有空格"
+    },
+    {
+        "query": "主体/n+定位+模糊+，+存在/v",
+        "description": "主体后接定位，定位后接模糊，模糊后接逗号，之后是存在"
+    },
+    {
+        "query": "主体/n 定位 模糊 ， 存在/v",
+        "description": "主体与定位之间有空格，定位与模糊之间有空格，模糊与逗号之间有空格，逗号与存在之间有空格"
+    },
+    {
+        "query": "v+善意/n",
+        "description": "v后接善意"
+    },
+    {
+        "query": "v 善意/n",
+        "description": "v与善意之间有空格"
+    },
+    {
+        "query": "的+智慧/n",
+        "description": "的后接智慧"
+    },
+    {
+        "query": "的 智慧/n",
+        "description": "的与智慧之间有空格"
+    },
+    {
+        "query": "下跌+实际上/d+是",
+        "description": "下跌后接实际上，实际上后接是"
+    },
+    {
+        "query": "下跌 实际上/d 是",
+        "description": "下跌与实际上之间有空格，实际上与是之间有空格"
+    },
+    {
+        "query": "n+的+兴致/n",
+        "description": "n后接的，再接兴致"
+    },
+    {
+        "query": "n 的 兴致/n",
+        "description": "n与的之间有空格，之后是兴致"
+    },
+    {
+        "query": "爱好/n+v",
+        "description": "爱好后接动词"
+    },
+    {
+        "query": "爱好/n v",
+        "description": "爱好与v之间有空格"
+    },
+    {
+        "query": "但+总的来说/c+，",
+        "description": "但后接总的来说，总的来说后接逗号"
+    },
+    {
+        "query": "但 总的来说/c ，",
+        "description": "但与总的来说之间有空格，总的来说与逗号之间有空格"
+    },
+    {
+        "query": "，+申报/vn+工作",
+        "description": "逗号后接申报，申报后接工作"
+    },
+    {
+        "query": "， 申报/vn 工作",
+        "description": "逗号与申报之间有空格，申报与工作之间有空格"
+    },
+    {
+        "query": "历史性+时刻/n",
+        "description": "历史性后接时刻"
+    },
+    {
+        "query": "历史性 时刻/n",
+        "description": "历史性与时刻之间有空格"
+    },
+    {
+        "query": "：+雕刻/v+火药",
+        "description": "冒号后接雕刻，雕刻后接火药"
+    },
+    {
+        "query": "： 雕刻/v 火药",
+        "description": "冒号与雕刻之间有空格，雕刻与火药之间有空格"
+    },
+    {
+        "query": "非/d",
+        "description": "非作为副词使用"
+    },
+    {
+        "query": "周到+，/w+百姓",
+        "description": "周到后接逗号，逗号后接百姓"
+    },
+    {
+        "query": "周到 ，/w 百姓",
+        "description": "周到与逗号之间有空格，逗号与百姓之间有空格"
+    },
+    {
+        "query": "底气+十足/z+。",
+        "description": "底气后接十足，十足后接句尾符号。"
+    },
+    {
+        "query": "底气 十足/z 。",
+        "description": "底气与十足之间有空格，十足与句尾符号之间有空格"
+    }
+]
+```

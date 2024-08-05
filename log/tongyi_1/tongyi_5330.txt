@@ -1,0 +1,163 @@
+以下是检索式及其含义的JSON结构：
+
+```json
+[
+    {
+        "query": "标 @/[w v]",
+        "description": "标后跟一个词，可能是形容词或动词"
+    },
+    {
+        "query": "梁 @ 同志",
+        "description": "梁后跟一个词，可能是人名"
+    },
+    {
+        "query": "(nr) 同志{len($1)>2}",
+        "description": "同志这个词后面的内容长度大于2"
+    },
+    {
+        "query": "(nr) 同志 (v){$1!=$2}",
+        "description": "两个连续的同志，但后一个不是前一个"
+    },
+    {
+        "query": "提升 @/[n v] 宏观",
+        "description": "提升后跟一个名词或动词，后面是宏观"
+    },
+    {
+        "query": "典型",
+        "description": "表示典型的实例"
+    },
+    {
+        "query": "~/[n v] 善举",
+        "description": "一个词后跟名词或动词，该词表示善举"
+    },
+    {
+        "query": "聚焦 (n) 人群{count<984}",
+        "description": "聚焦后跟一个名词，人群实例少于984个"
+    },
+    {
+        "query": "作用 ./[w v]",
+        "description": "作用后跟一个动词或形容词"
+    },
+    {
+        "query": "成峰 @/[w v]",
+        "description": "成峰后跟一个词，可能是形容词或动词"
+    },
+    {
+        "query": "立体化 @/[w v]",
+        "description": "立体化后跟一个词，可能是形容词或动词"
+    },
+    {
+        "query": "社会/n 需要",
+        "description": "社会后面接名词需要"
+    },
+    {
+        "query": "具象化 ./w",
+        "description": "具象化后跟一个词"
+    },
+    {
+        "query": "(m) (v){len($1)=1}",
+        "description": "一个单音节的词后面跟一个动词"
+    },
+    {
+        "query": "之 (n) ，{count>2}",
+        "description": "之后面跟一个名词，逗号后面至少还有两个"
+    },
+    {
+        "query": "！",
+        "description": "感叹号"
+    },
+    {
+        "query": "硕果仅存 (u) 革命{len($1)=1}",
+        "description": "硕果仅存后面跟一个未知词，革命的长度为1"
+    },
+    {
+        "query": "相逢 (v){count>6}",
+        "description": "相逢后面出现次数超过6次"
+    },
+    {
+        "query": "电力 ../[n v] 水电",
+        "description": "电力后面离合出现名词或动词，然后是水电"
+    },
+    {
+        "query": "(n) 在 (n){begin($1)=[官兵 雨 鞋]; len($2)=2}",
+        "description": "两个名词之间，第一个名词可能是官兵、雨或鞋，且第二个名词长度为2"
+    },
+    {
+        "query": "这里 @ 奢望",
+        "description": "这里后跟一个词，可能是形容词或动词"
+    },
+    {
+        "query": "(p) 禁区{len($1)!=2}",
+        "description": "禁区这个词的长度不是2"
+    },
+    {
+        "query": "../v 奇迹",
+        "description": "一个双音节动词后面接奇迹"
+    },
+    {
+        "query": "(v) 藏汉 (n){len($2)>1}",
+        "description": "一个动词后面接藏汉，藏汉后面至少还有一个词"
+    },
+    {
+        "query": "训康",
+        "description": "训康可能是两个词"
+    },
+    {
+        "query": "与 (nz) 结缘{begin($1)=[汉 甜 康 支]}",
+        "description": "与后面接一个其他专名，可能是汉、甜、康或支"
+    },
+    {
+        "query": "(n) (v){end($1)=[想 摸 门 抢]}",
+        "description": "一个名词后面跟一个动词，且动词后面是想、摸、门或抢"
+    },
+    {
+        "query": "到 (i) 等{len($1)<5}",
+        "description": "到后面跟一个介词，介词长度小于5"
+    },
+    {
+        "query": "老",
+        "description": "单独的老字"
+    },
+    {
+        "query": "人 @/[i v]",
+        "description": "人后跟一个形容词或动词"
+    },
+    {
+        "query": "难忘 (w){count>4}",
+        "description": "难忘后面出现次数超过4次"
+    },
+    {
+        "query": "学 ../nz 用心",
+        "description": "学后面离合出现一个词，该词可能是其他专名，后面是用心"
+    },
+    {
+        "query": "人才 ~/[w v]",
+        "description": "人才后跟一个词，可能是形容词或动词"
+    },
+    {
+        "query": "专职 (n) 。{begin($1)!=[玲 疼 黄 哈]}",
+        "description": "专职后面接一个名词，且名词不是玲、疼、黄或哈"
+    },
+    {
+        "query": "五洲 n",
+        "description": "五洲后面接一个名词"
+    },
+    {
+        "query": "， .. 却",
+        "description": "逗号后面可能接任意字符，然后是却"
+    },
+    {
+        "query": "， ./v 自古不变",
+        "description": "逗号后面跟一个动词，表示自古不变"
+    },
+    {
+        "query": ".. 的",
+        "description": "两个相邻的字符后面接一个的"
+    },
+    {
+        "query": "叙利亚人",
+        "description": "直接的叙利亚人"
+    }
+]
+```
+请注意，有些检索式可能需要根据上下文进一步解释，因为某些条件可能不太明确，比如`begin($1)!=[官兵 雨 鞋]; len($2)=2`可能需要额外信息来确定具体含义。

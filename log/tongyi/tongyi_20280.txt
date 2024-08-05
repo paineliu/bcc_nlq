@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "总书记/n 对此",
+        "description": "总书记后接对此"
+    },
+    {
+        "query": "是+知识/n+教育",
+        "description": "是后接知识和教育"
+    },
+    {
+        "query": "是 知识/n 教育",
+        "description": "是后接知识和教育"
+    },
+    {
+        "query": "当/p+好",
+        "description": "当后接好"
+    },
+    {
+        "query": "当/p 好",
+        "description": "当后接好"
+    },
+    {
+        "query": "饮/v",
+        "description": "饮作为动词"
+    },
+    {
+        "query": "制约+伊核/ns+谈判",
+        "description": "制约后接伊核和谈判"
+    },
+    {
+        "query": "制约 伊核/ns 谈判",
+        "description": "制约后接伊核和谈判"
+    },
+    {
+        "query": "内向/a",
+        "description": "内向作为形容词"
+    },
+    {
+        "query": "平等+、/w+自由",
+        "description": "平等后接、和自由"
+    },
+    {
+        "query": "平等 、/w 自由",
+        "description": "平等后接、和自由"
+    },
+    {
+        "query": "知识/n+产权",
+        "description": "知识后接产权"
+    },
+    {
+        "query": "知识/n 产权",
+        "description": "知识后接产权"
+    },
+    {
+        "query": "由于/p",
+        "description": "由于作为介词"
+    },
+    {
+        "query": "认识/v",
+        "description": "认识作为动词"
+    },
+    {
+        "query": "北京/ns+今年+不+会+为+限购/v",
+        "description": "北京后接今年、不、会、为和限购"
+    },
+    {
+        "query": "北京/ns 今年 不 会 为 限购/v",
+        "description": "北京后接今年、不、会、为和限购"
+    },
+    {
+        "query": "一阵+恐怖/a+。",
+        "description": "一阵后接恐怖、和句尾的点"
+    },
+    {
+        "query": "一阵 恐怖/a 。",
+        "description": "一阵后接恐怖、和句尾的点"
+    },
+    {
+        "query": "n+的+好心/n",
+        "description": "名词后接的和好心"
+    },
+    {
+        "query": "n 的 好心/n",
+        "description": "名词后接的和好心"
+    },
+    {
+        "query": "v+n的+./v",
+        "description": "动词后接n的和句尾的点"
+    },
+    {
+        "query": "v n的 ./v",
+        "description": "动词后接n的和句尾的点"
+    },
+    {
+        "query": "任免+名单/n",
+        "description": "任免后接名单"
+    },
+    {
+        "query": "任免 名单/n",
+        "description": "任免后接名单"
+    },
+    {
+        "query": "a+的+恩情/n",
+        "description": "形容词后接的和恩情"
+    },
+    {
+        "query": "a 的 恩情/n",
+        "description": "形容词后接的和恩情"
+    },
+    {
+        "query": "如何/r+用",
+        "description": "如何作为副词后接用"
+    },
+    {
+        "query": "如何/r 用",
+        "description": "如何作为副词后接用"
+    },
+    {
+        "query": "好+京城/n+百姓",
+        "description": "好后接京城和百姓"
+    },
+    {
+        "query": "好 京城/n 百姓",
+        "description": "好后接京城和百姓"
+    },
+    {
+        "query": "带头/vd+树立",
+        "description": "带头作为动词后接树立"
+    },
+    {
+        "query": "带头/vd 树立",
+        "description": "带头作为动词后接树立"
+    },
+    {
+        "query": "是+刘邦/nr+。",
+        "description": "是后接刘邦和句尾的点"
+    },
+    {
+        "query": "是 刘邦/nr 。",
+        "description": "是后接刘邦和句尾的点"
+    },
+    {
+        "query": "该/v+是/v",
+        "description": "该后接是"
+    },
+    {
+        "query": "该/v 是/v",
+        "description": "该后接是"
+    },
+    {
+        "query": "轮/q+上涨+的/u",
+        "description": "轮后接上涨、的"
+    },
+    {
+        "query": "轮/q 上涨 的/u",
+        "description": "轮后接上涨、的"
+    },
+    {
+        "query": "从新/d+v",
+        "description": "从新作为副词后接动词"
+    }
+]
+```

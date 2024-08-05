@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "收入分配领域的平均主义盛行",
+        "description": "在收入分配领域，平均主义观念占主导地位。"
+    },
+    {
+        "query": "够性感",
+        "description": "达到或符合性感的标准或程度。"
+    },
+    {
+        "query": "没特",
+        "description": "没有特别的特征或特性。"
+    },
+    {
+        "query": "臭臭",
+        "description": "味道或气味非常难闻。"
+    },
+    {
+        "query": "耀武扬威",
+        "description": "炫耀权力或威势。"
+    },
+    {
+        "query": "不太牢固",
+        "description": "稳定性或强度不够高。"
+    },
+    {
+        "query": "长堤",
+        "description": "长长的堤坝或防洪设施。"
+    },
+    {
+        "query": "秣马厉兵",
+        "description": "准备充分，随时待命。"
+    },
+    {
+        "query": "当真",
+        "description": "认真对待某事或某人说的话。"
+    },
+    {
+        "query": "八波",
+        "description": "指八个波段或循环。"
+    },
+    {
+        "query": "勉强可",
+        "description": "在某种程度上是可以接受的，但并非理想状态。"
+    },
+    {
+        "query": "不太难看",
+        "description": "外观或外表在一定程度上可以接受，但并不出众。"
+    },
+    {
+        "query": "报告",
+        "description": "提交的信息或记录。"
+    },
+    {
+        "query": "化",
+        "description": "变化或转化的过程。"
+    },
+    {
+        "query": "不太可爱",
+        "description": "在某种程度上缺乏吸引力或令人喜爱。"
+    },
+    {
+        "query": "野猫",
+        "description": "野生或不受驯养的猫。"
+    },
+    {
+        "query": "携幼扶老",
+        "description": "照顾小孩和老人。"
+    },
+    {
+        "query": "巫山云雨",
+        "description": "比喻男女欢爱或浪漫情事。"
+    },
+    {
+        "query": "大概能够",
+        "description": "可能或有可能做到某事。"
+    },
+    {
+        "query": "棒透了",
+        "description": "极好或非常出色。"
+    },
+    {
+        "query": "长远而言",
+        "description": "从长期或未来角度来看。"
+    },
+    {
+        "query": "论它一论",
+        "description": "讨论或分析某事物。"
+    },
+    {
+        "query": "爱高兴不高兴",
+        "description": "表达对某人的感情态度，无论其是否快乐。"
+    },
+    {
+        "query": "隔离",
+        "description": "分开或隔离开来。"
+    },
+    {
+        "query": "八角",
+        "description": "形状为八边形的事物或物体。"
+    },
+    {
+        "query": "吃力",
+        "description": "费力或辛苦。"
+    },
+    {
+        "query": "古古怪怪",
+        "description": "行为或风格古怪。"
+    },
+    {
+        "query": "还走什么",
+        "description": "继续前进或移动的意思。"
+    },
+    {
+        "query": "和谐不仅",
+        "description": "强调和谐不仅仅局限于某一方面。"
+    },
+    {
+        "query": "眨",
+        "description": "快速闭合和打开眼睛的动作。"
+    },
+    {
+        "query": "温",
+        "description": "温度或温暖的状态。"
+    },
+    {
+        "query": "不太忙",
+        "description": "相对不忙碌或有空闲时间。"
+    },
+    {
+        "query": "保持和谐",
+        "description": "维持和谐的关系或状态。"
+    },
+    {
+        "query": "虚掩",
+        "description": "门或窗户未完全关闭，留有一定缝隙。"
+    },
+    {
+        "query": "分离",
+        "description": "分开或断绝联系。"
+    },
+    {
+        "query": "没按",
+        "description": "没有按下或执行某按钮或命令。"
+    },
+    {
+        "query": "轻脚轻手",
+        "description": "动作轻柔，不发出声音。"
+    },
+    {
+        "query": "打青",
+        "description": "打击或击打青色物体。"
+    },
+    {
+        "query": "弄了半",
+        "description": "完成一半或部分工作。"
+    },
+    {
+        "query": "蛙",
+        "description": "青蛙或类似生物。"
+    }
+]
+```

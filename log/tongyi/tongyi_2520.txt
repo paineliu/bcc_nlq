@@ -1,0 +1,166 @@
+根据给定的语料库检索表达式的规则，我们可以将以下检索式转换为带含义的json结构：
+
+```json
+[
+    {
+        "query": "素人",
+        "description": "包含素人的句子"
+    },
+    {
+        "query": "后天",
+        "description": "包含后天的句子"
+    },
+    {
+        "query": "萌芽",
+        "description": "包含萌芽的句子"
+    },
+    {
+        "query": "奶咖",
+        "description": "包含奶咖的句子"
+    },
+    {
+        "query": "动作和谐",
+        "description": "包含动作和谐的句子"
+    },
+    {
+        "query": "秋阴",
+        "description": "包含秋阴的句子"
+    },
+    {
+        "query": "得人权",
+        "description": "包含得人权的句子"
+    },
+    {
+        "query": "你是说",
+        "description": "包含你是说的句子"
+    },
+    {
+        "query": "飞快",
+        "description": "包含飞快的句子"
+    },
+    {
+        "query": "和谐与融",
+        "description": "包含和谐与融的句子"
+    },
+    {
+        "query": "一向",
+        "description": "包含一向的句子"
+    },
+    {
+        "query": "惩罚",
+        "description": "包含惩罚的句子"
+    },
+    {
+        "query": "得失",
+        "description": "包含得失的句子"
+    },
+    {
+        "query": "一看来，",
+        "description": "包含一看来，的句子"
+    },
+    {
+        "query": "和谐之岛",
+        "description": "包含和谐之岛的句子"
+    },
+    {
+        "query": "和谐以足",
+        "description": "包含和谐以足的句子"
+    },
+    {
+        "query": "和谐先锋",
+        "description": "包含和谐先锋的句子"
+    },
+    {
+        "query": "笑死",
+        "description": "包含笑死的句子"
+    },
+    {
+        "query": "过头",
+        "description": "包含过头的句子"
+    },
+    {
+        "query": "烧肉",
+        "description": "包含烧肉的句子"
+    },
+    {
+        "query": "风采",
+        "description": "包含风采的句子"
+    },
+    {
+        "query": "和谐为国",
+        "description": "包含和谐为国的句子"
+    },
+    {
+        "query": "病根",
+        "description": "包含病根的句子"
+    },
+    {
+        "query": "观念里",
+        "description": "包含观念里的句子"
+    },
+    {
+        "query": "终归说",
+        "description": "包含终归说的句子"
+    },
+    {
+        "query": "不太富裕",
+        "description": "包含不太富裕的句子"
+    },
+    {
+        "query": "大的贡献",
+        "description": "包含大的贡献的句子"
+    },
+    {
+        "query": "冷冷落落",
+        "description": "包含冷冷落落的句子"
+    },
+    {
+        "query": "设或",
+        "description": "包含设或的句子"
+    },
+    {
+        "query": "换成他",
+        "description": "包含换成他的句子"
+    },
+    {
+        "query": "萝莉",
+        "description": "包含萝莉的句子"
+    },
+    {
+        "query": "通过和谐",
+        "description": "包含通过和谐的句子"
+    },
+    {
+        "query": "洗钱",
+        "description": "包含洗钱的句子"
+    },
+    {
+        "query": "后悔",
+        "description": "包含后悔的句子"
+    },
+    {
+        "query": "被自愿",
+        "description": "包含被自愿的句子"
+    },
+    {
+        "query": "数据",
+        "description": "包含数据的句子"
+    },
+    {
+        "query": "通常是",
+        "description": "包含通常是的句子"
+    },
+    {
+        "query": "造了和谐",
+        "description": "包含造了和谐的句子"
+    },
+    {
+        "query": "卸鱼",
+        "description": "包含卸鱼的句子"
+    },
+    {
+        "query": "都，",
+        "description": "包含都，的句子"
+    }
+]
+```

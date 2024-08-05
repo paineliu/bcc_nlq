@@ -1,0 +1,160 @@
+```json
+[
+    {
+        "query": "你们..+起来w",
+        "description": "你们..之后加上一个字后接起来"
+    },
+    {
+        "query": "你们.. 起来w",
+        "description": "你们..之后直接接起来"
+    },
+    {
+        "query": "荷花*v",
+        "description": "荷花后接单音节动词"
+    },
+    {
+        "query": "w亡.存w",
+        "description": "w亡后面隔一个字后接存"
+    },
+    {
+        "query": "是*的原因w",
+        "description": "是后面离合出现原因"
+    },
+    {
+        "query": "我..+出去w",
+        "description": "我..之后加上一个字后接出去"
+    },
+    {
+        "query": "我.. 出去w",
+        "description": "我..之后直接接出去"
+    },
+    {
+        "query": "把*v到",
+        "description": "把后面离合出现动词再接到"
+    },
+    {
+        "query": "注*意。",
+        "description": "注后加星号意"
+    },
+    {
+        "query": "V.....观念",
+        "description": "V后面隔多个空格后接观念"
+    },
+    {
+        "query": "大约*就v",
+        "description": "大约后离合出现就再接动词"
+    },
+    {
+        "query": "好像*了。",
+        "description": "好像后离合出现再接了"
+    },
+    {
+        "query": "w少.老w",
+        "description": "w少后面隔一个字后接老"
+    },
+    {
+        "query": "是*v的",
+        "description": "是后面离合出现动词再接的"
+    },
+    {
+        "query": "大约*反",
+        "description": "大约后离合出现反"
+    },
+    {
+        "query": "不*才怪w",
+        "description": "不后离合出现才怪"
+    },
+    {
+        "query": "倒不如*的好。",
+        "description": "倒不如后离合出现的好"
+    },
+    {
+        "query": "w乱.治w",
+        "description": "w乱后面隔一个字后接治"
+    },
+    {
+        "query": "我们.+v了",
+        "description": "我们..之后加上一个字后接了"
+    },
+    {
+        "query": "我们. v了",
+        "description": "我们..之后直接接了"
+    },
+    {
+        "query": "你一个*人",
+        "description": "你一个后接星号人"
+    },
+    {
+        "query": "不管*或",
+        "description": "不管后离合出现或"
+    },
+    {
+        "query": "w尾.首w",
+        "description": "w尾后面隔一个字后接首"
+    },
+    {
+        "query": "连......还",
+        "description": "连后面隔多个星号后接还"
+    },
+    {
+        "query": "w清.浊w",
+        "description": "w清后面隔一个字后接浊"
+    },
+    {
+        "query": "时间就是.n",
+        "description": "时间后面接n就是"
+    },
+    {
+        "query": "你一个*姐",
+        "description": "你一个后接星号姐"
+    },
+    {
+        "query": "注...视",
+        "description": "注后面隔多个星号后接视"
+    },
+    {
+        "query": "有什么*的w",
+        "description": "有什么后离合出现的"
+    },
+    {
+        "query": "把*出出",
+        "description": "把后离合出现出出"
+    },
+    {
+        "query": "帮着*忙",
+        "description": "帮着后离合出现忙"
+    },
+    {
+        "query": "我.+v了",
+        "description": "我..之后加上一个字后接了"
+    },
+    {
+        "query": "我. v了",
+        "description": "我..之后直接接了"
+    },
+    {
+        "query": "淘不.",
+        "description": "淘后面隔一个星号后接不"
+    },
+    {
+        "query": "好像*一定会",
+        "description": "好像后离合出现一定"
+    },
+    {
+        "query": "或许*了。",
+        "description": "或许后离合出现"
+    },
+    {
+        "query": "说句..........话",
+        "description": "说句后隔多个星号后接话"
+    },
+    {
+        "query": "有被@到",
+        "description": "有被后接@到"
+    },
+    {
+        "query": "补*足",
+        "description": "补后离合出现足"
+    }
+]
+```

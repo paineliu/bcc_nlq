@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "反正v+n[，+。]",
+        "description": "反正动词后接名词，名词后可接逗号或句号"
+    },
+    {
+        "query": "反正v n[，+。]",
+        "description": "反正动词后直接接名词，名词后可接逗号或句号"
+    },
+    {
+        "query": "务必d+n[，+。]",
+        "description": "务必动词后接名词，名词后可接逗号或句号"
+    },
+    {
+        "query": "务必d n[，+。]",
+        "description": "务必动词后直接接名词，名词后可接逗号或句号"
+    },
+    {
+        "query": "自行n[，+。]",
+        "description": "自行后接名词，名词后可接逗号或句号"
+    },
+    {
+        "query": "自行n[， 。]",
+        "description": "自行后接名词，名词后只能接句号"
+    },
+    {
+        "query": "时而v+u[，+。]",
+        "description": "时而动词后接形容词，形容词后可接逗号或句号"
+    },
+    {
+        "query": "时而v u[，+。]",
+        "description": "时而动词后直接接形容词，形容词后可接逗号或句号"
+    },
+    {
+        "query": "牢记在+n[+f+s]",
+        "description": "牢记在后接名词，名词后可接“的”、“了”或“过”"
+    },
+    {
+        "query": "牢记在 n[ f s]",
+        "description": "牢记在后接名词，名词后只能接“的”、“了”或“过”"
+    },
+    {
+        "query": "是v的[，+。]",
+        "description": "是动词后接“的”，后面可接逗号或句号"
+    },
+    {
+        "query": "是v的[， 。]",
+        "description": "是动词后接“的”，后面只能接句号"
+    },
+    {
+        "query": "毫不v+n[，+。]",
+        "description": "毫不动词后接名词，名词后可接逗号或句号"
+    },
+    {
+        "query": "毫不v n[，+。]",
+        "description": "毫不动词后直接接名词，名词后可接逗号或句号"
+    },
+    {
+        "query": "[烫+值+捏+拿出+听到+达到]个",
+        "description": "由多个词组成的序列后接“个”，表示数量"
+    },
+    {
+        "query": "[烫 值 捏 拿出 听到 达到]个",
+        "description": "由多个词组成的序列后接“个”，表示数量"
+    },
+    {
+        "query": "w贬.褒[q+r+d+c+v+a++n+m++p]w",
+        "description": "w前接“贬.褒”，之后为一系列词的组合，最后接w"
+    },
+    {
+        "query": "w贬.褒[q r d c v a  n m  p]w",
+        "description": "w前接“贬.褒”，之后为一系列词的组合，最后接w"
+    },
+    {
+        "query": "即将v[v+a+n+r][，+。]",
+        "description": "即将动词后接形容词、名词和“的”，之后可接逗号或句号"
+    },
+    {
+        "query": "即将v[v a n r][， 。]",
+        "description": "即将动词后接形容词、名词和“的”，之后只能接句号"
+    },
+    {
+        "query": "w贱.贵[q+r+d+c+v+a++n+m++p]w",
+        "description": "w前接“贱.贵”，之后为一系列词的组合，最后接w"
+    },
+    {
+        "query": "w贱.贵[q r d c v a  n m  p]w",
+        "description": "w前接“贱.贵”，之后为一系列词的组合，最后接w"
+    },
+    {
+        "query": "徐徐d+a[，+。]",
+        "description": "徐徐动词后接形容词，之后可接逗号或句号"
+    },
+    {
+        "query": "徐徐d a[，+。]",
+        "description": "徐徐动词后直接接形容词，之后可接逗号或句号"
+    },
+    {
+        "query": "就算d+n[，+。]",
+        "description": "就算动词后接名词，之后可接逗号或句号"
+    },
+    {
+        "query": "就算d n[，+。]",
+        "description": "就算动词后直接接名词，之后可接逗号或句号"
+    },
+    {
+        "query": "凡是n[，+。]",
+        "description": "凡是后接名词，之后可接逗号或句号"
+    },
+    {
+        "query": "凡是n[， 。]",
+        "description": "凡是后接名词，之后只能接句号"
+    },
+    {
+        "query": "亲笔v[，+。]",
+        "description": "亲笔动词后可接逗号或句号"
+    },
+    {
+        "query": "亲笔v[， 。]",
+        "description": "亲笔动词后只能接句号"
+    },
+    {
+        "query": "甚至d+a[，+。]",
+        "description": "甚至动词后接形容词，之后可接逗号或句号"
+    },
+    {
+        "query": "甚至d a[，+。]",
+        "description": "甚至动词后直接接形容词，之后可接逗号或句号"
+    },
+    {
+        "query": "v不进去[，+。]",
+        "description": "动词后接“不进去”，之后可接逗号或句号"
+    },
+    {
+        "query": "v不进去[， 。]",
+        "description": "动词后接“不进去”，之后只能接句号"
+    },
+    {
+        "query": "w[q+r+d+c+v+a++n+m++p]前.后w",
+        "description": "w前接一系列词的组合，之后为“前.后”，最后接w"
+    },
+    {
+        "query": "w[q r d c v a  n m  p]前.后w",
+        "description": "w前接一系列词的组合，之后为“前.后”，最后接w"
+    },
+    {
+        "query": "相继v+a[，+。]",
+        "description": "相继动词后接形容词，之后可接逗号或句号"
+    },
+    {
+        "query": "相继v a[，+。]",
+        "description": "相继动词后直接接形容词，之后可接逗号或句号"
+    },
+    {
+        "query": "w[q+r+d+c+v+a++n+m++p]快.慢w",
+        "description": "w前接一系列词的组合，之后为“快.慢”，最后接w"
+    },
+    {
+        "query": "w[q r d c v a  n m  p]快.慢w",
+        "description": "w前接一系列词的组合，之后为“快.慢”，最后接w"
+    }
+]
+```

@@ -1,0 +1,86 @@
+以下是根据您提供的检索式及其含义的JSON结构列表：
+
+```json
+[
+    {
+        "query": "义坟 ./w 已",
+        "description": "义坟后接连词，连词后接已"
+    },
+    {
+        "query": "熄灭 ./w",
+        "description": "熄灭后接连词"
+    },
+    {
+        "query": "殉国 ~/[w v]",
+        "description": "殉国后接一个词，这个词是动词或连词"
+    },
+    {
+        "query": ". 谁",
+        "description": "任意单字后接谁"
+    },
+    {
+        "query": "(v) 谁 (d){$1!=$2}",
+        "description": "动词后面接谁，谁后面接副词，且动词和副词不同"
+    },
+    {
+        "query": "了 (n) 的{len($1)=2}",
+        "description": "了后接名词，名词后接的，且名词长度为2"
+    },
+    {
+        "query": "那样 . 清瘦",
+        "description": "那样后接任意单字，再接清瘦"
+    },
+    {
+        "query": "(v) ： (nr){len($1)<3}",
+        "description": "动词后接冒号，冒号后接人名，人名长度小于3"
+    },
+    {
+        "query": "@/[m v] 种",
+        "description": "以词性m或v开头的词后接种，在统计时按照词性归并"
+    },
+    {
+        "query": "(v) 《 青岛 往事 (w){$1=$2}",
+        "description": "动词后接《青岛往事》，青岛往事后接标点符号，且动词和标点符号相同"
+    },
+    {
+        "query": "山东 ../[d v] 一个",
+        "description": "山东后接单音节的副词或动词，再接一个"
+    },
+    {
+        "query": "块 n 。",
+        "description": "块后接名词，名词后接句号"
+    },
+    {
+        "query": "../[b v] 的",
+        "description": "单音节的副词或动词后接的"
+    },
+    {
+        "query": "于 (r) 他{count>4}",
+        "description": "于后接代词他，且他出现频次大于4"
+    },
+    {
+        "query": "认识 @/[v v] 这",
+        "description": "认识后接以词性v开头的词，再接这，在统计时按照词性归并"
+    },
+    {
+        "query": "青岛 (n) 》{begin($1)!=[婷 闲 占 伤]}",
+        "description": "青岛后接名词，名词不以婷、闲、占、伤为开始"
+    },
+    {
+        "query": "而 .",
+        "description": "而是句尾"
+    },
+    {
+        "query": "此事 p 慰问团",
+        "description": "此事后接介词，介词后接慰问团"
+    },
+    {
+        "query": "、 . 伙伴",
+        "description": "顿号后接任意单字，再接伙伴"
+    },
+    {
+        "query": "。",
+        "description": "句号"
+    }
+]
+```

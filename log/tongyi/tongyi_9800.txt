@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "我. 上去w",
+        "description": "我后面跟一个字，然后是上去"
+    },
+    {
+        "query": "v*蚕房",
+        "description": "动词后面离合出现蚕房"
+    },
+    {
+        "query": "w干.湿w",
+        "description": "干后面隔一个字后接湿"
+    },
+    {
+        "query": "也许*本来就",
+        "description": "也许后面离合出现本来就"
+    },
+    {
+        "query": "收不.",
+        "description": "收后面隔一个字后接不"
+    },
+    {
+        "query": "再a*也",
+        "description": "再后面离合出现a，然后是也"
+    },
+    {
+        "query": "从*来说",
+        "description": "从后面离合出现来说"
+    },
+    {
+        "query": "恐怕*了！",
+        "description": "恐怕后面离合出现了一个感叹词"
+    },
+    {
+        "query": "也许*啊？",
+        "description": "也许后面离合出现啊，然后是问号"
+    },
+    {
+        "query": "或许*未尝",
+        "description": "或许后面离合出现未尝"
+    },
+    {
+        "query": "看来@似乎",
+        "description": "看来是句尾，后面是似乎"
+    },
+    {
+        "query": "这一.就是",
+        "description": "这一后面隔一个字后接就是"
+    },
+    {
+        "query": "@口味",
+        "description": "口味前面是词性标注"
+    },
+    {
+        "query": "恐怕*确实",
+        "description": "恐怕后面离合出现确实"
+    },
+    {
+        "query": "太*了",
+        "description": "太后面离合出现了一个感叹词"
+    },
+    {
+        "query": "@更",
+        "description": "更前面是词性标注"
+    },
+    {
+        "query": "时间像.n",
+        "description": "时间像后面是名词"
+    },
+    {
+        "query": "大概*了。",
+        "description": "大概后面离合出现了一个句尾符号"
+    },
+    {
+        "query": "或许*总要",
+        "description": "或许后面离合出现总要"
+    },
+    {
+        "query": "注...目",
+        "description": "注后面隔一个字后接一个词"
+    },
+    {
+        "query": "浅*一下",
+        "description": "浅后面离合出现一下"
+    },
+    {
+        "query": "好像......似的",
+        "description": "好像后面离合出现一个词"
+    },
+    {
+        "query": "w盛.衰w",
+        "description": "盛后面隔一个字后接衰"
+    },
+    {
+        "query": "似乎*的。",
+        "description": "似乎后面离合出现一个词，然后是句尾符号"
+    },
+    {
+        "query": "~车",
+        "description": "一个词"
+    },
+    {
+        "query": "把*开一开",
+        "description": "把后面离合出现开一开"
+    },
+    {
+        "query": "抓不.",
+        "description": "抓后面隔一个字后接不"
+    },
+    {
+        "query": "咱们一个*！",
+        "description": "咱们一个后面离合出现感叹词"
+    },
+    {
+        "query": "做*做得",
+        "description": "做后面离合出现做得"
+    },
+    {
+        "query": "你一个*家",
+        "description": "你一个后面离合出现家"
+    },
+    {
+        "query": "实施@",
+        "description": "实施前面是词性标注"
+    },
+    {
+        "query": "把*回回",
+        "description": "把后面离合出现回回"
+    },
+    {
+        "query": "似乎*吗",
+        "description": "似乎后面离合出现一个词"
+    },
+    {
+        "query": "t+再.吧",
+        "description": "t后面加上一个字，然后是再吧"
+    },
+    {
+        "query": "t 再.吧",
+        "description": "t后面是再吧"
+    },
+    {
+        "query": "坏*好",
+        "description": "坏后面离合出现好"
+    },
+    {
+        "query": "我们..+回来w",
+        "description": "我们..后面加上一个字，然后是回来"
+    },
+    {
+        "query": "我们.. 回来w",
+        "description": "我们..后面是回来"
+    },
+    {
+        "query": "望..兴叹",
+        "description": "..后面隔一个字后接一个词"
+    },
+    {
+        "query": "w优.劣w",
+        "description": "w优后面隔一个字后接劣"
+    }
+]
+```

@@ -1,0 +1,86 @@
+以下是根据提供的检索式及其含义的JSON结构列表：
+
+```json
+[
+    {
+        "query": "击退 (n) 老鹰{len($1)>2}",
+        "description": "击退后接名词老鹰，且老鹰长度大于2"
+    },
+    {
+        "query": "(n) (n){len($1)=2; len($2)!=4}",
+        "description": "两个名词连续出现，第一个名词长度为2，第二个名词长度不等于4"
+    },
+    {
+        "query": "与 (n) 对话{len($1)<3}",
+        "description": "与后接名词对话，名词长度小于3"
+    },
+    {
+        "query": "~/[p v] 现实",
+        "description": "以一个词性为介词或动词的词连接现实"
+    },
+    {
+        "query": "(u) 对话 (d){begin($2)!=[落 叶 座]}",
+        "description": "助词后接对话，对话后接副词，副词不以落、叶、座开始"
+    },
+    {
+        "query": "(p) 读者{count>3}",
+        "description": "介词后接读者，读者出现频次大于3"
+    },
+    {
+        "query": "@ 以",
+        "description": "以前面有一个词，统计时按照词性归并"
+    },
+    {
+        "query": "瞻对",
+        "description": "包含瞻对的短语"
+    },
+    {
+        "query": "作常 (v){len($1)=1}",
+        "description": "作常后接单音节动词"
+    },
+    {
+        "query": "《 .. 》",
+        "description": "书名号内有两个字符的短语"
+    },
+    {
+        "query": "变 ~ 不",
+        "description": "变后面跟一个词，再接不"
+    },
+    {
+        "query": ". 蟠虺",
+        "description": "单字后面接蟠虺"
+    },
+    {
+        "query": "正 ~ 如此",
+        "description": "正后面跟一个词，再接如此"
+    },
+    {
+        "query": "不够 ~",
+        "description": "不够后面跟一个词"
+    },
+    {
+        "query": "还是 (n){len($1)=2}",
+        "description": "还是后接长度为2的名词"
+    },
+    {
+        "query": "(ns) (w){begin($1)!=[期 精]}",
+        "description": "地名后接标点，地名不以期或精开始"
+    },
+    {
+        "query": "追寻 (n) 变迁{len($1)<3}",
+        "description": "追寻后接名词变迁，变迁长度小于3"
+    },
+    {
+        "query": "@/[w v] 日头",
+        "description": "以词性为标点或动词的词连接日头，统计时按照词性归并"
+    },
+    {
+        "query": "悲壮 ~/[u v] 探索",
+        "description": "悲壮后面跟一个词性为介词或动词的词，再接探索"
+    },
+    {
+        "query": "~/[n v] ：",
+        "description": "以名词或动词开始的词后面接冒号"
+    }
+]
+```

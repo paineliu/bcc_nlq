@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "w南.北[q+r+d+c+v+a++n+m++p]w",
+        "description": "以'w'开头，'南'后面跟着一个字，这个字与'北'离合出现，紧接着是一个由多个词性组成的集合[q+r+d+c+v+a++, n+m++p]，最后以'w'结尾"
+    },
+    {
+        "query": "w南.北[q r d c v a  n m  p]w",
+        "description": "以'w'开头，'南'后面跟着一个字，这个字与'北'离合出现，紧接着是'r', 'd', 'c', 'v', 'a', 'n', 'm', 'p'这八个词性，最后以'w'结尾"
+    },
+    {
+        "query": "一举n[，+。]",
+        "description": "动词'n'后面紧跟着一个逗号或句号"
+    },
+    {
+        "query": "一举n[， 。]",
+        "description": "动词'n'后面紧跟着一个逗号和一个句号"
+    },
+    {
+        "query": "w轻.重[q+r+d+c+v+a++n+m++p]w",
+        "description": "以'w'开头，动词'轻'后面跟着一个字，这个字与'重'离合出现，紧接着是一个由多个词性组成的集合[q+r+d+c+v+a++, n+m++p]，最后以'w'结尾"
+    },
+    {
+        "query": "w轻.重[q r d c v a  n m  p]w",
+        "description": "以'w'开头，动词'轻'后面跟着一个字，这个字与'重'离合出现，紧接着是'r', 'd', 'c', 'v', 'a', 'n', 'm', 'p'这八个词性，最后以'w'结尾"
+    },
+    {
+        "query": "务必v+v[，+。]",
+        "description": "动词'verbose'后面紧跟着另一个动词'verbose'，之后是逗号或句号"
+    },
+    {
+        "query": "务必v v[， 。]",
+        "description": "动词'verbose'后面紧跟着另一个动词'verbose'，之后是逗号和句号"
+    },
+    {
+        "query": "亲笔v[v+a+n+r][，+。]",
+        "description": "动词'calligraphy'后面紧跟着'a', 'n', 'r'这三个词性，之后是逗号或句号"
+    },
+    {
+        "query": "亲笔v[v a n r][， 。]",
+        "description": "动词'calligraphy'后面紧跟着'a', 'n', 'r'这三个词性，之后是逗号和句号"
+    },
+    {
+        "query": "略微v[v+a+n+r][，+。]",
+        "description": "动词'slight'后面紧跟着'a', 'n', 'r'这三个词性，之后是逗号或句号"
+    },
+    {
+        "query": "略微v[v a n r][， 。]",
+        "description": "动词'slight'后面紧跟着'a', 'n', 'r'这三个词性，之后是逗号和句号"
+    },
+    {
+        "query": "[两+二]+./q+a+n",
+        "description": "由'两'或'二'开头，之后紧跟一个量词，然后是'q', 'a', 'n'这三个词性"
+    },
+    {
+        "query": "[两 二] ./q a n",
+        "description": "由'两'或'二'开头，之后紧跟一个量词，然后是'q', 'a', 'n'这三个词性"
+    },
+    {
+        "query": "专程v+y[，+。]",
+        "description": "动词'dedicated'后面紧跟着'y'，之后是逗号或句号"
+    },
+    {
+        "query": "专程v y[， 。]",
+        "description": "动词'dedicated'后面紧跟着'y'，之后是逗号和句号"
+    },
+    {
+        "query": "反复v[，+。]",
+        "description": "动词'repeatedly'后面紧跟着逗号或句号"
+    },
+    {
+        "query": "反复v[， 。]",
+        "description": "动词'repeatedly'后面紧跟着逗号和句号"
+    },
+    {
+        "query": "不堪[a+v+n]",
+        "description": "形容词'unbearable'后面紧跟着动词和名词"
+    },
+    {
+        "query": "不堪[a v n]",
+        "description": "形容词'unbearable'后面紧跟着动词和名词"
+    },
+    {
+        "query": "即将v+u[，+。]",
+        "description": "动词'soon'后面紧跟着'u'，之后是逗号或句号"
+    },
+    {
+        "query": "即将v u[， 。]",
+        "description": "动词'soon'后面紧跟着'u'，之后是逗号和句号"
+    },
+    {
+        "query": "睡在+n[f+s]",
+        "description": "动词'sleep in'后面紧跟着'f'和's'这两个词性"
+    },
+    {
+        "query": "睡在 n[f s]",
+        "description": "动词'sleep in'后面紧跟着'f'和's'这两个词性"
+    },
+    {
+        "query": "未免d+a[，+。]",
+        "description": "副词'unnecessary'后面紧跟着形容词，之后是逗号或句号"
+    },
+    {
+        "query": "未免d a[， 。]",
+        "description": "副词'unnecessary'后面紧跟着形容词，之后是逗号和句号"
+    },
+    {
+        "query": "早日v[，+。]",
+        "description": "动词'sooner'后面紧跟着逗号或句号"
+    },
+    {
+        "query": "早日v[， 。]",
+        "description": "动词'sooner'后面紧跟着逗号和句号"
+    },
+    {
+        "query": "[尽量+近来+经常][v+a+n+r][，+。]",
+        "description": "由'尽量', '近来', '经常'这三个词组成，之后紧跟着动词、形容词和名词，之后是逗号或句号"
+    },
+    {
+        "query": "[尽量 近来 经常][v a n r][， 。]",
+        "description": "由'尽量', '近来', '经常'这三个词组成，之后紧跟着动词、形容词和名词，之后是逗号和句号"
+    },
+    {
+        "query": "终究d+v[，+。]",
+        "description": "副词'finally'后面紧跟着动词，之后是逗号或句号"
+    },
+    {
+        "query": "终究d v[， 。]",
+        "description": "副词'finally'后面紧跟着动词，之后是逗号和句号"
+    },
+    {
+        "query": "自然v+y[，+。]",
+        "description": "动词'naturally'后面紧跟着'y'，之后是逗号或句号"
+    },
+    {
+        "query": "自然v y[， 。]",
+        "description": "动词'naturally'后面紧跟着'y'，之后是逗号和句号"
+    },
+    {
+        "query": "[开通+码+磨+搓+清理+守+达+尿]个",
+        "description": "由'开通', '码', '磨', '搓', '清理', '守', '达', '尿'这八个词组成，之后紧跟一个量词"
+    },
+    {
+        "query": "[开通 码 磨 搓 清理 守 达 尿]个",
+        "description": "由'开通', '码', '磨', '搓', '清理', '守', '达', '尿'这八个词组成，之后紧跟一个量词"
+    },
+    {
+        "query": "时而v+v[，+。]",
+        "description": "动词'occasionally'后面紧跟着另一个动词'verbose'，之后是逗号或句号"
+    },
+    {
+        "query": "时而v v[， 。]",
+        "description": "动词'occasionally'后面紧跟着另一个动词'verbose'，之后是逗号和句号"
+    },
+    {
+        "query": "得以n[，+。]",
+        "description": "名词'derived'后面紧跟着逗号或句号"
+    },
+    {
+        "query": "得以n[， 。]",
+        "description": "名词'derived'后面紧跟着逗号和句号"
+    }
+]
+```

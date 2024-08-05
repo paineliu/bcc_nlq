@@ -1,0 +1,168 @@
+根据给定的检索式格式和解释，下面是对提供的检索式的转换结果，每条检索式及其描述都转换为JSON结构：
+
+```json
+[
+    {
+        "query": "一段",
+        "description": "包含'一段'这个短语的句子"
+    },
+    {
+        "query": "诉苦",
+        "description": "包含'诉苦'这个短语的句子"
+    },
+    {
+        "query": "渎人权",
+        "description": "包含'渎人权'这个短语的句子"
+    },
+    {
+        "query": "敲定",
+        "description": "包含'敲定'这个短语的句子"
+    },
+    {
+        "query": "生蛇",
+        "description": "包含'生蛇'这个短语的句子"
+    },
+    {
+        "query": "爱穿啥就",
+        "description": "包含'爱穿啥就'这个短语的句子"
+    },
+    {
+        "query": "似乎决不",
+        "description": "包含'似乎决不'这个短语的句子"
+    },
+    {
+        "query": "好不好玩",
+        "description": "包含'好不好玩'这个短语的句子"
+    },
+    {
+        "query": "忒没",
+        "description": "包含'忒没'这个短语的句子"
+    },
+    {
+        "query": "心机婊",
+        "description": "包含'心机婊'这个短语的句子"
+    },
+    {
+        "query": "常",
+        "description": "包含'常'这个词语的句子"
+    },
+    {
+        "query": "也是有可能",
+        "description": "包含'也是有可能'这个短语的句子"
+    },
+    {
+        "query": "江苏人",
+        "description": "包含'江苏人'这个短语的句子"
+    },
+    {
+        "query": "蹦过去",
+        "description": "包含'蹦过去'这个短语的句子"
+    },
+    {
+        "query": "内在和谐",
+        "description": "包含'内在和谐'这个短语的句子"
+    },
+    {
+        "query": "回回了",
+        "description": "包含'回回了'这个短语的句子"
+    },
+    {
+        "query": "说错",
+        "description": "包含'说错'这个短语的句子"
+    },
+    {
+        "query": "看把这",
+        "description": "包含'看把这'这个短语的句子"
+    },
+    {
+        "query": "和谐区域",
+        "description": "包含'和谐区域'这个短语的句子"
+    },
+    {
+        "query": "试图",
+        "description": "包含'试图'这个短语的句子"
+    },
+    {
+        "query": "仁厚",
+        "description": "包含'仁厚'这个短语的句子"
+    },
+    {
+        "query": "风干",
+        "description": "包含'风干'这个短语的句子"
+    },
+    {
+        "query": "不是没有",
+        "description": "包含'不是没有'这个短语的句子"
+    },
+    {
+        "query": "恨恨",
+        "description": "包含'恨恨'这个短语的句子"
+    },
+    {
+        "query": "女司机",
+        "description": "包含'女司机'这个短语的句子"
+    },
+    {
+        "query": "公然",
+        "description": "包含'公然'这个短语的句子"
+    },
+    {
+        "query": "没想到果然",
+        "description": "包含'没想到果然'这个短语的句子"
+    },
+    {
+        "query": "对手",
+        "description": "包含'对手'这个短语的句子"
+    },
+    {
+        "query": "跨栏",
+        "description": "包含'跨栏'这个短语的句子"
+    },
+    {
+        "query": "爱咋样就",
+        "description": "包含'爱咋样就'这个短语的句子"
+    },
+    {
+        "query": "青梅竹马",
+        "description": "包含'青梅竹马'这个短语的句子"
+    },
+    {
+        "query": "看起来",
+        "description": "包含'看起来'这个短语的句子"
+    },
+    {
+        "query": "享受",
+        "description": "包含'享受'这个短语的句子"
+    },
+    {
+        "query": "越不",
+        "description": "包含'越不'这个短语的句子"
+    },
+    {
+        "query": "牙白",
+        "description": "包含'牙白'这个短语的句子"
+    },
+    {
+        "query": "只能",
+        "description": "包含'只能'这个短语的句子"
+    },
+    {
+        "query": "内行",
+        "description": "包含'内行'这个短语的句子"
+    },
+    {
+        "query": "和谐共唱",
+        "description": "包含'和谐共唱'这个短语的句子"
+    },
+    {
+        "query": "简单地说",
+        "description": "包含'简单地说'这个短语的句子"
+    },
+    {
+        "query": "戏精+",
+        "description": "包含'戏精+'这个短语的句子"
+    }
+]
+```
+
+以上JSON结构包含了从给定文本中提取的所有检索式及其对应的描述。

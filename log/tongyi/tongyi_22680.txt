@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "(v)+让{len($1)=1}",
+        "description": "动词后接单个字符"
+    },
+    {
+        "query": "(v) 让{len($1)=1}",
+        "description": "动词后接单个字符"
+    },
+    {
+        "query": "一+(v)+！{count>9}",
+        "description": "一后面接动词和感叹号，感叹号出现次数大于9"
+    },
+    {
+        "query": "一 (v) ！{count>9}",
+        "description": "一后面接动词和感叹号，感叹号出现次数大于9"
+    },
+    {
+        "query": "(r)+感觉+(n){len($2)!=3}",
+        "description": "形容词后接非三个字符的名词"
+    },
+    {
+        "query": "(r) 感觉 (n){len($2)!=3}",
+        "description": "形容词后接非三个字符的名词"
+    },
+    {
+        "query": "再次+(v)+它{len($1)!=2}",
+        "description": "再次后面接非两个字符的动词，然后接名词"
+    },
+    {
+        "query": "再次 (v) 它{len($1)!=2}",
+        "description": "再次后面接非两个字符的动词，然后接名词"
+    },
+    {
+        "query": "(r)+正确{count<469}",
+        "description": "形容词后接正确，正确出现次数少于469次"
+    },
+    {
+        "query": "(r) 正确{count<469}",
+        "description": "形容词后接正确，正确出现次数少于469次"
+    },
+    {
+        "query": "听+(m)+听{len($1)=1}",
+        "description": "听后面接单个字符的名词，然后接听"
+    },
+    {
+        "query": "听 (m) 听{len($1)=1}",
+        "description": "听后面接单个字符的名词，然后接听"
+    },
+    {
+        "query": "(r)+(m){count>9}",
+        "description": "形容词后接名词，名词出现次数大于9"
+    },
+    {
+        "query": "(r) (m){count>9}",
+        "description": "形容词后接名词，名词出现次数大于9"
+    },
+    {
+        "query": "(v)+文字{count>3}",
+        "description": "动词后接文本，文本出现次数大于3"
+    },
+    {
+        "query": "(v) 文字{count>3}",
+        "description": "动词后接文本，文本出现次数大于3"
+    },
+    {
+        "query": "推动+(n)+多元化{count>2}",
+        "description": "推动后面接非两个字符的名词，然后接多元化，多元化出现次数大于2"
+    },
+    {
+        "query": "推动 (n) 多元化{count>2}",
+        "description": "推动后面接非两个字符的名词，然后接多元化，多元化出现次数大于2"
+    },
+    {
+        "query": "(v)中之(v){$1=$2}",
+        "description": "动词后接相同的动词"
+    },
+    {
+        "query": "她+(u)+腿{len($1)!=2}",
+        "description": "她后面接非两个字符的连词，然后接腿"
+    },
+    {
+        "query": "她 (u) 腿{len($1)!=2}",
+        "description": "她后面接非两个字符的连词，然后接腿"
+    },
+    {
+        "query": "把+(n)+公园{len($1)>1}",
+        "description": "把后面接非单个字符的名词，然后接公园"
+    },
+    {
+        "query": "把 (n) 公园{len($1)>1}",
+        "description": "把后面接非单个字符的名词，然后接公园"
+    },
+    {
+        "query": "(v)+(v){len($1)=1}",
+        "description": "动词后接单个字符的动词"
+    },
+    {
+        "query": "(v) (v){len($1)=1}",
+        "description": "动词后接单个字符的动词"
+    },
+    {
+        "query": "才+(a){begin($1)=[有+托+摔+落]}",
+        "description": "才后面接以有、托、摔、落开头的形容词"
+    },
+    {
+        "query": "才 (a){begin($1)=[有 托 摔 落]}",
+        "description": "才后面接以有、托、摔、落开头的形容词"
+    },
+    {
+        "query": "(nr)+会见{len($1)<4}",
+        "description": "人名后接非四个字符的会面"
+    },
+    {
+        "query": "(nr) 会见{len($1)<4}",
+        "description": "人名后接非四个字符的会面"
+    },
+    {
+        "query": "../a+(a){len($1)=2}",
+        "description": "二字动词后接两个字符的形容词"
+    },
+    {
+        "query": "../a (a){len($1)=2}",
+        "description": "二字动词后接两个字符的形容词"
+    },
+    {
+        "query": "(v)+守护{begin($1)!=[答+员+扯]}",
+        "description": "动词后接非答、员、扯开头的守护"
+    },
+    {
+        "query": "(v) 守护{begin($1)!=[答 员 扯]}",
+        "description": "动词后接非答、员、扯开头的守护"
+    },
+    {
+        "query": "抽象(n)*w{len($1)=2}",
+        "description": "名词后接非两个字符的词"
+    },
+    {
+        "query": "东部+(ns)+地区{end($1)!=[安+巧]}",
+        "description": "东部后面接非安、巧结尾的专名"
+    },
+    {
+        "query": "东部 (ns) 地区{end($1)!=[安 巧]}",
+        "description": "东部后面接非安、巧结尾的专名"
+    },
+    {
+        "query": "沸雪+(ns)+开赛{len($1)<4}",
+        "description": "沸雪后面接非四个字符的专名，然后接开赛"
+    },
+    {
+        "query": "沸雪 (ns) 开赛{len($1)<4}",
+        "description": "沸雪后面接非四个字符的专名，然后接开赛"
+    },
+    {
+        "query": "比n还n{$1=$2}",
+        "description": "第一个名词和第二个名词相同"
+    },
+    {
+        "query": "(n)+答{len($1)<3}",
+        "description": "名词后接非三个字符的词"
+    }
+]
+```

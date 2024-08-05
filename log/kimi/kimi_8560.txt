@@ -1,0 +1,86 @@
+以下是检索式及其含义的JSON结构：
+
+```json
+[
+    {
+        "query": "不可 (nr){len($1)>1}",
+        "description": "不可后面接人名，且人名长度大于1"
+    },
+    {
+        "query": "山东",
+        "description": "包含山东的句子"
+    },
+    {
+        "query": "廉莫 (p) 复读机{len($1)=1}",
+        "description": "廉莫后面接介词，介词后面是复读机，且介词长度为1"
+    },
+    {
+        "query": "广西 融水/v",
+        "description": "广西融水后面接动词"
+    },
+    {
+        "query": "也 (v) 领导{count<363}",
+        "description": "也后面接动词领导，且领导出现次数小于363"
+    },
+    {
+        "query": ".. 百姓",
+        "description": "任意两个字符后面接百姓"
+    },
+    {
+        "query": "理顺 n 心气",
+        "description": "理顺后面接名词心气"
+    },
+    {
+        "query": "刘益兵 (v) 觉{end($1)!=[出 麽 压]}",
+        "description": "刘益兵后面接动词觉，且动词觉后面不是出、麽、压"
+    },
+    {
+        "query": "(n) 的 创业 经 (n){len($1)>1}",
+        "description": "名词后面接的、创业、经，再接名词，且第一个名词长度大于1"
+    },
+    {
+        "query": "的 vn 故事",
+        "description": "的后面接名动词，再接故事"
+    },
+    {
+        "query": "好 ~",
+        "description": "好后面接一个词"
+    },
+    {
+        "query": "~/[v v] 最好",
+        "description": "以任意词性开始的两个词后面接最好"
+    },
+    {
+        "query": "养鸵鸟 . 能",
+        "description": "养鸵鸟后面隔一个字符接能"
+    },
+    {
+        "query": "(nr) (v){len($1)=3; len($2)=1}",
+        "description": "人名后面接动词，且人名长度为3，动词长度为1"
+    },
+    {
+        "query": ".../nr 说",
+        "description": "任意三个字后面接人名，再接说"
+    },
+    {
+        "query": "要 ..",
+        "description": "要后面接任意两个字"
+    },
+    {
+        "query": "nr 说",
+        "description": "人名后面接说"
+    },
+    {
+        "query": "~ 说",
+        "description": "任意一个词后面接说"
+    },
+    {
+        "query": "社会 @ 不浮躁",
+        "description": "社会后面接一个词，再接不浮躁，统计时按照词性归并"
+    },
+    {
+        "query": "总会 p 我们",
+        "description": "总会后面接介词，介词后面是我们"
+    }
+]
+```

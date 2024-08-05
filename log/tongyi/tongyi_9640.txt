@@ -1,0 +1,168 @@
+以下是将给定的检索式转换为带含义的json结构：
+
+```json
+[
+    {
+        "query": "w阳.阴w",
+        "description": "单字后接一个字，然后是单字，如\"阳.阴\""
+    },
+    {
+        "query": "看来@大概",
+        "description": "看来是句首，后接大致或大概"
+    },
+    {
+        "query": "大概*确实",
+        "description": "大概后面离合出现确实"
+    },
+    {
+        "query": "v*机房",
+        "description": "动词后接机房"
+    },
+    {
+        "query": "看不.",
+        "description": "看后面隔一个字后接不"
+    },
+    {
+        "query": "都快..了",
+        "description": "都快后面隔一个或多个字后接了"
+    },
+    {
+        "query": "大概*明知",
+        "description": "大概后面离合出现明知"
+    },
+    {
+        "query": "害怕*V上",
+        "description": "害怕后面离合出现V上"
+    },
+    {
+        "query": "m*这样，",
+        "description": "m后接这样，"
+    },
+    {
+        "query": "或许*本来v",
+        "description": "或许后面离合出现本来动词"
+    },
+    {
+        "query": "恐怕*未免",
+        "description": "恐怕后面离合出现未免"
+    },
+    {
+        "query": "好像*根本",
+        "description": "好像后面离合出现根本"
+    },
+    {
+        "query": "你们一个....，",
+        "description": "你们后接一个或多个字，然后是顿号"
+    },
+    {
+        "query": "草房*v",
+        "description": "草房后接动词"
+    },
+    {
+        "query": "是*的情况w",
+        "description": "是后面离合出现情况后接单字"
+    },
+    {
+        "query": "是*的时候w",
+        "description": "是后面离合出现时候后接单字"
+    },
+    {
+        "query": "或许*恰恰",
+        "description": "或许后面离合出现恰恰"
+    },
+    {
+        "query": "是+*+的。",
+        "description": "是后接加号，然后是任意字符，最后是单个的。"
+    },
+    {
+        "query": "是 * 的。",
+        "description": "是后接星号，然后是任意字符，最后是单个的，后接的是。"
+    },
+    {
+        "query": "不以*成败论英雄",
+        "description": "不以后面离合出现成败论英雄"
+    },
+    {
+        "query": "他们一个*！",
+        "description": "他们后接一个或多个字，然后是感叹号"
+    },
+    {
+        "query": "大约*了！",
+        "description": "大约后面离合出现了后接感叹号"
+    },
+    {
+        "query": "才..了w",
+        "description": "才后面隔一个或多个字后接了，后接单字"
+    },
+    {
+        "query": "到底...吗",
+        "description": "到底后面隔一个或多个字后接问号"
+    },
+    {
+        "query": "无+..不+..",
+        "description": "无后接加号，然后是任意字符，再接不，后接任意字符"
+    },
+    {
+        "query": "无 ..不 ..",
+        "description": "无后面隔一个或多个字后接不，再接一个或多个字"
+    },
+    {
+        "query": "把*过一过",
+        "description": "把后面离合出现过一过"
+    },
+    {
+        "query": "我一个*。",
+        "description": "我后接一个或多个字，然后是句尾的。"
+    },
+    {
+        "query": "你们一个*！",
+        "description": "你们后接一个或多个字，然后是感叹号"
+    },
+    {
+        "query": "@实施",
+        "description": "实施是句尾的单字，后接@"
+    },
+    {
+        "query": "似乎*吧！",
+        "description": "似乎后面离合出现吧后接感叹号"
+    },
+    {
+        "query": "或....或",
+        "description": "或后接顿号，然后是任意字符，再接或"
+    },
+    {
+        "query": "除非*否则*",
+        "description": "除非后面离合出现否则"
+    },
+    {
+        "query": "和*们",
+        "description": "和后接星号，然后是任意字符，再接们"
+    },
+    {
+        "query": "v*爱情",
+        "description": "动词后接爱情"
+    },
+    {
+        "query": "泻不.",
+        "description": "泻后面隔一个字后接不"
+    },
+    {
+        "query": "没有这么~的",
+        "description": "没有这么后面接一个词"
+    },
+    {
+        "query": "有*好看",
+        "description": "有后面离合出现好看"
+    },
+    {
+        "query": "w刚.柔w",
+        "description": "单字后接一个字，然后是单字，如\"刚.柔\""
+    },
+    {
+        "query": "~风味",
+        "description": "一个词，如风味"
+    }
+]
+```
+
+这个json结构包含了每个检索式及其对应的描述，覆盖了所有的给定检索式。

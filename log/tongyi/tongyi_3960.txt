@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "感人不感人",
+        "description": "包含‘感人’后面紧跟着是否能成为‘感人’的句子"
+    },
+    {
+        "query": "机会不机会",
+        "description": "包含‘机会’后面紧跟着是否能成为‘机会’的句子"
+    },
+    {
+        "query": "工口",
+        "description": "单独的‘工口’词汇"
+    },
+    {
+        "query": "吓倒",
+        "description": "‘吓’后面紧跟着‘倒’的句子"
+    },
+    {
+        "query": "汗马功劳",
+        "description": "‘汗马’后面紧跟着‘功劳’的句子"
+    },
+    {
+        "query": "多加。",
+        "description": "包含‘多加’后面跟一个句号的句子"
+    },
+    {
+        "query": "检定",
+        "description": "单独的‘检定’词汇"
+    },
+    {
+        "query": "登山",
+        "description": "‘登’后面紧跟着‘山’的句子"
+    },
+    {
+        "query": "升级",
+        "description": "‘升’后面紧跟着‘级’的句子"
+    },
+    {
+        "query": "废止",
+        "description": "‘废’后面紧跟着‘止’的句子"
+    },
+    {
+        "query": "多不",
+        "description": "‘多’后面紧跟着‘不’的句子"
+    },
+    {
+        "query": "月不月考",
+        "description": "‘月’后面紧跟着‘不’、‘月考’的句子"
+    },
+    {
+        "query": "出得出",
+        "description": "‘出’后面紧跟着‘得’的句子"
+    },
+    {
+        "query": "人权1",
+        "description": "包含‘人权’后面紧跟数字‘1’的句子"
+    },
+    {
+        "query": "一变就",
+        "description": "‘一变’后面紧跟着‘就’的句子"
+    },
+    {
+        "query": "说完",
+        "description": "‘说’后面紧跟着‘完’的句子"
+    },
+    {
+        "query": "手段",
+        "description": "单独的‘手段’词汇"
+    },
+    {
+        "query": "那就",
+        "description": "‘那’后面紧跟着‘就’的句子"
+    },
+    {
+        "query": "和谐互利",
+        "description": "‘和谐’后面紧跟着‘互利’的句子"
+    },
+    {
+        "query": "的确，",
+        "description": "‘的确’后面紧跟着逗号的句子"
+    },
+    {
+        "query": "美丽的花园",
+        "description": "包含‘美丽’后面紧跟着‘的花园’的句子"
+    },
+    {
+        "query": "这一紧张",
+        "description": "‘这’后面紧跟着‘一紧张’的句子"
+    },
+    {
+        "query": "通俗讲",
+        "description": "包含‘通俗’后面紧跟着‘讲’的句子"
+    },
+    {
+        "query": "和谐使馆",
+        "description": "‘和谐’后面紧跟着‘使馆’的句子"
+    },
+    {
+        "query": "蹦过来",
+        "description": "‘蹦’后面紧跟着‘过来’的句子"
+    },
+    {
+        "query": "和谐创作",
+        "description": "‘和谐’后面紧跟着‘创作’的句子"
+    },
+    {
+        "query": "聚聚",
+        "description": "包含‘聚’后面紧跟着‘聚’的句子"
+    },
+    {
+        "query": "不仅仅",
+        "description": "包含‘不仅’后面紧跟着‘是’、‘仅仅’的句子"
+    },
+    {
+        "query": "照理而言",
+        "description": "包含‘照理’后面紧跟着‘是’、‘而言’的句子"
+    },
+    {
+        "query": "工匠精神",
+        "description": "单独的‘工匠精神’词汇"
+    },
+    {
+        "query": "好的呢",
+        "description": "包含‘好’后面紧跟着‘的呢’的句子"
+    },
+    {
+        "query": "煎茶",
+        "description": "单独的‘煎茶’词汇"
+    },
+    {
+        "query": "为了",
+        "description": "包含‘为’后面紧跟着‘了’的句子"
+    },
+    {
+        "query": "你知道吗",
+        "description": "包含‘你知’后面紧跟着‘道吗’的句子"
+    },
+    {
+        "query": "确定",
+        "description": "单独的‘确定’词汇"
+    },
+    {
+        "query": "达山人",
+        "description": "包含‘达山’后面紧跟着‘人’的句子"
+    },
+    {
+        "query": "班子",
+        "description": "单独的‘班子’词汇"
+    },
+    {
+        "query": "太巨了",
+        "description": "包含‘太’后面紧跟着‘巨’、‘了’的句子"
+    },
+    {
+        "query": "着实",
+        "description": "单独的‘着实’词汇"
+    },
+    {
+        "query": "不太糟",
+        "description": "包含‘不’后面紧跟着‘太糟’的句子"
+    }
+]
+```

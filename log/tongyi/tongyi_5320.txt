@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "V个N",
+        "description": "动词后接量词再接名词"
+    },
+    {
+        "query": "v一堆",
+        "description": "动词后接一堆"
+    },
+    {
+        "query": "orz+",
+        "description": "动词后接orz，中间可能有一个或多个空格"
+    },
+    {
+        "query": "orz",
+        "~": "orz"
+    },
+    {
+        "query": "v+a+你",
+        "description": "动词后接形容词再接你"
+    },
+    {
+        "query": "v a 你",
+        "description": "动词后接空格再接形容词再接你"
+    },
+    {
+        "query": "V一q算一q",
+        "description": "动词后接一q，再接空格，再接一q"
+    },
+    {
+        "query": "v专了",
+        "description": "动词后接专了"
+    },
+    {
+        "query": "v七十",
+        "description": "动词后接数字七十"
+    },
+    {
+        "query": "a出版",
+        "description": "形容词后接出版"
+    },
+    {
+        "query": "满a",
+        "description": "形容词后接满"
+    },
+    {
+        "query": "a几乎",
+        "description": "形容词后接几乎"
+    },
+    {
+        "query": "v死了w",
+        "description": "动词后接死了，再接句尾"
+    },
+    {
+        "query": "爱戴的n",
+        "description": "动词后接爱戴，再接形容词，再接名词"
+    },
+    {
+        "query": "比较n",
+        "description": "动词后接比较，再接名词"
+    },
+    {
+        "query": "！众n",
+        "description": "感叹号后接众n"
+    },
+    {
+        "query": "v目的",
+        "description": "动词后接目的"
+    },
+    {
+        "query": "v他个",
+        "description": "动词后接他个"
+    },
+    {
+        "query": "a儿子",
+        "description": "形容词后接儿子"
+    },
+    {
+        "query": "就d",
+        "description": "动词后接就"
+    },
+    {
+        "query": "n+精",
+        "description": "名词后接+精"
+    },
+    {
+        "query": "n 精",
+        "description": "名词后接空格再接精"
+    },
+    {
+        "query": "看法a",
+        "description": "名词后接看法，再接形容词"
+    },
+    {
+        "query": "投入v",
+        "description": "动词后接投入"
+    },
+    {
+        "query": "半夜+u",
+        "description": "名词后接+u，中间可能有一个或多个空格"
+    },
+    {
+        "query": "半夜 u",
+        "description": "名词后接空格再接u"
+    },
+    {
+        "query": "a的精神",
+        "description": "形容词后接的精神"
+    },
+    {
+        "query": "一万个a",
+        "description": "形容词后接一万个"
+    },
+    {
+        "query": "豆腐房v",
+        "description": "动词后接豆腐房"
+    },
+    {
+        "query": "m眼n",
+        "description": "名词后接眼，再接名词"
+    },
+    {
+        "query": "把N扎在",
+        "description": "把后接名词再接扎在"
+    },
+    {
+        "query": "a保卫",
+        "description": "形容词后接保卫"
+    },
+    {
+        "query": "统一vn",
+        "description": "形容词后接统一，再接vn"
+    },
+    {
+        "query": "a不行",
+        "description": "形容词后接不行"
+    },
+    {
+        "query": "霸占了n+m",
+        "description": "动词后接霸占了，再接名词和数词"
+    },
+    {
+        "query": "霸占了n m",
+        "description": "动词后接霸占了，再接名词和m"
+    },
+    {
+        "query": "v成一q",
+        "description": "动词后接成一q"
+    },
+    {
+        "query": "m+件+n",
+        "description": "名词后接+件，再接名词"
+    },
+    {
+        "query": "m 件 n",
+        "description": "名词后接空格再接件，再接名词"
+    },
+    {
+        "query": "a从中",
+        "description": "形容词后接从中"
+    }
+]
+```

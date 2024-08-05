@@ -1,0 +1,166 @@
+以下是将给定的检索式转换为带含义的JSON结构的示例：
+
+```json
+[
+    {
+        "query": "v调皮了",
+        "description": "动词后接‘调皮’，然后是了"
+    },
+    {
+        "query": "N最好V",
+        "description": "名词后接‘最好’，然后是动词"
+    },
+    {
+        "query": "是a而不是a",
+        "description": "是形容词，然后是‘而不是’，之后也是形容词"
+    },
+    {
+        "query": "m磴",
+        "description": "名词后接‘磴’"
+    },
+    {
+        "query": "a反而",
+        "description": "形容词后接‘反而’"
+    },
+    {
+        "query": "a债务",
+        "description": "形容词后接‘债务’"
+    },
+    {
+        "query": "a得像",
+        "description": "形容词后接‘得像’"
+    },
+    {
+        "query": "a保留",
+        "description": "形容词后接‘保留’"
+    },
+    {
+        "query": "a局限",
+        "description": "形容词后接‘局限’"
+    },
+    {
+        "query": "a人工",
+        "description": "形容词后接‘人工’"
+    },
+    {
+        "query": "v+ing",
+        "description": "动词后接-ing形式"
+    },
+    {
+        "query": "v ing",
+        "description": "动词后接-ing形式"
+    },
+    {
+        "query": "不都t了",
+        "description": "否定词后接‘都’，然后是动词，最后是了"
+    },
+    {
+        "query": "抖M",
+        "description": "形容词后接‘抖’"
+    },
+    {
+        "query": "“被”a",
+        "description": "引号内的‘被’后接形容词"
+    },
+    {
+        "query": "n高企",
+        "description": "名词后接‘高企’"
+    },
+    {
+        "query": "a作者",
+        "description": "形容词后接‘作者’"
+    },
+    {
+        "query": "没有v之前",
+        "description": "否定词后接动词，然后是‘之前’"
+    },
+    {
+        "query": "v一场n",
+        "description": "动词后接‘一场’，然后是名词"
+    },
+    {
+        "query": "再a点儿",
+        "description": "副词后接‘再’，然后是形容词，最后是‘点儿’"
+    },
+    {
+        "query": "p理由",
+        "description": "介词后接‘理由’"
+    },
+    {
+        "query": "f",
+        "description": "方位词"
+    },
+    {
+        "query": "不想V都不",
+        "description": "否定词后接动词，然后是‘都不’"
+    },
+    {
+        "query": "来n",
+        "description": "动词后接‘来’"
+    },
+    {
+        "query": "了又a",
+        "description": "动词后接‘了’，之后是形容词"
+    },
+    {
+        "query": "欣喜v上",
+        "description": "动词后接‘欣喜’，然后是动词，最后是‘上’"
+    },
+    {
+        "query": "别a就a",
+        "description": "副词后接形容词，然后是‘就’，之后也是形容词"
+    },
+    {
+        "query": "m抽",
+        "description": "名词后接‘抽’"
+    },
+    {
+        "query": "“被”n",
+        "description": "引号内的‘被’后接名词"
+    },
+    {
+        "query": "u+经历",
+        "description": "标点后接‘经历’"
+    },
+    {
+        "query": "u 经历",
+        "description": "标点后接‘经历’"
+    },
+    {
+        "query": "w+十分a的是+w",
+        "description": "标点后接‘十分’，然后是形容词，再接‘的是’，最后是标点"
+    },
+    {
+        "query": "w 十分a的是 w",
+        "description": "标点后接‘十分’，然后是形容词，再接‘的是’，最后是标点"
+    },
+    {
+        "query": "能V一q，就",
+        "description": "动词后接‘能’，然后是动词，一q是量词，最后是‘就’"
+    },
+    {
+        "query": "m折",
+        "description": "名词后接‘折’"
+    },
+    {
+        "query": "有什么好+d+的",
+        "description": "问句形式，询问有什么好形容词+的"
+    },
+    {
+        "query": "有什么好 d 的",
+        "description": "问句形式，询问有什么好形容词+的"
+    },
+    {
+        "query": "m截子",
+        "description": "名词后接‘截子’"
+    },
+    {
+        "query": "a和a",
+        "description": "形容词后接‘和’，之后也是形容词"
+    },
+    {
+        "query": "炸n",
+        "description": "动词后接‘炸’"
+    }
+]
+```

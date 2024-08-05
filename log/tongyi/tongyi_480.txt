@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "悲悲戚戚",
+        "description": "悲悲戚戚"
+    },
+    {
+        "query": "一鼻子",
+        "description": "一 + 名词"
+    },
+    {
+        "query": "简单来说",
+        "description": "动词 + 来说"
+    },
+    {
+        "query": "新届",
+        "description": "名词"
+    },
+    {
+        "query": "个",
+        "description": "量词"
+    },
+    {
+        "query": "狗屁",
+        "description": "动词 + 犬"
+    },
+    {
+        "query": "这样和谐",
+        "description": "副词 + 这样 + 动词"
+    },
+    {
+        "query": "欢欢喜喜",
+        "description": "副词 + 欢喜"
+    },
+    {
+        "query": "破获",
+        "description": "动词 + 破"
+    },
+    {
+        "query": "和谐为中",
+        "description": "动词 + 和谐"
+    },
+    {
+        "query": "没稍微",
+        "description": "副词 + 没"
+    },
+    {
+        "query": "通过",
+        "description": "动词"
+    },
+    {
+        "query": "旧闻",
+        "description": "名词"
+    },
+    {
+        "query": "你究竟",
+        "description": "代词 + 你"
+    },
+    {
+        "query": "水精",
+        "description": "名词"
+    },
+    {
+        "query": "杠子",
+        "description": "名词"
+    },
+    {
+        "query": "善与和谐",
+        "description": "动词 + 善"
+    },
+    {
+        "query": "无怪乎",
+        "description": "副词 + 无"
+    },
+    {
+        "query": "非要",
+        "description": "副词 + 非"
+    },
+    {
+        "query": "没较",
+        "description": "副词 + 没"
+    },
+    {
+        "query": "嶙嶙峋峋",
+        "description": "形容词"
+    },
+    {
+        "query": "中国茶",
+        "description": "名词"
+    },
+    {
+        "query": "方方正正",
+        "description": "形容词"
+    },
+    {
+        "query": "起人权",
+        "description": "动词 + 起"
+    },
+    {
+        "query": "发放",
+        "description": "动词"
+    },
+    {
+        "query": "和谐化的",
+        "description": "动词化"
+    },
+    {
+        "query": "你那里",
+        "description": "代词 + 你"
+    },
+    {
+        "query": "渣男",
+        "description": "名词"
+    },
+    {
+        "query": "湿湿",
+        "description": "形容词"
+    },
+    {
+        "query": "一时间",
+        "description": "量词 + 时间"
+    },
+    {
+        "query": "不吃",
+        "description": "动词 + 不"
+    },
+    {
+        "query": "见伐",
+        "description": "动词 + 见"
+    },
+    {
+        "query": "原来你还在这里",
+        "description": "副词 + 还"
+    },
+    {
+        "query": "句表白",
+        "description": "名词"
+    },
+    {
+        "query": "人才",
+        "description": "名词"
+    },
+    {
+        "query": "貌似",
+        "description": "动词 + 貌"
+    },
+    {
+        "query": "收入",
+        "description": "名词"
+    },
+    {
+        "query": "既然如此",
+        "description": "副词 + 既然"
+    },
+    {
+        "query": "爱咋就咋",
+        "description": "动词 + 爱"
+    },
+    {
+        "query": "咬",
+        "description": "动词"
+    }
+]
+```

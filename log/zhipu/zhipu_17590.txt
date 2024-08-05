@@ -1,0 +1,88 @@
+以下是您提供的检索式转换为带含义的JSON结构：
+
+```json
+[
+    {
+        "query": "../n",
+        "description": "双音节名词"
+    },
+    {
+        "query": "服务(v){len($1)=2}",
+        "description": "服务后接长度为2的动词"
+    },
+    {
+        "query": "从(n)起{len($1)!=3}",
+        "description": "从后接长度不为3的名词再接起"
+    },
+    {
+        "query": "(a)(n){len($2)=2}",
+        "description": "形容词后接长度为2的名词"
+    },
+    {
+        "query": "@/[nr v]曼城",
+        "description": "一个词性为nr或v的词后接曼城"
+    },
+    {
+        "query": "体坛(v){count<421}",
+        "description": "体坛后接出现次数少于421次的动词"
+    },
+    {
+        "query": "(n)内外{end($1)=[场 便 煮 升]}",
+        "description": "名词结束于场、便、煮、升之一后接内外"
+    },
+    {
+        "query": "篮协(n)尴尬{len($1)<3}",
+        "description": "篮协后接长度小于3的名词再接尴尬"
+    },
+    {
+        "query": "(n)品牌{len($1)=2}",
+        "description": "名词后接品牌，名词长度为2"
+    },
+    {
+        "query": "易../[nr v]说",
+        "description": "易后接单音节名词或动词再接说"
+    },
+    {
+        "query": "别(p)裁判{count<445}",
+        "description": "别后接出现次数少于445次的介词再接裁判"
+    },
+    {
+        "query": "保护@[f v]传承",
+        "description": "保护后接词性为方位词或动词的词再接传承"
+    },
+    {
+        "query": "联唱w",
+        "description": "联唱后接标点符号"
+    },
+    {
+        "query": "底蕴~",
+        "description": "底蕴后接一个词"
+    },
+    {
+        "query": "保护(n){end($1)!=[盖 猪]}",
+        "description": "保护后接名词，名词不以盖或猪结尾"
+    },
+    {
+        "query": "(n)(n){len($1)=2; end($2)=[n 者]}",
+        "description": "两个名词连用，第一个名词长度为2，第二个名词以n或者结尾"
+    },
+    {
+        "query": "的(n)名票{len($1)<3}",
+        "description": "的后面接长度小于3的名词再接名票"
+    },
+    {
+        "query": "(ns)：{begin($1)!=[我 扯 蓝]}",
+        "description": "以ns词性开头的词不为我、扯、蓝，后面接冒号"
+    },
+    {
+        "query": "血脉通@[w v]长治兴",
+        "description": "血脉通后接标点或动词的词再接长治兴"
+    },
+    {
+        "query": "(b)产业(i){len($2)=4}",
+        "description": "区别词后接长度为4的简称略语"
+    }
+]
+```
+
+请确保这个结构满足您的需求，如有任何问题，请告知。

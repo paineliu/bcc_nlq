@@ -1,0 +1,150 @@
+以下是将给定的检索式转换为带含义的json结构：
+
+```json
+[
+    {
+        "query": "日+科诉/j+苦道",
+        "description": "日+科诉之后接/j+苦道"
+    },
+    {
+        "query": "日 科诉/j 苦道",
+        "description": "日之后接科诉/j，科诉之后接苦道"
+    },
+    {
+        "query": "n+污/ng",
+        "description": "n之后接污/ng"
+    },
+    {
+        "query": "n 污/ng",
+        "description": "n之后接污/ng"
+    },
+    {
+        "query": "安徽+试点/v+农业",
+        "description": "安徽之后接试点/v，试点之后接农业"
+    },
+    {
+        "query": "安徽 试点/v 农业",
+        "description": "安徽之后接试点/v，试点之后接农业"
+    },
+    {
+        "query": "关键+因素/n+是",
+        "description": "关键之后接因素/n，因素之后接是"
+    },
+    {
+        "query": "关键 因素/n 是",
+        "description": "关键之后接因素/n，因素之后接是"
+    },
+    {
+        "query": "服务+开拓/v+新",
+        "description": "服务之后接开拓/v，开拓之后接新"
+    },
+    {
+        "query": "服务 开拓/v 新",
+        "description": "服务之后接开拓/v，开拓之后接新"
+    },
+    {
+        "query": "仍然+../v",
+        "description": "仍然之后接../v"
+    },
+    {
+        "query": "a+情谊/n",
+        "description": "a之后接情谊/n"
+    },
+    {
+        "query": "可+再生/v+能源",
+        "description": "可之后接再生/v，再生之后接能源"
+    },
+    {
+        "query": "二○一五年/t+十二月",
+        "description": "二○一五年之后接十二月"
+    },
+    {
+        "query": "二○一五年/t 十二月",
+        "description": "二○一五年之后接十二月"
+    },
+    {
+        "query": "恩情/n*a",
+        "description": "恩情之后接a"
+    },
+    {
+        "query": "密切/a+高层",
+        "description": "密切之后接高层"
+    },
+    {
+        "query": "./v高兴了",
+        "description": "之后接高兴了"
+    },
+    {
+        "query": "一样+欣慰/a+。",
+        "description": "一样之后接欣慰/a，欣慰之后接。"
+    },
+    {
+        "query": "一样 欣慰/a 。",
+        "description": "一样之后接欣慰/a，欣慰之后接。"
+    },
+    {
+        "query": "七+、/w+有序",
+        "description": "七之后接、/w，有序位于最后"
+    },
+    {
+        "query": "七 、/w 有序",
+        "description": "七之后接、/w，有序位于最后"
+    },
+    {
+        "query": "立刻/d+就+v",
+        "description": "立刻之后接就，就之后接v"
+    },
+    {
+        "query": "立刻/d 就 v",
+        "description": "立刻之后接就，就之后接v"
+    },
+    {
+        "query": "原创/nz+科技+助力/n",
+        "description": "原创之后接科技，科技之后接助力"
+    },
+    {
+        "query": "原创/nz 科技 助力/n",
+        "description": "原创之后接科技，科技之后接助力"
+    },
+    {
+        "query": "前行+的/u+脚步",
+        "description": "前行之后接的/u，的之后接脚步"
+    },
+    {
+        "query": "前行 的/u 脚步",
+        "description": "前行之后接的/u，的之后接脚步"
+    },
+    {
+        "query": "好感/n*v",
+        "description": "好感之后接v"
+    },
+    {
+        "query": "磨/v+../n+",
+        "description": "磨之后接../n，../之后接"
+    },
+    {
+        "query": "磨/v ../n ",
+        "description": "磨之后接../n，../之后接"
+    },
+    {
+        "query": "煤矿/n+建井+模式+实现+重大/a",
+        "description": "煤矿之后接建井，建井之后接模式，模式之后接实现，实现之后接重大/a"
+    },
+    {
+        "query": "煤矿/n 建井 模式 实现 重大/a",
+        "description": "煤矿之后接建井，建井之后接模式，模式之后接实现，实现之后接重大/a"
+    },
+    {
+        "query": "./v深了",
+        "description": "之后接深了"
+    },
+    {
+        "query": "防污+有/v+新规",
+        "description": "防污之后接有/v，有之后接新规"
+    },
+    {
+        "query": "防污 有/v 新规",
+        "description": "防污之后接有/v，有之后接新规"
+    }
+]
+```

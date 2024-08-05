@@ -1,0 +1,86 @@
+以下是检索式及其含义的JSON结构：
+
+```json
+[
+    {
+        "query": "高",
+        "description": "包含高的句子"
+    },
+    {
+        "query": "会(v)这种{count<763}",
+        "description": "会后面接动词这种，且这种出现次数少于763"
+    },
+    {
+        "query": "(v)体验{len($1)!=3}",
+        "description": "动词体验，且体验长度不等于3"
+    },
+    {
+        "query": "方便@/[w v]感觉",
+        "description": "方便后面接一个词性为[w v]的词，然后接感觉"
+    },
+    {
+        "query": "..送货",
+        "description": "两个字符后接送货"
+    },
+    {
+        "query": "商机z。",
+        "description": "商机后面接状态词z，再接句号"
+    },
+    {
+        "query": "的(n){begin($1)=[增 绝 轻]}",
+        "description": "的后面接名词，名词以增、绝、轻开始"
+    },
+    {
+        "query": "(r)的活儿我可不(a){len($1)=2; len($2)!=2}",
+        "description": "地名的后面接活儿，我可不后面接长度为2的形容词，活儿长度不等于2"
+    },
+    {
+        "query": "尝试下来/v，",
+        "description": "尝试下来后接动词，然后接逗号"
+    },
+    {
+        "query": "日渐(a)，{end($1)=[盛 未 松 腿]}",
+        "description": "日渐后面接形容词，形容词以盛、未、松、腿结束"
+    },
+    {
+        "query": "(p)啥迎来(m){begin($2)!=[顿 而 菜]}",
+        "description": "介词啥后面接迎来，迎来后面接长度不为顿、而、菜的数词"
+    },
+    {
+        "query": "客流(v)为{end($1)!=[长 仔 北 巧]}",
+        "description": "客流后面接动词为，不为长、仔、北、巧"
+    },
+    {
+        "query": "体验/v，",
+        "description": "体验后接动词，然后接逗号"
+    },
+    {
+        "query": "商品~虚火",
+        "description": "商品后面接一个词虚火"
+    },
+    {
+        "query": "多一些/m线上",
+        "description": "多一些后面接数词m，再接线上"
+    },
+    {
+        "query": "力气(v)休闲{len($1)!=3}",
+        "description": "力气后面接动词，动词长度不等于3"
+    },
+    {
+        "query": "消费@/[w v]新",
+        "description": "消费后面接一个词性为[w v]的词，再接新"
+    },
+    {
+        "query": "消费",
+        "description": "包含消费的句子"
+    },
+    {
+        "query": "(v)买{len($1)=1}",
+        "description": "动词买，买的长度等于1"
+    },
+    {
+        "query": "(ns)推广{len($1)=2}",
+        "description": "地名推广，推广的长度等于2"
+    }
+]
+```

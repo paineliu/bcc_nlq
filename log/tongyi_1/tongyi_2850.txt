@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": ".../[nr v] 说",
+        "description": "任意词缀后跟人名或动词，然后说"
+    },
+    {
+        "query": "~ 说",
+        "description": "一个词后跟说"
+    },
+    {
+        "query": ". 助力 种子 企业 ..",
+        "description": "句首或句尾的助力、种子、企业等词"
+    },
+    {
+        "query": "誓不罢休 .",
+        "description": "誓不罢休作为句尾"
+    },
+    {
+        "query": "片",
+        "description": "单个的片字"
+    },
+    {
+        "query": "压力 ~",
+        "description": "压力后接一个词"
+    },
+    {
+        "query": "态度 ~/[w v]",
+        "description": "态度后面是形容词或动词"
+    },
+    {
+        "query": "@ ，",
+        "description": "句首的逗号"
+    },
+    {
+        "query": "就是 顶层/n 设计",
+        "description": "就是后跟顶层名词，设计"
+    },
+    {
+        "query": "(u) 就 改正 (w){$1!=$2}",
+        "description": "副词后跟就，但不跟改正"
+    },
+    {
+        "query": "(r) 三{len($1)!=2}",
+        "description": "单个的三字"
+    },
+    {
+        "query": "治 ./n 从严",
+        "description": "治后面接名词，然后从严"
+    },
+    {
+        "query": "孙军 ~ 人民",
+        "description": "孙军后接一个词"
+    },
+    {
+        "query": "落实 (n) 救助{len($1)=2}",
+        "description": "落实后接单音节名词，救助"
+    },
+    {
+        "query": "(d) 将 (d){middle($2)=[一 擦 桥 克]}",
+        "description": "两个副词，中间是特定的一组词"
+    },
+    {
+        "query": "整体 ../v 的",
+        "description": "整体后接双音节动词，再接的"
+    },
+    {
+        "query": "(ns) 保持 最高 (vn){len($1)=2; end($2)=[vn 踩]}",
+        "description": "保持最高，保持后面接双音节动词，且最后是vn或踩"
+    },
+    {
+        "query": "客机 (n) 残骸{count<699}",
+        "description": "客机残骸，客机后面接残骸，且实例频次小于699"
+    },
+    {
+        "query": "此事 u 调查",
+        "description": "此事后面跟单字调查"
+    },
+    {
+        "query": "严重 @",
+        "description": "严重后接一个词"
+    },
+    {
+        "query": "间接",
+        "description": "间接这个词"
+    },
+    {
+        "query": "(v) 严{middle($1)!=[而 肿 题 妈]}",
+        "description": "以严开头的双音节动词，中间不包含而、肿、题、妈"
+    },
+    {
+        "query": "网络 .. 新",
+        "description": "网络后面接任意数量的字，然后是新"
+    },
+    {
+        "query": "， 我们/r 开展",
+        "description": "句首的逗号，然后是我们后面接开展"
+    },
+    {
+        "query": "发动 n 举报",
+        "description": "发动后接名词，然后是举报"
+    },
+    {
+        "query": "(m) 是{len($1)=1}",
+        "description": "单个的单音节是"
+    },
+    {
+        "query": "案件 . 实行",
+        "description": "案件后接句尾的实行"
+    },
+    {
+        "query": "(v) 最后 一 公里 (vn){len($1)!=3}",
+        "description": "最后一公里，最后后面接单音节动词，且不接三个字的词"
+    },
+    {
+        "query": "景星镇",
+        "description": "景星镇"
+    },
+    {
+        "query": "抵达 @ 海区",
+        "description": "抵达后接一个词，然后是海区"
+    },
+    {
+        "query": "内 (v) 扫测{end($1)!=[追 爸]}",
+        "description": "内后接动词，然后是不以追或爸结尾的动词"
+    },
+    {
+        "query": "图 . 参赛",
+        "description": "图后接句尾的参赛"
+    },
+    {
+        "query": "农业 . 都",
+        "description": "农业后接句尾的都"
+    },
+    {
+        "query": "佟磊 (n) 逝世{begin($1)!=[拍 内 某]}",
+        "description": "佟磊后接名词，且佟磊不是拍、内或某的开始"
+    },
+    {
+        "query": "同志 (v){len($1)!=3}",
+        "description": "同志后接不是三个字的词"
+    },
+    {
+        "query": "(nz) 中 受到 迫害 (vn){len($1)=5}",
+        "description": "受到迫害，受到后面接五个字的动名词"
+    },
+    {
+        "query": "逝世",
+        "description": "逝世这个词"
+    },
+    {
+        "query": "~ 中",
+        "description": "一个词后接中"
+    },
+    {
+        "query": "郭子恒/nr 同志",
+        "description": "郭子恒人名后面接同志"
+    },
+    {
+        "query": "(v) 河北 (n){len($1)=3; len($2)!=3}",
+        "description": "河北后接单音节名词，且不接三个字的词"
+    }
+]
+```

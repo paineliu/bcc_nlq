@@ -1,0 +1,166 @@
+以下是检索式及其含义的JSON结构：
+
+```json
+[
+    {
+        "query": "龙@又",
+        "description": "龙后面接一个词"
+    },
+    {
+        "query": "@/[t v] 几",
+        "description": "任意一个词性后接'几'"
+    },
+    {
+        "query": "~ ，",
+        "description": "一个词后接逗号"
+    },
+    {
+        "query": "不管 ./w 就要",
+        "description": "不管后面接一个单字连词，然后是'就要'"
+    },
+    {
+        "query": "能 @/[v v] 的",
+        "description": "能后面接一个或两个动词，然后是'的'"
+    },
+    {
+        "query": "店 @/[w v]",
+        "description": "店后面接一个词性为动词或名词的词"
+    },
+    {
+        "query": "家 @ 个",
+        "description": "家后面接一个'个'"
+    },
+    {
+        "query": "p 母子俩 v",
+        "description": "母子俩后接一个动词"
+    },
+    {
+        "query": "东西 ~/[v v] 看看",
+        "description": "东西后面离合出现两个动词，然后是'看看'"
+    },
+    {
+        "query": "段",
+        "description": "单个字符'段'"
+    },
+    {
+        "query": "(d) 出人命喽{begin($1)=[就 重]}",
+        "description": "副词接'出人命喽'，且'出人命'必须在'就'或'重'之后"
+    },
+    {
+        "query": "头",
+        "description": "单个字符'头'"
+    },
+    {
+        "query": "家事 ~",
+        "description": "家事后面接一个词"
+    },
+    {
+        "query": "路 .. 走",
+        "description": "路后面隔一个字后接'走'"
+    },
+    {
+        "query": "(w) 家庭 暴力 ， 谁 来 鉴定 (w){$1=$2}",
+        "description": "两个'谁'之间是'家庭暴力'，且'鉴定'在两个'谁'之间"
+    },
+    {
+        "query": "打到 什么/r 程度",
+        "description": "打到后面接'什么'，'什么'后面接一个'程度'"
+    },
+    {
+        "query": "监护权",
+        "description": "单个词'监护权'"
+    },
+    {
+        "query": "u ， 还是 观念 w",
+        "description": "一个'，'后接'还是'，'还是'后面接一个'观念'"
+    },
+    {
+        "query": "(n) 周文锋 坦言 (w){begin($1)!=[苦 圈 收 睡]}",
+        "description": "周文锋后面接'坦言'，且'坦'不能在'苦'、'圈'、'收'或'睡'之后"
+    },
+    {
+        "query": "。",
+        "description": "单个字符，句尾符号"
+    },
+    {
+        "query": "孩子 @/[v v] 来",
+        "description": "孩子后面接一个或两个动词，然后是'来'"
+    },
+    {
+        "query": "的 (n){len($1)<3}",
+        "description": "单个字符'的'，且前面的词长度小于3"
+    },
+    {
+        "query": "， (n) 谁{len($1)=2}",
+        "description": "一个逗号后面接一个长度为2的词"
+    },
+    {
+        "query": "~/[r v] 启动",
+        "description": "离合出现一个'启动'"
+    },
+    {
+        "query": "(nr) 说{end($1)=[红 婷]}",
+        "description": "单个人名后面接'说'，且'说'的后面是'红'或'婷'"
+    },
+    {
+        "query": "姚 @ 如此",
+        "description": "姚后面接一个词"
+    },
+    {
+        "query": "了 .. 。",
+        "description": "单个字符'了'，后面隔一个字，然后是句尾符号"
+    },
+    {
+        "query": "养好 (a){count>4}",
+        "description": "形容词'养好'，出现次数大于4次"
+    },
+    {
+        "query": "(z) 蒲公英{len($1)>1}",
+        "description": "单个词'蒲公英'，且长度大于1"
+    },
+    {
+        "query": "的 (n) 。{count>7}",
+        "description": "单个字符'的'，前面的词长度大于7，且后面是句尾符号"
+    },
+    {
+        "query": "@ 来",
+        "description": "一个词后接'来'"
+    },
+    {
+        "query": "(n) 行 不行 (w){count>6}",
+        "description": "单个词'行'或'不行'，出现次数大于6次"
+    },
+    {
+        "query": "保障 ./d 没有",
+        "description": "保障后面接一个介词，然后是'没有'"
+    },
+    {
+        "query": "到来 @",
+        "description": "到来后面接一个词"
+    },
+    {
+        "query": "还是 . 支书",
+        "description": "还是后面接一个句尾符号，然后是'支书'"
+    },
+    {
+        "query": "(n) 亲情{len($1)>1}",
+        "description": "单个词'亲情'，且长度大于1"
+    },
+    {
+        "query": "寻家 . 归期",
+        "description": "寻家后面隔一个字后接'归期'"
+    },
+    {
+        "query": "到期 @/[y v] ，",
+        "description": "到期后面接一个'，'，且'，'后面可能是'年'或'月'"
+    },
+    {
+        "query": "@/[r v] 一",
+        "description": "一个词性后接'一'"
+    },
+    {
+        "query": "一个 . 。",
+        "description": "单个字符'一个'，然后是句尾符号"
+    }
+]
+```

@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "人权源",
+        "description": "人权源"
+    },
+    {
+        "query": "多少",
+        "description": "无特定描述，可能表示询问数量的语境"
+    },
+    {
+        "query": "请假",
+        "description": "表示请求或说明原因的请假行为"
+    },
+    {
+        "query": "您们",
+        "description": "敬称复数，用于称呼对方或第三人称复数"
+    },
+    {
+        "query": "和谐促进",
+        "description": "表示促进和谐的行为或活动"
+    },
+    {
+        "query": "和谐人与",
+        "description": "表示和谐关系或和谐的人与人之间的互动"
+    },
+    {
+        "query": "中国经济发展",
+        "description": "描述中国的经济状况或发展动态"
+    },
+    {
+        "query": "呀，",
+        "description": "表示惊叹或疑问的语气词，用于口语交流"
+    },
+    {
+        "query": "模样",
+        "description": "形容事物的形状、外观或人的外貌"
+    },
+    {
+        "query": "文献",
+        "description": "学术研究、历史记录或知识资料的总称"
+    },
+    {
+        "query": "骗",
+        "description": "表示欺骗或欺诈的行为"
+    },
+    {
+        "query": "很精细",
+        "description": "形容事物的细节或制作工艺非常细致"
+    },
+    {
+        "query": "说说看",
+        "description": "邀请对方分享意见或经历的口语表达"
+    },
+    {
+        "query": "疏影暗香",
+        "description": "可能源自诗句或文学作品，描述清幽淡雅的景象或氛围"
+    },
+    {
+        "query": "际会风云",
+        "description": "形容重要的相遇或关键时刻的交汇"
+    },
+    {
+        "query": "差点儿没",
+        "description": "表示差一点就没能完成某事或达到某个结果"
+    },
+    {
+        "query": "享人权",
+        "description": "享受或实现人权的状态或过程"
+    },
+    {
+        "query": "那说来",
+        "description": "表示接下来要说或解释的内容"
+    },
+    {
+        "query": "委实",
+        "description": "确实、实在的意思，用于强调事实的真实性"
+    },
+    {
+        "query": "，让和谐",
+        "description": "用于构建句子的连接成分，引导后续内容"
+    },
+    {
+        "query": "和谐校园",
+        "description": "描述学校环境中的和谐氛围或目标"
+    },
+    {
+        "query": "足人权",
+        "description": "满足或保障人权的状态或行动"
+    },
+    {
+        "query": "假如",
+        "description": "表示假设情况的连词"
+    },
+    {
+        "query": "凛凛",
+        "description": "形容威严、冷峻或寒冷的样子"
+    },
+    {
+        "query": "一长一短",
+        "description": "描述事物长度的对比或变化"
+    },
+    {
+        "query": "。有人说，",
+        "description": "用于对话中的引述，表示有人说过的话"
+    },
+    {
+        "query": "我们还说什么",
+        "description": "表示提问或思考，询问接下来应说什么"
+    },
+    {
+        "query": "似乎宁愿",
+        "description": "表示似乎更愿意选择某种方式或结果"
+    },
+    {
+        "query": "口是",
+        "description": "表示说话前后一致，没有矛盾"
+    },
+    {
+        "query": "铮铮",
+        "description": "形容声音响亮或性格刚直"
+    },
+    {
+        "query": "梅花",
+        "description": "描述梅花这种植物或象征意义"
+    },
+    {
+        "query": "用意",
+        "description": "表示行为或言语的目的或意图"
+    },
+    {
+        "query": "因此上",
+        "description": "表示因此、所以的意思，用于总结或推论"
+    },
+    {
+        "query": "又不",
+        "description": "表示再次否定或强调否定的意思"
+    },
+    {
+        "query": "你误会我了",
+        "description": "表示对方理解错误或误解了自己"
+    },
+    {
+        "query": "打造和谐",
+        "description": "表示创建或提升和谐环境或关系的过程"
+    },
+    {
+        "query": "和谐区，",
+        "description": "用于描述特定区域的和谐氛围或状态"
+    },
+    {
+        "query": "这话说的",
+        "description": "用于评价或反思某人的言论"
+    },
+    {
+        "query": "参加",
+        "description": "表示参与或加入某个活动或事件"
+    },
+    {
+        "query": "够",
+        "description": "表示足够、充足的意思，用于描述数量或程度"
+    }
+]
+```

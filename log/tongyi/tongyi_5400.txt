@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "v了大n了",
+        "description": "动词后接'了', 然后接名词, 再接'了'"
+    },
+    {
+        "query": "涌上N",
+        "description": "动词后接'涌上', 名词作为宾语"
+    },
+    {
+        "query": "把N糊在",
+        "description": "动词'把'后接名词, 然后在名词后面接'在'"
+    },
+    {
+        "query": "技能教学n",
+        "description": "名词后接'技能教学'"
+    },
+    {
+        "query": "仿佛非v",
+        "description": "动词'仿佛'后接否定动词'非'"
+    },
+    {
+        "query": "亲身v",
+        "description": "动词后接'亲身'"
+    },
+    {
+        "query": "f一个f一个",
+        "description": "连续两个'f一个'"
+    },
+    {
+        "query": "a作物",
+        "description": "形容词后接'作物'"
+    },
+    {
+        "query": "w+n+v+a了。",
+        "description": "单字动词后接名词, 动词, 形容词, 再接'了'，句尾符号不限"
+    },
+    {
+        "query": "w n v a了。",
+        "description": "名词后接动词, 形容词, 再接'了', 句尾符号不限"
+    },
+    {
+        "query": "庆祝v",
+        "description": "动词后接'庆祝'"
+    },
+    {
+        "query": "a公约",
+        "description": "形容词后接'公约'"
+    },
+    {
+        "query": "m迈",
+        "description": "名词后接'迈'"
+    },
+    {
+        "query": "V了起来",
+        "description": "动词后接'起来'"
+    },
+    {
+        "query": "人间v",
+        "description": "动词后接'人间'"
+    },
+    {
+        "query": "a先后",
+        "description": "形容词后接'先后'"
+    },
+    {
+        "query": "vn上来",
+        "description": "名词后接动词'上来'"
+    },
+    {
+        "query": "a出门",
+        "description": "形容词后接'出门'"
+    },
+    {
+        "query": "a卓越",
+        "description": "形容词后接'卓越'"
+    },
+    {
+        "query": "v观",
+        "description": "动词后接'观'"
+    },
+    {
+        "query": "裸n",
+        "description": "名词后接'裸'"
+    },
+    {
+        "query": "每年n+n+v",
+        "description": "名词后接两个名词, 再接动词"
+    },
+    {
+        "query": "每年n n v",
+        "description": "名词后接两个名词, 再接动词"
+    },
+    {
+        "query": "a人类",
+        "description": "形容词后接'人类'"
+    },
+    {
+        "query": "非常不v",
+        "description": "形容词'非常'后接否定动词'不'"
+    },
+    {
+        "query": "一出n",
+        "description": "名词后接'一出'"
+    },
+    {
+        "query": "v一具",
+        "description": "动词后接'一具'"
+    },
+    {
+        "query": "无论a还是a",
+        "description": "形容词'无论'后接'还是', 形容词"
+    },
+    {
+        "query": "出来s",
+        "description": "动词后接'出来'"
+    },
+    {
+        "query": "说句v",
+        "description": "动词后接'说句'"
+    },
+    {
+        "query": "协商v",
+        "description": "动词后接'协商'"
+    },
+    {
+        "query": "开始v了",
+        "description": "动词后接'开始', 再接'了'"
+    },
+    {
+        "query": "人人w",
+        "description": "名词后接'人人'"
+    },
+    {
+        "query": "被你v",
+        "description": "动词'被'后接动词'你'"
+    },
+    {
+        "query": "v错",
+        "description": "动词后接'错'"
+    },
+    {
+        "query": "赶紧d",
+        "description": "动词后接'赶紧'"
+    },
+    {
+        "query": "a倒霉",
+        "description": "形容词后接'倒霉'"
+    },
+    {
+        "query": "围n",
+        "description": "名词后接'围'"
+    },
+    {
+        "query": "nx",
+        "description": "名词后接'x'"
+    },
+    {
+        "query": "跟n似的",
+        "description": "名词后接'似的'"
+    }
+]
+```

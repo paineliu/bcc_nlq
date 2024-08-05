@@ -1,0 +1,160 @@
+```json
+[
+    {
+        "query": "一 . 忌假", 
+        "description": "一后面隔一个字后接忌假"
+    },
+    {
+        "query": "忌短 @", 
+        "description": "忌后面接一个词"
+    },
+    {
+        "query": "安全 ../n", 
+        "description": "安全后接名词"
+    },
+    {
+        "query": "干部 .. 致富", 
+        "description": "干部和致富之间无词性要求"
+    },
+    {
+        "query": "失独 (n) 将{len($1)!=3}", 
+        "description": "失独后面接一个非三个字的名词"
+    },
+    {
+        "query": "表示 w", 
+        "description": "表示后接一个词"
+    },
+    {
+        "query": "(v) 企业 (ad){len($1)=2}", 
+        "description": "二字动词后接企业，且动词长度为2"
+    },
+    {
+        "query": "运动会 (v){begin($1)!=[安 扯 四 语]}", 
+        "description": "运动会后不是以安、扯、四或语开头的动词"
+    },
+    {
+        "query": "体坛 (n){len($1)<3}", 
+        "description": "体坛后接的名词长度小于3"
+    },
+    {
+        "query": "澳 @/[v v] 历史", 
+        "description": "澳后接一个动词或另一个动词，然后接历史"
+    },
+    {
+        "query": "均 v 各自", 
+        "description": "均后面接动词，然后接各自"
+    },
+    {
+        "query": "(ns) 选手{end($1)=[国 断 又]}", 
+        "description": "选手后接以国、断或又结尾的地名"
+    },
+    {
+        "query": "明朗", 
+        "description": "明朗单独作为一个词"
+    },
+    {
+        "query": "(nt) 最{count<877}", 
+        "description": "最前面的词出现次数少于877次"
+    },
+    {
+        "query": "~/[t v] 看来", 
+        "description": "看来后跟一个词，可能是时间词或动词"
+    },
+    {
+        "query": "(nt) 目前{end($1)!=[算 至 树 某]}", 
+        "description": "目前后面不是以算、至、树或某结尾的词"
+    },
+    {
+        "query": "(nt) 新疆队{count>10}", 
+        "description": "新疆队出现次数超过10次"
+    },
+    {
+        "query": "有望", 
+        "description": "有望单独作为一个词"
+    },
+    {
+        "query": "旭勇 (v) 。{count<741}", 
+        "description": "旭勇后面是一个动词，且动词后面带有句号，出现次数少于741次"
+    },
+    {
+        "query": "山西队 @/[v v] 联赛", 
+        "description": "山西队后接一个动词或另一个动词，然后接联赛"
+    },
+    {
+        "query": "三 ~ 全", 
+        "description": "三后面接一个词，可能是全"
+    },
+    {
+        "query": "为 (nr) 加油{middle($1)!=[东 盖]}", 
+        "description": "为后面接人名，加油之间不包含东或盖"
+    },
+    {
+        "query": "球 (nr) 埃尔切{count>10}", 
+        "description": "球后接埃尔切，且埃尔切出现次数超过10次"
+    },
+    {
+        "query": "理论 ..", 
+        "description": "理论后面可能接一个词"
+    },
+    {
+        "query": "(ns) 经济学{end($1)=[国 帅 胖]}", 
+        "description": "经济学后面以国、帅或胖结尾"
+    },
+    {
+        "query": "的", 
+        "description": "的单独作为一个词"
+    },
+    {
+        "query": "理论 (n) 。{begin($1)=[逻 关 衣 摸]}", 
+        "description": "逻辑开头的理论后面接名词，且名词开头为逻、关、衣或摸"
+    },
+    {
+        "query": "逻辑 .", 
+        "description": "逻辑后面可能接一个词"
+    },
+    {
+        "query": "作者 . 辽宁", 
+        "description": "作者后面隔一个字后接辽宁"
+    },
+    {
+        "query": "雄辩 @/[w v]", 
+        "description": "雄辩后接一个词，可能是动词或形容词"
+    },
+    {
+        "query": "指导 (v) 。{count<862}", 
+        "description": "指导后面是一个动词，且动词后面带有句号，出现次数少于862次"
+    },
+    {
+        "query": "(n) 为{begin($1)=[作 离 广 送]}", 
+        "description": "为后面接一个名词，名词开头为作、离、广或送"
+    },
+    {
+        "query": "试举 . 例", 
+        "description": "试举后面隔一个字后接例"
+    },
+    {
+        "query": "(p) 政府 与 市场 的 关系 (w){len($1)>1}", 
+        "description": "政府与市场的关系后面接一个由两个或更多字符组成的词"
+    },
+    {
+        "query": "之 @/[n v] 。", 
+        "description": "之后面接一个名词或动词，然后带有句号"
+    },
+    {
+        "query": "中国 .../[n v] 的", 
+        "description": "中国后面可能接一个词，然后接一个名词或动词，最后接一个的"
+    },
+    {
+        "query": "(v) 中国{count<901}", 
+        "description": "中国作为动词出现次数少于901次"
+    },
+    {
+        "query": "不 .. 特别", 
+        "description": "不后面可能接一个词，然后接特别"
+    },
+    {
+        "query": "../[v v] 服务业", 
+        "description": "两个动词连用后接服务业"
+    }
+]
+```

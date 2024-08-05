@@ -1,0 +1,166 @@
+根据给出的检索式，将其转换为带含义的json结构如下：
+
+```json
+[
+    {
+        "query": "v不住",
+        "description": "动词后接不住"
+    },
+    {
+        "query": "(n)家",
+        "description": "名词后接家"
+    },
+    {
+        "query": "观点a",
+        "description": "形容词后接观点"
+    },
+    {
+        "query": "薄+V",
+        "description": "薄后接动词"
+    },
+    {
+        "query": "薄 V",
+        "description": "薄后接动词"
+    },
+    {
+        "query": "V+N+V+得+a",
+        "description": "动词后接名词、动词、得、形容词"
+    },
+    {
+        "query": "V N V 得 a",
+        "description": "动词后接名词、动词、动词、得、形容词"
+    },
+    {
+        "query": "a丰收",
+        "description": "形容词后接丰收"
+    },
+    {
+        "query": "v机",
+        "description": "动词后接机器"
+    },
+    {
+        "query": "啊y",
+        "description": "感叹词后接y"
+    },
+    {
+        "query": "赌n",
+        "description": "名词后接赌博"
+    },
+    {
+        "query": "a会场",
+        "description": "形容词后接会场"
+    },
+    {
+        "query": "我v不a+w",
+        "description": "我后接动词、不、形容词、助词"
+    },
+    {
+        "query": "我v不a w",
+        "description": "我后接动词、不、形容词、助词"
+    },
+    {
+        "query": "a坏了",
+        "description": "形容词后接坏了"
+    },
+    {
+        "query": "a上进",
+        "description": "形容词后接上进"
+    },
+    {
+        "query": "散落在n+f",
+        "description": "散落后接n+f"
+    },
+    {
+        "query": "散落在n f",
+        "description": "散落后接n f"
+    },
+    {
+        "query": "一度n",
+        "description": "名词后接一度"
+    },
+    {
+        "query": "a使劲",
+        "description": "形容词后接使劲"
+    },
+    {
+        "query": "心理a",
+        "description": "形容词后接心理"
+    },
+    {
+        "query": "n+他们",
+        "description": "名词后接他们"
+    },
+    {
+        "query": "n 他们",
+        "description": "名词后接他们"
+    },
+    {
+        "query": "真的是(v)了w",
+        "description": "形容词后接真的、动词、助词"
+    },
+    {
+        "query": "a凉水",
+        "description": "形容词后接凉水"
+    },
+    {
+        "query": "a女神，",
+        "description": "形容词后接女神，"
+    },
+    {
+        "query": ";n的n是n；",
+        "description": "分号后接n、的、n、是、分号"
+    },
+    {
+        "query": "前m名",
+        "description": "形容词后接前、名"
+    },
+    {
+        "query": "a一q",
+        "description": "形容词后接一、量词"
+    },
+    {
+        "query": "经济V",
+        "description": "名词后接经济、动词"
+    },
+    {
+        "query": "n一下",
+        "description": "名词后接一下"
+    },
+    {
+        "query": "a绷带",
+        "description": "形容词后接绷带"
+    },
+    {
+        "query": "d既要",
+        "description": "副词后接既要"
+    },
+    {
+        "query": "n遮眼",
+        "description": "名词后接遮眼"
+    },
+    {
+        "query": "nr怒斥",
+        "description": "人名后接怒斥"
+    },
+    {
+        "query": "白v",
+        "description": "形容词后接白、动词"
+    },
+    {
+        "query": "V了N",
+        "description": "动词后接了、名词"
+    },
+    {
+        "query": "连v也",
+        "description": "连词后接动词、也"
+    },
+    {
+        "query": "推进来n",
+        "description": "动词后接推进、来、名词"
+    },
+    {
+        "query": "v下去",
+        "description": "动词后接下去"
+    }
+]
+```

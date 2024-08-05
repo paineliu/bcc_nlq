@@ -1,0 +1,166 @@
+以下是将给定的检索式转换为带含义的json结构的结果：
+
+```json
+[
+    {
+        "query": "踽踽",
+        "description": "包含'踽踽'这个词的句子"
+    },
+    {
+        "query": "牛高马大",
+        "description": "包含'牛高马大'这个词组的句子"
+    },
+    {
+        "query": "气味",
+        "description": "包含'气味'这个词的句子"
+    },
+    {
+        "query": "妙的是",
+        "description": "包含'妙的是'这个短语的句子"
+    },
+    {
+        "query": "自贸试验区",
+        "description": "包含'自贸试验区'这个词组的句子"
+    },
+    {
+        "query": "钉钉子",
+        "description": "包含'钉钉子'这个词组的句子"
+    },
+    {
+        "query": "晃晃",
+        "description": "包含'晃晃'这个词的句子"
+    },
+    {
+        "query": "应当讲",
+        "description": "包含'应当讲'这个短语的句子"
+    },
+    {
+        "query": "和谐之火",
+        "description": "包含'和谐之火'这个词组的句子"
+    },
+    {
+        "query": "求字",
+        "description": "包含'求字'这个词组的句子"
+    },
+    {
+        "query": "恶果",
+        "description": "包含'恶果'这个词的句子"
+    },
+    {
+        "query": "枚银牌",
+        "description": "包含'枚银牌'这个词组的句子"
+    },
+    {
+        "query": "拿错",
+        "description": "包含'拿错'这个词组的句子"
+    },
+    {
+        "query": "不太科学",
+        "description": "包含'不太科学'这个短语的句子"
+    },
+    {
+        "query": "建人权",
+        "description": "包含'建人权'这个词组的句子"
+    },
+    {
+        "query": "裂人权",
+        "description": "包含'裂人权'这个词组的句子"
+    },
+    {
+        "query": "抑或",
+        "description": "包含'抑或'这个词组的句子"
+    },
+    {
+        "query": "吃瓜群众",
+        "description": "包含'吃瓜群众'这个词组的句子"
+    },
+    {
+        "query": "去不到",
+        "description": "包含'去不到'这个短语的句子"
+    },
+    {
+        "query": "一腿",
+        "description": "包含'一腿'这个词组的句子"
+    },
+    {
+        "query": "分钟",
+        "description": "包含'分钟'这个词的句子"
+    },
+    {
+        "query": "和和美美",
+        "description": "包含'和和美美'这个词组的句子"
+    },
+    {
+        "query": "识羞",
+        "description": "包含'识羞'这个词组的句子"
+    },
+    {
+        "query": "申办",
+        "description": "包含'申办'这个词组的句子"
+    },
+    {
+        "query": "帅惨了",
+        "description": "包含'帅惨了'这个词组的句子"
+    },
+    {
+        "query": "除外",
+        "description": "包含'除外'这个词组的句子"
+    },
+    {
+        "query": "优异",
+        "description": "包含'优异'这个词的句子"
+    },
+    {
+        "query": "山地",
+        "description": "包含'山地'这个词的句子"
+    },
+    {
+        "query": "那样一来",
+        "description": "包含'那样一来'这个短语的句子"
+    },
+    {
+        "query": "深刻",
+        "description": "包含'深刻'这个词的句子"
+    },
+    {
+        "query": "性别",
+        "description": "包含'性别'这个词的句子"
+    },
+    {
+        "query": "空气质量",
+        "description": "包含'空气质量'这个词组的句子"
+    },
+    {
+        "query": "一边",
+        "description": "包含'一边'这个词组的句子"
+    },
+    {
+        "query": "面面",
+        "description": "包含'面面'这个词组的句子"
+    },
+    {
+        "query": "不应该不",
+        "description": "包含'不应该不'这个短语的句子"
+    },
+    {
+        "query": "并没",
+        "description": "包含'并没'这个词组的句子"
+    },
+    {
+        "query": "而后",
+        "description": "包含'而后'这个词组的句子"
+    },
+    {
+        "query": "集人权",
+        "description": "包含'集人权'这个词组的句子"
+    },
+    {
+        "query": "牧场",
+        "description": "包含'牧场'这个词的句子"
+    },
+    {
+        "query": "风清月白",
+        "description": "包含'风清月白'这个词组的句子"
+    }
+]
+```

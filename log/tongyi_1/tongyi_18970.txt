@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "(n), (n){end($1)!=[艹 是 抱]}",
+        "description": "两个相邻的名词，第二个名词后面不接艹、是或抱"
+    },
+    {
+        "query": "(nr) 崔 (v){len($1)!=3}",
+        "description": "人名崔后面接的不是一个长度为3的动词"
+    },
+    {
+        "query": "(r) 校 来说 (w){$1!=$2}",
+        "description": "校后面接的词不是来说"
+    },
+    {
+        "query": "vn 和 (vn){len($2)=2}",
+        "description": "两个相邻的动词，第二个动词是长度为2的词"
+    },
+    {
+        "query": "(a) 之{end($1)=[平 赌 衣 由]}",
+        "description": "形容词后面接的词以平、赌、衣或由结尾"
+    },
+    {
+        "query": "再 也/d 无法",
+        "description": "再后面接一个副词，再和无法形成连续表达"
+    },
+    {
+        "query": "是 (r) 意思{end($1)=[么 量 狗]}",
+        "description": "是后面接一个代词，代词后面接的意思不以么、量或狗结尾"
+    },
+    {
+        "query": "白山",
+        "description": "白山"
+    },
+    {
+        "query": "相聚 。/w",
+        "description": "相聚后面接句尾符号"
+    },
+    {
+        "query": "v 被 (v){len($1)=1; len($2)=2}",
+        "description": "动词被后面接一个长度为1的动词，再接一个长度为2的动词"
+    },
+    {
+        "query": "v 种 (n){len($2)=2}",
+        "description": "动词种后面接一个长度为2的名词"
+    },
+    {
+        "query": "(f) 对{len($1)=2}",
+        "description": "副词对后面接的词长度为2"
+    },
+    {
+        "query": "伟人 ~/[a v] 话续",
+        "description": "伟人后面接一个形容词或动词，再接一个词"
+    },
+    {
+        "query": "百年 (n){len($1)=2}",
+        "description": "百年后面接的名词长度为2"
+    },
+    {
+        "query": "(i) (v){$1!=$2}",
+        "description": "两个相邻的词，但不是同一个词"
+    },
+    {
+        "query": "以",
+        "description": "以"
+    },
+    {
+        "query": "的 (n){len($1)=2}",
+        "description": "的后面接的名词长度为2"
+    },
+    {
+        "query": "来到 ns 。",
+        "description": "来到后面接地名，然后是句尾符号"
+    },
+    {
+        "query": "v 他",
+        "description": "动词后面接代词他"
+    },
+    {
+        "query": "一 ../q 会",
+        "description": "一后面离合出现会"
+    },
+    {
+        "query": "(r) (v){len($2)!=2}",
+        "description": "代词后面接的动词不是长度为2的词"
+    },
+    {
+        "query": "...... 。",
+        "description": "省略号后面接句尾符号"
+    },
+    {
+        "query": ", ~ 人",
+        "description": "逗号后面接一个词"
+    },
+    {
+        "query": "@/[n v] 与",
+        "description": "与前面可以是名词或动词"
+    },
+    {
+        "query": "如是说 (w){count>4}",
+        "description": "如是说这个短语出现频次大于4次"
+    },
+    {
+        "query": "相知 ~/[v v] 友谊",
+        "description": "相知后面离合出现两个动词，再接友谊"
+    },
+    {
+        "query": "(m) (d){len($1)<3}",
+        "description": "两个相邻的词，第一个词长度小于3"
+    },
+    {
+        "query": "到位 ~/[d v] 不难",
+        "description": "到位后面离合出现一个动词或副词，再接不难"
+    },
+    {
+        "query": "(r) 不 愿 农转非 (w){len($1)!=3}",
+        "description": "不、愿、农转非这三个词不是连续的"
+    },
+    {
+        "query": "他们 (r) 不{len($1)!=3}",
+        "description": "他们后面接的不是长度为3的词"
+    },
+    {
+        "query": ", @/[d v] 盼",
+        "description": "逗号后面可以是副词或动词，再接盼"
+    },
+    {
+        "query": "开心 (u) 说{len($1)!=2}",
+        "description": "开心后面接一个语气词，但语气词不是长度为2的词"
+    },
+    {
+        "query": "v, 就 主要 靠 (n){count>3}",
+        "description": "动词、就、主要、靠四个词连续出现，且频次大于3"
+    },
+    {
+        "query": ", (nr) 很{begin($1)!=[每 恩 比 姨]}",
+        "description": "逗号后面接一个人名，人名不是每、恩、比或姨"
+    },
+    {
+        "query": "近 @",
+        "description": "近后面可以接任何词性"
+    },
+    {
+        "query": "抱怨 @/[w v]",
+        "description": "抱怨后面可以是形容词或动词"
+    },
+    {
+        "query": "大 (u) 阻力{count>9}",
+        "description": "大后面接一个语气词，阻力频次大于9"
+    },
+    {
+        "query": "一个样 ~/[w v]",
+        "description": "一个样后面离合出现一个词"
+    },
+    {
+        "query": "忙 u 一",
+        "description": "忙后面接一个语气词，再接一个字"
+    },
+    {
+        "query": "差距 ./d 缩小",
+        "description": "差距后面接一个词，词前可能有词边界符号"
+    }
+]
+```

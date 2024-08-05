@@ -1,0 +1,166 @@
+以下是将给定的检索式转换为带含义的json结构：
+
+```json
+[
+    {
+        "query": "、求和谐", 
+        "description":"包含'、求和谐'的句子"
+    },
+    {
+        "query": "张爸爸", 
+        "description":"包含'张爸爸'的句子"
+    },
+    {
+        "query": "故此", 
+        "description":"包含'故此'的句子"
+    },
+    {
+        "query": "。和谐", 
+        "description":"句尾包含'.和谐'的句子"
+    },
+    {
+        "query": "私营", 
+        "description":"包含'私营'的句子"
+    },
+    {
+        "query": "有点儿没", 
+        "description":"包含'有点儿没'的句子"
+    },
+    {
+        "query": "农民工", 
+        "description":"包含'农民工'的句子"
+    },
+    {
+        "query": "绝伦不", 
+        "description":"包含'绝伦不'的句子"
+    },
+    {
+        "query": "扶贫", 
+        "description":"包含'扶贫'的句子"
+    },
+    {
+        "query": "电动火车", 
+        "description":"包含'电动火车'的句子"
+    },
+    {
+        "query": "子", 
+        "description":"包含'子'的句子"
+    },
+    {
+        "query": "车辆保险", 
+        "description":"包含'车辆保险'的句子"
+    },
+    {
+        "query": "辩证和谐", 
+        "description":"包含'辩证和谐'的句子"
+    },
+    {
+        "query": "就是说", 
+        "description":"包含'就是说'的句子"
+    },
+    {
+        "query": "加快和谐", 
+        "description":"包含'加快和谐'的句子"
+    },
+    {
+        "query": "也许宁可", 
+        "description":"包含'也许宁可'的句子"
+    },
+    {
+        "query": "猪车", 
+        "description":"包含'猪车'的句子"
+    },
+    {
+        "query": "实在", 
+        "description":"包含'实在'的句子"
+    },
+    {
+        "query": "月下花前", 
+        "description":"包含'月下花前'的句子"
+    },
+    {
+        "query": "理论讲", 
+        "description":"包含'理论讲'的句子"
+    },
+    {
+        "query": "我朋友都", 
+        "description":"包含'我朋友都'的句子"
+    },
+    {
+        "query": "，当然。", 
+        "description":"句尾包含',当然。'的句子"
+    },
+    {
+        "query": "感受和谐", 
+        "description":"包含'感受和谐'的句子"
+    },
+    {
+        "query": "文艺不文艺", 
+        "description":"包含'文艺不文艺'的句子"
+    },
+    {
+        "query": "准不准确", 
+        "description":"包含'准不准确'的句子"
+    },
+    {
+        "query": "单独二胎", 
+        "description":"包含'单独二胎'的句子"
+    },
+    {
+        "query": "威慑", 
+        "description":"包含'威慑'的句子"
+    },
+    {
+        "query": "仿佛要", 
+        "description":"包含'仿佛要'的句子"
+    },
+    {
+        "query": "并不", 
+        "description":"包含'并不'的句子"
+    },
+    {
+        "query": "在那儿", 
+        "description":"包含'在那儿'的句子"
+    },
+    {
+        "query": "相信你自己", 
+        "description":"包含'相信你自己'的句子"
+    },
+    {
+        "query": "兔子", 
+        "description":"包含'兔子'的句子"
+    },
+    {
+        "query": "御姐控", 
+        "description":"包含'御姐控'的句子"
+    },
+    {
+        "query": "传人", 
+        "description":"包含'传人'的句子"
+    },
+    {
+        "query": "到什么时候", 
+        "description":"包含'到什么时候'的句子"
+    },
+    {
+        "query": "不是一点", 
+        "description":"包含'不是一点'的句子"
+    },
+    {
+        "query": "1", 
+        "description":"包含数字'1'的句子"
+    },
+    {
+        "query": "依照", 
+        "description":"包含'依照'的句子"
+    },
+    {
+        "query": "授", 
+        "description":"包含'授'的句子"
+    },
+    {
+        "query": "锦衣玉食", 
+        "description":"包含'锦衣玉食'的句子"
+    }
+]
+```

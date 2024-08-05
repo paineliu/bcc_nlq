@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "宾馆",
+        "description": "包含宾馆的句子"
+    },
+    {
+        "query": "一些儿",
+        "description": "包含一些儿的句子"
+    },
+    {
+        "query": "超级",
+        "description": "包含超级的句子"
+    },
+    {
+        "query": "倘",
+        "description": "包含倘的句子"
+    },
+    {
+        "query": "你没事吧",
+        "description": "包含你没事吧的句子"
+    },
+    {
+        "query": "脑",
+        "description": "包含脑的句子"
+    },
+    {
+        "query": "没怪",
+        "description": "包含没怪的句子"
+    },
+    {
+        "query": "应当和谐",
+        "description": "包含应当和谐的句子"
+    },
+    {
+        "query": "忽鲁谟斯",
+        "description": "包含忽鲁谟斯的句子"
+    },
+    {
+        "query": "说来说去",
+        "description": "包含说来说去的句子"
+    },
+    {
+        "query": "得很",
+        "description": "包含得很的句子"
+    },
+    {
+        "query": "和谐准确",
+        "description": "包含和谐准确的句子"
+    },
+    {
+        "query": "割破",
+        "description": "包含割破的句子"
+    },
+    {
+        "query": "三块",
+        "description": "包含三块的句子"
+    },
+    {
+        "query": "笑惨了",
+        "description": "包含笑惨了的句子"
+    },
+    {
+        "query": "明亮",
+        "description": "包含明亮的句子"
+    },
+    {
+        "query": "推",
+        "description": "包含推的句子"
+    },
+    {
+        "query": "消防喉",
+        "description": "包含消防喉的句子"
+    },
+    {
+        "query": "一阵",
+        "description": "包含一阵的句子"
+    },
+    {
+        "query": "这里是",
+        "description": "包含这里是的句子"
+    },
+    {
+        "query": "吸引",
+        "description": "包含吸引的句子"
+    },
+    {
+        "query": "“给”",
+        "description": "包含“给”的句子"
+    },
+    {
+        "query": "抑郁症",
+        "description": "包含抑郁症的句子"
+    },
+    {
+        "query": "赶将",
+        "description": "包含赶将的句子"
+    },
+    {
+        "query": "官联",
+        "description": "包含官联的句子"
+    },
+    {
+        "query": "高低",
+        "description": "包含高低的句子"
+    },
+    {
+        "query": "受用",
+        "description": "包含受用的句子"
+    },
+    {
+        "query": "不太可信",
+        "description": "包含不太可信的句子"
+    },
+    {
+        "query": "停下脚步来",
+        "description": "包含停下脚步来的句子"
+    },
+    {
+        "query": "卧底",
+        "description": "包含卧底的句子"
+    },
+    {
+        "query": "人文和谐",
+        "description": "包含人文和谐的句子"
+    },
+    {
+        "query": "凝聚和谐",
+        "description": "包含凝聚和谐的句子"
+    },
+    {
+        "query": "反复读",
+        "description": "包含反复读的句子"
+    },
+    {
+        "query": "耳根",
+        "description": "包含耳根的句子"
+    },
+    {
+        "query": "人权代",
+        "description": "包含人权代的句子"
+    },
+    {
+        "query": "静静",
+        "description": "包含静静的句子"
+    },
+    {
+        "query": "接着",
+        "description": "包含接着的句子"
+    },
+    {
+        "query": "欢乐",
+        "description": "包含欢乐的句子"
+    },
+    {
+        "query": "和谐一家",
+        "description": "包含和谐一家的句子"
+    },
+    {
+        "query": "归根到底",
+        "description": "包含归根到底的句子"
+    }
+]
+```

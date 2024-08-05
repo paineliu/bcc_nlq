@@ -1,0 +1,148 @@
+```json
+[
+    {
+        "query": "统统d+n[，+。]",
+        "description": "统统接名词，名词后可跟逗号或句点"
+    },
+    {
+        "query": "统统d n[， 。]",
+        "description": "统统接名词，名词后可跟逗号或句点"
+    },
+    {
+        "query": "衷心v+a[，+。]",
+        "description": "衷心接形容词，形容词后可跟逗号或句点"
+    },
+    {
+        "query": "衷心v a[， 。]",
+        "description": "衷心接形容词，形容词后可跟逗号或句点"
+    },
+    {
+        "query": "毫无v+a[，+。]",
+        "description": "毫无接形容词，形容词后可跟逗号或句点"
+    },
+    {
+        "query": "毫无v a[， 。]",
+        "description": "毫无接形容词，形容词后可跟逗号或句点"
+    },
+    {
+        "query": "[a+d+n+v+l]ÒÏv",
+        "description": "由形容词、动词、名词、形容词、动词组成的序列接动词ÒÏ"
+    },
+    {
+        "query": "[a d n v l]ÒÏv",
+        "description": "由形容词、动词、名词、动词组成的序列接动词ÒÏ"
+    },
+    {
+        "query": "w雄.雌[q+r+d+c+v+a++n+m++p]w",
+        "description": "w后面接雄和雌，中间有标点，雄和雌后面接由q、r、d、c、v、a、n、m、p组成的序列，整个序列后接w"
+    },
+    {
+        "query": "w雄.雌[q r d c v a  n m  p]w",
+        "description": "w后面接雄和雌，中间有标点，雄和雌后面接由q、r、d、c、v、a、n、m、p组成的序列，整个序列后接w"
+    },
+    {
+        "query": "至多v+u[，+。]",
+        "description": "至多接形容词，形容词后可跟逗号或句点"
+    },
+    {
+        "query": "至多v u[， 。]",
+        "description": "至多接形容词，形容词后可跟逗号或句点"
+    },
+    {
+        "query": "冒+[下+开+进]",
+        "description": "冒后面接下、开、进这三个词"
+    },
+    {
+        "query": "w[q+r+d+c+v+a++n+m++p]败.胜w",
+        "description": "w后面接由q、r、d、c、v、a、n、m、p组成的序列，中间有标点，序列后接败和胜，整个序列后接w"
+    },
+    {
+        "query": "w[q r d c v a  n m  p]败.胜w",
+        "description": "w后面接由q、r、d、c、v、a、n、m、p组成的序列，中间有标点，序列后接败和胜，整个序列后接w"
+    },
+    {
+        "query": "w[q+r+d+c+v+a++n+m++p]仆.主w",
+        "description": "w后面接由q、r、d、c、v、a、n、m、p组成的序列，中间有标点，序列后接仆和主，整个序列后接w"
+    },
+    {
+        "query": "w[q r d c v a  n m  p]仆.主w",
+        "description": "w后面接由q、r、d、c、v、a、n、m、p组成的序列，中间有标点，序列后接仆和主，整个序列后接w"
+    },
+    {
+        "query": "依偎在+n+[s+f+ns]",
+        "description": "依偎在后接名词，名词后接由s、f、ns组成的序列"
+    },
+    {
+        "query": "主要a[，+。]",
+        "description": "主要接形容词，形容词后可跟逗号或句点"
+    },
+    {
+        "query": "彻底v+n[，+。]",
+        "description": "彻底接名词，名词后可跟逗号或句点"
+    },
+    {
+        "query": "彻底v n[， 。]",
+        "description": "彻底接名词，名词后可跟逗号或句点"
+    },
+    {
+        "query": "马上v+n[，+。]",
+        "description": "马上接名词，名词后可跟逗号或句点"
+    },
+    {
+        "query": "马上v n[， 。]",
+        "description": "马上接名词，名词后可跟逗号或句点"
+    },
+    {
+        "query": "w得.失[q+r+d+c+v+a++n+m++p]w",
+        "description": "w后面接得和失，中间有标点，得和失后面接由q、r、d、c、v、a、n、m、p组成的序列，整个序列后接w"
+    },
+    {
+        "query": "w得.失[q r d c v a  n m  p]w",
+        "description": "w后面接得和失，中间有标点，得和失后面接由q、r、d、c、v、a、n、m、p组成的序列，整个序列后接w"
+    },
+    {
+        "query": "都没人v[，+。]",
+        "description": "都没人接动词，动词后可跟逗号或句点"
+    },
+    {
+        "query": "都没人v[， 。]",
+        "description": "都没人接动词，动词后可跟逗号或句点"
+    },
+    {
+        "query": "赶紧v[，+。]",
+        "description": "赶紧接动词，动词后可跟逗号或句点"
+    },
+    {
+        "query": "赶紧v[， 。]",
+        "description": "赶紧接动词，动词后可跟逗号或句点"
+    },
+    {
+        "query": "[进行+待+喘+重视+配+带来+吐]个",
+        "description": "由进行、待、喘、重视、配、带来、吐组成的序列接单个字符"
+    },
+    {
+        "query": "[进行 待 喘 重视 配 带来 吐]个",
+        "description": "由进行、待、喘、重视、配、带来、吐组成的序列接单个字符"
+    },
+    {
+        "query": "忽然[v+a+n+r][，+。]",
+        "description": "忽然接由动词、形容词、名词、形容词组成的序列，序列后可跟逗号或句点"
+    },
+    {
+        "query": "忽然[v a n r][， 。]",
+        "description": "忽然接由动词、形容词、名词、形容词组成的序列，序列后可跟逗号或句点"
+    },
+    {
+        "query": "多么v+n[，+。]",
+        "description": "多么接名词，名词后可跟逗号或句点"
+    },
+    {
+        "query": "多么v n[， 。]",
+        "description": "多么接名词，名词后可跟逗号或句点"
+    },
+    {
+        "query": "s[有+是+在]n。",
+        "description": "由有、是、在组成的序列接名词，序列后紧跟句点"
+    }
+]
+```

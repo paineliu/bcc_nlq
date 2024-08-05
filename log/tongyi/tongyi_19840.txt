@@ -1,0 +1,162 @@
+以下是将提供的检索式转换为带含义的json结构后的完整列表：
+
+```json
+[
+    {
+        "query": "触犯 法律/n ？",
+        "description": "触犯法律后，问号结尾的句子"
+    },
+    {
+        "query": "：/w+你+为啥+到+哪儿/r",
+        "description": "冒号后接你，为啥，再到哪儿的句子"
+    },
+    {
+        "query": "：/w 你 为啥 到 哪儿/r",
+        "description": "冒号后接你，为啥，到，哪儿的句子"
+    },
+    {
+        "query": "做+主粮/n+？",
+        "description": "做主粮后，问号结尾的句子"
+    },
+    {
+        "query": "做 主粮/n ？",
+        "description": "做主粮后，问号结尾的句子"
+    },
+    {
+        "query": "让+中国/ns+律师",
+        "description": "让中国后接律师的句子"
+    },
+    {
+        "query": "让 中国/ns 律师",
+        "description": "让中国后接律师的句子"
+    },
+    {
+        "query": "爱心/n*a",
+        "description": "爱心后接一个词的句子"
+    },
+    {
+        "query": "出力+。/w",
+        "description": "出力后，句尾为句点的句子"
+    },
+    {
+        "query": "出力 。/w",
+        "description": "出力后，句尾为句点的句子"
+    },
+    {
+        "query": "建+起/v+首",
+        "description": "建起后接首的句子"
+    },
+    {
+        "query": "建 起/v 首",
+        "description": "建起后接首的句子"
+    },
+    {
+        "query": "受+洋罪/n+！",
+        "description": "受洋罪后，感叹号结尾的句子"
+    },
+    {
+        "query": "受 洋罪/n ！",
+        "description": "受洋罪后，感叹号结尾的句子"
+    },
+    {
+        "query": "一+条/q+协力",
+        "description": "一后接条，协力的句子"
+    },
+    {
+        "query": "一 条/q 协力",
+        "description": "一后接条，协力的句子"
+    },
+    {
+        "query": "推/v+../n+",
+        "description": "推后接../n+的句子"
+    },
+    {
+        "query": "推/v ../n ",
+        "description": "推后接../n+的句子"
+    },
+    {
+        "query": " ../v就是了",
+        "description": "就是了后接../v的句子"
+    },
+    {
+        "query": "理解/v",
+        "description": "理解的句子"
+    },
+    {
+        "query": "a+感情/n",
+        "description": "a后接感情的句子"
+    },
+    {
+        "query": "能否+得到/v+监管",
+        "description": "能否后接得到监管的句子"
+    },
+    {
+        "query": "能否 得到/v 监管",
+        "description": "能否后接得到监管的句子"
+    },
+    {
+        "query": "把*一+./v",
+        "description": "把一后接./v的句子"
+    },
+    {
+        "query": "把*一 ./v",
+        "description": "把一后接./v的句子"
+    },
+    {
+        "query": "及+人才/n+。",
+        "description": "及后接人才，句尾为句点的句子"
+    },
+    {
+        "query": "及 人才/n 。",
+        "description": "及后接人才，句尾为句点的句子"
+    },
+    {
+        "query": "瓶颈+。/w",
+        "description": "瓶颈后，句尾为句点的句子"
+    },
+    {
+        "query": "瓶颈 。/w",
+        "description": "瓶颈后，句尾为句点的句子"
+    },
+    {
+        "query": "犯罪+早已/d+不是",
+        "description": "犯罪早已不是的句子"
+    },
+    {
+        "query": "犯罪 早已/d 不是",
+        "description": "犯罪早已不是的句子"
+    },
+    {
+        "query": "n+的+爱情/n",
+        "description": "n后接的，爱情的句子"
+    },
+    {
+        "query": "n 的 爱情/n",
+        "description": "n后接的，爱情的句子"
+    },
+    {
+        "query": "a+热情/a",
+        "description": "a后接热情的句子"
+    },
+    {
+        "query": "a 热情/a",
+        "description": "a后接热情的句子"
+    },
+    {
+        "query": "n+热气/n",
+        "description": "n后接热气的句子"
+    },
+    {
+        "query": "n 热气/n",
+        "description": "n后接热气的句子"
+    },
+    {
+        "query": "张建林/nr+感慨",
+        "description": "张建林后接感慨的句子"
+    },
+    {
+        "query": "张建林/nr 感慨",
+        "description": "张建林后接感慨的句子"
+    }
+]
+```

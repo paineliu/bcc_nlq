@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "积极+[v+p+地]", 
+        "description":"积极 + 动词 + 副词 + 地"
+    },
+    {
+        "query": "积极 [v p 地]", 
+        "description":"积极 + 动词 + 副词 + 地"
+    },
+    {
+        "query": "往r+f+v[，+。]", 
+        "description":"往 + 方位词 + 动词 + , 或 ."
+    },
+    {
+        "query": "往r f v[， 。]", 
+        "description":"往 + 方位词 + 动词 + , 或 ."
+    },
+    {
+        "query": "从宏观上[说+讲]", 
+        "description":"从宏观上 + 说 + 讲"
+    },
+    {
+        "query": "从宏观上[说 讲]", 
+        "description":"从宏观上 + 说 + 讲"
+    },
+    {
+        "query": "w[q+r+d+c+v+a++n+m++p]守.攻w", 
+        "description":"w + 词性组合 + 守.攻 + w"
+    },
+    {
+        "query": "w[q r d c v a  n m  p]守.攻w", 
+        "description":"w + 词性组合 + 守.攻 + w"
+    },
+    {
+        "query": "外d+v[，+。]", 
+        "description":"外 + 动词 + , 或 ."
+    },
+    {
+        "query": "外d v[， 。]", 
+        "description":"外 + 动词 + , 或 ."
+    },
+    {
+        "query": "起码v[v+a+n+r][，+。]", 
+        "description":"起码 + 动词 + 副词 + 名词 + 副词 + , 或 ."
+    },
+    {
+        "query": "起码v[v a n r][， 。]", 
+        "description":"起码 + 动词 + 副词 + 名词 + 副词 + , 或 ."
+    },
+    {
+        "query": "真正v+a[，+。]", 
+        "description":"真正 + 动词 + , 或 ."
+    },
+    {
+        "query": "真正v a[， 。]", 
+        "description":"真正 + 动词 + , 或 ."
+    },
+    {
+        "query": "[一旦+一道+一定]v[q+m+]n[，+。]", 
+        "description":"一旦 + 一道 + 一定 + 动词 + 名词 + , 或 ."
+    },
+    {
+        "query": "[一旦 一道 一定]v[q m ]n[， 。]", 
+        "description":"一旦 + 一道 + 一定 + 动词 + 名词 + , 或 ."
+    },
+    {
+        "query": "[v+a]坏了", 
+        "description":"动词 + 副词 + 坏了"
+    },
+    {
+        "query": "[v a]坏了", 
+        "description":"动词 + 副词 + 坏了"
+    },
+    {
+        "query": "p+他+a[，+。]", 
+        "description":"p + 代词 + 他 + 副词 + , 或 ."
+    },
+    {
+        "query": "p 他 a[， 。]", 
+        "description":"p + 代词 + 他 + 副词 + , 或 ."
+    },
+    {
+        "query": "直到v+v[，+。]", 
+        "description":"直到 + 动词 + 动词 + , 或 ."
+    },
+    {
+        "query": "直到v v[， 。]", 
+        "description":"直到 + 动词 + 动词 + , 或 ."
+    },
+    {
+        "query": "d能v+a[，+。]", 
+        "description":"d + 动词 + 能 + 副词 + 名词 + , 或 ."
+    },
+    {
+        "query": "d能v a[， 。]", 
+        "description":"d + 动词 + 能 + 副词 + 名词 + , 或 ."
+    },
+    {
+        "query": "v了v+n[，+。]", 
+        "description":"动词 + 了 + 动词 + 名词 + , 或 ."
+    },
+    {
+        "query": "v了v n[， 。]", 
+        "description":"动词 + 了 + 动词 + 名词 + , 或 ."
+    },
+    {
+        "query": "同期d+v[，+。]", 
+        "description":"同期 + 动词 + , 或 ."
+    },
+    {
+        "query": "同期d v[， 。]", 
+        "description":"同期 + 动词 + , 或 ."
+    },
+    {
+        "query": "[非常+分别+分批]v[q+m+]n[，+。]", 
+        "description":"非常 + 分别 + 分批 + 动词 + 名词 + , 或 ."
+    },
+    {
+        "query": "[非常 分别 分批]v[q m ]n[， 。]", 
+        "description":"非常 + 分别 + 分批 + 动词 + 名词 + , 或 ."
+    },
+    {
+        "query": "不必v+y[，+。]", 
+        "description":"不必 + 动词 + 年 + , 或 ."
+    },
+    {
+        "query": "不必v y[， 。]", 
+        "description":"不必 + 动词 + 年 + , 或 ."
+    },
+    {
+        "query": "[s+t]借来n", 
+        "description":"s + t 组合 + 借来 + 名词"
+    },
+    {
+        "query": "[s t]借来n", 
+        "description":"s + t 组合 + 借来 + 名词"
+    },
+    {
+        "query": "一度d+n[，+。]", 
+        "description":"一度 + 动词 + 名词 + , 或 ."
+    },
+    {
+        "query": "一度d n[， 。]", 
+        "description":"一度 + 动词 + 名词 + , 或 ."
+    },
+    {
+        "query": "初步v[v+a+n+r][，+。]", 
+        "description":"初步 + 动词 + 副词 + 名词 + 副词 + , 或 ."
+    },
+    {
+        "query": "初步v[v a n r][， 。]", 
+        "description":"初步 + 动词 + 副词 + 名词 + 副词 + , 或 ."
+    },
+    {
+        "query": "以便v[v+a+n+r][，+。]", 
+        "description":"以便 + 动词 + 副词 + 名词 + 副词 + , 或 ."
+    },
+    {
+        "query": "以便v[v a n r][， 。]", 
+        "description":"以便 + 动词 + 副词 + 名词 + 副词 + , 或 ."
+    }
+]
+```

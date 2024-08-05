@@ -1,0 +1,167 @@
+以下是将给定的检索式转换为带含义的JSON结构的结果：
+
+```json
+[
+    {
+        "query": "不都v了",
+        "description": "动词后接不都，再接动词"
+    },
+    {
+        "query": "a参与",
+        "description": "形容词后接参与"
+    },
+    {
+        "query": "v黑",
+        "description": "动词后接黑"
+    },
+    {
+        "query": "喜爱n",
+        "description": "动词后接名词"
+    },
+    {
+        "query": "v一副",
+        "description": "动词后接一副"
+    },
+    {
+        "query": "a的手指",
+        "description": "形容词后接的手指"
+    },
+    {
+        "query": "把N灌",
+        "description": "介词后接N，再接动词灌"
+    },
+    {
+        "query": "a优越",
+        "description": "形容词后接优越"
+    },
+    {
+        "query": "感情a",
+        "description": "形容词后接感情"
+    },
+    {
+        "query": "a里a气",
+        "description": "形容词后接里，再接形容词气"
+    },
+    {
+        "query": "a的",
+        "description": "形容词后接的"
+    },
+    {
+        "query": "数字n",
+        "description": "名词后接数字"
+    },
+    {
+        "query": "n刀",
+        "description": "名词后接刀"
+    },
+    {
+        "query": "a劝告",
+        "description": "形容词后接劝告"
+    },
+    {
+        "query": "m撮",
+        "description": "名语素后接撮"
+    },
+    {
+        "query": "a乐队",
+        "description": "形容词后接乐队"
+    },
+    {
+        "query": "情况a",
+        "description": "形容词后接情况"
+    },
+    {
+        "query": "容易v了n",
+        "description": "动词后接容易，再接了，再接名词"
+    },
+    {
+        "query": "v状况",
+        "description": "动词后接状况"
+    },
+    {
+        "query": "V也不V",
+        "description": "动词后接也不，再接动词"
+    },
+    {
+        "query": "m+个+t",
+        "description": "名语素后接个，再接t"
+    },
+    {
+        "query": "m 个 t",
+        "description": "名语素后接个，再接t"
+    },
+    {
+        "query": "把+N+V+N",
+        "description": "介词后接N，再接动词，再接N"
+    },
+    {
+        "query": "把 N V N",
+        "description": "介词后接N，再接动词，再接N"
+    },
+    {
+        "query": "那后m+q+n",
+        "description": "后接m，再接量词，再接名词"
+    },
+    {
+        "query": "那后m q n",
+        "description": "后接m，再接量词，再接名词"
+    },
+    {
+        "query": "v一致",
+        "description": "动词后接一致"
+    },
+    {
+        "query": "w+特别a的是+w",
+        "description": "标点后接特别，再接形容词，再接的是，再接标点"
+    },
+    {
+        "query": "w 特别a的是 w",
+        "description": "标点后接特别，再接形容词，再接的是，再接标点"
+    },
+    {
+        "query": "a别扭",
+        "description": "形容词后接别扭"
+    },
+    {
+        "query": "更a+n",
+        "description": "副词后接a，再接名词"
+    },
+    {
+        "query": "更a n",
+        "description": "副词后接a，再接名词"
+    },
+    {
+        "query": "n以免",
+        "description": "名词后接以免"
+    },
+    {
+        "query": "三位一体n",
+        "description": "名词后接三位一体"
+    },
+    {
+        "query": "还+v",
+        "description": "副词后接动词"
+    },
+    {
+        "query": "还 v",
+        "description": "副词后接动词"
+    },
+    {
+        "query": "p经历",
+        "description": "标点后接经历"
+    },
+    {
+        "query": "m丸",
+        "description": "名语素后接丸"
+    },
+    {
+        "query": "a可口",
+        "description": "形容词后接可口"
+    },
+    {
+        "query": "恐怖V上",
+        "description": "动语素后接恐怖，再接动词"
+    }
+]
+```
+这个JSON数组包含了每个检索式及其对应的描述。

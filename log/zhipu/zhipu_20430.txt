@@ -1,0 +1,88 @@
+以下是您提供的检索式转换为带含义的JSON结构：
+
+```json
+[
+  {
+    "query": "坚持 (n) 一致{len($1)<3}",
+    "description": "坚持 + 名词且名词长度小于3 + 一致"
+  },
+  {
+    "query": "坚持/v 协调 创新/v",
+    "description": "坚持作为动词 + 协调 + 创新作为动词"
+  },
+  {
+    "query": "目标",
+    "description": "包含目标的句子"
+  },
+  {
+    "query": "、 ../v 管理",
+    "description": "顿号后接二字动词 + 管理"
+  },
+  {
+    "query": "(m) 匡定{len($1)!=2}",
+    "description": "数词 + 匡定且数词长度不等于2"
+  },
+  {
+    "query": "明确 (vn) 部门{end($1)=[管 月 厚]}",
+    "description": "明确 + 动名词且以管、月、厚结尾 + 部门"
+  },
+  {
+    "query": "(n) (w){len($1)!=3}",
+    "description": "名词 + 标点符号且名词长度不等于3"
+  },
+  {
+    "query": "综合 (vn) 。{begin($1)=[执 声 想]}",
+    "description": "综合 + 动名词且以执、声、想开始 + 句号"
+  },
+  {
+    "query": "重心 .",
+    "description": "包含重心和一个句号的句子"
+  },
+  {
+    "query": "、 强化/v 队伍",
+    "description": "顿号后接强化作为动词 + 队伍"
+  },
+  {
+    "query": "力量 @",
+    "description": "力量后接一个词，该词在统计时按词性归并"
+  },
+  {
+    "query": "十 (v) 队伍{count<990}",
+    "description": "十后接动词 + 队伍，且实例频次小于990"
+  },
+  {
+    "query": "培养 @/[w v]",
+    "description": "培养后接一个词，该词以标点或动词开始"
+  },
+  {
+    "query": "(vn) (n){end($2)!=[查 这]}",
+    "description": "动名词 + 名词且名词不以查、这结尾"
+  },
+  {
+    "query": "十二 (v) 协管{len($1)=2}",
+    "description": "十二后接动词长度为2 + 协管"
+  },
+  {
+    "query": "提高",
+    "description": "包含提高的句子"
+  },
+  {
+    "query": "(m) 制定 权责 (n){len($2)=2}",
+    "description": "数词 + 制定 + 权责 + 名词且名词长度为2"
+  },
+  {
+    "query": "(vn) 制度 (w){begin($1)=[执 接 和]}",
+    "description": "动名词以执、接、和开始 + 制度 + 标点符号"
+  },
+  {
+    "query": "改进/v 执法/vn",
+    "description": "改进作为动词 + 执法作为动名词"
+  },
+  {
+    "query": "十六 ~ 监督",
+    "description": "十六后接一个词 + 监督"
+  }
+]
+```
+
+以上JSON结构完整地描述了每一个检索式的含义。

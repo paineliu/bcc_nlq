@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "不住v+y[，+。]",
+        "description": "不住动词后，接y（语气词），后面可跟逗号或句号"
+    },
+    {
+        "query": "不住v y[， 。]",
+        "description": "不住动词后，直接接y（语气词），后面可跟逗号或句号"
+    },
+    {
+        "query": "似乎a[，+。]",
+        "description": "似乎形容词后，后面可跟逗号或句号"
+    },
+    {
+        "query": "似乎a[， 。]",
+        "description": "似乎形容词后，后面可跟逗号或句号"
+    },
+    {
+        "query": "最初v+u[，+。]",
+        "description": "最初动词后，接u（副词），后面可跟逗号或句号"
+    },
+    {
+        "query": "最初v u[， 。]",
+        "description": "最初动词后，直接接u（副词），后面可跟逗号或句号"
+    },
+    {
+        "query": "自动v[，+。]",
+        "description": "自动动词后，后面可跟逗号或句号"
+    },
+    {
+        "query": "自动v[， 。]",
+        "description": "自动动词后，后面可跟逗号或句号"
+    },
+    {
+        "query": "w呼.吸[q+r+d+c+v+a++n+m++p]w",
+        "description": "w呼后接一系列词，包括q、r、d、c、v、a、n、m、p，之后是w"
+    },
+    {
+        "query": "w呼.吸[q r d c v a  n m  p]w",
+        "description": "w呼后接一系列词，包括q、r、d、c、v、a、n、m、p，之后是w"
+    },
+    {
+        "query": "一向v+v[，+。]",
+        "description": "一向动词后，接另一个同形式的动词，后面可跟逗号或句号"
+    },
+    {
+        "query": "一向v v[， 。]",
+        "description": "一向动词后，接另一个同形式的动词，后面可跟逗号或句号"
+    },
+    {
+        "query": "w[q+r+d+c+v+a++n+m++p]贱.贵w",
+        "description": "w前接一系列词，包括q、r、d、c、v、a、n、m、p，之后是贱.贵，再接w"
+    },
+    {
+        "query": "w[q r d c v a  n m  p]贱.贵w",
+        "description": "w前接一系列词，包括q、r、d、c、v、a、n、m、p，之后是贱.贵，再接w"
+    },
+    {
+        "query": "[，+。]c+u+v+[，+。]",
+        "description": "逗号或句号后接c、u、v，之后可再接逗号或句号"
+    },
+    {
+        "query": "[， 。]c u v [， 。]",
+        "description": "逗号或句号后接c、u、v，之后可再接逗号或句号"
+    },
+    {
+        "query": "私自a[，+。]",
+        "description": "私自形容词后，后面可跟逗号或句号"
+    },
+    {
+        "query": "私自a[， 。]",
+        "description": "私自形容词后，后面可跟逗号或句号"
+    },
+    {
+        "query": "原来n[，+。]",
+        "description": "原来名词后，后面可跟逗号或句号"
+    },
+    {
+        "query": "原来n[， 。]",
+        "description": "原来名词后，后面可跟逗号或句号"
+    },
+    {
+        "query": "日夜v[v+a+n+r][，+。]",
+        "description": "日夜动词后，接v、a、n、r，之后可跟逗号或句号"
+    },
+    {
+        "query": "日夜v[v a n r][， 。]",
+        "description": "日夜动词后，接v、a、n、r，之后可跟逗号或句号"
+    },
+    {
+        "query": "大约n[，+。]",
+        "description": "大约名词后，后面可跟逗号或句号"
+    },
+    {
+        "query": "大约n[， 。]",
+        "description": "大约名词后，后面可跟逗号或句号"
+    },
+    {
+        "query": "逐年n[，+。]",
+        "description": "逐年名词后，后面可跟逗号或句号"
+    },
+    {
+        "query": "逐年n[， 。]",
+        "description": "逐年名词后，后面可跟逗号或句号"
+    },
+    {
+        "query": "时常v+n[，+。]",
+        "description": "时常动词后，接n（名词），之后可跟逗号或句号"
+    },
+    {
+        "query": "时常v n[， 。]",
+        "description": "时常动词后，接n（名词），之后可跟逗号或句号"
+    },
+    {
+        "query": "一旦v+u[，+。]",
+        "description": "一旦动词后，接u（副词），之后可跟逗号或句号"
+    },
+    {
+        "query": "一旦v u[， 。]",
+        "description": "一旦动词后，接u（副词），之后可跟逗号或句号"
+    },
+    {
+        "query": "似乎d+n[，+。]",
+        "description": "似乎副词后，接n（名词），之后可跟逗号或句号"
+    },
+    {
+        "query": "似乎d n[， 。]",
+        "description": "似乎副词后，接n（名词），之后可跟逗号或句号"
+    },
+    {
+        "query": "无疑[v+a+n+r][，+。]",
+        "description": "无疑动词后，接v、a、n、r，之后可跟逗号或句号"
+    },
+    {
+        "query": "无疑[v a n r][， 。]",
+        "description": "无疑动词后，接v、a、n、r，之后可跟逗号或句号"
+    },
+    {
+        "query": "一旦v+a[，+。]",
+        "description": "一旦动词后，接a（副词），之后可跟逗号或句号"
+    },
+    {
+        "query": "一旦v a[， 。]",
+        "description": "一旦动词后，接a（副词），之后可跟逗号或句号"
+    },
+    {
+        "query": "并排v+u[，+。]",
+        "description": "并排动词后，接u（副词），之后可跟逗号或句号"
+    },
+    {
+        "query": "并排v u[， 。]",
+        "description": "并排动词后，接u（副词），之后可跟逗号或句号"
+    },
+    {
+        "query": "附带v[，+。]",
+        "description": "附带动词后，后面可跟逗号或句号"
+    },
+    {
+        "query": "附带v[， 。]",
+        "description": "附带动词后，后面可跟逗号或句号"
+    }
+]
+```

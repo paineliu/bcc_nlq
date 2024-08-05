@@ -1,0 +1,166 @@
+以下是转换后的检索式及其含义的JSON结构：
+
+```json
+[
+    {
+        "query": "有", 
+        "description": "包含有"
+    },
+    {
+        "query": "基本 稳定/vn 。", 
+        "description": "基本 + 稳定的动名词 + 句尾符号"
+    },
+    {
+        "query": ". 道伟 .", 
+        "description": "句尾的两个字符: 道伟"
+    },
+    {
+        "query": "省 u 点", 
+        "description": "省 + 介词 + 字母"
+    },
+    {
+        "query": "(nr) (v){len($2)!=2}", 
+        "description": "名词后面接一个非长度为2的动词"
+    },
+    {
+        "query": "(v) 增持续 扩围 ， 企业 (d){len($1)=2}", 
+        "description": "动词后面连续的两个字，然后是逗号，企业 + 副词，副词长度为2"
+    },
+    {
+        "query": "../nr 分析 ./v", 
+        "description": "双音节名词后面接分析，然后是动词"
+    },
+    {
+        "query": "打算 (nz) 观潮{len($1)!=3}", 
+        "description": "打算 + 特殊专名，但不包含长度为3的内容"
+    },
+    {
+        "query": "得 ./[a v] ？", 
+        "description": "得到，后面接形容词或动词，可能带有问号"
+    },
+    {
+        "query": "利率 (v) 低{len($1)>1}", 
+        "description": "利率 + 动词，动词长度大于1"
+    },
+    {
+        "query": "(v) 银行 什么样 (w){begin($1)!=[越 婚 呵]}", 
+        "description": "动词 + 银行 + 形容词或动词，且不以越、婚、呵开头"
+    },
+    {
+        "query": "什么", 
+        "description": "包含什么"
+    },
+    {
+        "query": "资金 (vn) 监管{len($1)=2}", 
+        "description": "资金 + 名动词，监管，动词长度为2"
+    },
+    {
+        "query": "铁路 @ 市场", 
+        "description": "铁路 + 语气词，后接市场"
+    },
+    {
+        "query": "走 .. 至少", 
+        "description": "走 + 两个或以上字符，后面至少接一个字"
+    },
+    {
+        "query": "转 v 铁路", 
+        "description": "转 + 动词，后面接铁路"
+    },
+    {
+        "query": "资本 ./u 敲门砖", 
+        "description": "资本 + 介词，后接敲门砖"
+    },
+    {
+        "query": "还 (v) 两手{len($1)!=2}", 
+        "description": "还 + 动词，但动词长度不为2"
+    },
+    {
+        "query": "是 ~/[vn v] 方式", 
+        "description": "是 + 后面接一个词，可能是动词或名词"
+    },
+    {
+        "query": "、 (a) 。{count<461}", 
+        "description": "顿号 + 形容词 + 句尾符号，出现次数少于461次"
+    },
+    {
+        "query": "题图 ../[v v] ：", 
+        "description": "题图 + 后面接双音节动词，然后是冒号"
+    },
+    {
+        "query": "真的 d 放", 
+        "description": "真的 + 副词，放"
+    },
+    {
+        "query": "市场 (n) 的{len($1)=2}", 
+        "description": "市场 + 名词，的，名词长度为2"
+    },
+    {
+        "query": "企业 (n){count<547}", 
+        "description": "企业 + 名词，出现次数少于547次"
+    },
+    {
+        "query": "(ns) (n){len($1)>2; len($2)=2}", 
+        "description": "两个地名，第一个地名长度大于2，第二个地名长度为2"
+    },
+    {
+        "query": "(v) 压东{count<675}", 
+        "description": "动词 + 压东，出现次数少于675次"
+    },
+    {
+        "query": "山东 蓝色/n 经济区", 
+        "description": "山东 + 蓝色 + 名词，经济区"
+    },
+    {
+        "query": "刘 @ 王勇钢", 
+        "description": "刘 + 语气词，后接王勇钢"
+    },
+    {
+        "query": "(vn) 动力{begin($1)!=[雪 嫌 凯 接]}", 
+        "description": "名动词 + 动力，不以雪、嫌、凯、接开头"
+    },
+    {
+        "query": "为 @ 安全", 
+        "description": "为 + 语气词，后接安全"
+    },
+    {
+        "query": "更 (a){len($1)!=3}", 
+        "description": "更 + 形容词，形容词长度不为3"
+    },
+    {
+        "query": "再生 (n) 曙光{len($1)<3}", 
+        "description": "再生 + 名词，曙光，名词长度小于3"
+    },
+    {
+        "query": "(c) 坚持{len($1)<3}", 
+        "description": "副词 + 坚持，坚持的副词长度小于3"
+    },
+    {
+        "query": "医学 (n){count<445}", 
+        "description": "医学 + 名词，出现次数少于445次"
+    },
+    {
+        "query": "./nr 沫涵 .../nr", 
+        "description": "单音节名词 + 沫涵 + 任意字符..."
+    },
+    {
+        "query": "告别 (n){end($1)=[冷 便 县 一]}", 
+        "description": "告别 + 名词，名词结尾是冷、便、县或一"
+    },
+    {
+        "query": "机器人 (d) 会{count<998}", 
+        "description": "机器人 + 副词，会，出现次数少于998次"
+    },
+    {
+        "query": "依然 看空/v 油价", 
+        "description": "依然 + 动词看空，后面接油价"
+    },
+    {
+        "query": "地区 宣布/v 停火", 
+        "description": "地区 + 动词宣布，后面接停火"
+    },
+    {
+        "query": "埃及/ns 总统 塞西 访问/v", 
+        "description": "埃及/ns + 名词总统 + 塞西 + 动词访问"
+    }
+]
+```

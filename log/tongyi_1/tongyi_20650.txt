@@ -1,0 +1,160 @@
+```json
+[
+    {
+        "query": "~ 市民", 
+        "description": "市民前后有一个词"
+    },
+    {
+        "query": "朋友 (nr) 毕业{end($1)!=[徐 能 将 开]}", 
+        "description": "朋友后面跟着毕业，但不接徐、能、将或开"
+    },
+    {
+        "query": "， ~ 本", 
+        "description": "逗号后面紧接着一个词"
+    },
+    {
+        "query": "开办 ./v 沧州", 
+        "description": "以开办开头的动词后面接沧州"
+    },
+    {
+        "query": "..../[l v]", 
+        "description": "连续的两个词，其中一个词是名形词，另一个是动词"
+    },
+    {
+        "query": "全国 (j) 机关{end($1)=[协 紧 丽 意]}", 
+        "description": "全国后面接机关，但不接协、紧、丽或意"
+    },
+    {
+        "query": "~ 带头", 
+        "description": "带头前后有一个词"
+    },
+    {
+        "query": "推进", 
+        "description": "推进是一个完整的词"
+    },
+    {
+        "query": "管 ~/[n v] 治", 
+        "description": "管后面离合出现一个名词或动词，再接治"
+    },
+    {
+        "query": "党纪 ../[v v]", 
+        "description": "党纪后面接两个动词"
+    },
+    {
+        "query": "机关 ../[n v]", 
+        "description": "机关后面接名词或动词"
+    },
+    {
+        "query": "完善 ~ 廉政", 
+        "description": "完善前后有一个词，词后接廉政"
+    },
+    {
+        "query": "(n) 姓 党 (v){end($1)!=[野 停]; len($2)>1}", 
+        "description": "姓后面接党，党后面接一个长度大于1的词，且不接野或停"
+    },
+    {
+        "query": "中央 (n) 机关{len($1)=2}", 
+        "description": "中央后面接一个长度为2的名词，表示中央机关"
+    },
+    {
+        "query": "(m) 是 加大 (s){$1=$2}", 
+        "description": "是和加大这两个词内容相同"
+    },
+    {
+        "query": "二 v 推动", 
+        "description": "二后面接一个动词"
+    },
+    {
+        "query": "~/[m v] 是", 
+        "description": "一个介词或副词后面接一个词，词后接是"
+    },
+    {
+        "query": "认真", 
+        "description": "认真是一个完整的词"
+    },
+    {
+        "query": "学 @/[v v] 透", 
+        "description": "学后面接一个动词和透，且动词和透按词性统计"
+    },
+    {
+        "query": "机关 (n){end($1)=[委 骚 夏 认]}", 
+        "description": "机关后面接名词，但不接委、骚、夏或认"
+    },
+    {
+        "query": "严守 ../[n v] 法规", 
+        "description": "严守后面接一个名词或动词，再接法规"
+    },
+    {
+        "query": "(v) 崇高{count<440}", 
+        "description": "崇高这个词的频次小于440"
+    },
+    {
+        "query": "中国 n 直属机关", 
+        "description": "中国后面接名词直属机关"
+    },
+    {
+        "query": "创业 (y) !{len($1)=1}", 
+        "description": "创业是一个感叹词，且长度不为1"
+    },
+    {
+        "query": "武汉 ~/[n v] 党委", 
+        "description": "武汉后面离合出现一个名词或动词，再接党委"
+    },
+    {
+        "query": "就业 (vn) 体系{begin($1)!=[输 好]}", 
+        "description": "就业后面接动名词体系，但体系不是由输或好开头"
+    },
+    {
+        "query": "就业 @/[a v] 同时", 
+        "description": "就业后面接形容词或动词，且同时是句尾"
+    },
+    {
+        "query": ", @/[v v] 高校", 
+        "description": "逗号后面接一个动词或动词，高校是句尾"
+    },
+    {
+        "query": "冒名 煲鸡/n 汤", 
+        "description": "冒名后面接煲鸡，煲鸡后面接名词汤"
+    },
+    {
+        "query": "不得不 @/[v v] 。", 
+        "description": "不得不后面接一个动词，句尾是句号"
+    },
+    {
+        "query": "不是 ../[n v] 辣评", 
+        "description": "不是后面接一个名词或动词，再接辣评"
+    },
+    {
+        "query": "孔院 d 观察", 
+        "description": "孔院后面接一个副形词观察"
+    },
+    {
+        "query": "孔院 .. 院长", 
+        "description": "孔院后面跟一个词，可能是院长"
+    },
+    {
+        "query": "嘉宾 ./w", 
+        "description": "嘉宾是一个标点符号"
+    },
+    {
+        "query": "网络 (n) ，{len($1)<3}", 
+        "description": "网络后面接一个长度小于3的名词，且后面是逗号"
+    },
+    {
+        "query": "(d) 好 地 (v){count>9}", 
+        "description": "好和地这两个词内容相同，且频次大于9"
+    },
+    {
+        "query": "服务", 
+        "description": "服务是一个完整的词"
+    },
+    {
+        "query": "被 (v) 的{middle($1)!=[闹 抄]}", 
+        "description": "被后面接一个动词，动词中间不接闹或抄"
+    },
+    {
+        "query": "理解 @/[v v] 的", 
+        "description": "理解后面接一个动词或动词，且的按词性统计"
+    }
+]
+```

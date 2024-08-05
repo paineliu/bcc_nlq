@@ -1,0 +1,160 @@
+```json
+[
+    {
+        "query": "v n的n",
+        "description": "动词后接名词，名词后接形容词"
+    },
+    {
+        "query": "a于人",
+        "description": "形容词后接介词，介词后接名词"
+    },
+    {
+        "query": "V住",
+        "description": "动词后接住"
+    },
+    {
+        "query": "被人v了",
+        "description": "名词后接动词，动词后接了"
+    },
+    {
+        "query": "a变革",
+        "description": "形容词后接名词"
+    },
+    {
+        "query": "，+n是n+，",
+        "description": "逗号后接名词，名词后接是，是后接名词"
+    },
+    {
+        "query": "好v",
+        "description": "形容词后接动词"
+    },
+    {
+        "query": "不都i了",
+        "description": "副词不后接都，都后接形容词，形容词后接了"
+    },
+    {
+        "query": "v+走+s",
+        "description": "动词后接走，走后接了"
+    },
+    {
+        "query": "v 走 s",
+        "description": "动词后接走，走后接了"
+    },
+    {
+        "query": "有什么好+n+的",
+        "description": "疑问词有什么后接形容词，形容词后接名词，名词后接的"
+    },
+    {
+        "query": "有什么好 n 的",
+        "description": "疑问词有什么后接形容词，形容词后接名词，名词后接的"
+    },
+    {
+        "query": "一屋子n",
+        "description": "数量词一后接屋子，屋子后接名词"
+    },
+    {
+        "query": "d之中",
+        "description": "副词后接在之中"
+    },
+    {
+        "query": "n绿n",
+        "description": "名词后接绿，绿后接名词"
+    },
+    {
+        "query": "过于a了",
+        "description": "形容词过后接于，于后接形容词，形容词后接了"
+    },
+    {
+        "query": "a公关",
+        "description": "形容词后接公关"
+    },
+    {
+        "query": "V到",
+        "description": "动词后接到"
+    },
+    {
+        "query": "a体力",
+        "description": "形容词后接体力"
+    },
+    {
+        "query": "a经历",
+        "description": "形容词后接经历"
+    },
+    {
+        "query": "v绣房",
+        "description": "动词后接绣房"
+    },
+    {
+        "query": "w+n+中的n+w",
+        "description": "标点符号后接名词，名词后接中的，中的后接名词，名词后接标点符号"
+    },
+    {
+        "query": "w n 中的n w",
+        "description": "标点符号后接名词，名词后接中的，中的后接名词，名词后接标点符号"
+    },
+    {
+        "query": "V下悲痛",
+        "description": "动词后接下，下后接悲痛"
+    },
+    {
+        "query": "v一滴",
+        "description": "动词后接一滴"
+    },
+    {
+        "query": "表现w",
+        "description": "动词后接表现"
+    },
+    {
+        "query": "很V",
+        "description": "副词很后接动词"
+    },
+    {
+        "query": "把n+v+n",
+        "description": "介词把后接名词，名词后接动词，动词后接名词"
+    },
+    {
+        "query": "把n v n",
+        "description": "介词把后接名词，名词后接动词，动词后接名词"
+    },
+    {
+        "query": "你这n",
+        "description": "代词你后接这，这后接名词"
+    },
+    {
+        "query": "a假条",
+        "description": "形容词后接假条"
+    },
+    {
+        "query": "拿+N+V",
+        "description": "动词拿后接N，N后接V"
+    },
+    {
+        "query": "拿 N V",
+        "description": "动词拿后接N，N后接V"
+    },
+    {
+        "query": "上房v",
+        "description": "动词上后接房，房后接动词"
+    },
+    {
+        "query": "a下放",
+        "description": "形容词后接下放"
+    },
+    {
+        "query": "s+v着+",
+        "description": "助词s后接动词，动词后接着，着后接标点符号"
+    },
+    {
+        "query": "s v着",
+        "description": "助词s后接动词，动词后接着"
+    },
+    {
+        "query": "用n",
+        "description": "助词用后接名词"
+    },
+    {
+        "query": "只v",
+        "description": "副词只后接动词"
+    }
+]
+```

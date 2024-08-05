@@ -1,0 +1,114 @@
+以下是将给定的检索式转换为带含义的json结构后的完整列表：
+
+```json
+[
+    {
+        "query": "参政+议政/vn+使命",
+        "description": "参政和议政/vn后紧跟着使命"
+    },
+    {
+        "query": "参政 议政/vn 使命",
+        "description": "参政后紧跟议政/vn，然后是使命"
+    },
+    {
+        "query": "顶/v+着+../n+",
+        "description": "顶/v后紧接着着，然后是../n，最后是空字符串"
+    },
+    {
+        "query": "顶/v 着 ../n",
+        "description": "顶/v后紧接着着，然后是../n"
+    },
+    {
+        "query": "注意/v",
+        "description": "仅包含注意/v"
+    },
+    {
+        "query": "绍兴+，/w+河长",
+        "description": "绍兴后紧跟逗号，然后是河长"
+    },
+    {
+        "query": "绍兴 ，/w 河长",
+        "description": "绍兴后紧跟逗号，然后是河长"
+    },
+    {
+        "query": "坚定+地/u+说道",
+        "description": "坚定地/u后紧跟说道"
+    },
+    {
+        "query": "./v自由",
+        "description": "单音节动词后紧跟自由"
+    },
+    {
+        "query": "落./v",
+        "description": "落后紧跟单音节动词"
+    },
+    {
+        "query": "的+是/v+甜味",
+        "description": "的后紧跟是/v，然后是甜味"
+    },
+    {
+        "query": "祖国+最/d+南端",
+        "description": "祖国后紧跟最/d，然后是南端"
+    },
+    {
+        "query": "困难/an+不+小+，+但+并非/v",
+        "description": "困难/an后紧跟不，然后是小，接着是但，最后是并非/v"
+    },
+    {
+        "query": "当/p+好+丛林+卫士+第一/m",
+        "description": "当/p后紧跟好，然后是丛林，接着是卫士，最后是第一/m"
+    },
+    {
+        "query": "就./n",
+        "description": "仅包含就./n"
+    },
+    {
+        "query": "名/q+残疾人+是/v",
+        "description": "名/q后紧跟残疾人，然后是是/v"
+    },
+    {
+        "query": "../a++../n",
+        "description": "空字符串后紧跟../a，然后是空字符串，最后是../n"
+    },
+    {
+        "query": "v*真情/n",
+        "description": "动词后离合出现真情/n"
+    },
+    {
+        "query": "机关/n+事业",
+        "description": "机关/n后紧跟事业"
+    },
+    {
+        "query": "诚意/n*v",
+        "description": "诚意/n后紧跟动词"
+    },
+    {
+        "query": "a+的+热气/n",
+        "description": "a后紧跟的，然后是热气/n"
+    },
+    {
+        "query": "会见+纳米比亚/ns+总统",
+        "description": "会见后紧跟纳米比亚/ns，然后是总统"
+    },
+    {
+        "query": "社会+关切/vn",
+        "description": "社会后紧跟关切/vn"
+    },
+    {
+        "query": "的+大多数/m",
+        "description": "的后紧跟大多数/m"
+    },
+    {
+        "query": "./v暗了",
+        "description": "单音节动词后紧跟暗了"
+    },
+    {
+        "query": "伫立+湖边/s+，",
+        "description": "伫立后紧跟湖边/s，然后是,"
+    },
+    {
+        "query": "...性/n",
+        "description": "...后紧跟性/n"
+    }
+]
+```

@@ -1,0 +1,160 @@
+```json
+[
+    {
+        "query": "../n 联赛",
+        "description": "双音节名词后面接联赛"
+    },
+    {
+        "query": "外援 ~/[n v]",
+        "description": "外援后面可能是名词或动词"
+    },
+    {
+        "query": "成绩 (d) 太{count>6}",
+        "description": "副词接成绩，且成绩出现次数大于6次"
+    },
+    {
+        "query": "用 ~ 外援",
+        "description": "用后面接一个词（任意词性）的外援"
+    },
+    {
+        "query": "积累 ../[n v]",
+        "description": "积累后面可能是名词或动词"
+    },
+    {
+        "query": "外援 (w){count<955}",
+        "description": "外援，但实例频次小于955"
+    },
+    {
+        "query": "永远 (v) 一{len($1)=1}",
+        "description": "永远后面紧跟着一个单音节词"
+    },
+    {
+        "query": "(n) 最后 (m){len($1)!=4}",
+        "description": "最后后面可能是一个非4字的名词"
+    },
+    {
+        "query": "力帆 转让/v 风波",
+        "description": "力帆后面接转让，转让后面接动词风波"
+    },
+    {
+        "query": "，/w 犹为未晚 。/w",
+        "description": "逗号后接犹为未晚，然后是句点"
+    },
+    {
+        "query": "职篮 ./[a v] 明星",
+        "description": "职篮后面可能是形容词或动词，再接明星"
+    },
+    {
+        "query": "集团 (n) 营销{len($1)>1}",
+        "description": "集团后面接一个长度大于1的名词营销"
+    },
+    {
+        "query": "塔尔德利 (v) 山东{len($1)!=3}",
+        "description": "塔尔德利后面接山东，但塔尔德利后面字数不等于3"
+    },
+    {
+        "query": "(ns) 冬季 山地 (n){len($1)>1; begin($2)!=[甜 姑 院]}",
+        "description": "冬季后面接一个长度大于1的山地名词，但不以甜、姑、院开头"
+    },
+    {
+        "query": "了 吗/y ？",
+        "description": "了后面接吗，可能带有问号"
+    },
+    {
+        "query": "咋样 @/[w v]",
+        "description": "咋样后面可能是形容词或动词"
+    },
+    {
+        "query": "还有 (v) 企业{begin($1)!=[书 冰]}",
+        "description": "还有后面接企业，但不以书或冰开始"
+    },
+    {
+        "query": "困境 .. ？",
+        "description": "困境后面可能是省略号，可能带有问号"
+    },
+    {
+        "query": "农民 . 奶都",
+        "description": "农民后面可能有一个点，奶都可能是名词"
+    },
+    {
+        "query": "卢",
+        "description": "仅包含卢这个字"
+    },
+    {
+        "query": "为什么 @/[j v] 不",
+        "description": "为什么后面可能是介词或动词，再接不"
+    },
+    {
+        "query": "了 ~",
+        "description": "了后面接一个词（任意词性）"
+    },
+    {
+        "query": "说 。/w",
+        "description": "说后面是句点"
+    },
+    {
+        "query": "慢慢 .. 到",
+        "description": "慢慢后面可能是省略号，后面接到达"
+    },
+    {
+        "query": "(r) 的 (n){len($1)!=3; len($2)=2}",
+        "description": "的后面跟一个非3字的名词，且该名词长度为2"
+    },
+    {
+        "query": "..../nr 。",
+        "description": "两个省略号后接人名，然后是句点"
+    },
+    {
+        "query": "盖连义 ~ 。",
+        "description": "盖连义后面接一个词（任意词性），然后是句点"
+    },
+    {
+        "query": "市场 (a) 的{len($1)!=3}",
+        "description": "市场后面接一个非3字的形容词"
+    },
+    {
+        "query": "我",
+        "description": "仅包含我这个字"
+    },
+    {
+        "query": "模式 (d) 三方{count>5}",
+        "description": "模式后面接三方，且模式实例频次大于5"
+    },
+    {
+        "query": "@/[nr v] 说",
+        "description": "可能是人名、代词或动词后面接说"
+    },
+    {
+        "query": "下 @/[u v] 订单",
+        "description": "下后面可能是介词或动词，再接订单"
+    },
+    {
+        "query": "今年 ../[v v] 为啥",
+        "description": "今年后面可能是两个动词，然后是为啥"
+    },
+    {
+        "query": "粮仓 (n) 好{len($1)<3}",
+        "description": "粮仓后面接一个长度小于3的词"
+    },
+    {
+        "query": "(v) 哪些 困难 (w){len($1)<3}",
+        "description": "哪些后面接动词，困难后面接一个长度小于3的词"
+    },
+    {
+        "query": "摄 (n) 视觉{len($1)!=3}",
+        "description": "摄后面接一个非3字的名词视觉"
+    },
+    {
+        "query": "孝鹏 ./v 人民",
+        "description": "孝鹏后面可能是动词，再接人民"
+    },
+    {
+        "query": "新 (n){count>4}",
+        "description": "新后面接一个出现次数大于4的名词"
+    },
+    {
+        "query": "打工 收入/n 成",
+        "description": "打工后面接收入，收入后面接一个名词，成可能是名词"
+    }
+]
+```

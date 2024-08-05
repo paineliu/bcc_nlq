@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": ".. 体量", 
+        "description": "二字词组，前后可能是任意词性"
+    },
+    {
+        "query": "研究 ~ 吗", 
+        "description": "研究后面接一个词"
+    },
+    {
+        "query": "常常 ./p 这样", 
+        "description": "常常后面接一个副词，这样"
+    },
+    {
+        "query": "有 @/[w v]", 
+        "description": "有后面接一个动词或形容词"
+    },
+    {
+        "query": "不过 . 大", 
+        "description": "不过后面接一个形容词，大"
+    },
+    {
+        "query": "见 n 记得", 
+        "description": "见后面接一个名词，记得"
+    },
+    {
+        "query": "~ 总是", 
+        "description": "一个词，总是"
+    },
+    {
+        "query": "敦煌 (w) 近在眼前{count<749}", 
+        "description": "敦煌后面接一个形容词，这个形容词前面的句子实例频次小于749"
+    },
+    {
+        "query": "摄 (n) 视觉{len($1)!=3}", 
+        "description": "摄后面接一个名词，但该名词的长度不等于3"
+    },
+    {
+        "query": "~ 荔湾", 
+        "description": "一个词，荔湾"
+    },
+    {
+        "query": "../[n v] 助残", 
+        "description": "双音节动词后面接名词或动词，助残"
+    },
+    {
+        "query": "保亭 @/[ns v] 开展", 
+        "description": "保亭后面接名词或动词，开展"
+    },
+    {
+        "query": "《 ~/[n v] 远征队", 
+        "description": "书名符号后面接名词或动词，远征队"
+    },
+    {
+        "query": "》 (v){begin($1)=[问 非]}", 
+        "description": "右括号后接一个动词，且动词之前是问或非"
+    },
+    {
+        "query": "圆 @ 田园", 
+        "description": "圆后面接一个词，田园"
+    },
+    {
+        "query": "龙寿洋 ./m 亩", 
+        "description": "龙寿洋后面接一个量词，亩"
+    },
+    {
+        "query": "留住 ../n 风光", 
+        "description": "留住后面接一个名词，风光"
+    },
+    {
+        "query": "支撑 (a) 之{end($1)=[福 赢 瘦]}", 
+        "description": "支撑后面接一个形容词，然后以福、赢或瘦结尾"
+    },
+    {
+        "query": "农业 (n) 建设{count>2}", 
+        "description": "农业后面接一个名词，建设，实例频次大于2"
+    },
+    {
+        "query": "(vn){begin($1)=[公共 道 相]; len($2)=2}", 
+        "description": "一个名动词，且第一个部分是公共、道或相，第二个部分是两个字"
+    },
+    {
+        "query": "根 @ 是", 
+        "description": "根后面接一个词，是"
+    },
+    {
+        "query": "(v) (u){len($1)=2; len($2)=1}", 
+        "description": "两个连续的动词，第一个是两个字，第二个是一个字"
+    },
+    {
+        "query": "@/[r v] 当年", 
+        "description": "一个词性接当年，可能是代词或动词"
+    },
+    {
+        "query": "(ns) 的 跑友 说 (w){len($1)=2}", 
+        "description": "一个名词接的、跑友、说，跑友说可能是两个字"
+    },
+    {
+        "query": "粉丝", 
+        "description": "粉丝"
+    },
+    {
+        "query": "格兰仕 (v) 现代化{begin($1)=[扩 扔 佳 烟]}", 
+        "description": "格兰仕后面接一个动词，且动词之前是扩、扔、佳或烟"
+    },
+    {
+        "query": "./w 辞退 ./w", 
+        "description": "两个连续的动词，辞退"
+    },
+    {
+        "query": "新 ../v", 
+        "description": "新后面接一个双音节动词"
+    },
+    {
+        "query": "怕 (c) 躲{len($1)=1}", 
+        "description": "怕后面接一个副词，躲，且副词长度为1"
+    },
+    {
+        "query": "监督 ./w 满", 
+        "description": "监督后面接一个动词，满"
+    },
+    {
+        "query": "制度 ../v ，", 
+        "description": "制度后面接一个双音节动词，后面可能跟逗号"
+    },
+    {
+        "query": "(n) 追踪 (n){len($1)=2; len($2)!=3}", 
+        "description": "两个相邻的名词，第一个是两个字，第二个不是三个字"
+    },
+    {
+        "query": "马廉亭 a 揽事", 
+        "description": "马廉亭后面接一个形容词，揽事"
+    },
+    {
+        "query": "黄继锋 . ।", 
+        "description": "黄继锋后面接一个符号"
+    },
+    {
+        "query": "孙思邈 ../[n v] 见解", 
+        "description": "孙思邈后面接名词或动词，见解"
+    },
+    {
+        "query": "一 (n) 一{len($1)!=2}", 
+        "description": "一后面接一个名词，但名词的长度不等于2"
+    },
+    {
+        "query": "总医院 @ ，", 
+        "description": "总医院后面接一个逗号"
+    },
+    {
+        "query": "当 (m) 天{count>5}", 
+        "description": "当后面接一个量词，天，实例频次大于5"
+    },
+    {
+        "query": "人民 (n){len($1)=2}", 
+        "description": "人民后面接一个两个字的名词"
+    },
+    {
+        "query": "流行 (n) 持续{len($1)<3}", 
+        "description": "流行后面接一个名词，持续，名词长度小于3"
+    }
+]
+```

@@ -1,0 +1,166 @@
+以下是将给定的检索式转换为带含义的json结构后的完整列表：
+
+```json
+[
+    {
+        "query": "无论*都",
+        "description": "无论后面离合出现都"
+    },
+    {
+        "query": "上*网",
+        "description": "上后面离合出现网"
+    },
+    {
+        "query": "也许*宁愿v",
+        "description": "也许后面离合出现宁愿动词"
+    },
+    {
+        "query": "我一个*婆",
+        "description": "我后面离合出现一个名词，名词后接婆"
+    },
+    {
+        "query": "~界",
+        "description": "一个词"
+    },
+    {
+        "query": "w死.生w",
+        "description": "死后面隔一个字后接生"
+    },
+    {
+        "query": "就算...也",
+        "description": "就算后面紧跟也"
+    },
+    {
+        "query": "好像*甚而",
+        "description": "好像后面离合出现甚而"
+    },
+    {
+        "query": "w暮.朝w",
+        "description": "暮后面隔一个字后接朝"
+    },
+    {
+        "query": "好像*反倒",
+        "description": "好像后面离合出现反倒"
+    },
+    {
+        "query": "如果*就",
+        "description": "如果后面离合出现就"
+    },
+    {
+        "query": "拚*不着",
+        "description": "拚后面离合出现不着"
+    },
+    {
+        "query": "w增.减w",
+        "description": "增后面隔一个字后接减"
+    },
+    {
+        "query": "时间是.........n",
+        "description": "时间是后接一个由多个点构成的长句，句尾后接名词"
+    },
+    {
+        "query": "做不.",
+        "description": "做后面紧跟一个不，后面没有空格"
+    },
+    {
+        "query": "V下*恐怖",
+        "description": "下后面离合出现恐怖"
+    },
+    {
+        "query": "担了*心",
+        "description": "担了后面离合出现心"
+    },
+    {
+        "query": "v*药房",
+        "description": "v后面离合出现药房"
+    },
+    {
+        "query": "似乎*吧？",
+        "description": "似乎后面离合出现吧，后面跟问号"
+    },
+    {
+        "query": "时间是a*n",
+        "description": "时间是后接形容词，形容词后接名词"
+    },
+    {
+        "query": "我们..+下去w",
+        "description": "我们后面紧跟一个加字，然后是下去，后面跟句尾"
+    },
+    {
+        "query": "我们.. 下去w",
+        "description": "我们后面紧跟一个空格，然后是下去，后面跟句尾"
+    },
+    {
+        "query": "都快.........了",
+        "description": "都快后接由多个点构成的长句，句尾后接了"
+    },
+    {
+        "query": "见*面",
+        "description": "见后面离合出现面"
+    },
+    {
+        "query": "仿佛*呢。",
+        "description": "仿佛后面离合出现呢，后面跟句尾符号"
+    },
+    {
+        "query": "他.+过去w",
+        "description": "他后面紧跟一个加字，然后是过去，后面跟句尾"
+    },
+    {
+        "query": "他. 过去w",
+        "description": "他后面紧跟一个空格，然后是过去，后面跟句尾"
+    },
+    {
+        "query": "那....m+q+n",
+        "description": "那后面紧跟一个由m、q、n组成的序列"
+    },
+    {
+        "query": "那....m q n",
+        "description": "那后面紧跟一个由m、空格、q、n组成的序列"
+    },
+    {
+        "query": ".半晌",
+        "description": "一个由多个点构成的短句，后接半晌"
+    },
+    {
+        "query": "要不.",
+        "description": "要不后面紧跟一个点"
+    },
+    {
+        "query": "比*更",
+        "description": "比后面离合出现更"
+    },
+    {
+        "query": "月季花*v",
+        "description": "月季花后面离合出现v"
+    },
+    {
+        "query": "V上*愤怒",
+        "description": "上后面离合出现愤怒"
+    },
+    {
+        "query": "大概*反而",
+        "description": "大概后面离合出现反而"
+    },
+    {
+        "query": "咱们一个*。",
+        "description": "咱们后面紧跟一个由多个点构成的序列"
+    },
+    {
+        "query": "v*结构",
+        "description": "v后面离合出现结构"
+    },
+    {
+        "query": "计划生育n*的提高",
+        "description": "计划生育名词后面离合出现的提高"
+    },
+    {
+        "query": "w庄.谐w",
+        "description": "w后面紧跟一个由多个点构成的短句，句尾是谐"
+    },
+    {
+        "query": "v*和气",
+        "description": "v后面离合出现和气"
+    }
+]
+```

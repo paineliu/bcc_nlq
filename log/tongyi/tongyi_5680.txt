@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "号房v",
+        "description": "包含号房的动词句子"
+    },
+    {
+        "query": "不屑一v",
+        "description": "不屑一之后的动词句子"
+    },
+    {
+        "query": "v行李房",
+        "description": "动词之后的行李房句子"
+    },
+    {
+        "query": "那般V来",
+        "description": "那般之后的动词来句子"
+    },
+    {
+        "query": "令+n+",
+        "description": "令之后接名词的句子"
+    },
+    {
+        "query": "令 n ",
+        "description": "令之后接单个名词的句子"
+    },
+    {
+        "query": "m峰骆驼",
+        "description": "m峰骆驼作为名词的句子"
+    },
+    {
+        "query": "n比a",
+        "description": "n比a构成的句子"
+    },
+    {
+        "query": "帮忙n",
+        "description": "帮忙之后的名词句子"
+    },
+    {
+        "query": "情绪V上",
+        "description": "情绪之后的上动词句子"
+    },
+    {
+        "query": "a分布",
+        "description": "a之后的分布句子"
+    },
+    {
+        "query": "a亲密",
+        "description": "a之后的亲密句子"
+    },
+    {
+        "query": "v之地",
+        "description": "v之后的地名词句"
+    },
+    {
+        "query": "a丢失",
+        "description": "a之后的丢失句子"
+    },
+    {
+        "query": "v安定了",
+        "description": "v之后的安定了句子"
+    },
+    {
+        "query": "V算什么N",
+        "description": "V之后算什么N的句子"
+    },
+    {
+        "query": "吃V",
+        "description": "吃之后的动词句子"
+    },
+    {
+        "query": "一眼V",
+        "description": "一眼之后的动词句子"
+    },
+    {
+        "(v)了+r+m+n",
+        "description": "v之后的了r之后的m之后的n组成的句子"
+    },
+    {
+        "(v)了 r m n",
+        "description": "v之后的了r之后m之后n组成的句子"
+    },
+    {
+        "这很n",
+        "description": "这很之后的名词句子"
+    },
+    {
+        "a人为",
+        "description": "a之后的人为句子"
+    },
+    {
+        "m经验",
+        "description": "m之后的经验句子"
+    },
+    {
+        "a亚军",
+        "description": "a之后的亚军句子"
+    },
+    {
+        "ad偏向",
+        "description": "ad之后的偏向句子"
+    },
+    {
+        "V极了",
+        "description": "V之后的极了句子"
+    },
+    {
+        "a下来",
+        "description": "a之后的下来的句子"
+    },
+    {
+        "n若n",
+        "description": "n之后若之后的n句子"
+    },
+    {
+        "v+n+一+v",
+        "description": "v之后n之后一之后v的句子"
+    },
+    {
+        "v n 一 v",
+        "description": "v之后n之后一之后v的句子"
+    },
+    {
+        "(n)一(q)，",
+        "description": "n之后一之后逗号的句子"
+    },
+    {
+        "v+n++v+了",
+        "description": "v之后n之后加号之后v之后了的句子"
+    },
+    {
+        "v n  v 了",
+        "description": "v之后n之后v之后了的句子"
+    },
+    {
+        "a农村",
+        "description": "a之后的农村句子"
+    },
+    {
+        "n是n的n。",
+        "description": "n之后是之后n的之后n的句子"
+    },
+    {
+        ",但v",
+        "description": "逗号之后但之后的动词句子"
+    },
+    {
+        "又v",
+        "description": "又之后的动词句子"
+    },
+    {
+        "n过去",
+        "description": "n之后的过去的句子"
+    },
+    {
+        "一丛n",
+        "description": "一丛之后的名词句子"
+    },
+    {
+        "热情的n",
+        "description": "热情的之后的名词句子"
+    }
+]
+```

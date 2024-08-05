@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "和 (ns) 国家{len($1)>2}",
+        "description": "包含'和'后面跟着至少三个字的地名"
+    },
+    {
+        "query": "政治 c 安全",
+        "description": "政治和安全相邻"
+    },
+    {
+        "query": "、 投资/vn 、",
+        "description": "投资后接一个或多个空格，然后是动词"
+    },
+    {
+        "query": "(v) 好 中 拉 (n){begin($2)!=[扔 煮 额]}",
+        "description": "好、中、拉这三个词后面不接'扔'、'煮'或'额'"
+    },
+    {
+        "query": "质检 (vn) 。{len($1)=2}",
+        "description": "质检后接一个长度为2的词，且末尾是句点"
+    },
+    {
+        "query": "设施 (c) 交通{len($1)=1}",
+        "description": "设施后接一个单字，且是交通"
+    },
+    {
+        "query": "探讨 (ad) 举办{len($1)=2}",
+        "description": "探讨后接举办，且探讨是两个字"
+    },
+    {
+        "query": "(m)、 继续 举办 中 (j){len($1)!=2; len($2)=1}",
+        "description": "两个连续的'、'后面跟'继续'，'继续'后面接一个字，且不是'中'"
+    },
+    {
+        "query": "(n)、{len($1)=2}",
+        "description": "两个连续的'、'后面接一个词，且总长度为2"
+    },
+    {
+        "query": "(n) (n){len($2)<3}",
+        "description": "两个名词之间，第二个名词长度小于3"
+    },
+    {
+        "query": "文化/n 和 体育/n",
+        "description": "文化后面接'和'，然后是体育"
+    },
+    {
+        "query": "作品 ~/[w v]",
+        "description": "作品后面离合出现一个词，可能是动词或名词"
+    },
+    {
+        "query": "条",
+        "description": "单独的'条'"
+    },
+    {
+        "query": "第十二 (q){len($1)!=2}",
+        "description": "第十二后面不是一个词"
+    },
+    {
+        "query": "(m) 条{len($1)!=4}",
+        "description": "两个连续的'm'后面接一个词，且总长度不是4"
+    },
+    {
+        "query": "智库 交流/vn 论坛",
+        "description": "智库后面接'交流'，然后是论坛"
+    },
+    {
+        "query": "(m) (q){len($1)>2}",
+        "description": "两个连续的'm'后面接一个至少三个字的词"
+    },
+    {
+        "query": "倡议 的/u 落实",
+        "description": "倡议后接'的'，然后是落实"
+    },
+    {
+        "query": "视",
+        "description": "单独的'视'"
+    },
+    {
+        "query": "发行 ~/[n v] 纪念邮票",
+        "description": "发行后面离合出现名词或动词，然后是纪念邮票"
+    },
+    {
+        "query": "(v) 扩散 气象 (n){len($1)>1}",
+        "description": "扩散后面接气象，且扩散是一个至少两个字的动词"
+    },
+    {
+        "query": "费率 ~ 适时",
+        "description": "费率后面接一个词，可能是任意词性"
+    },
+    {
+        "query": "采访 ~ 人社部",
+        "description": "采访后面接一个词，可能是任意词性"
+    },
+    {
+        "query": "吗 (w){count<166}",
+        "description": "包含'吗'，且实例频次小于166"
+    },
+    {
+        "query": "(v) 基数 (v){end($1)=[v 发]; len($2)=2}",
+        "description": "基数后面接一个以'发'结尾的动词，且基数本身是两个字"
+    },
+    {
+        "query": "吗 ~",
+        "description": "仅包含'吗'"
+    },
+    {
+        "query": "不宜 (ad) 进行{count>8}",
+        "description": "不宜后面接进行，且不宜的实例频次大于8"
+    },
+    {
+        "query": "(m) (v){len($2)!=2}",
+        "description": "两个连续的'm'后面接一个不是两个字的动词"
+    },
+    {
+        "query": "三/m 是",
+        "description": "三后面接一个字，然后是'是'"
+    },
+    {
+        "query": "倡导 (n) 承担{begin($1)!=[错 替]}",
+        "description": "倡导后面接承担，且倡导不是'错'或'替'"
+    },
+    {
+        "query": "社保费率 (d) 适时{count>9}",
+        "description": "社保费率后面接适时，且社保费率的实例频次大于9"
+    },
+    {
+        "query": "报酬",
+        "description": "单独的'报酬'"
+    },
+    {
+        "query": "增加 .. 政策",
+        "description": "增加后面接一个词，可能与政策有间隔"
+    },
+    {
+        "query": "： (ns) 人民{len($1)>1}",
+        "description": "冒号后面跟着一个至少两个字的地名"
+    },
+    {
+        "query": "持续 @ 。",
+        "description": "持续后面接一个词，且可能是句尾"
+    },
+    {
+        "query": "未 .. 。",
+        "description": "未后面可能有间隔，然后是句尾"
+    },
+    {
+        "query": "(v) 历史{len($1)>1}",
+        "description": "历史后面接一个至少两个字的动词"
+    },
+    {
+        "query": "(v) (nz){end($1)=[v 慢]; len($2)=2}",
+        "description": "一个动词后面接一个不是'慢'的词，且动词本身是两个字"
+    },
+    {
+        "query": "(n) 深刻{count>8}",
+        "description": "深刻后面接一个词，且深刻实例频次大于8"
+    },
+    {
+        "query": "家底 . 重大",
+        "description": "家底后面隔一个字后接重大"
+    }
+]
+```

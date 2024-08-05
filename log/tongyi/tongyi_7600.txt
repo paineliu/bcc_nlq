@@ -1,0 +1,166 @@
+以下是将检索式转换为带含义的json结构后的完整列表：
+
+```json
+[
+    {
+        "query": "V 了下来",
+        "description": "动词 V 后面接了下来"
+    },
+    {
+        "query": "不管a还是a",
+        "description": "不管形容词 a 还是 形容词 a"
+    },
+    {
+        "query": "似乎难免v",
+        "description": "似乎后接动词 难免"
+    },
+    {
+        "query": "这a那a",
+        "description": "这形容词 a 后接 那形容词 a"
+    },
+    {
+        "query": "a半路",
+        "description": "半路前接形容词 a"
+    },
+    {
+        "query": "adj播",
+        "description": "形容词 adj 后接 播"
+    },
+    {
+        "query": "不足之n",
+        "description": "不足之后接名词 n"
+    },
+    {
+        "query": "v来v去",
+        "description": "动词 v 后接 来 v 后再接 去"
+    },
+    {
+        "query": "v倒",
+        "description": "动词 v 后接 倒"
+    },
+    {
+        "query": "获得+V！",
+        "description": "获得后接动词 V 并跟感叹号"
+    },
+    {
+        "query": "获得 V！",
+        "description": "获得后接动词 V 并跟感叹号"
+    },
+    {
+        "query": "a卫星",
+        "description": "卫星前接形容词 a"
+    },
+    {
+        "query": "w+v得太a+w",
+        "description": "以 w 开头的词 v 太多后接 形容词 a 再后接 w"
+    },
+    {
+        "query": "w v得太a w",
+        "description": "以 w 开头的词 v 太多后接 形容词 a 再后接 w"
+    },
+    {
+        "query": "也许v",
+        "description": "也许后接动词 v"
+    },
+    {
+        "query": "很a和a",
+        "description": "很形容词 a 后接 和 形容词 a"
+    },
+    {
+        "query": "a停顿",
+        "description": "停顿前接形容词 a"
+    },
+    {
+        "query": "v一统",
+        "description": "动词 v 后接 一统"
+    },
+    {
+        "query": "结构w",
+        "description": "结构前接 w"
+    },
+    {
+        "query": "因为n+",
+        "description": "因为后接 n 的加号"
+    },
+    {
+        "query": "因为n",
+        "description": "因为后接 n"
+    },
+    {
+        "query": "一声n",
+        "description": "一声后接 n"
+    },
+    {
+        "query": "w+r+a一点w",
+        "description": "以 w 开头的词 r 加 a 再加一点后接 w"
+    },
+    {
+        "query": "w r a一点w",
+        "description": "以 w 开头的词 r 加 a 再加一点后接 w"
+    },
+    {
+        "query": "能V多少V多少",
+        "description": "能后接动词 V 再接 多少 V 再接 多少"
+    },
+    {
+        "query": "把n放a些",
+        "description": "把后接名词 n 再接放 a 再接些"
+    },
+    {
+        "query": "a的n味",
+        "description": "a的前接名词 n 再接味"
+    },
+    {
+        "query": "v+v了w",
+        "description": "动词 v 后接 v 了 w"
+    },
+    {
+        "query": "v v了w",
+        "description": "动词 v 后接 v 了 w"
+    },
+    {
+        "query": "杀害n",
+        "description": "杀害后接 n"
+    },
+    {
+        "query": "n进来",
+        "description": "n后接 进来"
+    },
+    {
+        "query": "v一审",
+        "description": "动词 v 后接 一审"
+    },
+    {
+        "query": "a取代",
+        "description": "a后接 取代"
+    },
+    {
+        "query": "a印刷",
+        "description": "a后接 印刷"
+    },
+    {
+        "query": "d+厚",
+        "description": "d 后接 厚"
+    },
+    {
+        "query": "d 厚",
+        "description": "d 后接 厚"
+    },
+    {
+        "query": "充足的n",
+        "description": "充足的后接 n"
+    },
+    {
+        "query": "观点v",
+        "description": "观点后接 v"
+    },
+    {
+        "query": "，+n是n+。",
+        "description": "逗号后接 n 是 n 再接 加号"
+    },
+    {
+        "query": "， n是n 。",
+        "description": "逗号后接 n 是 n 再接 空格 和 句尾符号 。"
+    }
+]
+```

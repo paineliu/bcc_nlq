@@ -1,0 +1,78 @@
+```json
+[
+    {
+        "query": "@/[m v] 条",
+        "description": "以'条'结尾，且前面是介词'm'或动词'v'"
+    },
+    {
+        "query": "(m) 条{count>6}",
+        "description": "数量超过6的'm'开头的句子"
+    },
+    {
+        "query": "第三十八 @",
+        "description": "第三十八后面跟着一个词"
+    },
+    {
+        "query": "@ 条",
+        "description": "直接的'条'词"
+    },
+    {
+        "query": "~/[m v] 条",
+        "description": "包含'条'，且前面是介词'm'或动词'v'"
+    },
+    {
+        "query": "(m) (q){count>5}",
+        "description": "数量超过5的'm'后面紧跟着一个词"
+    },
+    {
+        "query": "(m) (q){len($2)=1}",
+        "description": "数量多于1的'm'后面跟一个单字词"
+    },
+    {
+        "query": "第四十三 .",
+        "description": "第四十三后面是一个字符"
+    },
+    {
+        "query": "第四十四 ~/[q v]",
+        "description": "第四十四后面离合出现'q'或'v'"
+    },
+    {
+        "query": "(m) 条{count<149}",
+        "description": "数量少于149的'm'开头的句子"
+    },
+    {
+        "query": "..../[m v] 条",
+        "description": "包含'条'，且前面是多于两个字的词，可能是介词'm'或动词'v'"
+    },
+    {
+        "query": "第四十七 @/[q v]",
+        "description": "第四十七后面可能是介词'/'，然后是'q'或'v'"
+    },
+    {
+        "query": ".... 条",
+        "description": "缺失内容的句子，后面是'条'"
+    },
+    {
+        "query": "第五十 .",
+        "description": "第五十后面是一个字符"
+    },
+    {
+        "query": "提供 @/[w v]",
+        "description": "提供后面可能是介词'/'，然后是'w'或'v'"
+    },
+    {
+        "query": "(m) 条{count<652}",
+        "description": "数量少于652的'm'开头的句子"
+    },
+    {
+        "query": ".... 条",
+        "description": "缺失内容的句子，后面是'条'"
+    },
+    {
+        "query": "机关 n 活动",
+        "description": "机关后面接名词，然后是'活动'"
+    },
+    {
+        "query": "第五十四 ./[q v]",
+        "description": "第五十四后面可能是单字动词或介词'
+```

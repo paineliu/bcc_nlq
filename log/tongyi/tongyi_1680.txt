@@ -1,0 +1,168 @@
+以下是将给定的检索式转换为带含义的json结构的列表：
+
+```json
+[
+    {
+        "query": "计划生育",
+        "description": "包含计划生育的句子"
+    },
+    {
+        "query": "能考上",
+        "description": "包含能考上这个短语的句子"
+    },
+    {
+        "query": "恐怕反倒",
+        "description": "包含恐怕反倒这个短语的句子"
+    },
+    {
+        "query": "即使说",
+        "description": "包含即使说这个短语的句子"
+    },
+    {
+        "query": "精密",
+        "description": "包含精密这个词的句子"
+    },
+    {
+        "query": "脱出来",
+        "description": "包含脱出来这个短语的句子"
+    },
+    {
+        "query": "和谐休止",
+        "description": "包含和谐休止这个短语的句子"
+    },
+    {
+        "query": "人也是",
+        "description": "包含人也是这个短语的句子"
+    },
+    {
+        "query": "拿过",
+        "description": "包含拿过这个短语的句子"
+    },
+    {
+        "query": "“但",
+        "description": "包含“但这个符号的句子"
+    },
+    {
+        "query": "概括说",
+        "description": "包含概括说这个短语的句子"
+    },
+    {
+        "query": "你爱吃什么",
+        "description": "包含你爱吃什么这个短语的句子"
+    },
+    {
+        "query": "终究",
+        "description": "包含终究这个词的句子"
+    },
+    {
+        "query": "不够人",
+        "description": "包含不够人这个短语的句子"
+    },
+    {
+        "query": "好像恰好",
+        "description": "包含好像恰好这个短语的句子"
+    },
+    {
+        "query": "和谐文明",
+        "description": "包含和谐文明这个短语的句子"
+    },
+    {
+        "query": "实际上大约",
+        "description": "包含实际上大约这个短语的句子"
+    },
+    {
+        "query": "鸟语花香",
+        "description": "包含鸟语花香这个短语的句子"
+    },
+    {
+        "query": "不太清楚",
+        "description": "包含不太清楚这个短语的句子"
+    },
+    {
+        "query": "诚诚实实",
+        "description": "包含诚诚实实这个短语的句子"
+    },
+    {
+        "query": "爱怎么就",
+        "description": "包含爱怎么就这个短语的句子"
+    },
+    {
+        "query": "要",
+        "description": "包含要这个词的句子"
+    },
+    {
+        "query": "否则为什么",
+        "description": "包含否则为什么这个短语的句子"
+    },
+    {
+        "query": "招认",
+        "description": "包含招认这个词的句子"
+    },
+    {
+        "query": "火箭军",
+        "description": "包含火箭军这个词的句子"
+    },
+    {
+        "query": "不几",
+        "description": "包含不几这个词的句子"
+    },
+    {
+        "query": "主讲",
+        "description": "包含主讲这个词的句子"
+    },
+    {
+        "query": "它们那个",
+        "description": "包含它们那个这个短语的句子"
+    },
+    {
+        "query": "爱理不理",
+        "description": "包含爱理不理这个短语的句子"
+    },
+    {
+        "query": "人权甫",
+        "description": "包含人权甫这个词的句子"
+    },
+    {
+        "query": "万物和谐",
+        "description": "包含万物和谐这个短语的句子"
+    },
+    {
+        "query": "死活",
+        "description": "包含死活这个词的句子"
+    },
+    {
+        "query": "庞大",
+        "description": "包含庞大这个词的句子"
+    },
+    {
+        "query": "豆子",
+        "description": "包含豆子这个词的句子"
+    },
+    {
+        "query": "府人权",
+        "description": "包含府人权这个词的句子"
+    },
+    {
+        "query": "训诂",
+        "description": "包含训诂这个词的句子"
+    },
+    {
+        "query": "君子",
+        "description": "包含君子这个词的句子"
+    },
+    {
+        "query": "或许当真",
+        "description": "包含或许当真这个短语的句子"
+    },
+    {
+        "query": "香消玉碎",
+        "description": "包含香消玉碎这个短语的句子"
+    },
+    {
+        "query": "使人权",
+        "description": "包含使人权这个词的句子"
+    }
+]
+```
+
+以上json结构包含了给定检索式的含义描述。

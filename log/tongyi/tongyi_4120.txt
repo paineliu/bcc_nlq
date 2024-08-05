@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "adj什么adj",
+        "description": "形容词后接一个未知词，再接形容词"
+    },
+    {
+        "query": "该v就v",
+        "description": "动词后接就，再接动词"
+    },
+    {
+        "query": "d+r",
+        "description": "副词接r"
+    },
+    {
+        "query": "d r",
+        "description": "副词接r"
+    },
+    {
+        "query": "a厌恶",
+        "description": "形容词厌恶"
+    },
+    {
+        "query": "V下恐怖",
+        "description": "动词下接恐怖"
+    },
+    {
+        "query": "a上学",
+        "description": "形容词上学"
+    },
+    {
+        "query": "这么样一V",
+        "description": "如此这般接一个动词"
+    },
+    {
+        "query": "a潮",
+        "description": "形容词潮"
+    },
+    {
+        "query": "a什么啊",
+        "description": "形容词后接一个未知词"
+    },
+    {
+        "query": "进来n",
+        "description": "进来接名词"
+    },
+    {
+        "query": "一整个a",
+        "description": "一个整体的形容词"
+    },
+    {
+        "query": "黯然v",
+        "description": "动词黯然"
+    },
+    {
+        "query": "大都把n+v了",
+        "description": "大都接把，后接名词再接动词并完成动作"
+    },
+    {
+        "query": "大都把n v了",
+        "description": "大都接把，后接名词再接动词完成动作"
+    },
+    {
+        "query": "一点a",
+        "description": "少量的形容词"
+    },
+    {
+        "query": "t左右",
+        "description": "时间词左右"
+    },
+    {
+        "query": "a全面",
+        "description": "全面的形容词"
+    },
+    {
+        "query": "a制裁",
+        "description": "制裁的形容词"
+    },
+    {
+        "query": "v上街",
+        "description": "动词上街"
+    },
+    {
+        "query": "v一次v一次",
+        "description": "动词一次接动词一次"
+    },
+    {
+        "query": "还y呢",
+        "description": "还接一个未知词"
+    },
+    {
+        "query": "m炷",
+        "description": "木头柱子"
+    },
+    {
+        "query": "v了不a+n",
+        "description": "动词了接不，再接形容词接名词"
+    },
+    {
+        "query": "v了不a n",
+        "description": "动词了接不，再接形容词接名词"
+    },
+    {
+        "query": "很久v",
+        "description": "很久接一个动词"
+    },
+    {
+        "query": "让他v他就v",
+        "description": "让接一个动词，接他接一个动词"
+    },
+    {
+        "query": "腻的n",
+        "description": "腻接名词"
+    },
+    {
+        "query": "非常a",
+        "description": "非常形容词"
+    },
+    {
+        "query": "什么+n+都+v",
+        "description": "什么接名词，再接都，最后接动词"
+    },
+    {
+        "query": "什么 n 都 v",
+        "description": "什么接名词，再接都，最后接动词"
+    },
+    {
+        "query": "用N堆满",
+        "description": "用接名词，再接堆满"
+    },
+    {
+        "query": "不可把n+v了",
+        "description": "不可接把，后接名词再接动词并完成动作"
+    },
+    {
+        "query": "不可把n v了",
+        "description": "不可接把，后接名词再接动词完成动作"
+    },
+    {
+        "query": "那一q",
+        "description": "那个后接量词"
+    },
+    {
+        "query": "情景n",
+        "description": "情景接名词"
+    },
+    {
+        "query": "终生v",
+        "description": "终生接一个动词"
+    },
+    {
+        "query": "a上帝",
+        "description": "形容词上帝"
+    },
+    {
+        "query": "依我说w",
+        "description": "依照我说接一个词"
+    },
+    {
+        "query": "适当的N",
+        "description": "适当的接一个名词"
+    }
+]
+```

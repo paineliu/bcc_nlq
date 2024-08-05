@@ -1,0 +1,167 @@
+以下是将给出的检索式转换为带含义的json结构：
+
+```json
+[
+    {
+        "query": "如何~",
+        "description": "如何后接一个词"
+    },
+    {
+        "query": "~可，",
+        "description": "一个词后接可，且可后接逗号"
+    },
+    {
+        "query": "w老.少w",
+        "description": "w后接老，然后隔一个字后接少，最后是w"
+    },
+    {
+        "query": "@王",
+        "description": "王前面是@，表示王这个词性"
+    },
+    {
+        "query": "洗..........澡",
+        "description": "洗后隔多个字后接澡"
+    },
+    {
+        "query": "也许*必然会",
+        "description": "也许后面离合出现必然会"
+    },
+    {
+        "query": "w方.圆w",
+        "description": "w后接方，然后隔一个字后接圆，最后是w"
+    },
+    {
+        "query": "w学.教w",
+        "description": "w后接学，然后隔一个字后接教，最后是w"
+    },
+    {
+        "query": "w生.熟w",
+        "description": "w后接生，然后隔一个字后接熟，最后是w"
+    },
+    {
+        "query": "仿佛*总该",
+        "description": "仿佛后面离合出现总该"
+    },
+    {
+        "query": "吃n吃*",
+        "description": "吃后接n，然后离合出现吃"
+    },
+    {
+        "query": "V*酒店",
+        "description": "V后面离合出现酒店"
+    },
+    {
+        "query": "w祸.福w",
+        "description": "w后接祸，然后隔一个字后接福，最后是w"
+    },
+    {
+        "query": "v.点",
+        "description": "v后接点"
+    },
+    {
+        "query": "想来@大约",
+        "description": "想来这个词性，然后大约"
+    },
+    {
+        "query": "放*心",
+        "description": "放后面离合出现心"
+    },
+    {
+        "query": "似乎*倒是",
+        "description": "似乎后面离合出现倒是"
+    },
+    {
+        "query": "起*劲",
+        "description": "起后面离合出现劲"
+    },
+    {
+        "query": "给*面子",
+        "description": "给后面离合出现面子"
+    },
+    {
+        "query": "或许*偏偏v",
+        "description": "或许后面离合出现偏偏v"
+    },
+    {
+        "query": "瞧把...a得",
+        "description": "瞧把后面接一个词，这个词以a结尾"
+    },
+    {
+        "query": "牛.....头",
+        "description": "牛后隔多个字后接头"
+    },
+    {
+        "query": "*而且*甚至*",
+        "description": "连续使用而且和甚至"
+    },
+    {
+        "query": "或许*吗",
+        "description": "或许后面离合出现吗"
+    },
+    {
+        "query": "看来@或许",
+        "description": "看来这个词性，后面或许"
+    },
+    {
+        "query": "他们..+过来w",
+        "description": "他们后接..，然后+过来w"
+    },
+    {
+        "query": "他们.. 过来w",
+        "description": "他们后接..，然后直接过来w"
+    },
+    {
+        "query": "事实上@好像",
+        "description": "事实上这个词性，后面好像"
+    },
+    {
+        "query": "死*生",
+        "description": "死后面离合出现生"
+    },
+    {
+        "query": "w+@甭",
+        "description": "w后接+，然后是@，表示甭这个词性"
+    },
+    {
+        "query": "w @甭",
+        "description": "w后接@，然后是甭"
+    },
+    {
+        "query": "你..+上来w",
+        "description": "你后接..，然后+上来w"
+    },
+    {
+        "query": "你.. 上来w",
+        "description": "你后接..，然后直接上来w"
+    },
+    {
+        "query": "我们..+起来w",
+        "description": "我们后接..，然后+起来w"
+    },
+    {
+        "query": "我们.. 起来w",
+        "description": "我们后接..，然后直接上来w"
+    },
+    {
+        "query": "要是*就可以*",
+        "description": "要是后面离合出现就可以"
+    },
+    {
+        "query": "n们.+.v了",
+        "description": "n们后接.，然后+.v了"
+    },
+    {
+        "query": "n们. .v了",
+        "description": "n们后接.，然后直接.v了"
+    },
+    {
+        "query": "把*上上",
+        "description": "把后面离合出现上上"
+    },
+    {
+        "query": "不*，不*",
+        "description": "不后面离合出现，，然后再次出现不"
+    }
+]
+```
+以上json结构包含了每个检索式的描述信息，方便理解和应用。

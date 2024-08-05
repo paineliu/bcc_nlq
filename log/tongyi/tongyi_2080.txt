@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "还不仅仅",
+        "description": "包含'还'后紧跟着'不'和'仅仅'的句子"
+    },
+    {
+        "query": "挪用",
+        "description": "直接搜索'挪用'这个词"
+    },
+    {
+        "query": "人权工",
+        "description": "直接搜索'人权'后紧跟'工'的句子"
+    },
+    {
+        "query": "红红润润",
+        "description": "直接搜索'红红润润'这个成语"
+    },
+    {
+        "query": "人权！",
+        "description": "直接搜索以'人权！'结尾的句子"
+    },
+    {
+        "query": "这样。",
+        "description": "直接搜索以'这样。'结尾的句子"
+    },
+    {
+        "query": "乙女",
+        "description": "直接搜索'乙女'这个词"
+    },
+    {
+        "query": "阔阔",
+        "description": "直接搜索'阔阔'这个词"
+    },
+    {
+        "query": "唯一的千",
+        "description": "直接搜索以'唯一'开始，紧跟'的千'的句子"
+    },
+    {
+        "query": "和谐：",
+        "description": "直接搜索以'和谐：'开头的句子"
+    },
+    {
+        "query": "人权赵",
+        "description": "直接搜索'人权'后紧跟'赵'的句子"
+    },
+    {
+        "query": "收到",
+        "description": "直接搜索'收到'这个词"
+    },
+    {
+        "query": "产品",
+        "description": "直接搜索'产品'这个词"
+    },
+    {
+        "query": "找个",
+        "description": "直接搜索以'找'开头，紧接着'个'的句子"
+    },
+    {
+        "query": "矮矮小小",
+        "description": "直接搜索'矮矮小小'这个成语"
+    },
+    {
+        "query": "人工智能",
+        "description": "直接搜索'人工智能'这个词"
+    },
+    {
+        "query": "捏",
+        "description": "直接搜索'捏'这个词"
+    },
+    {
+        "query": "人权侮",
+        "description": "直接搜索'人权'后紧跟'侮'的句子"
+    },
+    {
+        "query": "大的企业",
+        "description": "直接搜索以'大'开头，紧跟'的企业'的句子"
+    },
+    {
+        "query": "一个转侧",
+        "description": "直接搜索以'一个'开头，紧跟'转侧'的句子"
+    },
+    {
+        "query": "子宫",
+        "description": "直接搜索'子宫'这个词"
+    },
+    {
+        "query": "打惨",
+        "description": "直接搜索'打惨'这个词"
+    },
+    {
+        "query": "和谐与圆",
+        "description": "直接搜索以'和谐与圆'开头的句子"
+    },
+    {
+        "query": "百孔千疮",
+        "description": "直接搜索'百孔千疮'这个成语"
+    },
+    {
+        "query": "人权这",
+        "description": "直接搜索'人权'后紧跟'这'的句子"
+    },
+    {
+        "query": "大数据",
+        "description": "直接搜索'大数据'这个词"
+    },
+    {
+        "query": "吃看看",
+        "description": "直接搜索以'吃'开头，紧跟'看看'的句子"
+    },
+    {
+        "query": "比拟",
+        "description": "直接搜索'比拟'这个词"
+    },
+    {
+        "query": "帮什么忙",
+        "description": "直接搜索以'帮'开头，紧跟'什么忙'的句子"
+    },
+    {
+        "query": "我这个",
+        "description": "直接搜索以'我这个'开头的句子"
+    },
+    {
+        "query": "口",
+        "description": "直接搜索'口'这个词"
+    },
+    {
+        "query": "还不行吗",
+        "description": "直接搜索以'还'开头，紧跟'不行吗'的句子"
+    },
+    {
+        "query": "确认过眼神",
+        "description": "直接搜索以'确认过眼神'开头的句子"
+    },
+    {
+        "query": "人权享",
+        "description": "直接搜索'人权'后紧跟'享'的句子"
+    },
+    {
+        "query": "听闻",
+        "description": "直接搜索'听闻'这个词"
+    },
+    {
+        "query": "批条",
+        "description": "直接搜索'批条'这个词"
+    },
+    {
+        "query": "条子",
+        "description": "直接搜索'条子'这个词"
+    },
+    {
+        "query": "人权破",
+        "description": "直接搜索'人权'后紧跟'破'的句子"
+    },
+    {
+        "query": "见欺",
+        "description": "直接搜索'见欺'这个词"
+    },
+    {
+        "query": "大概肯定",
+        "description": "直接搜索以'大概'开头，紧跟'肯定'的句子"
+    }
+]
+```

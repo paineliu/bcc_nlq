@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "赵代江 @ .", 
+        "description": "赵代江后面接一个词"
+    },
+    {
+        "query": "黔西县", 
+        "description": "黔西县"
+    },
+    {
+        "query": "./[r v] 系列", 
+        "description": "动词或代词后接系列"
+    },
+    {
+        "query": "想法 @/[v v] 时", 
+        "description": "想法后接两个动词或代词，且最后一个可能是时间词"
+    },
+    {
+        "query": "(n) 的 前提 是 学 (n){len($1)=2}", 
+        "description": "名词后接'的'，'的'后面是长度为2的名词，'是'后面接'学'"
+    },
+    {
+        "query": "目的 (v) 运用{count>9}", 
+        "description": "目的后接动词，且该动词出现次数大于9"
+    },
+    {
+        "query": "浇铸 (v) 行政{len($1)!=3}", 
+        "description": "浇铸后接非长度为3的词"
+    },
+    {
+        "query": "作宝 @/[w v]", 
+        "description": "作宝后接一个词，可能是形容词或动词"
+    },
+    {
+        "query": "(n) 好 (w){len($1)!=3}", 
+        "description": "名词后接'好'，但'好'的前面不是一个长度为3的词"
+    },
+    {
+        "query": "多 ./[w v]", 
+        "description": "多后接一个词，可能是形容词或动词"
+    },
+    {
+        "query": "怪 (n) 少{begin($1)!=[消 村 属 错]}", 
+        "description": "怪后接名词，但名词的开始不是消、村、属或错"
+    },
+    {
+        "query": "平图 ./d 多文", 
+        "description": "平图后接一个介词，然后是多文"
+    },
+    {
+        "query": ", . 内心", 
+        "description": "逗号后接一个点，然后是内心"
+    },
+    {
+        "query": "../r 现象 ../v", 
+        "description": "两个连续的词，可能是副词和动词"
+    },
+    {
+        "query": "(v) (n){len($1)!=2}", 
+        "description": "一个动词后接一个不是长度为2的词"
+    },
+    {
+        "query": "(n) 为{count>6}", 
+        "description": "名词后接'为'，且该结构出现次数大于6"
+    },
+    {
+        "query": "生活 ./[u v] 丛林", 
+        "description": "生活后接一个介词，然后是动词或名词，再接丛林"
+    },
+    {
+        "query": "还有 @ 人", 
+        "description": "还有后接一个词"
+    },
+    {
+        "query": "../[r v] 民办", 
+        "description": "动词或代词后接民办"
+    },
+    {
+        "query": "(n) 规范 (v){len($1)=4; len($2)!=3}", 
+        "description": "名词后接规范，规范后面接一个不是长度为3的词"
+    },
+    {
+        "query": "请 . 记者", 
+        "description": "请后接一个点，然后是记者"
+    },
+    {
+        "query": "(d) 严{len($1)!=2}", 
+        "description": "副词后接'严'，但'严'的前面不是一个长度为2的词"
+    },
+    {
+        "query": "自文 ~/[v v] 。", 
+        "description": "自文后接两个动词或代词，且最后一个可能是句号"
+    },
+    {
+        "query": "(n) 张 (n){len($1)>1}", 
+        "description": "两个长度大于1的名词相连"
+    },
+    {
+        "query": "(w) 提高 准入 (n){$1!=$2}", 
+        "description": "提高后接准入，但提高和准入不是同一个词"
+    },
+    {
+        "query": "表示 。/w", 
+        "description": "表示后接一个句号，可能是动词或名词"
+    },
+    {
+        "query": "@ 向", 
+        "description": "向后接一个词"
+    },
+    {
+        "query": "表示 w", 
+        "description": "表示后接一个词"
+    },
+    {
+        "query": "尚 ~/[v v] 多方", 
+        "description": "尚后接两个动词或代词，且最后一个可能是多方"
+    },
+    {
+        "query": "关注 .... ।", 
+        "description": "关注后接三个点，可能是句尾符号"
+    },
+    {
+        "query": "(m) 位 业内 人士 分析 说 (w){$1!=$2}", 
+        "description": "多位业内人士分析后接说，但分析和说不是同一个词"
+    },
+    {
+        "query": "介绍 。/w", 
+        "description": "介绍后接一个句号，可能是动词或名词"
+    },
+    {
+        "query": "腿 . 走好", 
+        "description": "腿后接一个点，然后是走好"
+    },
+    {
+        "query": "问计 (v) 十三五{begin($1)!=[蓝 场 都]}", 
+        "description": "问计后接动词，且动词的开始不是蓝、场或都"
+    },
+    {
+        "query": "从/p 以下 几 个 方面 着力/vd", 
+        "description": "从后接介词，然后是以下几个方面，最后是着力动词"
+    },
+    {
+        "query": "中小城市 @ 大力", 
+        "description": "中小城市后接大力"
+    },
+    {
+        "query": "建议", 
+        "description": "建议"
+    },
+    {
+        "query": "电商 (n) 体系{len($1)=2}", 
+        "description": "电商后接一个长度为2的名词体系"
+    },
+    {
+        "query": "企业 及/c 人才", 
+        "description": "企业后接及，然后是人才"
+    },
+    {
+        "query": "云 (nr) 四川省{len($1)>1}", 
+        "description": "云后接四川省，且云的长度大于1"
+    }
+]
+```

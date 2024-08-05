@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "处处d+a[，+。]",
+        "description": "处处d后接形容词，然后是逗号或句号"
+    },
+    {
+        "query": "处处d a[， 。]",
+        "description": "处处d后接形容词，然后是逗号或句号"
+    },
+    {
+        "query": "往往v[，+。]",
+        "description": "往往v后接逗号或句号"
+    },
+    {
+        "query": "往往v[， 。]",
+        "description": "往往v后接逗号或句号"
+    },
+    {
+        "query": "m[颗+粒]n",
+        "description": "m后接'颗'或'粒'，然后是名词"
+    },
+    {
+        "query": "m[颗 粒]n",
+        "description": "m后接'颗'或'粒'，然后是名词"
+    },
+    {
+        "query": "恰巧v+a[，+。]",
+        "description": "恰巧v后接副词，然后是逗号或句号"
+    },
+    {
+        "query": "恰巧v a[， 。]",
+        "description": "恰巧v后接副词，然后是逗号或句号"
+    },
+    {
+        "query": "[s+t]拿进来n",
+        "description": "'s+t'组合后接'拿进来'，然后是名词"
+    },
+    {
+        "query": "[s t]拿进来n",
+        "description": "'s+t'组合后接'拿进来'，然后是名词"
+    },
+    {
+        "query": "不妨a[，+。]",
+        "description": "不妨a后接逗号或句号"
+    },
+    {
+        "query": "不妨a[， 。]",
+        "description": "不妨a后接逗号或句号"
+    },
+    {
+        "query": "[不觉+不禁+不堪][v+a+n+r][，+。]",
+        "description": "'不觉+不禁+不堪'后接动词、副词、名词、形容词，然后是逗号或句号"
+    },
+    {
+        "query": "[不觉 不禁 不堪][v a n r][， 。]",
+        "description": "'不觉+不禁+不堪'后接动词、副词、名词、形容词，然后是逗号或句号"
+    },
+    {
+        "query": "一道v[v+a+n+r][，+。]",
+        "description": "一道v后接动词、副词、名词、形容词，然后是逗号或句号"
+    },
+    {
+        "query": "一道v[v a n r][， 。]",
+        "description": "一道v后接动词、副词、名词、形容词，然后是逗号或句号"
+    },
+    {
+        "query": "v这个a[，+。]",
+        "description": "动词v后接'这个'，然后是副词，最后是逗号或句号"
+    },
+    {
+        "query": "v这个a[， 。]",
+        "description": "动词v后接'这个'，然后是副词，最后是逗号或句号"
+    },
+    {
+        "query": "[抽+提供+道+定+从事+懂]个",
+        "description": "'抽+提供+道+定+从事+懂'组合后接'个'"
+    },
+    {
+        "query": "[抽 提供 道 定 从事 懂]个",
+        "description": "'抽+提供+道+定+从事+懂'组合后接'个'"
+    },
+    {
+        "query": "高速d+a[，+。]",
+        "description": "高速d后接形容词，然后是逗号或句号"
+    },
+    {
+        "query": "高速d a[， 。]",
+        "description": "高速d后接形容词，然后是逗号或句号"
+    },
+    {
+        "query": "[送+叫+使+卖+画+办+讲+玩+系]个",
+        "description": "'送+叫+使+卖+画+办+讲+玩+系'组合后接'个'"
+    },
+    {
+        "query": "[送 叫 使 卖 画 办 讲 玩 系]个",
+        "description": "'送+叫+使+卖+画+办+讲+玩+系'组合后接'个'"
+    },
+    {
+        "query": "急忙a[，+。]",
+        "description": "急忙a后接逗号或句号"
+    },
+    {
+        "query": "急忙a[， 。]",
+        "description": "急忙a后接逗号或句号"
+    },
+    {
+        "query": "不堪[v+a+n+r][，+。]",
+        "description": "动词v后接副词、形容词、名词、形容词，然后是逗号或句号"
+    },
+    {
+        "query": "不堪[v a n r][， 。]",
+        "description": "动词v后接副词、形容词、名词、形容词，然后是逗号或句号"
+    },
+    {
+        "query": "w[q+r+d+c+v+a++n+m++p]男.女w",
+        "description": "组合[q+r+d+c+v+a++n+m++p]后接'男.女'，并作为整体出现在句中"
+    },
+    {
+        "query": "w[q r d c v a  n m  p]男.女w",
+        "description": "组合[q+r+d+c+v+a++n+m++p]后接'男.女'，并作为整体出现在句中"
+    },
+    {
+        "query": "w[q+r+d+c+v+a++n+m++p]学.教w",
+        "description": "组合[q+r+d+c+v+a++n+m++p]后接'学.教'，并作为整体出现在句中"
+    },
+    {
+        "query": "w[q r d c v a  n m  p]学.教w",
+        "description": "组合[q+r+d+c+v+a++n+m++p]后接'学.教'，并作为整体出现在句中"
+    },
+    {
+        "query": "不过v+u[，+。]",
+        "description": "动词v后接'不过'，然后是副词和逗号或句号"
+    },
+    {
+        "query": "不过v u[， 。]",
+        "description": "动词v后接'不过'，然后是副词和逗号或句号"
+    },
+    {
+        "query": "何必v+y[，+。]",
+        "description": "动词v后接'何必'，然后是副词和逗号或句号"
+    },
+    {
+        "query": "何必v y[， 。]",
+        "description": "动词v后接'何必'，然后是副词和逗号或句号"
+    },
+    {
+        "query": "尽量v+v[，+。]",
+        "description": "动词v后接'尽量'，然后是动词和逗号或句号"
+    },
+    {
+        "query": "尽量v v[， 。]",
+        "description": "动词v后接'尽量'，然后是动词和逗号或句号"
+    },
+    {
+        "query": "[，+。]c+v+v+[，+。]",
+        "description": "逗号或句号后接副词、动词、动词，然后是逗号或句号"
+    },
+    {
+        "query": "[， 。]c v v [， 。]",
+        "description": "逗号或句号后接副词、动词、动词，然后是逗号或句号"
+    }
+]
+```

@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "出席/v 典礼 。/w",
+        "description": "动词出席后接名词典礼，且典礼后可能是句尾"
+    },
+    {
+        "query": "成为 @/[v v] 关键词",
+        "description": "成为后接一个单音节或双音节动词作为关键词"
+    },
+    {
+        "query": "(vn) 投入 (d){end($2)=[越 午]}",
+        "description": "动词投入后接副词，且副词的结束部分是'越'或'午'"
+    },
+    {
+        "query": "宽 ~ 市场",
+        "description": "宽后面接一个词，可能是任意词性"
+    },
+    {
+        "query": "访问",
+        "description": "直接的访问"
+    },
+    {
+        "query": "就 (ns) 半岛{end($1)!=[存 爷 叶]}",
+        "description": "就后接地名半岛，但不包括'存'、'爷'或'叶'结尾的地名"
+    },
+    {
+        "query": "会见 ./[u v] 韩国",
+        "description": "会见后接一个介词或动词，然后是韩国"
+    },
+    {
+        "query": "现场 @",
+        "description": "现场后可能接一个词，按词性归并统计"
+    },
+    {
+        "query": "举行 ~/[v v]",
+        "description": "举行后可能离合出现一个动词"
+    },
+    {
+        "query": "(ns) 国民 (n){end($1)=[坦 叼]}",
+        "description": "国民后接名词，但名词的结束部分不包括'tan'或'dao'"
+    },
+    {
+        "query": "vn n",
+        "description": "动名词后面接名词"
+    },
+    {
+        "query": "要求 @/[m v] 大队",
+        "description": "要求后接一个介词或动词，然后是大队"
+    },
+    {
+        "query": "石",
+        "description": "单个字符'石'"
+    },
+    {
+        "query": "感叹 ~",
+        "description": "感叹词后接一个词，可能是任意词性"
+    },
+    {
+        "query": "中华 @",
+        "description": "中华后接一个词，按词性归并统计"
+    },
+    {
+        "query": "总的来看 (w) 大部分{count<952}",
+        "description": "总的来看后接形容词大部分，且这部分的频次小于952"
+    },
+    {
+        "query": "公司 @/[vn v] 负责人",
+        "description": "公司后接单音节或双音节动词或名词作为负责人"
+    },
+    {
+        "query": "调整 @/[w v]",
+        "description": "调整后接一个介词或动词"
+    },
+    {
+        "query": "网传 (v) 后{len($1)=2}",
+        "description": "动词网传后接一个长度为2的连续字符序列"
+    },
+    {
+        "query": "这样",
+        "description": "直接的'这样'"
+    },
+    {
+        "query": "(n) 将 (r){len($2)!=3}",
+        "description": "名词后接'将'，但'将'后面不是3个字符"
+    },
+    {
+        "query": "(v) (n){$1=$2}",
+        "description": "两个相邻的动词和名词，且两者内容相同"
+    },
+    {
+        "query": "(n) 改革 (vn){count<353}",
+        "description": "名词改革后接动词，且这部分的频次小于353"
+    },
+    {
+        "query": "数据",
+        "description": "直接的数据"
+    },
+    {
+        "query": "安全 才/d 落地",
+        "description": "安全后接副词'才'，然后是落地"
+    },
+    {
+        "query": "图片 ~ 人民",
+        "description": "图片后接一个词，可能是任意词性，然后是人民"
+    },
+    {
+        "query": "那么 a ？",
+        "description": "那么后接形容词'a'，然后是问号"
+    },
+    {
+        "query": "安全 v",
+        "description": "安全后接一个动词"
+    },
+    {
+        "query": "了 (w){count>9}",
+        "description": "了后出现频次大于9的句子"
+    },
+    {
+        "query": "不 ~ 旅客",
+        "description": "不后接一个词，可能是任意词性，然后是旅客"
+    },
+    {
+        "query": "飞行 (an) 是{count>5}",
+        "description": "飞行后接名词，然后是频次大于5的'是'"
+    },
+    {
+        "query": "说 .",
+        "description": "说后可能接一个标点符号"
+    },
+    {
+        "query": "../[n v] 怎么",
+        "description": "双音节动词后接'怎么'"
+    },
+    {
+        "query": "(n) (v){len($1)=2; len($2)=1}",
+        "description": "两个相邻的名词和动词，且名词长度为2，动词长度为1"
+    },
+    {
+        "query": ", ~/[c v] 闹事",
+        "description": "逗号后离合出现一个介词或动词，然后是闹事"
+    },
+    {
+        "query": "维权 ~/[d v] 有",
+        "description": "维权后离合出现一个副词或动词，然后是有"
+    },
+    {
+        "query": "../[r v] 舒服",
+        "description": "双音节动词后接'舒服'"
+    },
+    {
+        "query": "照顾 (r) 感觉{end($1)=[人 没]}",
+        "description": "照顾后接一个副词，然后是感觉，但感觉的结束部分不包括'人'或'mei'"
+    },
+    {
+        "query": "(v) 咱们{end($1)!=[罗 去]}",
+        "description": "动词后接'咱们'，但'咱们'的结束部分不包括'罗'或'qu'"
+    },
+    {
+        "query": "(v) 于{len($1)!=3}",
+        "description": "动词后接'于'，但'于'前面不是3个字符"
+    }
+]
+```

@@ -1,0 +1,124 @@
+```json
+[
+    {
+        "query": "海 + 。 / w",
+        "description": "海后接一个英文句点"
+    },
+    {
+        "query": "海 . / w",
+        "description": "海后接一个中文句点"
+    },
+    {
+        "query": "九 /m + 、",
+        "description": "九后接一个英文逗号"
+    },
+    {
+        "query": "九 /m 、",
+        "description": "九后接一个中文逗号"
+    },
+    {
+        "query": "将 /d + 使 + 国企 + 更 + 好 + 地 + 融入 /v",
+        "description": "将后接使、国企、更、好、地、融入"
+    },
+    {
+        "query": "将 /d 使 国企 更 好 地 融入 /v",
+        "description": "将后接使、国企、更、好、地、融入"
+    },
+    {
+        "query": "不如 + 问责 /v + 一",
+        "description": "不如后接问责、一"
+    },
+    {
+        "query": "不如 问责 /v 一",
+        "description": "不如后接问责、一"
+    },
+    {
+        "query": "V + 细 /a",
+        "description": "动词后接细、形容词"
+    },
+    {
+        "query": "V 细 /a",
+        "description": "动词后接细、形容词"
+    },
+    {
+        "query": "每次 /r + 去",
+        "description": "每次后接去"
+    },
+    {
+        "query": "每次 /r 去",
+        "description": "每次后接去"
+    },
+    {
+        "query": "转变 /v",
+        "description": "动词后接转变"
+    },
+    {
+        "query": "a * 恩情 /n",
+        "description": "形容词后接恩情、专名"
+    },
+    {
+        "query": "青海湖 + 的 /u + 冬天",
+        "description": "青海湖后接的、冬天"
+    },
+    {
+        "query": "仝江 /nr + 摄",
+        "description": "仝江后接摄"
+    },
+    {
+        "query": "死活 /d",
+        "description": "死活后无其他内容"
+    },
+    {
+        "query": "表达 /v",
+        "description": "动词后无其他内容"
+    },
+    {
+        "query": "， + 一个 /m + 不",
+        "description": "逗号后接一个、不"
+    },
+    {
+        "query": "精神 /n + 主要 + 体现 /v",
+        "description": "精神后接主要、体现"
+    },
+    {
+        "query": "精神 /n 主要 体现 /v",
+        "description": "精神后接主要、体现"
+    },
+    {
+        "query": "的 + 一半 /m + 。",
+        "description": "的后接一半、句点"
+    },
+    {
+        "query": "的 一半 /m 。",
+        "description": "的后接一半、句点"
+    },
+    {
+        "query": "企业 /n + 兼并",
+        "description": "企业后接兼并"
+    },
+    {
+        "query": "， + 服务 /v + 跟",
+        "description": "逗号后接服务、跟"
+    },
+    {
+        "query": "吗 /y + ？ /w",
+        "description": "吗后接问号"
+    },
+    {
+        "query": "仨 /v + 核桃 + 俩枣 /n",
+        "description": "仨后接核桃、俩枣"
+    },
+    {
+        "query": "三江源 + 办公室 /n + 供图",
+        "description": "三江源后接办公室、供图"
+    },
+    {
+        "query": "评 /v + 日志 + 管用 + 。 /w",
+        "description": "评后接日志、管用、句点"
+    },
+    {
+        "query": "期间 /f + ， + 他 + 电话 + 不断 + 。 /w",
+        "description": "期间后接逗号、他、电话、不断、句点"
+    }
+]
+```

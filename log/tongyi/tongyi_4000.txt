@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "说干就干的",
+        "description": "包含'说干就干的'这个短语的句子"
+    },
+    {
+        "query": "孔雀男",
+        "description": "包含'孔雀男'这个名词的句子"
+    },
+    {
+        "query": "潸潸",
+        "description": "包含'潸潸'这个形容词的句子"
+    },
+    {
+        "query": "便",
+        "description": "包含'便'这个动词的句子"
+    },
+    {
+        "query": "我插一句",
+        "description": "包含'我插一句'这个短语的句子"
+    },
+    {
+        "query": "评价",
+        "description": "包含'评价'这个动词的句子"
+    },
+    {
+        "query": "略没",
+        "description": "包含'略没'这个动词的句子"
+    },
+    {
+        "query": "智联",
+        "description": "包含'智联'这个名词的句子"
+    },
+    {
+        "query": "苦处",
+        "description": "包含'苦处'这个名词的句子"
+    },
+    {
+        "query": "融融",
+        "description": "包含'融融'这个形容词的句子"
+    },
+    {
+        "query": "尖尖",
+        "description": "包含'尖尖'这个形容词的句子"
+    },
+    {
+        "query": "二叔",
+        "description": "包含'二叔'这个名词的句子"
+    },
+    {
+        "query": "节奏",
+        "description": "包含'节奏'这个名词的句子"
+    },
+    {
+        "query": "保人权",
+        "description": "包含'保人权'这个短语的句子"
+    },
+    {
+        "query": "追追",
+        "description": "包含'追追'这个名词的句子"
+    },
+    {
+        "query": "高山滑雪",
+        "description": "包含'高山滑雪'这个短语的句子"
+    },
+    {
+        "query": "汉阳江",
+        "description": "包含'汉阳江'这个名词的句子"
+    },
+    {
+        "query": "不殊",
+        "description": "包含'不殊'这个形容词的句子"
+    },
+    {
+        "query": "一句回复",
+        "description": "包含'一句回复'这个短语的句子"
+    },
+    {
+        "query": "可能大概也许",
+        "description": "包含'可能大概也许'这个短语的句子"
+    },
+    {
+        "query": "我有一次",
+        "description": "包含'我有一次'这个短语的句子"
+    },
+    {
+        "query": "你可真",
+        "description": "包含'你可真'这个短语的句子"
+    },
+    {
+        "query": "协力同心",
+        "description": "包含'协力同心'这个短语的句子"
+    },
+    {
+        "query": "爆发了",
+        "description": "包含'爆发了'这个短语的句子"
+    },
+    {
+        "query": "变动",
+        "description": "包含'变动'这个名词的句子"
+    },
+    {
+        "query": "区块链",
+        "description": "包含'区块链'这个名词的句子"
+    },
+    {
+        "query": "腐女+",
+        "description": "包含'腐女+'这个短语的句子"
+    },
+    {
+        "query": "腐女",
+        "description": "包含'腐女'这个名词的句子"
+    },
+    {
+        "query": "湾人权",
+        "description": "包含'湾人权'这个短语的句子"
+    },
+    {
+        "query": "和谐了：",
+        "description": "包含'和谐了：'这个短语的句子"
+    },
+    {
+        "query": "学坏a",
+        "description": "包含'学坏a'这个短语的句子"
+    },
+    {
+        "query": "不d五",
+        "description": "包含'不d五'这个短语的句子"
+    },
+    {
+        "query": "终生n",
+        "description": "包含'终生n'这个短语的句子"
+    },
+    {
+        "query": "状况a",
+        "description": "包含'状况a'这个短语的句子"
+    },
+    {
+        "query": "r++n",
+        "description": "包含'r++n'这个短语的句子"
+    },
+    {
+        "query": "r  n",
+        "description": "包含'r  n'这个短语的句子"
+    },
+    {
+        "query": "v活动房",
+        "description": "包含'v活动房'这个短语的句子"
+    },
+    {
+        "query": "V了n",
+        "description": "包含'V了n'这个短语的句子"
+    },
+    {
+        "query": "m石",
+        "description": "包含'm石'这个短语的句子"
+    },
+    {
+        "query": "一箱子n",
+        "description": "包含'一箱子n'这个短语的句子"
+    }
+]
+```

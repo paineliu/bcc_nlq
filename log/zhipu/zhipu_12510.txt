@@ -1,0 +1,88 @@
+以下是您提供的检索式转换为带含义的JSON结构：
+
+```json
+[
+    {
+        "query": "建设 .",
+        "description": "建设后面隔一个字"
+    },
+    {
+        "query": "三十三 (v) 扶贫{len($1)=2}",
+        "description": "三十三后接一个二字动词扶贫"
+    },
+    {
+        "query": "(ns) 是{middle($1)=[大 绝]}",
+        "description": "地名后接是，且地名中包含大或绝"
+    },
+    {
+        "query": "(nr) 会见{len($1)>2}",
+        "description": "人名后接会见，且人名长度大于2"
+    },
+    {
+        "query": "(a) 县城 也 能 (v){$1=$2}",
+        "description": "形容词后接县城也能动词，且形容词和动词相同"
+    },
+    {
+        "query": "下 @/[n v]",
+        "description": "下后接一个词，词性为名词或动词"
+    },
+    {
+        "query": "九成",
+        "description": "包含九成的句子"
+    },
+    {
+        "query": "浙江省/ns 卫计委",
+        "description": "浙江省后接地名卫计委"
+    },
+    {
+        "query": "d 受惠 u",
+        "description": "副词后接受惠助词"
+    },
+    {
+        "query": "附近 @",
+        "description": "附近后接一个词"
+    },
+    {
+        "query": "苦干 (v) 刮目相看{begin($1)=[实 勒 自 角]}",
+        "description": "苦干后接动词刮目相看，且动词以实、勒、自、角开头"
+    },
+    {
+        "query": "a 地 说 w",
+        "description": "形容词后接地说，且说在句尾"
+    },
+    {
+        "query": "， (p) 济源不胜枚举{len($1)=1}",
+        "description": "逗号后接一个单字介词济源，且济源不胜枚举"
+    },
+    {
+        "query": "大 ~/[n v] 。",
+        "description": "大后接一个词，词性为名词或动词，句尾有句号"
+    },
+    {
+        "query": "奔 @/[n v] ，",
+        "description": "奔后接一个词，词性为名词或动词，句尾有逗号"
+    },
+    {
+        "query": "@ 市委",
+        "description": "一个词性后接市委"
+    },
+    {
+        "query": "今日 ~",
+        "description": "今日后接一个词"
+    },
+    {
+        "query": "../z 服务卡",
+        "description": "二字状态词后接服务卡"
+    },
+    {
+        "query": "说",
+        "description": "包含说的句子"
+    },
+    {
+        "query": "管 (w){count<687}",
+        "description": "管后接标点符号，且出现的频次小于687"
+    }
+]
+```
+
+请注意，JSON结构中的描述是根据您的检索式提供的，可能需要根据实际使用场景进一步调整以确保准确性。

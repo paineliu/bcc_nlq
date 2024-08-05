@@ -1,0 +1,166 @@
+以下是将给定检索式转换为带含义的json结构的列表：
+
+```json
+[
+    {
+        "query": "圣保罗+大学/n+国际法",
+        "description": "圣保罗后接大学，大学后接国际法"
+    },
+    {
+        "query": "圣保罗 大学/n 国际法",
+        "description": "圣保罗后接大学，大学后接国际法"
+    },
+    {
+        "query": "o+太/d",
+        "description": "o后接太"
+    },
+    {
+        "query": "o 太/d",
+        "description": "o后接太"
+    },
+    {
+        "query": "房子/n+里/f",
+        "description": "房子后接里"
+    },
+    {
+        "query": "房子/n 里/f",
+        "description": "房子后接里"
+    },
+    {
+        "query": "电+人口/n+用电",
+        "description": "电后接人口，人口后接用电"
+    },
+    {
+        "query": "电 人口/n 用电",
+        "description": "电后接人口，人口后接用电"
+    },
+    {
+        "query": "，/w+想+致富+，+先/d",
+        "description": "逗号后接想，想后接致富，最后逗号后接先"
+    },
+    {
+        "query": "，/w 想 致富 ， 先/d",
+        "description": "逗号后接想，想后接致富，最后逗号后接先"
+    },
+    {
+        "query": "按/p",
+        "description": "按操作"
+    },
+    {
+        "query": "./v渴了",
+        "description": "单音节动词后接渴了"
+    },
+    {
+        "query": "扒/v+../n+",
+        "description": "扒动词后接空格，空格后接名词"
+    },
+    {
+        "query": "扒/v ../n ",
+        "description": "扒动词后接空格，空格后接名词"
+    },
+    {
+        "query": "研究/v+制定+配套+举措/n",
+        "description": "研究动词后接制定，制定后接配套，配套后接举措"
+    },
+    {
+        "query": "研究/v 制定 配套 举措/n",
+        "description": "研究动词后接制定，制定后接配套，配套后接举措"
+    },
+    {
+        "query": "吃/V",
+        "description": "吃作为动词使用"
+    },
+    {
+        "query": "a*爱情/n",
+        "description": "形容词后接爱情"
+    },
+    {
+        "query": "居住/V",
+        "description": "居住作为动词使用"
+    },
+    {
+        "query": "渔家人/n+吃",
+        "description": "渔家人后接吃"
+    },
+    {
+        "query": "渔家人/n 吃",
+        "description": "渔家人后接吃"
+    },
+    {
+        "query": "吧+，/w+到",
+        "description": "吧后接逗号，逗号后接到"
+    },
+    {
+        "query": "吧 ，/w 到",
+        "description": "吧后接逗号，逗号后接到"
+    },
+    {
+        "query": "阿嚏/n",
+        "description": "阿嚏作为一个单独的词"
+    },
+    {
+        "query": "半/m",
+        "description": "半作为一个词性标记"
+    },
+    {
+        "query": "净/d",
+        "description": "净作为一个词性标记"
+    },
+    {
+        "query": ".机/n",
+        "description": "句末点后接机器"
+    },
+    {
+        "query": "中国/ns+经济+的+新作+新书/n",
+        "description": "中国后接经济，经济后接的，的后接新作，新作后接新书"
+    },
+    {
+        "query": "中国/ns 经济 的 新作 新书/n",
+        "description": "中国后接经济，经济后接的，的后接新作，新作后接新书"
+    },
+    {
+        "query": "作者+为/v+西班牙",
+        "description": "作者后接为，为后接西班牙"
+    },
+    {
+        "query": "作者 为/v 西班牙",
+        "description": "作者后接为，为后接西班牙"
+    },
+    {
+        "query": "极/d了",
+        "description": "极作为形容词，后接了"
+    },
+    {
+        "query": "朱家坬镇+·/w+泥河沟村",
+        "description": "朱家坬镇后接·，·后接泥河沟村"
+    },
+    {
+        "query": "朱家坬镇 ·/w 泥河沟村",
+        "description": "朱家坬镇后接·，·后接泥河沟村"
+    },
+    {
+        "query": "，/w+园区/n",
+        "description": "逗号后接园区"
+    },
+    {
+        "query": "，/w 园区/n",
+        "description": "逗号后接园区"
+    },
+    {
+        "query": "记忆+../v",
+        "description": "记忆后接空格，空格后接动词"
+    },
+    {
+        "query": "记忆 ../v",
+        "description": "记忆后接空格，空格后接动词"
+    },
+    {
+        "query": "，/w+丁一/nr",
+        "description": "逗号后接丁一"
+    },
+    {
+        "query": "，/w 丁一/nr",
+        "description": "逗号后接丁一"
+    }
+]
+```

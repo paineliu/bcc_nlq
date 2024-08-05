@@ -1,0 +1,166 @@
+以下是将给定的检索式转换为带含义的json结构的结果：
+
+```json
+[
+    {
+        "query": "w s V着",
+        "description": "动词后面接单音节的形容词和动词"
+    },
+    {
+        "query": "v洞房",
+        "description": "动词后接洞房"
+    },
+    {
+        "query": "让V就V",
+        "description": "动词后接就，再接动词"
+    },
+    {
+        "query": "n的n是n",
+        "description": "名词后接的名词，再接是，再接名词"
+    },
+    {
+        "query": "v药房",
+        "description": "动词后接药房"
+    },
+    {
+        "query": "被V+和+V+",
+        "description": "被动词后接和，再接动词"
+    },
+    {
+        "query": "被V 和 V ",
+        "description": "被动词后接和，再接动词，最后句尾"
+    },
+    {
+        "query": "w有两q",
+        "description": "动词后接有，再接量词和名词"
+    },
+    {
+        "query": "w+v得颇a+w",
+        "description": "动词后接得，再接颇，再接形容词，最后接动词"
+    },
+    {
+        "query": "w v得颇a w",
+        "description": "动词后接得，再接颇，再接形容词，最后接动词"
+    },
+    {
+        "query": "一q+蛋糕",
+        "description": "量词后接蛋糕"
+    },
+    {
+        "query": "一q 蛋糕",
+        "description": "量词后接蛋糕"
+    },
+    {
+        "query": "a公用",
+        "description": "形容词后接公用"
+    },
+    {
+        "query": "当N遇上V",
+        "description": "名词后接遇上，再接动词"
+    },
+    {
+        "query": "v凹了",
+        "description": "动词后接凹了"
+    },
+    {
+        "query": "要+n",
+        "description": "动词后接名词"
+    },
+    {
+        "query": "要 n",
+        "description": "动词后接名词"
+    },
+    {
+        "query": "？+n是n+？",
+        "description": "疑问词后接名词，再接是，再接名词，最后疑问词"
+    },
+    {
+        "query": "？ n是n ？",
+        "description": "疑问词后接名词，再接是，再接名词，最后疑问词"
+    },
+    {
+        "query": "住房v",
+        "description": "动词后接住房"
+    },
+    {
+        "query": "没用n+v",
+        "description": "形容词后接没用，再接动词"
+    },
+    {
+        "query": "没用n v",
+        "description": "形容词后接没用，再接动词"
+    },
+    {
+        "query": "构建n",
+        "description": "动词后接构建"
+    },
+    {
+        "query": "v下n",
+        "description": "动词后接下，再接名词"
+    },
+    {
+        "query": "n进行",
+        "description": "名词后接进行"
+    },
+    {
+        "query": "a主人",
+        "description": "形容词后接主人"
+    },
+    {
+        "query": "故意v",
+        "description": "形容词后接故意，再接动词"
+    },
+    {
+        "query": "一套N",
+        "description": "量词后接一套"
+    },
+    {
+        "query": "v月亮",
+        "description": "动词后接月亮"
+    },
+    {
+        "query": "a有余",
+        "description": "形容词后接有余"
+    },
+    {
+        "query": "空房v",
+        "description": "动词后接空房"
+    },
+    {
+        "query": "v一挥",
+        "description": "动词后接一挥"
+    },
+    {
+        "query": "a勇气",
+        "description": "形容词后接勇气"
+    },
+    {
+        "query": "a光亮",
+        "description": "形容词后接光亮"
+    },
+    {
+        "query": "a反问",
+        "description": "形容词后接反问"
+    },
+    {
+        "query": "中国n",
+        "description": "名词后接中国"
+    },
+    {
+        "query": "v一问",
+        "description": "动词后接一问"
+    },
+    {
+        "query": "古老的N",
+        "description": "形容词后接古老的"
+    },
+    {
+        "query": "的那m+q+n",
+        "description": "量词后接的，再接量词和名词"
+    },
+    {
+        "query": "的那m q n",
+        "description": "量词后接的，再接量词和名词"
+    }
+]
+```

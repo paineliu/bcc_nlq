@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "用大碗吃",
+        "description": "使用大碗进行进食的动作"
+    },
+    {
+        "query": "幸好",
+        "description": "表达庆幸的情况"
+    },
+    {
+        "query": "冻结",
+        "description": "状态词后面紧跟着的动作，表示事物的状态改变"
+    },
+    {
+        "query": "创建和谐",
+        "description": "创建一个和谐的环境或氛围"
+    },
+    {
+        "query": "够大气",
+        "description": "形容某人或某事非常大方、豪爽"
+    },
+    {
+        "query": "大意义",
+        "description": "具有重大或深远的意义"
+    },
+    {
+        "query": "俗称",
+        "description": "通常用来指代特定事物的常见名称或通俗说法"
+    },
+    {
+        "query": "吃了饭",
+        "description": "完成用餐的动作"
+    },
+    {
+        "query": "请求",
+        "description": "向他人提出要求或帮助"
+    },
+    {
+        "query": "异常不",
+        "description": "用于描述情况超出正常范围，但具体描述部分缺失"
+    },
+    {
+        "query": "空间和谐",
+        "description": "在空间布局或设计中追求的协调与平衡"
+    },
+    {
+        "query": "比人权",
+        "description": "比较人权状况或相关概念"
+    },
+    {
+        "query": "文学",
+        "description": "涉及文学作品、文学创作或文学研究"
+    },
+    {
+        "query": "得是",
+        "description": "表示必须或应当是某种情况"
+    },
+    {
+        "query": "失掉",
+        "description": "失去或丢失某物或某种状态"
+    },
+    {
+        "query": "幼院",
+        "description": "儿童福利机构或幼儿园"
+    },
+    {
+        "query": "燃料",
+        "description": "提供能量的物质，用于燃烧或动力生成"
+    },
+    {
+        "query": "窄窄",
+        "description": "形容空间狭窄或尺寸小"
+    },
+    {
+        "query": "理论上说",
+        "description": "从理论或逻辑的角度进行解释或分析"
+    },
+    {
+        "query": "不太新",
+        "description": "表示新意不足或旧的特性"
+    },
+    {
+        "query": "隔断",
+        "description": "物理上的障碍物或心理上的界限"
+    },
+    {
+        "query": "和谐共创",
+        "description": "共同创造和谐的环境或关系"
+    },
+    {
+        "query": "匹",
+        "description": "用于比较或数量计量的单位"
+    },
+    {
+        "query": "还。",
+        "description": "表示继续或强调动作的延续"
+    },
+    {
+        "query": "不太听话",
+        "description": "形容某人行为或态度不顺从"
+    },
+    {
+        "query": "既要又要",
+        "description": "在不同需求或选择之间寻求平衡"
+    },
+    {
+        "query": "理解不了什么",
+        "description": "表示无法理解或解释某个复杂或抽象的概念"
+    },
+    {
+        "query": "洋芋片",
+        "description": "一种零食，由土豆切片油炸制成"
+    },
+    {
+        "query": "人权分",
+        "description": "人权的细分领域或具体权利的划分"
+    },
+    {
+        "query": "暗暗",
+        "description": "暗地里或秘密地进行某些活动"
+    },
+    {
+        "query": "拆散",
+        "description": "破坏关系或组合，使之分离"
+    },
+    {
+        "query": "法律",
+        "description": "规定社会秩序和行为规范的规则体系"
+    },
+    {
+        "query": "更女人",
+        "description": "形容女性特质或特征更加明显或突出"
+    },
+    {
+        "query": "‘得’",
+        "description": "引号内的‘得’可能是口语或特定情境下的表达"
+    },
+    {
+        "query": "一路平安",
+        "description": "祝福语，希望旅途安全无恙"
+    },
+    {
+        "query": "调查",
+        "description": "收集信息以了解某事的详细情况"
+    },
+    {
+        "query": "凑凑合合",
+        "description": "勉强达到满意或合格的状态"
+    },
+    {
+        "query": "不太显眼",
+        "description": "表示事物不易被注意到或不突出"
+    },
+    {
+        "query": "石板",
+        "description": "用于铺路、建筑或装饰的石材"
+    },
+    {
+        "query": "鬼斧神工",
+        "description": "形容技艺高超，难以模仿或超越"
+    }
+]
+```

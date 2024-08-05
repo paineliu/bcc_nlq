@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "生产",
+        "description": "包含生产这个词汇的句子"
+    },
+    {
+        "query": "仅仅对于",
+        "description": "包含仅仅对于这个词汇的句子"
+    },
+    {
+        "query": "随着",
+        "description": "包含随着这个词汇的句子"
+    },
+    {
+        "query": "大大小小的三",
+        "description": "包含大大小小的三这个词汇的句子"
+    },
+    {
+        "query": "抽纸",
+        "description": "包含抽纸这个词汇的句子"
+    },
+    {
+        "query": "爱嫁谁就",
+        "description": "包含爱嫁谁就这个词汇的句子"
+    },
+    {
+        "query": "正行",
+        "description": "包含正行这个词汇的句子"
+    },
+    {
+        "query": "合并",
+        "description": "包含合并这个词汇的句子"
+    },
+    {
+        "query": "起因",
+        "description": "包含起因这个词汇的句子"
+    },
+    {
+        "query": "浩浩荡荡",
+        "description": "包含浩浩荡荡这个词汇的句子"
+    },
+    {
+        "query": "敢就",
+        "description": "包含敢就这个词汇的句子"
+    },
+    {
+        "query": "何其有幸",
+        "description": "包含何其有幸这个词汇的句子"
+    },
+    {
+        "query": "溅在",
+        "description": "包含溅在这个词汇的句子"
+    },
+    {
+        "query": "有证无证",
+        "description": "包含有证无证这个词汇的句子"
+    },
+    {
+        "query": "借以",
+        "description": "包含借以这个词汇的句子"
+    },
+    {
+        "query": "和谐与爱",
+        "description": "包含和谐与爱这个词汇的句子"
+    },
+    {
+        "query": "相得益彰",
+        "description": "包含相得益彰这个词汇的句子"
+    },
+    {
+        "query": "水门汀",
+        "description": "包含水门汀这个词汇的句子"
+    },
+    {
+        "query": "张开",
+        "description": "包含张开这个词汇的句子"
+    },
+    {
+        "query": "都！",
+        "description": "包含都！这个词汇的句子"
+    },
+    {
+        "query": "名词听起来",
+        "description": "包含名词听起来这个词汇的句子"
+    },
+    {
+        "query": "比较",
+        "description": "包含比较这个词汇的句子"
+    },
+    {
+        "query": "这么一件大事",
+        "description": "包含这么一件大事这个词汇的句子"
+    },
+    {
+        "query": "人权但",
+        "description": "包含人权但这个词汇的句子"
+    },
+    {
+        "query": "典型的",
+        "description": "包含典型的这个词汇的句子"
+    },
+    {
+        "query": "情趣",
+        "description": "包含情趣这个词汇的句子"
+    },
+    {
+        "query": "不太轻松",
+        "description": "包含不太轻松这个词汇的句子"
+    },
+    {
+        "query": "意识形态",
+        "description": "包含意识形态这个词汇的句子"
+    },
+    {
+        "query": "多大点事儿",
+        "description": "包含多大点事儿这个词汇的句子"
+    },
+    {
+        "query": "审美和谐",
+        "description": "包含审美和谐这个词汇的句子"
+    },
+    {
+        "query": "顺嘴",
+        "description": "包含顺嘴这个词汇的句子"
+    },
+    {
+        "query": "和谐共生",
+        "description": "包含和谐共生这个词汇的句子"
+    },
+    {
+        "query": "颤颤悠悠",
+        "description": "包含颤颤悠悠这个词汇的句子"
+    },
+    {
+        "query": "人权当",
+        "description": "包含人权当这个词汇的句子"
+    },
+    {
+        "query": "深度",
+        "description": "包含深度这个词汇的句子"
+    },
+    {
+        "query": "鬼",
+        "description": "包含鬼这个词汇的句子"
+    },
+    {
+        "query": "出名",
+        "description": "包含出名这个词汇的句子"
+    },
+    {
+        "query": "被自杀",
+        "description": "包含被自杀这个词汇的句子"
+    },
+    {
+        "query": "朕",
+        "description": "包含朕这个词汇的句子"
+    },
+    {
+        "query": "税利",
+        "description": "包含税利这个词汇的句子"
+    }
+]
+```

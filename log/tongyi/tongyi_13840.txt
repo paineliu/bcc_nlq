@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "多v[，+。]", 
+        "description":"多后面接动词，且动词后面紧跟着逗号或句号"
+    },
+    {
+        "query": "多v[， 。]", 
+        "description":"多后面接动词，且动词后面紧跟着逗号或句号"
+    },
+    {
+        "query": "铭刻在+n[+f+s]", 
+        "description":"铭刻在后面接名词，且该名词含有f或s属性"
+    },
+    {
+        "query": "铭刻在 n[ f s]", 
+        "description":"铭刻在后面接含有f或s属性的名词"
+    },
+    {
+        "query": "漠视n[，+。]", 
+        "description":"漠视后面接名词，且名词后面紧跟着逗号或句号"
+    },
+    {
+        "query": "漠视n[， 。]", 
+        "description":"漠视后面接名词，且名词后面紧跟着逗号或句号"
+    },
+    {
+        "query": "w你再[v+a+d+p+i+l+n]", 
+        "description":"以w开头，你再后面接动词，动词属性包括a、d、p、i、l、n"
+    },
+    {
+        "query": "w你再[v a d p i l n]", 
+        "description":"以w开头，你再后面接动词，动词属性包括a、d、p、i、l、n"
+    },
+    {
+        "query": "终年d+n[，+。]", 
+        "description":"终年d后面接名词，且名词后面紧跟着逗号或句号"
+    },
+    {
+        "query": "终年d n[， 。]", 
+        "description":"终年d后面接名词，且名词后面紧跟着逗号或句号"
+    },
+    {
+        "query": "特地v+u[，+。]", 
+        "description":"特地v后面接u，且u后面紧跟着逗号或句号"
+    },
+    {
+        "query": "特地v u[， 。]", 
+        "description":"特地v后面接u，且u后面紧跟着逗号或句号"
+    },
+    {
+        "query": "当然d+n[，+。]", 
+        "description":"当然d后面接名词，且名词后面紧跟着逗号或句号"
+    },
+    {
+        "query": "当然d n[， 。]", 
+        "description":"当然d后面接名词，且名词后面紧跟着逗号或句号"
+    },
+    {
+        "query": "靠n+[f+s]", 
+        "description":"靠后面接名词，且该名词含有f或s属性"
+    },
+    {
+        "query": "靠n [f s]", 
+        "description":"靠后面接含有f或s属性的名词"
+    },
+    {
+        "query": "[想起+考虑+登+靠+作为+解+掉]个", 
+        "description":"由想起、考虑、登、靠、作为、解、掉组成的序列，中间无空格，最后为个"
+    },
+    {
+        "query": "[想起 考虑 登 靠 作为 解 掉]个", 
+        "description":"由想起、考虑、登、靠、作为、解、掉组成的序列，中间无空格，最后为个"
+    },
+    {
+        "query": "全力n[，+。]", 
+        "description":"全力后面接名词，且名词后面紧跟着逗号或句号"
+    },
+    {
+        "query": "全力n[， 。]", 
+        "description":"全力后面接名词，且名词后面紧跟着逗号或句号"
+    },
+    {
+        "query": "正在v[，+。]", 
+        "description":"正在后面接动词，且动词后面紧跟着逗号或句号"
+    },
+    {
+        "query": "正在v[， 。]", 
+        "description":"正在后面接动词，且动词后面紧跟着逗号或句号"
+    },
+    {
+        "query": "立刻v+a[，+。]", 
+        "description":"立刻后面接动词，动词属性包括a，且动词后面紧跟着逗号或句号"
+    },
+    {
+        "query": "立刻v a[， 。]", 
+        "description":"立刻后面接动词，动词属性包括a，且动词后面紧跟着逗号或句号"
+    },
+    {
+        "query": "原先v+n[，+。]", 
+        "description":"原先后面接动词，动词后面紧跟着逗号或句号"
+    },
+    {
+        "query": "原先v n[， 。]", 
+        "description":"原先后面接动词，动词后面紧跟着逗号或句号"
+    },
+    {
+        "query": "溅[f+r]", 
+        "description":"溅后面接含有f或r属性的词"
+    },
+    {
+        "query": "溅[f r]", 
+        "description":"溅后面接含有f或r属性的词"
+    },
+    {
+        "query": "有些a[，+。]", 
+        "description":"有些后面接形容词，且形容词后面紧跟着逗号或句号"
+    },
+    {
+        "query": "有些a[， 。]", 
+        "description":"有些后面接形容词，且形容词后面紧跟着逗号或句号"
+    },
+    {
+        "query": "有意[v+a+n+r][，+。]", 
+        "description":"有意后面接动词，动词属性包括a、n、r，且动词后面紧跟着逗号或句号"
+    },
+    {
+        "query": "有意[v a n r][， 。]", 
+        "description":"有意后面接动词，动词属性包括a、n、r，且动词后面紧跟着逗号或句号"
+    },
+    {
+        "query": "w是.非[q+r+d+c+v+a++n+m++p]w", 
+        "description":"w是.非后面接形容词、动词、名词、连词、动词，且最后为w"
+    },
+    {
+        "query": "w是.非[q r d c v a  n m  p]w", 
+        "description":"w是.非后面接形容词、动词、名词、连词、动词，且最后为w"
+    },
+    {
+        "query": "接连v+u[，+。]", 
+        "description":"接连v后面接u，且u后面紧跟着逗号或句号"
+    },
+    {
+        "query": "接连v u[， 。]", 
+        "description":"接连v后面接u，且u后面紧跟着逗号或句号"
+    },
+    {
+        "query": "全力v+v[，+。]", 
+        "description":"全力v后面接v，且v后面紧跟着逗号或句号"
+    },
+    {
+        "query": "全力v v[， 。]", 
+        "description":"全力v后面接v，且v后面紧跟着逗号或句号"
+    },
+    {
+        "query": "一向d+a[，+。]", 
+        "description":"一向d后面接形容词，且形容词后面紧跟着逗号或句号"
+    },
+    {
+        "query": "一向d a[， 。]", 
+        "description":"一向d后面接形容词，且形容词后面紧跟着逗号或句号"
+    }
+]
+```

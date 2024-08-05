@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "(v) 中国 (n){begin($2)!=[加 推]}",
+        "description": "动词开头的中国，后面不接加或推的名词"
+    },
+    {
+        "query": "个 n ：",
+        "description": "一个名词"
+    },
+    {
+        "query": "调 (n) 成为{len($1)!=3}",
+        "description": "调的名词后面不是3个字的成为"
+    },
+    {
+        "query": "的 ~ 常态",
+        "description": "的后面接一个词的常态"
+    },
+    {
+        "query": "常态 ~",
+        "description": "常态后面可能接一个词"
+    },
+    {
+        "query": "为 (ns) 大学{end($1)=[京 托 烧]}",
+        "description": "为的后面接大学，大学后面可能是京、托或烧"
+    },
+    {
+        "query": "在 ~/[n v] 一体",
+        "description": "在后面离合出现名词或动词，然后是一体"
+    },
+    {
+        "query": "是 (v) 梯度{begin($1)!=[托 狗]}",
+        "description": "是动词后面接梯度，但不接托或狗"
+    },
+    {
+        "query": "是 (v) 两{begin($1)=[允 赚]}",
+        "description": "是动词后面接两，且两字开头是允或赚"
+    },
+    {
+        "query": "是 ~ 城市",
+        "description": "是后面接一个词的城市"
+    },
+    {
+        "query": "(p) 城市 发展 模式 (v){len($1)=1; len($2)!=2}",
+        "description": "介词城市后接发展模式，模式后面不是两个字的动词"
+    },
+    {
+        "query": "(ns) 美景{begin($1)=[洱 望 杯 骚]}",
+        "description": "单音节名词美景，且开头是洱、望、杯或骚"
+    },
+    {
+        "query": "洱海 @ 的",
+        "description": "洱海后面接一个词的定语"
+    },
+    {
+        "query": "苍山 @/[n v] ，",
+        "description": "苍山后面可能是名词或动词，后面是逗号"
+    },
+    {
+        "query": "的 (n) 来之不易{begin($1)!=[忙 归 鬼]}",
+        "description": "的后面接名词来之不易，但不接忙、归或鬼"
+    },
+    {
+        "query": "齐 @",
+        "description": "齐后面接一个词"
+    },
+    {
+        "query": "清湖",
+        "description": "清湖"
+    },
+    {
+        "query": "人间 @",
+        "description": "人间后面接一个词"
+    },
+    {
+        "query": "洱海 ~ 相连",
+        "description": "洱海后面接一个词，表示相连"
+    },
+    {
+        "query": "@ 鲸龙",
+        "description": "一个词，可能是鲸龙"
+    },
+    {
+        "query": "常态",
+        "description": "常态"
+    },
+    {
+        "query": "烟波",
+        "description": "烟波"
+    },
+    {
+        "query": "更 ./[v v] 依法",
+        "description": "更后面可能是两个动词，再接依法"
+    },
+    {
+        "query": "衡水 ~/[v v] 企业",
+        "description": "衡水后面离合出现动词，再接企业"
+    },
+    {
+        "query": "不 (v) 。{len($1)!=3}",
+        "description": "不后面是动词，但不接3个字的词，后面是句点"
+    },
+    {
+        "query": "(d) 普遍 (w){$1!=$2}",
+        "description": "副词普遍，但前后词不同"
+    },
+    {
+        "query": "部分 (n) 面源{begin($1)=[地 圈 百]}",
+        "description": "部分后面接面源，但不接地、圈或百"
+    },
+    {
+        "query": "是",
+        "description": "是"
+    },
+    {
+        "query": "(r) 有 企业 热衷 (p){count>7}",
+        "description": "有企业热衷，且相关实例频次大于7"
+    },
+    {
+        "query": "蔡华伟 @/[v v]",
+        "description": "蔡华伟后面可能是动词"
+    },
+    {
+        "query": "(nr) (v){end($2)=[图 声]}",
+        "description": "人名后面接动词，动词后面可能是图或声"
+    },
+    {
+        "query": "晴雨 @ 准确率",
+        "description": "晴雨后面接准确率"
+    },
+    {
+        "query": "(v) (p){len($1)!=3}",
+        "description": "动词后面接一个字的介词"
+    },
+    {
+        "query": "制度 ../[vn v] 激发",
+        "description": "制度后面离合出现名词或动词，再接激发"
+    },
+    {
+        "query": "制图 ./[w v] 蔡华伟",
+        "description": "制图后面可能是动词或蔡华伟"
+    },
+    {
+        "query": "每天 . 登记",
+        "description": "每天后面接一个字的登记"
+    },
+    {
+        "query": "产业 (n){end($1)!=[凉 树]}",
+        "description": "产业后面不是凉或树"
+    },
+    {
+        "query": "(t) 国企{len($1)=2}",
+        "description": "国企，但国企两个字"
+    },
+    {
+        "query": "利剑 (n){begin($1)=[突 丢]}",
+        "description": "利剑，但利剑开头是突或丢"
+    },
+    {
+        "query": "(vn) 机关 (v){begin($1)!=[麻 以 开]}",
+        "description": "机关后面接动词，但动词开头不是麻、以或开"
+    }
+]
+```

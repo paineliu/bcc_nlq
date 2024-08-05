@@ -1,0 +1,156 @@
+```json
+[
+    {
+        "query": "治理 .. 带",
+        "description": "治理后面接任意词缀的带"
+    },
+    {
+        "query": "汉丰湖 (c) 不是{count>6}",
+        "description": "包含汉丰湖，且前后不是的实例频次大于6次"
+    },
+    {
+        "query": "~ 带",
+        "description": "带字前后各有一个词"
+    },
+    {
+        "query": "生态 ../[vn v] ，",
+        "description": "生态后面接动词或名词，后面是逗号"
+    },
+    {
+        "query": "淘汰 @/[nr v] 车辆",
+        "description": "淘汰后面接人名或动词，后面是车辆"
+    },
+    {
+        "query": "@ 加速",
+        "description": "加速，加速可能是单字动词"
+    },
+    {
+        "query": "v ： 不 (v) 相互{len($1)!=2}",
+        "description": "动词后面接冒号，然后是不，但不后面不是单字动词"
+    },
+    {
+        "query": "的 ../[n v] 会",
+        "description": "的后面接名词或动词，后面是会"
+    },
+    {
+        "query": "人 ../v 。",
+        "description": "人后面接动词，后面是句点"
+    },
+    {
+        "query": "... 研究",
+        "description": "三个点后面接研究，可能表示省略"
+    },
+    {
+        "query": "。 的 外部/f 董事",
+        "description": "句点后面是的，的后面是外部且词性为f的董事"
+    },
+    {
+        "query": "(n) 如何 (d){len($1)=2; len($2)=1}",
+        "description": "两个名词之间，一个长一个短"
+    },
+    {
+        "query": "厚望 ~/[w v]",
+        "description": "厚望后面接一个词"
+    },
+    {
+        "query": "法治化 (w){count>8}",
+        "description": "法治化，法治化的实例频次大于8"
+    },
+    {
+        "query": "位 央企/j 负责人",
+        "description": "位后面接央企且词性为j的负责人"
+    },
+    {
+        "query": "(n) 多元化 (w){$1!=$2}",
+        "description": "两个名词，但不相同"
+    },
+    {
+        "query": "@/[nr v] 说",
+        "description": "以人名或动词开头，后面接说"
+    },
+    {
+        "query": "权力 (vn) 。{len($1)=3}",
+        "description": "权力，且长度为3的词"
+    },
+    {
+        "query": "利息 (n) 须{len($1)<3}",
+        "description": "利息，且长度小于3的词"
+    },
+    {
+        "query": "是 (n) 。{len($1)<3}",
+        "description": "是，且长度小于3的词，后面是句点"
+    },
+    {
+        "query": "(v) 金额 (v){end($1)=[v 招 滚]; len($2)=2}",
+        "description": "金额后面接两个动词，且末尾是招或滚"
+    },
+    {
+        "query": "华电 ../[v v] 新",
+        "description": "华电后面接两个动词，新可能是动词或名词"
+    },
+    {
+        "query": "韩 ../[nr v]",
+        "description": "韩后面接人名或动词"
+    },
+    {
+        "query": "~ 积极",
+        "description": "积极，积极可能是单个词"
+    },
+    {
+        "query": "冉永平 (nr){len($1)>1}",
+        "description": "冉永平，冉永平的长度大于1"
+    },
+    {
+        "query": "明显 (n) 广角{len($1)=2}",
+        "description": "明显后面接长度为2的广角"
+    },
+    {
+        "query": "的 ../[vn v] 状况",
+        "description": "的后面接动词或名词，后面是状况"
+    },
+    {
+        "query": ".. 的",
+        "description": "两个连续的点后面接的"
+    },
+    {
+        "query": "分化 ~ 优化",
+        "description": "分化后面接一个词，优化可能是单个词"
+    },
+    {
+        "query": "分化 (v) 希望{begin($1)!=[郭 伟 细]}",
+        "description": "分化后面接希望，且希望不是郭、伟或细"
+    },
+    {
+        "query": "推动 ~/[vn v] 。",
+        "description": "推动后面接动词或名词，后面是句点"
+    },
+    {
+        "query": "(r) 脸上 有 (n){end($1)!=[凶 几 色 否]}",
+        "description": "脸上后面接有，有后面不是凶、几、色或否"
+    },
+    {
+        "query": "(v) 多少 (n){len($1)!=2; len($2)!=2}",
+        "description": "多少，但不是两个连续的词"
+    },
+    {
+        "query": "过日子 @/[w v]",
+        "description": "过日子后面接一个词"
+    },
+    {
+        "query": "(w) 王林 (d){len($2)<3}",
+        "description": "王林，王林后面是长度小于3的词"
+    },
+    {
+        "query": "笑 (u) 说{len($1)!=2}",
+        "description": "笑后面接说，但笑不是单字"
+    },
+    {
+        "query": "出 @",
+        "description": "出，出可能是单字"
+    },
+    {
+        "query": "华叹 (u) 口气{len($1)!=2}",
+        "description": "华叹后面接一个词，但华叹不是单字"
+    }
+]
+```

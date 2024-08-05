@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "解决 (vn) 纠纷{end($1)=[疗 属 胖 俊]}",
+        "description": "解决 + 动词 + 纠纷，纠纷结束时不包含疗、属、胖、俊四个词"
+    },
+    {
+        "query": "医疗 ~/[n v] 保险",
+        "description": "医疗可能是动词或名词，后面接保险"
+    },
+    {
+        "query": "(vn) 办法 (w){len($1)>1}",
+        "description": "二字动词后面跟着至少两个字的‘办法’"
+    },
+    {
+        "query": "委员 (n){len($1)<3}",
+        "description": "委员这个词的长度小于3"
+    },
+    {
+        "query": "不要 (v) 城市{end($1)!=[祝 昨 步]}",
+        "description": "不要后面接城市，但不接祝、昨、步"
+    },
+    {
+        "query": "因而 (r) 建议{count>5}",
+        "description": "因而后面接建议，且建议出现次数大于5次"
+    },
+    {
+        "query": "高山 ./u 巅",
+        "description": "高山可能是状态词，后面接‘巅’"
+    },
+    {
+        "query": "工地 .",
+        "description": "仅包含‘工地’这个词，后面可能有空格"
+    },
+    {
+        "query": "是 (m) 片{len($1)!=2}",
+        "description": "是后面接一个单字，且这个字不是片"
+    },
+    {
+        "query": "(vn) 应对 过度 (v){end($1)=[作 习 八 头]}",
+        "description": "应对后面接过度，过度后面不接作、习、八、头"
+    },
+    {
+        "query": "消息/n 迅速",
+        "description": "消息后面接迅速"
+    },
+    {
+        "query": "从 何/r 而",
+        "description": "从后面接何，然后接一个连词"
+    },
+    {
+        "query": "危机 (d) 是{len($1)=1}",
+        "description": "危机后面直接接一个单字的‘是’"
+    },
+    {
+        "query": "说 。/w",
+        "description": "说后面接句号"
+    },
+    {
+        "query": "赢得 ../[vn v]",
+        "description": "赢得后面离合出现动词或名词"
+    },
+    {
+        "query": "属于 过度/vd 执法",
+        "description": "属于后面接过度，过度后面是执法"
+    },
+    {
+        "query": "(n) 实现 废水 排放 (m){count<419}",
+        "description": "实现后面接废水排放，废水排放实例少于419个"
+    },
+    {
+        "query": "铝 ~ 了",
+        "description": "铝后面接一个词"
+    },
+    {
+        "query": "别的 (vn) 。{len($1)<3}",
+        "description": "别的后面接一个二字动词，且动词长度小于3"
+    },
+    {
+        "query": "r 利马",
+        "description": "r后面接利马"
+    },
+    {
+        "query": "(v) (nr){len($1)<3}",
+        "description": "一个动词后面接一个人名，且动词长度小于3"
+    },
+    {
+        "query": "(n) (d){begin($1)!=[或 恋 秋]}",
+        "description": "一个名词后面接一个副词，且不以或、恋、秋开头"
+    },
+    {
+        "query": "n 纷争",
+        "description": "名词后面接纷争"
+    },
+    {
+        "query": "ns 将",
+        "description": "ns后面接将"
+    },
+    {
+        "query": "数据 @ 环球",
+        "description": "数据后面接一个词，统计时按照词性归并"
+    },
+    {
+        "query": "(nr) 的 (n){$1=$2}",
+        "description": "一个人名后面接‘的’，然后接另一个名词，两者相同"
+    },
+    {
+        "query": "在 (ns) 遭遇{begin($1)!=[收 传]}",
+        "description": "在后面接ns，遭遇不以收、传开头"
+    },
+    {
+        "query": "的 (v) 柏林{count<697}",
+        "description": "的后面接一个动词，动词后面接柏林，柏林实例少于697个"
+    },
+    {
+        "query": "保护",
+        "description": "仅包含‘保护’这个词"
+    },
+    {
+        "query": "目前 (w) 结果{count>3}",
+        "description": "目前后面接结果，结果出现次数大于3"
+    },
+    {
+        "query": "(n) 为 (n){begin($2)=[世 更 位 犯]}",
+        "description": "一个名词后面接‘为’，然后接另一个名词，且后者以世、更、位、犯开头"
+    },
+    {
+        "query": "持续 v",
+        "description": "持续后面接一个动词"
+    },
+    {
+        "query": "再 (v){len($1)>1}",
+        "description": "再后面接一个长度大于1的动词"
+    },
+    {
+        "query": "(v) ， 背后 (n){len($1)>1}",
+        "description": "一个动词后面接逗号，然后接一个长度大于1的名词"
+    },
+    {
+        "query": "(ns) 石油 公司 (n){len($1)=4; len($2)=2}",
+        "description": "ns后面接石油公司，石油长度为4，公司长度为2"
+    },
+    {
+        "query": "： @/[nt v]",
+        "description": "冒号后面接一个词，可能是名词或动词"
+    },
+    {
+        "query": "页岩 ../n 。",
+        "description": "页岩后面离合出现名词，后面可能接句号"
+    },
+    {
+        "query": "下跌 ../[f v] ，",
+        "description": "下跌后面离合出现动词或副词，后面接逗号"
+    },
+    {
+        "query": "持续 (w){count<922}",
+        "description": "持续后面接一个字，且该字出现次数少于922次"
+    },
+    {
+        "query": "(n) 油价 为何 下挫 (w){end($1)!=[车 刀 线]}",
+        "description": "名词后面接油价为何下挫，为何后面不接车、刀、线"
+    }
+]
+```

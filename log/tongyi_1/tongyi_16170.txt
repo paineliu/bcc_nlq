@@ -1,0 +1,160 @@
+```json
+[
+    {
+        "query": "../ns 能源",
+        "description": "二字短语，动词后面接能源"
+    },
+    {
+        "query": "建星 (v) 。{count>7}",
+        "description": "建星，动词后面，实例频次大于7"
+    },
+    {
+        "query": "河畔 银装素裹/n 。",
+        "description": "河畔后面接银装素裹，名词结尾"
+    },
+    {
+        "query": "冰 @/[v v] 的",
+        "description": "冰后面接一个双音节动词，再接一个词"
+    },
+    {
+        "query": "(d) 交易 野生 (n){len($1)<3; len($2)>1}",
+        "description": "副词接交易，后面接野生，交易长度小于3，野生长度大于1"
+    },
+    {
+        "query": "野生 ~",
+        "description": "野生后面接一个词"
+    },
+    {
+        "query": "土地 (n) 研讨{len($1)=2}",
+        "description": "土地后面接一个长度为2的词，可能是动词或形容词"
+    },
+    {
+        "query": "味道 @",
+        "description": "味道后面接一个词"
+    },
+    {
+        "query": "持久战 (w){count<423}",
+        "description": "持久战，实例频次小于423"
+    },
+    {
+        "query": "杨 @/[v v] 无限",
+        "description": "杨后面接一个双音节动词，再接无限"
+    },
+    {
+        "query": "耐力 ./w",
+        "description": "耐力后面接一个词"
+    },
+    {
+        "query": "拆违 @ 为何",
+        "description": "拆违后面接一个词，可能是疑问词"
+    },
+    {
+        "query": "(nr) 生长 的 (n){begin($1)=[野蛮 躺 测 餐]; len($2)=2}",
+        "description": "生长后面接的名词，生长前面的词不在野蛮、躺、测、餐中，长度为2"
+    },
+    {
+        "query": "种 (n) 。{count<963}",
+        "description": "种后面接一个名词，实例频次小于963"
+    },
+    {
+        "query": "周志伟 (v) 。{len($1)=1}",
+        "description": "周志伟后面接一个长度为1的词"
+    },
+    {
+        "query": "(n) 不如{len($1)<3}",
+        "description": "不如后面接一个长度小于3的词"
+    },
+    {
+        "query": "一家 ... 。",
+        "description": "一家后面可能接多个词，直到句尾"
+    },
+    {
+        "query": "@/[v v] 网友",
+        "description": "动词或副词后面接网友"
+    },
+    {
+        "query": "(v) (u){$1=$2}",
+        "description": "两个连续的单音节动词"
+    },
+    {
+        "query": "(n) 驱 (n){begin($1)=[劣 工 今 恩]}",
+        "description": "名词驱后面接另一个名词，驱前面的词不在劣、工、今、恩中"
+    },
+    {
+        "query": "地方 @/[u v] ，",
+        "description": "地方后面接一个介词或动词，可能后面跟逗号"
+    },
+    {
+        "query": "鸟 @",
+        "description": "鸟后面接一个词"
+    },
+    {
+        "query": "情 (v){len($1)!=3}",
+        "description": "情后面接的不是一个长度为3的词"
+    },
+    {
+        "query": "起来 @/[a v] 。",
+        "description": "起来后面接一个形容词或动词，可能后面跟句号"
+    },
+    {
+        "query": "， @/[v v] 也",
+        "description": "逗号后面接一个动词或副词，后面接也"
+    },
+    {
+        "query": "(n) 出人意料{len($1)=2}",
+        "description": "出人意料后面接一个长度为2的词"
+    },
+    {
+        "query": ".. 的",
+        "description": "两个连续的点后面接一个词"
+    },
+    {
+        "query": "(a) ， 怎样 实现 有 (n){len($1)>1}",
+        "description": "一个形容词后面接逗号，怎样、实现、有三个词，怎样后面接的词长度大于1"
+    },
+    {
+        "query": "(p) 抵触{count<880}",
+        "description": "抵触，实例频次小于880"
+    },
+    {
+        "query": "有力 (w) 最{count<316}",
+        "description": "有力后面接最，实例频次小于316"
+    },
+    {
+        "query": ".../[nr v] 说",
+        "description": "三个点后面接一个人名或动词，然后接说"
+    },
+    {
+        "query": "@/[v v] 拆违",
+        "description": "动词或副词后面接拆违"
+    },
+    {
+        "query": "补办 ~ 免予",
+        "description": "补办后面接一个词，可能是免予"
+    },
+    {
+        "query": "” ~/[v v] 不",
+        "description": "引号后面接一个动词或副词，再接不"
+    },
+    {
+        "query": "亟待解答 ./w",
+        "description": "亟待解答后面接一个词"
+    },
+    {
+        "query": "更 . 地",
+        "description": "更后面接一个词，可能是地"
+    },
+    {
+        "query": "(n) 艺术 (n){len($1)<3; len($2)>1}",
+        "description": "名词艺术后面接另一个名词，艺术前面的词长度小于3，艺术后面的词长度大于1"
+    },
+    {
+        "query": "../v 是",
+        "description": "双音节动词后面接是"
+    },
+    {
+        "query": "周 志凯/nr 说",
+        "description": "周志凯后面接一个人名，然后是说"
+    }
+]
+```

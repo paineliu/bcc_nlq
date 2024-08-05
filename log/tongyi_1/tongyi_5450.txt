@@ -1,0 +1,160 @@
+```json
+[
+    {
+        "query": "@历史", 
+        "description": "以历史为词性归并统计的词"
+    },
+    {
+        "query": "(i) 的 (n){end($2)=[匠 自]}", 
+        "description": "形容词后接'的'，'的'后面是匠或自"
+    },
+    {
+        "query": "(n) 的 产物 (w){count<184}", 
+        "description": "名词后接'的'，'的'后面是产物，且产物实例少于184次"
+    },
+    {
+        "query": "轻艺 (u) 传统{len($1)!=2}", 
+        "description": "轻艺后接一个非词组的词，轻艺不是一个词组"
+    },
+    {
+        "query": "创新 . 一个", 
+        "description": "创新后面隔一个字后接一个词"
+    },
+    {
+        "query": "民族 (n) 的{len($1)=2}", 
+        "description": "民族后接一个长度为2的词"
+    },
+    {
+        "query": "说明 (j) 人{count>4}", 
+        "description": "说明后接人，且实例数量大于4"
+    },
+    {
+        "query": "且 . 收藏", 
+        "description": "且后面接收藏"
+    },
+    {
+        "query": ". 乾隆", 
+        "description": "乾隆可能是句尾，也可能是间隔符号"
+    },
+    {
+        "query": "场景 ./y ?", 
+        "description": "场景后接一个可能的语气词"
+    },
+    {
+        "query": "打铁还需自身硬/l", 
+        "description": "打铁还需自身硬，可能是习用语"
+    },
+    {
+        "query": "(n) 就是{len($1)=2}", 
+        "description": "名词后接'就是'，'就是'的长度为2"
+    },
+    {
+        "query": "曙光", 
+        "description": "曙光可能是单独的词，也可能是句首"
+    },
+    {
+        "query": "./[v v] 滑雪助", 
+        "description": "两个相邻的动词后接滑雪助"
+    },
+    {
+        "query": "如今 ./w 垭头", 
+        "description": "如今后接一个词，可能是句首"
+    },
+    {
+        "query": "的 ./[n v] ，", 
+        "description": "的后面接名词或动词，后面可能是逗号"
+    },
+    {
+        "query": "， (n) 不对{count>4}", 
+        "description": "逗号后接名词，且'不对'的实例数量大于4"
+    },
+    {
+        "query": "(w) 人 (v){$1=$2}", 
+        "description": "人和人都是同词性的词"
+    },
+    {
+        "query": "(p) 人 搓到 (s){len($1)=1; len($2)!=3}", 
+        "description": "人后接搓到，搓到是一个长度为1的词，但不是词组"
+    },
+    {
+        "query": "(n) 开嗓 (d){end($1)!=[玉 排]}",
+        "description": "名词后接开嗓，开嗓后面不接玉或排"
+    },
+    {
+        "query": "笑完 ，/w 又", 
+        "description": "笑完后接逗号，然后可能是句首的词"
+    },
+    {
+        "query": "什么 ~/[i v] ，", 
+        "description": "什么后接一个可能是形容词或动词的词，后面可能是逗号"
+    },
+    {
+        "query": "再 ~/[v v] 看", 
+        "description": "再后接一个可能是动词的词，然后是看"
+    },
+    {
+        "query": "人", 
+        "description": "人可能是单独的词，也可能是句尾"
+    },
+    {
+        "query": "动员 ./w", 
+        "description": "动员可能是句首的词"
+    },
+    {
+        "query": "(v) 干 (d){len($1)=1; len($2)=1}", 
+        "description": "两个长度为1的相邻动词"
+    },
+    {
+        "query": "村民 (r) 写歌{begin($1)=[自 任 烦]}", 
+        "description": "村民后接写歌，写歌的开始可能是自、任或烦"
+    },
+    {
+        "query": "是 ./m 种", 
+        "description": "是后接一个可能是形容词的词"
+    },
+    {
+        "query": "深入人心", 
+        "description": "深入人心可能是单独的词"
+    },
+    {
+        "query": "能 (r) 转型{count<829}", 
+        "description": "能后接一个可能是代词的词，且实例少于829次"
+    },
+    {
+        "query": "会所 . 能", 
+        "description": "会所后接能，可能是句尾"
+    },
+    {
+        "query": "变身", 
+        "description": "变身可能是单独的词"
+    },
+    {
+        "query": "高兴 @", 
+        "description": "高兴可能是单独的词，统计时按照词性归并"
+    },
+    {
+        "query": "(w) 转身 (n){begin($2)=[专 测 屁 活]}", 
+        "description": "转身后接一个可能是名词的词，且名词的开始可能是专、测、屁或活"
+    },
+    {
+        "query": "湖畔 ./v 总经理", 
+        "description": "湖畔后接可能是动词的词，总经理可能是句尾"
+    },
+    {
+        "query": "循环 ../v ，", 
+        "description": "循环后接一个可能是动词的词，后面可能是逗号"
+    },
+    {
+        "query": "很 ~ 。", 
+        "description": "很后接一个可能是词的符号"
+    },
+    {
+        "query": "， (v) 创业{count>4}", 
+        "description": "逗号后接一个可能是动词的词，创业的实例数量大于4"
+    },
+    {
+        "query": "公司 (nr) 搏飞{count<351}", 
+        "description": "公司后接搏飞，搏飞的实例少于351次"
+    }
+]
+```

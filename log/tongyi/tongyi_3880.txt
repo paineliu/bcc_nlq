@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "和谐俺村",
+        "description": "包含\"和谐俺村\"的句子"
+    },
+    {
+        "query": "很有一些",
+        "description": "包含\"很有一些\"的句子"
+    },
+    {
+        "query": "\"糟了.\"",
+        "description": "包含\"糟了.\"的句子"
+    },
+    {
+        "query": "轻快",
+        "description": "单音节动词\"轻快\""
+    },
+    {
+        "query": "气派",
+        "description": "单音节名词\"气派\""
+    },
+    {
+        "query": "色调和谐",
+        "description": "包含\"色调和谐\"的句子"
+    },
+    {
+        "query": "则人权",
+        "description": "包含\"则人权\"的句子"
+    },
+    {
+        "query": "出马",
+        "description": "二字动词\"出马\""
+    },
+    {
+        "query": "清零",
+        "description": "二字动词\"清零\""
+    },
+    {
+        "query": "不至于",
+        "description": "包含\"不至于\"的句子"
+    },
+    {
+        "query": "有被++到",
+        "description": "包含\"有被++到\"的句子"
+    },
+    {
+        "query": "有被  到",
+        "description": "包含\"有被  到\"的句子"
+    },
+    {
+        "query": "大概原来",
+        "description": "包含\"大概原来\"的句子"
+    },
+    {
+        "query": "抑扬顿挫",
+        "description": "包含\"抑扬顿挫\"的句子"
+    },
+    {
+        "query": "和谐包括",
+        "description": "包含\"和谐包括\"的句子"
+    },
+    {
+        "query": "次贷",
+        "description": "单音节名词\"次贷\""
+    },
+    {
+        "query": "倘使",
+        "description": "包含\"倘使\"的句子"
+    },
+    {
+        "query": "爱听不听",
+        "description": "包含\"爱听不听\"的句子"
+    },
+    {
+        "query": "也许一定要",
+        "description": "包含\"也许一定要\"的句子"
+    },
+    {
+        "query": "仆仆",
+        "description": "包含\"仆仆\"的句子"
+    },
+    {
+        "query": "不太真实",
+        "description": "包含\"不太真实\"的句子"
+    },
+    {
+        "query": "和谐的气",
+        "description": "包含\"和谐的气\"的句子"
+    },
+    {
+        "query": "无语",
+        "description": "包含\"无语\"的句子"
+    },
+    {
+        "query": "张妈妈",
+        "description": "包含\"张妈妈\"的句子"
+    },
+    {
+        "query": "你要知道，",
+        "description": "包含\"你要知道，\"的句子"
+    },
+    {
+        "query": "风向南",
+        "description": "包含\"风向南\"的句子"
+    },
+    {
+        "query": "抽在",
+        "description": "包含\"抽在\"的句子"
+    },
+    {
+        "query": "你们这是",
+        "description": "包含\"你们这是\"的句子"
+    },
+    {
+        "query": "和谐之境",
+        "description": "包含\"和谐之境\"的句子"
+    },
+    {
+        "query": "比方讲",
+        "description": "包含\"比方讲\"的句子"
+    },
+    {
+        "query": "釜底抽薪",
+        "description": "包含\"釜底抽薪\"的句子"
+    },
+    {
+        "query": "康与和谐",
+        "description": "包含\"康与和谐\"的句子"
+    },
+    {
+        "query": "美景良辰",
+        "description": "包含\"美景良辰\"的句子"
+    },
+    {
+        "query": "有请到",
+        "description": "包含\"有请到\"的句子"
+    },
+    {
+        "query": "七七",
+        "description": "包含\"七七\"的句子"
+    },
+    {
+        "query": "愁苦",
+        "description": "包含\"愁苦\"的句子"
+    },
+    {
+        "query": "强度",
+        "description": "包含\"强度\"的句子"
+    },
+    {
+        "query": "转而",
+        "description": "包含\"转而\"的句子"
+    },
+    {
+        "query": "但是",
+        "description": "包含\"但是\"的句子"
+    },
+    {
+        "query": "地盘",
+        "description": "包含\"地盘\"的句子"
+    }
+]
+```

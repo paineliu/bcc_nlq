@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "永远v+y[，+。]",
+        "description": "永远动词后接y，y后接逗号或句号"
+    },
+    {
+        "query": "永远v y[， 。]",
+        "description": "永远动词后接y，y后接逗号或句号"
+    },
+    {
+        "query": "一直n[，+。]",
+        "description": "一直名词后接逗号或句号"
+    },
+    {
+        "query": "一直n[， 。]",
+        "description": "一直名词后接逗号或句号"
+    },
+    {
+        "query": "日夜[v+a+n+r][，+。]",
+        "description": "日夜动词后接a、n、r，这些词后接逗号或句号"
+    },
+    {
+        "query": "日夜[v a n r][，+。]",
+        "description": "日夜动词后接a、n、r，这些词后接逗号或句号"
+    },
+    {
+        "query": "a+a的[，+。]",
+        "description": "a和a之间加上了的，后面接逗号或句号"
+    },
+    {
+        "query": "a a的[， 。]",
+        "description": "a和a之间加上了的，后面接逗号或句号"
+    },
+    {
+        "query": "w[q+r+d+c+v+a++n+m++p]矮.高w",
+        "description": "w后面接一组由q、r、d、c、v、a、n、m、p组成的序列，序列后接矮.高，最后再接w"
+    },
+    {
+        "query": "w[q r d c v a  n m  p]矮.高w",
+        "description": "w后面接一组由q、r、d、c、v、a、n、m、p组成的序列，序列后接矮.高，最后再接w"
+    },
+    {
+        "query": "短期n[，+。]",
+        "description": "短期名词后接逗号或句号"
+    },
+    {
+        "query": "短期n[， 。]",
+        "description": "短期名词后接逗号或句号"
+    },
+    {
+        "query": "人为v[，+。]",
+        "description": "人为动词后接逗号或句号"
+    },
+    {
+        "query": "人为v[， 。]",
+        "description": "人为动词后接逗号或句号"
+    },
+    {
+        "query": "不断v+v[，+。]",
+        "description": "不断动词后接另一个相同的动词，动词后接逗号或句号"
+    },
+    {
+        "query": "不断v v[， 。]",
+        "description": "不断动词后接另一个相同的动词，动词后接逗号或句号"
+    },
+    {
+        "query": "只得v+a[，+。]",
+        "description": "只得动词后接a，a后接逗号或句号"
+    },
+    {
+        "query": "只得v a[， 。]",
+        "description": "只得动词后接a，a后接逗号或句号"
+    },
+    {
+        "query": "也许d+a[，+。]",
+        "description": "也许形容词后接a，a后接逗号或句号"
+    },
+    {
+        "query": "也许d a[， 。]",
+        "description": "也许形容词后接a，a后接逗号或句号"
+    },
+    {
+        "query": "w浊.清[q+r+d+c+v+a++n+m++p]w",
+        "description": "w后面接一组由q、r、d、c、v、a、n、m、p组成的序列，序列后接浊.清，最后再接w"
+    },
+    {
+        "query": "w浊.清[q r d c v a  n m  p]w",
+        "description": "w后面接一组由q、r、d、c、v、a、n、m、p组成的序列，序列后接浊.清，最后再接w"
+    },
+    {
+        "query": "w干.湿[q+r+d+c+v+a++n+m++p]w",
+        "description": "w后面接一组由q、r、d、c、v、a、n、m、p组成的序列，序列后接干.湿，最后再接w"
+    },
+    {
+        "query": "w干.湿[q r d c v a  n m  p]w",
+        "description": "w后面接一组由q、r、d、c、v、a、n、m、p组成的序列，序列后接干.湿，最后再接w"
+    },
+    {
+        "query": "另外d+n[，+。]",
+        "description": "另外形容词后接名词，名词后接逗号或句号"
+    },
+    {
+        "query": "另外d n[， 。]",
+        "description": "另外形容词后接名词，名词后接逗号或句号"
+    },
+    {
+        "query": "感到a[，+。]",
+        "description": "感到形容词后接逗号或句号"
+    },
+    {
+        "query": "感到a[， 。]",
+        "description": "感到形容词后接逗号或句号"
+    },
+    {
+        "query": "势必n[，+。]",
+        "description": "势必名词后接逗号或句号"
+    },
+    {
+        "query": "势必n[， 。]",
+        "description": "势必名词后接逗号或句号"
+    },
+    {
+        "query": "互相v+y[，+。]",
+        "description": "互相动词后接y，y后接逗号或句号"
+    },
+    {
+        "query": "互相v y[， 。]",
+        "description": "互相动词后接y，y后接逗号或句号"
+    },
+    {
+        "query": "重新v+v[，+。]",
+        "description": "重新动词后接另一个相同的动词，动词后接逗号或句号"
+    },
+    {
+        "query": "重新v v[， 。]",
+        "description": "重新动词后接另一个相同的动词，动词后接逗号或句号"
+    },
+    {
+        "query": "连年[v+a+n+r][，+。]",
+        "description": "连年动词后接a、n、r，这些词后接逗号或句号"
+    },
+    {
+        "query": "连年[v a n r][，+。]",
+        "description": "连年动词后接a、n、r，这些词后接逗号或句号"
+    },
+    {
+        "query": "我们n[，+。]",
+        "description": "我们名词后接逗号或句号"
+    },
+    {
+        "query": "我们n[， 。]",
+        "description": "我们名词后接逗号或句号"
+    },
+    {
+        "query": "把*上了[上+一上]",
+        "description": "把动词后接上，上后接一上"
+    },
+    {
+        "query": "把*上了[上 一上]",
+        "description": "把动词后接上，上后接一上"
+    }
+]
+```

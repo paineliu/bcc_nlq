@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "和谐与完",
+        "description": "包含\"和谐与完\"的句子"
+    },
+    {
+        "query": "似乎恰如",
+        "description": "包含\"似乎恰如\"的句子"
+    },
+    {
+        "query": "粗大",
+        "description": "包含\"粗大\"的句子"
+    },
+    {
+        "query": "不见得什么",
+        "description": "包含\"不见得什么\"的句子"
+    },
+    {
+        "query": "转眼",
+        "description": "包含\"转眼\"的句子"
+    },
+    {
+        "query": "一起",
+        "description": "包含\"一起\"的句子"
+    },
+    {
+        "query": "见济",
+        "description": "包含\"见济\"的句子"
+    },
+    {
+        "query": "表达",
+        "description": "包含\"表达\"的句子"
+    },
+    {
+        "query": "损伤",
+        "description": "包含\"损伤\"的句子"
+    },
+    {
+        "query": "促人权",
+        "description": "包含\"促人权\"的句子"
+    },
+    {
+        "query": "万分没",
+        "description": "包含\"万分没\"的句子"
+    },
+    {
+        "query": "渍渍",
+        "description": "包含\"渍渍\"的句子"
+    },
+    {
+        "query": "串联",
+        "description": "包含\"串联\"的句子"
+    },
+    {
+        "query": "许倬云",
+        "description": "包含\"许倬云\"的句子"
+    },
+    {
+        "query": "不够味道",
+        "description": "包含\"不够味道\"的句子"
+    },
+    {
+        "query": "商量商量看",
+        "description": "包含\"商量商量看\"的句子"
+    },
+    {
+        "query": "绕嘴",
+        "description": "包含\"绕嘴\"的句子"
+    },
+    {
+        "query": "韵律和谐",
+        "description": "包含\"韵律和谐\"的句子"
+    },
+    {
+        "query": "或许正",
+        "description": "包含\"或许正\"的句子"
+    },
+    {
+        "query": "不太合群",
+        "description": "包含\"不太合群\"的句子"
+    },
+    {
+        "query": "就来",
+        "description": "包含\"就来\"的句子"
+    },
+    {
+        "query": "可以娶的",
+        "description": "包含\"可以娶的\"的句子"
+    },
+    {
+        "query": "湿气不湿气",
+        "description": "包含\"湿气不湿气\"的句子"
+    },
+    {
+        "query": "讲实在的",
+        "description": "包含\"讲实在的\"的句子"
+    },
+    {
+        "query": "启动",
+        "description": "包含\"启动\"的句子"
+    },
+    {
+        "query": "是个人物",
+        "description": "包含\"是个人物\"的句子"
+    },
+    {
+        "query": "赤膊",
+        "description": "包含\"赤膊\"的句子"
+    },
+    {
+        "query": "包容",
+        "description": "包含\"包容\"的句子"
+    },
+    {
+        "query": "利利索索",
+        "description": "包含\"利利索索\"的句子"
+    },
+    {
+        "query": "美是和谐",
+        "description": "包含\"美是和谐\"的句子"
+    },
+    {
+        "query": "网络语言",
+        "description": "包含\"网络语言\"的句子"
+    },
+    {
+        "query": "惹怒",
+        "description": "包含\"惹怒\"的句子"
+    },
+    {
+        "query": "时间是良药",
+        "description": "包含\"时间是良药\"的句子"
+    },
+    {
+        "query": "懂眼",
+        "description": "包含\"懂眼\"的句子"
+    },
+    {
+        "query": "展与和谐",
+        "description": "包含\"展与和谐\"的句子"
+    },
+    {
+        "query": "排场",
+        "description": "包含\"排场\"的句子"
+    },
+    {
+        "query": "松了一口气",
+        "description": "包含\"松了一口气\"的句子"
+    },
+    {
+        "query": "大小三",
+        "description": "包含\"大小三\"的句子"
+    },
+    {
+        "query": "倘若",
+        "description": "包含\"倘若\"的句子"
+    },
+    {
+        "query": "始末",
+        "description": "包含\"始末\"的句子"
+    }
+]
+```

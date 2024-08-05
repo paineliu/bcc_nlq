@@ -1,0 +1,160 @@
+```json
+[
+    {
+        "query": ", (v) 断归路{len($1)!=3}",
+        "description": "逗号后面接一个长度不为3的动词和‘断归路’"
+    },
+    {
+        "query": "(ns) (v){len($1)!=3}",
+        "description": "ns后接一个长度不为3的动词"
+    },
+    {
+        "query": "王进城 ./n",
+        "description": "王后面接名词，表示王进城"
+    },
+    {
+        "query": "(n) (v){begin($2)!=[占 大]}",
+        "description": "名词后接一个不以‘占’或‘大’开头的动词"
+    },
+    {
+        "query": "(c) ，{end($1)=[先 草]}",
+        "description": "连词后以‘先’或‘草’结尾的逗号"
+    },
+    {
+        "query": "作者 ./[v v] 广州",
+        "description": "作者后面接两个动词，然后是广州"
+    },
+    {
+        "query": "(n) 留下 (m){len($1)<3; len($2)>1}",
+        "description": "名词后留下一个长度小于3但大于1的量词"
+    },
+    {
+        "query": "../v 不",
+        "description": "两个连续的动词后接‘不’"
+    },
+    {
+        "query": "实而不塞 ？/w",
+        "description": "实而不塞后面是问号或句末的单词"
+    },
+    {
+        "query": "有识之士 (u) 借鉴{count>5}",
+        "description": "有识之士后面接一个频率大于5的助词‘借鉴’"
+    },
+    {
+        "query": "(ad) 放下{count<625}",
+        "description": "副形词后放下，且实例频次小于625"
+    },
+    {
+        "query": "(d) 放下 它 就 (v){len($2)<3}",
+        "description": "放下后接‘它’，再接一个长度小于3的动词"
+    },
+    {
+        "query": "放置 .",
+        "description": "放置后接一个汉字或符号"
+    },
+    {
+        "query": "说 (w) 有些{count>3}",
+        "description": "说后面接一个频率大于3的‘有些’"
+    },
+    {
+        "query": "(n) (w){len($1)>1}",
+        "description": "名词后接一个长度大于1的单词"
+    },
+    {
+        "query": "孩子 w 更",
+        "description": "孩子后面接一个‘更’"
+    },
+    {
+        "query": "(r) 憋气{len($1)<3}",
+        "description": "‘憋气’前面的长度小于3的词"
+    },
+    {
+        "query": "放开 ./r ！",
+        "description": "放开后接一个单字的代词或关系词，后面是感叹号"
+    },
+    {
+        "query": ": .. 多",
+        "description": "冒号后接两个或更多的汉字"
+    },
+    {
+        "query": "无 (nr) 读{count>6}",
+        "description": "无后接一个人名，然后是频率大于6的‘读’"
+    },
+    {
+        "query": "价钱 (d) 尊贵{count<480}",
+        "description": "价钱后接‘尊贵’，实例频次小于480"
+    },
+    {
+        "query": "是否 (a){end($1)!=[妈 狠 骚]}",
+        "description": "是否后接一个不在‘妈’、‘狠’、‘骚’结尾的形容词"
+    },
+    {
+        "query": "和 (n) 是{end($1)=[品 你]}",
+        "description": "和后接一个名词，且名词结尾是‘品’或‘你’"
+    },
+    {
+        "query": "的 (n) 可以{begin($1)!=[神 谈]}",
+        "description": "‘的’后面接一个不以‘神’或‘谈’开头的名词"
+    },
+    {
+        "query": ".. 应",
+        "description": "两个或更多汉字后接‘应’"
+    },
+    {
+        "query": "治理 (d) 需{len($1)!=2}",
+        "description": "治理后接一个长度不为2的词"
+    },
+    {
+        "query": "润心田 (v) 生活{len($1)<3}",
+        "description": "润心田后接一个长度小于3的动词，然后是生活"
+    },
+    {
+        "query": "同时 ../v 。",
+        "description": "同时后接两个连续的动词，后面是句号"
+    },
+    {
+        "query": "里 育新/v 种",
+        "description": "‘里’后面接育新，然后是动词‘种’"
+    },
+    {
+        "query": ". 一",
+        "description": "一个汉字后接一个‘一’"
+    },
+    {
+        "query": "该 ~/[n v] 一经",
+        "description": "该后接一个名词或动词，后面是‘一经’"
+    },
+    {
+        "query": "@ 副董事长",
+        "description": "副董事长，词性标记为@"
+    },
+    {
+        "query": "人才 .. 国家",
+        "description": "人才后面接两个或更多的汉字，然后是国家"
+    },
+    {
+        "query": "(n) (d){len($1)!=3; len($2)!=2}",
+        "description": "名词后接一个长度不为3且不为2的词"
+    },
+    {
+        "query": "反对 ~/[u v] 。",
+        "description": "反对后接一个助词或动词，后面是句号"
+    },
+    {
+        "query": "人民 (n){len($1)>1}",
+        "description": "人民后面接一个长度大于1的词"
+    },
+    {
+        "query": "新 ../n 。",
+        "description": "新后接一个连续的词，然后是句号"
+    },
+    {
+        "query": "接续 (v) 中国{len($1)>1}",
+        "description": "接续后接一个长度大于1的动词，然后是中国"
+    },
+    {
+        "query": "(a) 、 意蕴 (a){begin($1)=[丰 身 十]}",
+        "description": "形容词后接‘意蕴’，且‘意蕴’前面是‘丰’、‘身’或‘十’"
+    }
+]
+```

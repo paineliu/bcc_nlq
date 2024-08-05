@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "戏精",
+        "description": "包含'戏精'这个词的句子"
+    },
+    {
+        "query": "死了；",
+        "description": "包含'死了；'这个短语的句子，分号后可能有空格或其它字符"
+    },
+    {
+        "query": "也许终究",
+        "description": "包含'也许终究'这个短语的句子"
+    },
+    {
+        "query": "土壤",
+        "description": "包含'土壤'这个词的句子"
+    },
+    {
+        "query": "空空落落",
+        "description": "包含'空空落落'这个短语的句子"
+    },
+    {
+        "query": "胎",
+        "description": "包含'胎'这个词的句子"
+    },
+    {
+        "query": "提拔",
+        "description": "包含'提拔'这个词的句子"
+    },
+    {
+        "query": "狗苟蝇营",
+        "description": "包含'狗苟蝇营'这个短语的句子"
+    },
+    {
+        "query": "惨惨",
+        "description": "包含'惨惨'这个短语的句子"
+    },
+    {
+        "query": "保镖",
+        "description": "包含'保镖'这个词的句子"
+    },
+    {
+        "query": "健全",
+        "description": "包含'健全'这个词的句子"
+    },
+    {
+        "query": "和谐俞正",
+        "description": "包含'和谐俞正'这个短语的句子"
+    },
+    {
+        "query": "逃的逃",
+        "description": "包含'逃的逃'这个短语的句子"
+    },
+    {
+        "query": "不太一样",
+        "description": "包含'不太一样'这个短语的句子"
+    },
+    {
+        "query": "反复",
+        "description": "包含'反复'这个词的句子"
+    },
+    {
+        "query": "无故",
+        "description": "包含'无故'这个词的句子"
+    },
+    {
+        "query": "倒好",
+        "description": "包含'倒好'这个词的句子"
+    },
+    {
+        "query": "塑料",
+        "description": "包含'塑料'这个词的句子"
+    },
+    {
+        "query": "歼灭在",
+        "description": "包含'歼灭在'这个短语的句子"
+    },
+    {
+        "query": "嶙嶙",
+        "description": "包含'嶙嶙'这个词的句子"
+    },
+    {
+        "query": "破篷",
+        "description": "包含'破篷'这个词的句子"
+    },
+    {
+        "query": "贪婪",
+        "description": "包含'贪婪'这个词的句子"
+    },
+    {
+        "query": "浬",
+        "description": "包含'浬'这个词的句子"
+    },
+    {
+        "query": "一致",
+        "description": "包含'一致'这个词的句子"
+    },
+    {
+        "query": "成因",
+        "description": "包含'成因'这个词的句子"
+    },
+    {
+        "query": "和谐上。",
+        "description": "包含'和谐上。'这个短语的句子，句尾有一个句号"
+    },
+    {
+        "query": "合适",
+        "description": "包含'合适'这个词的句子"
+    },
+    {
+        "query": "掉换",
+        "description": "包含'掉换'这个词的句子"
+    },
+    {
+        "query": "仿佛当真",
+        "description": "包含'仿佛当真'这个短语的句子"
+    },
+    {
+        "query": "保险",
+        "description": "包含'保险'这个词的句子"
+    },
+    {
+        "query": "疾",
+        "description": "包含'疾'这个词的句子"
+    },
+    {
+        "query": "够理想",
+        "description": "包含'够理想'这个短语的句子"
+    },
+    {
+        "query": "和谐其实",
+        "description": "包含'和谐其实'这个短语的句子"
+    },
+    {
+        "query": "以便",
+        "description": "包含'以便'这个词的句子"
+    },
+    {
+        "query": "增值税",
+        "description": "包含'增值税'这个词的句子"
+    },
+    {
+        "query": "挺直",
+        "description": "包含'挺直'这个词的句子"
+    },
+    {
+        "query": "铁定",
+        "description": "包含'铁定'这个词的句子"
+    },
+    {
+        "query": "这样也太",
+        "description": "包含'这样也太'这个短语的句子"
+    },
+    {
+        "query": "温和",
+        "description": "包含'温和'这个词的句子"
+    },
+    {
+        "query": "深表遗憾",
+        "description": "包含'深表遗憾'这个短语的句子"
+    }
+]
+```

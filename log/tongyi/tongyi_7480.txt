@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "a凶狠",
+        "description": "形容词后接凶狠"
+    },
+    {
+        "query": "s有",
+        "description": "状态词后接有"
+    },
+    {
+        "query": "挺a一",
+        "description": "副形词后接a再接一个词"
+    },
+    {
+        "query": "V了不？",
+        "description": "动词后接了、不、疑问号"
+    },
+    {
+        "query": "在N上套",
+        "description": "介词后接在、名词、动词"
+    },
+    {
+        "query": "d+a点w",
+        "description": "副词后接a再接一个词、标点符号"
+    },
+    {
+        "query": "d a点w",
+        "description": "副词后接a、副词、标点符号"
+    },
+    {
+        "query": "a住房",
+        "description": "形容词后接住房"
+    },
+    {
+        "query": "V个",
+        "description": "动词后接一个词"
+    },
+    {
+        "query": "v症",
+        "description": "动词后接病症"
+    },
+    {
+        "query": "a专长",
+        "description": "形容词后接专长"
+    },
+    {
+        "query": "裂V",
+        "description": "动词后接裂开"
+    },
+    {
+        "query": "半q",
+        "description": "状态词后接半"
+    },
+    {
+        "query": "一等n",
+        "description": "数量词后接等级名词"
+    },
+    {
+        "query": "m袋烟",
+        "description": "量词后接袋、名词"
+    },
+    {
+        "query": "一边v一边v",
+        "description": "动词后接一边、动词、一边、动词"
+    },
+    {
+        "query": "v出",
+        "description": "动词后接出去"
+    },
+    {
+        "query": "梗n",
+        "description": "名词后接梗"
+    },
+    {
+        "query": "d+p+她",
+        "description": "副词、简称略语、代词后接她"
+    },
+    {
+        "query": "d p 她",
+        "description": "副词、简称略语后接她"
+    },
+    {
+        "query": "p情况",
+        "description": "助词后接情况"
+    },
+    {
+        "query": "v到n+p去",
+        "description": "动词后接到达、名词、动词、去"
+    },
+    {
+        "query": "v到n p去",
+        "description": "动词后接到达、名词、动词、去"
+    },
+    {
+        "query": "a会晤",
+        "description": "形容词后接会晤"
+    },
+    {
+        "query": "到达m",
+        "description": "形容词后接到达"
+    },
+    {
+        "query": "看r的e",
+        "description": "动词后接看、形容词、的、语气词"
+    },
+    {
+        "query": "(v)一(q)，",
+        "description": "动词后接一、数量词、逗号"
+    },
+    {
+        "query": "v洋了",
+        "description": "动词后接洋气"
+    },
+    {
+        "query": "赶忙d",
+        "description": "副词后接赶忙"
+    },
+    {
+        "query": "好看的n",
+        "description": "形容词后接好看、名词"
+    },
+    {
+        "query": "把N绕在",
+        "description": "介词后接把、名词、动词"
+    },
+    {
+        "query": "煨n",
+        "description": "动词后接煨"
+    },
+    {
+        "query": "w恐怕，",
+        "description": "标点符号后接恐怕、逗号"
+    },
+    {
+        "query": "时间像n",
+        "description": "标点符号后接时间、像、名词"
+    },
+    {
+        "query": "a光线",
+        "description": "形容词后接光线"
+    },
+    {
+        "query": "a不必",
+        "description": "形容词后接不必"
+    },
+    {
+        "query": "v上游",
+        "description": "动词后接上游"
+    },
+    {
+        "query": "m+口+n",
+        "description": "量词后接口、名词"
+    },
+    {
+        "query": "m 口 n",
+        "description": "量词后接口、名词"
+    },
+    {
+        "query": "那下m+q+n",
+        "description": "代词后接那、下、量词、名词"
+    }
+]
+```

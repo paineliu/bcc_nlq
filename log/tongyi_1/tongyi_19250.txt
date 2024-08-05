@@ -1,0 +1,124 @@
+根据提供的语料库检索表达式的规则，我们可以将这些检索式转换为带含义的JSON结构。以下是这些检索式的JSON表示：
+
+```json
+[
+    {
+        "query": "@/[m v] 条",
+        "description": "以'm'或've'开头的词后面接'条'"
+    },
+    {
+        "query": "第三十一 (q){count<714}",
+        "description": "第三十一段，实例频次小于714次"
+    },
+    {
+        "query": "第三十二 @/[q v]",
+        "description": "第三十二段，以'q'或've'开头"
+    },
+    {
+        "query": "(m) 条{middle($1)=[三 而 冰 货]}",
+        "description": "以'm'开头的词，中间部分是'三'、'而'、'冰'或'货'的'条'"
+    },
+    {
+        "query": "第三十四 (q){len($1)!=2}",
+        "description": "第三十四段，词的长度不等于2"
+    },
+    {
+        "query": "第三十五 (q){len($1)!=2}",
+        "description": "第三十五段，词的长度不等于2"
+    },
+    {
+        "query": "~",
+        "description": "一个词"
+    },
+    {
+        "query": "(m) (q){middle($1)=[四 婆]}",
+        "description": "以'm'开头的词，中间部分是'四'或'婆'"
+    },
+    {
+        "query": "第四十四 q",
+        "description": "第四十四段，'q'开头的词"
+    },
+    {
+        "query": "第四十五",
+        "description": "第四十五"
+    },
+    {
+        "query": "(m) 条{begin($1)=[第 孩]}",
+        "description": "以'm'开头的词，词首是'第'、'指'、'仔'或'拼'"
+    },
+    {
+        "query": "第四十七",
+        "description": "第四十七"
+    },
+    {
+        "query": "(m) 条{begin($1)=[第 消]}",
+        "description": "以'm'开头的词，词首是'第'、'消'"
+    },
+    {
+        "query": "第五十 .",
+        "description": "第五十个字"
+    },
+    {
+        "query": "第五十一",
+        "description": "第五十一"
+    },
+    {
+        "query": "提供 ./w",
+        "description": "提供后接一个词"
+    },
+    {
+        "query": "(m) 条{count>2}",
+        "description": "以'm'开头的词，实例频次大于2"
+    },
+    {
+        "query": "五定期 向/p 公安",
+        "description": "五定期后面接'向'，然后是'p'介词和'公安'"
+    },
+    {
+        "query": "~/[m v] 条",
+        "description": "以'm'或've'结尾的词后面接'条'"
+    },
+    {
+        "query": "..../m 条",
+        "description": "连续的两个或更多词后接以'm'开头的词"
+    },
+    {
+        "query": "第五十七 ./[q v]",
+        "description": "第五十七段，后接'q'或've'"
+    },
+    {
+        "query": "第五十八 q",
+        "description": "第五十八段，'q'开头的词"
+    },
+    {
+        "query": "(m) 条{len($1)<5}",
+        "description": "以'm'开头的词，长度小于5"
+    },
+    {
+        "query": "第六十 ~/[q v]",
+        "description": "第六十段，以'q'或've'结尾"
+    },
+    {
+        "query": "第六十一 ./q",
+        "description": "第六十一段，后接'q'"
+    },
+    {
+        "query": "(r) 必要 的 (vn){len($1)!=3; len($2)=2}",
+        "description": "以'r'开头的词，'必要'后面接一个长度为2的vn词"
+    },
+    {
+        "query": "~ 条",
+        "description": "一个词后面接'条'"
+    },
+    {
+        "query": "m 条",
+        "description": "以'm'开头的词后面接'条'"
+    },
+    {
+        "query": "(m) 条{begin($1)=[第 消]}",
+        "description": "以'm'开头的词，词首是'第'、'消'"
+    }
+]
+```
+
+请注意，由于提供的检索式中有些可能需要上下文信息才能完全解析，如`提供 ./w`，这里假设它是指提供后接一个词，但具体含义可能取决于上下文。在实际应用中，可能需要进一步的上下文解析。

@@ -1,0 +1,166 @@
+以下是将给定的检索式转换为带含义的json结构后的完整列表：
+
+```json
+[
+    {
+        "query": "发了*火",
+        "description": "发了后面离合出现火"
+    },
+    {
+        "query": "太@",
+        "description": "太对应的词性"
+    },
+    {
+        "query": "封不.",
+        "description": "封后面隔一个字后接不"
+    },
+    {
+        "query": "兴许*也许",
+        "description": "兴许后面离合出现也许"
+    },
+    {
+        "query": "w失.得w",
+        "description": "w失后面隔一个字后接得w"
+    },
+    {
+        "query": "w紧.松w",
+        "description": "w紧后面隔一个字后接松w"
+    },
+    {
+        "query": "w果.因w",
+        "description": "w果后面隔一个字后接因w"
+    },
+    {
+        "query": "望......兴叹",
+        "description": "望后面隔多个字后接兴叹"
+    },
+    {
+        "query": "里..",
+        "description": "里后面隔一个字后接."
+    },
+    {
+        "query": "v*仓房",
+        "description": "v后面离合出现仓房"
+    },
+    {
+        "query": "V下*怒火",
+        "description": "V下后面离合出现怒火"
+    },
+    {
+        "query": "从......里",
+        "description": "从后面隔多个字后接里"
+    },
+    {
+        "query": "给*V",
+        "description": "给后面离合出现V"
+    },
+    {
+        "query": "w浓.淡w",
+        "description": "w浓后面隔一个字后接淡w"
+    },
+    {
+        "query": "好像*确实v",
+        "description": "好像后面离合出现确实v"
+    },
+    {
+        "query": "a*小妇人",
+        "description": "a后面离合出现小妇人"
+    },
+    {
+        "query": "*搞N",
+        "description": "后面离合出现N"
+    },
+    {
+        "query": "他一个....，",
+        "description": "他后面隔多个字后接....，"
+    },
+    {
+        "query": "向..v去",
+        "description": "向后面隔一个字后接v去"
+    },
+    {
+        "query": "少*多",
+        "description": "少后面离合出现多"
+    },
+    {
+        "query": "w减.加w",
+        "description": "w减后面隔一个字后接加w"
+    },
+    {
+        "query": "也许*反而",
+        "description": "也许后面离合出现反而"
+    },
+    {
+        "query": "v*葱花",
+        "description": "v后面离合出现葱花"
+    },
+    {
+        "query": "v得.w",
+        "description": "v后面隔一个字后接得.w"
+    },
+    {
+        "query": "翻~",
+        "description": "翻后面紧跟一个词~"
+    },
+    {
+        "query": "有@+v",
+        "description": "有后面紧跟v，并且有和v的词性不同"
+    },
+    {
+        "query": "有@ v",
+        "description": "有后面紧跟v"
+    },
+    {
+        "query": "~却",
+        "description": "紧跟一个词~，后面紧跟却"
+    },
+    {
+        "query": "报不.",
+        "description": "报后面隔一个字后接."
+    },
+    {
+        "query": "你..+下来w",
+        "description": "你后面隔多个字后接+下来w"
+    },
+    {
+        "query": "你.. 下来w",
+        "description": "你后面隔一个字后接 下来w"
+    },
+    {
+        "query": "不是...甚至",
+        "description": "不是后面隔多个字后接甚至"
+    },
+    {
+        "query": "情感*V上",
+        "description": "情感后面离合出现V上"
+    },
+    {
+        "query": "r+再.吧",
+        "description": "r后面紧跟再.吧"
+    },
+    {
+        "query": "r 再.吧",
+        "description": "r后面紧跟再.吧"
+    },
+    {
+        "query": "他们..+出来w",
+        "description": "他们后面隔多个字后接+出来w"
+    },
+    {
+        "query": "他们.. 出来w",
+        "description": "他们后面隔一个字后接 出来w"
+    },
+    {
+        "query": "猪.....口",
+        "description": "猪后面隔多个字后接.....口"
+    },
+    {
+        "query": "谁.能",
+        "description": "谁后面隔一个字后接 能"
+    },
+    {
+        "query": "你一个.............，",
+        "description": "你后面隔多个字后接一个.............，"
+    }
+]
+```

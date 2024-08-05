@@ -1,0 +1,168 @@
+以下是将给定的检索式转换为带含义的json结构：
+
+```json
+[
+    {
+        "query": "(v) 互联网{end($1)=[动 她 味 放]}",
+        "description": "互联网结尾为动词、她、味或放的句子"
+    },
+    {
+        "query": "用+(a)+思维{count>5}",
+        "description": "包含超过5个使用'a'思维的句子"
+    },
+    {
+        "query": "用 (a) 思维{count>5}",
+        "description": "包含超过5个使用(a)思维的句子"
+    },
+    {
+        "query": "始终+(p)+党中央{len($1)=1}",
+        "description": "始终后紧跟一个p词的句子"
+    },
+    {
+        "query": "始终 (p) 党中央{len($1)=1}",
+        "description": "始终后紧跟一个p词的句子"
+    },
+    {
+        "query": "(v)+(w){len($1)!=2}",
+        "description": "v和w组成的句子长度不等于2"
+    },
+    {
+        "query": "(v) (w){len($1)!=2}",
+        "description": "v和w组成的句子长度不等于2"
+    },
+    {
+        "query": "说+(w){count<643}",
+        "description": "包含少于643个w的说的句子"
+    },
+    {
+        "query": "说 (w){count<643}",
+        "description": "包含少于643个w的说的句子"
+    },
+    {
+        "query": "(v)+(m){count<126}",
+        "description": "v和m组成的句子数量少于126个"
+    },
+    {
+        "query": "(v) (m){count<126}",
+        "description": "v和m组成的句子数量少于126个"
+    },
+    {
+        "query": "(n)什么(n){$1=$2}",
+        "description": "n什么n的句子中，什么前后内容相同"
+    },
+    {
+        "query": "(n)+，+文学+梦+(v){$1!=$2}",
+        "description": "n后接，文学梦v的句子中，文学和梦不相同"
+    },
+    {
+        "query": "(n) ， 文学 梦 (v){$1!=$2}",
+        "description": "n后接，文学梦v的句子中，文学和梦不相同"
+    },
+    {
+        "query": "(n)+(n){begin($1)=[体+苦+拼+稳]}",
+        "description": "n加上另一个n的句子，以体、苦、拼、稳开头"
+    },
+    {
+        "query": "(n) (n){begin($1)=[体 苦 拼 稳]}",
+        "description": "n加上另一个n的句子，以体、苦、拼、稳开头"
+    },
+    {
+        "query": "(z)中的(z){$1=$2}",
+        "description": "z中的z的句子中，前后内容相同"
+    },
+    {
+        "query": "(i){len($1)=4}",
+        "description": "长度为4的i词"
+    },
+    {
+        "query": "谢+(nr)+、{count>5}",
+        "description": "包含超过5个谢加nr、后的句子"
+    },
+    {
+        "query": "谢 (nr) 、{count>5}",
+        "description": "包含超过5个谢加nr、后的句子"
+    },
+    {
+        "query": "打开+(n)+？{len($1)!=3}",
+        "description": "打开n？的句子中，n部分长度不等于3"
+    },
+    {
+        "query": "打开 (n) ？{len($1)!=3}",
+        "description": "打开n？的句子中，n部分长度不等于3"
+    },
+    {
+        "query": "增强+(n)+执行力{begin($1)=[制+吗+哈]}",
+        "description": "增强n执行力的句子，以制、吗、哈开头"
+    },
+    {
+        "query": "增强 (n) 执行力{begin($1)=[制+吗+哈]}",
+        "description": "增强n执行力的句子，以制、吗、哈开头"
+    },
+    {
+        "query": "(vn)+时代+(u){$1=$2}",
+        "description": "vn时代u的句子中，vn和u内容相同"
+    },
+    {
+        "query": "(vn) 时代 (u){$1=$2}",
+        "description": "vn时代u的句子中，vn和u内容相同"
+    },
+    {
+        "query": "(n)+，+不禁+(v){len($1)!=3; len($2)!=3}",
+        "description": "n后接，不禁v的句子中，n和v部分长度均不等于3"
+    },
+    {
+        "query": "(n) ， 不禁 (v){len($1)!=3; len($2)!=3}",
+        "description": "n后接，不禁v的句子中，n和v部分长度均不等于3"
+    },
+    {
+        "query": "老师+(z)+地{begin($1)!=[红+处]}",
+        "description": "老师z地的句子，开头不以红、处开头"
+    },
+    {
+        "query": "老师 (z) 地{begin($1)!=[红 处]}",
+        "description": "老师z地的句子，开头不以红、处开头"
+    },
+    {
+        "query": "(v)+，+我+(d){count>3}",
+        "description": "v后接，我d的句子数量超过3个"
+    },
+    {
+        "query": "(v) ， 我 (d){count>3}",
+        "description": "v后接，我d的句子数量超过3个"
+    },
+    {
+        "query": "富民+(n)+的{count>9}",
+        "description": "富民n的的句子数量超过9个"
+    },
+    {
+        "query": "富民 (n) 的{count>9}",
+        "description": "富民n的的句子数量超过9个"
+    },
+    {
+        "query": "壶+(w){count>4}",
+        "description": "壶w的句子数量超过4个"
+    },
+    {
+        "query": "壶 (w){count>4}",
+        "description": "壶w的句子数量超过4个"
+    },
+    {
+        "query": "输送(n)*w{len($1)=2}",
+        "description": "n输送w的句子中，n长度为2"
+    },
+    {
+        "query": "(d)+差+(n){len($1)=1; len($2)=1}",
+        "description": "d差n的句子中，d和n长度均为1"
+    },
+    {
+        "query": "(d) 差 (n){len($1)=1; len($2)=1}",
+        "description": "d差n的句子中，d和n长度均为1"
+    },
+    {
+        "query": "睡眠(n)*w{len($1)=2}",
+        "description": "n睡眠w的句子中，n长度为2"
+    }
+]
+```
+
+以上json结构包含了给定检索式的完整信息，包括查询语句和对应的描述。

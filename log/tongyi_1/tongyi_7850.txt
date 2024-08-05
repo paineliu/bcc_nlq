@@ -1,0 +1,160 @@
+```json
+[
+    {
+        "query": "是 (v) 形势{len($1)!=2}",
+        "description": "是后面跟一个动词，且形势这个词的长度不等于2"
+    },
+    {
+        "query": "持久战 @",
+        "description": "持久战，统计时按照词性归并"
+    },
+    {
+        "query": "(v) (n){begin($2)!=[运 犯 初]}",
+        "description": "动词后面接名词，但不以运、犯、初开头"
+    },
+    {
+        "query": "责任制 .",
+        "description": "责任制后面是一个词"
+    },
+    {
+        "query": "@ 部分",
+        "description": "部分，统计时按照词性归并"
+    },
+    {
+        "query": "(n) 问题{len($1)>1}",
+        "description": "名词后面接至少两个字的问题"
+    },
+    {
+        "query": "(d) 在 路上 (w){count>3}",
+        "description": "副词接在、路上，且实例频次大于3"
+    },
+    {
+        "query": "讲 @。",
+        "description": "讲，统计时按照词性归并，后面可能接标点"
+    },
+    {
+        "query": "坚持 ../n、",
+        "description": "坚持后面接一个或两个字的名词，且可能是句尾"
+    },
+    {
+        "query": "讲 (vn) 工作{len($1)>1}",
+        "description": "讲后面接一个动名词，且工作这个词的长度大于1"
+    },
+    {
+        "query": "./[r v] 部分",
+        "description": "单音节动词或代词后面接部分"
+    },
+    {
+        "query": "部分 (v) 讲{count>2}",
+        "description": "部分后面接一个动词，且讲这个词的频次大于2"
+    },
+    {
+        "query": "纪律 (c) 政治{count>2}",
+        "description": "纪律后面接政治，且实例频次大于2"
+    },
+    {
+        "query": "的 @/[m v] 段",
+        "description": "的后面接一个单音节名词或动词，且统计时按词性归并"
+    },
+    {
+        "query": "的 (m) 段{count<200}",
+        "description": "的后面接一个名词，且段这个词的频次小于200"
+    },
+    {
+        "query": "(m) ，{begin($1)!=[马 休 呀 烦]}",
+        "description": "单音节名词后面接逗号，但不以马、休、呀、烦开头"
+    },
+    {
+        "query": "(i) 、取信 于 全党 (w){end($1)!=[狗 实 某 郭]}",
+        "description": "单音节代词后面接取信于全党，且全党不是句尾"
+    },
+    {
+        "query": "难 ./w 难",
+        "description": "难后面可能接一个词或标点，且可能是难"
+    },
+    {
+        "query": "工作 @",
+        "description": "工作，统计时按照词性归并"
+    },
+    {
+        "query": "定位 w",
+        "description": "定位后面接一个词"
+    },
+    {
+        "query": "./v 用",
+        "description": "单音节动词后面接用"
+    },
+    {
+        "query": "(v) 创新{count>4}",
+        "description": "动词后面接创新，且实例频次大于4"
+    },
+    {
+        "query": "(n) 建设 (w){begin($1)!=[喂 实 恩 痒]}",
+        "description": "名词后面接建设，但不以喂、实、恩、痒开头"
+    },
+    {
+        "query": "(v) (v){count<833}",
+        "description": "两个连续的动词，且实例频次小于833"
+    },
+    {
+        "query": "坚持 用/p 制度",
+        "description": "坚持后面接用，且用字前有介词"
+    },
+    {
+        "query": "增强 .. 执行力",
+        "description": "增强后面可能接一个或两个字，后面接执行力"
+    },
+    {
+        "query": "的 @",
+        "description": "的，统计时按照词性归并"
+    },
+    {
+        "query": "(l) 有{begin($1)!=[丫 低 赶 顺]}",
+        "description": "连语素后面接有，但不以丫、低、赶、顺开头"
+    },
+    {
+        "query": "不 (v) 相信{len($1)=1}",
+        "description": "不后面跟一个长度为1的动词，表示不相信"
+    },
+    {
+        "query": "人民 (n){end($1)!=[如 主 两]}",
+        "description": "人民后面接一个名词，但不以如、主、两结尾"
+    },
+    {
+        "query": "牢固 ../[v v] 纪律",
+        "description": "牢固后面接一个或两个字的动词，再接纪律"
+    },
+    {
+        "query": "纪律/n 和",
+        "description": "纪律后面接名词，且可能接和"
+    },
+    {
+        "query": "， ~/[d v] 法规",
+        "description": "逗号后面接单音节动词或代词，再接法规"
+    },
+    {
+        "query": "围绕 . 个",
+        "description": "围绕后面可能接一个字，后面接个"
+    },
+    {
+        "query": "(v) 就是 大局 (w){$1!=$2}",
+        "description": "动词后面接就是、大局，且两个词不同"
+    },
+    {
+        "query": "大家 n",
+        "description": "大家后面接一个名词"
+    },
+    {
+        "query": "警醒 ./[w v]",
+        "description": "警醒后面可能接一个词或动词"
+    },
+    {
+        "query": "责任 @/[v v] 起来",
+        "description": "责任，统计时按照词性归并，后面接动词或动词起来"
+    },
+    {
+        "query": "一点 ./w",
+        "description": "一点后面可能接一个词或标点"
+    }
+]
+```

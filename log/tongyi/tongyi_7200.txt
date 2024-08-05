@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "饮醉n",
+        "description": "包含'饮醉'后面接名词的句子"
+    },
+    {
+        "query": "r别",
+        "description": "包含'r别'的句子，'r'代表代词"
+    },
+    {
+        "query": "nr容忍",
+        "description": "包含'nr容忍'的句子，'nr'代表人名"
+    },
+    {
+        "query": "a伯父",
+        "description": "包含'伯父'的句子，'a'代表形容词"
+    },
+    {
+        "query": "v了r+n",
+        "description": "动词后接一个代词再接名词的句子"
+    },
+    {
+        "query": "v了r n",
+        "description": "动词后接一个代词再接一个名词的句子"
+    },
+    {
+        "query": "w+v抖音",
+        "description": "以抖音为结束的二字动词句子"
+    },
+    {
+        "query": "w v抖音",
+        "description": "抖音作为结束的二字动词句子"
+    },
+    {
+        "query": "m安培",
+        "description": "包含'安培'的句子，'m'代表数词"
+    },
+    {
+        "query": "n恨n+v",
+        "description": "名词后接另一个名词再接动词的句子"
+    },
+    {
+        "query": "n恨n v",
+        "description": "名词后接另一个名词再接动词的句子"
+    },
+    {
+        "query": "；n的n是n+。",
+        "description": "以分号开始，后接名词、名词、'是'再接其他词的句子"
+    },
+    {
+        "query": "；n的n是n 。",
+        "description": "以分号开始，后接名词、名词、'是'再接句点的句子"
+    },
+    {
+        "query": "a效率",
+        "description": "包含'效率'的形容词句子"
+    },
+    {
+        "query": "a代数",
+        "description": "包含'代数'的形容词句子"
+    },
+    {
+        "query": "吃+vn",
+        "description": "包含'吃'后面接动名词的句子"
+    },
+    {
+        "query": "吃 vn",
+        "description": "包含'吃'后面直接接动词的句子"
+    },
+    {
+        "query": "的v+d",
+        "description": "包含'的'后面接形容词再接名词的句子"
+    },
+    {
+        "query": "的v d",
+        "description": "包含'的'后面直接接名词的句子"
+    },
+    {
+        "query": "一V一V",
+        "description": "包含'一'后面接动词再接另一个动词的句子"
+    },
+    {
+        "query": "如此v+w",
+        "description": "包含'如此'后面接形容词再接名词的句子"
+    },
+    {
+        "query": "如此v w",
+        "description": "包含'如此'后面直接接名词的句子"
+    },
+    {
+        "query": "用N套",
+        "description": "包含'用'后面接名词的句子"
+    },
+    {
+        "query": "a惯了",
+        "description": "包含'惯了'的形容词句子"
+    },
+    {
+        "query": "。+n是n+！",
+        "description": "以句点开始，后接名词、'是'再接名词，最后以感叹号结束的句子"
+    },
+    {
+        "query": "。 n是n ！",
+        "description": "以句点开始，后接名词、'是'再接名词，最后以感叹号结束的句子"
+    },
+    {
+        "query": "n被",
+        "description": "包含'被'后面接名词的句子"
+    },
+    {
+        "query": "得渐a+w",
+        "description": "包含'得'、形容词、'渐'再接形容词的句子"
+    },
+    {
+        "query": "得渐a w",
+        "description": "包含'得'、形容词、'渐'再接形容词的句子"
+    },
+    {
+        "query": "用N堵",
+        "description": "包含'用'后面接名词的句子"
+    },
+    {
+        "query": "a原子弹",
+        "description": "包含'原子弹'的形容词句子"
+    },
+    {
+        "query": "r中",
+        "description": "包含'r中'的代词句子"
+    },
+    {
+        "query": "b目的",
+        "description": "包含'b目的'的名词句子"
+    },
+    {
+        "query": "了两q+n",
+        "description": "动词'了'后面接'两'、量词再接名词的句子"
+    },
+    {
+        "query": "了两q n",
+        "description": "动词'了'后面接'两'、量词再接名词的句子"
+    },
+    {
+        "query": "v++了+m++下午+的+N",
+        "description": "动词后面接'了'、数词、'下午'、定冠词再接名词的句子"
+    },
+    {
+        "query": "v  了 m  下午 的 N",
+        "description": "动词后面接'了'、数词、'下午'、定冠词再接名词的句子"
+    },
+    {
+        "query": "制造+v",
+        "description": "包含'制造'后面直接接动词的句子"
+    },
+    {
+        "query": "制造 v",
+        "description": "包含'制造'后面直接接动词的句子"
+    },
+    {
+        "query": "被v进",
+        "description": "包含'被'后面直接接动词的句子"
+    }
+]
+```

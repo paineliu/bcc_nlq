@@ -1,0 +1,160 @@
+```json
+[
+    {
+        "query": "准确率 @",
+        "description": "准确率后面跟着一个词"
+    },
+    {
+        "query": "(nr) 正在 仔细 观云 (w){count<189}",
+        "description": "正在、仔细、观云三个词连续，且总频次少于189次"
+    },
+    {
+        "query": "振鲁 ./[w v]",
+        "description": "振鲁后面可能是动词或名词"
+    },
+    {
+        "query": "记者 (w) 夺得{count<705}",
+        "description": "记者后面跟着夺，总频次少于705次"
+    },
+    {
+        "query": "(y) ， (n){len($1)!=2; len($2)=2}",
+        "description": "逗号前后分别是一个非两字的词和一个两字词"
+    },
+    {
+        "query": "粮食 ~",
+        "description": "粮食后面隔一个字"
+    },
+    {
+        "query": "幸好 (n) 有{count<142}",
+        "description": "幸好后面跟着一个名词，总频次少于142次"
+    },
+    {
+        "query": "数量 ../v",
+        "description": "数量后面跟一个动词"
+    },
+    {
+        "query": "野猪 (v) 。{len($1)!=3}",
+        "description": "野猪后面是一个非三字的动词，后面是句点"
+    },
+    {
+        "query": "?(v) ， 政府 (v){len($2)>1}",
+        "description": "问号后面可能是一个动词，动词后面是两个字以上的政府"
+    },
+    {
+        "query": "， (ad) 预防{count>5}",
+        "description": "逗号后面是预防，且预防的频次大于5"
+    },
+    {
+        "query": "将 (v) 各区{begin($1)=[鼓 然 熟 煮]}",
+        "description": "将后面接鼓、然、熟、煮中的一个词，再接各区"
+    },
+    {
+        "query": "~/[v v] 环保",
+        "description": "环保前面是两个相邻的动词"
+    },
+    {
+        "query": "(n) (a){len($1)!=3}",
+        "description": "一个名词后面跟着一个非三字的形容词"
+    },
+    {
+        "query": "@/[nr v] 说",
+        "description": "说前面可能是人名、代词或动词"
+    },
+    {
+        "query": "杜祥琬",
+        "description": "杜祥琬是一个词"
+    },
+    {
+        "query": "兴奋 ./[u v] 表示",
+        "description": "兴奋后面可能是助词或动词，再接表示"
+    },
+    {
+        "query": "播撒 (n) 。{begin($1)=[草 杂 除 事]}",
+        "description": "播撒后面可能是草、杂、除、事中的一个词，后面是句点"
+    },
+    {
+        "query": "打击 (n){len($1)<3}",
+        "description": "打击是一个非三字的名词"
+    },
+    {
+        "query": "(vn) 历史 是 (i){len($1)>1; len($2)>2}",
+        "description": "历史后面是两个以上字的‘是’"
+    },
+    {
+        "query": "非盟 ..../[m v] 届",
+        "description": "非盟后面是三个字的词，可能是名词或动词，后面是届"
+    },
+    {
+        "query": ".../n 在 俄 ../v",
+        "description": "三个字的词后面是名词，然后是‘在’，再接俄后面的动词"
+    },
+    {
+        "query": "最 (n){count>9}",
+        "description": "最后面跟着一个频次大于9的名词"
+    },
+    {
+        "query": "@ 世界",
+        "description": "世界前面是一个词"
+    },
+    {
+        "query": "聚集",
+        "description": "聚集是一个词"
+    },
+    {
+        "query": "热情 @/[w v]",
+        "description": "热情后面可能是形容词或动词"
+    },
+    {
+        "query": "了 w",
+        "description": "了后面是一个字"
+    },
+    {
+        "query": "高兴 ！/w",
+        "description": "高兴后面是一个感叹号，且可能是句尾"
+    },
+    {
+        "query": "系列 @ 事件",
+        "description": "系列后面是一个词，可能是事件"
+    },
+    {
+        "query": "泸沽湖 . 波光",
+        "description": "泸沽湖后面是一个字，然后是波光"
+    },
+    {
+        "query": "的 (n) 在{count>9}",
+        "description": "的后面是名词，且该名词的频次大于9，后面是‘在’"
+    },
+    {
+        "query": "宽敞 @/[w v] 高大",
+        "description": "宽敞后面可能是形容词或动词，再接高大"
+    },
+    {
+        "query": "下燃 ~ 一盏盏",
+        "description": "下燃后面隔一个字后接一盏盏"
+    },
+    {
+        "query": "花楼 . 不准",
+        "description": "花楼后面是一个字，然后是‘不准’"
+    },
+    {
+        "query": "斯文委地 ./[w v]",
+        "description": "斯文委地后面可能是形容词或动词"
+    },
+    {
+        "query": "无独有偶 ./w",
+        "description": "无独有偶是一个词，可能是句尾"
+    },
+    {
+        "query": "如何 ~/[v v] 斯文",
+        "description": "如何后面是两个相邻的动词，再接斯文"
+    },
+    {
+        "query": "(r) 也 很 乐意 (r){begin($2)=[这 混 头 待]}",
+        "description": "也、很、乐意三个词，且乐意后面是这、混、头、待中的一个词"
+    },
+    {
+        "query": "过程 ./[w v]",
+        "description": "过程后面可能是形容词或动词"
+    }
+]
+```

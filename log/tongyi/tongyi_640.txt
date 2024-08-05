@@ -1,0 +1,168 @@
+根据给定的检索式格式，我们将每个检索式解析为包含查询和描述的JSON结构。以下是这些检索式的JSON结构：
+
+```json
+[
+    {
+        "query": "越发",
+        "description": "形容词'越发'的使用"
+    },
+    {
+        "query": "揉搓",
+        "description": "动词'揉搓'的使用"
+    },
+    {
+        "query": "顶包",
+        "description": "动词'顶包'的使用"
+    },
+    {
+        "query": "中招",
+        "description": "动词'中招'的使用"
+    },
+    {
+        "query": "唯一最",
+        "description": "形容词'唯一最'的使用"
+    },
+    {
+        "query": "撞到",
+        "description": "动词'撞到'的使用"
+    },
+    {
+        "query": "闲云野鹤",
+        "description": "名词短语'闲云野鹤'的使用"
+    },
+    {
+        "query": "天王",
+        "description": "名词'天王'的使用"
+    },
+    {
+        "query": "拉在",
+        "description": "动词'拉在'的使用"
+    },
+    {
+        "query": "和谐上走",
+        "description": "动词短语'和谐上走'的使用"
+    },
+    {
+        "query": "欢呼雀跃",
+        "description": "动词短语'欢呼雀跃'的使用"
+    },
+    {
+        "query": "凉凉",
+        "description": "形容词'凉凉'的使用"
+    },
+    {
+        "query": "疼得像",
+        "description": "形容词短语'疼得像'的使用"
+    },
+    {
+        "query": "汉语语气词",
+        "description": "汉语语气词的使用"
+    },
+    {
+        "query": "大女儿",
+        "description": "名词短语'大女儿'的使用"
+    },
+    {
+        "query": "排量",
+        "description": "名词'排量'的使用"
+    },
+    {
+        "query": "和谐及安",
+        "description": "形容词短语'和谐及安'的使用"
+    },
+    {
+        "query": "光盘行动",
+        "description": "名词短语'光盘行动'的使用"
+    },
+    {
+        "query": "鸡汤不鸡汤",
+        "description": "疑问句'鸡汤不鸡汤'的使用"
+    },
+    {
+        "query": "国难",
+        "description": "名词短语'国难'的使用"
+    },
+    {
+        "query": "喊人权",
+        "description": "动词短语'喊人权'的使用"
+    },
+    {
+        "query": "你这个儿子",
+        "description": "名词短语'你这个儿子'的使用"
+    },
+    {
+        "query": "毕婚族+",
+        "description": "名词短语'毕婚族+'的使用"
+    },
+    {
+        "query": "毕婚族",
+        "description": "名词短语'毕婚族'的使用"
+    },
+    {
+        "query": "沉痛",
+        "description": "形容词'沉痛'的使用"
+    },
+    {
+        "query": "欧尼酱",
+        "description": "日语词汇'欧尼酱'的使用"
+    },
+    {
+        "query": "安安静静",
+        "description": "形容词短语'安安静静'的使用"
+    },
+    {
+        "query": "天宫二号",
+        "description": "名词短语'天宫二号'的使用"
+    },
+    {
+        "query": "收获",
+        "description": "动词'收获'的使用"
+    },
+    {
+        "query": "限定",
+        "description": "动词'限定'的使用"
+    },
+    {
+        "query": "富了起来",
+        "description": "动词短语'富了起来'的使用"
+    },
+    {
+        "query": "漫说",
+        "description": "动词'漫说'的使用"
+    },
+    {
+        "query": "流动人口",
+        "description": "名词短语'流动人口'的使用"
+    },
+    {
+        "query": "一朵",
+        "description": "数量词'一朵'的使用"
+    },
+    {
+        "query": "这一转眼",
+        "description": "形容词短语'这一转眼'的使用"
+    },
+    {
+        "query": "调剂",
+        "description": "动词'调剂'的使用"
+    },
+    {
+        "query": "他人呢？",
+        "description": "疑问句'他人呢？'的使用"
+    },
+    {
+        "query": "蒲式耳",
+        "description": "单位短语'蒲式耳'的使用"
+    },
+    {
+        "query": "多加仔细",
+        "description": "动词短语'多加仔细'的使用"
+    },
+    {
+        "query": "你这个小姑娘",
+        "description": "名词短语'你这个小姑娘'的使用"
+    }
+]
+```
+
+请注意，这里的描述是基于检索式本身的含义，并假设它们是在中文语境中使用的标准语法。实际应用可能需要根据具体上下文进行调整。

@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "的", 
+        "description":"包含'的'的句子"
+    },
+    {
+        "query": "(q) 国家 安全 (n){len($2)>1}", 
+        "description":"国家后面接长度大于1的名词"
+    },
+    {
+        "query": "规定", 
+        "description":"规定"
+    },
+    {
+        "query": "第二 ~ 情报", 
+        "description":"第二后面接任意词"
+    },
+    {
+        "query": "和 预警/vn", 
+        "description":"和后面接预警的动名词"
+    },
+    {
+        "query": "第四 ./q 审查", 
+        "description":"第四后面接单音节动词审查"
+    },
+    {
+        "query": "(m) 节 危机 (vn){begin($1)=[第 两 板]}", 
+        "description":"节后面接危机，且节字前可能是第或两或板"
+    },
+    {
+        "query": "~/[m v] 章", 
+        "description":"章节末尾接单音节词或动词"
+    },
+    {
+        "query": "义务", 
+        "description":"义务"
+    },
+    {
+        "query": "(m) 章{len($1)=2}", 
+        "description":"长度为2的章节"
+    },
+    {
+        "query": "章 (n){len($1)=2}", 
+        "description":"长度为2的章后面接名词"
+    },
+    {
+        "query": "维护 (n) 安全{len($1)>1}", 
+        "description":"维护后面接长度大于1的名词"
+    },
+    {
+        "query": "第三 ./q 维护", 
+        "description":"第三后面接单音节动词维护"
+    },
+    {
+        "query": "章 (n) 安全{count>8}", 
+        "description":"章节后面接安全，且章节出现次数大于8次"
+    },
+    {
+        "query": "(m) 节{len($1)!=3}", 
+        "description":"非长度为3的章节"
+    },
+    {
+        "query": "第二 q 情报", 
+        "description":"第二后面接单音节词情报"
+    },
+    {
+        "query": "第三 (q) 风险{len($1)=1}", 
+        "description":"第三后面接单音节词风险"
+    },
+    {
+        "query": "(vn) (vn){len($1)=2; len($2)=2}", 
+        "description":"连续两个长度为2的动词"
+    },
+    {
+        "query": "(m) 节{len($1)=2}", 
+        "description":"长度为2的章节"
+    },
+    {
+        "query": "章 ~ 安全", 
+        "description":"章节后面接安全"
+    },
+    {
+        "query": "和 (n){begin($1)!=[香 待 着]}", 
+        "description":"和后面接除香待着之外的名词"
+    },
+    {
+        "query": "知悉 ~/[u v] 国家", 
+        "description":"知悉后面接动词或名词国家"
+    },
+    {
+        "query": "(m) 章{count>3}", 
+        "description":"章节出现次数大于3次"
+    },
+    {
+        "query": "景俊海 @/[u v] 出席", 
+        "description":"景俊海后面接动词或名词出席"
+    },
+    {
+        "query": "(n) 生态{count<250}", 
+        "description":"生态名词出现次数小于250次"
+    },
+    {
+        "query": ", (n) 干部{count>10}", 
+        "description":",后面接干部名词，且干部名词出现次数大于10次"
+    },
+    {
+        "query": "没 .. ，", 
+        "description":"没后面接任意数量的字，然后是逗号"
+    },
+    {
+        "query": "心情 ./[d v] 迫切", 
+        "description":"心情后面接副词或动词迫切"
+    },
+    {
+        "query": "(ns) 省政府 法制办 副 主任 徐卫说 (w){end($1)!=[码 听 定 无]}", 
+        "description":"徐卫说后面接政府部门名称，且不以码听定无结尾"
+    },
+    {
+        "query": "不服 ~/[w v] 向", 
+        "description":"不服后面接动词或名词向"
+    },
+    {
+        "query": "这 (v) 了{len($1)<3}", 
+        "description":"这后面接长度小于3的动词"
+    },
+    {
+        "query": "不如 (v) 一{len($1)<3}", 
+        "description":"不如后面接长度小于3的动词"
+    },
+    {
+        "query": ", n 信法", 
+        "description":",后面接名词，然后是信法"
+    },
+    {
+        "query": "地位 (v)、{count<195}", 
+        "description":地位后面接动词，且动词出现次数小于195次
+    },
+    {
+        "query": "这个 ~ 不", 
+        "description":"这个后面接任意词，然后是不"
+    },
+    {
+        "query": "暖 ~/[w v]", 
+        "description":"暖后面接动词或名词"
+    },
+    {
+        "query": "记者 ~ 进", 
+        "description":"记者后面接动词或名词进"
+    },
+    {
+        "query": "@ 户", 
+        "description":单字词户"
+    },
+    {
+        "query": "(r) 实现{end($1)=[何 件 通]}", 
+        "description":"实现后面接何件通"
+    },
+    {
+        "query": "体现 (n){count>5}", 
+        "description":体现后面接名词，且名词出现次数大于5次"
+    }
+]
+```

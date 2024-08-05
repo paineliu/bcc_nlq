@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "闷气",
+        "description": "包含闷气的句子"
+    },
+    {
+        "query": "逃出来",
+        "description": "包含逃出来这个动作的句子"
+    },
+    {
+        "query": "力求和谐",
+        "description": "包含力求这个动作后的和谐"
+    },
+    {
+        "query": "和谐的宇",
+        "description": "包含和谐修饰的宇"
+    },
+    {
+        "query": "净说",
+        "description": "包含净说的句子"
+    },
+    {
+        "query": "人权又",
+        "description": "包含人权后接又的句子"
+    },
+    {
+        "query": "往还",
+        "description": "包含往还这个动作的句子"
+    },
+    {
+        "query": "少年军",
+        "description": "包含少年军的句子"
+    },
+    {
+        "query": "或许压根",
+        "description": "包含或许后接压根的句子"
+    },
+    {
+        "query": "留案底",
+        "description": "包含留案底的句子"
+    },
+    {
+        "query": "和谐友善",
+        "description": "包含和谐友善的描述"
+    },
+    {
+        "query": "精神",
+        "description": "包含精神的句子"
+    },
+    {
+        "query": "意外地发现",
+        "description": "包含意外地后接发现的句子"
+    },
+    {
+        "query": "不够粉",
+        "description": "包含不够粉的句子"
+    },
+    {
+        "query": "乖乖",
+        "description": "包含乖乖的句子"
+    },
+    {
+        "query": "重要的是+",
+        "description": "包含重要的是后接+的句子"
+    },
+    {
+        "query": "重要的是 ",
+        "description": "包含重要的是后接空格的句子"
+    },
+    {
+        "query": "害惨了",
+        "description": "包含害惨了的句子"
+    },
+    {
+        "query": "主义",
+        "description": "包含主义的句子"
+    },
+    {
+        "query": "这样一想",
+        "description": "包含这样一想的句子"
+    },
+    {
+        "query": "为什么应该",
+        "description": "包含为什么后接应该的句子"
+    },
+    {
+        "query": "损失",
+        "description": "包含损失的句子"
+    },
+    {
+        "query": "单薄",
+        "description": "包含单薄的句子"
+    },
+    {
+        "query": "份儿",
+        "description": "包含份儿的句子"
+    },
+    {
+        "query": "可糟了",
+        "description": "包含可糟了的句子"
+    },
+    {
+        "query": "唯一的万",
+        "description": "包含唯一的万的句子"
+    },
+    {
+        "query": "薪金制",
+        "description": "包含薪金制的句子"
+    },
+    {
+        "query": "不想不",
+        "description": "包含不想后接不的句子"
+    },
+    {
+        "query": "在此和谐",
+        "description": "包含在此后接和谐的句子"
+    },
+    {
+        "query": "疑鬼疑神",
+        "description": "包含疑鬼疑神的句子"
+    },
+    {
+        "query": "和谐与婚",
+        "description": "包含和谐与婚的句子"
+    },
+    {
+        "query": "姐妹们",
+        "description": "包含姐妹们的句子"
+    },
+    {
+        "query": "洗一水",
+        "description": "包含洗一水的句子"
+    },
+    {
+        "query": "车架号",
+        "description": "包含车架号的句子"
+    },
+    {
+        "query": "妯娌和谐",
+        "description": "包含妯娌和谐的句子"
+    },
+    {
+        "query": "导人权",
+        "description": "包含导人权的句子"
+    },
+    {
+        "query": "，纵",
+        "description": "包含，纵的句子"
+    },
+    {
+        "query": "烧开了",
+        "description": "包含烧开了的句子"
+    },
+    {
+        "query": "报纸",
+        "description": "包含报纸的句子"
+    },
+    {
+        "query": "共享",
+        "description": "包含共享的句子"
+    }
+]
+```

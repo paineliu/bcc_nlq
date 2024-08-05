@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "v 诚意/n",
+        "description": "动词后接诚意（n）"
+    },
+    {
+        "query": "名单+如下/v+：",
+        "description": "名单后接如下（v）再接冒号"
+    },
+    {
+        "query": "名单 如下/v  ：",
+        "description": "名单后接如下（v）再接空格后冒号"
+    },
+    {
+        "query": "马上/d+v",
+        "description": "马上（d）后接动词"
+    },
+    {
+        "query": "马上/d v",
+        "description": "马上（d）后接单音节动词"
+    },
+    {
+        "query": "示范/vn+推广+形式/n",
+        "description": "示范（vn）后接推广，再接形式（n）"
+    },
+    {
+        "query": "示范/vn 推广 形式/n",
+        "description": "示范（vn）后接空格，再接推广，最后接形式（n）"
+    },
+    {
+        "query": "看待+中国/ns+的",
+        "description": "看待后接中国（ns），再接空格，然后接‘的’"
+    },
+    {
+        "query": "看待 中国/ns 的",
+        "description": "看待后接中国（ns），再接空格，然后接‘的’"
+    },
+    {
+        "query": "./v干了",
+        "description": "单音节动词后接‘干了’"
+    },
+    {
+        "query": "观+天下/n",
+        "description": "观后接天下（n）"
+    },
+    {
+        "query": "观 天下/n",
+        "description": "观后接空格，再接天下（n）"
+    },
+    {
+        "query": "....../l",
+        "description": "省略号后接其他任何词"
+    },
+    {
+        "query": "n+好意/n",
+        "description": "名词后接好意（n）"
+    },
+    {
+        "query": "n 好意/n",
+        "description": "名词后接空格，再接好意（n）"
+    },
+    {
+        "query": "王春旺/nr+说+。/w",
+        "description": "王春旺（nr）后接说，再接句尾符号。"
+    },
+    {
+        "query": "王春旺/nr 说 。/w",
+        "description": "王春旺（nr）后接说，再接句尾符号。"
+    },
+    {
+        "query": "速度/n+的+变化/vn",
+        "description": "速度（n）后接‘的’，再接变化（vn）"
+    },
+    {
+        "query": "速度/n 的 变化/vn",
+        "description": "速度（n）后接空格，再接‘的’，最后接变化（vn）"
+    },
+    {
+        "query": "..学/n",
+        "description": "两个点后接名词"
+    },
+    {
+        "query": "什么/r",
+        "description": "疑问代词后接其他任何词"
+    },
+    {
+        "query": "希望/v",
+        "description": "动词后接其他任何词"
+    },
+    {
+        "query": "新+征程/n+钟声",
+        "description": "新（ns）后接征程（n），再接空格，最后接钟声（n）"
+    },
+    {
+        "query": "新 征程/n 钟声",
+        "description": "新（ns）后接征程（n），再接空格，最后接钟声（n）"
+    },
+    {
+        "query": "./v饱了",
+        "description": "单音节动词后接‘饱了’"
+    },
+    {
+        "query": "当/v",
+        "description": "动词后接其他任何词"
+    },
+    {
+        "query": "打造/v+拉美+最+大/a",
+        "description": "打造（v）后接拉美，再接空格，然后接‘最’，最后接大（a）"
+    },
+    {
+        "query": "打造/v 拉美 最 大/a",
+        "description": "打造（v）后接拉美，再接空格，然后接‘最’，最后接大（a）"
+    },
+    {
+        "query": "的+场景/n+，",
+        "description": "名词后接场景（n），再接逗号"
+    },
+    {
+        "query": "的 场景/n ，",
+        "description": "名词后接空格，再接场景（n），最后接逗号"
+    },
+    {
+        "query": "非洲/ns+，+中国+电建/n",
+        "description": "非洲（ns）后接逗号，再接空格，然后接中国，最后接电建（n）"
+    },
+    {
+        "query": "非洲/ns ， 中国 电建/n",
+        "description": "非洲（ns）后接逗号，再接空格，然后接中国，最后接电建（n）"
+    },
+    {
+        "query": "有所+../v",
+        "description": "有所（ns）后接空格，再接‘。’"
+    },
+    {
+        "query": "有所 ../v",
+        "description": "有所（ns）后接空格，再接‘。’"
+    },
+    {
+        "query": "v+好感/n",
+        "description": "动词后接好感（n）"
+    },
+    {
+        "query": "v 好感/n",
+        "description": "动词后接空格，再接好感（n）"
+    },
+    {
+        "query": "天网恢恢+，/w+疏而不漏",
+        "description": "天网恢恢后接逗号，再接疏而不漏"
+    },
+    {
+        "query": "天网恢恢 ，/w 疏而不漏",
+        "description": "天网恢恢后接逗号，再接疏而不漏"
+    },
+    {
+        "query": "n+的+好感/n",
+        "description": "名词后接‘的’，再接好感（n）"
+    },
+    {
+        "query": "n 的 好感/n",
+        "description": "名词后接空格，再接‘的’，最后接好感（n）"
+    }
+]
+```

@@ -1,0 +1,160 @@
+```json
+[
+    {
+        "query": "诺贝尔 (n) 或{len($1)=3}",
+        "description": "包含诺贝尔的三字词"
+    },
+    {
+        "query": "同 (nr) 会面{middle($1)=[英 烂]}",
+        "description": "同后面的词是英或烂，会面"
+    },
+    {
+        "query": "军队 (v) 启动{end($1)!=[越 婷 底]}",
+        "description": "军队启动，排除最后的越、婷、底"
+    },
+    {
+        "query": "时代 @/[v v]",
+        "description": "时代后面是两个连续的动词"
+    },
+    {
+        "query": "(v) (w){begin($1)!=[料 钱]}",
+        "description": "两个动词间不包含料或钱"
+    },
+    {
+        "query": "为 (n) 方队{begin($1)!=[挖 不]}",
+        "description": "为后面接名词，排除挖或不"
+    },
+    {
+        "query": "式",
+        "description": "仅包含式这个词"
+    },
+    {
+        "query": "(n) (j){$1!=$2}",
+        "description": "两个相邻的名词，且两者不同"
+    },
+    {
+        "query": "(n) 存高{begin($1)=[志 段]}",
+        "description": "存高，前面是志或段"
+    },
+    {
+        "query": "(n) 是 (v){len($1)>1; len($2)=2}",
+        "description": "名词后面是两个字的动词"
+    },
+    {
+        "query": "(n) 是{end($1)=[则 其 混]}",
+        "description": "名词后面是则、其或混"
+    },
+    {
+        "query": "(v) 超越 的 支撑 (w){len($1)=1}",
+        "description": "动词后面是单字的超越，支撑是句尾"
+    },
+    {
+        "query": "责任 @/[v v]",
+        "description": "责任后面是两个连续的动词"
+    },
+    {
+        "query": "推动 (v) 新型{end($1)=[建 费 挑]}",
+        "description": "推动后面接新型，排除建、费、挑"
+    },
+    {
+        "query": "一路 (n) 文件{len($1)<3}",
+        "description": "一路后面接长度少于三个字的文件"
+    },
+    {
+        "query": "对接 (vn) 战略{len($1)!=3}",
+        "description": "对接后面接不是三个字的战略"
+    },
+    {
+        "query": "国际 .. 秩序",
+        "description": "国际后面接两个连续的词，构成秩序"
+    },
+    {
+        "query": "全面 (n){count<575}",
+        "description": "全面后面接的名词频次小于575"
+    },
+    {
+        "query": "彻底 @ 面临",
+        "description": "彻底后面接一个词，面临"
+    },
+    {
+        "query": "日本 (n) 通过{len($1)!=3}",
+        "description": "日本后面接不是三个字的通过"
+    },
+    {
+        "query": "../v 强烈 ../v",
+        "description": "两个连续的动词中间接强烈的两个连续动词"
+    },
+    {
+        "query": "发现 (n) 表亲{end($1)!=[弄 连 若]}",
+        "description": "发现后面接表亲，排除弄、连、若"
+    },
+    {
+        "query": "火星 (n) 活动{count<865}",
+        "description": "火星后面接活动，频次少于865"
+    },
+    {
+        "query": "二战 vn 成果",
+        "description": "二战后面接一个动词和成果"
+    },
+    {
+        "query": "中 (j) 强调{count<669}",
+        "description": "中后面接强调，频次少于669"
+    },
+    {
+        "query": "(n) 持续 (v){len($2)>1}",
+        "description": "名词后面跟一个长度大于一的动词"
+    },
+    {
+        "query": "(j) 成员 (v){begin($1)=[欧 收 若]}",
+        "description": "接欧、收或若的成员动词"
+    },
+    {
+        "query": "大会 (v) 协定{begin($1)!=[喊 至]}",
+        "description": "大会后面接协定，排除喊或至"
+    },
+    {
+        "query": "： (nr){count>5}",
+        "description": "冒号后面有五个或更多个名词"
+    },
+    {
+        "query": "留下 堪存/v 堪鉴",
+        "description": "留下堪存后面接一个动词，堪鉴可能是句尾"
+    },
+    {
+        "query": "(a) 人民 (n){$1=$2}",
+        "description": "形容词人民，人民作为同一词性"
+    },
+    {
+        "query": "一 ./v 取消",
+        "description": "一后面接一个动词，取消"
+    },
+    {
+        "query": "备案 @/[w v]",
+        "description": "备案后面接一个词，可能是动词或名词"
+    },
+    {
+        "query": "(m) 是{count>3}",
+        "description": "单数的m后面接的词频次大于3"
+    },
+    {
+        "query": "(n) 有 哪些 (n){end($2)=[面 北 羊 吴]}",
+        "description": "有后面接哪些，排除面、北、羊、吴"
+    },
+    {
+        "query": "(n) 上 ， 一 是 坚持 问题 (n){len($2)<3}",
+        "description": "上后面接一个词，然后是一、是和坚持后面接少于三个字的问题"
+    },
+    {
+        "query": "(v) (v){len($2)=2}",
+        "description": "两个连续的动词，第二个动词长度为2"
+    },
+    {
+        "query": "~ 是",
+        "description": "仅包含一个词，可能是任何词性的~后接的是"
+    },
+    {
+        "query": "严格 (vn) 项目{begin($1)!=[闪 但 摸]}",
+        "description": "严格后面接一个动词，排除闪、但、摸"
+    }
+]
+```

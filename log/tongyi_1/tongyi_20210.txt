@@ -1,0 +1,136 @@
+```json
+[
+    {
+        "query": "第二十五", 
+        "description": "(m) 条，指代的条目长度为4，且以六、丹或脱结尾"
+    },
+    {
+        "query": "(m) 条{count<251}", 
+        "description": "满足条件的m条目实例数量少于251个"
+    },
+    {
+        "query": "(m) 条{len($1)=4}", 
+        "description": "长度为4的m条目"
+    },
+    {
+        "query": "计划生育 (n) 服务{len($1)<3}", 
+        "description": "计划生育服务，但服务部分的长度小于3"
+    },
+    {
+        "query": "(m) (q){$1=$2}", 
+        "description": "两个(m)条目中的内容相同"
+    },
+    {
+        "query": "(m) 条{len($1)!=5}", 
+        "description": "m条目，长度不等于5"
+    },
+    {
+        "query": "~ 条", 
+        "description": "仅包含一个词的条目"
+    },
+    {
+        "query": "第三十三 ./q", 
+        "description": "第三十三后面跟随一个词的q"
+    },
+    {
+        "query": "(m) (q){len($1)!=5}", 
+        "description": "m条目，其中q的长度不等于5"
+    },
+    {
+        "query": "(m) 条{end($1)!=[玉 海 城 般]}",
+        "description": "m条目，但末尾不包含玉、海、城或般"
+    },
+    {
+        "query": "(m) (q){len($1)=4}", 
+        "description": "m条目，其中q的长度为4"
+    },
+    {
+        "query": "第三十八 ~", 
+        "description": "第三十八之后的一个词"
+    },
+    {
+        "query": "第三十九/m 条/q", 
+        "description": "第三十九后跟m条q"
+    },
+    {
+        "query": "三 ../v 、", 
+        "description": "三后面跟一个双音节动词，后面可能是逗号"
+    },
+    {
+        "query": "@/[m v] 条", 
+        "description": "以m或v开头的条目"
+    },
+    {
+        "query": "第四十二 ~", 
+        "description": "第四十二之后的一个词"
+    },
+    {
+        "query": "第四十三 @", 
+        "description": "第四十三后面跟随一个词，统计时按照词性归并"
+    },
+    {
+        "query": "(m) 条{begin($1)!=[管 更]}",
+        "description": "m条目，但不以管或更开始"
+    },
+    {
+        "query": "低保 (n) 累计{count<270}", 
+        "description": "低保累计，实例数量少于270个"
+    },
+    {
+        "query": "扶贫 n", 
+        "description": "扶贫后面跟着一个名词"
+    },
+    {
+        "query": "村民 李林峰 说 (w){len($1)!=4}", 
+        "description": "村民李林峰说，但不说的内容长度不是4"
+    },
+    {
+        "query": "座 ~ 取名", 
+        "description": "座后面可能跟一个词取名"
+    },
+    {
+        "query": "ns 县委", 
+        "description": "ns后接县委"
+    },
+    {
+        "query": "确认 ./u 刘", 
+        "description": "确认后接一个u词，可能是刘"
+    },
+    {
+        "query": "终于 (v) 了{begin($1)!=[空 把 同 中]}", 
+        "description": "终于后面跟一个动词，且动词前不是空、把、同或中"
+    },
+    {
+        "query": "(n) (l){len($1)!=4}", 
+        "description": "两个连续的词，第二个词的长度不等于4"
+    },
+    {
+        "query": "盐城 @/[n v] 开工", 
+        "description": "盐城后面接以n或v开头的词，然后是开工"
+    },
+    {
+        "query": "任 (ns) 冬奥组委{end($1)=[京 像 银]}",
+        "description": "任后接ns，然后是冬奥会委，但不以京、像或银结尾"
+    },
+    {
+        "query": "我 (a){len($1)>1}", 
+        "description": "我后面跟着一个长度大于1的形容词"
+    },
+    {
+        "query": "说 。/w", 
+        "description": "说后面跟一个句点"
+    },
+    {
+        "query": "并非 (n) 体坛{len($1)>2}", 
+        "description": "并非后面跟一个名词，且名词长度大于2"
+    },
+    {
+        "query": "里约 j", 
+        "description": "里约后面跟一个j词"
+    },
+    {
+        "query": "(v) (v){len($2)<3}", 
+        "description": "两个连续的动词，第二个动词长度小于3"
+    }
+]
+```

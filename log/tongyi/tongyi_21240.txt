@@ -1,0 +1,166 @@
+以下是将给定的检索式转换为带含义的json结构的结果：
+
+```json
+[
+    {
+        "query": "如何/r+培养+出+博士+儿子/n",
+        "description": "包含如何进行培养，最终产出博士儿子的过程"
+    },
+    {
+        "query": "如何/r 培养 出 博士 儿子/n",
+        "description": "包含如何进行培养，最终产出博士儿子的过程，使用了词性符号"
+    },
+    {
+        "query": "四中/j+女足+球员/n",
+        "description": "四中学校中的女足队员"
+    },
+    {
+        "query": "四中/j 女足 球员/n",
+        "description": "四中学校中的女足队员"
+    },
+    {
+        "query": ".子/n",
+        "description": "表示一个以子结尾的名词"
+    },
+    {
+        "query": "实际上+，/w+巴黎",
+        "description": "表示实际上与巴黎有关的内容"
+    },
+    {
+        "query": "实际上 ，/w 巴黎",
+        "description": "表示实际上与巴黎有关的内容"
+    },
+    {
+        "query": "主任+昴卫聪/nr+说",
+        "description": "主任昴卫聪在说话"
+    },
+    {
+        "query": "主任 昴卫聪/nr 说",
+        "description": "主任昴卫聪在说话"
+    },
+    {
+        "query": "大运河/n+申遗/v",
+        "description": "大运河申请世界文化遗产"
+    },
+    {
+        "query": "大运河/n 申遗/v",
+        "description": "大运河申请世界文化遗产"
+    },
+    {
+        "query": "脏+../n",
+        "description": "表示一个以脏开头的名词"
+    },
+    {
+        "query": "脏 ../n",
+        "description": "表示一个以脏开头的名词"
+    },
+    {
+        "query": "宁德/nr+俗称/v",
+        "description": "宁德的俗名"
+    },
+    {
+        "query": "宁德/nr 俗称/v",
+        "description": "宁德的俗名"
+    },
+    {
+        "query": "a+的+感情/n",
+        "description": "表示一种抽象的情感，前面有形容词"
+    },
+    {
+        "query": "a 的 感情/n",
+        "description": "表示一种抽象的情感，前面有形容词"
+    },
+    {
+        "query": "和/c",
+        "description": "表示一个连接词，用于连接两个词语或短语"
+    },
+    {
+        "query": "老郑/nr+终于",
+        "description": "表示老郑最终达到了某种状态或目标"
+    },
+    {
+        "query": "老郑/nr 终于",
+        "description": "表示老郑最终达到了某种状态或目标"
+    },
+    {
+        "query": "际+，/w+时势造英雄",
+        "description": "表示时势造就英雄的环境或背景"
+    },
+    {
+        "query": "际 ，/w 时势造英雄",
+        "description": "表示时势造就英雄的环境或背景"
+    },
+    {
+        "query": "到达/v",
+        "description": "表示到达的动作"
+    },
+    {
+        "query": "株洲+县委/n+书记",
+        "description": "表示株洲的县委书记"
+    },
+    {
+        "query": "株洲 县委/n 书记",
+        "description": "表示株洲的县委书记"
+    },
+    {
+        "query": "国际/n+统筹/vn",
+        "description": "表示国际上的统筹管理"
+    },
+    {
+        "query": "国际/n 统筹/vn",
+        "description": "表示国际上的统筹管理"
+    },
+    {
+        "query": "v+真心/n",
+        "description": "表示真心实意的动作"
+    },
+    {
+        "query": "v 真心/n",
+        "description": "表示真心实意的动作"
+    },
+    {
+        "query": "./v热了",
+        "description": "表示某事物或环境变得热"
+    },
+    {
+        "query": "县长+直面/n+不",
+        "description": "表示县长面对某个问题或情况"
+    },
+    {
+        "query": "县长 直面/n 不",
+        "description": "表示县长面对某个问题或情况"
+    },
+    {
+        "query": "信息+共享/v+。",
+        "description": "表示信息共享的行为"
+    },
+    {
+        "query": "信息 共享/v 。",
+        "description": "表示信息共享的行为"
+    },
+    {
+        "query": "文质彬彬/nr+，",
+        "description": "表示文质彬彬的人或形象"
+    },
+    {
+        "query": "文质彬彬/nr ，",
+        "description": "表示文质彬彬的人或形象"
+    },
+    {
+        "query": "是+对/p+纪律",
+        "description": "表示对纪律的认可或强调"
+    },
+    {
+        "query": "是 对/p 纪律",
+        "description": "表示对纪律的认可或强调"
+    },
+    {
+        "query": "领域+政府/n+立法",
+        "description": "表示领域内的政府立法活动"
+    },
+    {
+        "query": "领域 政府/n 立法",
+        "description": "表示领域内的政府立法活动"
+    }
+]
+```

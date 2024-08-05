@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "超脱",
+        "description": "包含超脱的句子"
+    },
+    {
+        "query": "匀匀",
+        "description": "包含匀匀的句子"
+    },
+    {
+        "query": "茄子",
+        "description": "包含茄子的句子"
+    },
+    {
+        "query": "坚定",
+        "description": "包含坚定的句子"
+    },
+    {
+        "query": "就近",
+        "description": "包含就近的句子"
+    },
+    {
+        "query": "锦簇花团",
+        "description": "包含锦簇花团的句子"
+    },
+    {
+        "query": "说句心里话",
+        "description": "包含说句心里话的句子"
+    },
+    {
+        "query": "更不",
+        "description": "包含更不的句子"
+    },
+    {
+        "query": "和谐地区",
+        "description": "包含和谐地区相关的句子"
+    },
+    {
+        "query": "孔乙己",
+        "description": "包含孔乙己的句子"
+    },
+    {
+        "query": "说法不说法",
+        "description": "包含说法不说法的句子"
+    },
+    {
+        "query": "管事",
+        "description": "包含管事的句子"
+    },
+    {
+        "query": "等到",
+        "description": "包含等到的句子"
+    },
+    {
+        "query": "机器学习",
+        "description": "包含机器学习的句子"
+    },
+    {
+        "query": "往往返返",
+        "description": "包含往往返返的句子"
+    },
+    {
+        "query": "不用讲",
+        "description": "包含不用讲的句子"
+    },
+    {
+        "query": "苦果",
+        "description": "包含苦果的句子"
+    },
+    {
+        "query": "普及",
+        "description": "包含普及的句子"
+    },
+    {
+        "query": "提格",
+        "description": "包含提格的句子"
+    },
+    {
+        "query": "和谐动迁",
+        "description": "包含和谐动迁的句子"
+    },
+    {
+        "query": "出头",
+        "description": "包含出头的句子"
+    },
+    {
+        "query": "白莲花",
+        "description": "包含白莲花的句子"
+    },
+    {
+        "query": "他的",
+        "description": "包含他的句子"
+    },
+    {
+        "query": "马克思主义",
+        "description": "包含马克思主义的句子"
+    },
+    {
+        "query": "从从容容",
+        "description": "包含从从容容的句子"
+    },
+    {
+        "query": "逆行者",
+        "description": "包含逆行者的句子"
+    },
+    {
+        "query": "是不是",
+        "description": "包含是不是的句子"
+    },
+    {
+        "query": "在意",
+        "description": "包含在意的句子"
+    },
+    {
+        "query": "不够屌",
+        "description": "包含不够屌的句子"
+    },
+    {
+        "query": "不够兄弟",
+        "description": "包含不够兄弟的句子"
+    },
+    {
+        "query": "由",
+        "description": "包含由的句子"
+    },
+    {
+        "query": "和谐中前",
+        "description": "包含和谐中前的句子"
+    },
+    {
+        "query": "有的是",
+        "description": "包含有的是的句子"
+    },
+    {
+        "query": "特别没",
+        "description": "包含特别没的句子"
+    },
+    {
+        "query": "鼓舞",
+        "description": "包含鼓舞的句子"
+    },
+    {
+        "query": "处女",
+        "description": "包含处女的句子"
+    },
+    {
+        "query": "海外股",
+        "description": "包含海外股的句子"
+    },
+    {
+        "query": "和谐亚太",
+        "description": "包含和谐亚太的句子"
+    },
+    {
+        "query": "踩过去",
+        "description": "包含踩过去的句子"
+    },
+    {
+        "query": "别不是",
+        "description": "包含别不是的句子"
+    }
+]
+```

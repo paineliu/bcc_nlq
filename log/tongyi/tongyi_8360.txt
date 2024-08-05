@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "v净",
+        "description": "动词后接净"
+    },
+    {
+        "query": "; +n 是n + !",
+        "description": "分号后接名词，名词后接是，句尾感叹号"
+    },
+    {
+        "query": "; n 是n !",
+        "description": "名词后接是，句尾感叹号"
+    },
+    {
+        "query": "a 亭子",
+        "description": "形容词后接亭子"
+    },
+    {
+        "query": "用N 缠",
+        "description": "用后接N，N后接缠"
+    },
+    {
+        "query": "a 出色",
+        "description": "形容词后接出色"
+    },
+    {
+        "query": "又v 又v",
+        "description": "动词后接又，再次接动词"
+    },
+    {
+        "query": "n 太好了",
+        "description": "名词后接太好了"
+    },
+    {
+        "query": "a 亲戚",
+        "description": "形容词后接亲戚"
+    },
+    {
+        "query": "(a) 的(n)",
+        "description": "括号内形容词后接的，之后名词"
+    },
+    {
+        "query": "n 消失",
+        "description": "名词后接消失"
+    },
+    {
+        "query": "a 发生",
+        "description": "形容词后接发生"
+    },
+    {
+        "query": "d 一般",
+        "description": "副词后接一般"
+    },
+    {
+        "query": "v 一见",
+        "description": "动词后接一见"
+    },
+    {
+        "query": "害怕n",
+        "description": "害怕后接名词"
+    },
+    {
+        "query": "一角n",
+        "description": "一角后接名词"
+    },
+    {
+        "query": "v 树叶",
+        "description": "动词后接树叶"
+    },
+    {
+        "query": "v 积极了",
+        "description": "动词后接积极了"
+    },
+    {
+        "query": "v 了 礼。",
+        "description": "动词后接了，再接礼，句尾为句号"
+    },
+    {
+        "query": "V 溃",
+        "description": "动词后接溃"
+    },
+    {
+        "query": "a 副作用",
+        "description": "形容词后接副作用"
+    },
+    {
+        "query": "一q+n",
+        "description": "一后面接量词，量词后接名词"
+    },
+    {
+        "query": "一q n",
+        "description": "一后面接量词，量词后接名词"
+    },
+    {
+        "query": "一轮n",
+        "description": "一轮后接名词"
+    },
+    {
+        "query": "喝饱了n",
+        "description": "动词后接饱了，之后名词"
+    },
+    {
+        "query": "从未 把n+v了",
+        "description": "从未，之后把，名词后接了，动词"
+    },
+    {
+        "query": "从未 把n v了",
+        "description": "从未，之后把，名词后接了，动词"
+    },
+    {
+        "query": "m+块+钱",
+        "description": "m后接块，块后接钱"
+    },
+    {
+        "query": "m 块 钱",
+        "description": "m后接块，块后接钱"
+    },
+    {
+        "query": "一座n",
+        "description": "一后接座，座后接名词"
+    },
+    {
+        "query": "a 可笑",
+        "description": "形容词后接可笑"
+    },
+    {
+        "query": "必须v",
+        "description": "必须后接动词"
+    },
+    {
+        "query": "太v 了一点",
+        "description": "太后接动词，动词后接了一，再接一点"
+    },
+    {
+        "query": "维持+n",
+        "description": "维持后接名词"
+    },
+    {
+        "query": "维持 n",
+        "description": "维持后接名词"
+    },
+    {
+        "query": "a 公安",
+        "description": "形容词后接公安"
+    },
+    {
+        "query": "如何v+w",
+        "description": "如何后接动词，动词后接w"
+    },
+    {
+        "query": "如何v w",
+        "description": "如何后接动词，动词后接w"
+    },
+    {
+        "query": "全球变暖n",
+        "description": "全球变暖后接名词"
+    },
+    {
+        "query": "v 一排",
+        "description": "动词后接一排"
+    }
+]
+```

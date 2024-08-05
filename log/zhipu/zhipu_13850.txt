@@ -1,0 +1,88 @@
+以下是将您提供的检索式转换为带含义的 JSON 结构：
+
+```json
+[
+    {
+        "query": "u n",
+        "description": "助词后接名词"
+    },
+    {
+        "query": "再",
+        "description": "包含再的句子"
+    },
+    {
+        "query": "(nr) 说{len($1)=3}",
+        "description": "人名长度为3的词接说"
+    },
+    {
+        "query": "(n) (d){begin($1)=[习 熬]}",
+        "description": "名词以习或熬开头，后面接副词"
+    },
+    {
+        "query": "哪些 ~ ？",
+        "description": "哪些后接一个词，以问号结尾"
+    },
+    {
+        "query": "华北 (d) 大{count>4}",
+        "description": "华北接副词大，且副词出现频次大于4"
+    },
+    {
+        "query": "@/[b v] 抗",
+        "description": "以词性为区别词或动词的词接抗"
+    },
+    {
+        "query": "(n) (n){len($1)<3; len($2)>1}",
+        "description": "两个名词，第一个名词长度小于3，第二个名词长度大于1"
+    },
+    {
+        "query": "广场 ../vn 现场",
+        "description": "广场后接双音节动名词，现场结尾"
+    },
+    {
+        "query": "齐 @/[v v]",
+        "description": "齐接两个动词词性"
+    },
+    {
+        "query": "更 (i){len($1)=2}",
+        "description": "更接成语，成语长度为2"
+    },
+    {
+        "query": "机关干部 ~ 触动",
+        "description": "机关干部后接一个词，接触动"
+    },
+    {
+        "query": "， ~ 更",
+        "description": "逗号后接一个词，接更"
+    },
+    {
+        "query": "(n) 被{len($1)=4}",
+        "description": "名词长度为4的词接被"
+    },
+    {
+        "query": "西街 @/[v v] ，",
+        "description": "西街接两个动词词性，以逗号结尾"
+    },
+    {
+        "query": "但是 ./w 请",
+        "description": "但是后接单字标点，接请"
+    },
+    {
+        "query": "问 . 这",
+        "description": "问后接单字标点，接这"
+    },
+    {
+        "query": "向 .. 延伸",
+        "description": "向接双字，接延伸"
+    },
+    {
+        "query": "真正 @ 问责",
+        "description": "真正接一个词性，接问责"
+    },
+    {
+        "query": "(d) 不 受 (vn){len($2)=2}",
+        "description": "副词接不受，不受后接长度为2的动名词"
+    }
+]
+```
+
+请注意，以上 JSON 结构的描述部分是基于您提供的检索式的理解和解释。如果有任何不准确的解释，请告知以便进行修正。

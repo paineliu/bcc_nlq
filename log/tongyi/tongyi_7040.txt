@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "何a之v",
+        "description": "形容词何之后接动词之"
+    },
+    {
+        "query": "v情感",
+        "description": "动词之后接情感"
+    },
+    {
+        "query": "m听可乐",
+        "description": "名词之后接动词听，后面接可乐"
+    },
+    {
+        "query": "q见解",
+        "description": "量词之后接名词见解"
+    },
+    {
+        "query": "好a一",
+        "description": "形容词好之后接量词一"
+    },
+    {
+        "query": "成功v",
+        "description": "动词之后接成功"
+    },
+    {
+        "query": "v+散+s",
+        "description": "动词之后接散，散之后接s"
+    },
+    {
+        "query": "v 散 s",
+        "description": "动词之后接散，散之后接一个字s"
+    },
+    {
+        "query": "v++了+m++秋天+的+N",
+        "description": "动词之后接了，了之后接名词秋天，秋天之后接的，最后接N"
+    },
+    {
+        "query": "v  了 m  秋天 的 N",
+        "description": "动词之后接了，了之后接名词秋天，秋天之后接的，最后接N"
+    },
+    {
+        "query": "a伤口",
+        "description": "形容词之后接名词伤口"
+    },
+    {
+        "query": "非常v+w",
+        "description": "动词非常之后接形容词w"
+    },
+    {
+        "query": "非常v w",
+        "description": "动词非常之后接形容词w"
+    },
+    {
+        "query": "很t",
+        "description": "副词很"
+    },
+    {
+        "query": "(n)的w",
+        "description": "名词之后接的，的之后接形容词w"
+    },
+    {
+        "query": "a分期",
+        "description": "形容词之后接名词分期"
+    },
+    {
+        "query": "r+d",
+        "description": "代词r之后接d"
+    },
+    {
+        "query": "r d",
+        "description": "代词r之后接d"
+    },
+    {
+        "query": "v回n来。",
+        "description": "动词之后接回，回之后接名词n，最后接句尾符号。"
+    },
+    {
+        "query": "a个性",
+        "description": "形容词之后接名词个性"
+    },
+    {
+        "query": "v是v",
+        "description": "动词之后接是，是之后接动词"
+    },
+    {
+        "query": "v一再",
+        "description": "动词之后接一再"
+    },
+    {
+        "query": "w当然w",
+        "description": "句尾词w之后接当然，当然之后接句尾词w"
+    },
+    {
+        "query": "未(a)先(a)",
+        "description": "形容词未之后接形容词先"
+    },
+    {
+        "query": "烙n",
+        "description": "名词之后接烙"
+    },
+    {
+        "query": "n味",
+        "description": "名词之后接味"
+    },
+    {
+        "query": "a动人",
+        "description": "形容词之后接动人"
+    },
+    {
+        "query": "a分离",
+        "description": "形容词之后接分离"
+    },
+    {
+        "query": "赶紧v",
+        "description": "动词之后接赶紧"
+    },
+    {
+        "query": "头w",
+        "description": "名词之后接头"
+    },
+    {
+        "query": "n白",
+        "description": "名词之后接白"
+    },
+    {
+        "query": "较为a+n",
+        "description": "副词较为之后接名词"
+    },
+    {
+        "query": "较为a n",
+        "description": "副词较为之后接名词"
+    },
+    {
+        "query": "那么V来",
+        "description": "副词那么之后接动词来"
+    },
+    {
+        "query": "a功劳",
+        "description": "形容词之后接名词功劳"
+    },
+    {
+        "query": "还挺a的",
+        "description": "动词之后接挺，挺之后接形容词的"
+    },
+    {
+        "query": "m房媳妇",
+        "description": "名词之后接房，房之后接名词媳妇"
+    },
+    {
+        "query": "顺手V",
+        "description": "动词之后接顺手"
+    },
+    {
+        "query": "r位",
+        "description": "代词r之后接位"
+    },
+    {
+        "query": "v一打",
+        "description": "动词之后接一打"
+    }
+]
+```

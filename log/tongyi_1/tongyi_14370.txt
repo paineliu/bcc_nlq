@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "理解 ~/[r v] 国法",
+        "description": "理解后面跟接动词或代词，后面可能是国法"
+    },
+    {
+        "query": "要 @/[i v]。",
+        "description": "要后接介词或动词，句尾是句点"
+    },
+    {
+        "query": "(n) 也 是 一 种 深厚 的 文化 (n){len($1)=2; end($2)=[n 求]}",
+        "description": "两个相邻名词，第一个名词长度为2，且第二个名词以'n'或'求'结尾"
+    },
+    {
+        "query": "历史",
+        "description": "历史"
+    },
+    {
+        "query": "(n) 礼事 ： 重法 的 (n){len($1)=2; begin($2)=[策略 辣]}",
+        "description": "两个相邻名词，第一个名词长度为2，且第二个名词以'策略'或'辣'开头"
+    },
+    {
+        "query": "~/[j v] 结合",
+        "description": "动词或副词后接'结合'"
+    },
+    {
+        "query": "依法 @ 和",
+        "description": "依法后接'和'"
+    },
+    {
+        "query": "经典 到/p 现代",
+        "description": "经典后接介词'到'，然后是现代"
+    },
+    {
+        "query": "制图 . 蔡华伟",
+        "description": "制图后隔一个字后接蔡华伟"
+    },
+    {
+        "query": "藏 (u) 起来{count>10}",
+        "description": "动词'藏'后接'起来'，且实例频次大于10"
+    },
+    {
+        "query": "人口 (d) 减少{len($1)=2}",
+        "description": "人口减少，'减少'两个字"
+    },
+    {
+        "query": "太 (a) 。{len($1)=1}",
+        "description": "太后面是形容词，且只有一个字，句尾是句点"
+    },
+    {
+        "query": "家里 ./d 停电",
+        "description": "家里后跟介词，然后是'停电'"
+    },
+    {
+        "query": "烧 (n) ，{count<676}",
+        "description": "烧后接名词，且实例频次小于676"
+    },
+    {
+        "query": "老伴 ~ 灶秀",
+        "description": "老伴后接一个词（任意词性），可能是灶秀"
+    },
+    {
+        "query": "精准 (nr) 。{end($1)=[策 兵]}",
+        "description": "精准后接人名，且末尾可能是'策'或'兵'"
+    },
+    {
+        "query": "弯 ~/[f v] 说",
+        "description": "弯后接动词或方位词，然后是'说'"
+    },
+    {
+        "query": "(v) 个 (r){len($2)>1}",
+        "description": "动词后接'个'，且紧跟的词长度大于1"
+    },
+    {
+        "query": "?",
+        "description": "问号"
+    },
+    {
+        "query": "升级 ~/[u v] 明星村",
+        "description": "升级后接动词或介词，然后是'明星村'"
+    },
+    {
+        "query": "。",
+        "description": "句点"
+    },
+    {
+        "query": "了 n。",
+        "description": "了后接名词，句尾是句点"
+    },
+    {
+        "query": "不同 @",
+        "description": "不同后接一个词（任意词性）"
+    },
+    {
+        "query": "是 (v) 和{count>4}",
+        "description": "是后接动词，且和的实例频次大于4"
+    },
+    {
+        "query": "你/r 的",
+        "description": "你后接代词，表示所属关系"
+    },
+    {
+        "query": "到 (d) 保障{count>3}",
+        "description": "到后接动词，保障的实例频次大于3"
+    },
+    {
+        "query": "(m) 场 特大 洪水 袭击 龙岩 (w){$1!=$2}",
+        "description": "三个名词相连，但第一个名词和最后一个名词不相同"
+    },
+    {
+        "query": "全省 (v) 。{end($1)!=[跑 选]}",
+        "description": "全省后接动词，且动词末尾不是'跑'或'选'"
+    },
+    {
+        "query": "办 好/a ，",
+        "description": "办后接形容词，然后是逗号"
+    },
+    {
+        "query": "保险 (v) 千斤{begin($1)!=[词 断 双]}",
+        "description": "保险后接动词，且动词开头不是'词'、'断'或双字词"
+    },
+    {
+        "query": "一 ./q 巧力",
+        "description": "一后接量词，然后是巧力"
+    },
+    {
+        "query": ".. 巧",
+        "description": "两个连续的点后接巧"
+    },
+    {
+        "query": "帮 (v) 帮到{count>10}",
+        "description": "帮后接动词，帮到的实例频次大于10"
+    },
+    {
+        "query": "告诉 (n) 。{len($1)=2}",
+        "description": "告诉后接名词，且名词长度为2，句尾是句点"
+    },
+    {
+        "query": "n 贷款 也 可 v",
+        "description": "名词后接'贷款'，然后是'也'和动词"
+    },
+    {
+        "query": "和 (v) 的{begin($1)=[改 孩 纸]}",
+        "description": "和后接动词，且动词开头可能是'改'、'孩'或'纸'"
+    },
+    {
+        "query": "书记 @/[v v] 苦恼",
+        "description": "书记后接动词或动词，然后是'苦恼'"
+    },
+    {
+        "query": "(j) (ns){end($2)!=[家 本]}",
+        "description": "两个相邻的词性，第一个词性可能是'j'，第二个词性是名词，且不以'家'或'本'结尾"
+    },
+    {
+        "query": "让 (n) 也{len($1)<3}",
+        "description": "让后接名词，且名词长度小于3，后面接'也'"
+    },
+    {
+        "query": "知道 金改/nr 遇到",
+        "description": "知道后接金改/nr，然后是遇到"
+    }
+]
+```

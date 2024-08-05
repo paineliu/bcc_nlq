@@ -1,0 +1,166 @@
+以下是将给定的检索式转换为带含义的json结构后的完整列表：
+
+```json
+[
+    {
+        "query": "想起+(t)+前{mid($1)!=[首+遍+沙+福]}",
+        "description": "想起后面紧接着非首、遍、沙、福的词语"
+    },
+    {
+        "query": "想起 (t) 前{mid($1)!=[首 遍 沙 福]}",
+        "description": "想起后面紧接着非首、遍、沙、福的词语"
+    },
+    {
+        "query": "(v)了又(v){$1!=$2}",
+        "description": "动词后紧跟着不同的另一个动词"
+    },
+    {
+        "query": "干+(r)+行{len($1)=1}",
+        "description": "干后面紧接着长度为1的词语"
+    },
+    {
+        "query": "干 (r) 行{len($1)=1}",
+        "description": "干后面紧接着长度为1的词语"
+    },
+    {
+        "query": "没(v)就(v){$1=$2}",
+        "description": "没动词和就动词相同"
+    },
+    {
+        "query": "(a)不是(a){$1=$2}",
+        "description": "形容词不是和后跟的形容词相同"
+    },
+    {
+        "query": "评价(n)*w{len($1)=2}",
+        "description": "名词后紧跟着长度为2的词语"
+    },
+    {
+        "query": "(m)大(n){len($1)=2;len($2)=3}",
+        "description": "名词大后面紧接着长度为3的名词"
+    },
+    {
+        "query": "人口+(vn)+趋势{len($1)>2}",
+        "description": "人口后面紧接着长度超过2的动名词"
+    },
+    {
+        "query": "人口 (vn) 趋势{len($1)>2}",
+        "description": "人口后面紧接着长度超过2的动名词"
+    },
+    {
+        "query": "他们+(w){count>4}",
+        "description": "他们后面紧跟的词语数量超过4"
+    },
+    {
+        "query": "他们 (w){count>4}",
+        "description": "他们后面紧跟的词语数量超过4"
+    },
+    {
+        "query": "(v)+木鼓{len($1)=2}",
+        "description": "动词后面紧接着长度为2的词语"
+    },
+    {
+        "query": "(v) 木鼓{len($1)=2}",
+        "description": "动词后面紧接着长度为2的词语"
+    },
+    {
+        "query": "(n)+还{count>4}",
+        "description": "名词后面紧跟的词语数量超过4"
+    },
+    {
+        "query": "(n) 还{count>4}",
+        "description": "名词后面紧跟的词语数量超过4"
+    },
+    {
+        "query": "装置(n)*w{len($1)=2}",
+        "description": "名词后面紧接着长度为2的词语"
+    },
+    {
+        "query": "(n)+(l){len($1)=3; begin($2)=[蔚为壮观+明]}",
+        "description": "名词后面紧接着长度为3的词语，开头为蔚为壮观或明"
+    },
+    {
+        "query": "(n) (l){len($1)=3; begin($2)=[蔚为壮观 明]}",
+        "description": "名词后面紧接着长度为3的词语，开头为蔚为壮观或明"
+    },
+    {
+        "query": "成功(n)*w{len($1)=2}",
+        "description": "名词后面紧接着长度为2的词语"
+    },
+    {
+        "query": "广东+(n)+贷款{begin($1)!=[酸+屋+鸡+车]}",
+        "description": "广东后面紧接着非酸、屋、鸡、车的名词"
+    },
+    {
+        "query": "广东 (n) 贷款{begin($1)!=[酸 屋 鸡 车]}",
+        "description": "广东后面紧接着非酸、屋、鸡、车的名词"
+    },
+    {
+        "query": "n看{len($1)=1}",
+        "description": "名词后面紧接着长度为1的词语"
+    },
+    {
+        "query": "村+(v)+变迁{len($1)!=2}",
+        "description": "村后面紧接着非长度为2的动词"
+    },
+    {
+        "query": "村 (v) 变迁{len($1)!=2}",
+        "description": "村后面紧接着非长度为2的动词"
+    },
+    {
+        "query": "引领+(w){count>9}",
+        "description": "引领后面紧跟的词语数量超过9"
+    },
+    {
+        "query": "引领 (w){count>9}",
+        "description": "引领后面紧跟的词语数量超过9"
+    },
+    {
+        "query": "(m)+底线{count<988}",
+        "description": "名词底线后面紧跟的词语数量小于988"
+    },
+    {
+        "query": "(m) 底线{count<988}",
+        "description": "名词底线后面紧跟的词语数量小于988"
+    },
+    {
+        "query": "拍手(n)*w{len($1)=2}",
+        "description": "名词后面紧接着长度为2的词语"
+    },
+    {
+        "query": "(v)也不须(v){$1=$2}",
+        "description": "动词后紧跟着相同的另一个动词"
+    },
+    {
+        "query": "(v)+单独{count>9}",
+        "description": "动词后面紧跟的词语数量超过9"
+    },
+    {
+        "query": "(v) 单独{count>9}",
+        "description": "动词后面紧跟的词语数量超过9"
+    },
+    {
+        "query": "(ns)+深圳{count>4}",
+        "description": "非标准名称深圳后面紧跟的词语数量超过4"
+    },
+    {
+        "query": "(ns) 深圳{count>4}",
+        "description": "非标准名称深圳后面紧跟的词语数量超过4"
+    },
+    {
+        "query": "发表(n)*w{len($1)=2}",
+        "description": "名词后面紧接着长度为2的词语"
+    },
+    {
+        "query": "(ns)+。{len($1)<5}",
+        "description": "非标准名称后面紧跟的长度小于5的标点"
+    },
+    {
+        "query": "(ns) 。{len($1)<5}",
+        "description": "非标准名称后面紧跟的长度小于5的标点"
+    },
+    {
+        "query": "将+(v)+京津冀{len($1)>1}",
+        "description": "动词后面紧接着长度超过1的词语"
+    }
+]
+```

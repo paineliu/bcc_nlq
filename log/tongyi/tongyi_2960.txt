@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "和谐么！",
+        "description": "感叹句，询问是否和谐"
+    },
+    {
+        "query": "确切说",
+        "description": "引出具体说明，用于强调或解释"
+    },
+    {
+        "query": "人们和谐",
+        "description": "描述人们之间的和谐状态"
+    },
+    {
+        "query": "心猿意马",
+        "description": "成语，比喻心思不定，注意力无法集中"
+    },
+    {
+        "query": "曲线",
+        "description": "描述形状的术语，用于数学、物理等学科"
+    },
+    {
+        "query": "这下",
+        "description": "口语中表示情况发生后的状态或结果"
+    },
+    {
+        "query": "和谐与强",
+        "description": "对比和谐与强度的概念或状态"
+    },
+    {
+        "query": "泼墨",
+        "description": "绘画术语，指快速挥洒颜料"
+    },
+    {
+        "query": "说话",
+        "description": "日常交流的行为"
+    },
+    {
+        "query": "被求婚",
+        "description": "描述一种社交情境，常用于恋爱语境"
+    },
+    {
+        "query": "跌落",
+        "description": "物体从高处落下或数值下降的状态"
+    },
+    {
+        "query": "国家皇宫",
+        "description": "国家的官方建筑，如首都的宫殿"
+    },
+    {
+        "query": "愣愣",
+        "description": "形容词，表示人因惊讶或困惑而呆滞的样子"
+    },
+    {
+        "query": "差一点就没",
+        "description": "表示差点失去或完成某事"
+    },
+    {
+        "query": "转弯",
+        "description": "道路或行动方向的改变"
+    },
+    {
+        "query": "100%",
+        "description": "百分比的表示，常用于评价程度"
+    },
+    {
+        "query": "不文明用语",
+        "description": "指使用粗俗、侮辱性的语言"
+    },
+    {
+        "query": "人权传",
+        "description": "关于人权的传播或宣传"
+    },
+    {
+        "query": "刷屏",
+        "description": "网络用语，形容信息大量发布或浏览"
+    },
+    {
+        "query": "微微不",
+        "description": "表示轻微的不满或犹豫"
+    },
+    {
+        "query": "跑出去",
+        "description": "行为动作，表示离开或逃跑"
+    },
+    {
+        "query": "种种和谐",
+        "description": "多种和谐状态或表现"
+    },
+    {
+        "query": "大约总要",
+        "description": "表示大概会发生的某个结果"
+    },
+    {
+        "query": "嘴",
+        "description": "人体器官，用于进食、说话等"
+    },
+    {
+        "query": "和谐一幕",
+        "description": "描述和谐的场景或瞬间"
+    },
+    {
+        "query": "拥有和谐",
+        "description": "形容拥有和谐的生活或环境"
+    },
+    {
+        "query": "颇",
+        "description": "形容词，表示程度，如“颇有趣味”"
+    },
+    {
+        "query": "和谐与稳",
+        "description": "对比和谐与稳定的概念或状态"
+    },
+    {
+        "query": "可笑的是",
+        "description": "引出一个出乎意料或讽刺的事实"
+    },
+    {
+        "query": "人品",
+        "description": "个人的道德品质或行为表现"
+    },
+    {
+        "query": "，完了",
+        "description": "口语中用于表示事情的结束或完成"
+    },
+    {
+        "query": "若说",
+        "description": "引出假设或推测的语句"
+    },
+    {
+        "query": "布局和谐",
+        "description": "描述空间或设计上的和谐布局"
+    },
+    {
+        "query": "木偶",
+        "description": "指操纵者控制的人偶，也用于比喻缺乏自主性的人"
+    },
+    {
+        "query": "纬地经天",
+        "description": "成语，表示经纬天地，比喻规划或布局宏大"
+    },
+    {
+        "query": "辅导员",
+        "description": "教育机构中负责指导学生的学习和生活工作的教师"
+    },
+    {
+        "query": "经受",
+        "description": "经历并承受某种过程或考验"
+    },
+    {
+        "query": "也许的确",
+        "description": "表示可能或确认某个事实"
+    },
+    {
+        "query": "漠不关心",
+        "description": "形容对事物不感兴趣或无动于衷的态度"
+    },
+    {
+        "query": "迟迟",
+        "description": "形容时间拖延或行动迟缓"
+    }
+]
+```

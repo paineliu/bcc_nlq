@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "w快.慢w",
+        "description": "动词快后面跟一个字，然后是形容词慢"
+    },
+    {
+        "query": "v*年纪",
+        "description": "动词后面紧跟着年纪"
+    },
+    {
+        "query": "抄.作业",
+        "description": "抄后面隔一个字后接作业"
+    },
+    {
+        "query": "认为*吧",
+        "description": "认为后面离合出现吧"
+    },
+    {
+        "query": "似乎*委实",
+        "description": "似乎后面离合出现委实"
+    },
+    {
+        "query": "连......全",
+        "description": "连后面跟省略号，然后是全"
+    },
+    {
+        "query": "她..+过去w",
+        "description": "她后面跟一个省略号，然后是过去"
+    },
+    {
+        "query": "她.. 过去w",
+        "description": "她后面跟两个省略号，然后是过去"
+    },
+    {
+        "query": "他一个.....，",
+        "description": "他后面跟一个名词，然后是省略号，最后是逗号"
+    },
+    {
+        "query": "原*来着",
+        "description": "原后面离合出现原来着"
+    },
+    {
+        "query": "v*是ns",
+        "description": "动词后面紧跟着是，然后是专名"
+    },
+    {
+        "query": "把*v着",
+        "description": "把后面紧跟着动词，然后是着"
+    },
+    {
+        "query": "如果*，就要",
+        "description": "如果后面离合出现，然后是，最后是就要"
+    },
+    {
+        "query": "风味~",
+        "description": "风味后面紧跟一个词"
+    },
+    {
+        "query": "好像*了！",
+        "description": "好像后面离合出现，然后是了！"
+    },
+    {
+        "query": "什么都..吗",
+        "description": "什么后面跟一个省略号，然后是吗"
+    },
+    {
+        "query": "一朵*",
+        "description": "一朵后面离合出现"
+    },
+    {
+        "query": "你一个...........，",
+        "description": "你后面跟一个名词，然后是省略号，最后是逗号"
+    },
+    {
+        "query": "好像*定会",
+        "description": "好像后面离合出现，然后是定会"
+    },
+    {
+        "query": "一(..)是一(..)",
+        "description": "一后面跟两个省略号，然后是第一个省略号，再是第一个省略号，最后是第一个省略号"
+    },
+    {
+        "query": "要是*就*",
+        "description": "要是后面离合出现，然后是就"
+    },
+    {
+        "query": "技术*进步",
+        "description": "技术后面离合出现，然后是进步"
+    },
+    {
+        "query": "恐怕*究竟",
+        "description": "恐怕后面离合出现，然后是究竟"
+    },
+    {
+        "query": "把.一红",
+        "description": "把后面跟一个点，然后是数字一，最后是红色"
+    },
+    {
+        "query": "nr*贬低",
+        "description": "专名后面紧跟着贬低"
+    },
+    {
+        "query": "是*的结构w",
+        "description": "是后面离合出现，然后是的结构"
+    },
+    {
+        "query": "v*灯花",
+        "description": "动词后面紧跟着灯花"
+    },
+    {
+        "query": "恐怕*反倒",
+        "description": "恐怕后面离合出现，然后是反倒"
+    },
+    {
+        "query": "*还用v",
+        "description": "后面离合出现，然后是还用动词"
+    },
+    {
+        "query": "你一个*婆",
+        "description": "你后面跟一个名词，然后是婆"
+    },
+    {
+        "query": "哪怕......也......",
+        "description": "哪怕后面跟省略号，然后是也，最后是省略号"
+    },
+    {
+        "query": "上*下",
+        "description": "上后面离合出现，然后是下"
+    },
+    {
+        "query": "w软.硬w",
+        "description": "软后面跟一个点，然后是硬，最后是软"
+    },
+    {
+        "query": "把(N.)+V.",
+        "description": "把后面跟一个专名，然后是点，最后是动词"
+    },
+    {
+        "query": "把(N.) V.",
+        "description": "把后面跟一个专名，然后是动词"
+    },
+    {
+        "query": "到不.",
+        "description": "到后面跟一个词，然后是不"
+    },
+    {
+        "query": "非*不可",
+        "description": "非后面离合出现，然后是不可"
+    },
+    {
+        "query": "或许*总会",
+        "description": "或许后面离合出现，然后是总会"
+    },
+    {
+        "query": "v一.是一",
+        "description": "动词后面紧跟着一，然后是一个点，最后是第一个一"
+    },
+    {
+        "query": "或许*吧！",
+        "description": "或许后面离合出现，然后是吧！"
+    }
+]
+```

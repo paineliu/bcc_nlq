@@ -1,0 +1,154 @@
+以下是将给定的检索式转换为带含义的json结构：
+
+```json
+[
+    {
+        "query": "*一把w",
+        "description": "任何词后离合出现一把"
+    },
+    {
+        "query": "望....兴叹",
+        "description": "望后面隔一个字后接兴叹"
+    },
+    {
+        "query": "v+*+m倍",
+        "description": "动词后离合出现m倍"
+    },
+    {
+        "query": "v * m倍",
+        "description": "动词后紧接m倍"
+    },
+    {
+        "query": "好像*吧？",
+        "description": "好像后面紧接一个疑问词"
+    },
+    {
+        "query": "有什么好@的",
+        "description": "有什么后接一个形容词"
+    },
+    {
+        "query": "v*厨房",
+        "description": "动词后接厨房"
+    },
+    {
+        "query": "大概*绝没",
+        "description": "大概后面紧接绝没"
+    },
+    {
+        "query": "是*的状态w",
+        "description": "是后面紧接一个状态词"
+    },
+    {
+        "query": ".东.西",
+        "description": "东后面隔一个字后接西"
+    },
+    {
+        "query": "n*的提高",
+        "description": "名词后紧接提高"
+    },
+    {
+        "query": "恐怕*恰恰",
+        "description": "恐怕后面紧接恰恰"
+    },
+    {
+        "query": "仿佛*必定",
+        "description": "仿佛后面紧接必定"
+    },
+    {
+        "query": "v进一...来",
+        "description": "动词后紧接进一个字后接来"
+    },
+    {
+        "query": "你可~",
+        "description": "你后面紧接一个语气词"
+    },
+    {
+        "query": "@性w",
+        "description": "性后接一个形容词"
+    },
+    {
+        "query": "包~的",
+        "description": "包后面紧接一个语气词"
+    },
+    {
+        "query": "一..下去就",
+        "description": "一后面隔一个字后接下去就"
+    },
+    {
+        "query": "咱们一个*",
+        "description": "咱们后紧接一个未知词"
+    },
+    {
+        "query": "开始*V上",
+        "description": "开始后面紧接动词V再接上"
+    },
+    {
+        "query": "是*V的",
+        "description": "是后面紧接一个动词再接的"
+    },
+    {
+        "query": "她.+回来w",
+        "description": "她后紧接一个词再接回来"
+    },
+    {
+        "query": "她. 回来w",
+        "description": "她后紧接一个词再接回来"
+    },
+    {
+        "query": "v下*欢喜",
+        "description": "动词后紧接下再接欢喜"
+    },
+    {
+        "query": "大约*了。",
+        "description": "大约后面紧接了再接一个标点"
+    },
+    {
+        "query": "w弛.张w",
+        "description": "弛后面隔一个字后接张"
+    },
+    {
+        "query": ".一q.一q",
+        "description": "一后面隔一个词后接一q"
+    },
+    {
+        "query": "恐怕*就是v",
+        "description": "恐怕后面紧接就是再接一个动词"
+    },
+    {
+        "query": "大约*未必v",
+        "description": "大约后面紧接未必再接一个动词"
+    },
+    {
+        "query": "把.a到",
+        "description": "把后面紧接一个形容词再接到"
+    },
+    {
+        "query": "儿*",
+        "description": "儿后紧接一个未知词"
+    },
+    {
+        "query": "喝不.",
+        "description": "喝后面紧接不再接一个标点"
+    },
+    {
+        "query": "搜不.",
+        "description": "搜后面紧接不再接一个标点"
+    },
+    {
+        "query": "而且~还",
+        "description": "而且后面紧接一个语气词再接还"
+    },
+    {
+        "query": "如何如何~",
+        "description": "如何后面紧接一个语气词"
+    },
+    {
+        "query": "非*，不可*",
+        "description": "非后面紧接一个标点再接不可"
+    },
+    {
+        "query": "恐怕*正好",
+        "description": "恐怕后面紧接正好"
+    }
+]
+```

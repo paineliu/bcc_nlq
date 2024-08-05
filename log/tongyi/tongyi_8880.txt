@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "w熟.生w",
+        "description": "w熟后面隔一个字后接生，且两个单词都是以w开头的"
+    },
+    {
+        "query": "窜*五噫",
+        "description": "窜后面离合出现五噫"
+    },
+    {
+        "query": "@经历",
+        "description": "经历这个词语以@作为词性标识"
+    },
+    {
+        "query": "厨房*v",
+        "description": "厨房后面接动词"
+    },
+    {
+        "query": "w关.开w",
+        "description": "w关后面隔一个字后接开，且两个单词都是以w开头的"
+    },
+    {
+        "query": "恐怕*确有",
+        "description": "恐怕后面离合出现确有"
+    },
+    {
+        "query": "左*右",
+        "description": "左后面离合出现右"
+    },
+    {
+        "query": "要是*，就*",
+        "description": "要是后面离合出现，，然后就"
+    },
+    {
+        "query": "了..来",
+        "description": "了后面隔一个字后接来"
+    },
+    {
+        "query": "大概*吧？",
+        "description": "大概后面离合出现吧，后面紧跟问号"
+    },
+    {
+        "query": "w散.聚w",
+        "description": "w散后面隔一个字后接聚，且两个单词都是以w开头的"
+    },
+    {
+        "query": "v*之前",
+        "description": "动词后面离合出现之前"
+    },
+    {
+        "query": "也许*本来v",
+        "description": "也许后面离合出现本来，后面跟动词"
+    },
+    {
+        "query": "n*老",
+        "description": "n后面离合出现老"
+    },
+    {
+        "query": "或者*或许",
+        "description": "或者后面离合出现或许"
+    },
+    {
+        "query": "你.+下来w",
+        "description": "你后面加上单字连词，再接下来，且接下来的单词以w结尾"
+    },
+    {
+        "query": "你. 下来w",
+        "description": "你后面紧跟单字连词，再接下来，且接下来的单词以w结尾"
+    },
+    {
+        "query": "是*的氛围w",
+        "description": "是后面离合出现的氛围，且氛围以w结尾"
+    },
+    {
+        "query": "w古.今w",
+        "description": "w古后面隔一个字后接今，且两个单词都是以w开头的"
+    },
+    {
+        "query": "帮....忙",
+        "description": "帮后面隔多个字后接忙"
+    },
+    {
+        "query": "怕*仿佛",
+        "description": "怕后面离合出现仿佛"
+    },
+    {
+        "query": "发生~",
+        "description": "发生后面紧跟着一个词"
+    },
+    {
+        "query": "w生.死w",
+        "description": "w生后面隔一个字后接死，且两个单词都是以w开头的"
+    },
+    {
+        "query": "你.+过来w",
+        "description": "你后面加上单字连词，再接过来，且接下来的单词以w结尾"
+    },
+    {
+        "query": "你. 过来w",
+        "description": "你后面紧跟单字连词，再接过来，且接下来的单词以w结尾"
+    },
+    {
+        "query": "非*不",
+        "description": "非后面离合出现不"
+    },
+    {
+        "query": "努*力",
+        "description": "努后面接动词力"
+    },
+    {
+        "query": "恐怕*呢？",
+        "description": "恐怕后面离合出现呢，后面紧跟问号"
+    },
+    {
+        "query": "慢工*出细活",
+        "description": "慢工后面离合出现出细活"
+    },
+    {
+        "query": "认为*？",
+        "description": "认为后面离合出现问号"
+    },
+    {
+        "query": "@透了",
+        "description": "透了这个词语以@作为词性标识"
+    },
+    {
+        "query": "咱一个*，",
+        "description": "咱后面离合出现一个，后面紧跟逗号"
+    },
+    {
+        "query": "是个*n",
+        "description": "是后面紧跟名词n"
+    },
+    {
+        "query": "似乎*偏偏",
+        "description": "似乎后面离合出现偏偏"
+    },
+    {
+        "query": "只*能",
+        "description": "只后面接动词能"
+    },
+    {
+        "query": "他们一个*，",
+        "description": "他们后面离合出现一个，后面紧跟逗号"
+    },
+    {
+        "query": "这一打.就",
+        "description": "这一后面隔一个字后接就"
+    },
+    {
+        "query": "是+*+@+的w",
+        "description": "是加上单字连词，后面紧跟@，再接的单词以w结尾"
+    },
+    {
+        "query": "是 * @ 的w",
+        "description": "是后面紧跟@，再接的单词以w结尾"
+    },
+    {
+        "query": "w重.轻w",
+        "description": "w重后面隔一个字后接轻，且两个单词都是以w开头的"
+    }
+]
+```

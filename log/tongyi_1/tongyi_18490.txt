@@ -1,0 +1,156 @@
+```json
+[
+    {
+        "query": "的 (n) 的{len($1)!=3}",
+        "description": "包含'的'后面跟一个不是三个字的名词"
+    },
+    {
+        "query": "能 @/[v v] 的",
+        "description": "能后跟一个动词或另一个能字再接'的'"
+    },
+    {
+        "query": "冒 ../[n v] 。",
+        "description": "冒后接一个名词或动词，后面是句号"
+    },
+    {
+        "query": "遍地 ，/w 塞",
+        "description": "遍地后面，用逗号隔开，接任意一个字后接塞"
+    },
+    {
+        "query": "郝堂村 正/d 破茧",
+        "description": "郝堂村后面接副词正，再接破茧"
+    },
+    {
+        "query": "、 (n) 在{len($1)>1}",
+        "description": "、后面跟一个长度大于1的名词，且、本身是名词"
+    },
+    {
+        "query": "市民 (u) 农民{len($1)!=2}",
+        "description": "市民后面接一个不是两个字的名词"
+    },
+    {
+        "query": "@ 有",
+        "description": "有前面是词性标记"
+    },
+    {
+        "query": "村 . 委",
+        "description": "村后面接任意一个字符，然后是委"
+    },
+    {
+        "query": "的 (n){count>10}",
+        "description": "至少出现11次的'的'后面接名词"
+    },
+    {
+        "query": "可 (r) 一{len($1)!=2}",
+        "description": "可后接一个不是两个字的词"
+    },
+    {
+        "query": "团队 @ 做",
+        "description": "团队后面接一个词，但不统计词性"
+    },
+    {
+        "query": "r 不",
+        "description": "r后接不"
+    },
+    {
+        "query": "做 @ 一定",
+        "description": "做后面接一个词，但不统计词性，后面是一定"
+    },
+    {
+        "query": "孩子",
+        "description": "直接匹配孩子"
+    },
+    {
+        "query": "， (n) 们{begin($1)=[孩 很 哟 瞎]}",
+        "description": "逗号后面接孩子们（特定范围内的名词）"
+    },
+    {
+        "query": "(r) 差 ， 主人 脸上 先 挂 (i){count<243}",
+        "description": "差后面，主人脸上先挂，但总次数少于243次"
+    },
+    {
+        "query": "先 @ 发",
+        "description": "先后面接一个词，但不统计词性"
+    },
+    {
+        "query": "@ 建设",
+        "description": "建设前面是词性标记"
+    },
+    {
+        "query": "(n) 是{count<252}",
+        "description": "数量少于252次的名词后面接是"
+    },
+    {
+        "query": "， (d) 房{begin($1)!=[笔 才]}",
+        "description": "逗号后面接房，但不以笔或才开头"
+    },
+    {
+        "query": "村庄 (v) ，{count>7}",
+        "description": "村庄后面接一个逗号，且村庄后面的内容出现次数超过7次"
+    },
+    {
+        "query": "走",
+        "description": "直接匹配走"
+    },
+    {
+        "query": "做 (v) 很{end($1)=[来 冒 滚 更]}",
+        "description": "做后面接很，后面可以是来、冒、滚或更"
+    },
+    {
+        "query": "眼光 . 群众",
+        "description": "眼光后面接任意一个字符，然后是群众"
+    },
+    {
+        "query": "元 ~/[w v]",
+        "description": "元后面匹配一个词，可能是单词或动词"
+    },
+    {
+        "query": "(u) (m){len($1)!=2; len($2)!=2}",
+        "description": "两个连续的未知词，且每个词都不长于两个字"
+    },
+    {
+        "query": "(r) 拿{len($1)<3}",
+        "description": "r后接长度小于3的词"
+    },
+    {
+        "query": "这 ../[l v] ，",
+        "description": "这后面接一个l或v，后面是逗号"
+    },
+    {
+        "query": "./c 政府 ../v",
+        "description": "政府后面接一个连接词，再接一个动词"
+    },
+    {
+        "query": "都 得到/v 了",
+        "description": "都后面接得到，后面是动词，且有'了'"
+    },
+    {
+        "query": "了 w",
+        "description": "了后面接任意一个字符"
+    },
+    {
+        "query": "(n) ， 更 是 方法 (w){len($1)<3}",
+        "description": "名词后面接逗号，更是一个长度小于3的词，方法是名词"
+    },
+    {
+        "query": "(n) 不{count>10}",
+        "description": "数量大于10的名词后面接不"
+    },
+    {
+        "query": "(n) 哪里 来 (w){$1!=$2}",
+        "description": "名词后面接哪里和来，但两者不相同"
+    },
+    {
+        "query": "(n) 修复{count<313}",
+        "description": "数量少于313次的名词后面接修复"
+    },
+    {
+        "query": "村民 . 扫门",
+        "description": "村民后面接任意一个字符，然后是扫门"
+    },
+    {
+        "query": "(m) 内功{count<154}",
+        "description": "数量少于154次的m后接内功"
+    }
+]
+```

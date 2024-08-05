@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "没 想到/v 能",
+        "description": "包含没 想到 动词 能的句子"
+    },
+    {
+        "query": "污/ng+ng",
+        "description": "包含污 ng 的组合"
+    },
+    {
+        "query": "污/ng ng",
+        "description": "包含污 ng ng 的组合"
+    },
+    {
+        "query": "./a+的+../n",
+        "description": "包含以 .a 结尾，然后是 的，再接一个单音节名词的句子"
+    },
+    {
+        "query": "./a 的 ../n",
+        "description": "包含以 .a 开头，中间紧跟 的，再接一个单音节名词的句子"
+    },
+    {
+        "query": "打./v",
+        "description": "包含单音节动词 打 的句子"
+    },
+    {
+        "query": "、+宣传/v+有",
+        "description": "包含 、 后跟 宣传 动词 有 的句子"
+    },
+    {
+        "query": "、 宣传/v 有",
+        "description": "包含 宣传 动词 有 的句子，前有标点符号"
+    },
+    {
+        "query": "龙门+。/w",
+        "description": "包含 龙门 后跟 单词 。 的句子"
+    },
+    {
+        "query": "龙门 。/w",
+        "description": "包含 龙门 后跟 单词 。 的句子"
+    },
+    {
+        "query": "作者+单位/n+：",
+        "description": "包含 作者 后跟 单位 名词 再接 标点符号 ： 的句子"
+    },
+    {
+        "query": "作者 单位/n ：",
+        "description": "包含 作者 后跟 单位 名词 再接 标点符号 ： 的句子"
+    },
+    {
+        "query": "./v了n",
+        "description": "包含单音节动词后接名词的句子"
+    },
+    {
+        "query": "王维/nr+也+住+该/r",
+        "description": "包含 王维 后接 也 后接 住 再接 该 的句子"
+    },
+    {
+        "query": "王维/nr 也 住 该/r",
+        "description": "包含 王维 后接 也 后接 住 再接 该 的句子"
+    },
+    {
+        "query": "光/d",
+        "description": "包含单音节词 光 的句子"
+    },
+    {
+        "query": "，+剥削/v+概念",
+        "description": "包含 ， 后接 剥削 动词 概念 的句子"
+    },
+    {
+        "query": "， 剥削/v 概念",
+        "description": "包含 剥削 动词 概念 的句子，前有标点符号"
+    },
+    {
+        "query": "加速+快/d+跑",
+        "description": "包含 加速 后接 快 修饰词 跑 的句子"
+    },
+    {
+        "query": "加速 快/d 跑",
+        "description": "包含 加速 快 修饰词 跑 的句子"
+    },
+    {
+        "query": "属实/v",
+        "description": "包含动词 属实 的句子"
+    },
+    {
+        "query": "首先+是/v+农业",
+        "description": "包含 首先 后接 是 动词 再接 农业 名词 的句子"
+    },
+    {
+        "query": "首先 是/v 农业",
+        "description": "包含 首先 后接 是 动词 再接 农业 名词 的句子"
+    },
+    {
+        "query": "嘬/v",
+        "description": "包含动词 唿吸 的句子"
+    },
+    {
+        "query": "恩情/n*v",
+        "description": "包含 恩情 名词 的句子"
+    },
+    {
+        "query": "个别/a+地区+保障房/n",
+        "description": "包含 个别 形容词 地区 名词 保障房 的句子"
+    },
+    {
+        "query": "个别/a 地区 保障房/n",
+        "description": "包含 个别 形容词 地区 名词 保障房 的句子"
+    },
+    {
+        "query": "爱心/n+a",
+        "description": "包含 爱心 名词 加上 a 的句子"
+    },
+    {
+        "query": "爱心/n a",
+        "description": "包含 爱心 名词 a 的句子"
+    },
+    {
+        "query": "发展/vn+动力+观点/n",
+        "description": "包含 发展 名词 动力 名词 观点 的句子"
+    },
+    {
+        "query": "发展/vn 动力 观点/n",
+        "description": "包含 发展 动词 动力 名词 观点 的句子"
+    },
+    {
+        "query": "智库/n+发展+完善/v",
+        "description": "包含 智库 名词 发展 名词 完善 的句子"
+    },
+    {
+        "query": "智库/n 发展 完善/v",
+        "description": "包含 智库 名词 发展 动词 完善 的句子"
+    },
+    {
+        "query": "继续+暂缓/v+征收",
+        "description": "包含 继续 后接 暂缓 动词 再接 征收 的句子"
+    },
+    {
+        "query": "继续 暂缓/v 征收",
+        "description": "包含 继续 暂缓 动词 征收 的句子"
+    },
+    {
+        "query": "执行+难/v+人民",
+        "description": "包含 执行 后接 难 动词 再接 人民 的句子"
+    },
+    {
+        "query": "执行 难/v 人民",
+        "description": "包含 执行 难 动词 人民 的句子"
+    },
+    {
+        "query": "一/m+次",
+        "description": "包含 数词 一 后接 名词 次 的句子"
+    },
+    {
+        "query": "一/m 次",
+        "description": "包含 数词 一 后接 名词 次 的句子"
+    },
+    {
+        "query": "..子/n",
+        "description": "包含 .. 后接 子 名词 的句子"
+    }
+]
+```

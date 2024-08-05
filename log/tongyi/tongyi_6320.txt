@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "m+匹+n",
+        "description": "名+匹+名"
+    },
+    {
+        "query": "m 匹 n",
+        "description": "名 匹 名"
+    },
+    {
+        "query": "特别N",
+        "description": "特别+N"
+    },
+    {
+        "query": "V+下来了",
+        "description": "动+下来了"
+    },
+    {
+        "query": "V 下来了",
+        "description": "动 下来了"
+    },
+    {
+        "query": "LOL",
+        "description": "LOL"
+    },
+    {
+        "query": "r那个nr",
+        "description": "r 那个 nr"
+    },
+    {
+        "query": "V不！",
+        "description": "动 不！"
+    },
+    {
+        "query": "被v到",
+        "description": "被 动词 到"
+    },
+    {
+        "query": "讨厌v",
+        "description": "讨厌 动词"
+    },
+    {
+        "query": "v书房",
+        "description": "动 书房"
+    },
+    {
+        "query": "一捧n",
+        "description": "一 捧 名词"
+    },
+    {
+        "query": "o+n声",
+        "description": "拟声词 + 名词"
+    },
+    {
+        "query": "o n声",
+        "description": "拟声词 n 声"
+    },
+    {
+        "query": "r+阿+Q",
+        "description": "r 阿 Q"
+    },
+    {
+        "query": "r 阿 Q",
+        "description": "r 阿 Q"
+    },
+    {
+        "query": "检验v",
+        "description": "检验 动词"
+    },
+    {
+        "query": "很a与a",
+        "description": "很 形容词 与 形容词"
+    },
+    {
+        "query": "r看来",
+        "description": "r 看来"
+    },
+    {
+        "query": "v了q+n",
+        "description": "动 了 q 名词"
+    },
+    {
+        "query": "v了q n",
+        "description": "动 了 q 名词"
+    },
+    {
+        "query": "秒V",
+        "description": "秒 动词"
+    },
+    {
+        "query": "a不觉",
+        "description": "形容词 不觉"
+    },
+    {
+        "query": "不d一",
+        "description": "不 d 一"
+    },
+    {
+        "query": "a去了",
+        "description": "形容词 去了"
+    },
+    {
+        "query": "a党员",
+        "description": "形容词 党员"
+    },
+    {
+        "query": "v也v不住",
+        "description": "动 也 动词 不住"
+    },
+    {
+        "query": "a起来了。",
+        "description": "形容词 起来了。"
+    },
+    {
+        "query": "b意见",
+        "description": "b 意见"
+    },
+    {
+        "query": "a低温",
+        "description": "形容词 低温"
+    },
+    {
+        "query": "w虽",
+        "description": "w 虽"
+    },
+    {
+        "query": "a函授",
+        "description": "形容词 函授"
+    },
+    {
+        "query": "不特v",
+        "description": "不 特 动词"
+    },
+    {
+        "query": "a不幸",
+        "description": "形容词 不幸"
+    },
+    {
+        "query": "a依据",
+        "description": "形容词 依据"
+    },
+    {
+        "query": "d炖",
+        "description": "d 炖"
+    },
+    {
+        "query": "有一点a",
+        "description": "有 一点 形容词"
+    },
+    {
+        "query": "n本身",
+        "description": "名词 本身"
+    },
+    {
+        "query": "一v到底",
+        "description": "一 动词 到底"
+    },
+    {
+        "query": "偷着n",
+        "description": "偷着 名词"
+    }
+]
+```

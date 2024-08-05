@@ -1,0 +1,160 @@
+```json
+[
+    {
+        "query": "喘",
+        "description": "喘，可能是对呼吸急促或喘息的描述"
+    },
+    {
+        "query": "进行 (u) 调查{count<776}",
+        "description": "进行某项调查，但实例频次少于776次"
+    },
+    {
+        "query": "各地 (d) 优先{count>3}",
+        "description": "各地优先考虑的内容，但满足的实例数多于3个"
+    },
+    {
+        "query": "(nr) 表示 (w){$1!=$2}",
+        "description": "表示某个内容，但前后表示的内容不同"
+    },
+    {
+        "query": "会 ./p 水价",
+        "description": "会话中提及水价"
+    },
+    {
+        "query": "水资源 (n) 依然{begin($1)=[形 号]}",
+        "description": "水资源的状态仍然是形容词或特定标识"
+    },
+    {
+        "query": "(v) (w){len($1)!=3}",
+        "description": "可能是单音节动词或非三字的词汇"
+    },
+    {
+        "query": "(r) 类{count>2}",
+        "description": "类别相关的内容，至少有3个实例"
+    },
+    {
+        "query": "现象 亦 值得 深思 (w){$1!=$2}",
+        "description": "现象值得深思，但现象和深思的内容不相同"
+    },
+    {
+        "query": "引 @/[n v] 关注",
+        "description": "引起关注的动作可能是动词或名词"
+    },
+    {
+        "query": "作风 ../[n v] 无",
+        "description": "关于作风的描述，可能是动词或名词后面跟无"
+    },
+    {
+        "query": "别 ~ 村",
+        "description": "别后接任意词性词的村"
+    },
+    {
+        "query": "去 @/[j v] 西北",
+        "description": "去后接介词或动词的西北方向"
+    },
+    {
+        "query": "办 d 了",
+        "description": "办理的动作，可能是副词接动词完成时态"
+    },
+    {
+        "query": "这种 ../[n v] ，",
+        "description": "这种后接名词或动词，可能是一个句子的开始"
+    },
+    {
+        "query": "(n) (w){end($1)=[体 插 料]}",
+        "description": "名词后面可能是体、插或料"
+    },
+    {
+        "query": "上 ./w 集体",
+        "description": "上后面接动词或名词，可能涉及集体"
+    },
+    {
+        "query": "(n) 为{begin($1)=[作 世 敢]}",
+        "description": "名词后面可能是作为、世界或敢"
+    },
+    {
+        "query": "v 难 w",
+        "description": "动词后面接形容词，可能是困难的情况"
+    },
+    {
+        "query": "不 @ 合同",
+        "description": "不后接合同，可能是指不签署或不履行合同"
+    },
+    {
+        "query": "(n) 当头 ， (v){len($1)>1; begin($2)!=[占 跟 脑]}",
+        "description": "名词当头，后面可能是动词，但动词不是占、跟或脑"
+    },
+    {
+        "query": "企业 u 信誉度",
+        "description": "企业方面的用户信誉度"
+    },
+    {
+        "query": "~ 状况",
+        "description": "状况，可能是单个词"
+    },
+    {
+        "query": "(vn) (n){len($1)=2}",
+        "description": "可能是双音节动词后面接名词"
+    },
+    {
+        "query": "保证金 .. 正常",
+        "description": "保证金的状态可能是连续的词"
+    },
+    {
+        "query": "欠薪 ./[u v] 可能",
+        "description": "欠薪可能涉及动词或介词"
+    },
+    {
+        "query": "是 (i) 的{len($1)<3}",
+        "description": "是后面接形容词或名词，且形容词或名词长度小于3"
+    },
+    {
+        "query": "王启峰 .",
+        "description": "可能是人名王启峰，可能后面有停顿"
+    },
+    {
+        "query": "../[n v] 生态",
+        "description": "可能是双音节动词或名词后接生态"
+    },
+    {
+        "query": "(b) 迎检 (r){end($1)!=[器 草 品 麽]}",
+        "description": "迎检，可能是形容词接名词，排除器、草、品或嘛"
+    },
+    {
+        "query": "乡村 (v) 的{count>8}",
+        "description": "乡村相关的动词，实例频次超过8"
+    },
+    {
+        "query": "活 ./m 只",
+        "description": "活后面可能是动词或单字，接只"
+    },
+    {
+        "query": "(n) 至此{end($1)=[人 恶 写 亏]}",
+        "description": "名词至此，后面可能是人、恶、写或亏"
+    },
+    {
+        "query": "共建 (v){len($1)<3}",
+        "description": "共建可能是短于三字的动词"
+    },
+    {
+        "query": "本固邦宁 (w){count<539}",
+        "description": "本固邦宁，可能是短语，实例频次少于539"
+    },
+    {
+        "query": "要 (v) 人民{len($1)!=2}",
+        "description": "要后面接动词，且动词不是两字"
+    },
+    {
+        "query": "如期而至 @",
+        "description": "如期而至，可能是动词或形容词，统计时按词性归并"
+    },
+    {
+        "query": "， (l) 。{begin($1)=[永 纸 语 斗]}",
+        "description": "逗号后面可能是永、纸、语或斗"
+    },
+    {
+        "query": "../[vn v] 成果",
+        "description": "可能是双音节动词或名词后接成果"
+    }
+]
+```

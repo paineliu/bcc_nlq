@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "， 不/d 搞",
+        "description": "逗号后接不/d，后面接动词搞"
+    },
+    {
+        "query": "驱动器+。/w",
+        "description": "驱动器后面直接跟句点"
+    },
+    {
+        "query": "驱动器 。/w",
+        "description": "驱动器后面直接跟句点"
+    },
+    {
+        "query": "以+帕萨特/nr+、",
+        "description": "以+帕萨特/nr后面直接跟符号、"
+    },
+    {
+        "query": "以 帕萨特/nr 、",
+        "description": "以后面接帕萨特/nr，后面跟符号、"
+    },
+    {
+        "query": "再+立案/v+太",
+        "description": "再+立案/v后面接太"
+    },
+    {
+        "query": "再 立案/v 太",
+        "description": "再后面接立案/v，后面接太"
+    },
+    {
+        "query": "万万/d",
+        "description": "万万/d，单独作为词存在"
+    },
+    {
+        "query": "呼唤+更/d+多",
+        "description": "呼唤后面接更/d，再接多"
+    },
+    {
+        "query": "呼唤 更/d 多",
+        "description": "呼唤后面接更/d，再接多"
+    },
+    {
+        "query": "v+激情/n",
+        "description": "动词后面接激情/n"
+    },
+    {
+        "query": "v 激情/n",
+        "description": "动词后面接激情/n"
+    },
+    {
+        "query": "人+。/w",
+        "description": "人后面直接跟句点"
+    },
+    {
+        "query": "人 。/w",
+        "description": "人后面直接跟句点"
+    },
+    {
+        "query": "新/a+境界+。/w",
+        "description": "新/a后面接境界，后面直接跟句点"
+    },
+    {
+        "query": "新/a 境界 。/w",
+        "description": "新/a后面接境界，后面直接跟句点"
+    },
+    {
+        "query": "含/v",
+        "description": "含/v，作为动词存在"
+    },
+    {
+        "query": "将+赴/v+哈",
+        "description": "将后面接赴/v，再接哈"
+    },
+    {
+        "query": "将 赴/v 哈",
+        "description": "将后面接赴/v，再接哈"
+    },
+    {
+        "query": "最/d",
+        "description": "最/d，作为形容词存在"
+    },
+    {
+        "query": "肥沃+农田/n",
+        "description": "肥沃后面接农田/n"
+    },
+    {
+        "query": "肥沃 农田/n",
+        "description": "肥沃后面接农田/n"
+    },
+    {
+        "query": "苦笑/v+着+说+。/w",
+        "description": "苦笑/v后面接着，再接说，后面直接跟句点"
+    },
+    {
+        "query": "苦笑/v 着 说 。/w",
+        "description": "苦笑/v后面接着，再接说，后面直接跟句点"
+    },
+    {
+        "query": "v+好意/n",
+        "description": "动词后面接好意/n"
+    },
+    {
+        "query": "v 好意/n",
+        "description": "动词后面接好意/n"
+    },
+    {
+        "query": "的/u+角落/n",
+        "description": "的/u后面接角落/n"
+    },
+    {
+        "query": "的/u 角落/n",
+        "description": "的/u后面接角落/n"
+    },
+    {
+        "query": "主要+任务/n",
+        "description": "主要后面接任务/n"
+    },
+    {
+        "query": "主要 任务/n",
+        "description": "主要后面接任务/n"
+    },
+    {
+        "query": "../n+风",
+        "description": "空格后面直接跟风"
+    },
+    {
+        "query": "../n 风",
+        "description": "空格后面直接跟风"
+    },
+    {
+        "query": "税务+审批/vn+将",
+        "description": "税务后面接审批/vn，再接将"
+    },
+    {
+        "query": "税务 审批/vn 将",
+        "description": "税务后面接审批/vn，再接将"
+    },
+    {
+        "query": "鼓/v+着+腮帮/n",
+        "description": "鼓/v后面接着，再接腮帮/n"
+    },
+    {
+        "query": "鼓/v 着 腮帮/n",
+        "description": "鼓/v后面接着，再接腮帮/n"
+    },
+    {
+        "query": "冻掉+下巴/n+。",
+        "description": "冻掉后面接下巴/n，后面直接跟句点"
+    },
+    {
+        "query": "冻掉 下巴/n 。",
+        "description": "冻掉后面接下巴/n，后面直接跟句点"
+    },
+    {
+        "query": "冷./a",
+        "description": "冷./a，作为形容词存在"
+    },
+    {
+        "query": "生/v+s",
+        "description": "生/v后面接s"
+    }
+]
+```

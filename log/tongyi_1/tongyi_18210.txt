@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "实施 ../[vn v] 分级",
+        "description": "实施后接动词或动名词的分级"
+    },
+    {
+        "query": "税收 (vn) 层级{begin($1)!=[时 彩 怎 品]}",
+        "description": "税收后接名词层级，但不以时、彩、怎、品开头"
+    },
+    {
+        "query": "自然人 ../[n v] 管理",
+        "description": "自然人后接名词或动词的管理"
+    },
+    {
+        "query": "稽查",
+        "description": "直接的稽查"
+    },
+    {
+        "query": "电子 (n) 。{end($1)=[票 出 叔 路]}",
+        "description": "电子后接名词，句尾是票、出、叔或路"
+    },
+    {
+        "query": ".. 税收",
+        "description": "句首或句尾是税收"
+    },
+    {
+        "query": "参与 .. 合作",
+        "description": "参与后接任意词的合作"
+    },
+    {
+        "query": "国际 @/[n v] 规则",
+        "description": "国际后接名词或动词的规则，统计时按词性归并"
+    },
+    {
+        "query": "税收 (vn) 。{len($1)>1}",
+        "description": "税收后接至少两个字的名词，句尾可能是句号"
+    },
+    {
+        "query": "逃避税 (w){count<830}",
+        "description": "逃避税，实例频次少于830次"
+    },
+    {
+        "query": "战略 (w){count<958}",
+        "description": "战略，实例频次少于958次"
+    },
+    {
+        "query": "五 (v) 税务{count>3}",
+        "description": "五后接动词的税务实例，频次超过3次"
+    },
+    {
+        "query": "(ad) 加强{len($1)<3}",
+        "description": "副词加强，长度少于3个字"
+    },
+    {
+        "query": "设置 w",
+        "description": "设置后接任意词，可能是句首或句尾"
+    },
+    {
+        "query": "完善 ../[vn v] 内审",
+        "description": "完善后接动词或动名词的内审"
+    },
+    {
+        "query": "税务 (n) 。{count<416}",
+        "description": "税务后接名词，实例频次少于416次，句尾可能是句号"
+    },
+    {
+        "query": "(ad) 配置{begin($1)=[合 首]}",
+        "description": "副词配置，以合或首开始"
+    },
+    {
+        "query": "建设 .",
+        "description": "建设后接任意字符，可能是句首或句尾"
+    },
+    {
+        "query": "六 ../v 税收",
+        "description": "六后接动词的税收"
+    },
+    {
+        "query": "(v) 跨 (n){begin($1)=[拓展 体 林]; len($2)=2}",
+        "description": "动词跨后接名词，跨的后面是拓展、体或林，且跨后面跟的名词长度为2"
+    },
+    {
+        "query": "税收 @ 。",
+        "description": "税收后接句号，统计时按词性归并"
+    },
+    {
+        "query": "机制 .",
+        "description": "机制后接任意字符，可能是句首或句尾"
+    },
+    {
+        "query": "(v) 税法{count<301}",
+        "description": "动词税法，实例频次少于301次"
+    },
+    {
+        "query": "(w) 组织 (v){len($2)>1}",
+        "description": "组织后接动词，且动词长度大于1"
+    },
+    {
+        "query": "(m) 提高 (n){len($1)=1; len($2)=2}",
+        "description": "动词提高后接一个字的名词，提高本身长度为1"
+    },
+    {
+        "query": "组织",
+        "description": "直接的组织"
+    },
+    {
+        "query": "稳步 ~ 实施",
+        "description": "稳步后接一个词实施"
+    },
+    {
+        "query": ". 加强",
+        "description": "句尾加强"
+    },
+    {
+        "query": "@ 最后",
+        "description": "最后，统计时按词性归并"
+    },
+    {
+        "query": "d 突破 n",
+        "description": "副词突破后接名词"
+    },
+    {
+        "query": "农村 ../v 取得",
+        "description": "农村后接动词取得"
+    },
+    {
+        "query": "的 大/a 服务员",
+        "description": "的后接形容词大，再接服务员"
+    },
+    {
+        "query": "工作 u 高",
+        "description": "工作后接助词高"
+    },
+    {
+        "query": "万",
+        "description": "万，可能作为单独的词或句尾"
+    },
+    {
+        "query": "~ 会见",
+        "description": "一个词后接会见"
+    },
+    {
+        "query": "张/nr 庆黎",
+        "description": "人名张庆黎"
+    },
+    {
+        "query": "是 ~ 政治部",
+        "description": "是后接一个词的政治部"
+    },
+    {
+        "query": "引领",
+        "description": "引领，可能作为单独的词"
+    },
+    {
+        "query": "(nr) 委员长{len($1)=3}",
+        "description": "委员长，三个字的人名"
+    },
+    {
+        "query": "王胜俊 (n) 主持{len($1)>3}",
+        "description": "王胜俊后接主持，主持的长度超过3个字"
+    }
+]
+```

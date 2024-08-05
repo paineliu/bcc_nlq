@@ -1,0 +1,166 @@
+以下是将给定的检索式转换为带含义的json结构：
+
+```json
+[
+    {
+        "query": "绷带",
+        "description": "包含绷带这个词的句子"
+    },
+    {
+        "query": "终身~",
+        "description": "终身后面跟一个词"
+    },
+    {
+        "query": "w怪*",
+        "description": "w后面跟着一个形容词"
+    },
+    {
+        "query": "也许*索性",
+        "description": "也许后面跟着一个决定性的行为或选择"
+    },
+    {
+        "query": "倒是*的好。",
+        "description": "倒是后面跟着一个形容词，后面跟的是好的句子"
+    },
+    {
+        "query": "*系",
+        "description": "一个词后面跟着系字"
+    },
+    {
+        "query": "吃*",
+        "description": "吃后面跟着一个词"
+    },
+    {
+        "query": "没有.....a",
+        "description": "没有后面跟着一系列词，最后是形容词"
+    },
+    {
+        "query": "亏*吃",
+        "description": "亏后面跟着一个行为词，后面是吃"
+    },
+    {
+        "query": "时间像..n",
+        "description": "时间后面跟着一个像的比喻词，后面跟着名词"
+    },
+    {
+        "query": "恐怕*恰",
+        "description": "恐怕后面跟着一个恰字，可能表示恰好"
+    },
+    {
+        "query": "照不.",
+        "description": "照后面跟着一个动词，后面跟着一个句点"
+    },
+    {
+        "query": "某n*该n",
+        "description": "某后面跟着一个名词，后面跟着一个应该的动词"
+    },
+    {
+        "query": "a.鬼",
+        "description": "a后面跟着一个鬼字"
+    },
+    {
+        "query": "至少*仿佛",
+        "description": "至少后面跟着一个词，表示仿佛或类似的意思"
+    },
+    {
+        "query": "你.+上来w",
+        "description": "你后面跟着一个加号，然后是上来的动词"
+    },
+    {
+        "query": "你. 上来w",
+        "description": "你后面跟着空格，然后是上来的动词"
+    },
+    {
+        "query": "拾不.",
+        "description": "拾后面跟着一个动词，后面跟着一个句点"
+    },
+    {
+        "query": "向..+++一v",
+        "description": "向后面跟着一系列词，最后是动词一"
+    },
+    {
+        "query": "向..   一v",
+        "description": "向后面跟着空格，然后是一字的动词"
+    },
+    {
+        "query": "他..+过来w",
+        "description": "他后面跟着一系列词，最后是过来的动词"
+    },
+    {
+        "query": "他.. 过来w",
+        "description": "他后面跟着空格，然后是过来的动词"
+    },
+    {
+        "query": "a.老人",
+        "description": "a后面跟着一个老人词"
+    },
+    {
+        "query": "只有*才",
+        "description": "只有后面跟着一个词，然后是才字"
+    },
+    {
+        "query": "所以*？",
+        "description": "所以后面跟着一个词，然后是一个问号"
+    },
+    {
+        "query": "a.记忆",
+        "description": "a后面跟着一个记忆词"
+    },
+    {
+        "query": "我们..+过来w",
+        "description": "我们后面跟着一系列词，最后是过来的动词"
+    },
+    {
+        "query": "我们.. 过来w",
+        "description": "我们后面跟着空格，然后是过来的动词"
+    },
+    {
+        "query": "恐怕*一定会",
+        "description": "恐怕后面跟着一个一定会的表述"
+    },
+    {
+        "query": "w降.升w",
+        "description": "w后面跟着降字，然后是一个句点，接着是升字"
+    },
+    {
+        "query": "背...黑锅",
+        "description": "背后面跟着一系列词，最后是黑锅"
+    },
+    {
+        "query": "耐不.",
+        "description": "耐后面跟着一个动词，后面跟着一个句点"
+    },
+    {
+        "query": "w女.男w",
+        "description": "w后面跟着女字，然后是空格，再是男字"
+    },
+    {
+        "query": "也不是....也不是",
+        "description": "也不是后面跟着一系列词，最后是也不是的重复"
+    },
+    {
+        "query": "活不.",
+        "description": "活后面跟着一个动词，后面跟着一个句点"
+    },
+    {
+        "query": "往..v",
+        "description": "往后面跟着一系列词，最后是动词v"
+    },
+    {
+        "query": "再...吗",
+        "description": "再后面跟着一系列词，最后是问号"
+    },
+    {
+        "query": "adj.+++耶",
+        "description": "adj后面跟着一系列词，最后是耶字"
+    },
+    {
+        "query": "adj.   耶",
+        "description": "adj后面跟着空格，然后是耶字"
+    },
+    {
+        "query": "v*圣诞树",
+        "description": "v后面跟着圣诞树这个词"
+    }
+]
+```

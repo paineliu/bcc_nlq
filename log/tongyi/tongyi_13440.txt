@@ -1,0 +1,166 @@
+以下是将给定的检索式转换为带含义的json结构后的完整列表：
+
+```json
+[
+    {
+        "query": "大约v+y[，+。]",
+        "description": "大约后面接动词y，y后面可以是逗号或句号"
+    },
+    {
+        "query": "大约v y[， 。]",
+        "description": "大约后面接动词y，y后面可以是逗号或句号"
+    },
+    {
+        "query": "v的不是n[，+。]",
+        "description": "动词后面接'的'，再接不是和名词，'的'后面可以是逗号或句号"
+    },
+    {
+        "query": "v的不是n[， 。]",
+        "description": "动词后面接'的'，再接不是和名词，'的'后面可以是逗号或句号"
+    },
+    {
+        "query": "亲自v+y[，+。]",
+        "description": "亲自后面接动词y，y后面可以是逗号或句号"
+    },
+    {
+        "query": "亲自v y[， 。]",
+        "description": "亲自后面接动词y，y后面可以是逗号或句号"
+    },
+    {
+        "query": "才d+v[，+。]",
+        "description": "才后面接副词d，d后面接动词，之后可以是逗号或句号"
+    },
+    {
+        "query": "才d v[， 。]",
+        "description": "才后面接副词d，d后面接动词，之后可以是逗号或句号"
+    },
+    {
+        "query": "该v还得v[，+。]",
+        "description": "该后面接动词v，之后接还得和另一个动词v，之后可以是逗号或句号"
+    },
+    {
+        "query": "该v还得v[， 。]",
+        "description": "该后面接动词v，之后接还得和另一个动词v，之后可以是逗号或句号"
+    },
+    {
+        "query": "难怪n[，+。]",
+        "description": "难怪后面接名词，之后可以是逗号或句号"
+    },
+    {
+        "query": "难怪n[， 。]",
+        "description": "难怪后面接名词，之后可以是逗号或句号"
+    },
+    {
+        "query": "无疑v+a[，+。]",
+        "description": "无疑后面接形容词a或动词，之后可以是逗号或句号"
+    },
+    {
+        "query": "无疑v a[， 。]",
+        "description": "无疑后面接形容词a或动词，之后可以是逗号或句号"
+    },
+    {
+        "query": "记+n[f+s]",
+        "description": "记后面接名词，之后接f+s组合"
+    },
+    {
+        "query": "记 n[f s]",
+        "description": "记后面接名词，之后接f+s组合"
+    },
+    {
+        "query": "决不d+a[，+。]",
+        "description": "决不后面接形容词a或动词，之后可以是逗号或句号"
+    },
+    {
+        "query": "决不d a[， 。]",
+        "description": "决不后面接形容词a或动词，之后可以是逗号或句号"
+    },
+    {
+        "query": "尽力v+y[，+。]",
+        "description": "尽力后面接动词y，y后面可以是逗号或句号"
+    },
+    {
+        "query": "尽力v y[， 。]",
+        "description": "尽力后面接动词y，y后面可以是逗号或句号"
+    },
+    {
+        "query": "特别v+u[，+。]",
+        "description": "特别后面接形容词u，u后面可以是逗号或句号"
+    },
+    {
+        "query": "特别v u[， 。]",
+        "description": "特别后面接形容词u，u后面可以是逗号或句号"
+    },
+    {
+        "query": "[s+t]*v了",
+        "description": "s+t组合后接动词v，动词后面接了了"
+    },
+    {
+        "query": "[s t]*v了",
+        "description": "s+t组合后接动词v，动词后面接了了"
+    },
+    {
+        "query": "给予[v+vn]",
+        "description": "给予后面接动词v和动名词vn"
+    },
+    {
+        "query": "给予[v vn]",
+        "description": "给予后面接动词v和动名词vn"
+    },
+    {
+        "query": "或者v[v+a+n+r][，+。]",
+        "description": "或者后面接由v、a、n、r组成的序列，序列后可以是逗号或句号"
+    },
+    {
+        "query": "或者v[v a n r][， 。]",
+        "description": "或者后面接由v、a、n、r组成的序列，序列后可以是逗号或句号"
+    },
+    {
+        "query": "也许d+n[，+。]",
+        "description": "也许后面接名词，之后可以是逗号或句号"
+    },
+    {
+        "query": "也许d n[， 。]",
+        "description": "也许后面接名词，之后可以是逗号或句号"
+    },
+    {
+        "query": "w[q+r+d+c+v+a++n+m++p]暗.明w",
+        "description": "w后面接由q、r、d、c、v、a、n、m、p组成的序列，序列后接暗，明，最后是w"
+    },
+    {
+        "query": "w[q r d c v a  n m  p]暗.明w",
+        "description": "w后面接由q、r、d、c、v、a、n、m、p组成的序列，序列后接暗，明，最后是w"
+    },
+    {
+        "query": "[v+a]得半死[，+。]",
+        "description": "v和a组成的序列后接得，半死，之后可以是逗号或句号"
+    },
+    {
+        "query": "[v a]得半死[， 。]",
+        "description": "v和a组成的序列后接得，半死，之后可以是逗号或句号"
+    },
+    {
+        "query": "被迫d+n[，+。]",
+        "description": "被迫后面接名词，之后可以是逗号或句号"
+    },
+    {
+        "query": "被迫d n[， 。]",
+        "description": "被迫后面接名词，之后可以是逗号或句号"
+    },
+    {
+        "query": "最好v+y[，+。]",
+        "description": "最好后面接动词y，y后面可以是逗号或句号"
+    },
+    {
+        "query": "最好v y[， 。]",
+        "description": "最好后面接动词y，y后面可以是逗号或句号"
+    },
+    {
+        "query": "只顾v+y[，+。]",
+        "description": "只顾后面接动词y，y后面可以是逗号或句号"
+    },
+    {
+        "query": "只顾v y[， 。]",
+        "description": "只顾后面接动词y，y后面可以是逗号或句号"
+    }
+]
+```

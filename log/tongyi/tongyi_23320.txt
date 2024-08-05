@@ -1,0 +1,126 @@
+以下是将给定的检索式转换为带含义的json结构：
+
+```json
+[
+    {
+        "query": "比d还d{$1=$2}",
+        "description": "比后接d，d后再次接d，并且这两个d相同"
+    },
+    {
+        "query": "大山+(d)+受{len($1)!=2}",
+        "description": "大山后接单个d，d后接的词语长度不为2"
+    },
+    {
+        "query": "大山 (d) 受{len($1)!=2}",
+        "description": "大山后接d，d后接的词语长度不为2"
+    },
+    {
+        "query": "有+(r)+照顾{count>2}",
+        "description": "有后接r，r后接的词语出现次数超过2次"
+    },
+    {
+        "query": "有 (r) 照顾{count>2}",
+        "description": "有后接r，r后接的词语出现次数超过2次"
+    },
+    {
+        "query": "千+(m)+公里{len($1)!=2}",
+        "description": "千后接m，m后接的词语长度不为2"
+    },
+    {
+        "query": "千 (m) 公里{len($1)!=2}",
+        "description": "千后接m，m后接的词语长度不为2"
+    },
+    {
+        "query": "(nr)+表示+(w){len($1)<4}",
+        "description": "nr后接表示，表示后接的词语长度小于4"
+    },
+    {
+        "query": "(nr) 表示 (w){len($1)<4}",
+        "description": "nr后接表示，表示后接的词语长度小于4"
+    },
+    {
+        "query": "为{end($1)!=[什]}",
+        "description": "为不以什结尾"
+    },
+    {
+        "query": "群众+(v)+当场{count>2}",
+        "description": "群众后接动词，动词后接当场，出现次数超过2次"
+    },
+    {
+        "query": "群众 (v) 当场{count>2}",
+        "description": "群众后接动词，动词后接当场，出现次数超过2次"
+    },
+    {
+        "query": "最+(a)+核电{count<341}",
+        "description": "最后接形容词，形容词后接核电，出现次数小于341次"
+    },
+    {
+        "query": "计算(n)*w{len($1)=2}",
+        "description": "计算后的词语长度为2"
+    },
+    {
+        "query": "(nr)+政伟+(v){len($1)!=2; len($2)=1}",
+        "description": "nr后接政伟，政伟后接单个动词，并且政伟和政伟间词语长度不为2"
+    },
+    {
+        "query": "(nr) 政伟 (v){len($1)!=2; len($2)=1}",
+        "description": "nr后接政伟，政伟后接单个动词，并且政伟和政伟间词语长度不为2"
+    },
+    {
+        "query": "以+(a)+成就{len($1)!=3}",
+        "description": "以后接形容词，形容词后接成就，长度不为3"
+    },
+    {
+        "query": "(v)不像(v){$1=$2}",
+        "description": "动词后接像，像和像相同"
+    },
+    {
+        "query": "(nt)+中的(nt){$1=$2}",
+        "description": "nt后接中的，中的和中的相同"
+    },
+    {
+        "query": "(n)+的+邻居+是+养+(n){len($1)>1; end($2)!=[肿+断+气+乖]}",
+        "description": "n后接的词语长度大于1，最后接的词语不包含肿、断、气、乖"
+    },
+    {
+        "query": "(n) 的 邻居 是 养 (n){len($1)>1; end($2)!=[肿 断 气 乖]}",
+        "description": "n后接的词语长度大于1，最后接的词语不包含肿、断、气、乖"
+    },
+    {
+        "query": "(v)+平衡{count>9}",
+        "description": "动词后接平衡，出现次数超过9次"
+    },
+    {
+        "query": "(v) 平衡{count>9}",
+        "description": "动词后接平衡，出现次数超过9次"
+    },
+    {
+        "query": "旅游+(n)+陪同{len($1)<3}",
+        "description": "旅游后接n，n后接陪同，长度小于3"
+    },
+    {
+        "query": "旅游 (n) 陪同{len($1)<3}",
+        "description": "旅游后接n，n后接陪同，长度小于3"
+    },
+    {
+        "query": "慎权+(w){count>3}",
+        "description": "慎权后接的词语出现次数超过3次"
+    },
+    {
+        "query": "(j)+泰{count<853}",
+        "description": "j后接泰，出现次数小于853次"
+    },
+    {
+        "query": "(j) 泰{count<853}",
+        "description": "j后接泰，出现次数小于853次"
+    },
+    {
+        "query": "媒体+(v)+自律{count<429}",
+        "description": "媒体后接动词，动词后接自律，出现次数小于429次"
+    },
+    {
+        "query": "媒体 (v) 自律{count<429}",
+        "description": "媒体后接动词，动词后接自律，出现次数小于429次"
+    }
+]
+```

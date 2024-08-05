@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "不动摇/v",
+        "description": "动词不动摇"
+    },
+    {
+        "query": "安排 (d) 完善{begin($1)=[不 热 拿 看]}",
+        "description": "副词安排后接不、热、拿或看之前的完善"
+    },
+    {
+        "query": "政策 (d) 将{count<312}",
+        "description": "副词政策后接将，且实例频次小于312"
+    },
+    {
+        "query": "企业 ~/[a v] 权益",
+        "description": "企业后接形容词或动词，再接权益"
+    },
+    {
+        "query": "(n) (w){count>5}",
+        "description": "两个名词之间，实例频次大于5"
+    },
+    {
+        "query": "知识 (n) 保护{count<920}",
+        "description": "名词知识后接名词保护，实例频次小于920"
+    },
+    {
+        "query": "外商 ~/[vn v] 法律",
+        "description": "外商后接动词或名词，再接法律"
+    },
+    {
+        "query": "进入 (a) 水平{len($1)=1}",
+        "description": "形容词进入后接一个字的水平"
+    },
+    {
+        "query": "(n) 为 上海 社会 科学院 (n){len($2)<3}",
+        "description": "两个名词，第一个名词后面跟上海社会科学院，且第二个名词长度小于3"
+    },
+    {
+        "query": "(n) (n){len($1)!=3; len($2)!=3}",
+        "description": "两个名词，但都不为3个字"
+    },
+    {
+        "query": "人民 (n){begin($1)=[视 部]}",
+        "description": "人民后接视或部"
+    },
+    {
+        "query": "民以食为天 (w){count<786}",
+        "description": "民以食为天，实例频次小于786"
+    },
+    {
+        "query": "(n) 好{end($1)=[策 九 利]}",
+        "description": "名词后接好，且好后面是策、九或利"
+    },
+    {
+        "query": "种植 ~ 增加",
+        "description": "种植后接一个词增加"
+    },
+    {
+        "query": "科技 ~/[vn v] 有力",
+        "description": "科技后接动词或名词，再接有力"
+    },
+    {
+        "query": "个 (m) 小时{len($1)=1}",
+        "description": "数量词个后接一个字的小时"
+    },
+    {
+        "query": "佛协",
+        "description": "佛协"
+    },
+    {
+        "query": "稳定 (u) 粮食{count>3}",
+        "description": "副词稳定后接粮食，实例频次大于3"
+    },
+    {
+        "query": "， @/[d v] 迫切",
+        "description": "逗号后接副词或动词，再接迫切"
+    },
+    {
+        "query": "秦汉 (ns) 创建{end($1)=[城 冰 衣]}",
+        "description": "秦汉后接创建，且创建后接城、冰或衣"
+    },
+    {
+        "query": "城 .../n 更",
+        "description": "城后面隔一个或多个字后接名词更"
+    },
+    {
+        "query": "、 (nz) 城市{len($1)>1}",
+        "description": "顿号后接两个或更多字的城市"
+    },
+    {
+        "query": "(v) 热门 (n){len($1)!=2; len($2)!=3}",
+        "description": "单音节动词后接热门，且动词和热门的长度均不为2或3"
+    },
+    {
+        "query": "最 (v) 用{count<920}",
+        "description": "最后接动词用，实例频次小于920"
+    },
+    {
+        "query": "职务 犯罪/vn 。",
+        "description": "职务后接犯罪，犯罪为动名词"
+    },
+    {
+        "query": "靠山吃山 w 靠水吃水",
+        "description": "靠山吃山和靠水吃水"
+    },
+    {
+        "query": "截留 @/[w v] 冒领",
+        "description": "截留后接动词或词汇，再接冒领"
+    },
+    {
+        "query": "糟蹋/v 浪费",
+        "description": "糟蹋后接动词浪费"
+    },
+    {
+        "query": "(r) (v){len($1)!=4; len($2)!=2}",
+        "description": "两个词，第一个词长度不为4，第二个词长度不为2"
+    },
+    {
+        "query": "也 (i) 两{len($1)=2}",
+        "description": "也后接两个字的两"
+    },
+    {
+        "query": "二 (v) 验收{count<522}",
+        "description": "二后接验收，实例频次小于522"
+    },
+    {
+        "query": "(n) 一起 (v){len($1)=2; len($2)!=3}",
+        "description": "两个名词，第一个为两个字，第二个不是三个字"
+    },
+    {
+        "query": "(w) (v){begin($2)=[严 传 兆]}",
+        "description": "两个词，第一个词后面接严、传或兆"
+    },
+    {
+        "query": "v 我 来 助暖 r",
+        "description": "动词后接我、来、助暖，助暖为代词"
+    },
+    {
+        "query": "摄 @ 视觉",
+        "description": "摄后接视觉，统计时按照词性归并"
+    },
+    {
+        "query": "莫 (v) 群众{len($1)!=2}",
+        "description": "莫后接动词群众，动词长度不为2"
+    },
+    {
+        "query": "洗手间 (v) 最先{len($1)=1}",
+        "description": "洗手间后接一个字的最先"
+    },
+    {
+        "query": "自救 ~/[w v]",
+        "description": "自救后接词汇或动词"
+    },
+    {
+        "query": "采访 @/[u v] 一线",
+        "description": "采访后接动词或词汇，再接一线"
+    },
+    {
+        "query": "一旦 (v) 火灾{begin($1)!=[批 戏]}",
+        "description": "一旦后接火灾，火灾前不接批或戏"
+    }
+]
+```

@@ -1,0 +1,166 @@
+以下是将给定的检索式转换为带含义的json结构的结果：
+
+```json
+[
+    {
+        "query": "恐怕*居然",
+        "description": "恐怕后面离合出现居然"
+    },
+    {
+        "query": ".着.着",
+        "description": "着后面隔一个字后接着"
+    },
+    {
+        "query": "w得.失w",
+        "description": "w得后面隔一个字后接失w"
+    },
+    {
+        "query": "~搭子",
+        "description": "搭子作为一个整体词"
+    },
+    {
+        "query": "v+再.吧",
+        "description": "动词后面跟再、吧"
+    },
+    {
+        "query": "v 再.吧",
+        "description": "动词后面跟再、吧"
+    },
+    {
+        "query": ".重.轻",
+        "description": "重后面隔一个字后接轻"
+    },
+    {
+        "query": "上*当",
+        "description": "上后面离合出现当"
+    },
+    {
+        "query": "v上*甜美",
+        "description": "动词后面跟上、甜美"
+    },
+    {
+        "query": "纵然...也...",
+        "description": "纵然后跟省略号，省略号后跟也、省略号"
+    },
+    {
+        "query": "似乎*定会",
+        "description": "似乎后面离合出现定会"
+    },
+    {
+        "query": "她..+过来w",
+        "description": "她后面跟..，然后跟过来w"
+    },
+    {
+        "query": "她.. 过来w",
+        "description": "她后面跟..，然后跟过来w"
+    },
+    {
+        "query": "可不可以*？",
+        "description": "可不可以后面离合出现问号"
+    },
+    {
+        "query": "都快........了",
+        "description": "都快后面跟省略号，省略号后跟了"
+    },
+    {
+        "query": "被..到",
+        "description": "被后面跟..，然后跟到"
+    },
+    {
+        "query": "注*意",
+        "description": "注后面离合出现意"
+    },
+    {
+        "query": "干*杯",
+        "description": "干后面离合出现杯"
+    },
+    {
+        "query": "心情*V上",
+        "description": "心情后面离合出现V上"
+    },
+    {
+        "query": ",比方~",
+        "description": ",比方作为一个整体词"
+    },
+    {
+        "query": "或许*必定",
+        "description": "或许后面离合出现必定"
+    },
+    {
+        "query": "恐怕*决不",
+        "description": "恐怕后面离合出现决不"
+    },
+    {
+        "query": "几乎*大约",
+        "description": "几乎后面离合出现大约"
+    },
+    {
+        "query": "或许*正好",
+        "description": "或许后面离合出现正好"
+    },
+    {
+        "query": "搬*家",
+        "description": "搬后面离合出现家"
+    },
+    {
+        "query": "n上*米处",
+        "description": "n上后面离合出现米处"
+    },
+    {
+        "query": "大写的*",
+        "description": "大写后面离合出现"
+    },
+    {
+        "query": "苦*不着",
+        "description": "苦后面离合出现不着"
+    },
+    {
+        "query": "别有*风味",
+        "description": "别有作为一个整体词"
+    },
+    {
+        "query": "被@",
+        "description": "被作为词性"
+    },
+    {
+        "query": "是*的姿态w",
+        "description": "是后面离合出现姿态w"
+    },
+    {
+        "query": "是*的口吻w",
+        "description": "是后面离合出现的口吻w"
+    },
+    {
+        "query": "您一个*，",
+        "description": "您一个后面离合出现,"
+    },
+    {
+        "query": "情绪*V下",
+        "description": "情绪后面离合出现V下"
+    },
+    {
+        "query": "你一个*子，",
+        "description": "你一个后面离合出现子,"
+    },
+    {
+        "query": "w仆.主w",
+        "description": "w仆后面跟.，然后跟主w"
+    },
+    {
+        "query": "除了*以外w",
+        "description": "除了后面离合出现以外w"
+    },
+    {
+        "query": "哪怕.......也....",
+        "description": "哪怕后跟省略号，省略号后跟也、省略号"
+    },
+    {
+        "query": "比..的",
+        "description": "比后面跟..，然后跟的"
+    },
+    {
+        "query": "什么....的",
+        "description": "什么后跟省略号，省略号后跟了的"
+    }
+]
+```

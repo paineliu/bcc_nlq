@@ -1,0 +1,160 @@
+```json
+[
+    {
+        "query": ".../nt 总理", 
+        "description": "包含总理的三字动词短语，可能是‘主持’或类似含义"
+    },
+    {
+        "query": "... 总理", 
+        "description": "总理出现在句子的末尾"
+    },
+    {
+        "query": "(nr){count>6}", 
+        "description": "包含至少6个实例的人名"
+    },
+    {
+        "query": "十四日 ./p 北京", 
+        "description": "十四日后面接一个介词，然后是北京"
+    },
+    {
+        "query": "活动", 
+        "description": "单独的‘活动’词"
+    },
+    {
+        "query": "外长", 
+        "description": "‘外长’这个词"
+    },
+    {
+        "query": "nr 会见", 
+        "description": "人名后面接‘会见’"
+    },
+    {
+        "query": "张德江 (n) 主持{len($1)<4}", 
+        "description": "张德江后面跟一个长度小于4的名词，可能是主持活动"
+    },
+    {
+        "query": "有 .../[n v]", 
+        "description": "‘有’后面可能接一个名词或动词"
+    },
+    {
+        "query": "说到做到 ./[w v]", 
+        "description": "‘说到做到’作为完整的短语"
+    },
+    {
+        "query": "为", 
+        "description": "仅包含‘为’字"
+    },
+    {
+        "query": "~/[m v] 沙", 
+        "description": "以‘为’开头，后面接一个介词和一个名词，可能是‘为了沙’"
+    },
+    {
+        "query": "(v) 中国 (n){begin($1)=[点赞 出]; len($2)=3}", 
+        "description": "动词后面接中国，且$1（可能是点赞或出）的长度为3"
+    },
+    {
+        "query": "下水 (v) 。{end($1)!=[昨 捏 话 亏]}",
+        "description": "‘下水’作为动词，后面不能接‘昨、捏、话、亏’"
+    },
+    {
+        "query": "(v) 等 人 送 小康 的 (vn){end($1)=[弃 封 乖]}",
+        "description": "动词后面接‘等、人、送、小康’，且$1（可能是弃、封、乖）的结尾"
+    },
+    {
+        "query": "只要 ./[v v] 信心", 
+        "description": "‘只要’后面接两个动词和‘信心’"
+    },
+    {
+        "query": "比 ~/[an v] 多", 
+        "description": "‘比’后面接一个形容词或动词，表示比较"
+    },
+    {
+        "query": "金 。/w", 
+        "description": "‘金’后面接一个句点，可能是单独的词"
+    },
+    {
+        "query": "穷 志/n 短", 
+        "description": "‘穷志’作为一个名词短语"
+    },
+    {
+        "query": "@ 观念", 
+        "description": "观念作为一个词性"
+    },
+    {
+        "query": "思路 ~ 、", 
+        "description": "思路后面接一个词或词性，可能是省略号或顿号"
+    },
+    {
+        "query": "(n) 是{end($1)=[众 差 管 看]}",
+        "description": "名词后面接‘是’，且$1（可能是众、差、管、看）的结尾"
+    },
+    {
+        "query": "先 ../[v v] 。", 
+        "description": "先接两个动词，后面是句点"
+    },
+    {
+        "query": "到此 ..", 
+        "description": "到此后面接省略号"
+    },
+    {
+        "query": "担当 声音/n", 
+        "description": "担当后面接‘声音’作为名词"
+    },
+    {
+        "query": "v v", 
+        "description": "两个连续的动词"
+    },
+    {
+        "query": "担当 ./w", 
+        "description": "担当作为单独的词"
+    },
+    {
+        "query": "为 (v) 亮剑者{end($1)=[于 捏]}",
+        "description": "‘为’后面接一个动词，可能是‘亮剑者’，且$1（可能是于、捏）的结尾"
+    },
+    {
+        "query": "担当", 
+        "description": "单独的‘担当’"
+    },
+    {
+        "query": "无私 .../[n v] 担当", 
+        "description": "无私后面可能接名词或动词，再接‘担当’"
+    },
+    {
+        "query": "~ 突遇", 
+        "description": "一个词后面接‘突遇’"
+    },
+    {
+        "query": ".. 无 ..", 
+        "description": "连续的两个省略号"
+    },
+    {
+        "query": "递久 (v) ，{begin($1)=[延 修 电]}",
+        "description": "递久作为动词，后面可能是‘延、修、电’"
+    },
+    {
+        "query": "(nr) 一{count>6}", 
+        "description": "包含至少6个实例的人名，紧接一个数字‘一’"
+    },
+    {
+        "query": "别 ./[v v] 伪名", 
+        "description": "‘别’后面接两个动词和‘伪名’"
+    },
+    {
+        "query": "异乡 (w) 心泊{count>6}", 
+        "description": "‘异乡’作为词，后面跟‘心泊’，且至少出现6次"
+    },
+    {
+        "query": "： ~/[nr v]", 
+        "description": "冒号后面接人名或动词"
+    },
+    {
+        "query": "身边 (n) 传递{begin($1)=[榜 口 数]}",
+        "description": "‘身边’后面接名词，且$1（可能是榜、口、数）的开头"
+    },
+    {
+        "query": "孙 ../nr ：", 
+        "description": "孙后面接人名，可能是姓氏孙的句子"
+    }
+]
+```

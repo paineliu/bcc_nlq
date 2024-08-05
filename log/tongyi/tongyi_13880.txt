@@ -1,0 +1,166 @@
+以下是将给定的检索式转换为带含义的JSON结构后的完整列表：
+
+```json
+[
+    {
+        "query": "真够a的[，+。]",
+        "description": "真够形容词的，或真够形容词。"
+    },
+    {
+        "query": "真够a的[， 。]",
+        "description": "真够形容词的，或真够形容词。"
+    },
+    {
+        "query": "自古v+y[，+。]",
+        "description": "自古动词+y，或自古动词+y。"
+    },
+    {
+        "query": "自古v y[， 。]",
+        "description": "自古动词+y，或自古动词+y。"
+    },
+    {
+        "query": "d+m+t[，+。]",
+        "description": "d+m+t，或d+m+t。"
+    },
+    {
+        "query": "d m t[， 。]",
+        "description": "d+m+t，或d+m+t。"
+    },
+    {
+        "query": "[请教+摞+消+出去+装修+醉+入手]个",
+        "description": "请教+摞+消+出去+装修+醉+入手这组词中的任意组合。"
+    },
+    {
+        "query": "[请教 摞 消 出去 装修 醉 入手]个",
+        "description": "请教、摞、消、出去、装修、醉、入手这组词中的任意组合。"
+    },
+    {
+        "query": "时而v[，+。]",
+        "description": "时而动词，且后面跟逗号或句点。"
+    },
+    {
+        "query": "时而v[， 。]",
+        "description": "时而动词，且后面跟逗号或句点。"
+    },
+    {
+        "query": "w逆.顺[q+r+d+c+v+a++n+m++p]w",
+        "description": "w逆.顺后紧跟q+r+d+c+v+a++n+m++p中的任意组合。"
+    },
+    {
+        "query": "w逆.顺[q r d c v a  n m  p]w",
+        "description": "w逆.顺后紧跟q r d c v a n m p中的任意组合。"
+    },
+    {
+        "query": "被迫n[，+。]",
+        "description": "被迫名词，且后面跟逗号或句点。"
+    },
+    {
+        "query": "被迫n[， 。]",
+        "description": "被迫名词，且后面跟逗号或句点。"
+    },
+    {
+        "query": "[恰好+恰恰+恰巧]v[v+a+n+][，+。]",
+        "description": "恰好、恰恰、恰巧这三个词后面紧跟动词、形容词、名词、形容词的组合。"
+    },
+    {
+        "query": "[恰好 恰恰 恰巧]v[v a n ][， 。]",
+        "description": "恰好、恰恰、恰巧这三个词后面紧跟动词、形容词、名词的组合。"
+    },
+    {
+        "query": "通常v[v+a+n+r][，+。]",
+        "description": "通常动词、形容词、名词、形容词的组合，且后面跟逗号或句点。"
+    },
+    {
+        "query": "通常v[v a n r][， 。]",
+        "description": "通常动词、形容词、名词、形容词的组合。"
+    },
+    {
+        "query": "特别n[，+。]",
+        "description": "特别名词，且后面跟逗号或句点。"
+    },
+    {
+        "query": "特别n[， 。]",
+        "description": "特别名词，且后面跟逗号或句点。"
+    },
+    {
+        "query": "无非d+v[，+。]",
+        "description": "无非动词、形容词的组合，且后面跟逗号或句点。"
+    },
+    {
+        "query": "无非d v[， 。]",
+        "description": "无非动词、形容词的组合。"
+    },
+    {
+        "query": "[上+凑+见+进行+滴+为]个",
+        "description": "上+凑+见+进行+滴+为这组词中的任意组合。"
+    },
+    {
+        "query": "[上 凑 见 进行 滴 为]个",
+        "description": "上、凑、见、进行、滴、为这组词中的任意组合。"
+    },
+    {
+        "query": "v+着一q+n+[，+。]",
+        "description": "动词、着、一、量词、名词的组合，且后面跟逗号或句点。"
+    },
+    {
+        "query": "v 着一q n [， 。]",
+        "description": "动词、着、一、量词、名词的组合。"
+    },
+    {
+        "query": "接连n[，+。]",
+        "description": "接连名词，且后面跟逗号或句点。"
+    },
+    {
+        "query": "接连n[， 。]",
+        "description": "接连名词。"
+    },
+    {
+        "query": "a之际[，+。]",
+        "description": "a之际，且后面跟逗号或句点。"
+    },
+    {
+        "query": "a之际[， 。]",
+        "description": "a之际。"
+    },
+    {
+        "query": "短期d+n[，+。]",
+        "description": "短期形容词、名词的组合，且后面跟逗号或句点。"
+    },
+    {
+        "query": "短期d n[， 。]",
+        "description": "短期形容词、名词的组合。"
+    },
+    {
+        "query": "从r+q+n[，+。]",
+        "description": "从r+q+n这组词中的任意组合，且后面跟逗号或句点。"
+    },
+    {
+        "query": "从r q n[， 。]",
+        "description": "从r q n这组词中的任意组合。"
+    },
+    {
+        "query": "[把握+爱上+掏+降+查出+炖+呆]个",
+        "description": "把握+爱上+掏+降+查出+炖+呆这组词中的任意组合。"
+    },
+    {
+        "query": "[把握 爱上 掏 降 查出 炖 呆]个",
+        "description": "把握、爱上、掏、降、查出、炖、呆这组词中的任意组合。"
+    },
+    {
+        "query": "a+d+n+v++l]交结",
+        "description": "a+d+n+v++l交结。"
+    },
+    {
+        "query": "[a d n v  l]交结",
+        "description": "a d n v l交结。"
+    },
+    {
+        "query": "从未v[，+。]",
+        "description": "从未动词，且后面跟逗号或句点。"
+    },
+    {
+        "query": "从未v[， 。]",
+        "description": "从未动词。"
+    }
+]
+```

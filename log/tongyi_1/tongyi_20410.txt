@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "(r) 事 而 (v){$1=$2}",
+        "description": "副词接'事'然后是另一个相同的副词"
+    },
+    {
+        "query": "现浇 桥梁/n 合龙",
+        "description": "现浇的桥梁名词后接合龙"
+    },
+    {
+        "query": "降 ~",
+        "description": "降后面接任意一个词"
+    },
+    {
+        "query": "革命 ./w",
+        "description": "革命后接一个词"
+    },
+    {
+        "query": "深入 (v) 标准化{len($1)<3}",
+        "description": "深入后面接一个长度小于3的动词"
+    },
+    {
+        "query": "与 (n) 的{begin($1)=[世 云 回 平]}",
+        "description": "与后面接一个特定范围的名词，该名词以'世'、'云'、'回'或'平'开头"
+    },
+    {
+        "query": "(r) 一 份 令 人 (v){end($1)=[是 林]}",
+        "description": "一个接'一份'再接'令人'，最后的动词以'是'或'林'结尾"
+    },
+    {
+        "query": "， @/[d v] 总是",
+        "description": "逗号后接动词或副词，总是"
+    },
+    {
+        "query": "的 (n) ？{len($1)=2}",
+        "description": "的后面接一个长度为2的名词，末尾可能是问号"
+    },
+    {
+        "query": "?",
+        "description": "单独的问号"
+    },
+    {
+        "query": "商量 ~/[u v] 办",
+        "description": "商量后面离合出现动词或助词"
+    },
+    {
+        "query": "(r) 一个{len($1)!=3}",
+        "description": "一个，但长度不是3"
+    },
+    {
+        "query": "则 @/[v v] 。",
+        "description": "则后面接两个动词，末尾可能是句点"
+    },
+    {
+        "query": "的 (vn) 意见{begin($1)!=[猪 错 煮]}",
+        "description": "的后面接动名词，但不以'猪'、'错'或'煮'开头"
+    },
+    {
+        "query": "、",
+        "description": "逗号"
+    },
+    {
+        "query": "一 (vn) 思想{end($1)=[导 啦 黑 日]}",
+        "description": "一后面接单音节动词，动词后以'导'、'啦'、'黑'或'日'结尾"
+    },
+    {
+        "query": "二 @/[a v] 原则",
+        "description": "二后面接形容词或动词，接原则"
+    },
+    {
+        "query": "(v) 以人为本{len($1)!=3}",
+        "description": "以人为本，但动词长度不是3"
+    },
+    {
+        "query": "../v 依法",
+        "description": "双音节动词后接依法"
+    },
+    {
+        "query": "(v) 源头 治理 (w){$1=$2}",
+        "description": "源头治理，前后两个词相同"
+    },
+    {
+        "query": "坚持 (n) 一致{len($1)<3}",
+        "description": "坚持后面接一个长度小于3的名词"
+    },
+    {
+        "query": "坚持/v 协调 创新/v",
+        "description": "坚持后面接协调和创新两个动词"
+    },
+    {
+        "query": "目标",
+        "description": "目标"
+    },
+    {
+        "query": "、 ../v 管理",
+        "description": "并列，后接双音节动词和管理"
+    },
+    {
+        "query": "(m) 匡定{len($1)!=2}",
+        "description": "匡定，但长度不是2"
+    },
+    {
+        "query": "明确 (vn) 部门{end($1)=[管 月 厚]}",
+        "description": "明确后面接动名词，动名词后以'管'、'月'或'厚'结尾"
+    },
+    {
+        "query": "(n) (w){len($1)!=3}",
+        "description": "名词后面接一个不是3个字符的词"
+    },
+    {
+        "query": "综合 (vn) 。{begin($1)=[执 声 想]}",
+        "description": "综合后面接动名词，动名词以'执'、'声'或'想'开头，末尾是句点"
+    },
+    {
+        "query": "重心 .",
+        "description": "重心后接句点"
+    },
+    {
+        "query": "、 强化/v 队伍",
+        "description": "并列，后接强化和动词队伍"
+    },
+    {
+        "query": "力量 @",
+        "description": "力量，但可能是词性归并"
+    },
+    {
+        "query": "十 (v) 队伍{count<990}",
+        "description": "十后面接一个动词和一个频次少于990的队伍"
+    },
+    {
+        "query": "培养 @/[w v]",
+        "description": "培养后可能是动词或助词"
+    },
+    {
+        "query": "(vn) (n){end($2)!=[查 这]}",
+        "description": "动名词后面接名词，但不以'查'或'这'结尾"
+    },
+    {
+        "query": "十二 (v) 协管{len($1)=2}",
+        "description": "十二后面接一个长度为2的动词，协管"
+    },
+    {
+        "query": "提高",
+        "description": "提高"
+    },
+    {
+        "query": "(m) 制定 权责 (n){len($2)=2}",
+        "description": "制定后面接权责两个词，其中第二个词长度为2"
+    },
+    {
+        "query": "(vn) 制度 (w){begin($1)=[执 接 和]}",
+        "description": "制度前面可能是执行、接触或和的动名词"
+    },
+    {
+        "query": "改进/v 执法/vn",
+        "description": "改进后面接执法动名词"
+    },
+    {
+        "query": "十六 ~ 监督",
+        "description": "十六后面接任意一个词"
+    }
+]
+```

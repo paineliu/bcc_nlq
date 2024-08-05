@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "她..+上来w",
+        "description": "她后面隔一个字后接上来或包含一个词后接上来"
+    },
+    {
+        "query": "她.. 上来w",
+        "description": "她后面隔一个字后接上来"
+    },
+    {
+        "query": "取*长",
+        "description": "取后面离合出现长"
+    },
+    {
+        "query": "由于*的原因",
+        "description": "由于后面离合出现原因"
+    },
+    {
+        "query": "w谐.庄w",
+        "description": "谐后面隔一个字后接庄"
+    },
+    {
+        "query": "多*少",
+        "description": "多后面离合出现少"
+    },
+    {
+        "query": "大概*总要",
+        "description": "大概后面离合出现总要"
+    },
+    {
+        "query": "v个@",
+        "description": "动词后面接单个词性元素"
+    },
+    {
+        "query": "追不.",
+        "description": "追后面跟一个字"
+    },
+    {
+        "query": "d*m",
+        "description": "以d开头的单音节动词"
+    },
+    {
+        "query": "你.+出来w",
+        "description": "你后面隔一个字后接出来或包含一个词后接出来"
+    },
+    {
+        "query": "你. 出来w",
+        "description": "你后面隔一个字后接出来"
+    },
+    {
+        "query": "w少.多w",
+        "description": "w后面隔一个字后接少、多或包含一个词后接少、多"
+    },
+    {
+        "query": "不就*了，",
+        "description": "不就后面离合出现结束了"
+    },
+    {
+        "query": "因....而",
+        "description": "因后面隔一个字后接一个词或包含一个词后接一个词"
+    },
+    {
+        "query": "你一个...。",
+        "description": "你一个后面跟一个字或包含一个词"
+    },
+    {
+        "query": "或许*总是",
+        "description": "或许后面离合出现总是"
+    },
+    {
+        "query": "是+*+v+的+ng+w",
+        "description": "是后面离合出现一个词性元素、动词、的、ng、一个词"
+    },
+    {
+        "query": "是 * v 的 ng w",
+        "description": "是后面离合出现v、的、ng、一个词"
+    },
+    {
+        "query": "大概*总是",
+        "description": "大概后面离合出现总是"
+    },
+    {
+        "query": "似乎*总要",
+        "description": "似乎后面离合出现总要"
+    },
+    {
+        "query": "割*韭菜",
+        "description": "割后面离合出现韭菜"
+    },
+    {
+        "query": "w贱.贵w",
+        "description": "w后面隔一个字后接贱、贵或包含一个词后接贱、贵"
+    },
+    {
+        "query": "w拉.推w",
+        "description": "w后面隔一个字后接拉、推或包含一个词后接拉、推"
+    },
+    {
+        "query": "是*的w",
+        "description": "是后面离合出现的"
+    },
+    {
+        "query": "好像*吧。",
+        "description": "好像后面离合出现吧、一个词"
+    },
+    {
+        "query": "父母*孩子",
+        "description": "父母后面离合出现孩子"
+    },
+    {
+        "query": "w十有*九w",
+        "description": "w后面隔一个字后接十有、九或包含一个词后接十有、九"
+    },
+    {
+        "query": "时间就像..n",
+        "description": "时间后面隔一个字后接像、一个词、名词"
+    },
+    {
+        "query": "如果*那么",
+        "description": "如果后面离合出现那么"
+    },
+    {
+        "query": "立不.",
+        "description": "立后面跟一个字"
+    },
+    {
+        "query": "您一个*。",
+        "description": "您一个后面离合出现一个词"
+    },
+    {
+        "query": "羞不.",
+        "description": "羞后面跟一个字"
+    },
+    {
+        "query": "给你*完了",
+        "description": "给你后面离合出现完了"
+    },
+    {
+        "query": "来*吧w",
+        "description": "来后面离合出现吧、一个词"
+    },
+    {
+        "query": "建立*n",
+        "description": "建立后面接名词"
+    },
+    {
+        "query": "不会*吧",
+        "description": "不会后面离合出现吧"
+    },
+    {
+        "query": "牛....头",
+        "description": "牛后面隔一个字后接一个词或包含一个词后接一个词"
+    },
+    {
+        "query": "大约*竟",
+        "description": "大约后面离合出现竟"
+    },
+    {
+        "query": "况且~也",
+        "description": "况且后面邻一个词、也"
+    }
+]
+```

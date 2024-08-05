@@ -1,0 +1,166 @@
+以下是将给出的检索式转换为带含义的json结构后的完整列表：
+
+```json
+[
+    {
+        "query": "生/v s",
+        "description": "生动词后接s"
+    },
+    {
+        "query": ".../j",
+        "description": "省略号后接标点符号"
+    },
+    {
+        "query": "一/m+是",
+        "description": "数字一后接是"
+    },
+    {
+        "query": "一/m 是",
+        "description": "数字一后接是"
+    },
+    {
+        "query": "./v干净了",
+        "description": "单音节动词后接干净了"
+    },
+    {
+        "query": "宣讲/vn+工作+不/d",
+        "description": "宣讲后接工作和不"
+    },
+    {
+        "query": "宣讲/vn 工作 不/d",
+        "description": "宣讲后接工作和不"
+    },
+    {
+        "query": "a+的+亲情/n",
+        "description": "形容词后接的和亲情"
+    },
+    {
+        "query": "a 的 亲情/n",
+        "description": "形容词后接的和亲情"
+    },
+    {
+        "query": "n+真心/n",
+        "description": "名词后接真心"
+    },
+    {
+        "query": "n 真心/n",
+        "description": "名词后接真心"
+    },
+    {
+        "query": "青岛+世界/n+博览城",
+        "description": "青岛后接世界和博览城"
+    },
+    {
+        "query": "青岛 世界/n 博览城",
+        "description": "青岛后接世界和博览城"
+    },
+    {
+        "query": "推动/v+饮用水",
+        "description": "推动后接饮用水"
+    },
+    {
+        "query": "推动/v 饮用水",
+        "description": "推动后接饮用水"
+    },
+    {
+        "query": "很+../n",
+        "description": "很后接省略号"
+    },
+    {
+        "query": "很 ../n",
+        "description": "很后接省略号"
+    },
+    {
+        "query": "为人+../a",
+        "description": "为人后接省略号"
+    },
+    {
+        "query": "为人 ../a",
+        "description": "为人后接省略号"
+    },
+    {
+        "query": "牵连/vn+，+但+外贸/n",
+        "description": "牵连后接，但和外贸"
+    },
+    {
+        "query": "牵连/vn ， 但 外贸/n",
+        "description": "牵连后接，但和外贸"
+    },
+    {
+        "query": "../a+./n",
+        "description": "省略号后接标点符号"
+    },
+    {
+        "query": "../a ./n",
+        "description": "省略号后接标点符号"
+    },
+    {
+        "query": "行动+。/w",
+        "description": "行动后接句尾符号"
+    },
+    {
+        "query": "行动 。/w",
+        "description": "行动后接句尾符号"
+    },
+    {
+        "query": "个+什么/r+弯",
+        "description": "个后接什么和弯"
+    },
+    {
+        "query": "个 什么/r 弯",
+        "description": "个后接什么和弯"
+    },
+    {
+        "query": "站+在/p+国门",
+        "description": "站后接在和国门"
+    },
+    {
+        "query": "站 在/p 国门",
+        "description": "站后接在和国门"
+    },
+    {
+        "query": "通缩+？/w",
+        "description": "通缩后接问号"
+    },
+    {
+        "query": "通缩 ？/w",
+        "description": "通缩后接问号"
+    },
+    {
+        "query": "统统/d",
+        "description": "统一批注"
+    },
+    {
+        "query": "对/p+*+v",
+        "description": "对后接*和动词"
+    },
+    {
+        "query": "对/p * v",
+        "description": "对后接*和动词"
+    },
+    {
+        "query": "./v得他",
+        "description": "单音节动词后接得他"
+    },
+    {
+        "query": "成为/v+一个+新+的/u",
+        "description": "成为后接一个、新和的"
+    },
+    {
+        "query": "成为/v 一个 新 的/u",
+        "description": "成为后接一个、新和的"
+    },
+    {
+        "query": "雨果+故居/n+。",
+        "description": "雨果后接故居和句尾符号"
+    },
+    {
+        "query": "雨果 故居/n 。",
+        "description": "雨果后接故居和句尾符号"
+    },
+    {
+        "query": "风情/n+v",
+        "description": "名词后接风情"
+    }
+]
+```

@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "聚焦·大病 保险/n 新",
+        "description": "聚焦于大病保险的新话题或描述"
+    },
+    {
+        "query": "国家+治理/v",
+        "description": "国家实施治理行为"
+    },
+    {
+        "query": "国家 治理/v",
+        "description": "国家进行治理或管理"
+    },
+    {
+        "query": "用力/ad+抓+，+但+总/d",
+        "description": "用力抓取，但是总是不够"
+    },
+    {
+        "query": "用力/ad 抓 ， 但 总/d",
+        "description": "用力抓取，但总是无法达到目标"
+    },
+    {
+        "query": "的/u+狍子+。/w",
+        "description": "表述关于狍子的描述或评论"
+    },
+    {
+        "query": "的/u 狍子 。/w",
+        "description": "提及狍子的存在或特征"
+    },
+    {
+        "query": "见./v",
+        "description": "出现或看见的动作"
+    },
+    {
+        "query": "./v高++了",
+        "description": "提升到了很高的程度"
+    },
+    {
+        "query": "./v高  了",
+        "description": "达到高点或高度"
+    },
+    {
+        "query": "把+理想/n+喂养",
+        "description": "培养或实现理想的过程"
+    },
+    {
+        "query": "把 理想/n 喂养",
+        "description": "培育或维持理想的状态"
+    },
+    {
+        "query": "../n党",
+        "description": "党的相关讨论或描述"
+    },
+    {
+        "query": "没有+和平/n+，",
+        "description": "缺乏和平或和平的缺失"
+    },
+    {
+        "query": "没有 和平/n ，",
+        "description": "不存在和平状态"
+    },
+    {
+        "query": "向好+，/w+带动",
+        "description": "朝着更好的方向推动或引领"
+    },
+    {
+        "query": "向好 ，/w 带动",
+        "description": "引导或促进向好的发展"
+    },
+    {
+        "query": "黑色+星期五/t",
+        "description": "黑色星期五的特定事件或现象"
+    },
+    {
+        "query": "黑色 星期五/t",
+        "description": "描述或提及黑色星期五"
+    },
+    {
+        "query": "裁缝/n+v",
+        "description": "裁缝进行的制作或服务"
+    },
+    {
+        "query": "裁缝/n v",
+        "description": "裁缝的手艺或工作"
+    },
+    {
+        "query": "凡事预则立+，/w+不预则废",
+        "description": "提前准备有助于成功，反之则失败的原则"
+    },
+    {
+        "query": "凡事预则立 ，/w 不预则废",
+        "description": "强调计划的重要性"
+    },
+    {
+        "query": "红./n",
+        "description": "红色主题或红色元素的提及"
+    },
+    {
+        "query": "../v+记忆",
+        "description": "记忆相关的回忆或反思"
+    },
+    {
+        "query": "../v 记忆",
+        "description": "记忆的叙述或回忆过程"
+    },
+    {
+        "query": "先进+制造业/n+发展",
+        "description": "先进制造业的进展或发展趋势"
+    },
+    {
+        "query": "先进 制造业/n 发展",
+        "description": "制造业现代化和进步"
+    },
+    {
+        "query": "好人/n+就",
+        "description": "好人应该怎样或直接指好人"
+    },
+    {
+        "query": "好人/n 就",
+        "description": "强调或直接提到好人"
+    },
+    {
+        "query": "v+亲情/n",
+        "description": "表达亲情或家庭情感的行为"
+    },
+    {
+        "query": "v 亲情/n",
+        "description": "体现亲情或家庭联系的动作"
+    },
+    {
+        "query": "还是/c",
+        "description": "表示选择或对比的词汇"
+    },
+    {
+        "query": "首都/n+机场/n",
+        "description": "首都的机场或机场位于首都"
+    },
+    {
+        "query": "首都/n 机场/n",
+        "description": "首都与机场之间的关联或描述"
+    },
+    {
+        "query": "./v详细了",
+        "description": "详细说明或解释"
+    },
+    {
+        "query": "，+同样/d+如此",
+        "description": "同样适用或类似的情况"
+    },
+    {
+        "query": "， 同样/d 如此",
+        "description": "重复或类比的陈述"
+    },
+    {
+        "query": "活动+。/w",
+        "description": "活动的描述或结束标记"
+    },
+    {
+        "query": "活动 。/w",
+        "description": "活动的叙述或总结"
+    }
+]
+```

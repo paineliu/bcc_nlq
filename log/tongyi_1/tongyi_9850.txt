@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "停用 (n) 器官{begin($1)=[死 留]}",
+        "description": "停用状态下的器官，且$1指代的内容以‘死’或‘留’开始"
+    },
+    {
+        "query": "生命 .. 不吐不快",
+        "description": "生命这个词后面直接跟‘不吐不快’"
+    },
+    {
+        "query": "无异于 (i) 。{len($1)=4}",
+        "description": "类似于四字短语，但结尾是句点"
+    },
+    {
+        "query": "../[r v] 担心",
+        "description": "检索以‘担心’结尾的两个字动词"
+    },
+    {
+        "query": "(w) (i){len($2)<5}",
+        "description": "由一个词(w)和一个长度小于5的词(i)组成的组合"
+    },
+    {
+        "query": "论坛 ..",
+        "description": "论坛后面可能有额外的内容"
+    },
+    {
+        "query": "~/[ns v] 医疗",
+        "description": "包含‘医疗’的句子，医疗可能是动词或名词"
+    },
+    {
+        "query": "(q) 国企 医院 (v){$1=$2}",
+        "description": "国企和医院作为整体，后面跟着同一个词(v)，且国企和医院是并列关系"
+    },
+    {
+        "query": "(a) 地 (v){$1=$2}",
+        "description": "地和一个词(v)相同，地可能是形容词"
+    },
+    {
+        "query": "(v) ：{end($1)=[图 吻 挂]}",
+        "description": "以一个词(v)结尾，且这个词后面是‘图’、‘吻’或‘挂’"
+    },
+    {
+        "query": "制图 w 宋嵩",
+        "description": "制图后面紧跟着宋嵩"
+    },
+    {
+        "query": "实验 。/w",
+        "description": "实验后可能是句尾的标点符号"
+    },
+    {
+        "query": "说 。/w",
+        "description": "说后可能是句尾的标点符号"
+    },
+    {
+        "query": "(v) (y){len($1)=2; len($2)!=2}",
+        "description": "一个长度为2的词(v)后面跟着一个不是长度为2的词(y)"
+    },
+    {
+        "query": "究权",
+        "description": "探究权力"
+    },
+    {
+        "query": "(n) 副总裁 (nr){end($1)=[司 板 边]}",
+        "description": "副总裁后面跟着司、板或边中的一个词"
+    },
+    {
+        "query": "应运而生 。/w",
+        "description": "应运而生后可能是句尾的标点符号"
+    },
+    {
+        "query": "n 传播",
+        "description": "名词后面紧跟传播"
+    },
+    {
+        "query": "将 (ad) 设置{end($1)=[立 凉]}",
+        "description": "将和一个副词(ad)后面跟着立或凉"
+    },
+    {
+        "query": "欧元区 ./[w v]",
+        "description": "欧元区后面可能是单词或动词"
+    },
+    {
+        "query": "我们 @/[v v] 在",
+        "description": "我们后面可能是两个相邻的动词，在"
+    },
+    {
+        "query": "(n) (v){begin($1)=[经 乐]}",
+        "description": "名词和一个词(v)，且这个名词前面是经或乐"
+    },
+    {
+        "query": "伊核 (vn) 进程{count>10}",
+        "description": "伊核进程，且实例频次大于10次"
+    },
+    {
+        "query": "终结 ../a 阶段",
+        "description": "终结后面可能跟一个形容词(a)和阶段"
+    },
+    {
+        "query": "南方 (n) 适逢{len($1)<3}",
+        "description": "南方后面跟着一个长度小于3的词，可能是南方的修饰词"
+    },
+    {
+        "query": "@/[n v] 为",
+        "description": "可能是名词或动词，后面跟‘为’"
+    },
+    {
+        "query": "客流 ./[w v] 节前",
+        "description": "客流后面可能是单词或动词，然后是节前"
+    },
+    {
+        "query": "制图",
+        "description": "单独的制图"
+    },
+    {
+        "query": "农村 ~ 客流量",
+        "description": "农村后面可能接一个词，表示客流量"
+    },
+    {
+        "query": "./[m v] 是",
+        "description": "一个可能是数词(m)或动词(v)的词后接‘是’"
+    },
+    {
+        "query": "成光 v 。",
+        "description": "成光后面跟一个动词(v)和句点"
+    },
+    {
+        "query": "正 (n) 调研{begin($1)=[深 星 安 之]}",
+        "description": "正后面跟着一个名词(n)，且这个名词前面是深、星、安或之"
+    },
+    {
+        "query": "同样 ~/[v v] 舆论",
+        "description": "同样后面可能是两个相邻的动词(v)和舆论"
+    },
+    {
+        "query": "是 ~/[p v] 路者",
+        "description": "是后面可能是介词(p)或动词(v)和路者"
+    },
+    {
+        "query": "就 (v){begin($1)!=[觉 里]}",
+        "description": "就后面不是以觉或里开始的动词"
+    },
+    {
+        "query": "刷卡 (v) 。{len($1)!=3}",
+        "description": "刷卡后面跟一个不是长度为3的词(v)和句点"
+    },
+    {
+        "query": "摇号 ../[n v]",
+        "description": "摇号后面可能是名词或动词"
+    },
+    {
+        "query": "严伯霖",
+        "description": "严伯霖，可能是人名"
+    },
+    {
+        "query": "水 @/[n v]",
+        "description": "水后面可能是名词或动词"
+    },
+    {
+        "query": "活动 (v){end($1)=[动 共 凉]}",
+        "description": "活动后面跟着动、共或凉"
+    }
+]
+```

@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "a 目的",
+        "description": "形容词后接目的"
+    },
+    {
+        "query": "好像就是v",
+        "description": "好像后接的动词就是"
+    },
+    {
+        "query": "一次a 一次a",
+        "description": "一次后接的形容词为一次"
+    },
+    {
+        "query": "编外n",
+        "description": "名词为编外"
+    },
+    {
+        "query": "see+see",
+        "description": "两个see相接"
+    },
+    {
+        "query": "see see",
+        "description": "两个see相接"
+    },
+    {
+        "query": "v+m 肩",
+        "description": "动词后接m肩"
+    },
+    {
+        "query": "v m 肩",
+        "description": "动词后接m肩"
+    },
+    {
+        "query": "问题a",
+        "description": "形容词后接问题"
+    },
+    {
+        "query": "d好极了",
+        "description": "副词后接好极了"
+    },
+    {
+        "query": "a 死 r 了",
+        "description": "形容词后接死，再接r，之后是了"
+    },
+    {
+        "query": "v 什么 n",
+        "description": "动词后接什么名词"
+    },
+    {
+        "query": "V 累",
+        "description": "动词后接累"
+    },
+    {
+        "query": "a 效果",
+        "description": "形容词后接效果"
+    },
+    {
+        "query": "怒火 V 下",
+        "description": "形容词后接动词下，前接怒火"
+    },
+    {
+        "query": "a 度",
+        "description": "形容词后接度"
+    },
+    {
+        "query": "一 尺 n",
+        "description": "数量词后接尺名词"
+    },
+    {
+        "query": "在 + n + 里",
+        "description": "在后接名词，之后是里"
+    },
+    {
+        "query": "在 n 里",
+        "description": "在后接名词，之后是里"
+    },
+    {
+        "query": "a 兴办",
+        "description": "形容词后接兴办"
+    },
+    {
+        "query": "生死 a",
+        "description": "形容词后接生死"
+    },
+    {
+        "query": "拿过 N 来",
+        "description": "动词后接名词再接来"
+    },
+    {
+        "query": "看 n 多么 a",
+        "description": "动词后接形容词多么，之前有n"
+    },
+    {
+        "query": "极其 n",
+        "description": "副词后接极其名词"
+    },
+    {
+        "query": "v + 他 + m + q",
+        "description": "动词后接他、m、q"
+    },
+    {
+        "query": "v 他 m q",
+        "description": "动词后接他、m、q"
+    },
+    {
+        "query": "因为 c",
+        "description": "连词后接因为"
+    },
+    {
+        "query": "nr 诬赖",
+        "description": "人名后接诬赖"
+    },
+    {
+        "query": "n 肉块",
+        "description": "名词后接肉块"
+    },
+    {
+        "query": "还不是 n",
+        "description": "形容词后接不是，之后是名词"
+    },
+    {
+        "query": "哭 a 了",
+        "description": "形容词后接哭，之后是了"
+    },
+    {
+        "query": "特别 + a",
+        "description": "副词后接特别形容词"
+    },
+    {
+        "query": "特别 a",
+        "description": "副词后接特别形容词"
+    },
+    {
+        "query": "一 弯 n",
+        "description": "数量词后接弯名词"
+    },
+    {
+        "query": "w + v 得 真 a + w",
+        "description": "标点后接动词，动词后接得，再接形容词真，之后是标点"
+    },
+    {
+        "query": "w v 得 真 a w",
+        "description": "标点后接动词，动词后接得，再接形容词真，之后是标点"
+    },
+    {
+        "query": "a 典礼",
+        "description": "形容词后接典礼"
+    },
+    {
+        "query": "一 摊 n",
+        "description": "数量词后接摊名词"
+    },
+    {
+        "query": "a 元件",
+        "description": "形容词后接元件"
+    },
+    {
+        "query": "a 勤奋",
+        "description": "形容词后接勤奋"
+    }
+]
+```

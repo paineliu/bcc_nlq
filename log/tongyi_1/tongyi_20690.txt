@@ -1,0 +1,158 @@
+以下是检索式及其含义的JSON结构：
+
+```json
+[
+    {
+        "query": "怎样 ./c 变化",
+        "description": "怎样后面接单字连词再接变化"
+    },
+    {
+        "query": "需要 r 的",
+        "description": "需要后接r，r可能是任何词性"
+    },
+    {
+        "query": "(r) 逻辑{end($1)=[身 名 唱]}",
+        "description": "r后接逻辑，且逻辑的结尾是身、名或唱"
+    },
+    {
+        "query": "(v) (v){len($1)>1; len($2)>1}",
+        "description": "两个连续的动词，每个动词长度大于1"
+    },
+    {
+        "query": "了",
+        "description": "仅包含'了'这个字"
+    },
+    {
+        "query": "互联网 (v) 乡土{len($1)=1}",
+        "description": "互联网后接一个长度为1的动词"
+    },
+    {
+        "query": "尺 (v) 。{count>6}",
+        "description": "尺后接一个字，且该字出现次数大于6"
+    },
+    {
+        "query": "(v) 中国{len($1)=2}",
+        "description": "两个字的动词后面接'中国'"
+    },
+    {
+        "query": "(n) 设施{end($1)!=[呃 精 厂 哥]}",
+        "description": "名词设施，但不以呃、精、厂或哥结尾"
+    },
+    {
+        "query": "经济 (n) 建设{len($1)<3}",
+        "description": "经济后面接建设，且建设的长度小于3"
+    },
+    {
+        "query": "合作 .. 推进",
+        "description": "合作后面接两个或更多字的推进"
+    },
+    {
+        "query": "机制 (v) 运行{len($1)=2}",
+        "description": "机制后接长度为2的运行"
+    },
+    {
+        "query": "维护 (b) 安全{len($1)!=3}",
+        "description": "维护后面接安全，但安全的长度不是3"
+    },
+    {
+        "query": "管控 (n) 问题{len($1)=2}",
+        "description": "管控后面接长度为2的问题"
+    },
+    {
+        "query": "外交部 (n){len($1)=3}",
+        "description": "外交部后接长度为3的名词"
+    },
+    {
+        "query": "东盟 (n) 梦想成真{begin($1)!=[租 上 刚 拼]}",
+        "description": "东盟后接梦想成真，但不以租、上、刚或拼开头"
+    },
+    {
+        "query": "伊拉克 (v) 啃下{end($1)!=[因 条 批]}",
+        "description": "伊拉克后接啃下，但不以因、条或批结尾"
+    },
+    {
+        "query": "机场 扩建/v 被迫",
+        "description": "机场扩建后接被迫"
+    },
+    {
+        "query": "地图 (vn) 条例{count<157}",
+        "description": "地图后接条例，条例出现次数少于157次"
+    },
+    {
+        "query": "中华人民共和国 .../nt 令",
+        "description": "中华人民共和国后面接多个字的nt(名词)然后是令"
+    },
+    {
+        "query": "内容 ~",
+        "description": "仅包含'内容'这个词"
+    },
+    {
+        "query": "国家 ../n 的",
+        "description": "国家后面接一个或多个字的名词"
+    },
+    {
+        "query": "第十一 ~/[q v]",
+        "description": "第十一后接一个或多个字，可能是疑问词或动词"
+    },
+    {
+        "query": "第十四/m 条",
+        "description": "第十四后接/m(代词)，然后是条"
+    },
+    {
+        "query": "(m) 条{begin($1)=[第 永 贵 农]}",
+        "description": "m后接条，且条的前面是第、永、贵或农"
+    },
+    {
+        "query": "(n) 审核 (n){len($2)<3}",
+        "description": "审核后面接另一个名词，且后者长度小于3"
+    },
+    {
+        "query": "收取 (n) 。{begin($1)!=[屋 容 劲]}",
+        "description": "收取后面接名词，但不以屋、容或劲开头"
+    },
+    {
+        "query": "送审 @ 提交",
+        "description": "送审后接一个词，统计时按照词性归并"
+    },
+    {
+        "query": "地图 (vn) 申请表{len($1)<3}",
+        "description": "地图后接申请表，且地图长度小于3"
+    },
+    {
+        "query": "样品 ./w",
+        "description": "样品后接一个字"
+    },
+    {
+        "query": "@ 地图",
+        "description": "地图，统计时按照词性归并"
+    },
+    {
+        "query": "(m) 条{end($1)!=[屁 勒]}",
+        "description": "m后接条，但不以屁或勒结尾"
+    },
+    {
+        "query": "四 ~ 地图",
+        "description": "四后面接一个字，可能与地图相关"
+    },
+    {
+        "query": "第十八 (q){count<253}",
+        "description": "第十八后接一个字，出现次数少于253次"
+    },
+    {
+        "query": "@ 条",
+        "description": "条，统计时按照词性归并"
+    },
+    {
+        "query": ".../[m v] 条",
+        "description": "多个字后接m或v，然后是条"
+    },
+    {
+        "query": "第二十一 (q){count>4}",
+        "description": "第二十一后接一个字，出现次数多于4次"
+    },
+    {
+        "query": "(u) 表示 (u){$1!=$2}",
+        "description": "两个连续的u(助词)，但它们的内容不同"
+    }
+]
+```

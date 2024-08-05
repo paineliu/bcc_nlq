@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "派过",
+        "description": "包含'派'后跟一个动作或状态的句子"
+    },
+    {
+        "query": "杨树林",
+        "description": "包含'杨树林'这个实体名称的句子"
+    },
+    {
+        "query": "句质问",
+        "description": "包含'句'作为句子的一部分，之后跟'质问'的句子"
+    },
+    {
+        "query": "搬搬",
+        "description": "包含重复的动词'搬'的句子"
+    },
+    {
+        "query": "面命耳提",
+        "description": "包含成语'面命耳提'的句子"
+    },
+    {
+        "query": "很绅士",
+        "description": "包含形容词'很'修饰名词'绅士'的句子"
+    },
+    {
+        "query": "扩大化",
+        "description": "包含动词'扩大'后面跟'化'的句子"
+    },
+    {
+        "query": "独立中学",
+        "description": "包含实体名称'独立中学'的句子"
+    },
+    {
+        "query": "淡化",
+        "description": "包含动词'淡'后面跟'化'的句子"
+    },
+    {
+        "query": "晌",
+        "description": "包含时间词'晌'的句子"
+    },
+    {
+        "query": "荷",
+        "description": "包含'荷'这个实体名称的句子"
+    },
+    {
+        "query": "痴汉",
+        "description": "包含实体名称'痴汉'的句子"
+    },
+    {
+        "query": "闪",
+        "description": "包含动词'闪'的句子"
+    },
+    {
+        "query": "强人权",
+        "description": "包含动词'强'后面跟'权'的句子"
+    },
+    {
+        "query": "苦修",
+        "description": "包含动词'苦'后面跟'修'的句子"
+    },
+    {
+        "query": "荒荒凉凉",
+        "description": "包含成语'荒荒凉凉'的句子"
+    },
+    {
+        "query": "至于",
+        "description": "包含'至于'这个连词的句子"
+    },
+    {
+        "query": "炫",
+        "description": "包含动词'炫'的句子"
+    },
+    {
+        "query": "障人权",
+        "description": "包含动词'障'后面跟'权'的句子"
+    },
+    {
+        "query": "真是个",
+        "description": "包含'真是个'这个短语的句子"
+    },
+    {
+        "query": "异，和谐",
+        "description": "包含'异'和'和谐'两个实体名称，中间用逗号分隔的句子"
+    },
+    {
+        "query": "痛苦",
+        "description": "包含名词'痛苦'的句子"
+    },
+    {
+        "query": "楷书不楷书",
+        "description": "包含疑问句'楷书'是否为楷书的句子"
+    },
+    {
+        "query": "奔下来",
+        "description": "包含动词'奔'后面跟'下来'的句子"
+    },
+    {
+        "query": "世界和谐",
+        "description": "包含实体名称'世界'和'和谐'的句子"
+    },
+    {
+        "query": "不足",
+        "description": "包含形容词'不足'的句子"
+    },
+    {
+        "query": "不伶俐",
+        "description": "包含形容词'不伶俐'的句子"
+    },
+    {
+        "query": "恐怕应该",
+        "description": "包含'恐怕'和'应该'这两个连词的句子"
+    },
+    {
+        "query": "优雅",
+        "description": "包含形容词'优雅'的句子"
+    },
+    {
+        "query": "风餐露宿",
+        "description": "包含成语'风餐露宿'的句子"
+    },
+    {
+        "query": "没开玩笑",
+        "description": "包含否定词'没'和动词'开玩笑'的句子"
+    },
+    {
+        "query": "不够爷们",
+        "description": "包含形容词'不够'和'爷们'的句子"
+    },
+    {
+        "query": "庶几",
+        "description": "包含成语'庶几'的句子"
+    },
+    {
+        "query": "能不能去",
+        "description": "包含疑问句'能不能去'的句子"
+    },
+    {
+        "query": "唯一的四",
+        "description": "包含数字'唯一'和数量词'四'的句子"
+    },
+    {
+        "query": "残余",
+        "description": "包含名词'残余'的句子"
+    },
+    {
+        "query": "路不路",
+        "description": "包含疑问句'路不路'的句子"
+    },
+    {
+        "query": "粘粘",
+        "description": "包含重复的形容词'粘'的句子"
+    },
+    {
+        "query": "打傻",
+        "description": "包含动词'打'后面跟'傻'的句子"
+    },
+    {
+        "query": "受封",
+        "description": "包含动词'受'后面跟'封'的句子"
+    }
+]
+```

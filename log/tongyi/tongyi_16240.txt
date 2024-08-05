@@ -1,0 +1,152 @@
+```json
+[
+    {
+        "query": "还是d+a[，+。]",
+        "description": "还是副词 + 'd' + 'a' + (逗号或句号)"
+    },
+    {
+        "query": "还是d a[， 。]",
+        "description": "还是副词 + 'a' + (逗号或句号)"
+    },
+    {
+        "query": "[随时+随手+随着]v[q+m+]n[，+。]",
+        "description": "'随时' + '随手' + '随着' + 动词 + (名词或形容词) + (逗号或句号)"
+    },
+    {
+        "query": "[随时 随手 随着]v[q m ]n[， 。]",
+        "description": "'随时' + 'm' + '随手' + 'n' + '随着' + 动词 + (名词或形容词) + (逗号或句号)"
+    },
+    {
+        "query": "短期v[，+。]",
+        "description": "动词 + 'v' + (逗号或句号)"
+    },
+    {
+        "query": "短期v[， 。]",
+        "description": "动词 + 'v' + (逗号或句号)"
+    },
+    {
+        "query": "只顾v[v+a+n+r][，+。]",
+        "description": "'只顾' + 'v' + 'a' + 'n' + 'r' + 动词 + (逗号或句号)"
+    },
+    {
+        "query": "只顾v[v a n r][， 。]",
+        "description": "'只顾' + 'v' + 'a' + 'n' + 'r' + 动词 + (逗号或句号)"
+    },
+    {
+        "query": "w喜.忧[q+r+d+c+v+a++n+m++p]w",
+        "description": "动词 + '喜' + '忧' + (名词或形容词) + (逗号或句号)"
+    },
+    {
+        "query": "w喜.忧[q r d c v a  n m  p]w",
+        "description": "动词 + '喜' + '忧' + (名词或形容词) + (逗号或句号)"
+    },
+    {
+        "query": "把++[n+r]+v坏[，+。]",
+        "description": "'把' + 'n+r' + 'v坏' + (逗号或句号)"
+    },
+    {
+        "query": "把  [n r] v坏[， 。]",
+        "description": "'把' + 'n r' + 'v坏' + (逗号或句号)"
+    },
+    {
+        "query": "活该d+v[，+。]",
+        "description": "形容词 + '活该' + 'v' + (逗号或句号)"
+    },
+    {
+        "query": "活该d v[， 。]",
+        "description": "形容词 + '活该' + 'v' + (逗号或句号)"
+    },
+    {
+        "query": "a时[，+。]",
+        "description": "形容词 + '时' + (逗号或句号)"
+    },
+    {
+        "query": "a时[， 。]",
+        "description": "形容词 + '时' + (逗号或句号)"
+    },
+    {
+        "query": "是r的[，+。]",
+        "description": "助词 + '是' + 'r' + '的' + (逗号或句号)"
+    },
+    {
+        "query": "是r的[， 。]",
+        "description": "助词 + '是' + 'r' + '的' + (逗号或句号)"
+    },
+    {
+        "query": "恰好v+v[，+。]",
+        "description": "动词 + '恰好' + 'v' + 'v' + (逗号或句号)"
+    },
+    {
+        "query": "恰好v v[， 。]",
+        "description": "动词 + '恰好' + 'v' + 'v' + (逗号或句号)"
+    },
+    {
+        "query": "[a+d+n+v++l]事宜",
+        "description": "'a' + 'd' + 'n' + 'v' + 'l' + '事宜'"
+    },
+    {
+        "query": "[，+。]c+v+d+[，+。]",
+        "description": "(逗号或句号) + 'c' + 'v' + 'd' + (逗号或句号)"
+    },
+    {
+        "query": "[找出+露出+修+安+喊+坐+剩+磕]个",
+        "description": "'找出' + '露出' + '修' + '安' + '喊' + '坐' + '剩' + '磕' + '个'"
+    },
+    {
+        "query": "[找出 露出 修 安 喊 坐 剩 磕]个",
+        "description": "'找出' + '露出' + '修' + '安' + '喊' + '坐' + '剩' + '磕' + '个'"
+    },
+    {
+        "query": "v+r+n[，+。]",
+        "description": "动词 + 'v' + 'r' + 'n' + (逗号或句号)"
+    },
+    {
+        "query": "v r n[， 。]",
+        "description": "动词 + 'v' + 'r' + 'n' + (逗号或句号)"
+    },
+    {
+        "query": "w黑.白[q+r+d+c+v+a++n+m++p]w",
+        "description": "动词 + 'w' + '黑' + '白' + (名词或形容词) + (逗号或句号)"
+    },
+    {
+        "query": "w黑.白[q r d c v a  n m  p]w",
+        "description": "动词 + 'w' + '黑' + '白' + (名词或形容词) + (逗号或句号)"
+    },
+    {
+        "query": "不断v+n[，+。]",
+        "description": "动词 + '不断' + 'v' + 'n' + (逗号或句号)"
+    },
+    {
+        "query": "不断v n[， 。]",
+        "description": "动词 + '不断' + 'v' + 'n' + (逗号或句号)"
+    },
+    {
+        "query": "高度v[v+a+n+r][，+。]",
+        "description": "动词 + '高度' + 'v' + 'a' + 'n' + 'r' + (逗号或句号)"
+    },
+    {
+        "query": "高度v[v a n r][， 。]",
+        "description": "动词 + '高度' + 'v' + 'a' + 'n' + 'r' + (逗号或句号)"
+    },
+    {
+        "query": "v得上n[，+。]",
+        "description": "动词 + 'v' + '得上' + 'n' + (逗号或句号)"
+    },
+    {
+        "query": "v得上n[， 。]",
+        "description": "动词 + 'v' + '得上' + 'n' + (逗号或句号)"
+    },
+    {
+        "query": "v+m+r[，+。]",
+        "description": "动词 + 'v' + 'm' + 'r' + (逗号或句号)"
+    },
+    {
+        "query": "v m r[， 。]",
+        "description": "动词 + 'v' + 'm' + 'r' + (逗号或句号)"
+    },
+    {
+        "query": "[a+d+n+v++l]不单",
+        "description": "'a' + 'd' + 'n' + 'v' + 'l' + '不单'"
+    }
+]
+```

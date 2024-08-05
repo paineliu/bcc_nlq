@@ -1,0 +1,152 @@
+```json
+[
+    {
+        "query": "兮麓", 
+        "description": "包含兮麓的句子"
+    },
+    {
+        "query": "可达/v 千年", 
+        "description": "可达 + 动词 + 千年"
+    },
+    {
+        "query": "冰山 (v), {count<452}", 
+        "description": "冰山后跟一个动词，但频次小于452次"
+    },
+    {
+        "query": "(n) (c){len($2)=1}", 
+        "description": "两个名词间，第二个名词长度为1"
+    },
+    {
+        "query": "ns 去 (y){len($1)=2}", 
+        "description": "地名后接去，且第一个字长度为2"
+    },
+    {
+        "query": "， (n) 是{len($1)!=3}", 
+        "description": "逗号后接名词，但名词长度不为3"
+    },
+    {
+        "query": "m 云{middle($1)!=[建 牙 啊 屁]}", 
+        "description": "数量词后接云，但云字不在中间位置"
+    },
+    {
+        "query": "的 (n){begin($1)=[花 偶 远]}", 
+        "description": "的后接名词，但名词不以花、偶、远开头"
+    },
+    {
+        "query": ",/w 锋利 又/d", 
+        "description": "逗号后接锋利，再接又"
+    },
+    {
+        "query": "这就 ~ 属于", 
+        "description": "这就后接一个词"
+    },
+    {
+        "query": "快 ../[v v] 好", 
+        "description": "快速动词后接动词，再接好"
+    },
+    {
+        "query": "腾 上/v 云空", 
+        "description": "腾空 + 动词 + 云空"
+    },
+    {
+        "query": "做 (n){count>7}", 
+        "description": "做后接名词，且频次大于7"
+    },
+    {
+        "query": "告诉 ../[r v]", 
+        "description": "告诉后离合出现动词"
+    },
+    {
+        "query": "(v) 在 九十 (q){len($1)!=2; len($2)=1}", 
+        "description": "动词后跟在，然后是90，且90不是由两个字符组成的"
+    },
+    {
+        "query": "(z) 的 雪橇 (v){count<761}", 
+        "description": "的后接雪橇，再接动词，但频次小于761"
+    },
+    {
+        "query": "地 ~ 着", 
+        "description": "地后接一个词"
+    },
+    {
+        "query": "到 ./r 的", 
+        "description": "到后接一个介词，再接的"
+    },
+    {
+        "query": "(c) 我 的 青春 再 不 会 (v){len($1)=1; len($2)!=3}", 
+        "description": "我、的、青春、再、不会，第一个字长度为1，第二个字长度不为3"
+    },
+    {
+        "query": "当年 @ 从", 
+        "description": "当年后接一个词"
+    },
+    {
+        "query": "(v) 这 冰 湖 上 (v){begin($2)!=[躺 婷 文]}", 
+        "description": "动词后接这、冰、湖、上，但湖字后不接躺、婷、文"
+    },
+    {
+        "query": "(r) 梦 里 渴望 (u){len($2)!=2}", 
+        "description": "动词后接梦、里、渴望，但渴望不是由两个字符组成的"
+    },
+    {
+        "query": "今天 ./[u v] 生活", 
+        "description": "今天后离合出现动词或助词，再接生活"
+    },
+    {
+        "query": "(r),{count>4}", 
+        "description": "逗号后，频次大于4"
+    },
+    {
+        "query": "仍/d 浸", 
+        "description": "仍后接一个动词"
+    },
+    {
+        "query": "和 ~/[n v] 可以", 
+        "description": "和后离合出现名词或动词，再接可以"
+    },
+    {
+        "query": "一般 (a) 的{len($1)!=3}", 
+        "description": "一般后接形容词，但形容词长度不为3"
+    },
+    {
+        "query": "和 ~/[n v]", 
+        "description": "和后离合出现名词或动词"
+    },
+    {
+        "query": "去 吧/y", 
+        "description": "去吧，句尾是语气词"
+    },
+    {
+        "query": "(v) (ns){$1!=$2}", 
+        "description": "动词后接名词，但动词和名词不同"
+    },
+    {
+        "query": ",~/[v v] 做", 
+        "description": "逗号后离合出现动词，再接做"
+    },
+    {
+        "query": "(n) ,{len($1)!=2}", 
+        "description": "名词后，逗号后名词长度不为2"
+    },
+    {
+        "query": "片 z 的", 
+        "description": "片后接一个字，再接的"
+    },
+    {
+        "query": "就 (v){begin($1)!=[妈 考 整]}", 
+        "description": "就后接动词，但动词不以妈、考、整开头"
+    },
+    {
+        "query": "(m) (n){len($1)=2; begin($2)=[痕迹 金 噶 费]}", 
+        "description": "两个名词，第一个名词长度为2，第二个名词不以痕迹、金、噶、费开头"
+    },
+    {
+        "query": ", d 又", 
+        "description": "逗号后接一个字，再接又"
+    },
+    {
+        "query": "沉 ~/[p v] 海底", 
+        "description": "沉后离合出现介词或动词，再接海底"
+    }
+]
+```

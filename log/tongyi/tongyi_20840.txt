@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "点/v ../n",
+        "description": "点后面跟单音节名词"
+    },
+    {
+        "query": "色/n+香味+俱全+的/u",
+        "description": "色、香味、俱全、的的组合"
+    },
+    {
+        "query": "色/n 香味 俱全 的/u",
+        "description": "色、香味、俱全、的各自独立的词语"
+    },
+    {
+        "query": "v+恩情/n",
+        "description": "动词后面跟恩情这个名词"
+    },
+    {
+        "query": "v 恩情/n",
+        "description": "动词后面跟恩情这个名词"
+    },
+    {
+        "query": "节/q",
+        "description": "节作为单独的词语"
+    },
+    {
+        "query": "焊接+心脏/n+的",
+        "description": "焊接、心脏、的的组合"
+    },
+    {
+        "query": "焊接 心脏/n 的",
+        "description": "焊接、心脏、的各自独立的词语"
+    },
+    {
+        "query": "活+薪酬/n",
+        "description": "活后面跟薪酬这个名词"
+    },
+    {
+        "query": "活 薪酬/n",
+        "description": "活后面跟薪酬这个名词"
+    },
+    {
+        "query": "苦/a",
+        "description": "苦作为一个形容词"
+    },
+    {
+        "query": "车企+收购/v+诺基亚",
+        "description": "车企、收购、诺基亚的组合"
+    },
+    {
+        "query": "车企 收购/v 诺基亚",
+        "description": "车企、收购、诺基亚各自独立的词语"
+    },
+    {
+        "query": "付诚+分析/v+说",
+        "description": "付诚、分析、说的组合"
+    },
+    {
+        "query": "付诚 分析/v 说",
+        "description": "付诚、分析、说各自独立的词语"
+    },
+    {
+        "query": "./v不到",
+        "description": "单音节动词后面跟不到这个形容词"
+    },
+    {
+        "query": ".........../l",
+        "description": "未知词"
+    },
+    {
+        "query": "的+法律/n+意识",
+        "description": "的、法律、意识的组合"
+    },
+    {
+        "query": "的 法律/n 意识",
+        "description": "的、法律、意识各自独立的词语"
+    },
+    {
+        "query": "因为/p",
+        "description": "因为作为一个连词"
+    },
+    {
+        "query": "存心+../v",
+        "description": "存心、后面跟单音节动词"
+    },
+    {
+        "query": "存心 ../v",
+        "description": "存心、后面跟单音节动词各自独立的词语"
+    },
+    {
+        "query": "懂/v",
+        "description": "懂作为一个动词"
+    },
+    {
+        "query": "哪+还有/v+威信",
+        "description": "哪、还有、威信的组合"
+    },
+    {
+        "query": "哪 还有/v 威信",
+        "description": "哪、还有、威信各自独立的词语"
+    },
+    {
+        "query": "服从/v+大局",
+        "description": "服从、大局的组合"
+    },
+    {
+        "query": "服从/v 大局",
+        "description": "服从、大局各自独立的词语"
+    },
+    {
+        "query": "./v+./a了",
+        "description": "单音节动词、句尾标点、形容词的组合"
+    },
+    {
+        "query": "./v ./a了",
+        "description": "单音节动词、句尾标点、形容词各自独立的词语"
+    },
+    {
+        "query": "车改/j+效果+？/w",
+        "description": "车改、效果、问号的组合"
+    },
+    {
+        "query": "车改/j 效果 ？/w",
+        "description": "车改、效果、问号各自独立的词语"
+    },
+    {
+        "query": "./v忙+了",
+        "description": "单音节动词、后面跟了这个形容词"
+    },
+    {
+        "query": "./v忙 了",
+        "description": "单音节动词、后面跟了这个形容词各自独立的词语"
+    },
+    {
+        "query": "../n+../n+，",
+        "description": "两个名词、逗号的组合"
+    },
+    {
+        "query": "../n ../n ，",
+        "description": "两个名词、逗号各自独立的词语"
+    },
+    {
+        "query": "又+闻/v+珠算声",
+        "description": "又、闻、珠算声的组合"
+    },
+    {
+        "query": "又 闻/v 珠算声",
+        "description": "又、闻、珠算声各自独立的词语"
+    },
+    {
+        "query": ".头/n",
+        "description": "句尾标点、名词"
+    },
+    {
+        "query": "不+同意/v+：",
+        "description": "不、同意、冒号的组合"
+    },
+    {
+        "query": "不 同意/v ：",
+        "description": "不、同意、冒号各自独立的词语"
+    }
+]
+```

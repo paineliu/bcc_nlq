@@ -1,0 +1,166 @@
+以下是将给定的检索式转换为带含义的JSON结构的结果：
+
+```json
+[
+    {
+        "query": "发出和谐",
+        "description": "发出之后接和谐"
+    },
+    {
+        "query": "帮贴",
+        "description": "帮之后接贴"
+    },
+    {
+        "query": "厚厚实实",
+        "description": "厚厚实实作为一个整体词"
+    },
+    {
+        "query": "按时",
+        "description": "按之后接时"
+    },
+    {
+        "query": "节哀顺变",
+        "description": "节之后接哀顺变"
+    },
+    {
+        "query": "生活和谐",
+        "description": "生活之后接和谐"
+    },
+    {
+        "query": "开车",
+        "description": "开之后接车"
+    },
+    {
+        "query": "不够科学",
+        "description": "不够之后接科学"
+    },
+    {
+        "query": "和谐之点",
+        "description": "和谐之后接之点"
+    },
+    {
+        "query": "歌曲",
+        "description": "歌曲作为一个整体词"
+    },
+    {
+        "query": "亩人权",
+        "description": "亩之后接权"
+    },
+    {
+        "query": "地位",
+        "description": "地位作为一个整体词"
+    },
+    {
+        "query": "一轮",
+        "description": "一轮作为一个整体词"
+    },
+    {
+        "query": "严重的是",
+        "description": "严重的是作为一个整体词"
+    },
+    {
+        "query": "容量",
+        "description": "容量作为一个整体词"
+    },
+    {
+        "query": "更加和谐",
+        "description": "更加之后接和谐"
+    },
+    {
+        "query": "读起来",
+        "description": "读之后接起来"
+    },
+    {
+        "query": "匆匆忙忙",
+        "description": "匆匆忙忙作为一个整体词"
+    },
+    {
+        "query": "恐怕应",
+        "description": "恐怕之后接应"
+    },
+    {
+        "query": "唱歌",
+        "description": "唱歌作为一个整体词"
+    },
+    {
+        "query": "和谐作贡",
+        "description": "和谐之后接作贡"
+    },
+    {
+        "query": "金刚",
+        "description": "金刚作为一个整体词"
+    },
+    {
+        "query": "半开麦",
+        "description": "半之后接开麦"
+    },
+    {
+        "query": "演完出",
+        "description": "演之后接完出"
+    },
+    {
+        "query": "受到和谐",
+        "description": "受到之后接和谐"
+    },
+    {
+        "query": "一生推",
+        "description": "一生之后接推"
+    },
+    {
+        "query": "不吃饱",
+        "description": "不之后接吃饱"
+    },
+    {
+        "query": "结草衔环",
+        "description": "结之后接草衔环"
+    },
+    {
+        "query": "述作",
+        "description": "述之后接作"
+    },
+    {
+        "query": "铺陈",
+        "description": "铺之后接陈"
+    },
+    {
+        "query": "晕菜",
+        "description": "晕之后接菜"
+    },
+    {
+        "query": "车身",
+        "description": "身之后接车"
+    },
+    {
+        "query": "挣出来",
+        "description": "挣之后接出来"
+    },
+    {
+        "query": "和谐了人",
+        "description": "和谐之后接了人"
+    },
+    {
+        "query": "人员人权",
+        "description": "人员之后接人权"
+    },
+    {
+        "query": "人权于",
+        "description": "人权之后接于"
+    },
+    {
+        "query": "人权基",
+        "description": "人权之后接基"
+    },
+    {
+        "query": "内人人",
+        "description": "内之后接人人"
+    },
+    {
+        "query": "抽打",
+        "description": "抽之后接打"
+    },
+    {
+        "query": "内线",
+        "description": "内之后接线"
+    }
+]
+```

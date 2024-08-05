@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "d赶忙",
+        "description": "副词d后接赶忙"
+    },
+    {
+        "query": "v之恩",
+        "description": "动词v后接之恩"
+    },
+    {
+        "query": "n检查",
+        "description": "名词n后接检查"
+    },
+    {
+        "query": "好V",
+        "description": "形容词好后接动词V"
+    },
+    {
+        "query": "还v是",
+        "description": "动词还后接v再接是"
+    },
+    {
+        "query": "经历q",
+        "description": "名词经历后接量词q"
+    },
+    {
+        "query": "世界杯+a",
+        "description": "名词世界杯后接形容词a"
+    },
+    {
+        "query": "世界杯 a",
+        "description": "名词世界杯后接空格再接形容词a"
+    },
+    {
+        "query": "f+v+了+有+m+q",
+        "description": "方位词f后接动词v、动词了、形容词有、数词m、量词q"
+    },
+    {
+        "query": "f v 了 有 m q",
+        "description": "方位词f后接动词v、动词了、形容词有、数词m、量词q"
+    },
+    {
+        "query": "方式a",
+        "description": "名词方式后接形容词a"
+    },
+    {
+        "query": "好N",
+        "description": "形容词好后接名词N"
+    },
+    {
+        "query": "十分a",
+        "description": "形容词十分后接形容词a"
+    },
+    {
+        "query": "百般n",
+        "description": "形容词百般后接名词n"
+    },
+    {
+        "query": "不必把n+v了",
+        "description": "动词不必后接名词n、动词v、动词了"
+    },
+    {
+        "query": "不必把n v了",
+        "description": "动词不必后接名词n、动词v、动词了"
+    },
+    {
+        "query": "V上悲哀",
+        "description": "动词V后接方位词上、形容词悲哀"
+    },
+    {
+        "query": "看r多v",
+        "description": "动词看后接动词r、形容词多、动词v"
+    },
+    {
+        "query": "妒忌n+v",
+        "description": "名词妒忌后接动词v"
+    },
+    {
+        "query": "妒忌n v",
+        "description": "名词妒忌后接动词v"
+    },
+    {
+        "query": "多不v",
+        "description": "形容词多后接副词不、动词v"
+    },
+    {
+        "query": "顿时v",
+        "description": "副词顿时后接动词v"
+    },
+    {
+        "query": "v一段",
+        "description": "动词v后接量词一段"
+    },
+    {
+        "query": "。d应该说，",
+        "description": "标点符号。后接副词d、动词应该、动词说、标点符号，"
+    },
+    {
+        "query": "d+d能",
+        "description": "副词d后接空格再接副词d、动词能"
+    },
+    {
+        "query": "d d能",
+        "description": "副词d后接空格再接副词d、动词能"
+    },
+    {
+        "query": "又不V",
+        "description": "副词又后接副词不、动词V"
+    },
+    {
+        "query": "不都n了",
+        "description": "副词不后接形容词都、动词n、动词了"
+    },
+    {
+        "query": "m比特",
+        "description": "数词m后接词比特"
+    },
+    {
+        "query": "v大了",
+        "description": "动词v后接形容词大、动词了"
+    },
+    {
+        "query": "n+拿+n+v",
+        "description": "名词n后接动词拿、名词n、动词v"
+    },
+    {
+        "query": "n 拿 n v",
+        "description": "名词n后接动词拿、名词n、动词v"
+    },
+    {
+        "query": "m垛",
+        "description": "数词m后接词垛"
+    },
+    {
+        "query": "没a没a",
+        "description": "形容词没后接形容词a、形容词没、形容词a"
+    },
+    {
+        "query": "v点子",
+        "description": "动词v后接量词点子"
+    },
+    {
+        "query": "不v也不v",
+        "description": "副词不后接动词v、副词不、动词v"
+    },
+    {
+        "query": "浅V一下",
+        "description": "形容词浅后接动词V、副词一下"
+    },
+    {
+        "query": "v虚了",
+        "description": "动词v后接形容词虚、动词了"
+    },
+    {
+        "query": "a半边天",
+        "description": "形容词a后接名词半边天"
+    },
+    {
+        "query": "比我更a",
+        "description": "副词比我更、形容词a"
+    }
+]
+```

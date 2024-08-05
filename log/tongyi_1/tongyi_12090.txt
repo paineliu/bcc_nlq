@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "紧紧 (v) 贫困户{begin($1)!=[喂 大 使]}",
+        "description": "动词紧紧后面不接'喂'、'大'或'使'的贫困户"
+    },
+    {
+        "query": "企业 ~ 上",
+        "description": "企业后面接上"
+    },
+    {
+        "query": "了 n 。",
+        "description": "了后面接名词，句尾是句号"
+    },
+    {
+        "query": "如何 (v) ？{end($1)=[贫 马]}",
+        "description": "疑问词如何后面，但不接'贫'或'马'"
+    },
+    {
+        "query": "!",
+        "description": "感叹号"
+    },
+    {
+        "query": "扶贫 @/[w v] 也",
+        "description": "扶贫后接'或'字的单词或动词"
+    },
+    {
+        "query": "钱 .. 企业",
+        "description": "钱后面隔一个字后接企业"
+    },
+    {
+        "query": "肯定 @/[u v] 说",
+        "description": "肯定后接'或'字的助词或动词，然后接说"
+    },
+    {
+        "query": "上 ./y ？",
+        "description": "上后面接单字连词，然后是问号"
+    },
+    {
+        "query": "张 ./n 给",
+        "description": "张后面接单字名词，然后给"
+    },
+    {
+        "query": "(d) 遇到{begin($1)!=[费 火 万]}",
+        "description": "副词遇到，但不接'费'、'火'或'万'"
+    },
+    {
+        "query": "(n) 还 会 不 会 杀 (n){begin($1)!=[艹 疼 经 洗]}",
+        "description": "名词后面可能是'会'、'不会'，再接名词，但不接'艹'、'疼'、'经'或'洗'"
+    },
+    {
+        "query": "说 w",
+        "description": "说做句首"
+    },
+    {
+        "query": "黑 (n) ，{count<509}",
+        "description": "黑色的名词，频次小于509"
+    },
+    {
+        "query": "一",
+        "description": "单个一"
+    },
+    {
+        "query": "(n) (r){len($1)>1}",
+        "description": "两个及以上字符的名词"
+    },
+    {
+        "query": "基础",
+        "description": "基础"
+    },
+    {
+        "query": "资金 ~",
+        "description": "资金后面隔一个字"
+    },
+    {
+        "query": "这样 ~/[u v] 贫困户",
+        "description": "这样后面离合出现'或'字的单词或动词，然后接贫困户"
+    },
+    {
+        "query": "~ 。",
+        "description": "一个词，句尾是句号"
+    },
+    {
+        "query": "(v) 难 ， (n){len($1)=2; len($2)!=3}",
+        "description": "动词难后面接一个长度为2的词，但不接长度为3的词"
+    },
+    {
+        "query": "项目",
+        "description": "项目"
+    },
+    {
+        "query": "扶贫 ./[v v] 人",
+        "description": "扶贫后接两个动词，然后接人"
+    },
+    {
+        "query": "， (i) 渐晚{begin($1)!=[撞 陪 鱼]}",
+        "description": "逗号后面接渐晚，但不接'撞'、'陪'或'鱼'"
+    },
+    {
+        "query": "式 @/[vn v] ：",
+        "description": "模式后接单音节动词或名动词，然后是冒号"
+    },
+    {
+        "query": "(n) (v){end($2)=[啥 嘛 呐]}",
+        "description": "名词后面接动词，动词后面接'啥'、'嘛'或'呐'"
+    },
+    {
+        "query": ". 三 块 牌 .",
+        "description": "句尾是'.'，中间是'三块牌'"
+    },
+    {
+        "query": "产业化 w",
+        "description": "产业化做句首"
+    },
+    {
+        "query": "农民 .",
+        "description": "农民做句尾"
+    },
+    {
+        "query": "稳定 (vn) 政策{count<219}",
+        "description": "稳定的名动词政策，频次小于219"
+    },
+    {
+        "query": "(v) (vn){len($1)=2; end($2)=[vn 冲 院]}",
+        "description": "两个字符的动词后面接两个字符的名动词，但不接'vn冲'或'vn院'"
+    },
+    {
+        "query": "联结 @/[n v] 。",
+        "description": "联结后接名词或动词，句尾是句号"
+    },
+    {
+        "query": "万 ~/[q v] 小",
+        "description": "万后面离合出现'或'字的量词或动词，然后接小"
+    },
+    {
+        "query": "这样 ./w",
+        "description": "这样做句首"
+    },
+    {
+        "query": "三分",
+        "description": "三分"
+    },
+    {
+        "query": "了 ../m 。",
+        "description": "了后面离合出现一个字，然后是句号"
+    },
+    {
+        "query": "德州市 ../[vn v] 负责人",
+        "description": "德州市后面离合出现一个词，可能是动词或名动词，然后接负责人"
+    },
+    {
+        "query": "摄 (n) 视觉{len($1)<3}",
+        "description": "摄后面接长度小于3的名词，指视觉"
+    },
+    {
+        "query": "万山 ~ 人",
+        "description": "万山后面离合出现人"
+    },
+    {
+        "query": "困 (w){count>9}",
+        "description": "困做句首，频次大于9"
+    }
+]
+```

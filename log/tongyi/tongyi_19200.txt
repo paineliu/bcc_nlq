@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "秋风/nr+桐槐",
+        "description": "秋风名词后接桐槐"
+    },
+    {
+        "query": "秋风/nr 桐槐",
+        "description": "秋风后接桐槐"
+    },
+    {
+        "query": "起/v+../n+",
+        "description": "起动词后接单音节名词"
+    },
+    {
+        "query": "起/v ../n ",
+        "description": "起动词后接单音节名词，句末有空格"
+    },
+    {
+        "query": "规定/v",
+        "description": "规定动词"
+    },
+    {
+        "query": "会+变红/v+？",
+        "description": "会动词后接变红动词，句末问号"
+    },
+    {
+        "query": "会 变红/v ？",
+        "description": "会动词后接变红动词，句末问号，动词间无空格"
+    },
+    {
+        "query": "宣传/vn+，/w",
+        "description": "宣传动词后接逗号"
+    },
+    {
+        "query": "宣传/vn ，/w",
+        "description": "宣传动词后接逗号"
+    },
+    {
+        "query": "绿色/n+生产+。/w",
+        "description": "绿色名词后接生产动词，句末句号"
+    },
+    {
+        "query": "绿色/n 生产 。/w",
+        "description": "绿色名词后接生产动词，句末句号"
+    },
+    {
+        "query": "，+补齐/v+弱项",
+        "description": "逗号后接补齐动词，后接弱项"
+    },
+    {
+        "query": "， 补齐/v 弱项",
+        "description": "逗号后接补齐动词，后接弱项"
+    },
+    {
+        "query": "改革/v",
+        "description": "改革动词"
+    },
+    {
+        "query": "v+兴致/n",
+        "description": "动词后接兴致名词"
+    },
+    {
+        "query": "v 兴致/n",
+        "description": "动词后接兴致名词"
+    },
+    {
+        "query": "网友+直呼/v+神题",
+        "description": "网友后接直呼动词，后接神题"
+    },
+    {
+        "query": "网友 直呼/v 神题",
+        "description": "网友后接直呼动词，后接神题"
+    },
+    {
+        "query": "写+？/w",
+        "description": "写动词后接问号"
+    },
+    {
+        "query": "写 ？/w",
+        "description": "写动词后接问号"
+    },
+    {
+        "query": "记者+看/v+。",
+        "description": "记者后接看动词，句末句号"
+    },
+    {
+        "query": "记者 看/v 。",
+        "description": "记者后接看动词，句末句号"
+    },
+    {
+        "query": "产业+同样/d+需要",
+        "description": "产业后接同样副词，后接需要"
+    },
+    {
+        "query": "产业 同样/d 需要",
+        "description": "产业后接同样副词，后接需要"
+    },
+    {
+        "query": "必由之路+。/w",
+        "description": "必由之路名词后接句号"
+    },
+    {
+        "query": "必由之路 。/w",
+        "description": "必由之路名词后接句号"
+    },
+    {
+        "query": "打/v+n",
+        "description": "打动词后接名词"
+    },
+    {
+        "query": "打/v n",
+        "description": "打动词后接名词"
+    },
+    {
+        "query": "机器人+迈向/v+家用",
+        "description": "机器人后接迈向动词，后接家用"
+    },
+    {
+        "query": "机器人 迈向/v 家用",
+        "description": "机器人后接迈向动词，后接家用"
+    },
+    {
+        "query": "推广+减贫/vn+经验",
+        "description": "推广后接减贫动名词，后接经验"
+    },
+    {
+        "query": "推广 减贫/vn 经验",
+        "description": "推广后接减贫动名词，后接经验"
+    },
+    {
+        "query": "好心/n+n",
+        "description": "好心名词后接好心名词"
+    },
+    {
+        "query": "好心/n n",
+        "description": "好心名词后接好心名词"
+    },
+    {
+        "query": "…+自杀",
+        "description": "省略号后接自杀"
+    },
+    {
+        "query": "这/r+有何不可+呢+？/w",
+        "description": "这后接有何不可，后接呢问号"
+    },
+    {
+        "query": "这/r 有何不可 呢 ？/w",
+        "description": "这后接有何不可，后接呢问号"
+    },
+    {
+        "query": "落/v",
+        "description": "落动词"
+    },
+    {
+        "query": "、+共享/v+网络",
+        "description": "逗号后接共享动词，后接网络"
+    },
+    {
+        "query": "、 共享/v 网络",
+        "description": "逗号后接共享动词，后接网络"
+    }
+]
+```

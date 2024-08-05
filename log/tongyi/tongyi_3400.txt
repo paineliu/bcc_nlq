@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "睡个觉",
+        "description": "包含睡个觉的句子"
+    },
+    {
+        "query": "片面",
+        "description": "包含片面的句子"
+    },
+    {
+        "query": "够实力",
+        "description": "包含够实力的句子"
+    },
+    {
+        "query": "他这就",
+        "description": "包含他这就的句子"
+    },
+    {
+        "query": "被富裕",
+        "description": "包含被富裕的句子"
+    },
+    {
+        "query": "起开",
+        "description": "包含起开的句子"
+    },
+    {
+        "query": "两个",
+        "description": "包含两个的句子"
+    },
+    {
+        "query": "暗香疏影",
+        "description": "包含暗香疏影的句子"
+    },
+    {
+        "query": "用得着吗",
+        "description": "包含用得着吗的句子"
+    },
+    {
+        "query": "高高兴兴",
+        "description": "包含高高兴兴的句子"
+    },
+    {
+        "query": "拜托",
+        "description": "包含拜托的句子"
+    },
+    {
+        "query": "你发现没有",
+        "description": "包含你发现没有的句子"
+    },
+    {
+        "query": "如果是我的话",
+        "description": "包含如果是我的话的句子"
+    },
+    {
+        "query": "切",
+        "description": "包含切的句子"
+    },
+    {
+        "query": "不太客气",
+        "description": "包含不太客气的句子"
+    },
+    {
+        "query": "不太在行",
+        "description": "包含不太在行的句子"
+    },
+    {
+        "query": "悻悻",
+        "description": "包含悻悻的句子"
+    },
+    {
+        "query": "合剂",
+        "description": "包含合剂的句子"
+    },
+    {
+        "query": "很友好",
+        "description": "包含很友好的句子"
+    },
+    {
+        "query": "气愤",
+        "description": "包含气愤的句子"
+    },
+    {
+        "query": "严格",
+        "description": "包含严格的句子"
+    },
+    {
+        "query": "自由泳",
+        "description": "包含自由泳的句子"
+    },
+    {
+        "query": "仁道",
+        "description": "包含仁道的句子"
+    },
+    {
+        "query": "不是不是",
+        "description": "包含不是不是的句子"
+    },
+    {
+        "query": "隔开",
+        "description": "包含隔开的句子"
+    },
+    {
+        "query": "多想",
+        "description": "包含多想的句子"
+    },
+    {
+        "query": "够强度",
+        "description": "包含够强度的句子"
+    },
+    {
+        "query": "人权已",
+        "description": "包含人权已的句子"
+    },
+    {
+        "query": "颜值",
+        "description": "包含颜值的句子"
+    },
+    {
+        "query": "严格地讲",
+        "description": "包含严格地讲的句子"
+    },
+    {
+        "query": "硬硬",
+        "description": "包含硬硬的句子"
+    },
+    {
+        "query": "真是，",
+        "description": "包含真是，的句子"
+    },
+    {
+        "query": "过一，。",
+        "description": "包含过一，。的句子"
+    },
+    {
+        "query": "，是吗？",
+        "description": "包含，是吗？的句子"
+    },
+    {
+        "query": "记在",
+        "description": "包含记在的句子"
+    },
+    {
+        "query": "洋洋",
+        "description": "包含洋洋的句子"
+    },
+    {
+        "query": "慧人权",
+        "description": "包含慧人权的句子"
+    },
+    {
+        "query": "你可有",
+        "description": "包含你可有的句子"
+    },
+    {
+        "query": "行为",
+        "description": "包含行为的句子"
+    },
+    {
+        "query": "地覆天翻",
+        "description": "包含地覆天翻的句子"
+    }
+]
+```

@@ -1,0 +1,158 @@
+以下是根据提供的检索式转换为带含义的JSON结构的列表：
+
+```json
+[
+    {
+        "query": "壁垒 @ 观澜",
+        "description": "壁垒后跟一个词观澜"
+    },
+    {
+        "query": "北京 @/[nz v] 宣讲团",
+        "description": "北京后面接一个地名或动词和宣讲团"
+    },
+    {
+        "query": "韩国队 .. 亚洲杯",
+        "description": "韩国队后面接一个词，该词可能是亚洲杯的一部分"
+    },
+    {
+        "query": "对阵",
+        "description": "对阵"
+    },
+    {
+        "query": "名将/n 纷纷",
+        "description": "名将后面接名词纷纷"
+    },
+    {
+        "query": "皇马 (v) 榜首{len($1)!=3}",
+        "description": "皇马后面接一个非三个字的动词，作为榜首"
+    },
+    {
+        "query": "m 位 跌 至 第四 q",
+        "description": "数量词后接位、跌、至、第四，后面接一个名词"
+    },
+    {
+        "query": "(ns) 慕尼黑 (n){count<105}",
+        "description": "慕尼黑前面的标点是地名，慕尼黑后面接名词，且该实例频次小于105"
+    },
+    {
+        "query": "巴萨 ./[ad v] 胜",
+        "description": "巴萨后面接形容词或动词，再接胜"
+    },
+    {
+        "query": "(n) (n){count>4}",
+        "description": "两个名词相连，且实例频次大于4"
+    },
+    {
+        "query": "毕业 @/[f v] ，",
+        "description": "毕业后面接一个动词或虚词，后面可能有逗号"
+    },
+    {
+        "query": "： (r) 是{count>5}",
+        "description": "冒号后面接一个标点，且该标点后面是'是'，且'是'的频次大于5"
+    },
+    {
+        "query": "， (r) 要{count<105}",
+        "description": "逗号后面接一个标点，且该标点后面是'要'，且'要'的频次小于105"
+    },
+    {
+        "query": "我 (v) ，{len($1)=2}",
+        "description": "我后面接一个两个字的动词，后面可能有逗号"
+    },
+    {
+        "query": "今后 ./[v v] 发展",
+        "description": "今后后面接两个连续的动词和发展"
+    },
+    {
+        "query": "父亲 . 大",
+        "description": "父亲后面隔一个字后接大"
+    },
+    {
+        "query": "迎春 ~",
+        "description": "迎春后面接一个词"
+    },
+    {
+        "query": "食堂 (w){count<100}",
+        "description": "食堂作为句尾，且频次小于100"
+    },
+    {
+        "query": "种 .",
+        "description": "种后面隔一个字"
+    },
+    {
+        "query": "老 (n){count<892}",
+        "description": "老后面接名词，且该实例频次小于892"
+    },
+    {
+        "query": "是 ../v 难",
+        "description": "是后面接一个词，该词可能是困难的一部分"
+    },
+    {
+        "query": "绑好 ../v ，",
+        "description": "绑好后面接一个词，后面可能有逗号"
+    },
+    {
+        "query": "畔 @/[n v]",
+        "description": "畔后面接一个名词或动词"
+    },
+    {
+        "query": "不 太/d 相信",
+        "description": "不后面跟一个副词太，再接相信"
+    },
+    {
+        "query": "下来 ./w",
+        "description": "下来后面接一个词作为句尾"
+    },
+    {
+        "query": "(r) 问{count>7}",
+        "description": "标点后面是问，且问的频次大于7"
+    },
+    {
+        "query": "到底 (v) 多{len($1)!=2}",
+        "description": "到底后面接一个非两个字的动词，再接多"
+    },
+    {
+        "query": "正视 @ 差距",
+        "description": "正视后面跟一个词差距"
+    },
+    {
+        "query": "了 多少/l ？",
+        "description": "了后面接一个量词多少，再接一个问号"
+    },
+    {
+        "query": "不 让/v 平均数",
+        "description": "不后面接让，再接动词平均数"
+    },
+    {
+        "query": "现状 ../[d v] 如何",
+        "description": "现状后面接一个描述状态的词或动词，再接如何"
+    },
+    {
+        "query": "关注 ./r 一",
+        "description": "关注后面接一个虚词，一可能是句尾"
+    },
+    {
+        "query": "(v) 的 (n){$1!=$2}",
+        "description": "两个动词和一个名词相连，且动词和名词不同"
+    },
+    {
+        "query": "(v) (l){begin($2)!=[吧 雷]}",
+        "description": "两个动词相连，第二个动词的开始不是吧或雷"
+    },
+    {
+        "query": "~/[a v] 多样",
+        "description": "一个词后接形容词或动词，再接多样"
+    },
+    {
+        "query": "造成 ../n 差距",
+        "description": "造成后面接一个词，该词可能是差距的一部分"
+    },
+    {
+        "query": "~ 元春",
+        "description": "一个词元春"
+    },
+    {
+        "query": "趋势 (d) 遏制{begin($1)=[初 当 下 新]}",
+        "description": "趋势后面接一个副词，且该副词的开始是初、当、下或新"
+    }
+]
+```

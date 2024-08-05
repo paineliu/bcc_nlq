@@ -1,0 +1,144 @@
+```json
+[
+    {
+        "query": "风情/n v",
+        "description": "风情作为动词的句子"
+    },
+    {
+        "query": "./v./v了",
+        "description": "单音节动词后接另一个单音节动词的句子"
+    },
+    {
+        "query": "标题/n+书法/n",
+        "description": "标题和书法作为并列名词的句子"
+    },
+    {
+        "query": "标题/n 书法/n",
+        "description": "标题在前，书法在后的句子"
+    },
+    {
+        "query": "a+的+兴致/n",
+        "description": "形容词、定冠词、的和名词兴致的组合"
+    },
+    {
+        "query": "a 的 兴致/n",
+        "description": "形容词、名词的组合"
+    },
+    {
+        "query": "闻./v",
+        "description": "单音节动词闻的句子"
+    },
+    {
+        "query": "一概+../v",
+        "description": "一概后面接单音节动词的句子"
+    },
+    {
+        "query": "一概 ../v",
+        "description": "一概后面接单音节动词的句子"
+    },
+    {
+        "query": "n+激情/n",
+        "description": "名词和激情作为并列名词的句子"
+    },
+    {
+        "query": "n 激情/n",
+        "description": "名词在前，激情在后的句子"
+    },
+    {
+        "query": "合作+优势/n+互补",
+        "description": "合作、优势和互补作为并列名词的句子"
+    },
+    {
+        "query": "合作 优势/n 互补",
+        "description": "合作在前，优势和互补在后的句子"
+    },
+    {
+        "query": "辛苦/v",
+        "description": "动词辛苦的句子"
+    },
+    {
+        "query": "合同+？/w",
+        "description": "合同后面接问号的句子"
+    },
+    {
+        "query": "合同 ？/w",
+        "description": "合同后面接问号的句子"
+    },
+    {
+        "query": "千里寄鹅毛+。/w",
+        "description": "千里寄鹅毛后面接句末符号的句子"
+    },
+    {
+        "query": "千里寄鹅毛 。/w",
+        "description": "千里寄鹅毛后面接句末符号的句子"
+    },
+    {
+        "query": "外资/n+转为/v",
+        "description": "外资和转为作为并列名词的句子"
+    },
+    {
+        "query": "外资/n 转为/v",
+        "description": "外资在前，转为在后的句子"
+    },
+    {
+        "query": "一大+亮点/n+是",
+        "description": "一大和亮点作为并列名词的句子，后接是"
+    },
+    {
+        "query": "一大 亮点/n 是",
+        "description": "一大在前，亮点和是的句子"
+    },
+    {
+        "query": "还/d+地+：+鸡窝+变+良田/n",
+        "description": "还、地、：、鸡窝、变和良田作为并列名词的句子"
+    },
+    {
+        "query": "辛苦/a",
+        "description": "形容词辛苦的句子"
+    },
+    {
+        "query": "基本面+。/w",
+        "description": "基本面后面接句末符号的句子"
+    },
+    {
+        "query": "基本面 。/w",
+        "description": "基本面后面接句末符号的句子"
+    },
+    {
+        "query": "河湖/n+秀美+，+人文+醇厚/a",
+        "description": "河湖、秀美、，、人文和醇厚作为并列名词的句子"
+    },
+    {
+        "query": "的+小确幸/nr+青年",
+        "description": "的、小确幸和青年作为并列名词的句子"
+    },
+    {
+        "query": "都/d",
+        "description": "副词都的句子"
+    },
+    {
+        "query": "规范/v+行使+自由/a",
+        "description": "规范、行使和自由作为并列名词的句子"
+    },
+    {
+        "query": "严格+。/w",
+        "description": "严格后面接句末符号的句子"
+    },
+    {
+        "query": "严格 。/w",
+        "description": "严格后面接句末符号的句子"
+    },
+    {
+        "query": "天津港+·/w+特大",
+        "description": "天津港、·和特大作为并列名词的句子"
+    },
+    {
+        "query": "轻../n",
+        "description": "单音节名词轻的句子"
+    },
+    {
+        "query": "棒+了/y+！",
+        "description": "棒、了和！作为并列名词的句子"
+    }
+]
+```

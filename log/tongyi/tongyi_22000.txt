@@ -1,0 +1,144 @@
+```json
+[
+    {
+        "query": ".张/v",
+        "description": "逗号后接单音节动词张"
+    },
+    {
+        "query": "进入+冲刺/vn+阶段",
+        "description": "进入后接双音节动词冲刺，再接名词阶段"
+    },
+    {
+        "query": "进入 冲刺/vn 阶段",
+        "description": "进入后直接接双音节动词冲刺，再接名词阶段"
+    },
+    {
+        "query": "土豆+，/w+巴西",
+        "description": "土豆后接逗号，再接巴西"
+    },
+    {
+        "query": "土豆 ，/w 巴西",
+        "description": "土豆后接逗号，再接巴西"
+    },
+    {
+        "query": "总书记+鲜明/a+回答",
+        "description": "总书记后接形容词鲜明，再接动词回答"
+    },
+    {
+        "query": "总书记 鲜明/a 回答",
+        "description": "总书记后直接接形容词鲜明，再接动词回答"
+    },
+    {
+        "query": "乡音/n+何处/r",
+        "description": "乡音后接名词何处"
+    },
+    {
+        "query": "乡音/n 何处/r",
+        "description": "乡音后直接接名词何处"
+    },
+    {
+        "query": "我们/r+爱",
+        "description": "我们后接语气词爱"
+    },
+    {
+        "query": "我们/r 爱",
+        "description": "我们后直接接语气词爱"
+    },
+    {
+        "query": "，+顺势而为/i+。",
+        "description": "逗号后接词组顺势而为，再接句尾点号。"
+    },
+    {
+        "query": "， 顺势而为/i 。",
+        "description": "逗号后接词组顺势而为，再接句尾点号。"
+    },
+    {
+        "query": "../v../v",
+        "description": "二字动词接二字动词"
+    },
+    {
+        "query": "文明+交通/n+需要",
+        "description": "文明后接名词交通，再接动词需要"
+    },
+    {
+        "query": "文明 交通/n 需要",
+        "description": "文明后直接接名词交通，再接动词需要"
+    },
+    {
+        "query": "问题/n+没有+答案/n",
+        "description": "问题后接动词没有，再接名词答案"
+    },
+    {
+        "query": "问题/n 没有 答案/n",
+        "description": "问题后直接接动词没有，再接名词答案"
+    },
+    {
+        "query": "多/d+为/v",
+        "description": "形容词多后接动词为"
+    },
+    {
+        "query": "多/d 为/v",
+        "description": "形容词多后直接接动词为"
+    },
+    {
+        "query": "葛红林/nr+表示",
+        "description": "人名葛红林后接动词表示"
+    },
+    {
+        "query": "中共/j+陕西",
+        "description": "组织名中共后接地名陕西"
+    },
+    {
+        "query": "a+的+诚意/n",
+        "description": "形容词a后接助词的，再接名词诚意"
+    },
+    {
+        "query": "的+舞艺/n",
+        "description": "助词的后接名词舞艺"
+    },
+    {
+        "query": "向/p",
+        "description": "介词向"
+    },
+    {
+        "query": "四/m+是/v",
+        "description": "数词四后接动词是"
+    },
+    {
+        "query": "监督/v",
+        "description": "动词监督"
+    },
+    {
+        "query": "./v酸了",
+        "description": "单音节动词后接语气词酸了"
+    },
+    {
+        "query": "搞+../n",
+        "description": "动词搞后接空格接名词"
+    },
+    {
+        "query": "搞 ../n",
+        "description": "动词搞后接空格，再接名词"
+    },
+    {
+        "query": "老大难/n+，+抓住+头/n",
+        "description": "名词老大难后接逗号，再接动词抓住，最后接名词头"
+    },
+    {
+        "query": "老大难/n ， 抓住 头/n",
+        "description": "名词老大难后直接接逗号，再接动词抓住，最后接名词头"
+    },
+    {
+        "query": "作者+为/v+中国",
+        "description": "人名作者后接动词为，再接国名中国"
+    },
+    {
+        "query": "作者 为/v 中国",
+        "description": "人名作者后直接接动词为，再接国名中国"
+    },
+    {
+        "query": "依靠+的/u+福利院",
+        "description": "动词依靠后接助词的，再接名词福利院"
+    }
+]
+```

@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "表现怎么样",
+        "description": "表现后面跟了一个疑问词怎么样"
+    },
+    {
+        "query": "菜单",
+        "description": "菜单是一个单独的词汇"
+    },
+    {
+        "query": "了人权",
+        "description": "了后面跟了人权"
+    },
+    {
+        "query": "麻到",
+        "description": "麻这个动词后面直接跟到了"
+    },
+    {
+        "query": "。有了",
+        "description": "句尾符号后跟了有了"
+    },
+    {
+        "query": "道骨仙风",
+        "description": "道骨仙风是一个单独的词汇"
+    },
+    {
+        "query": "无端",
+        "description": "无端是一个单独的词汇"
+    },
+    {
+        "query": "出不了什么",
+        "description": "出不了后面跟了什么"
+    },
+    {
+        "query": "引起",
+        "description": "引起是一个单独的动词"
+    },
+    {
+        "query": "点按",
+        "description": "点跟了按"
+    },
+    {
+        "query": "扑克",
+        "description": "扑克是一个单独的词汇"
+    },
+    {
+        "query": "故因而",
+        "description": "故因后面跟了然"
+    },
+    {
+        "query": "够兄弟",
+        "description": "够后面跟了兄弟"
+    },
+    {
+        "query": "树",
+        "description": "树是一个单独的词汇"
+    },
+    {
+        "query": "挖苦",
+        "description": "挖跟了苦"
+    },
+    {
+        "query": "吃吃",
+        "description": "吃跟了吃"
+    },
+    {
+        "query": "把握把握",
+        "description": "把握跟了把握"
+    },
+    {
+        "query": "别提了",
+        "description": "别提这个短语"
+    },
+    {
+        "query": "不太如意",
+        "description": "不太后面跟了如意"
+    },
+    {
+        "query": "面积",
+        "description": "面积是一个单独的词汇"
+    },
+    {
+        "query": "淡淡",
+        "description": "淡淡是一个单独的词汇"
+    },
+    {
+        "query": "和谐\"",
+        "description": "和谐后面跟了双引号"
+    },
+    {
+        "query": "出了和谐",
+        "description": "出了后面跟了和谐"
+    },
+    {
+        "query": "打歪",
+        "description": "打跟了歪"
+    },
+    {
+        "query": "一时间的",
+        "description": "一时间后面跟了的"
+    },
+    {
+        "query": "源于偶然",
+        "description": "源跟了于偶然"
+    },
+    {
+        "query": "兵荒马乱",
+        "description": "兵荒马乱是一个单独的词汇"
+    },
+    {
+        "query": "嫩嫩",
+        "description": "嫩跟了嫩"
+    },
+    {
+        "query": "人权报",
+        "description": "人权跟了报"
+    },
+    {
+        "query": "顺道儿",
+        "description": "顺道跟了儿"
+    },
+    {
+        "query": "篇幅",
+        "description": "篇跟了幅"
+    },
+    {
+        "query": "没灾没病",
+        "description": "没灾没病是一个单独的短语"
+    },
+    {
+        "query": "排除",
+        "description": "排除是一个单独的动词"
+    },
+    {
+        "query": "逢",
+        "description": "逢是一个单独的词汇"
+    },
+    {
+        "query": "是了？",
+        "description": "是了后面跟了一个问号"
+    },
+    {
+        "query": "觉得挺好的",
+        "description": "觉得跟了挺好的"
+    },
+    {
+        "query": "食草男+",
+        "description": "食草男后面跟了加号"
+    },
+    {
+        "query": "食草男",
+        "description": "食草男是一个单独的词汇"
+    },
+    {
+        "query": "踩出去",
+        "description": "踩跟了出去"
+    },
+    {
+        "query": "很久",
+        "description": "很久是一个单独的词汇"
+    }
+]
+```

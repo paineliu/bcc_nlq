@@ -1,0 +1,86 @@
+以下是根据提供的检索式及其含义转换为JSON结构的完整列表：
+
+```json
+[
+    {
+        "query": "中非 (v) 堪称{end($1)=[作 件 血 秋]}",
+        "description": "中非后面接动词，动词以作、件、血、秋结尾"
+    },
+    {
+        "query": "(v) (n){len($1)=2}",
+        "description": "动词后面接两个字的名词"
+    },
+    {
+        "query": "一致 .",
+        "description": "包含一致的句子"
+    },
+    {
+        "query": "(ns) 大学 国际 关系 (n){len($1)>1; len($2)=2}",
+        "description": "地名后接大学、国际、关系，名词长度大于1，第二个名词长度为2"
+    },
+    {
+        "query": "(v) (v){len($1)=2; begin($2)=[应对 跟]}",
+        "description": "双音节动词后接以应对或跟开头的动词"
+    },
+    {
+        "query": "(v) 之外 (w){len($1)>1}",
+        "description": "动词后接之外，动词长度大于1"
+    },
+    {
+        "query": "沙特 积极/ad 开展",
+        "description": "沙特积极地开展"
+    },
+    {
+        "query": "就业",
+        "description": "包含就业的句子"
+    },
+    {
+        "query": "长龙 (v) 美国{len($1)<3}",
+        "description": "长龙后面接动词，动词长度小于3"
+    },
+    {
+        "query": "总理 瓦尔斯/nr",
+        "description": "包含总理瓦尔斯的句子"
+    },
+    {
+        "query": "曼努埃尔·瓦尔斯",
+        "description": "包含曼努埃尔·瓦尔斯的句子"
+    },
+    {
+        "query": "印度 ~/[n v] 部长",
+        "description": "印度后接名词或动词，再接部长"
+    },
+    {
+        "query": "行进 .. ·",
+        "description": "行进后面跟两个点"
+    },
+    {
+        "query": "中 ./u 一",
+        "description": "中后面接介词，再接一字"
+    },
+    {
+        "query": "集团 (n) 王晶说{len($1)<3}",
+        "description": "集团后面接名词，名词长度小于3，再接王晶说"
+    },
+    {
+        "query": "困难 (v) 山{count>9}",
+        "description": "困难后面接动词，动词为山，出现次数大于9"
+    },
+    {
+        "query": "艰难 @/[u v] 时候",
+        "description": "艰难后面接助词或动词，再接时候"
+    },
+    {
+        "query": "是 @/[n v] 的",
+        "description": "是后面接名词或动词，再接的"
+    },
+    {
+        "query": "一码 @/[p v] 先",
+        "description": "一码后面接介词或动词，再接先"
+    },
+    {
+        "query": "年 算/v 一码",
+        "description": "年后面接算字动词，再接一码"
+    }
+]
+```

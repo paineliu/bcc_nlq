@@ -1,0 +1,160 @@
+```json
+[
+    {
+        "query": "(m) 高度{len($1)=1}",
+        "description": "长度为1的‘高度’"
+    },
+    {
+        "query": "宽松",
+        "description": "宽松"
+    },
+    {
+        "query": "建设 @/[w v]",
+        "description": "建设后面接‘w’或‘v’"
+    },
+    {
+        "query": "用地",
+        "description": "用地"
+    },
+    {
+        "query": "理性",
+        "description": "理性"
+    },
+    {
+        "query": "见解",
+        "description": "见解"
+    },
+    {
+        "query": "， (v) 做到{begin($1)!=[长 休 查 刀]}",
+        "description": "逗号后面接动词，但不接‘长’、‘休’、‘查’或‘刀’"
+    },
+    {
+        "query": "自信",
+        "description": "自信"
+    },
+    {
+        "query": "话语 ../[n v] 。",
+        "description": "话语后面离合出现名词或动词，后面是句点"
+    },
+    {
+        "query": "提升",
+        "description": "提升"
+    },
+    {
+        "query": "作者 (v) 华侨{len($1)=1}",
+        "description": "作者后面接单音节动词‘华侨’"
+    },
+    {
+        "query": "树立 (c) 增强{len($1)=1}",
+        "description": "树立后面接单音节副词‘增强’"
+    },
+    {
+        "query": "文化 (a) ，{count>2}",
+        "description": "文化后跟逗号，且该句前后至少有3个这样的结构"
+    },
+    {
+        "query": "是 ~/[n v] 文化",
+        "description": "‘是’后面离合出现名词或动词，然后是‘文化’"
+    },
+    {
+        "query": "引导 (vn) 作用{len($1)<3}",
+        "description": "引导后面接双音节动词，且动词长度小于3"
+    },
+    {
+        "query": "副教授",
+        "description": "副教授"
+    },
+    {
+        "query": "(n) (n){len($1)>1; end($2)!=[便 款 肥 等]}",
+        "description": "两个相邻的名词，第一个名词长度大于1，且第二个名词不以‘便’、‘款’、‘肥’或‘等’结尾"
+    },
+    {
+        "query": "称为 ../[n v] 学校",
+        "description": "称为后面离合出现名词或动词，后面是‘学校’"
+    },
+    {
+        "query": "调查 @",
+        "description": "调查"
+    },
+    {
+        "query": "(n) 上 (w){len($1)<3}",
+        "description": "名词后面接‘上’，且‘上’前面的名词长度小于3"
+    },
+    {
+        "query": "催生 (n) 学校{begin($1)=[麻 诶 专]}",
+        "description": "催生后面接名词，且名词以‘麻’、‘诶’或‘专’开头"
+    },
+    {
+        "query": "吗 (w){count>2}",
+        "description": "‘吗’出现次数大于2"
+    },
+    {
+        "query": "校长 (v) 。{len($1)!=2}",
+        "description": "校长后面是句点，但不接单音节词"
+    },
+    {
+        "query": "很 @ 。",
+        "description": "很后面接一个词，后面是句点"
+    },
+    {
+        "query": "这 (n) 可不{end($1)!=[命 骗 波]}",
+        "description": "‘这’后面接名词，但不接‘命’、‘骗’或‘波’"
+    },
+    {
+        "query": "（ns）小学{len($1)<4}",
+        "description": "地名‘小学’，长度小于4"
+    },
+    {
+        "query": "记者 .",
+        "description": "记者后面是句点"
+    },
+    {
+        "query": "一切 (d) 为了{len($1)=1}",
+        "description": "‘一切’后面接单音节副词‘为了’"
+    },
+    {
+        "query": "王明峰 .../nr",
+        "description": "王明峰后面接任意数量的字符，直到遇到人名"
+    },
+    {
+        "query": "观众 (v) 博物馆{end($1)!=[至 理 县]}",
+        "description": "观众后面接动词，动词后面接博物馆，但不接‘至’、‘理’或‘县’"
+    },
+    {
+        "query": "../v 之",
+        "description": "双音节动词后面接‘之’"
+    },
+    {
+        "query": "(v) ：{count<581}",
+        "description": "某个动词后面紧跟冒号，且该动词出现次数少于581次"
+    },
+    {
+        "query": "大幅 .. 吗",
+        "description": "大幅后面接任意数量的字符，然后是‘吗’"
+    },
+    {
+        "query": "允贵 @/[v v] 。",
+        "description": "允贵后面接两个动词，后面是句点"
+    },
+    {
+        "query": "@/[nr v] 说",
+        "description": "接在人名或动词之后，然后是‘说’"
+    },
+    {
+        "query": "西站 (n) 投运{end($1)!=[怪 币]}",
+        "description": "西站后面接名词，名词后面接‘投运’，但不接‘怪’、‘币’"
+    },
+    {
+        "query": "@/[ns v] 电子",
+        "description": "接在地名或动词之后，然后是‘电子’"
+    },
+    {
+        "query": "投资者",
+        "description": "投资者"
+    },
+    {
+        "query": "(v) 做 (r){len($2)!=3}",
+        "description": "动词后面接‘做’，但‘做’后面不是一个三音节词"
+    }
+]
+```

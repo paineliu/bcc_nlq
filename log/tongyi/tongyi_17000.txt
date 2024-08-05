@@ -1,0 +1,156 @@
+```json
+[
+    {
+        "query": "自行v+a[，+。]",
+        "description": "自行动词后接加号，加号后接逗号或句号"
+    },
+    {
+        "query": "自行v a[， 。]",
+        "description": "自行动词后接逗号或句号"
+    },
+    {
+        "query": "从n内[，+。]",
+        "description": "从名词后接内，内后接逗号或句号"
+    },
+    {
+        "query": "从n内[， 。]",
+        "description": "从名词后接逗号或句号"
+    },
+    {
+        "query": "专门v+u[，+。]",
+        "description": "专门动词后接u，u后接逗号或句号"
+    },
+    {
+        "query": "专门v u[， 。]",
+        "description": "专门动词后接逗号或句号"
+    },
+    {
+        "query": "[四+五+六+七+八+九+十]点起床",
+        "description": "点前接数字序列（四至十），后接起床"
+    },
+    {
+        "query": "[四 五 六 七 八 九 十]点起床",
+        "description": "点前接数字序列（四至十），后接起床"
+    },
+    {
+        "query": "有意d+n[，+。]",
+        "description": "有意形容词后接名词，名词后接逗号或句号"
+    },
+    {
+        "query": "有意d n[， 。]",
+        "description": "有意形容词后接逗号或句号"
+    },
+    {
+        "query": "专程a[，+。]",
+        "description": "专程形容词后接逗号或句号"
+    },
+    {
+        "query": "专程a[， 。]",
+        "description": "专程形容词后接逗号或句号"
+    },
+    {
+        "query": "从未v+a[，+。]",
+        "description": "从未动词后接加号，加号后接逗号或句号"
+    },
+    {
+        "query": "从未v a[， 。]",
+        "description": "从未动词后接逗号或句号"
+    },
+    {
+        "query": "大概d+a[，+。]",
+        "description": "大概形容词后接加号，加号后接逗号或句号"
+    },
+    {
+        "query": "大概d a[， 。]",
+        "description": "大概形容词后接逗号或句号"
+    },
+    {
+        "query": "猛然v+v[，+。]",
+        "description": "猛然动词后接动词，动词后接逗号或句号"
+    },
+    {
+        "query": "猛然v v[， 。]",
+        "description": "猛然动词后接逗号或句号"
+    },
+    {
+        "query": "急剧d+a[，+。]",
+        "description": "急剧形容词后接加号，加号后接逗号或句号"
+    },
+    {
+        "query": "急剧d a[， 。]",
+        "description": "急剧形容词后接逗号或句号"
+    },
+    {
+        "query": "同样[v+a+n+r][，+。]",
+        "description": "同样动词后接加号，加号后接名词、形容词、名词、形容词，最后接逗号或句号"
+    },
+    {
+        "query": "同样[v a n r][， 。]",
+        "description": "同样动词后接逗号或句号"
+    },
+    {
+        "query": "[表示+交换+制订+钓+种+信+吱]个",
+        "description": "表示、交换、制订、钓、种、信、吱前接加号，加号后接一个"
+    },
+    {
+        "query": "[表示 交换 制订 钓 种 信 吱]个",
+        "description": "表示、交换、制订、钓、种、信、吱后接一个"
+    },
+    {
+        "query": "当面v+y[，+。]",
+        "description": "当面动词后接y，y后接逗号或句号"
+    },
+    {
+        "query": "当面v y[， 。]",
+        "description": "当面动词后接逗号或句号"
+    },
+    {
+        "query": "相对d+v[，+。]",
+        "description": "相对形容词后接动词，动词后接逗号或句号"
+    },
+    {
+        "query": "相对d v[， 。]",
+        "description": "相对形容词后接逗号或句号"
+    },
+    {
+        "query": "千万v+u[，+。]",
+        "description": "千万动词后接u，u后接逗号或句号"
+    },
+    {
+        "query": "千万v u[， 。]",
+        "description": "千万动词后接逗号或句号"
+    },
+    {
+        "query": "故意v+v[，+。]",
+        "description": "故意动词后接动词，动词后接逗号或句号"
+    },
+    {
+        "query": "故意v v[， 。]",
+        "description": "故意动词后接逗号或句号"
+    },
+    {
+        "query": "w朝.夕[q+r+d+c+v+a++n+m++p]w",
+        "description": "w朝夕前接q、r、d、c、v、a、n、m、p，后接w"
+    },
+    {
+        "query": "w朝.夕[q r d c v a  n m  p]w",
+        "description": "w朝夕前接q、r、d、c、v、a、n、m、p，后接w"
+    },
+    {
+        "query": "w[q+r+d+c+v+a++n+m++p]死.生w",
+        "description": "w前接q、r、d、c、v、a、n、m、p，后接死生，死生前接w"
+    },
+    {
+        "query": "w[q r d c v a  n m  p]死.生w",
+        "description": "w前接q、r、d、c、v、a、n、m、p，后接死生，死生前接w"
+    },
+    {
+        "query": "即将v+a[，+。]",
+        "description": "即将动词后接加号，加号后接逗号或句号"
+    },
+    {
+        "query": "即将v a[， 。]",
+        "description": "即将动词后接逗号或句号"
+    }
+]
+```

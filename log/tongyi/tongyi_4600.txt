@@ -1,0 +1,166 @@
+以下是将给出的检索式转换为带含义的json结构：
+
+```json
+[
+    {
+        "query": "有没有n",
+        "description": "包含'有没有'后接名词的句子"
+    },
+    {
+        "query": "吃+Ng",
+        "description": "包含'吃'后面接成语的句子"
+    },
+    {
+        "query": "吃 Ng",
+        "description": "包含'吃'后面接任何词性的句子"
+    },
+    {
+        "query": "莫大的n",
+        "description": "包含'莫大'后接名词的句子"
+    },
+    {
+        "query": "a一再",
+        "description": "包含形容词'a'后面接'一再'的句子"
+    },
+    {
+        "query": "d与d",
+        "description": "包含副词'd'前后紧接的句子"
+    },
+    {
+        "query": "不a不n",
+        "description": "包含'不'后面接形容词，然后接名词的句子"
+    },
+    {
+        "query": "用N铺",
+        "description": "包含动词'用'后面接名词'铺'的句子"
+    },
+    {
+        "query": "n连n都",
+        "description": "包含名词'连'后面接名词，然后接'都'的句子"
+    },
+    {
+        "query": "只+r",
+        "description": "包含'只'后面接任何词性的句子"
+    },
+    {
+        "query": "只 r",
+        "description": "包含'只'后面接任何词性的句子"
+    },
+    {
+        "query": "m位n",
+        "description": "包含名词'm位'后接名词的句子"
+    },
+    {
+        "query": "a免除",
+        "description": "包含形容词'a'后面接'免除'的句子"
+    },
+    {
+        "query": "令+N+V",
+        "description": "包含动词'令'后面接名词和动词的句子"
+    },
+    {
+        "query": "令 N V",
+        "description": "包含动词'令'后面接任何词性的句子"
+    },
+    {
+        "query": "非常没n",
+        "description": "包含形容词'非常'后面接名词的句子"
+    },
+    {
+        "query": "m槽",
+        "description": "包含名词'm槽'的句子"
+    },
+    {
+        "query": "n学",
+        "description": "包含名词'n学'的句子"
+    },
+    {
+        "query": "v一下吧w",
+        "description": "包含动词'v'后面接'一下'再接'吧'的句子"
+    },
+    {
+        "query": "a优点",
+        "description": "包含形容词'a'后面接'优点'的句子"
+    },
+    {
+        "query": "m腿n",
+        "description": "包含名词'm腿'后接名词的句子"
+    },
+    {
+        "query": "还p呢",
+        "description": "包含副词'还'后面接'p'再接'呢'的句子"
+    },
+    {
+        "query": "还N呢",
+        "description": "包含副词'还'后面接任何名词再接'呢'的句子"
+    },
+    {
+        "query": "a出名",
+        "description": "包含形容词'a'后面接'出名'的句子"
+    },
+    {
+        "query": "m线",
+        "description": "包含名词'm线'的句子"
+    },
+    {
+        "query": "v+v了",
+        "description": "包含动词'v'后面接'v了'的句子"
+    },
+    {
+        "query": "v v了",
+        "description": "包含动词'v'后面接'v了'的句子"
+    },
+    {
+        "query": "a动荡",
+        "description": "包含形容词'a'后面接'动荡'的句子"
+    },
+    {
+        "query": "a判处",
+        "description": "包含形容词'a'后面接'判处'的句子"
+    },
+    {
+        "query": "m倍",
+        "description": "包含名词'm倍'的句子"
+    },
+    {
+        "query": "v不死你",
+        "description": "包含动词'v'后面接'不死你'的句子"
+    },
+    {
+        "query": "杨树v",
+        "description": "包含名词'杨树'后接动词的句子"
+    },
+    {
+        "query": "m经历",
+        "description": "包含名词'm经历'的句子"
+    },
+    {
+        "query": "在v",
+        "description": "包含动词'在'后的句子"
+    },
+    {
+        "query": "太不a",
+        "description": "包含副词'太'后面接否定形容词'a'的句子"
+    },
+    {
+        "query": "特别++n",
+        "description": "包含'特别'后面接任何词性的句子"
+    },
+    {
+        "query": "特别  n",
+        "description": "包含'特别'后面接名词的句子"
+    },
+    {
+        "query": "w我V了w",
+        "description": "包含词'w我V了w'的句子"
+    },
+    {
+        "query": "一朵n",
+        "description": "包含名词'一朵'的句子"
+    },
+    {
+        "query": "v以前",
+        "description": "包含动词'v'后面接'以前'的句子"
+    }
+]
+```

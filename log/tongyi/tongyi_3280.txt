@@ -1,0 +1,166 @@
+以下是将给定检索式转换为带含义的json结构：
+
+```json
+[
+    {
+        "query": "上岸",
+        "description": "动词后接上岸"
+    },
+    {
+        "query": "伤心",
+        "description": "形容词后接伤心"
+    },
+    {
+        "query": "极其不",
+        "description": "副词接极其不"
+    },
+    {
+        "query": "相当了",
+        "description": "副词接相当了"
+    },
+    {
+        "query": "出出进进",
+        "description": "动词接出出进进"
+    },
+    {
+        "query": "灰",
+        "description": "单音节名词"
+    },
+    {
+        "query": "奇妙",
+        "description": "形容词后接奇妙"
+    },
+    {
+        "query": "我+",
+        "description": "我后面空格"
+    },
+    {
+        "query": "我 ",
+        "description": "我后面空格"
+    },
+    {
+        "query": "小心",
+        "description": "副词接小心"
+    },
+    {
+        "query": "你懂什么",
+        "description": "你后面接懂，懂后面接什么"
+    },
+    {
+        "query": "赏",
+        "description": "动词"
+    },
+    {
+        "query": "够诚意",
+        "description": "形容词接够诚意"
+    },
+    {
+        "query": "不太敏感",
+        "description": "副词接不太敏感"
+    },
+    {
+        "query": "狼心狗肺",
+        "description": "成语"
+    },
+    {
+        "query": "人权杂",
+        "description": "单音节名词接人权杂"
+    },
+    {
+        "query": "苦辣酸甜",
+        "description": "形容词接苦辣酸甜"
+    },
+    {
+        "query": "怎样",
+        "description": "疑问词接怎样"
+    },
+    {
+        "query": "列巴",
+        "description": "名词"
+    },
+    {
+        "query": "柔和",
+        "description": "形容词接柔和"
+    },
+    {
+        "query": "似乎反倒",
+        "description": "似乎接反倒"
+    },
+    {
+        "query": "概括而言",
+        "description": "副词接概括而言"
+    },
+    {
+        "query": "上班",
+        "description": "动词接上班"
+    },
+    {
+        "query": "想来好像",
+        "description": "动词接想来好像"
+    },
+    {
+        "query": "导师",
+        "description": "名词"
+    },
+    {
+        "query": "台上台下一个样",
+        "description": "台上接台下，台下接一个样"
+    },
+    {
+        "query": "超前",
+        "description": "形容词接超前"
+    },
+    {
+        "query": "骤",
+        "description": "单音节动词"
+    },
+    {
+        "query": "来都来了",
+        "description": "动词接来都来了"
+    },
+    {
+        "query": "来到了",
+        "description": "动词接来到了"
+    },
+    {
+        "query": "发现",
+        "description": "动词接发现"
+    },
+    {
+        "query": "小心别",
+        "description": "副词接小心别"
+    },
+    {
+        "query": "狐狸精",
+        "description": "名词"
+    },
+    {
+        "query": "福利局",
+        "description": "名词"
+    },
+    {
+        "query": "只有",
+        "description": "副词接只有"
+    },
+    {
+        "query": "调子",
+        "description": "名词"
+    },
+    {
+        "query": "本钱",
+        "description": "名词"
+    },
+    {
+        "query": "提升",
+        "description": "动词接提升"
+    },
+    {
+        "query": "工于",
+        "description": "副词接工于"
+    },
+    {
+        "query": "好了",
+        "description": "副词接好了"
+    }
+]
+```

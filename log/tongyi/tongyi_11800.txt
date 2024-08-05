@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "亲眼d+a[，+。]",
+        "description": "亲眼后接副词，副词后接逗号或句号"
+    },
+    {
+        "query": "亲眼d a[， 。]",
+        "description": "亲眼后接副词，副词后接逗号或句号"
+    },
+    {
+        "query": "穿n+[f+s]",
+        "description": "穿后接方位词，方位词为f或s"
+    },
+    {
+        "query": "穿n [f s]",
+        "description": "穿后接方位词，方位词为f或s"
+    },
+    {
+        "query": "w[q+r+d+c+v+a++n+m++p]新.旧w",
+        "description": "以w开头，包含q、r、d、c、v、a、n、m的组合，结尾为新.旧，以w结尾"
+    },
+    {
+        "query": "w[q r d c v a  n m  p]新.旧w",
+        "description": "以w开头，包含q、r、d、c、v、a、n、m的组合，结尾为新.旧，以w结尾"
+    },
+    {
+        "query": "略微v+a[，+。]",
+        "description": "动词略微后接副词，副词后接逗号或句号"
+    },
+    {
+        "query": "略微v a[， 。]",
+        "description": "动词略微后接副词，副词后接逗号或句号"
+    },
+    {
+        "query": "酌情v+u[，+。]",
+        "description": "动词酌情后接助词，助词后接逗号或句号"
+    },
+    {
+        "query": "酌情v u[， 。]",
+        "description": "动词酌情后接助词，助词后接逗号或句号"
+    },
+    {
+        "query": "合格+[v+p+地]",
+        "description": "合格后接动词、补语、地点词"
+    },
+    {
+        "query": "合格 [v p 地]",
+        "description": "合格后接动词、补语、地点词"
+    },
+    {
+        "query": "的确v+y[，+。]",
+        "description": "动词的确后接语气词，语气词后接逗号或句号"
+    },
+    {
+        "query": "的确v y[， 。]",
+        "description": "动词的确后接语气词，语气词后接逗号或句号"
+    },
+    {
+        "query": "v精[，+。]",
+        "description": "动词后接逗号或句号"
+    },
+    {
+        "query": "v精[， 。]",
+        "description": "动词后接逗号或句号"
+    },
+    {
+        "query": "或许v+n[，+。]",
+        "description": "动词或许后接名词，名词后接逗号或句号"
+    },
+    {
+        "query": "或许v n[， 。]",
+        "description": "动词或许后接名词，名词后接逗号或句号"
+    },
+    {
+        "query": "马上v+v[，+。]",
+        "description": "动词马上后接动词，动词后接逗号或句号"
+    },
+    {
+        "query": "马上v v[， 。]",
+        "description": "动词马上后接动词，动词后接逗号或句号"
+    },
+    {
+        "query": "了a+n[，+。]",
+        "description": "助词了后接名词，名词后接逗号或句号"
+    },
+    {
+        "query": "了a n[， 。]",
+        "description": "助词了后接名词，名词后接逗号或句号"
+    },
+    {
+        "query": "v了你[，+。]",
+        "description": "动词后接了，然后接你，后接逗号或句号"
+    },
+    {
+        "query": "v了你[， 。]",
+        "description": "动词后接了，然后接你，后接逗号或句号"
+    },
+    {
+        "query": "w动.静[q+r+d+c+v+a++n+m++p]w",
+        "description": "以w开头，包含动词动和静，中间包含q、r、d、c、v、a、n、m的组合，以w结尾"
+    },
+    {
+        "query": "w动.静[q r d c v a  n m  p]w",
+        "description": "以w开头，包含动词动和静，中间包含q、r、d、c、v、a、n、m的组合，以w结尾"
+    },
+    {
+        "query": "越[a+v]越[a+v]",
+        "description": "动词越后接动词，动词为a或v类型"
+    },
+    {
+        "query": "越[a v]越[a v]",
+        "description": "动词越后接动词，动词为a或v类型"
+    },
+    {
+        "query": "顺便v+n[，+。]",
+        "description": "动词顺便后接名词，名词后接逗号或句号"
+    },
+    {
+        "query": "顺便v n[， 。]",
+        "description": "动词顺便后接名词，名词后接逗号或句号"
+    },
+    {
+        "query": "果然v+a[，+。]",
+        "description": "动词果然后接副词，副词后接逗号或句号"
+    },
+    {
+        "query": "果然v a[， 。]",
+        "description": "动词果然后接副词，副词后接逗号或句号"
+    },
+    {
+        "query": "大声n[，+。]",
+        "description": "名词大声后接逗号或句号"
+    },
+    {
+        "query": "大声n[， 。]",
+        "description": "名词大声后接逗号或句号"
+    },
+    {
+        "query": "[必将+必然+必须]v[q+m+]v[，+。]",
+        "description": "由必将、必然、必须组成的短语后接动词，动词后接逗号或句号"
+    },
+    {
+        "query": "[必将 必然 必须]v[q m ]v[， 。]",
+        "description": "由必将、必然、必须组成的短语后接动词，动词后接逗号或句号"
+    },
+    {
+        "query": "向来v+u[，+。]",
+        "description": "动词向来后接助词，助词后接逗号或句号"
+    },
+    {
+        "query": "向来v u[， 。]",
+        "description": "动词向来后接助词，助词后接逗号或句号"
+    },
+    {
+        "query": "一连a[，+。]",
+        "description": "副词一连后接逗号或句号"
+    },
+    {
+        "query": "一连a[， 。]",
+        "description": "副词一连后接逗号或句号"
+    }
+]
+```

@@ -1,0 +1,162 @@
+以下是检索式及其含义的JSON结构：
+
+```json
+[
+    {
+        "query": "(p) 岩板 (v){len($1)!=2; len($2)!=2}",
+        "description": "副词岩板后跟非二字动词"
+    },
+    {
+        "query": "今天 (n) 晴{len($1)!=2}",
+        "description": "名词今天后跟非二字名词晴"
+    },
+    {
+        "query": "颜色 (v) 变{count>3}",
+        "description": "动词颜色后跟变，实例频次大于3"
+    },
+    {
+        "query": "那会儿 (i) 吧{len($1)<3}",
+        "description": "习用语那会儿后跟长度小于3的元素吧"
+    },
+    {
+        "query": "唱 .",
+        "description": "唱后面隔一个字"
+    },
+    {
+        "query": "望 (n) 喂{len($1)!=2}",
+        "description": "名词望后跟非二字元素喂"
+    },
+    {
+        "query": "洗 .. 哟",
+        "description": "洗后面隔一个或两个字后接哟"
+    },
+    {
+        "query": "捶 (u) 响哟{len($1)!=2}",
+        "description": "助词捶后跟响哟，但捶字前后都不是二字"
+    },
+    {
+        "query": "(n) 未 (v){end($1)=[姐 谁 睡]}",
+        "description": "名词未后跟动词，且动词后不接姐、谁或睡"
+    },
+    {
+        "query": "唱支 (n) 丢{end($1)=[歌 咩 修 嫩]}",
+        "description": "名词唱支后跟名词，且名词后不接歌、咩、修或嫩"
+    },
+    {
+        "query": "./e 捶 ./p",
+        "description": "动词后接e类型的词，然后接p类型的词"
+    },
+    {
+        "query": "于是 @ 便",
+        "description": "于是后跟一个词，统计时按照词性归并"
+    },
+    {
+        "query": "了 @/[w v]",
+        "description": "了后跟一个词，统计时按照词性归并，可能是动词或助词"
+    },
+    {
+        "query": "(v) 这是 诗 (y){count<680}",
+        "description": "动词这是后跟诗，且实例频次小于680"
+    },
+    {
+        "query": "多么 @/[v v] ！",
+        "description": "多么后跟一个词，统计时按照词性归并，词性可能是动词或动词"
+    },
+    {
+        "query": "../t 诗会",
+        "description": "双音节动词后接诗会"
+    },
+    {
+        "query": "平稳 (v) 农村{begin($1)!=[能 个 嫌]}",
+        "description": "动词平稳后接农村，平稳之前不接能、个或嫌"
+    },
+    {
+        "query": "： (t) (r){len($2)>1}",
+        "description": "冒号后接一个或多个字符的标点符号"
+    },
+    {
+        "query": "最 (a) 的{begin($1)=[深 婆 佳]}",
+        "description": "形容词最后接的，且最前面不接深、婆或佳"
+    },
+    {
+        "query": "潜航员 (n) 搭乘{end($1)=[员 燕]}",
+        "description": "名词潜航员后接搭乘，但不接员或燕"
+    },
+    {
+        "query": "(r) 将 建 (n){len($1)<3}",
+        "description": "习用语将建后接名词，且整个序列长度小于3"
+    },
+    {
+        "query": "， ./[d v] 能",
+        "description": "逗号后接动词或副词能"
+    },
+    {
+        "query": "车窗",
+        "description": "车窗单独出现"
+    },
+    {
+        "query": "引发 (n) ：{end($1)=[故 痒 广 孙]}",
+        "description": "名词引发后接冒号，但引发后面不接故、痒、广或孙"
+    },
+    {
+        "query": "卷进 n 了",
+        "description": "卷进后接名词，且名词后接了"
+    },
+    {
+        "query": "要 (v){len($1)<3}",
+        "description": "动词要，长度小于3"
+    },
+    {
+        "query": "(ns) 市民{count<613}",
+        "description": "市民，名词频次小于613"
+    },
+    {
+        "query": "监督 ./[d v] 跟",
+        "description": "监督后接动词或副词跟"
+    },
+    {
+        "query": ".. 底线",
+        "description": "两个点后接底线"
+    },
+    {
+        "query": "姜大明 v 。",
+        "description": "姜大明后接动词，且动词后接句号"
+    },
+    {
+        "query": "依法 (v) 。{end($1)=[革 很 使 尽]}",
+        "description": "依法后接动词，且动词后不接革、很、使或尽"
+    },
+    {
+        "query": "(v) (vd){len($2)!=3}",
+        "description": "动词后接非三字的副动词"
+    },
+    {
+        "query": "产业 ~",
+        "description": "产业后接一个词，统计时按照词性归并"
+    },
+    {
+        "query": "更 (a) 卓越{count>5}",
+        "description": "形容词更后接卓越，且卓越频次大于5"
+    },
+    {
+        "query": "佳沃 ~ ：",
+        "description": "佳沃后接一个词，统计时按照词性归并，可能接冒号"
+    },
+    {
+        "query": "联想 @ 要",
+        "description": "联想后跟一个词，统计时按照词性归并，可能是要"
+    },
+    {
+        "query": "来自 n 。",
+        "description": "来自后接名词，且名词后接句号"
+    },
+    {
+        "query": "能 ../[d v] 崛起",
+        "description": "能后接动词或副词，动词或副词后接崛起"
+    },
+    {
+        "query": "实处 @/[w v]",
+        "description": "实处后跟一个词，统计时按照词性归并，可能是助词或动词"
+    }
+]
+```

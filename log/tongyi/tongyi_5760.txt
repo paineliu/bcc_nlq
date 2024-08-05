@@ -1,0 +1,166 @@
+以下是将给定检索式转换为带含义的JSON结构的结果：
+
+```json
+[
+    {
+        "query": "并不v也不v",
+        "description": "并不动词 + 也不动词"
+    },
+    {
+        "query": "太v了。",
+        "description": "太动词 + '了' + 句尾"
+    },
+    {
+        "query": "n般的n",
+        "description": "名词 + '般的' + 名词"
+    },
+    {
+        "query": "n室",
+        "description": "名词 + '室'"
+    },
+    {
+        "query": "得n把",
+        "description": "得动词 + 名词 + '把'"
+    },
+    {
+        "query": "这么n+w",
+        "description": "这么 + 名词 + 'w'"
+    },
+    {
+        "query": "这么n w",
+        "description": "这么 + 名词 + ' w'"
+    },
+    {
+        "query": "a协作",
+        "description": "形容词 + '协作'"
+    },
+    {
+        "query": "v+m嘴",
+        "description": "动词 + 'm嘴'"
+    },
+    {
+        "query": "v m嘴",
+        "description": "动词 + ' m嘴'"
+    },
+    {
+        "query": "a司令",
+        "description": "形容词 + '司令'"
+    },
+    {
+        "query": "x子",
+        "description": "'x子'"
+    },
+    {
+        "query": "v着的",
+        "description": "动词 + '着的'"
+    },
+    {
+        "query": "耳n",
+        "description": "名词 + '耳'"
+    },
+    {
+        "query": "那一V",
+        "description": "那 + 动词"
+    },
+    {
+        "query": "帅气n",
+        "description": "形容词 + '帅气'"
+    },
+    {
+        "query": "v+n+v",
+        "description": "动词 + 名词 + 动词"
+    },
+    {
+        "query": "v n v",
+        "description": "动词 + 名词 + 动词"
+    },
+    {
+        "query": "n边",
+        "description": "名词 + '边'"
+    },
+    {
+        "query": "有点+a",
+        "description": "有点 + 形容词"
+    },
+    {
+        "query": "有点 a",
+        "description": "有点 + 形容词"
+    },
+    {
+        "query": "w+a一倍",
+        "description": "句尾 + 形容词 + '一倍'"
+    },
+    {
+        "query": "w a一倍",
+        "description": "句尾 + 形容词 + '一倍'"
+    },
+    {
+        "query": "v一只v一只",
+        "description": "动词 + '一只' + 动词 + '一只'"
+    },
+    {
+        "query": "被n+v了",
+        "description": "被 + 名词 + 动词 + '了'"
+    },
+    {
+        "query": "被n v了",
+        "description": "被 + 名词 + 动词 + '了'"
+    },
+    {
+        "query": "v一把",
+        "description": "动词 + '一把'"
+    },
+    {
+        "query": "v情景",
+        "description": "动词 + '情景'"
+    },
+    {
+        "query": "安静的n",
+        "description": "形容词 + '安静的'"
+    },
+    {
+        "query": "a+透了",
+        "description": "形容词 + '透了'"
+    },
+    {
+        "query": "a 透了",
+        "description": "形容词 + '透了'"
+    },
+    {
+        "query": "v窗花",
+        "description": "动词 + '窗花'"
+    },
+    {
+        "query": "红色n",
+        "description": "名词 + '红色'"
+    },
+    {
+        "query": "a保管",
+        "description": "形容词 + '保管'"
+    },
+    {
+        "query": "v很多n",
+        "description": "动词 + '很多' + 名词"
+    },
+    {
+        "query": "及其他n",
+        "description": "其他 + 名词"
+    },
+    {
+        "query": "把+r+v",
+        "description": "把 + 助词 'r' + 动词"
+    },
+    {
+        "query": "把 r v",
+        "description": "把 + 助词 'r' + 动词"
+    },
+    {
+        "query": "情感V下",
+        "description": "情感 + 动词 + '下'"
+    },
+    {
+        "query": "可没v",
+        "description": "可 + 没动词"
+    }
+]
+```

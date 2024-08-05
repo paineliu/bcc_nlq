@@ -1,0 +1,160 @@
+```json
+[
+    {
+        "query": "滑雪 ~ 激促",
+        "description": "滑雪后面接一个词"
+    },
+    {
+        "query": "三环 (f) 可{len($1)>1}",
+        "description": "三环后接一个至少两个字符的词"
+    },
+    {
+        "query": "制图 @ 宋嵩",
+        "description": "制图后接一个词，统计时按照词性归并"
+    },
+    {
+        "query": "资料 ./w 刘",
+        "description": "资料后接刘，刘是单音节词"
+    },
+    {
+        "query": "哈尔滨 ... 将",
+        "description": "哈尔滨后面隔一个或多个字后接将"
+    },
+    {
+        "query": "意义 ~ 人生",
+        "description": "意义后面接一个词"
+    },
+    {
+        "query": "怎么办 @/[y v] ，",
+        "description": "怎么办后接一个词，可能是形容词或动词，后面可以是逗号"
+    },
+    {
+        "query": "天 早晨/t 醒来",
+        "description": "天后面接早晨，然后是动词醒来"
+    },
+    {
+        "query": "没有 n 。",
+        "description": "没有后面接一个名词，后面是句尾"
+    },
+    {
+        "query": "w 他 几乎 没 动 筷子 w",
+        "description": "w(标点)后接一系列词汇，筷子是句尾"
+    },
+    {
+        "query": "他 刚刚/d 进行",
+        "description": "他后面接刚刚，然后是动词进行"
+    },
+    {
+        "query": "取代 ~ 的",
+        "description": "取代后面接一个词"
+    },
+    {
+        "query": "(a) 的 不 去 ， (l){len($1)!=2}",
+        "description": "形容词后接的、不、去，但第二个词不是两个字符"
+    },
+    {
+        "query": "(u) 是 (d){len($1)=1; len($2)!=2}",
+        "description": "u(助词)后接一个字的'是'，后面跟的词不是两个字符"
+    },
+    {
+        "query": "(d) 认罚 (w){end($1)!=[传 涨]}",
+        "description": "副词后接认罚，认罚后面不接传或涨"
+    },
+    {
+        "query": "(m) (q){len($1)!=2}",
+        "description": "m(状态词)后接一个不是两个字符的词"
+    },
+    {
+        "query": "(r) 就{count>6}",
+        "description": "r(代词)后接'就'，且'就'出现次数大于6次"
+    },
+    {
+        "query": "(r) 辛苦{end($1)!=[期 客 骂 查]}",
+        "description": "r(代词)后接辛苦，辛苦后面不接期、客、骂、查"
+    },
+    {
+        "query": ". 我 也 心境 ..",
+        "description": "句尾后接心境，心境后面可以隔一个或多个字"
+    },
+    {
+        "query": "不",
+        "description": "单独的否定词"
+    },
+    {
+        "query": "的 (n) 。{count<287}",
+        "description": "的后面接一个名词，且总的'的'数量少于287个"
+    },
+    {
+        "query": "退休 (u) 年龄{len($1)=1}",
+        "description": "退休后接一个单字的年龄"
+    },
+    {
+        "query": "时候 @ 边疆",
+        "description": "时候后接边疆，统计时按照词性归并"
+    },
+    {
+        "query": "的 (i) ，{count<163}",
+        "description": "的后面接一个词，但总的'的'数量少于163个，后面可能是逗号"
+    },
+    {
+        "query": "让 n 的",
+        "description": "让后接一个名词，名词后面接'的'"
+    },
+    {
+        "query": "v 了",
+        "description": "动词后接了"
+    },
+    {
+        "query": "绿绿/z 的 小草 ，/w",
+        "description": "绿绿后接的，小草后接一个词，可能是句尾"
+    },
+    {
+        "query": "树木 .",
+        "description": "树木后面是句尾"
+    },
+    {
+        "query": "慈祥 . 目光",
+        "description": "慈祥后面隔一个字后接目光"
+    },
+    {
+        "query": "积攒",
+        "description": "积攒是一个完整的词"
+    },
+    {
+        "query": "陪 ./u 美丽",
+        "description": "陪后接美丽，美丽可能是单音节词"
+    },
+    {
+        "query": "咚咚 ../[n v] ，",
+        "description": "咚咚后接一个名词或动词，后面可能是逗号"
+    },
+    {
+        "query": "飘 (p) 无名{len($1)!=2}",
+        "description": "飘后接无名，无名不是两个字符"
+    },
+    {
+        "query": "的 (n) ，{end($1)=[忆 坑]}",
+        "description": "的后面接一个名词，名词后面可能是句尾，且不包括忆或坑"
+    },
+    {
+        "query": "来 (v) 你{len($1)!=3}",
+        "description": "来后接你，但不是三个字符"
+    },
+    {
+        "query": "(u) (n){$1!=$2}",
+        "description": "u(助词)后接一个名词，但这个名词和前面的词不同"
+    },
+    {
+        "query": "@/[r v] 说",
+        "description": "后接一个词，可能是代词或动词，然后是说"
+    },
+    {
+        "query": "我 (u) 羽毛{len($1)!=2}",
+        "description": "我后接一个不是两个字符的词"
+    },
+    {
+        "query": "飞 ../n 啦",
+        "description": "飞后接一个词，可能是动名词，然后是啦"
+    }
+]
+```

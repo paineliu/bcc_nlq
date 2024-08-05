@@ -1,0 +1,180 @@
+```json
+[
+    {
+        "query": "多元+(v){count<358}",
+        "description": "多元之后出现少于358次的动词"
+    },
+    {
+        "query": "多元 (v){count<358}",
+        "description": "多元之后出现少于358次的动词"
+    },
+    {
+        "query": "../a+(a){len($1)=1}",
+        "description": "单个字母的形容词后接单个字母的形容词"
+    },
+    {
+        "query": "../a (a){len($1)=1}",
+        "description": "单个字母的形容词后接单个字母的形容词"
+    },
+    {
+        "query": "(nt)+(n){len($1)!=4; len($2)=2}",
+        "description": "nt后接长度不为4的名词和长度为2的名词"
+    },
+    {
+        "query": "(nt) (n){len($1)!=4; len($2)=2}",
+        "description": "nt后接长度不为4的名词和长度为2的名词"
+    },
+    {
+        "query": "(v)+更+便宜+的+医疗+(w){len($1)=2}",
+        "description": "动词后接更、便宜、的、医疗，整体长度为2的词汇"
+    },
+    {
+        "query": "(v) 更 便宜 的 医疗 (w){len($1)=2}",
+        "description": "动词后接更、便宜、的、医疗，整体长度为2的词汇"
+    },
+    {
+        "query": "点燃+(v)+引擎{count<447}",
+        "description": "点燃之后出现少于447次的动词和引擎组合"
+    },
+    {
+        "query": "点燃 (v) 引擎{count<447}",
+        "description": "点燃之后出现少于447次的动词和引擎组合"
+    },
+    {
+        "query": "忽(m)忽(m){$1!=$2}",
+        "description": "忽后接不同的忽"
+    },
+    {
+        "query": "(n)+(v){end($1)!=[偶+望+帅+应]}",
+        "description": "名词后接的动词不包含偶、望、帅、应"
+    },
+    {
+        "query": "(n) (v){end($1)!=[偶 望 帅 应]}",
+        "description": "名词后接的动词不包含偶、望、帅、应"
+    },
+    {
+        "query": "医生+(w){count>7}",
+        "description": "医生后出现超过7次的词汇"
+    },
+    {
+        "query": "医生 (w){count>7}",
+        "description": "医生后出现超过7次的词汇"
+    },
+    {
+        "query": "壁垒+(n)+观澜{begin($1)=[体+身+挑+越]}",
+        "description": "壁垒后接开始于体、身、挑、越的名词和观澜组合"
+    },
+    {
+        "query": "壁垒 (n) 观澜{begin($1)=[体 身 挑 越]}",
+        "description": "壁垒后接开始于体、身、挑、越的名词和观澜组合"
+    },
+    {
+        "query": "会(v)的(v){$1=$2}",
+        "description": "会和的的相同"
+    },
+    {
+        "query": "(d)+振一振{end($1)!=[粉+而+挑]}",
+        "description": "d后接振一振，但振一振不包含粉、而、挑"
+    },
+    {
+        "query": "(d) 振一振{end($1)!=[粉 而 挑]}",
+        "description": "d后接振一振，但振一振不包含粉、而、挑"
+    },
+    {
+        "query": "文+(nr)+走{end($1)=[荣+忘+楼+叫]}",
+        "description": "文后接开始于荣、忘、楼、叫的nr和走组合"
+    },
+    {
+        "query": "文 (nr) 走{end($1)=[荣 忘 楼 叫]}",
+        "description": "文后接开始于荣、忘、楼、叫的nr和走组合"
+    },
+    {
+        "query": "揣+(u)+明白{len($1)=1}",
+        "description": "揣后接长度为1的明白"
+    },
+    {
+        "query": "揣 (u) 明白{len($1)=1}",
+        "description": "揣后接长度为1的明白"
+    },
+    {
+        "query": "对此+(w)+中科院{count>10}",
+        "description": "对此后出现超过10次的中科院"
+    },
+    {
+        "query": "对此 (w) 中科院{count>10}",
+        "description": "对此后出现超过10次的中科院"
+    },
+    {
+        "query": "(nr)+说{len($1)>2}",
+        "description": "nr后接长度大于2的词汇"
+    },
+    {
+        "query": "(nr) 说{len($1)>2}",
+        "description": "nr后接长度大于2的词汇"
+    },
+    {
+        "query": "热情+(v)+。{end($1)=[请+网+麽]}",
+        "description": "热情后接的动词以请、网、麽结尾"
+    },
+    {
+        "query": "热情 (v) 。{end($1)=[请 网 麽]}",
+        "description": "热情后接的动词以请、网、麽结尾"
+    },
+    {
+        "query": "的+(ns)+汾河{count>7}",
+        "description": "的后接汾河，出现次数超过7次"
+    },
+    {
+        "query": "的 (ns) 汾河{count>7}",
+        "description": "的后接汾河，出现次数超过7次"
+    },
+    {
+        "query": "(v)+日常+生活+中+的+心灵+(v){end($1)=[v+泡+聊+凶]; len($2)=2}",
+        "description": "动词后接日常、生活、中、的、心灵，结尾是两个动词的组合，且整体长度为4的词汇"
+    },
+    {
+        "query": "(v) 日常 生活 中 的 心灵 (v){end($1)=[v 泡 聊 凶]; len($2)=2}",
+        "description": "动词后接日常、生活、中、的、心灵，结尾是两个动词的组合，且整体长度为4的词汇"
+    },
+    {
+        "query": "信用+(vn)+：{count>5}",
+        "description": "信用后接vn和冒号，出现次数超过5次"
+    },
+    {
+        "query": "信用 (vn) ：{count>5}",
+        "description": "信用后接vn和冒号，出现次数超过5次"
+    },
+    {
+        "query": "立行+(v){end($1)=[改+而]}",
+        "description": "立行后接改和而"
+    },
+    {
+        "query": "立行 (v){end($1)=[改 而]}",
+        "description": "立行后接改和而"
+    },
+    {
+        "query": "经历+(v){end($1)=[改+而]}",
+        "description": "经历后接改和而，出现次数少于306次"
+    },
+    {
+        "query": "经历 (v){end($1)=[改 而]}",
+        "description": "经历后接改和而，出现次数少于306次"
+    },
+    {
+        "query": "点燃+(v)+引擎{count<447}",
+        "description": "点燃之后出现少于447次的动词和引擎组合"
+    },
+    {
+        "query": "点燃 (v) 引擎{count<447}",
+        "description": "点燃之后出现少于447次的动词和引擎组合"
+    },
+    {
+        "query": "对此+(w)+中科院{count>10}",
+        "description": "对此后出现超过10次的中科院"
+    },
+    {
+        "query": "对此 (w) 中科院{count>10}",
+        "description": "对此后出现超过10次的中科院"
+    }
+]
+```

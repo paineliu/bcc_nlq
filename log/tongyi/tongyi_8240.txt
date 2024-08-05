@@ -1,0 +1,166 @@
+以下是将给定的检索式转换为带含义的json结构：
+
+```json
+[
+    {
+        "query": "予以 n",
+        "description": "包含'予以'后面跟名词的句子"
+    },
+    {
+        "query": "不管是a还是a",
+        "description": "包含'不管是'后接形容词，且两个形容词相同"
+    },
+    {
+        "query": "r包",
+        "description": "包含'r'后接动词的句子"
+    },
+    {
+        "query": "v呗w",
+        "description": "包含动词后接'呗'和形容词的句子"
+    },
+    {
+        "query": "v一页",
+        "description": "包含动词后接'一页'的句子"
+    },
+    {
+        "query": "m部n",
+        "description": "包含'部'后接名词的句子"
+    },
+    {
+        "query": "一件n",
+        "description": "包含'一件'后接名词的句子"
+    },
+    {
+        "query": "v细致了",
+        "description": "包含动词后接'细致了'的句子"
+    },
+    {
+        "query": "v的就是",
+        "description": "包含动词后接'的就是'的句子"
+    },
+    {
+        "query": "V算什么V",
+        "description": "包含动词后接'算什么'和另一个动词的句子"
+    },
+    {
+        "query": "a的n",
+        "description": "包含形容词后接名词的句子"
+    },
+    {
+        "query": "a做法",
+        "description": "包含形容词后接'做法'的句子"
+    },
+    {
+        "query": "v过了吗",
+        "description": "包含动词后接'过了吗'的句子"
+    },
+    {
+        "query": "依法v",
+        "description": "包含'依法'后接动词的句子"
+    },
+    {
+        "query": "打v",
+        "description": "包含'打'后接动词的句子"
+    },
+    {
+        "query": "m抱n",
+        "description": "包含'抱'后接名词的句子"
+    },
+    {
+        "query": "a化工",
+        "description": "包含形容词后接'化工'的句子"
+    },
+    {
+        "query": "心情a",
+        "description": "包含'心情'后接形容词的句子"
+    },
+    {
+        "query": "蜂房v",
+        "description": "包含'蜂房'后接动词的句子"
+    },
+    {
+        "query": "v一览",
+        "description": "包含动词后接'一览'的句子"
+    },
+    {
+        "query": "m埯",
+        "description": "包含'埯'后接名词的句子"
+    },
+    {
+        "query": "a+到家了",
+        "description": "包含形容词后接'到家了'的句子"
+    },
+    {
+        "query": "a 到家了",
+        "description": "包含形容词后接'到家了'的句子，且形容词与到家了之间没有空格"
+    },
+    {
+        "query": "v+m+q+n给",
+        "description": "包含动词、名动词、量词和名词组成的序列后接'给'的句子"
+    },
+    {
+        "query": "v m q n给",
+        "description": "包含动词、名动词、量词和名词组成的序列后接'给'的句子"
+    },
+    {
+        "query": "a风味",
+        "description": "包含形容词后接'风味'的句子"
+    },
+    {
+        "query": "顺脚V",
+        "description": "包含'顺脚'后接动词的句子"
+    },
+    {
+        "query": "愿意+v",
+        "description": "包含'愿意'后接动词的句子"
+    },
+    {
+        "query": "愿意 v",
+        "description": "包含'愿意'后接动词的句子，且愿意与动词之间没有空格"
+    },
+    {
+        "query": "r经历",
+        "description": "包含'经历'后接动词的句子"
+    },
+    {
+        "query": "用N擦N",
+        "description": "包含动词后接两个相同名词的句子"
+    },
+    {
+        "query": "净+v",
+        "description": "包含'净'后接动词的句子"
+    },
+    {
+        "query": "净 v",
+        "description": "包含'净'后接动词的句子，且净与动词之间没有空格"
+    },
+    {
+        "query": "没有什么好v的",
+        "description": "包含'没有什么好'后接动词的句子"
+    },
+    {
+        "query": "经历m+q",
+        "description": "包含'经历'后接量词和名词的句子"
+    },
+    {
+        "query": "经历m q",
+        "description": "包含'经历'后接量词和名词的句子，且经历与量词之间没有空格"
+    },
+    {
+        "query": "我v的n+w",
+        "description": "包含'我'、动词、名词和助词组成的序列的句子"
+    },
+    {
+        "query": "我v的n w",
+        "description": "包含'我'、动词、名词和助词组成的序列的句子，且我、动词、名词和助词之间没有空格"
+    },
+    {
+        "query": "a前进",
+        "description": "包含形容词后接'前进'的句子"
+    },
+    {
+        "query": "d未发现",
+        "description": "包含副词后接'未发现'的句子"
+    }
+]
+```

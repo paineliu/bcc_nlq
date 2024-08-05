@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "也许要",
+        "description": "包含'也许要'的句子"
+    },
+    {
+        "query": "下得下",
+        "description": "包含'下得下'的句子"
+    },
+    {
+        "query": "刻在",
+        "description": "包含'刻在'的句子"
+    },
+    {
+        "query": "或许要",
+        "description": "包含'或许要'的句子"
+    },
+    {
+        "query": "换别人",
+        "description": "包含'换别人'的句子"
+    },
+    {
+        "query": "知道错",
+        "description": "包含'知道错'的句子"
+    },
+    {
+        "query": "人妻",
+        "description": "包含'人妻'的句子"
+    },
+    {
+        "query": "团契",
+        "description": "包含'团契'的句子"
+    },
+    {
+        "query": "传播和谐",
+        "description": "包含'传播和谐'的句子"
+    },
+    {
+        "query": "秒杀",
+        "description": "包含'秒杀'的句子"
+    },
+    {
+        "query": "和谐互生",
+        "description": "包含'和谐互生'的句子"
+    },
+    {
+        "query": "姐妹",
+        "description": "包含'姐妹'的句子"
+    },
+    {
+        "query": "便即",
+        "description": "包含'便即'的句子"
+    },
+    {
+        "query": "不稍微",
+        "description": "包含'不稍微'的句子"
+    },
+    {
+        "query": "人权毫",
+        "description": "包含'人权毫'的句子"
+    },
+    {
+        "query": "爸爸",
+        "description": "包含'爸爸'的句子"
+    },
+    {
+        "query": "没骨花",
+        "description": "包含'没骨花'的句子"
+    },
+    {
+        "query": "闯起来",
+        "description": "包含'闯起来'的句子"
+    },
+    {
+        "query": "总而言之",
+        "description": "包含'总而言之'的句子"
+    },
+    {
+        "query": "能够对于",
+        "description": "包含'能够对于'的句子"
+    },
+    {
+        "query": "能够",
+        "description": "包含'能够'的句子"
+    },
+    {
+        "query": "八个样",
+        "description": "包含'八个样'的句子"
+    },
+    {
+        "query": "和谐寺观",
+        "description": "包含'和谐寺观'的句子"
+    },
+    {
+        "query": "肯定都是",
+        "description": "包含'肯定都是'的句子"
+    },
+    {
+        "query": "极端不",
+        "description": "包含'极端不'的句子"
+    },
+    {
+        "query": "什么破电脑",
+        "description": "包含'什么破电脑'的句子"
+    },
+    {
+        "query": "那又怎么样呢",
+        "description": "包含'那又怎么样呢'的句子"
+    },
+    {
+        "query": "奏",
+        "description": "包含'奏'的句子"
+    },
+    {
+        "query": "平和",
+        "description": "包含'平和'的句子"
+    },
+    {
+        "query": "和谐与自",
+        "description": "包含'和谐与自'的句子"
+    },
+    {
+        "query": "回肠荡气",
+        "description": "包含'回肠荡气'的句子"
+    },
+    {
+        "query": "触在",
+        "description": "包含'触在'的句子"
+    },
+    {
+        "query": "氛相和谐",
+        "description": "包含'氛相和谐'的句子"
+    },
+    {
+        "query": "讷讷",
+        "description": "包含'讷讷'的句子"
+    },
+    {
+        "query": "想必",
+        "description": "包含'想必'的句子"
+    },
+    {
+        "query": "和谐侨社",
+        "description": "包含'和谐侨社'的句子"
+    },
+    {
+        "query": "爱咋滴就",
+        "description": "包含'爱咋滴就'的句子"
+    },
+    {
+        "query": "开心地",
+        "description": "包含'开心地'的句子"
+    },
+    {
+        "query": "驱瘟",
+        "description": "包含'驱瘟'的句子"
+    },
+    {
+        "query": "掂",
+        "description": "包含'掂'的句子"
+    }
+]
+```

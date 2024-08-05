@@ -1,0 +1,160 @@
+```json
+[
+    {
+        "query": "等 (t) 再{len($1)>1}",
+        "description": "等后跟一个或多个字的副词，然后是再"
+    },
+    {
+        "query": "(v) (w){begin($1)!=[以 压 便 月]}",
+        "description": "两个相邻的动词，但第一个动词不是以、压、便或月开头"
+    },
+    {
+        "query": "缺一不可",
+        "description": "缺一不可的完整表达"
+    },
+    {
+        "query": "创业 ~/[v v] 上",
+        "description": "创业后面离合出现两个动词，其中一个可能是上"
+    },
+    {
+        "query": "(n) 说明{len($1)>1}",
+        "description": "名词后面跟着一个或多个字的描述"
+    },
+    {
+        "query": "： (nr){count>6}",
+        "description": "冒号后面紧跟的人名出现频率大于6次"
+    },
+    {
+        "query": "点火 ../[n v] 刷新",
+        "description": "点火后接一个名词或动词，再接刷新"
+    },
+    {
+        "query": "思维 @/[w v]",
+        "description": "思维后面是单字或双字的词汇"
+    },
+    {
+        "query": "电商 (w) 天上地下{count>5}",
+        "description": "电商后面紧跟着天上地下，且这种组合出现频率大于5次"
+    },
+    {
+        "query": "正是 .../n 思维",
+        "description": "正是后面可能接一个词和名词，思维作为整个表达的一部分"
+    },
+    {
+        "query": "也 ~/[d v] 合适",
+        "description": "也后面离合出现一个副词或动词，再接合适"
+    },
+    {
+        "query": "开创 ../[n v]",
+        "description": "开创后面接一个名词或动词"
+    },
+    {
+        "query": "互联网 @/[v v] 越来越",
+        "description": "互联网后面接两个动词，且最后一个词是越来越"
+    },
+    {
+        "query": "创 ../n",
+        "description": "创后面可能接一个名词"
+    },
+    {
+        "query": "的",
+        "description": "单独的‘的’字"
+    },
+    {
+        "query": ".../[nr v] 说",
+        "description": "三个或更多字符后面接人名或动词，再接说"
+    },
+    {
+        "query": "牵手 (d) 创业{count>9}",
+        "description": "牵手后接副词，然后是创业，且这种组合出现频率大于9次"
+    },
+    {
+        "query": "效应",
+        "description": "单独的‘效应’词"
+    },
+    {
+        "query": "年 (v) ，{begin($1)=[积 烂 房]}",
+        "description": "年后面可能是积、烂或房，且这些词是逗号前的内容"
+    },
+    {
+        "query": "(u) (n){len($2)!=4}",
+        "description": "两个相邻的词，第一个词不是四字，后面是名词"
+    },
+    {
+        "query": "(ns) 大明湖{count<982}",
+        "description": "大明湖这个地名出现次数少于982次"
+    },
+    {
+        "query": "(ns) 瘦西湖{end($1)!=[累 燕]}",
+        "description": "瘦西湖这个地名，但不是以累或燕结尾"
+    },
+    {
+        "query": "(nr) (u){len($1)>2}",
+        "description": "人名后面是两个或更多字的词"
+    },
+    {
+        "query": "烟水迷离",
+        "description": "直接的短语‘烟水迷离’"
+    },
+    {
+        "query": "飞棹 v 如梭",
+        "description": "飞棹后面接一个动词，如梭"
+    },
+    {
+        "query": "透明 . 游鱼",
+        "description": "透明后面隔一个字符后接游鱼"
+    },
+    {
+        "query": "添 了/u 一半",
+        "description": "添后接了，后面接一个单字，可能是‘半’"
+    },
+    {
+        "query": "(n) 远{begin($1)!=[校 从]}",
+        "description": "名词后面，远不是以校或从开始"
+    },
+    {
+        "query": "龙潭西 . 趵",
+        "description": "龙潭西后面可能接一个标点，然后是趵"
+    },
+    {
+        "query": "(n) ， 三更 画舫 ， 锦绣 (z){$1!=$2}",
+        "description": "三个名词，每个名词后面都跟逗号，但最后一个不是第一个"
+    },
+    {
+        "query": "漱玉声 @",
+        "description": "漱玉声，统计时按照词性归并"
+    },
+    {
+        "query": "何在 (w){count<750}",
+        "description": "何在，出现次数少于750次"
+    },
+    {
+        "query": "(v) (w){$1!=$2}",
+        "description": "两个相邻的动词，但不是相同的动词"
+    },
+    {
+        "query": "谁 (p) 起舞{len($1)=1}",
+        "description": "谁后面跟一个单字动词，起舞"
+    },
+    {
+        "query": "在 (v) 佳人{count<736}",
+        "description": "在后面跟动词佳人，且佳人出现次数少于736次"
+    },
+    {
+        "query": "千年 。/w",
+        "description": "千年后面是句尾符号"
+    },
+    {
+        "query": "(n) (v){len($1)>1; begin($2)!=[熊 犯 军]}",
+        "description": "名词后面跟一个或多个字的动词，但动词不是熊、犯或军"
+    },
+    {
+        "query": "(w) (d){count>2}",
+        "description": "两个相邻的词，第一个词是副词，出现次数大于2"
+    },
+    {
+        "query": "泓泉 ~/[d v] 一",
+        "description": "泓泉后面离合出现一个副词或动词，再接一个字"
+    }
+]
+```

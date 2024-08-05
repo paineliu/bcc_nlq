@@ -1,0 +1,164 @@
+以下是将给定的检索式转换为带含义的JSON结构的结果：
+
+```json
+[
+    {
+        "query": "为/v 入驻 组织 提供/v",
+        "description": "为、入驻、组织、提供组成的句子"
+    },
+    {
+        "query": "擅权+干政/j+人民",
+        "description": "擅权、干政（词性为j）、人民组成的词语"
+    },
+    {
+        "query": "擅权 干政/j 人民",
+        "description": "擅权、干政（词性为j）、人民组成的句子"
+    },
+    {
+        "query": "冤枉/v",
+        "description": "冤枉组成的句子"
+    },
+    {
+        "query": "就是/d+一/m",
+        "description": "就是、一组成的词语"
+    },
+    {
+        "query": "就是/d 一/m",
+        "description": "就是、一组成的句子"
+    },
+    {
+        "query": "大约/d",
+        "description": "大约组成的词语或句子"
+    },
+    {
+        "query": "，+持续/v+有力",
+        "description": "逗号、持续、有力组成的词语或句子"
+    },
+    {
+        "query": "， 持续/v 有力",
+        "description": "逗号、持续、有力组成的句子"
+    },
+    {
+        "query": "少了./v",
+        "description": "少了组成的句子"
+    },
+    {
+        "query": "./a+./a+./a",
+        "description": "三个./a组成的词语"
+    },
+    {
+        "query": "./a ./a ./a",
+        "description": "三个./a组成的句子"
+    },
+    {
+        "query": "./v界",
+        "description": "一个./v组成的词语后接界组成的句子"
+    },
+    {
+        "query": "a+善意/n",
+        "description": "a、善意组成的词语"
+    },
+    {
+        "query": "a 善意/n",
+        "description": "a、善意组成的句子"
+    },
+    {
+        "query": "国/n+反犹+现象+引/v",
+        "description": "国、反犹、现象、引组成的句子"
+    },
+    {
+        "query": "国/n 反犹 现象 引/v",
+        "description": "国、反犹、现象、引组成的句子"
+    },
+    {
+        "query": "是/V",
+        "description": "是组成的句子"
+    },
+    {
+        "query": "或/c+就+做+个+执拗+痴迷+的+老人/n",
+        "description": "或、就、做、个、执拗、痴迷、的、老人组成的句子"
+    },
+    {
+        "query": "或/c 就 做 个 执拗 痴迷 的 老人/n",
+        "description": "或、就、做、个、执拗、痴迷、的、老人组成的句子"
+    },
+    {
+        "query": "n+的+情谊/n",
+        "description": "n、的、情谊组成的词语"
+    },
+    {
+        "query": "n 的 情谊/n",
+        "description": "n、的、情谊组成的句子"
+    },
+    {
+        "query": "贝尔贝多奥/nr+笑+着+说+。",
+        "description": "贝尔贝多奥、笑、着、说、。组成的句子"
+    },
+    {
+        "query": "贝尔贝多奥/nr 笑 着 说 。/w",
+        "description": "贝尔贝多奥、笑、着、说、。组成的句子"
+    },
+    {
+        "query": "提出/v+八+条+成都+主张+：",
+        "description": "提出、八、条、成都、主张、：组成的句子"
+    },
+    {
+        "query": "提出/v 八 条 成都 主张 ：/w",
+        "description": "提出、八、条、成都、主张、：组成的句子"
+    },
+    {
+        "query": "要/v+坚持/v",
+        "description": "要、坚持组成的句子"
+    },
+    {
+        "query": "要/v 坚持/v",
+        "description": "要、坚持组成的句子"
+    },
+    {
+        "query": "越./v",
+        "description": "越组成的句子"
+    },
+    {
+        "query": "对外+投资/vn+步伐",
+        "description": "对外、投资（词性为vn）、步伐组成的句子"
+    },
+    {
+        "query": "对外 投资/vn 步伐",
+        "description": "对外、投资（词性为vn）、步伐组成的句子"
+    },
+    {
+        "query": "多+为/v+个体户",
+        "description": "多、为、个体户组成的句子"
+    },
+    {
+        "query": "多 为/v 个体户",
+        "description": "多、为、个体户组成的句子"
+    },
+    {
+        "query": "n+来/v+",
+        "description": "n、来组成的句子"
+    },
+    {
+        "query": "n 来/v ",
+        "description": "n、来组成的句子"
+    },
+    {
+        "query": "内黄/n+：",
+        "description": "内黄、：组成的句子"
+    },
+    {
+        "query": "内黄/n ：",
+        "description": "内黄、：组成的句子"
+    },
+    {
+        "query": "加大+。/w",
+        "description": "加大、。组成的句子"
+    },
+    {
+        "query": "加大 。/w",
+        "description": "加大、。组成的句子"
+    }
+]
+```
+
+以上JSON结构包含了给定检索式的查询和对应的描述，按照题目要求提供了完整的列表，没有省略任何元素。

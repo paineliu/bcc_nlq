@@ -1,0 +1,86 @@
+以下是检索式及其含义的JSON结构：
+
+```json
+[
+    {
+        "query": "(j) (u){len($1)=2; len($2)=1}",
+        "description": "副词后面接长度为2的词，再接长度为1的词"
+    },
+    {
+        "query": "设计 w 宋嵩",
+        "description": "设计后面接宋嵩，宋嵩是人名"
+    },
+    {
+        "query": "好",
+        "description": "包含好的句子"
+    },
+    {
+        "query": "能 (v) 怎样{len($1)=2}",
+        "description": "能后面接动词，动词后面接怎样，且怎样的长度为2"
+    },
+    {
+        "query": "中国 (j) 还{count<172}",
+        "description": "中国后面接副词还，且还出现的次数少于172"
+    },
+    {
+        "query": "新 (n) 、{end($1)=[牌 落]}",
+        "description": "新后面接名词，名词以牌或落结尾"
+    },
+    {
+        "query": "标准 ./[w v]",
+        "description": "标准后面隔一个任意词性接词性为w或v的词"
+    },
+    {
+        "query": "(s) (n){len($1)=2; begin($2)=[人士 上 猛 牙]}",
+        "description": "副词后面接长度为2的名词，名词以人士、上、猛、牙开头"
+    },
+    {
+        "query": "条",
+        "description": "包含条的句子"
+    },
+    {
+        "query": "@ ，
+        "description": "任意词性后面接逗号"
+    },
+    {
+        "query": "说 ./[w v]",
+        "description": "说后面隔一个任意词性接词性为w或v的词"
+    },
+    {
+        "query": "计划 ~/[w v] 有",
+        "description": "计划后面接一个词，该词后面接词性为w或v的词，再接有"
+    },
+    {
+        "query": "吆喝 ？/w",
+        "description": "吆喝后面接问号，问号后面接词性为w的词"
+    },
+    {
+        "query": "./[m v] 洋",
+        "description": "单字后面接词性为m或v的词，再接洋"
+    },
+    {
+        "query": "铁路 @/[n v] 是",
+        "description": "铁路后面接任意词性，该词性以n或v开头，再接是"
+    },
+    {
+        "query": "说 (nr){len($1)=2}",
+        "description": "说后面接长度为2的人名"
+    },
+    {
+        "query": "已 ~ 第九",
+        "description": "已后面接一个词，该词后面接第九"
+    },
+    {
+        "query": "(nr) 是 个 失败 (u){$1=$2}",
+        "description": "人名后面接是、个、失败，且人名与失败相同"
+    },
+    {
+        "query": "(nr) (w){begin($1)!=[没 衣 抄 达]}",
+        "description": "人名后面不以没、衣、抄、达开头的词性为w的词"
+    },
+    {
+        "query": "@/[r v] 都",
+        "description": "任意词性以r或v开头的词后面接都"
+    }
+]
+```

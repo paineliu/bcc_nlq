@@ -1,7 +1,7 @@
 data_config:
   train_file: bcc_train.json
   val_file: bcc_dev.json
-  test_file: bcc_dev.json
+  test_file: bcc_test.json
   num_proc: 16
 max_input_length: 2048
 max_output_length: 512

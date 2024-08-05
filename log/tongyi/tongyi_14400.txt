@@ -1,0 +1,160 @@
+```json
+[
+    {
+        "query": "[一时+一同+一向]v[v+a+n+][，+。]",
+        "description": "动词 v, v, a, n, r 后面紧跟逗号或句点"
+    },
+    {
+        "query": "[一时 一同 一向]v[v a n ][， 。]",
+        "description": "动词 v, a, n 后面紧跟逗号或句点"
+    },
+    {
+        "query": "v成了n[，+。]",
+        "description": "动词 v 成了 名词 后面紧跟逗号或句点"
+    },
+    {
+        "query": "v成了n[， 。]",
+        "description": "动词 v 成了 名词 后面紧跟逗号或句点"
+    },
+    {
+        "query": "比n还a[，+。]",
+        "description": "动词 比 名词 还 形容词 后面紧跟逗号或句点"
+    },
+    {
+        "query": "比n还a[， 。]",
+        "description": "动词 比 名词 还 形容词 后面紧跟逗号或句点"
+    },
+    {
+        "query": "制服n[，+。]",
+        "description": "动词 制服 名词 后面紧跟逗号或句点"
+    },
+    {
+        "query": "制服n[， 。]",
+        "description": "动词 制服 名词 后面紧跟逗号或句点"
+    },
+    {
+        "query": "快速v[，+。]",
+        "description": "动词 快速 后面紧跟逗号或句点"
+    },
+    {
+        "query": "快速v[， 。]",
+        "description": "动词 快速 后面紧跟逗号或句点"
+    },
+    {
+        "query": "偶尔v+u[，+。]",
+        "description": "动词 偶尔 加 副词 u 后面紧跟逗号或句点"
+    },
+    {
+        "query": "偶尔v u[， 。]",
+        "description": "动词 偶尔 加 副词 u 后面紧跟逗号或句点"
+    },
+    {
+        "query": "一旦v+[，+。]",
+        "description": "动词 一旦 加 副词 或者 加 名词 后面紧跟逗号或句点"
+    },
+    {
+        "query": "一旦v [， 。]",
+        "description": "动词 一旦 加 副词 或者 加 名词 后面紧跟逗号或句点"
+    },
+    {
+        "query": "毫不a[，+。]",
+        "description": "形容词 毫不 后面紧跟逗号或句点"
+    },
+    {
+        "query": "毫不a[， 。]",
+        "description": "形容词 毫不 后面紧跟逗号或句点"
+    },
+    {
+        "query": "[主要+专程+专门]v[v+a+n+][，+。]",
+        "description": "动词 v, a, n, r 后面紧跟逗号或句点"
+    },
+    {
+        "query": "[主要 专程 专门]v[v a n ][， 。]",
+        "description": "动词 v, a, n 后面紧跟逗号或句点"
+    },
+    {
+        "query": "成心v[v+a+n+r][，+。]",
+        "description": "动词 成心 加 形容词 加 副词 r 后面紧跟逗号或句点"
+    },
+    {
+        "query": "成心v[v a n r][， 。]",
+        "description": "动词 成心 加 形容词 加 副词 r 后面紧跟逗号或句点"
+    },
+    {
+        "query": "再三v[，+。]",
+        "description": "动词 再三 后面紧跟逗号或句点"
+    },
+    {
+        "query": "再三v[， 。]",
+        "description": "动词 再三 后面紧跟逗号或句点"
+    },
+    {
+        "query": "简直d+a[，+。]",
+        "description": "副词 简直 加 形容词 后面紧跟逗号或句点"
+    },
+    {
+        "query": "简直d a[， 。]",
+        "description": "副词 简直 加 形容词 后面紧跟逗号或句点"
+    },
+    {
+        "query": "初步[v+a+n+r][，+。]",
+        "description": "动词 初步 加 形容词 加 副词 r 后面紧跟逗号或句点"
+    },
+    {
+        "query": "初步[v a n r][， 。]",
+        "description": "动词 初步 加 形容词 加 副词 r 后面紧跟逗号或句点"
+    },
+    {
+        "query": "合法[v+p+地]",
+        "description": "动词 合法 加 助动词 加 副词 地"
+    },
+    {
+        "query": "d能a+r[，+。]",
+        "description": "副词 d 能 加 形容词 加 副词 r 后面紧跟逗号或句点"
+    },
+    {
+        "query": "d能a r[， 。]",
+        "description": "副词 d 能 加 形容词 加 副词 r 后面紧跟逗号或句点"
+    },
+    {
+        "query": "反倒d+n[，+。]",
+        "description": "副词 反倒 加 名词 后面紧跟逗号或句点"
+    },
+    {
+        "query": "反倒d n[， 。]",
+        "description": "副词 反倒 加 名词 后面紧跟逗号或句点"
+    },
+    {
+        "query": "同样a[，+。]",
+        "description": "形容词 同样 后面紧跟逗号或句点"
+    },
+    {
+        "query": "同样a[， 。]",
+        "description": "形容词 同样 后面紧跟逗号或句点"
+    },
+    {
+        "query": "[原来+原先+再三]v[q+m+]v[，+。]",
+        "description": "动词 v, q, m, r 后面紧跟逗号或句点"
+    },
+    {
+        "query": "[原来 原先 再三]v[q m ]v[， 。]",
+        "description": "动词 v, q, m 后面紧跟逗号或句点"
+    },
+    {
+        "query": "[最+很+非常+挺+太+特]+*气",
+        "description": "形容词 最, 很, 非常, 挺, 太, 特 后面紧跟形容词气"
+    },
+    {
+        "query": "[最 很 非常 挺 太 特] *气",
+        "description": "形容词 最, 很, 非常, 挺, 太, 特 后面紧跟形容词气"
+    },
+    {
+        "query": "赶紧v+y[，+。]",
+        "description": "动词 赶紧 加 副词 y 后面紧跟逗号或句点"
+    },
+    {
+        "query": "赶紧v y[， 。]",
+        "description": "动词 赶紧 加 副词 y 后面紧跟逗号或句点"
+    }
+]
+```

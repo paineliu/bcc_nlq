@@ -1,0 +1,120 @@
+```json
+[
+    {
+        "query": ".",
+        "description": "一个汉字或者符号"
+    },
+    {
+        "query": "(m) 条{middle($1)=[六 南]}",
+        "description": "中间位置包含'六'或'南'的条目"
+    },
+    {
+        "query": "第七十 ./[q v]",
+        "description": "第七十后面接一个词或动词"
+    },
+    {
+        "query": "第七十一 ~",
+        "description": "第七十一是一个词"
+    },
+    {
+        "query": "(m) (q){len($1)>3}",
+        "description": "长度大于3的词出现在中间位置"
+    },
+    {
+        "query": "第七十三 (q){len($1)=1}",
+        "description": "长度为1的词出现在中间位置"
+    },
+    {
+        "query": "第七十四 ~",
+        "description": "第七十四是一个词"
+    },
+    {
+        "query": "第七十五",
+        "description": "第七十五"
+    },
+    {
+        "query": "第七十六 ./[q v]",
+        "description": "第七十六后面接一个词或动词"
+    },
+    {
+        "query": "人员 @",
+        "description": "人员，统计时按照词性归并"
+    },
+    {
+        "query": "五 ~/[r v] 必要",
+        "description": "五后面离合出现'r'或'v'，并且后面接'必要'"
+    },
+    {
+        "query": "/m 条",
+        "description": "以'm'开头的条目"
+    },
+    {
+        "query": "(m) 条{len($1)=4; len($2)!=2}",
+        "description": "长度为4的词出现在中间位置，但不包含长度为2的词"
+    },
+    {
+        "query": ".",
+        "description": "一个汉字或者符号"
+    },
+    {
+        "query": "./[q v]",
+        "description": "单音节动词或名词"
+    },
+    {
+        "query": ".... 条",
+        "description": "三个连续的点后面可能是任何内容的条目"
+    },
+    {
+        "query": "(m) 条{len($1)>3}",
+        "description": "长度大于3的词出现在中间位置"
+    },
+    {
+        "query": "条",
+        "description": "条"
+    },
+    {
+        "query": "./q",
+        "description": "单音节动词或名词"
+    },
+    {
+        "query": "@/[m v] 条",
+        "description": "以'm'或'v'开头的词后面接条目，统计时按照词性归并"
+    },
+    {
+        "query": "..../[m v] 条",
+        "description": "连续的词边界后接'm'或'v'的条目"
+    },
+    {
+        "query": "第九十六 (q){len($1)=1}",
+        "description": "长度为1的词出现在第九十六的位置"
+    },
+    {
+        "query": "第九十七 (q){count>7}",
+        "description": "频率大于7的词出现在第九十七的位置"
+    },
+    {
+        "query": "人民 (n) 主席令{middle($1)=[和 吃]}",
+        "description": "人民后面接名词主席令，且主席令的中间位置包含'和'或'吃'"
+    },
+    {
+        "query": "第三十八 (q){count<647}",
+        "description": "频率小于647的词出现在第三十八的位置"
+    },
+    {
+        "query": "共和国",
+        "description": "共和国"
+    },
+    {
+        "query": "(m) 条{len($1)!=4}",
+        "description": "中间位置的词长度不为4的条目"
+    },
+    {
+        "query": "第十二 ./q",
+        "description": "第十二后面接一个词或动词"
+    },
+    {
+        "query": "第十三 ~/[q v]",
+        "description": "第十三是一个词，或者后面离合出现词或动词"
+    }
+]
+```

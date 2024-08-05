@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "w另外",
+        "description": "以'w'开头的词，后面紧跟'另外'"
+    },
+    {
+        "query": "v工房",
+        "description": "以'v'开头的动词，后面紧跟'工房'"
+    },
+    {
+        "query": "一元n",
+        "description": "以数字'一'开头的名词，后面紧跟'元'"
+    },
+    {
+        "query": "r一q",
+        "description": "以'r'开头的代词，后面紧跟以'一'开头的词，再紧跟'q'"
+    },
+    {
+        "query": "不d七",
+        "description": "以'不'开头的副词，后面紧跟数字'七'"
+    },
+    {
+        "query": "用N粘",
+        "description": "以'用'开头的动词，后面紧跟以'N'开头的名词，再紧跟'粘'"
+    },
+    {
+        "query": "s充满",
+        "description": "以's'开头的处所词，后面紧跟'充满'"
+    },
+    {
+        "query": "(v)与(n)",
+        "description": "动词后紧跟着名词"
+    },
+    {
+        "query": "v了他q",
+        "description": "动词后紧跟着'了'，再紧跟代词'他'，最后紧跟'q'"
+    },
+    {
+        "query": "把N铺在",
+        "description": "以'把'开头的动词，后面紧跟以'N'开头的名词，再紧跟'铺在'"
+    },
+    {
+        "query": "势必v。",
+        "description": "动词后紧跟着'势必'，句尾以'。'结束"
+    },
+    {
+        "query": "v过m+m+q",
+        "description": "动词后紧跟着两个以'm'开头的名词，再紧跟'q'"
+    },
+    {
+        "query": "v过m m q",
+        "description": "动词后紧跟着两个以'm'开头的名词，再紧跟'q'"
+    },
+    {
+        "query": "w仿佛",
+        "description": "以'w'开头的词，后面紧跟'仿佛'"
+    },
+    {
+        "query": "建设n",
+        "description": "以'建设'开头的名词"
+    },
+    {
+        "query": "an",
+        "description": "以'an'开头的成语"
+    },
+    {
+        "query": "v相声",
+        "description": "动词后紧跟着'相声'"
+    },
+    {
+        "query": "该+n+i",
+        "description": "以'该'开头的词，后面紧跟以'n'开头的名词，再紧跟'i'"
+    },
+    {
+        "query": "该 n i",
+        "description": "以'该'开头的词，后面紧跟以'n'开头的名词，再紧跟'i'"
+    },
+    {
+        "query": "c发现",
+        "description": "以'c'开头的连词，后面紧跟'发现'"
+    },
+    {
+        "query": "满是N",
+        "description": "以'满'开头的词，后面紧跟以'N'开头的名词"
+    },
+    {
+        "query": "v得a的w",
+        "description": "动词后紧跟着'得'，再紧跟以'a'开头的词，最后紧跟'的w'"
+    },
+    {
+        "query": "死了n",
+        "description": "以'死了'开头的名词"
+    },
+    {
+        "query": "v丁香",
+        "description": "动词后紧跟着'丁香'"
+    },
+    {
+        "query": "两碗n",
+        "description": "以数字'两'开头的名词，后面紧跟'碗'"
+    },
+    {
+        "query": "蹭v",
+        "description": "以'蹭'开头的动词"
+    },
+    {
+        "query": "实施+u",
+        "description": "以'实施'开头的词，后面紧跟'+u'"
+    },
+    {
+        "query": "实施 u",
+        "description": "以'实施'开头的词，后面紧跟'u'"
+    },
+    {
+        "query": "结果a",
+        "description": "以'结果'开头的词，后面紧跟以'a'开头的词"
+    },
+    {
+        "query": "a合格",
+        "description": "以'a'开头的词，后面紧跟'合格'"
+    },
+    {
+        "query": "d炸",
+        "description": "以'd'开头的词，后面紧跟'炸'"
+    },
+    {
+        "query": "v得",
+        "description": "动词后紧跟着'得'"
+    },
+    {
+        "query": "m挑",
+        "description": "以'm'开头的名词，后面紧跟'挑'"
+    },
+    {
+        "query": "v到了n",
+        "description": "动词后紧跟着'到'，再紧跟名词"
+    },
+    {
+        "query": "瞧他v的w",
+        "description": "以'瞧'开头的动词，后面紧跟'他'，再紧跟'的w'"
+    },
+    {
+        "query": "什么时候nr+v",
+        "description": "以'什么时候'开头的词组，后面紧跟nr，再紧跟动词"
+    },
+    {
+        "query": "什么时候nr v",
+        "description": "以'什么时候'开头的词组，后面紧跟nr，再紧跟动词"
+    },
+    {
+        "query": "V了个V",
+        "description": "以'V'开头的词，后面紧跟'个'，再紧跟以'V'开头的词"
+    },
+    {
+        "query": "创造+n",
+        "description": "以'创造'开头的词，后面紧跟名词"
+    },
+    {
+        "query": "创造 n",
+        "description": "以'创造'开头的词，后面紧跟名词"
+    }
+]
+```

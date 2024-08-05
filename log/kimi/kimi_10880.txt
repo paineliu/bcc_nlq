@@ -1,0 +1,86 @@
+以下是检索式及其含义的JSON结构：
+
+```json
+[
+    {
+        "query": "落雪 (n){begin($1)!=[往 上 勇]}",
+        "description": "名词落雪，且不以往、上、勇为开始的实例"
+    },
+    {
+        "query": "早就 ./v 大雪",
+        "description": "早就后接单字动词，再接大雪"
+    },
+    {
+        "query": "他/r 感叹",
+        "description": "代词他后接感叹"
+    },
+    {
+        "query": "语调 (ad) 带{begin($1)=[明 屁 称]}",
+        "description": "副形词语调，且以明、屁、称为开始的实例"
+    },
+    {
+        "query": "时节",
+        "description": "包含时节的句子"
+    },
+    {
+        "query": "落雪 ./y ；",
+        "description": "落雪后接单字语气词，再接句号"
+    },
+    {
+        "query": "(z) 的 (n){end($1)!=[酸 芳]; len($2)>1}",
+        "description": "状态词后接的名词，其后不接酸或芳，且名词长度大于1"
+    },
+    {
+        "query": "西来",
+        "description": "包含西来的句子"
+    },
+    {
+        "query": "(w) 崆峒 (w){len($2)!=2}",
+        "description": "标点符号后接崆峒，再接标点符号，且崆峒长度不等于2"
+    },
+    {
+        "query": "， (i) 。{end($1)=[峒 战 炸]}",
+        "description": "逗号后接习用语，再接句号，且习用语以峒、战、炸为结束"
+    },
+    {
+        "query": "传说 @ 的",
+        "description": "传说后接任意词，再接的"
+    },
+    {
+        "query": "在 .. 盛开",
+        "description": "在后隔两个字接盛开"
+    },
+    {
+        "query": "落雪 @ ，",
+        "description": "落雪后接任意词，再接逗号"
+    },
+    {
+        "query": "， (d) 好{len($1)=1}",
+        "description": "逗号后接副词好，且好为单字"
+    },
+    {
+        "query": "站",
+        "description": "包含站的句子"
+    },
+    {
+        "query": "赶紧 (v) 他们{count>7}",
+        "description": "赶紧后接动词，再接他们，且该结构出现频次大于7"
+    },
+    {
+        "query": "见状 ./w 要",
+        "description": "见状后接单字介词，再接要"
+    },
+    {
+        "query": ".. 坚持",
+        "description": "任意两字后接坚持"
+    },
+    {
+        "query": "从命 (w) 但{count<192}",
+        "description": "从命后接标点符号，再接但，且该结构出现频次小于192"
+    },
+    {
+        "query": "(i) ，{middle($1)!=[取 词 想]}",
+        "description": "习用语后接逗号，且习用语中间不包含取、词、想"
+    }
+]
+```

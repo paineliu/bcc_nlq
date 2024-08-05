@@ -1,0 +1,167 @@
+根据给定的检索式规则和描述，以下是将这些检索式转换为带含义的json结构：
+
+```json
+[
+    {
+        "query": "排球",
+        "description": "包含'排球'这个词的句子"
+    },
+    {
+        "query": "施行",
+        "description": "包含'施行'这个词的句子"
+    },
+    {
+        "query": "趋于和谐",
+        "description": "包含'趋于和谐'这个短语的句子"
+    },
+    {
+        "query": "如此和谐",
+        "description": "包含'如此和谐'这个短语的句子"
+    },
+    {
+        "query": "入人权",
+        "description": "包含'入人权'这个词的句子"
+    },
+    {
+        "query": "一身",
+        "description": "包含'一身'这个词的句子"
+    },
+    {
+        "query": "没多少",
+        "description": "包含'没多少'这个短语的句子"
+    },
+    {
+        "query": "序与和谐",
+        "description": "包含'序与和谐'这个短语的句子"
+    },
+    {
+        "query": "热",
+        "description": "包含'热'这个词的句子"
+    },
+    {
+        "query": "乱乱",
+        "description": "包含'乱乱'这个短语的句子"
+    },
+    {
+        "query": "或许绝对",
+        "description": "包含'或许绝对'这个短语的句子"
+    },
+    {
+        "query": "人讨厌",
+        "description": "包含'人讨厌'这个短语的句子"
+    },
+    {
+        "query": "凌晨",
+        "description": "包含'凌晨'这个词的句子"
+    },
+    {
+        "query": "不万分",
+        "description": "包含'不万分'这个短语的句子"
+    },
+    {
+        "query": "。肯定他",
+        "description": "包含'。肯定他'这个短语的句子"
+    },
+    {
+        "query": "也是可能的",
+        "description": "包含'也是可能的'这个短语的句子"
+    },
+    {
+        "query": "昭昭",
+        "description": "包含'昭昭'这个词的句子"
+    },
+    {
+        "query": "我就说",
+        "description": "包含'我就说'这个短语的句子"
+    },
+    {
+        "query": "噘嘴",
+        "description": "包含'噘嘴'这个词的句子"
+    },
+    {
+        "query": "中风",
+        "description": "包含'中风'这个词的句子"
+    },
+    {
+        "query": "思潮",
+        "description": "包含'思潮'这个词的句子"
+    },
+    {
+        "query": "月貌花容",
+        "description": "包含'月貌花容'这个短语的句子"
+    },
+    {
+        "query": "严厉",
+        "description": "包含'严厉'这个词的句子"
+    },
+    {
+        "query": "忆苦",
+        "description": "包含'忆苦'这个词的句子"
+    },
+    {
+        "query": "主不主线",
+        "description": "包含'主不主线'这个短语的句子"
+    },
+    {
+        "query": "稍微的",
+        "description": "包含'稍微的'这个短语的句子"
+    },
+    {
+        "query": "如此想来",
+        "description": "包含'如此想来'这个短语的句子"
+    },
+    {
+        "query": "和谐之邦",
+        "description": "包含'和谐之邦'这个短语的句子"
+    },
+    {
+        "query": "粗粗壮壮",
+        "description": "包含'粗粗壮壮'这个短语的句子"
+    },
+    {
+        "query": "锡",
+        "description": "包含'锡'这个词的句子"
+    },
+    {
+        "query": "其实恐怕",
+        "description": "包含'其实恐怕'这个短语的句子"
+    },
+    {
+        "query": "也许本来就",
+        "description": "包含'也许本来就'这个短语的句子"
+    },
+    {
+        "query": "涂刷",
+        "description": "包含'涂刷'这个词的句子"
+    },
+    {
+        "query": "郁郁",
+        "description": "包含'郁郁'这个词的句子"
+    },
+    {
+        "query": "看书看得",
+        "description": "包含'看书看得'这个短语的句子"
+    },
+    {
+        "query": "能听懂",
+        "description": "包含'能听懂'这个短语的句子"
+    },
+    {
+        "query": "和谐仍然",
+        "description": "包含'和谐仍然'这个短语的句子"
+    },
+    {
+        "query": "老克勒",
+        "description": "包含'老克勒'这个词的句子"
+    },
+    {
+        "query": "没以",
+        "description": "包含'没以'这个词的句子"
+    },
+    {
+        "query": "好像绝不",
+        "description": "包含'好像绝不'这个短语的句子"
+    }
+]
+```
+请注意，上述json结构中的描述部分是对检索式含义的简单解释，实际应用中可能需要更详细的上下文信息来提供更准确的解释。

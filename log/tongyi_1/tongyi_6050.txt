@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": ", .. 不堪设想",
+        "description": "逗号后面，连续出现两个词，第二个词是不堪设想"
+    },
+    {
+        "query": "上述 ~ 就",
+        "description": "上述后面接任意一个词，然后是就"
+    },
+    {
+        "query": "了 (vn) 能力{begin($1)=[劳 胡 响]}",
+        "description": "动词后接了，后面跟能力，且能力的开始部分是劳、胡或响"
+    },
+    {
+        "query": "山西 (ns) 司宝珠{begin($1)=[晋 留]}",
+        "description": "地名山西后接司宝珠，且司宝珠的开始部分是晋或留"
+    },
+    {
+        "query": ".. 难过",
+        "description": "连续两个词，第二个词是难过"
+    },
+    {
+        "query": "至 @",
+        "description": "至后面接任意一个词"
+    },
+    {
+        "query": "呼吁 (y) !{count<898}",
+        "description": "呼吁后接感叹词，且该实例频次小于898"
+    },
+    {
+        "query": "~ 莒南县",
+        "description": "任意一个词后接莒南县"
+    },
+    {
+        "query": "做 ~ 不",
+        "description": "做后面接任意一个词，然后是不"
+    },
+    {
+        "query": "武汉市 ../[nr v]",
+        "description": "武汉市后面接名词或动词"
+    },
+    {
+        "query": "标题 ~ ：",
+        "description": "标题后面接冒号"
+    },
+    {
+        "query": "年度 (n){begin($1)=[关 着 冻]}",
+        "description": "年度后接名词，且名词的开始部分是关、着或冻"
+    },
+    {
+        "query": "~ 现实",
+        "description": "任意一个词后接现实"
+    },
+    {
+        "query": "../v 现实",
+        "description": "两个连续的词，第二个词是现实"
+    },
+    {
+        "query": "(v) 现实{count>6}",
+        "description": "单音节动词后接现实，且实例频次大于6"
+    },
+    {
+        "query": "(d) (v){count>10}",
+        "description": "两个连续的副词，第二个副词后接单音节动词，且动词实例频次大于10"
+    },
+    {
+        "query": "重要 @ 功能",
+        "description": "重要后接一个词，统计时按词性归并为功能"
+    },
+    {
+        "query": ", @ 不",
+        "description": "逗号后面接任意一个词，然后是不"
+    },
+    {
+        "query": "一 ./[q v] 向下",
+        "description": "一后面接一个可能是疑问词或动词的词，然后是向下"
+    },
+    {
+        "query": "的 ./w",
+        "description": "的后面接一个标点符号"
+    },
+    {
+        "query": "过度 ./w",
+        "description": "过度后面接一个标点符号"
+    },
+    {
+        "query": "本 @/[n v] 大书",
+        "description": "本后面接名词或动词，然后是大书"
+    },
+    {
+        "query": "吴子牛 (n){count>8}",
+        "description": "吴子牛，频次大于8的名词"
+    },
+    {
+        "query": "支 @/[n v] 标杆",
+        "description": "支后面接名词或动词，然后是标杆"
+    },
+    {
+        "query": "~/[w v] 北平",
+        "description": "任意一个词后接北平，且北平后面可能接一个词或动词"
+    },
+    {
+        "query": "孔笙",
+        "description": "直接匹配孔笙"
+    },
+    {
+        "query": "次 ../vn 革命",
+        "description": "次后面接两个词，第二个词是革命"
+    },
+    {
+        "query": "《 ./m 送",
+        "description": "左尖括号后接一个标点符号，然后是送"
+    },
+    {
+        "query": "毛卫宁 (n){len($1)<3}",
+        "description": "毛卫宁，名字长度小于3的名词"
+    },
+    {
+        "query": "一道 (a) 课题{end($1)=[实 窝 腰]}",
+        "description": "一道后面接形容词，然后是课题，课题的结束部分是实、窝或腰"
+    },
+    {
+        "query": "下乡 . 》",
+        "description": "下乡后面接一个字，然后是右尖括号"
+    },
+    {
+        "query": "(nr) 导演{middle($1)!=[心 会 定 些]}",
+        "description": "导演，名词后接导演，且导演的中间部分不包含心、会、定或些"
+    },
+    {
+        "query": "m 枚",
+        "description": "枚"
+    },
+    {
+        "query": "w 产科",
+        "description": "产科"
+    },
+    {
+        "query": "李小平 (n){count<733}",
+        "description": "李小平，频次小于733的名词"
+    },
+    {
+        "query": ": ~",
+        "description": "冒号后面接任意一个词"
+    },
+    {
+        "query": "力图 ..../[ns v] 国际",
+        "description": "力图后面连续两个词，第二个词是国际，可能接名词或动词"
+    },
+    {
+        "query": "应 p 亚洲",
+        "description": "应后面接一个介词，然后是亚洲"
+    },
+    {
+        "query": "一 ./n 独大",
+        "description": "一后面接一个名词，然后是独大"
+    },
+    {
+        "query": "局势 (n){begin($1)!=[杰 工 后 白]}",
+        "description": "局势后接名词，且名词的开始部分不是杰、工、后或白"
+    }
+]
+```

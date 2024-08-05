@@ -1,0 +1,166 @@
+以下是将给定的检索式转换为带含义的json结构后的完整列表：
+
+```json
+[
+    {
+        "query": "早已v+u[，+。]", 
+        "description":"动词早已后面跟u，之后可以是逗号或句号"
+    },
+    {
+        "query": "早已v u[， 。]", 
+        "description":"动词早已后面跟u，之后可以是逗号或句号"
+    },
+    {
+        "query": "持续v+n[，+。]", 
+        "description":"动词持续后面跟n，之后可以是逗号或句号"
+    },
+    {
+        "query": "持续v n[， 。]", 
+        "description":"动词持续后面跟n，之后可以是逗号或句号"
+    },
+    {
+        "query": "一度v+u[，+。]", 
+        "description":"动词一度后面跟u，之后可以是逗号或句号"
+    },
+    {
+        "query": "一度v u[， 。]", 
+        "description":"动词一度后面跟u，之后可以是逗号或句号"
+    },
+    {
+        "query": "决心v[，+。]", 
+        "description":"动词决心后面可以跟逗号或句号"
+    },
+    {
+        "query": "决心v[， 。]", 
+        "description":"动词决心后面可以跟逗号或句号"
+    },
+    {
+        "query": "根本d+n[，+。]", 
+        "description":"形容词根本后面跟n，之后可以是逗号或句号"
+    },
+    {
+        "query": "根本d n[， 。]", 
+        "description":"形容词根本后面跟n，之后可以是逗号或句号"
+    },
+    {
+        "query": "他的n++[，+。]", 
+        "description":"名词他的后面可以跟多个n，之后可以是逗号或句号"
+    },
+    {
+        "query": "他的n  [， 。]", 
+        "description":"名词他的后面可以跟多个n，之后可以是逗号或句号"
+    },
+    {
+        "query": "固然n[，+。]", 
+        "description":"名词固然后面可以跟逗号或句号"
+    },
+    {
+        "query": "固然n[， 。]", 
+        "description":"名词固然后面可以跟逗号或句号"
+    },
+    {
+        "query": "[，+。]p+r++[，+。]", 
+        "description":"标点符号，之后可以跟多个r，之后可以是逗号或句号"
+    },
+    {
+        "query": "[， 。]p r  [， 。]", 
+        "description":"标点符号，之后可以跟多个r，之后可以是逗号或句号"
+    },
+    {
+        "query": "w守.攻[q+r+d+c+v+a++n+m++p]w", 
+        "description":"以w开头，守后面跟.，然后是攻，中间可能包含q、r、d、c、v、a、n、m、p，之后可以是逗号或句号"
+    },
+    {
+        "query": "w守.攻[q r d c v a  n m  p]w", 
+        "description":"以w开头，守后面跟.，然后是攻，中间可能包含q、r、d、c、v、a、n、m、p"
+    },
+    {
+        "query": "[随时+随手+随着]v[v+a+n+][，+。]", 
+        "description":"以[随时、随手、随着]开头，后面跟v，中间可能包含v、a、n，之后可以是逗号或句号"
+    },
+    {
+        "query": "[随时 随手 随着]v[v a n ][， 。]", 
+        "description":"以随时、随手、随着开头，后面跟v，中间可能包含v、a、n"
+    },
+    {
+        "query": "不免v+v[，+。]", 
+        "description":"动词不免两次出现，之后可以是逗号或句号"
+    },
+    {
+        "query": "不免v v[， 。]", 
+        "description":"动词不免两次出现"
+    },
+    {
+        "query": "其实v+y[，+。]", 
+        "description":"动词其实后面跟y，之后可以是逗号或句号"
+    },
+    {
+        "query": "其实v y[， 。]", 
+        "description":"动词其实后面跟y"
+    },
+    {
+        "query": "[一度+一概+一共]v[v+a+n+][，+。]", 
+        "description":"以[一度、一概、一共]开头，后面跟v，中间可能包含v、a、n，之后可以是逗号或句号"
+    },
+    {
+        "query": "[一度 一概 一共]v[v a n ][， 。]", 
+        "description":"以一度、一概、一共开头，后面跟v，中间可能包含v、a、n"
+    },
+    {
+        "query": "已经a了[，+。]", 
+        "description":"形容词已经后面跟了，之后可以是逗号或句号"
+    },
+    {
+        "query": "已经a了[， 。]", 
+        "description":"形容词已经后面跟了"
+    },
+    {
+        "query": "拿*来[说+讲]", 
+        "description":"拿后面离合出现来说或讲"
+    },
+    {
+        "query": "拿*来[说 讲]", 
+        "description":"拿后面离合出现来说或讲"
+    },
+    {
+        "query": "w买.卖[q+r+d+c+v+a++n+m++p]w", 
+        "description":"以w开头，买后面跟.，然后是卖，中间可能包含q、r、d、c、v、a、n、m、p"
+    },
+    {
+        "query": "w买.卖[q r d c v a  n m  p]w", 
+        "description":"以w开头，买后面跟.，然后是卖，中间可能包含q、r、d、c、v、a、n、m、p"
+    },
+    {
+        "query": "从小[v+a+n+r][，+。]", 
+        "description":"动词从小后面跟v、a、n、r，之后可以是逗号或句号"
+    },
+    {
+        "query": "从小[v a n r][， 。]", 
+        "description":"动词从小后面跟v、a、n、r"
+    },
+    {
+        "query": "固然v+a[，+。]", 
+        "description":"动词固然后面跟a，之后可以是逗号或句号"
+    },
+    {
+        "query": "固然v a[， 。]", 
+        "description":"动词固然后面跟a"
+    },
+    {
+        "query": "[大致+单独+当场]v[q+m+]v[，+。]", 
+        "description":"以[大致、单独、当场]开头，后面跟v，中间可能包含q、m，之后可以是逗号或句号"
+    },
+    {
+        "query": "[大致 单独 当场]v[q m ]v[， 。]", 
+        "description":"以大致、单独、当场开头，后面跟v，中间可能包含q、m"
+    },
+    {
+        "query": "未必v[，+。]", 
+        "description":"动词未必后面可以是逗号或句号"
+    },
+    {
+        "query": "未必v[， 。]", 
+        "description":"动词未必"
+    }
+]
+```

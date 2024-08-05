@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "过得v",
+        "description": "动词 '过' 后接动词 '得' 的句子"
+    },
+    {
+        "query": "a分辨",
+        "description": "形容词 '分' 后接动词 '辨' 的句子"
+    },
+    {
+        "query": "主意a",
+        "description": "名词 '意' 后接形容词 '主' 的句子"
+    },
+    {
+        "query": "甲型H1N1流感",
+        "description": "特定疾病名称"
+    },
+    {
+        "query": "N+绿+了",
+        "description": "某个实体 '绿' 后接动词 '了' 的句子"
+    },
+    {
+        "query": "N 绿 了",
+        "description": "某个实体 '绿' 后接动词 '了' 的句子"
+    },
+    {
+        "query": "v越s",
+        "description": "动词 '越' 后接动词 's' 的句子"
+    },
+    {
+        "query": "p分析",
+        "description": "动词 '分' 后接动词 '析' 的句子"
+    },
+    {
+        "query": "一类n",
+        "description": "名词 '类' 后接名词 '一' 的句子"
+    },
+    {
+        "query": "主题w",
+        "description": "单词 '主题' 的句子"
+    },
+    {
+        "query": "v一脚",
+        "description": "动词 '脚' 后接动词 '一' 的句子"
+    },
+    {
+        "query": "在N上钉",
+        "description": "动词 '钉' 后接介词 '在' 和名词 '上' 的句子"
+    },
+    {
+        "query": "没那么a了",
+        "description": "形容词 '那' 后接程度副词 '么' 和动词 '了' 的句子"
+    },
+    {
+        "query": "太a与a",
+        "description": "程度副词 '太' 后接程度副词 '与' 的句子"
+    },
+    {
+        "query": "a出动",
+        "description": "形容词 '动' 后接动词 '出' 的句子"
+    },
+    {
+        "query": "煮n",
+        "description": "动词 '煮' 后接名词 'n' 的句子"
+    },
+    {
+        "query": "v心房",
+        "description": "动词 '心' 后接名词 '房' 的句子"
+    },
+    {
+        "query": "n外",
+        "description": "名词 '外' 的句子"
+    },
+    {
+        "query": "用N糊",
+        "description": "介词 '用' 后接名词 'N' 和动词 '糊' 的句子"
+    },
+    {
+        "query": "V死r了",
+        "description": "动词 '死' 后接动词 'r' 和动词 '了' 的句子"
+    },
+    {
+        "query": "看r多a",
+        "description": "动词 '看' 后接程度副词 '多' 和程度副词 'a' 的句子"
+    },
+    {
+        "query": "太a",
+        "description": "程度副词 '太' 的句子"
+    },
+    {
+        "query": "m脑子",
+        "description": "名词 '脑' 后接名词 '子' 的句子"
+    },
+    {
+        "query": "v不上",
+        "description": "动词 '上' 后接动词 '不' 的句子"
+    },
+    {
+        "query": "成q",
+        "description": "动词 '成' 后接量词 'q' 的句子"
+    },
+    {
+        "query": "用N撒",
+        "description": "介词 '用' 后接名词 'N' 和动词 '撒' 的句子"
+    },
+    {
+        "query": "a叨唠",
+        "description": "形容词 '叨' 后接动词 '唠' 的句子"
+    },
+    {
+        "query": "v一份",
+        "description": "动词 '份' 后接动词 '一' 的句子"
+    },
+    {
+        "query": "极度a+n",
+        "description": "形容词 '极' 后接程度副词 '度' 和名词 'n' 的句子"
+    },
+    {
+        "query": "极度a n",
+        "description": "形容词 '极' 后接程度副词 '度' 和名词 'n' 的句子"
+    },
+    {
+        "query": "真的是(a)了w",
+        "description": "形容词 '真' 后接程度副词 '的' 和动词 '了' 的句子"
+    },
+    {
+        "query": "情感V上",
+        "description": "动词 '感' 后接动词 '情' 和介词 '上' 的句子"
+    },
+    {
+        "query": "恨n+v",
+        "description": "名词 '恨' 后接动词 'n' 和动词 'v' 的句子"
+    },
+    {
+        "query": "恨n v",
+        "description": "名词 '恨' 后接名词 'n' 和动词 'v' 的句子"
+    },
+    {
+        "query": "a个体户",
+        "description": "形容词 '个' 后接名词 '体户' 的句子"
+    },
+    {
+        "query": "各种v",
+        "description": "形容词 '各' 后接动词 '种' 的句子"
+    },
+    {
+        "query": "V的什么N",
+        "description": "动词 'V' 后接介词 '的' 和疑问词 '什么' 后接名词 'N' 的句子"
+    },
+    {
+        "query": "m秉",
+        "description": "名词 '秉' 后接名词 'm' 的句子"
+    },
+    {
+        "query": "q调查",
+        "description": "量词 'q' 后接动词 '调' 和动词 '查' 的句子"
+    },
+    {
+        "query": "把N灌到",
+        "description": "介词 '把' 后接名词 'N' 和动词 '灌' 和动词 '到' 的句子"
+    }
+]
+```

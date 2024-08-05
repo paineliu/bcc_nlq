@@ -1,0 +1,160 @@
+```json
+[
+    {
+        "query": "(v) 严格{len($1)!=3}",
+        "description": "包含严格，且严格后面不是一个词"
+    },
+    {
+        "query": "(m) 条 是 大幅度 (v){$1!=$2}",
+        "description": "包含条、是和大幅度，且条和大幅度不是同一个词，后面接动词"
+    },
+    {
+        "query": "@ 行为",
+        "description": "行为这个词"
+    },
+    {
+        "query": "(m) (q){len($2)=1}",
+        "description": "包含一个单字量词"
+    },
+    {
+        "query": "vn 人员{end($1)!=[富 土 酸 赌]}",
+        "description": "人员，但不以富、土、酸、赌结尾"
+    },
+    {
+        "query": "仪式 ~",
+        "description": "包含仪式，中间可能有一个词"
+    },
+    {
+        "query": "凭/p 栏望",
+        "description": "凭栏望，栏和望之间可能有一个词"
+    },
+    {
+        "query": "(a) (n){end($1)=[式 偶 作]}",
+        "description": "形容词后面跟着一个以式、偶、作结尾的名词"
+    },
+    {
+        "query": "(n) (v){len($2)<3}",
+        "description": "名词后面接一个长度小于3的动词"
+    },
+    {
+        "query": "床 ./c 干净",
+        "description": "床后面接一个单音节动词干净"
+    },
+    {
+        "query": "连床 ~/[w v]",
+        "description": "连床后面离合出现一个词，可能是动词或形容词"
+    },
+    {
+        "query": "上去 (w) 炕{count>6}",
+        "description": "上去后面跟着一个单字，且炕的出现次数大于6"
+    },
+    {
+        "query": "改炕 ~ 获",
+        "description": "改炕后面可能有一个词，然后是获"
+    },
+    {
+        "query": "说 @/[w v]",
+        "description": "说后面接一个词，可能是动词或形容词"
+    },
+    {
+        "query": "vn 大为 (v){len($1)>1}",
+        "description": "大为后面接一个长度大于1的动词"
+    },
+    {
+        "query": "(v) 之后 ， 污染物 排放 情况 怎样 (w){begin($1)!=[所 市]}",
+        "description": "包含污染物排放情况怎样，且污染物排放前不接所或市"
+    },
+    {
+        "query": "低碳 ~",
+        "description": "低碳后面可能有一个词"
+    },
+    {
+        "query": "可行 ./[u v]",
+        "description": "可行后面可能接一个动词或形容词"
+    },
+    {
+        "query": "(n) (n){count<852}",
+        "description": "两个相邻的名词，且总频次小于852"
+    },
+    {
+        "query": "碳 (v) ？{begin($1)=[封 望]}",
+        "description": "碳后面接一个可能是动词或形容词，且动词或形容词前是封或望"
+    },
+    {
+        "query": "杨懿文 . 。",
+        "description": "杨懿文后面可能是一个标点符号"
+    },
+    {
+        "query": "(c) ， 零碳 发展 是 可行 (u){middle($1)=[此 酸]}",
+        "description": "包含零碳发展，零碳和发展之间是此或酸"
+    },
+    {
+        "query": "表示 ./[w v]",
+        "description": "表示后面接一个词，可能是动词或形容词"
+    },
+    {
+        "query": "(v) (c){len($1)!=3; len($2)!=3}",
+        "description": "包含一个非长度为3的动词和一个非长度为3的连词"
+    },
+    {
+        "query": "(nr) (v){count<251}",
+        "description": "人名后面接一个频次小于251的动词"
+    },
+    {
+        "query": "绿评",
+        "description": "绿评，可能是一个词"
+    },
+    {
+        "query": "r 吗 w",
+        "description": "r后面可能是吗或一个词，且后面接一个词"
+    },
+    {
+        "query": "养殖 ./[v v] 农家",
+        "description": "养殖后面可能接两个动词或形容词，然后是农家"
+    },
+    {
+        "query": "了 ~ 收成",
+        "description": "了后面可能有一个词，然后是收成"
+    },
+    {
+        "query": "重庆 (n) ：{count<324}",
+        "description": "重庆后面跟着一个名词，且频次小于324"
+    },
+    {
+        "query": "鸟 (n){len($1)=2}",
+        "description": "鸟是一个长度为2的名词"
+    },
+    {
+        "query": "武器{len($1)!=3}",
+        "description": "武器不是一个长度为3的词"
+    },
+    {
+        "query": "(n) 连续 三年 (v){begin($2)=[增 减 古]}",
+        "description": "包含连续三年，连续后面接一个可能是增、减或古的动词"
+    },
+    {
+        "query": "国家 (n) 已{len($1)>1}",
+        "description": "国家后面接一个长度大于1的动词"
+    },
+    {
+        "query": "日本 (n) 对{end($1)!=[把 县 碗 郭]}",
+        "description": "日本后面接一个名词，且名词后不接把、县、碗或郭"
+    },
+    {
+        "query": "ns 新{begin($1)=[斯 嘴]}",
+        "description": "新后面可能是斯或嘴"
+    },
+    {
+        "query": "泰国 v 审理",
+        "description": "泰国后面接一个动词审理"
+    },
+    {
+        "query": "(n) (ad){end($2)!=[段 哥]}",
+        "description": "名词后面接一个以段或哥结尾的形容词"
+    },
+    {
+        "query": "(nr) 漏报 伤亡 事故 在 (j){$1=$2}",
+        "description": "漏报、伤亡、事故在一起，且漏报和伤亡相同"
+    }
+]
+```

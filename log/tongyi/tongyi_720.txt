@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "似乎确是",
+        "description": "包含'似乎确是'的句子"
+    },
+    {
+        "query": "欧化",
+        "description": "包含'欧化'的句子"
+    },
+    {
+        "query": "上道",
+        "description": "包含'上道'的句子"
+    },
+    {
+        "query": "莫说",
+        "description": "包含'莫说'的句子"
+    },
+    {
+        "query": "天荒地老",
+        "description": "包含'天荒地老'的句子"
+    },
+    {
+        "query": "懒懒散散",
+        "description": "包含'懒懒散散'的句子"
+    },
+    {
+        "query": "坏了坏了",
+        "description": "包含'坏了坏了'的句子"
+    },
+    {
+        "query": "怎么说",
+        "description": "包含'怎么说'的句子"
+    },
+    {
+        "query": "看样子",
+        "description": "包含'看样子'的句子"
+    },
+    {
+        "query": "政务微博",
+        "description": "包含'政务微博'的句子"
+    },
+    {
+        "query": "嘉陵江",
+        "description": "包含'嘉陵江'的句子"
+    },
+    {
+        "query": "，看着",
+        "description": "包含'，看着'的句子"
+    },
+    {
+        "query": "蚕豆",
+        "description": "包含'蚕豆'的句子"
+    },
+    {
+        "query": "难道！",
+        "description": "包含'难道！'的句子"
+    },
+    {
+        "query": "说明",
+        "description": "包含'说明'的句子"
+    },
+    {
+        "query": "累累",
+        "description": "包含'累累'的句子"
+    },
+    {
+        "query": "滴水",
+        "description": "包含'滴水'的句子"
+    },
+    {
+        "query": "河清海晏",
+        "description": "包含'河清海晏'的句子"
+    },
+    {
+        "query": "中央八项规定",
+        "description": "包含'中央八项规定'的句子"
+    },
+    {
+        "query": "推广",
+        "description": "包含'推广'的句子"
+    },
+    {
+        "query": "中国精神",
+        "description": "包含'中国精神'的句子"
+    },
+    {
+        "query": "种种",
+        "description": "包含'种种'的句子"
+    },
+    {
+        "query": "风雨",
+        "description": "包含'风雨'的句子"
+    },
+    {
+        "query": "了解",
+        "description": "包含'了解'的句子"
+    },
+    {
+        "query": "和谐世界",
+        "description": "包含'和谐世界'的句子"
+    },
+    {
+        "query": "声浪",
+        "description": "包含'声浪'的句子"
+    },
+    {
+        "query": "胡来",
+        "description": "包含'胡来'的句子"
+    },
+    {
+        "query": "索嘎",
+        "description": "包含'索嘎'的句子"
+    },
+    {
+        "query": "不较",
+        "description": "包含'不较'的句子"
+    },
+    {
+        "query": "能麻烦",
+        "description": "包含'能麻烦'的句子"
+    },
+    {
+        "query": "新不新鲜",
+        "description": "包含'新不新鲜'的句子"
+    },
+    {
+        "query": "投",
+        "description": "包含'投'的句子"
+    },
+    {
+        "query": "皮带",
+        "description": "包含'皮带'的句子"
+    },
+    {
+        "query": "上下纵横",
+        "description": "包含'上下纵横'的句子"
+    },
+    {
+        "query": "浩浩",
+        "description": "包含'浩浩'的句子"
+    },
+    {
+        "query": "慢慢",
+        "description": "包含'慢慢'的句子"
+    },
+    {
+        "query": "一头",
+        "description": "包含'一头'的句子"
+    },
+    {
+        "query": "车载",
+        "description": "包含'车载'的句子"
+    },
+    {
+        "query": "萌",
+        "description": "包含'萌'的句子"
+    },
+    {
+        "query": "中",
+        "description": "包含'中'的句子"
+    }
+]
+```

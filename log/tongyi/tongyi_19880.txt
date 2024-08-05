@@ -1,0 +1,136 @@
+以下是将给定的检索式转换为带含义的json结构后的完整列表：
+
+```json
+[
+    {
+        "query": "中共+广东/ns+省委",
+        "description": "包含中共、广东/ns、省委这三个词的组合"
+    },
+    {
+        "query": "中共 广东/ns 省委",
+        "description": "中共、广东/ns、省委这三个词相邻排列的句子"
+    },
+    {
+        "query": "n+热情/a",
+        "description": "包含以n开头、后跟形容词'热情/a'的句子"
+    },
+    {
+        "query": "n 热情/a",
+        "description": "包含名词后紧跟着形容词'热情/a'的句子"
+    },
+    {
+        "query": "这/r+四",
+        "description": "包含指示代词'这/r'后紧跟数字'四'的句子"
+    },
+    {
+        "query": "这/r 四",
+        "description": "包含指示代词'这/r'与数字'四'相邻排列的句子"
+    },
+    {
+        "query": "老朋友+心心相连/i+。",
+        "description": "包含老朋友、心心相连/i、句尾有句点的句子"
+    },
+    {
+        "query": "老朋友 心心相连/i 。",
+        "description": "包含老朋友、心心相连/i、句尾有句点的句子"
+    },
+    {
+        "query": "合浦+汉墓/n+博物馆",
+        "description": "包含合浦、汉墓/n、博物馆这三个词的组合"
+    },
+    {
+        "query": "合浦 汉墓/n 博物馆",
+        "description": "合浦、汉墓/n、博物馆这三个词相邻排列的句子"
+    },
+    {
+        "query": "主席+彭丽敏/nr+表示",
+        "description": "包含主席、彭丽敏/nr、表示这三个词的组合"
+    },
+    {
+        "query": "主席 彭丽敏/nr 表示",
+        "description": "主席、彭丽敏/nr、表示这三个词相邻排列的句子"
+    },
+    {
+        "query": "批判/v",
+        "description": "包含动词'批判/v'的句子"
+    },
+    {
+        "query": "../a党",
+        "description": "包含二字动词后跟形容词'a党'的句子"
+    },
+    {
+        "query": "《+抗战/vn+家书",
+        "description": "包含以《开头、抗战/vn、家书的组合"
+    },
+    {
+        "query": "《 抗战/vn 家书",
+        "description": "包含《、抗战/vn、家书相邻排列的句子"
+    },
+    {
+        "query": "公众+参与度/n+。",
+        "description": "包含公众、参与度/n、句尾有句点的句子"
+    },
+    {
+        "query": "公众 参与度/n 。",
+        "description": "包含公众、参与度/n、句尾有句点的句子"
+    },
+    {
+        "query": "安全/an+何",
+        "description": "包含形容词'安全/an'后紧跟疑问词'何'的句子"
+    },
+    {
+        "query": "根基+在/v+基层",
+        "description": "包含根基、在/v、基层这三个词的组合"
+    },
+    {
+        "query": "../v+问题",
+        "description": "包含二字动词后紧跟'问题'的句子"
+    },
+    {
+        "query": "直击+改革/vn+前沿",
+        "description": "包含直击、改革/vn、前沿这三个词的组合"
+    },
+    {
+        "query": "比/v",
+        "description": "包含动词'比/v'的句子"
+    },
+    {
+        "query": "v+爱情/n",
+        "description": "包含动词后紧跟名词'爱情/n'的句子"
+    },
+    {
+        "query": "喝/v",
+        "description": "包含动词'喝/v'的句子"
+    },
+    {
+        "query": "皆/d",
+        "description": "包含副词'皆/d'的句子"
+    },
+    {
+        "query": "n+的+好意/n",
+        "description": "包含名词后紧跟'的'、后跟形容词'好意/n'的句子"
+    },
+    {
+        "query": "商务+大会/n+召开",
+        "description": "包含商务、大会/n、召开这三个词的组合"
+    },
+    {
+        "query": "校+一/m+探",
+        "description": "包含校、一/m、探这三个词的组合"
+    },
+    {
+        "query": "儿/k",
+        "description": "包含单字儿/k的句子"
+    },
+    {
+        "query": "脏./n",
+        "description": "包含单字脏./n的句子"
+    },
+    {
+        "query": "科学/a",
+        "description": "包含形容词'科学/a'的句子"
+    }
+]
+```
+
+以上json结构完整包含了每个检索式的描述信息，确保了信息的全面性和完整性。

@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "....../ns 总理", 
+        "description": "总理后面的任意位置出现'ns'的实例"
+    },
+    {
+        "query": "萨里耶夫 (n){len($1)=2}", 
+        "description": "名字'萨里耶夫'，长度为2个字符"
+    },
+    {
+        "query": "的 @/[n v]", 
+        "description": "的后面接名词或动词"
+    },
+    {
+        "query": "问题 。/w", 
+        "description": "问题句尾"
+    },
+    {
+        "query": "免 ~ 某些", 
+        "description": "免后接任意词"
+    },
+    {
+        "query": "发展", 
+        "description": "发展单独出现"
+    },
+    {
+        "query": "入境 (n) ！{len($1)=3}", 
+        "description": "入境后面接一个长度为3的名词，后面是感叹号"
+    },
+    {
+        "query": "(n) 传来{count<256}", 
+        "description": "名词后面出现'传来'，且该实例频次小于256"
+    },
+    {
+        "query": "~ 位", 
+        "description": "一个词后接'位'"
+    },
+    {
+        "query": "催促 @", 
+        "description": "催促后面接一个词，统计时按词性归并"
+    },
+    {
+        "query": "羊角 ~/[w v]", 
+        "description": "羊角后面离合出现一个词，可能是动词或名词"
+    },
+    {
+        "query": "出来 。/w", 
+        "description": "出来句尾"
+    },
+    {
+        "query": "个 (y) ？{len($1)!=2}", 
+        "description": "个后接单字，且不是两个字符"
+    },
+    {
+        "query": "个 (n) 。{len($1)=2}", 
+        "description": "个后接名词，且长度为2个字符"
+    },
+    {
+        "query": "@/[i v] 的", 
+        "description": "以字母'i'或'v'开头的词后接'的'"
+    },
+    {
+        "query": "的 (vn) ，{begin($1)=[呐 元 达]}", 
+        "description": "的后面接单音节动词，且以'呐'、'元'或'达'开始"
+    },
+    {
+        "query": "王建康 ~/[v v] 人民", 
+        "description": "王建康后面离合出现两个动词，后面接'人民'"
+    },
+    {
+        "query": "吉林 (v) 扩权{begin($1)=[推 马 强 知]}", 
+        "description": "吉林后面接动词，且动词开始的字符在'推'、'马'、'强'或'知'中"
+    },
+    {
+        "query": "南京/ns 举行/v", 
+        "description": "南京后面接'ns'，然后是动词举行的实例"
+    },
+    {
+        "query": "新兴 (n) ：{len($1)=2}", 
+        "description": "新兴后面接一个长度为2的名词，然后是冒号"
+    },
+    {
+        "query": ".. 有 了 云 ..", 
+        "description": "连续的三个字符后接'有'、'了'、'云'，再接连续的三个字符"
+    },
+    {
+        "query": "能够 @/[v v] 一切", 
+        "description": "能够后面接一个词，可能是动词或动词，后面接'一切'"
+    },
+    {
+        "query": "数据/n 整合 ：/w", 
+        "description": "数据后面接名词，整合后是句尾"
+    },
+    {
+        "query": "~ 办事", 
+        "description": "一个词后接'办事'"
+    },
+    {
+        "query": "网站 (w){count>9}", 
+        "description": "网站出现的频次大于9"
+    },
+    {
+        "query": "淘宝 ~/[u v] 逛", 
+        "description": "淘宝后面离合出现一个词，可能是助词或动词，后面接'逛'"
+    },
+    {
+        "query": "这 . 是", 
+        "description": "这后接一个字符，然后是'是'"
+    },
+    {
+        "query": "~ 数据", 
+        "description": "一个词后接'数据'"
+    },
+    {
+        "query": "： (v){end($1)=[诺 树]}", 
+        "description": "句尾是动词，且动词的开始字符在'诺'或'树'中"
+    },
+    {
+        "query": "开发 .../[n v] ，", 
+        "description": "开发后面接任意数量的字符，然后是名词或动词，最后是逗号"
+    },
+    {
+        "query": "资源 (w){count<754}", 
+        "description": "资源出现的频次小于754"
+    },
+    {
+        "query": "改变 ~ 管", 
+        "description": "改变后接一个词"
+    },
+    {
+        "query": "呢 @/[w v]", 
+        "description": "呢后接一个词，统计时按词性归并"
+    },
+    {
+        "query": "净化 ~ 人民", 
+        "description": "净化后接一个词"
+    },
+    {
+        "query": "../[vn v] 风云", 
+        "description": "两个词之间的离合词可能是动词或名词，后面接'风云'"
+    },
+    {
+        "query": "(w) 怎解 (v){count>10}", 
+        "description": "怎么解后面接动词，且该实例频次大于10"
+    },
+    {
+        "query": "， (d) 作{begin($1)=[无 陪]}", 
+        "description": "逗号后接副词，且副词的开始字符在'无'或'陪'中"
+    },
+    {
+        "query": "， @ 使", 
+        "description": "逗号后接一个词，统计时按词性归并"
+    },
+    {
+        "query": "有 .../[n v]", 
+        "description": "有后面接任意数量的字符，然后是名词或动词"
+    },
+    {
+        "query": "凝聚 . 世界", 
+        "description": "凝聚后接一个字符，然后是'世界'"
+    }
+]
+```

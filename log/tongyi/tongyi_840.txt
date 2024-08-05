@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "不详",
+        "description": "不详"
+    },
+    {
+        "query": "谷",
+        "description": "谷"
+    },
+    {
+        "query": "戏精",
+        "description": "戏精"
+    },
+    {
+        "query": "国对和谐",
+        "description": "国对和谐"
+    },
+    {
+        "query": "养",
+        "description": "养"
+    },
+    {
+        "query": "特高级",
+        "description": "特高级"
+    },
+    {
+        "query": "人权《",
+        "description": "人权《"
+    },
+    {
+        "query": "唱人权",
+        "description": "唱人权"
+    },
+    {
+        "query": "辣辣",
+        "description": "辣辣"
+    },
+    {
+        "query": "渣",
+        "description": "渣"
+    },
+    {
+        "query": "和谐6月",
+        "description": "和谐6月"
+    },
+    {
+        "query": "海角天涯",
+        "description": "海角天涯"
+    },
+    {
+        "query": "饭吃起来",
+        "description": "饭吃起来"
+    },
+    {
+        "query": "生机",
+        "description": "生机"
+    },
+    {
+        "query": "动作做起来",
+        "description": "动作做起来"
+    },
+    {
+        "query": "电报",
+        "description": "电报"
+    },
+    {
+        "query": "快别提啦",
+        "description": "快别提啦"
+    },
+    {
+        "query": "忽地，",
+        "description": "忽地，"
+    },
+    {
+        "query": "六译",
+        "description": "六译"
+    },
+    {
+        "query": "话不是这样说",
+        "description": "话不是这样说"
+    },
+    {
+        "query": "和谐之基",
+        "description": "和谐之基"
+    },
+    {
+        "query": "不能禁止",
+        "description": "不能禁止"
+    },
+    {
+        "query": "忍人权",
+        "description": "忍人权"
+    },
+    {
+        "query": "和谐内涵",
+        "description": "和谐内涵"
+    },
+    {
+        "query": "的你",
+        "description": "的你"
+    },
+    {
+        "query": "仅仅对",
+        "description": "仅仅对"
+    },
+    {
+        "query": "跑得快",
+        "description": "跑得快"
+    },
+    {
+        "query": "怕羞",
+        "description": "怕羞"
+    },
+    {
+        "query": "哦！",
+        "description": "哦！"
+    },
+    {
+        "query": "换了我",
+        "description": "换了我"
+    },
+    {
+        "query": "红到",
+        "description": "红到"
+    },
+    {
+        "query": "。一定我",
+        "description": "。一定我"
+    },
+    {
+        "query": "难受",
+        "description": "难受"
+    },
+    {
+        "query": "必定",
+        "description": "必定"
+    },
+    {
+        "query": "丰满",
+        "description": "丰满"
+    },
+    {
+        "query": "丧气",
+        "description": "丧气"
+    },
+    {
+        "query": "出活儿",
+        "description": "出活儿"
+    },
+    {
+        "query": "冰消瓦解",
+        "description": "冰消瓦解"
+    },
+    {
+        "query": "帮个忙",
+        "description": "帮个忙"
+    },
+    {
+        "query": "无此不",
+        "description": "无此不"
+    }
+]
+```

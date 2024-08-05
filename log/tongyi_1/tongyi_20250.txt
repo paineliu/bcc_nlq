@@ -1,0 +1,160 @@
+```json
+[
+    {
+        "query": "能否 v 低迷",
+        "description": "能否后面接动词和低迷"
+    },
+    {
+        "query": "张芳曼/nr 制图",
+        "description": "人名张芳曼后面接制图"
+    },
+    {
+        "query": "荒漠化 @ 沙化",
+        "description": "荒漠化后面接一个词，沙化"
+    },
+    {
+        "query": "说 ~",
+        "description": "说后面接一个词"
+    },
+    {
+        "query": "此外 w 无序",
+        "description": "此外后面接无序"
+    },
+    {
+        "query": "nr 说",
+        "description": "人名后面接说"
+    },
+    {
+        "query": "禁渔期 ~/[v v]",
+        "description": "禁渔期后面离合出现两个动词"
+    },
+    {
+        "query": "美丽 @ ·",
+        "description": "美丽后面接一个词"
+    },
+    {
+        "query": "大鱼腾空 ~",
+        "description": "大鱼腾空后面接一个词"
+    },
+    {
+        "query": "结束 w",
+        "description": "结束后面接一个词"
+    },
+    {
+        "query": "渔工 (p) 渔网{len($1)=1}",
+        "description": "渔工后面接一个长度为1的名词"
+    },
+    {
+        "query": "说 ./w",
+        "description": "说后面接一个词"
+    },
+    {
+        "query": ". 措施 抓 大气 污染 ..",
+        "description": "一个符号后接措施抓大气污染，后面可以是任意字符"
+    },
+    {
+        "query": "说 .",
+        "description": "说后面接一个符号"
+    },
+    {
+        "query": "车位 (c) 不是{count>6}",
+        "description": "车位后面接不是，且不是的实例数大于6"
+    },
+    {
+        "query": "前景 @/[a v] ，",
+        "description": "前景后面接形容词或动词，后面可能是逗号"
+    },
+    {
+        "query": "试试 (r) 几{len($1)!=2}",
+        "description": "试试后面接一个长度不为2的词"
+    },
+    {
+        "query": "， (n) 才{end($1)!=[胖 香 见]}",
+        "description": "逗号后面接一个名词，且名词不是胖、香或见"
+    },
+    {
+        "query": "后者 .",
+        "description": "后者后面接一个符号"
+    },
+    {
+        "query": "(n) 的{len($1)=3}",
+        "description": "一个名词后面接一个长度为3的的"
+    },
+    {
+        "query": "./m 是",
+        "description": "一个词后面接是"
+    },
+    {
+        "query": "(m) 要{len($1)=1}",
+        "description": "一个长度为1的词后面接要"
+    },
+    {
+        "query": "警惕",
+        "description": "警惕"
+    },
+    {
+        "query": "m 要 合理 使用 w",
+        "description": "一个词后面接要、合理和使用"
+    },
+    {
+        "query": "(nr) 立足 (n){len($1)>1}",
+        "description": "人名后面接立足，立足后面接一个长度大于1的名词"
+    },
+    {
+        "query": "安全 n",
+        "description": "安全后面接名词"
+    },
+    {
+        "query": "安全 ./[w v]",
+        "description": "安全后面接一个词或动词"
+    },
+    {
+        "query": "深圳/ns 北站",
+        "description": "深圳后面接北站"
+    },
+    {
+        "query": "(:){end($1)!=[催 静 干]}",
+        "description": "冒号后面接的不是催、静或干"
+    },
+    {
+        "query": "洪兵 (v) 。{count<839}",
+        "description": "洪兵后面接一个动词，且动词的实例数小于839"
+    },
+    {
+        "query": "非常 (v) 。{len($1)!=3}",
+        "description": "非常后面接一个长度不为3的动词"
+    },
+    {
+        "query": "视频 (v){len($1)>1}",
+        "description": "视频后面接一个长度大于1的动词"
+    },
+    {
+        "query": "到 @",
+        "description": "到后面接一个词"
+    },
+    {
+        "query": "最 (a) 特点{count>10}",
+        "description": "最后面接一个形容词，特点的实例数大于10"
+    },
+    {
+        "query": "了 (n) 的{end($1)=[人 倒]}",
+        "description": "了后面接一个名词，名词是人或倒"
+    },
+    {
+        "query": "如何 ../[v v] 呢",
+        "description": "如何后面接两个动词"
+    },
+    {
+        "query": "(n) (n){$1!=$2}",
+        "description": "两个名词，但不相邻"
+    },
+    {
+        "query": "../v 中国",
+        "description": "两个动词"
+    },
+    {
+        "query": "(d) 创{count>10}",
+        "description": "副词创，实例数大于10"
+    }
+]
+```

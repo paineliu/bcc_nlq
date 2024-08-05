@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "几乎*似乎",
+        "description": "几乎后面离合出现似乎"
+    },
+    {
+        "query": "w终.始w",
+        "description": "终后接一个字后接始，形成二字短句"
+    },
+    {
+        "query": "似乎*甚至",
+        "description": "似乎后面离合出现甚至"
+    },
+    {
+        "query": "留*念",
+        "description": "留后面离合出现念"
+    },
+    {
+        "query": "地域..",
+        "description": "地域后面隔一个字后接一个字"
+    },
+    {
+        "query": "引发~",
+        "description": "引发后接一个词"
+    },
+    {
+        "query": "w富.穷w",
+        "description": "富后接一个字后接穷，形成二字短句"
+    },
+    {
+        "query": "药房*v",
+        "description": "药房后接单音节动词"
+    },
+    {
+        "query": "似乎*只得",
+        "description": "似乎后面离合出现只得"
+    },
+    {
+        "query": "v上*欣喜",
+        "description": "动词后接上，然后离合出现欣喜"
+    },
+    {
+        "query": "把*v下去",
+        "description": "把后接动词，动词后邻下去"
+    },
+    {
+        "query": "更加~",
+        "description": "更加后接一个词"
+    },
+    {
+        "query": "w不是*。",
+        "description": "不是后接一个字后接句尾符号"
+    },
+    {
+        "query": "~发生",
+        "description": "一个词后接发生"
+    },
+    {
+        "query": "v*住房",
+        "description": "动词后接住房"
+    },
+    {
+        "query": "我.+过来w",
+        "description": "我后接单字连词连接过来"
+    },
+    {
+        "query": "我. 过来w",
+        "description": "我后接空格后接过来"
+    },
+    {
+        "query": "只要*就*",
+        "description": "只要后面离合出现就"
+    },
+    {
+        "query": "v上*愉悦",
+        "description": "动词后接上，然后离合出现愉悦"
+    },
+    {
+        "query": "她们..+起来w",
+        "description": "她们后接一个字后接单字连词连接起来"
+    },
+    {
+        "query": "她们.. 起来w",
+        "description": "她们后接一个字后接起来"
+    },
+    {
+        "query": "向*中V",
+        "description": "向后面离合出现中"
+    },
+    {
+        "query": "总*吧",
+        "description": "总后面离合出现吧"
+    },
+    {
+        "query": "就要.了的",
+        "description": "就要后面隔一个字后接了的"
+    },
+    {
+        "query": "你.+上去w",
+        "description": "你后接单字连词连接上去"
+    },
+    {
+        "query": "你. 上去w",
+        "description": "你后接空格后接上去"
+    },
+    {
+        "query": "v上*欢乐",
+        "description": "动词后接上，然后离合出现欢乐"
+    },
+    {
+        "query": "被*+v+v+v",
+        "description": "被后接多个动词"
+    },
+    {
+        "query": "被* v v v",
+        "description": "被后接多个单音节动词"
+    },
+    {
+        "query": "w薄.厚w",
+        "description": "薄后接一个字后接厚，形成二字短句"
+    },
+    {
+        "query": "看把*a的w",
+        "description": "看后接把，后接形容词的，最后接单音节动词"
+    },
+    {
+        "query": "一.开来",
+        "description": "一后接一个字后接开来"
+    },
+    {
+        "query": "你(p)*(vn)",
+        "description": "你后接p类型的词性，然后邻接动词"
+    },
+    {
+        "query": "似乎*确有",
+        "description": "似乎后面离合出现确有"
+    },
+    {
+        "query": "n包围*n",
+        "description": "名词后接包围，然后再次接名词"
+    },
+    {
+        "query": "V下*喜悦",
+        "description": "动词后接下，然后离合出现喜悦"
+    },
+    {
+        "query": "一.着就",
+        "description": "一后接一个字后接着就"
+    },
+    {
+        "query": "n的~vn",
+        "description": "名词后接一个词"
+    },
+    {
+        "query": "a.衣服",
+        "description": "形容词后接衣服"
+    },
+    {
+        "query": "从......起",
+        "description": "从后面有省略号，然后接起"
+    }
+]
+```

@@ -1,0 +1,166 @@
+以下是将给定的检索式转换为带含义的JSON结构后的完整列表：
+
+```json
+[
+    {
+        "query": "(r)+盼望{len($1)<3}",
+        "description": "以盼望开头的短语，长度小于3"
+    },
+    {
+        "query": "(r) 盼望{len($1)<3}",
+        "description": "盼望短语，长度小于3"
+    },
+    {
+        "query": "(i)+。{len($1)!=5}",
+        "description": "以。结尾的标点，长度不等于5"
+    },
+    {
+        "query": "(i) 。{len($1)!=5}",
+        "description": "。标点，长度不等于5"
+    },
+    {
+        "query": "七成+(n)+耕地{len($1)<3}",
+        "description": "七成后接耕地，耕地长度小于3"
+    },
+    {
+        "query": "七成 (n) 耕地{len($1)<3}",
+        "description": "七成后接耕地，耕地长度小于3"
+    },
+    {
+        "query": "于+(m)+个{count>10}",
+        "description": "于后接个，个的数量大于10"
+    },
+    {
+        "query": "于 (m) 个{count>10}",
+        "description": "于后接个，个的数量大于10"
+    },
+    {
+        "query": "通神+(u)+艺术{len($1)!=2}",
+        "description": "通神后接艺术，艺术长度不等于2"
+    },
+    {
+        "query": "通神 (u) 艺术{len($1)!=2}",
+        "description": "通神后接艺术，艺术长度不等于2"
+    },
+    {
+        "query": "艰难+(vn){end($1)=[型+猜+自]}",
+        "description": "艰难后接由型、猜、自组成的序列"
+    },
+    {
+        "query": "艰难 (vn){end($1)=[型 猜 自]}",
+        "description": "艰难后接由型、猜、自组成的序列"
+    },
+    {
+        "query": "邓+(nr)+摄{end($1)=[平+亚+刘+份]}",
+        "description": "邓后接摄，摄后接平、亚、刘、份的组合"
+    },
+    {
+        "query": "邓 (nr) 摄{end($1)=[平 亚 刘 份]}",
+        "description": "邓后接摄，摄后接平、亚、刘、份的组合"
+    },
+    {
+        "query": "重视+(v)+灌木林{len($1)<3}",
+        "description": "重视后接灌木林，灌木林长度小于3"
+    },
+    {
+        "query": "重视 (v) 灌木林{len($1)<3}",
+        "description": "重视后接灌木林，灌木林长度小于3"
+    },
+    {
+        "query": "摄+(n)+视觉{begin($1)!=[到+奶+宁]}",
+        "description": "摄后接视觉，视觉不以到、奶、宁开头"
+    },
+    {
+        "query": "摄 (n) 视觉{begin($1)!=[到 奶 宁]}",
+        "description": "摄后接视觉，视觉不以到、奶、宁开头"
+    },
+    {
+        "query": "外国+(n)+。{len($1)!=4}",
+        "description": "外国后接。，。长度不等于4"
+    },
+    {
+        "query": "外国 (n) 。{len($1)!=4}",
+        "description": "外国后接。，。长度不等于4"
+    },
+    {
+        "query": "(m)大(n){len($2)=1;len($2)=4}",
+        "description": "m后接大，大长度为1或4"
+    },
+    {
+        "query": "收入+(n)+系{begin($1)=[基+欠+杯+票]}",
+        "description": "收入后接系，系以基、欠、杯、票开头"
+    },
+    {
+        "query": "收入 (n) 系{begin($1)=[基 欠 杯 票]}",
+        "description": "收入后接系，系以基、欠、杯、票开头"
+    },
+    {
+        "query": "萝卜+(a)+了{len($1)=1}",
+        "description": "萝卜后接了，了长度为1"
+    },
+    {
+        "query": "萝卜 (a) 了{len($1)=1}",
+        "description": "萝卜后接了，了长度为1"
+    },
+    {
+        "query": "历史+(n)+提供{len($1)>2}",
+        "description": "历史后接提供，提供长度大于2"
+    },
+    {
+        "query": "历史 (n) 提供{len($1)>2}",
+        "description": "历史后接提供，提供长度大于2"
+    },
+    {
+        "query": "不(v)也(v){$1=$2;len($1)=2}",
+        "description": "不和也相等，且长度为2"
+    },
+    {
+        "query": "(n)+(n){len($1)>1; len($2)>1}",
+        "description": "两个n，每个长度大于1"
+    },
+    {
+        "query": "(n) (n){len($1)>1; len($2)>1}",
+        "description": "两个n，每个长度大于1"
+    },
+    {
+        "query": "(a)不到哪去{len($1)=2}",
+        "description": "a后接不到哪去，不到哪去长度为2"
+    },
+    {
+        "query": "第六十三+(q){len($1)!=2}",
+        "description": "第六十三后接q，q长度不等于2"
+    },
+    {
+        "query": "第六十三 (q){len($1)!=2}",
+        "description": "第六十三后接q，q长度不等于2"
+    },
+    {
+        "query": "(n)+依然{end($1)=[面+晒]}",
+        "description": "n后接依然，依然以面、晒结尾"
+    },
+    {
+        "query": "(n) 依然{end($1)=[面 晒]}",
+        "description": "n后接依然，依然以面、晒结尾"
+    },
+    {
+        "query": "(n){end($1)=[机]}",
+        "description": "n以机结尾"
+    },
+    {
+        "query": "手表+(w){count>6}",
+        "description": "手表后接w，w数量大于6"
+    },
+    {
+        "query": "手表 (w){count>6}",
+        "description": "手表后接w，w数量大于6"
+    },
+    {
+        "query": "与子偕老+(w){count>4}",
+        "description": "与子偕老后接w，w数量大于4"
+    },
+    {
+        "query": "与子偕老 (w){count>4}",
+        "description": "与子偕老后接w，w数量大于4"
+    }
+]
+```

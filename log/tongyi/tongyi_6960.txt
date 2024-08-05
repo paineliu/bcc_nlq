@@ -1,0 +1,166 @@
+根据给出的检索式，我们可以将其转化为具有含义的JSON结构如下：
+
+```json
+[
+    {
+        "query": "v一体",
+        "description": "动词后接'一体'"
+    },
+    {
+        "query": "劝告v",
+        "description": "劝告作为动词"
+    },
+    {
+        "query": "进退n",
+        "description": "进退作为名词"
+    },
+    {
+        "query": "a单位",
+        "description": "形容词后接单位"
+    },
+    {
+        "query": "a地下室",
+        "description": "形容词后接地下室"
+    },
+    {
+        "query": "心情V上",
+        "description": "心情作为动词后接'上'"
+    },
+    {
+        "query": "a分别",
+        "description": "形容词后接分别"
+    },
+    {
+        "query": "不可v",
+        "description": "不可作为动词"
+    },
+    {
+        "query": "v上进",
+        "description": "动词后接'上进'"
+    },
+    {
+        "query": "v过m+q",
+        "description": "动词后接'm+q'"
+    },
+    {
+        "query": "v过m q",
+        "description": "动词后接'm'和'q'"
+    },
+    {
+        "query": "a中",
+        "description": "形容词后接中"
+    },
+    {
+        "query": "v得d+a+w",
+        "description": "动词后接'd得a+w'"
+    },
+    {
+        "query": "v得d a w",
+        "description": "动词后接'd'、'a'和'w'"
+    },
+    {
+        "query": "。众n",
+        "description": "句尾后接众作为名词"
+    },
+    {
+        "query": "n这n那",
+        "description": "名词后接这和那"
+    },
+    {
+        "query": "N所V的",
+        "description": "N所作为名词后接动词'的'"
+    },
+    {
+        "query": "v一间",
+        "description": "动词后接一间"
+    },
+    {
+        "query": "v+死",
+        "description": "动词后接死"
+    },
+    {
+        "query": "v 死",
+        "description": "动词后接死"
+    },
+    {
+        "query": "a厕所",
+        "description": "形容词后接厕所"
+    },
+    {
+        "query": "工具房v",
+        "description": "工具房作为名词后接动词"
+    },
+    {
+        "query": "d一次",
+        "description": "天干'd'后接一次"
+    },
+    {
+        "query": "m+本+n",
+        "description": "量词后接本和名词"
+    },
+    {
+        "query": "m 本 n",
+        "description": "量词后接本和名词"
+    },
+    {
+        "query": "a信息",
+        "description": "形容词后接信息"
+    },
+    {
+        "query": "安于n",
+        "description": "安于作为动词后接名词"
+    },
+    {
+        "query": "v为",
+        "description": "动词后接为"
+    },
+    {
+        "query": "得a",
+        "description": "得作为动词后接形容词"
+    },
+    {
+        "query": "零v",
+        "description": "零作为形容词"
+    },
+    {
+        "query": "r见解",
+        "description": "r作为人称后接见解"
+    },
+    {
+        "query": "把n哭a了",
+        "description": "把后接名词、哭、形容词后接了"
+    },
+    {
+        "query": "。+n是n+？",
+        "description": "句尾后接名词、是、名词、问号"
+    },
+    {
+        "query": "。 n是n ？",
+        "description": "句尾后接名词、是、名词、问号"
+    },
+    {
+        "query": "在N里堆",
+        "description": "在后接N、里、动词后接堆"
+    },
+    {
+        "query": "概念a",
+        "description": "概念作为名词后接形容词"
+    },
+    {
+        "query": "a合成",
+        "description": "形容词后接合成"
+    },
+    {
+        "query": "v过来n",
+        "description": "动词后接过来和名词"
+    },
+    {
+        "query": "一份n",
+        "description": "动词后接一份和名词"
+    },
+    {
+        "query": "a作用",
+        "description": "形容词后接作用"
+    }
+]
+```

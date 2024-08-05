@@ -1,0 +1,80 @@
+```json
+[
+    {
+        "query": "双剑 .. 发力", 
+        "description":"双剑后接两个任意字符再接发力"
+    },
+    {
+        "query": "全国 v 一盘棋", 
+        "description":"全国后接动词和一盘棋"
+    },
+    {
+        "query": "莫 ./p 群众", 
+        "description":"莫后接一个任意字符和介词再接群众"
+    },
+    {
+        "query": "大 .", 
+        "description":"大后接任意一个字符"
+    },
+    {
+        "query": "，", 
+        "description":"包含逗号的句子"
+    },
+    {
+        "query": "看 @ 生厌", 
+        "description":"看后接任意词性词再接生厌"
+    },
+    {
+        "query": "世 @/[w v]", 
+        "description":"世后接以w或v开头的任意词性词"
+    },
+    {
+        "query": "风至 (v) ，{count>9}", 
+        "description":"风至后接动词，且该模式出现次数大于9"
+    },
+    {
+        "query": "完 @/[y v] ，", 
+        "description":"完后接以y或v开头的任意词性词，且该模式以逗号结尾"
+    },
+    {
+        "query": "读者 ~/[ad v] 投稿", 
+        "description":"读者后接一个词（词性为ad或v），再接投稿"
+    },
+    {
+        "query": "(p) 年龄{len($1)=1}", 
+        "description":"年龄所在的句子中，括号内的部分长度为1"
+    },
+    {
+        "query": "李 @/[nr v] 说", 
+        "description":"李后接任意词性词（以nr或v开头），再接说"
+    },
+    {
+        "query": "青石村 全景/n 。", 
+        "description":"青石村后接全景和名词，以句号结尾"
+    },
+    {
+        "query": "经过 .", 
+        "description":"包含经过后接任意字符的句子"
+    },
+    {
+        "query": "红叶", 
+        "description":"包含红叶的句子"
+    },
+    {
+        "query": "(n) 支书 杨庆华 说 (w){$1!=$2}", 
+        "description":"支书杨庆华说，其中括号内名词不同"
+    },
+    {
+        "query": "真切", 
+        "description":"包含真切的句子"
+    },
+    {
+        "query": "扫 ~ ！", 
+        "description":"扫后接一个词，再接感叹号"
+    },
+    {
+        "query": "(v) 要{len($1)<3}", 
+        "description":"要所在的句子中，括号内动词长度小于3"
+    }
+]
+```

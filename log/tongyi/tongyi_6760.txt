@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "先v",
+        "description": "动词开头的句子"
+    },
+    {
+        "query": "性子a",
+        "description": "形容词性子之后的句子"
+    },
+    {
+        "query": "V进ns来",
+        "description": "动词V后进ns再来的句子"
+    },
+    {
+        "query": "a十分",
+        "description": "形容词a之后跟着十分的句子"
+    },
+    {
+        "query": "high惨了",
+        "description": "英文单词high后惨了的句子"
+    },
+    {
+        "query": "上ns",
+        "description": "上ns作为句子的一部分"
+    },
+    {
+        "query": "a偏僻",
+        "description": "形容词a之后跟着偏僻的句子"
+    },
+    {
+        "query": "一眼就V",
+        "description": "一眼后跟着动词V的句子"
+    },
+    {
+        "query": "和n+都",
+        "description": "和n后跟着都的句子"
+    },
+    {
+        "query": "和n 都",
+        "description": "和n后紧跟都的句子"
+    },
+    {
+        "query": "n建构",
+        "description": "名词n后跟着建构的句子"
+    },
+    {
+        "query": "个n",
+        "description": "个n作为句子的一部分"
+    },
+    {
+        "query": "在N堵",
+        "description": "在N之后跟着堵的句子"
+    },
+    {
+        "query": "a办公室",
+        "description": "形容词a之后跟着办公室的句子"
+    },
+    {
+        "query": "不很a",
+        "description": "不很之后跟着形容词a的句子"
+    },
+    {
+        "query": "n决定",
+        "description": "名词n之后跟着决定的句子"
+    },
+    {
+        "query": "六n",
+        "description": "数字六之后跟着名词n的句子"
+    },
+    {
+        "query": "v它q",
+        "description": "动词v后跟着它q的句子"
+    },
+    {
+        "query": "v完了n",
+        "description": "动词v后跟着完了n的句子"
+    },
+    {
+        "query": "nr探望",
+        "description": "nr后跟着探望的句子"
+    },
+    {
+        "query": "ad突破",
+        "description": "副词ad后跟着突破的句子"
+    },
+    {
+        "query": "a上去",
+        "description": "形容词a后跟着上去的句子"
+    },
+    {
+        "query": "在+N上",
+        "description": "在+N后跟着上"
+    },
+    {
+        "query": "在 N上",
+        "description": "在N后跟着上"
+    },
+    {
+        "query": "d和d",
+        "description": "d和d并列使用的句子"
+    },
+    {
+        "query": "f+有+过+m+q",
+        "description": "f后有+过+m+q组成的句子"
+    },
+    {
+        "query": "f 有 过 m q",
+        "description": "f有+过+m+q组成的句子"
+    },
+    {
+        "query": "真r",
+        "description": "真r作为句子的一部分"
+    },
+    {
+        "query": "a医务室",
+        "description": "形容词a之后跟着医务室的句子"
+    },
+    {
+        "query": "c+v为",
+        "description": "c+v为组成的句子"
+    },
+    {
+        "query": "c v为",
+        "description": "c v为组成的句子"
+    },
+    {
+        "query": "颇+v",
+        "description": "颇之后跟着动词v的句子"
+    },
+    {
+        "query": "颇 v",
+        "description": "颇之后跟着v的句子"
+    },
+    {
+        "query": "w+很a的是+w",
+        "description": "w+很a的是+w组成的句子"
+    },
+    {
+        "query": "w 很a的是 w",
+        "description": "w之后很a的是w组成的句子"
+    },
+    {
+        "query": "a女子",
+        "description": "形容词a之后跟着女子的句子"
+    },
+    {
+        "query": "耐V。",
+        "description": "耐之后跟着V并以句号结尾的句子"
+    },
+    {
+        "query": "点n",
+        "description": "点n作为句子的一部分"
+    },
+    {
+        "query": "他就v他的",
+        "description": "他就v他的的句子"
+    },
+    {
+        "query": "v+n的n",
+        "description": "动词v后跟着n的n的句子"
+    }
+]
+```

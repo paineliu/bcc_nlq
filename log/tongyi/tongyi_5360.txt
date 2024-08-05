@@ -1,0 +1,166 @@
+根据给出的检索式，我们将其转换为带含义的JSON结构如下：
+
+```json
+[
+    {
+        "query": "洗衣房v",
+        "description": "洗衣房后面跟着动词v"
+    },
+    {
+        "query": "依照n+",
+        "description": "依照后面跟着一个词或短语"
+    },
+    {
+        "query": "依照n",
+        "description": "依照后面跟着名词"
+    },
+    {
+        "query": "m项n",
+        "description": "m项后面跟着名词"
+    },
+    {
+        "query": "n所v的是",
+        "description": "n所后面跟着动词v，再跟着的是"
+    },
+    {
+        "query": "v上n",
+        "description": "动词v上面跟着名词n"
+    },
+    {
+        "query": "m经过",
+        "description": "m经过某物或某地"
+    },
+    {
+        "query": "不好a",
+        "description": "形容词不好后面跟着的形容词"
+    },
+    {
+        "query": "在N上缠",
+        "description": "在N上面缠绕某物"
+    },
+    {
+        "query": "不V干净",
+        "description": "不后面跟着动词V，再跟着干净"
+    },
+    {
+        "query": "n想",
+        "description": "n后面跟着动词想"
+    },
+    {
+        "query": "一巴掌V",
+        "description": "一巴掌后面跟着动词V"
+    },
+    {
+        "query": "有点很v",
+        "description": "有点后面跟着很v"
+    },
+    {
+        "query": "一天n",
+        "description": "一天后面跟着名词n"
+    },
+    {
+        "query": "四n",
+        "description": "数字四后面跟着名词n"
+    },
+    {
+        "query": "一床n",
+        "description": "一床后面跟着名词n"
+    },
+    {
+        "query": "炖n",
+        "description": "炖后面跟着名词n"
+    },
+    {
+        "query": "n+种植",
+        "description": "n后面跟着种植"
+    },
+    {
+        "query": "n 种植",
+        "description": "n后面跟着种植"
+    },
+    {
+        "query": "多v",
+        "description": "多后面跟着动词v"
+    },
+    {
+        "query": "w+a一生",
+        "description": "w后面跟着a一生"
+    },
+    {
+        "query": "w a一生",
+        "description": "w后面跟着a一生"
+    },
+    {
+        "query": "刷v",
+        "description": "刷后面跟着动词v"
+    },
+    {
+        "query": "r目的",
+        "description": "r后面跟着目的"
+    },
+    {
+        "query": "a电筒",
+        "description": "a后面跟着电筒"
+    },
+    {
+        "query": "联手v",
+        "description": "联手后面跟着动词v"
+    },
+    {
+        "query": "够n",
+        "description": "够后面跟着名词n"
+    },
+    {
+        "query": "w原因a",
+        "description": "w后面跟着原因a"
+    },
+    {
+        "query": "w墙上挂着",
+        "description": "w墙上挂着某物"
+    },
+    {
+        "query": "提高n",
+        "description": "提高后面跟着名词n"
+    },
+    {
+        "query": "a入口",
+        "description": "a后面跟着入口"
+    },
+    {
+        "query": "你说n不n",
+        "description": "你说后面跟着n，再跟着不n"
+    },
+    {
+        "query": "一n+v死",
+        "description": "一后面跟着名词n，再跟着动词v死"
+    },
+    {
+        "query": "一n v死",
+        "description": "一后面跟着名词n，再跟着动词v死"
+    },
+    {
+        "query": "再v",
+        "description": "再后面跟着动词v"
+    },
+    {
+        "query": "V有",
+        "description": "V后面跟着有"
+    },
+    {
+        "query": "转v",
+        "description": "转后面跟着动词v"
+    },
+    {
+        "query": "a了不起",
+        "description": "a后面跟着了不起"
+    },
+    {
+        "query": "关+f",
+        "description": "关后面跟着f"
+    },
+    {
+        "query": "关 f",
+        "description": "关后面跟着f"
+    }
+]
+```

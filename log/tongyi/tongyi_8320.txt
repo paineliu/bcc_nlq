@@ -1,0 +1,168 @@
+以下是将给定的检索式转换为带含义的json结构的结果：
+
+```json
+[
+    {
+        "query": "意见v",
+        "description": "动词后接意见"
+    },
+    {
+        "query": "无a不v",
+        "description": "形容词无后接动词不"
+    },
+    {
+        "query": "无a不a",
+        "description": "形容词无后接形容词不后接形容词"
+    },
+    {
+        "query": "一a到底",
+        "description": "形容词一后接到底"
+    },
+    {
+        "query": "有点n",
+        "description": "副形词有点后接名词"
+    },
+    {
+        "query": "被V",
+        "description": "被后接动词"
+    },
+    {
+        "query": "a另外",
+        "description": "形容词a后接另外"
+    },
+    {
+        "query": "a供销",
+        "description": "形容词a后接供销"
+    },
+    {
+        "query": "V过了",
+        "description": "动词后接过"
+    },
+    {
+        "query": "v时间+v+n",
+        "description": "动词后接时间动词后接名词"
+    },
+    {
+        "query": "v时间 v n",
+        "description": "动词后接时间后接动词后接名词"
+    },
+    {
+        "query": "多加v",
+        "description": "动词多后接加动词"
+    },
+    {
+        "query": "v洗衣房",
+        "description": "动词后接洗衣房"
+    },
+    {
+        "query": "n+立刻",
+        "description": "名词后接立刻"
+    },
+    {
+        "query": "n 立刻",
+        "description": "名词后接立刻"
+    },
+    {
+        "query": "v+得+n",
+        "description": "动词后接得后接名词"
+    },
+    {
+        "query": "v 得 n",
+        "description": "动词后接得后接名词"
+    },
+    {
+        "query": "水平w",
+        "description": "拟声词后接水平"
+    },
+    {
+        "query": "这么v+w",
+        "description": "动词这么后接拟声词"
+    },
+    {
+        "query": "这么v w",
+        "description": "动词这么后接拟声词"
+    },
+    {
+        "query": "m辈n",
+        "description": "数词m后接辈后接名词"
+    },
+    {
+        "query": "a发行",
+        "description": "形容词a后接发行"
+    },
+    {
+        "query": "n下的n",
+        "description": "名词后接下后接名词"
+    },
+    {
+        "query": "对n进行v",
+        "description": "动词对后接名词进行动词"
+    },
+    {
+        "query": "也许偏偏v",
+        "description": "副词也许后接偏偏动词"
+    },
+    {
+        "query": "无N",
+        "description": "否定词无后接名词"
+    },
+    {
+        "query": "一番n",
+        "description": "名词一番后接名词"
+    },
+    {
+        "query": "n感",
+        "description": "名词后接感"
+    },
+    {
+        "query": "a有点",
+        "description": "形容词a后接有点"
+    },
+    {
+        "query": "d没有",
+        "description": "副词d后接没有"
+    },
+    {
+        "query": "v精",
+        "description": "动词后接精"
+    },
+    {
+        "query": "往+j+v",
+        "description": "方位词往后接介词j后接动词"
+    },
+    {
+        "query": "往 j v",
+        "description": "方位词往后接介词j后接动词"
+    },
+    {
+        "query": "a低下",
+        "description": "形容词a后接低下"
+    },
+    {
+        "query": "v潜规则",
+        "description": "动词后接潜规则"
+    },
+    {
+        "query": "有n没n",
+        "description": "名词后接没后接名词"
+    },
+    {
+        "query": "v特别+",
+        "description": "动词后接特别后接标点符号"
+    },
+    {
+        "query": "v特别 ",
+        "description": "动词后接特别后接空格"
+    },
+    {
+        "query": "a情感",
+        "description": "形容词a后接情感"
+    },
+    {
+        "query": "越来越n",
+        "description": "副词越来越后接名词"
+    }
+]
+```
+
+这个json结构包含了每个检索式的查询和对应的描述，能够清晰地展示每个检索式的目的和应用场景。

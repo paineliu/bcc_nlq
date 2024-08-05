@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "却病",
+        "description": "包含却病这个词语的句子"
+    },
+    {
+        "query": "一块",
+        "description": "包含一块这个词语的句子"
+    },
+    {
+        "query": "堂屋",
+        "description": "包含堂屋这个词语的句子"
+    },
+    {
+        "query": "身份",
+        "description": "包含身份这个词语的句子"
+    },
+    {
+        "query": "宪报",
+        "description": "包含宪报这个词语的句子"
+    },
+    {
+        "query": "浮现",
+        "description": "包含浮现这个词语的句子"
+    },
+    {
+        "query": "共同富裕",
+        "description": "包含共同富裕这个词语的句子"
+    },
+    {
+        "query": "天道",
+        "description": "包含天道这个词语的句子"
+    },
+    {
+        "query": "无可奈何",
+        "description": "包含无可奈何这个词语的句子"
+    },
+    {
+        "query": "入定",
+        "description": "包含入定这个词语的句子"
+    },
+    {
+        "query": "见许",
+        "description": "包含见许这个词语的句子"
+    },
+    {
+        "query": "颠颠倒倒",
+        "description": "包含颠颠倒倒这个词语的句子"
+    },
+    {
+        "query": "因为不然",
+        "description": "包含因为不然这个词语的句子"
+    },
+    {
+        "query": "振振",
+        "description": "包含振振这个词语的句子"
+    },
+    {
+        "query": "我花了",
+        "description": "包含我花了这个词语的句子"
+    },
+    {
+        "query": "水果店",
+        "description": "包含水果店这个词语的句子"
+    },
+    {
+        "query": "眼镜戴起来",
+        "description": "包含眼镜戴起来这个词语的句子"
+    },
+    {
+        "query": "够劲儿",
+        "description": "包含够劲儿这个词语的句子"
+    },
+    {
+        "query": "一个倒蹿",
+        "description": "包含一个倒蹿这个词语的句子"
+    },
+    {
+        "query": "长子",
+        "description": "包含长子这个词语的句子"
+    },
+    {
+        "query": "对策",
+        "description": "包含对策这个词语的句子"
+    },
+    {
+        "query": "作",
+        "description": "包含作这个词语的句子"
+    },
+    {
+        "query": "偷偷",
+        "description": "包含偷偷这个词语的句子"
+    },
+    {
+        "query": "拿在",
+        "description": "包含拿在这个词语的句子"
+    },
+    {
+        "query": "或许反倒",
+        "description": "包含或许反倒这个词语的句子"
+    },
+    {
+        "query": "也许不",
+        "description": "包含也许不这个词语的句子"
+    },
+    {
+        "query": "记者",
+        "description": "包含记者这个词语的句子"
+    },
+    {
+        "query": "挤挤挨挨",
+        "description": "包含挤挤挨挨这个词语的句子"
+    },
+    {
+        "query": "然是和谐",
+        "description": "包含然了和谐这个词语的句子"
+    },
+    {
+        "query": "手舞足蹈",
+        "description": "包含手舞足蹈这个词语的句子"
+    },
+    {
+        "query": "返利",
+        "description": "包含返利这个词语的句子"
+    },
+    {
+        "query": "越发地",
+        "description": "包含越发地这个词语的句子"
+    },
+    {
+        "query": "瓤子",
+        "description": "包含瓤子这个词语的句子"
+    },
+    {
+        "query": "任何别人",
+        "description": "包含任何别人这个词语的句子"
+    },
+    {
+        "query": "打重",
+        "description": "包含打重这个词语的句子"
+    },
+    {
+        "query": "这些孩子们",
+        "description": "包含这些孩子们这个词语的句子"
+    },
+    {
+        "query": "为你感到高兴",
+        "description": "包含为你感到高兴这个词语的句子"
+    },
+    {
+        "query": "不太可行",
+        "description": "包含不太可行这个词语的句子"
+    },
+    {
+        "query": "闹得不好",
+        "description": "包含闹得不好这个词语的句子"
+    },
+    {
+        "query": "达人",
+        "description": "包含达人这个词语的句子"
+    }
+]
+```

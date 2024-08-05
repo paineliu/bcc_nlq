@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "轻轻",
+        "description": "轻声的表达"
+    },
+    {
+        "query": "顶少",
+        "description": "最少的意思"
+    },
+    {
+        "query": "所噶+",
+        "description": "所+噶+的组合，具体含义需进一步明确"
+    },
+    {
+        "query": "所噶",
+        "description": "所+噶的组合，具体含义需进一步明确"
+    },
+    {
+        "query": "次元",
+        "description": "次元的概念或等级"
+    },
+    {
+        "query": "越加不",
+        "description": "表示越来越不的意思"
+    },
+    {
+        "query": "相当没",
+        "description": "表示非常没有的意思"
+    },
+    {
+        "query": "可拉倒",
+        "description": "表示可以拉倒，多用于口语中表示放弃或无意义的行为"
+    },
+    {
+        "query": "立人权",
+        "description": "建立人权的概念或行为"
+    },
+    {
+        "query": "人权研",
+        "description": "研究人权的活动或领域"
+    },
+    {
+        "query": "思想",
+        "description": "思考或观念"
+    },
+    {
+        "query": "选",
+        "description": "选择或选举的行动"
+    },
+    {
+        "query": "忠心赤胆",
+        "description": "忠诚至死不渝的态度"
+    },
+    {
+        "query": "富二代",
+        "description": "富有的第二代继承人的身份或描述"
+    },
+    {
+        "query": "电气化",
+        "description": "采用电力技术的过程或状态"
+    },
+    {
+        "query": "相当",
+        "description": "表示程度相当的意思"
+    },
+    {
+        "query": "温馨和谐",
+        "description": "温暖和谐的氛围或环境"
+    },
+    {
+        "query": "吗喽",
+        "description": "方言或俚语，具体含义需进一步明确"
+    },
+    {
+        "query": "吵闹",
+        "description": "喧嚣或吵杂的状态"
+    },
+    {
+        "query": "良心",
+        "description": "道德或良知的体现"
+    },
+    {
+        "query": "粉粉",
+        "description": "形容细腻或粉色的颜色"
+    },
+    {
+        "query": "人权双",
+        "description": "人权相关的成对概念或对偶表达"
+    },
+    {
+        "query": "腔调",
+        "description": "说话或做事的方式或风格"
+    },
+    {
+        "query": "整天",
+        "description": "整天或整天的工作或生活状态"
+    },
+    {
+        "query": "勿宁",
+        "description": "不如或更差的意思"
+    },
+    {
+        "query": "性",
+        "description": "性别或性别的概念"
+    },
+    {
+        "query": "，诧异",
+        "description": "表示惊讶或诧异的状态"
+    },
+    {
+        "query": "遴选",
+        "description": "选拔或挑选的过程"
+    },
+    {
+        "query": "改善",
+        "description": "提升或改进的状态或过程"
+    },
+    {
+        "query": "命令",
+        "description": "发布指令或指示的行为"
+    },
+    {
+        "query": "五羽",
+        "description": "五只羽毛或五种羽毛的集合"
+    },
+    {
+        "query": "够交情",
+        "description": "足够深厚的友情或关系"
+    },
+    {
+        "query": "旋律和谐",
+        "description": "音乐旋律的和谐或协调"
+    },
+    {
+        "query": "祠堂",
+        "description": "祭祀祖先的场所"
+    },
+    {
+        "query": "对象",
+        "description": "目标或关注的对象"
+    },
+    {
+        "query": "世家",
+        "description": "家族或世家的传统或特征"
+    },
+    {
+        "query": "人权模",
+        "description": "人权模型或模式的概念"
+    },
+    {
+        "query": "轮人权",
+        "description": "轮流行使人权或权利的概念"
+    },
+    {
+        "query": "诚诚恳恳",
+        "description": "诚实和真诚的态度"
+    },
+    {
+        "query": "和谐与人",
+        "description": "与人为善或和谐相处的概念"
+    }
+]
+```

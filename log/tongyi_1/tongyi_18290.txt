@@ -1,0 +1,160 @@
+```json
+[
+    {
+        "query": "管理 (n) 。", 
+        "description": "包含管理的名词，且后面跟着句号，实例频次少于914个"
+    },
+    {
+        "query": "稽查 vn 。", 
+        "description": "稽查后面接单音节动词，然后是句号"
+    },
+    {
+        "query": "全面 (v) 电子{len($1)>1}", 
+        "description": "全面后面接至少两个字的电子"
+    },
+    {
+        "query": "加快 (n) 信息{end($1)=[收 闲 连]}", 
+        "description": "加快后面接名词，且名词结尾是收、闲或连"
+    },
+    {
+        "query": "国际 (vn){len($1)>1}", 
+        "description": "国际后面接至少两个字的动词"
+    },
+    {
+        "query": "制定 ~", 
+        "description": "制定后面有一个词"
+    },
+    {
+        "query": "税收 vn 。", 
+        "description": "税收后面接单音节动词，然后是句号，动词长度大于1"
+    },
+    {
+        "query": "(n) (n){len($1)<3; len($2)>2}", 
+        "description": "前后两个名词，第一个名词长度小于3，第二个名词长度大于2"
+    },
+    {
+        "query": "战略", 
+        "description": "战略"
+    },
+    {
+        "query": "./m 优化 税务 组织 ../n", 
+        "description": "优化后面接税务，再接组织，最后是动词"
+    },
+    {
+        "query": "(u) (vn){len($2)<3}", 
+        "description": "第一个是助词，后面接动词，动词长度小于3"
+    },
+    {
+        "query": "机构 vn 。", 
+        "description": "机构后面接单音节动词，然后是句号"
+    },
+    {
+        "query": "(vn) 内审 机构 (vn){len($1)=2}", 
+        "description": "两个连续的动词后面接内审，再接机构，第一个动词长度为2"
+    },
+    {
+        "query": "(v) 探索{len($1)>1}", 
+        "description": "动词探索，动词长度大于1"
+    },
+    {
+        "query": "合理 (v) 资源{end($1)=[置 理 厂]}", 
+        "description": "合理后面接动词资源，动词结尾是置、理或厂"
+    },
+    {
+        "query": "加强 (n) 干部{len($1)<3}", 
+        "description": "加强后面接名词干部，名词长度小于3"
+    },
+    {
+        "query": "共治 ...", 
+        "description": "共治后面至少有一个词"
+    },
+    {
+        "query": "合作 ./w", 
+        "description": "合作后面接一个词"
+    },
+    {
+        "query": "税收 (vn) 。{len($1)>1}", 
+        "description": "税收后面接单音节动词，动词长度大于1，然后是句号"
+    },
+    {
+        "query": "税收 ../vn 保障", 
+        "description": "税收后面接多音节动词保障"
+    },
+    {
+        "query": "税法 .. 教育", 
+        "description": "税法后面至少有一个词，可能是动词或名词"
+    },
+    {
+        "query": "(w) 组织 (v){len($2)!=3}", 
+        "description": "第一个是助词，后面接组织和动词，但动词长度不是3"
+    },
+    {
+        "query": "认识 w", 
+        "description": "认识后面接一个词"
+    },
+    {
+        "query": "组织 (v) 。{end($1)=[调 照 烂 结]}",
+        "description": "组织后面接动词，动词后面是调、照、烂或结"
+    },
+    {
+        "query": "三 @/[d v] 有序", 
+        "description": "三后面接d或v，然后是有序"
+    },
+    {
+        "query": "引导 w", 
+        "description": "引导后面接一个词"
+    },
+    {
+        "query": "逐步 @", 
+        "description": "逐步后面接一个词"
+    },
+    {
+        "query": "古小玉 (v) 。{len($1)=1}", 
+        "description": "古小玉后面接一个长度为1的动词，然后是句号"
+    },
+    {
+        "query": "人民 (n){len($1)>1}", 
+        "description": "人民后面接的名词长度大于1"
+    },
+    {
+        "query": "呈 (n) 紧贴{end($1)!=[爱 辉]}", 
+        "description": "呈后面接名词紧贴，名词结尾不是爱或辉"
+    },
+    {
+        "query": "米 w", 
+        "description": "米后面接一个词"
+    },
+    {
+        "query": "(v) (w){begin($1)=[悠 像]}", 
+        "description": "动词后面接一个词，动词前是悠或像"
+    },
+    {
+        "query": "w 南宋 都城 临安 v", 
+        "description": "南宋都城临安后面接一个词"
+    },
+    {
+        "query": "冰炭 ./[w v]", 
+        "description": "冰炭后面可能是动词或一个词"
+    },
+    {
+        "query": "(v) 首 获 (n){end($1)!=[放 代]}", 
+        "description": "两个连续的动词后面接名词，且名词结尾不是放或代"
+    },
+    {
+        "query": "·/w 特别 策划 · 关注 舆情 反转/v", 
+        "description": "特别策划关注舆情反转，动词开头"
+    },
+    {
+        "query": "(z) 出现 (w){count<734}", 
+        "description": "出现后面接一个词，实例频次少于734个"
+    },
+    {
+        "query": "事件 ..../[l v] ?", 
+        "description": "事件后面可能接一个词，可能是动词或名词，后面是问号"
+    },
+    {
+        "query": "调查 ./[w v] 梳理", 
+        "description": "调查后面接动词或一个词，再接梳理"
+    }
+]
+```

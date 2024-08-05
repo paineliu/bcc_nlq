@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "的 命根子/n", 
+        "description": "的后面接命根子，命根子为名词"
+    },
+    {
+        "query": "进城 ~/[w v] 还是", 
+        "description": "进城后面是'还是'，'还是'可能是动词或形容词"
+    },
+    {
+        "query": "~/[nr v] 说", 
+        "description": "某人或名词后面接动词说"
+    },
+    {
+        "query": "城镇化 . 人", 
+        "description": "城镇化后面隔一个字后接人"
+    },
+    {
+        "query": "~/[nr v] 说", 
+        "description": "某人或名词后面接动词说"
+    },
+    {
+        "query": "、", 
+        "description": "逗号，表示句子的分隔"
+    },
+    {
+        "query": ". 雾霭 ， 太阳 还 没 出来 .", 
+        "description": "句尾包含雾霭和太阳还没出来的场景"
+    },
+    {
+        "query": "场", 
+        "description": "单独的词场"
+    },
+    {
+        "query": "./v 地", 
+        "description": "单音节动词后面接地"
+    },
+    {
+        "query": "破解 (v) 难题{begin($1)!=[抱 乱]}",
+        "description": "动词破解难题，但不接抱或乱"
+    },
+    {
+        "query": "(c) 费心费力{count>10}",
+        "description": "费心费力的实例频次大于10次"
+    },
+    {
+        "query": "， (n) 大为{begin($1)=[情 呗 挂 为]}",
+        "description": "逗号后面接大为，大为由情、呗、挂或为开始"
+    },
+    {
+        "query": "新鲜 ~",
+        "description": "新鲜后面接任意词"
+    },
+    {
+        "query": "(c) 没成想{count<885}",
+        "description": "没成想的实例频次小于885"
+    },
+    {
+        "query": "n 包办", 
+        "description": "名词后面接包办"
+    },
+    {
+        "query": "， 探路/v 规模", 
+        "description": "逗号后面接探路，探路后面接规模"
+    },
+    {
+        "query": "./d 深远", 
+        "description": "单音节介词后面接深远"
+    },
+    {
+        "query": "信贷 (vn) 关{end($1)=[向 当 额 结]}",
+        "description": "信贷后面接动词关，关后面是向、当、额或结"
+    },
+    {
+        "query": "行长/n 李萌说 。/w",
+        "description": "行长后面接李萌说，李萌说是句尾"
+    },
+    {
+        "query": "重庆 (ns) 确保{len($1)=2}",
+        "description": "重庆后面接确保，确保是两个字的词"
+    },
+    {
+        "query": "河南 @ 农村", 
+        "description": "河南后面接一个词，统计时按照词性归并"
+    },
+    {
+        "query": "杨 建设/v", 
+        "description": "杨后面接建设，建设为动词"
+    },
+    {
+        "query": "帮扶 (ns) 摘帽{end($1)!=[北 河 起 和]}",
+        "description": "帮扶后面接摘帽，摘帽不以北、河、起或和结束"
+    },
+    {
+        "query": "于桥 (n) 生态{len($1)=2}",
+        "description": "于桥后面接生态，生态是两个字的名词"
+    },
+    {
+        "query": "困难 . 集体经济", 
+        "description": "困难后面隔一个字后接集体经济"
+    },
+    {
+        "query": "发挥 n .", 
+        "description": "发挥后面接名词"
+    },
+    {
+        "query": "农民 @ 培训", 
+        "description": "农民后面接一个词，统计时按照词性归并"
+    },
+    {
+        "query": "三单 (vn) 富民{end($1)=[贫 鞋 来 名]}",
+        "description": "三单后面接动词富民，富民以贫、鞋、来或名结束"
+    },
+    {
+        "query": "需要 @ 那么", 
+        "description": "需要后面接一个词，统计时按照词性归并"
+    },
+    {
+        "query": "什么/r 表/n", 
+        "description": "什么后面接名词表"
+    },
+    {
+        "query": "多少 (n) ？{end($1)=[间 前 靠 约]}",
+        "description": "多少后面接一个词，词尾可能是间、前、靠或约"
+    },
+    {
+        "query": "数据 ../[v v] 后", 
+        "description": "数据后面是连续的两个动词"
+    },
+    {
+        "query": "说 ~", 
+        "description": "说后面接任意词"
+    },
+    {
+        "query": "堆 (n) ！{count>2}", 
+        "description": "堆后面接一个名词，且频次大于2"
+    },
+    {
+        "query": "管理者 ./v 得", 
+        "description": "管理者后面接单音节动词得"
+    },
+    {
+        "query": "科学 .. 表格", 
+        "description": "科学后面隔一个字后接表格"
+    },
+    {
+        "query": "对象 ~/[d v] 为", 
+        "description": "对象后面接介词或动词，然后是为"
+    },
+    {
+        "query": "逼成 ../[n v]", 
+        "description": "逼成后面是连续的名词或动词"
+    },
+    {
+        "query": "开玩笑 ~", 
+        "description": "开玩笑后面接任意词"
+    },
+    {
+        "query": "脊髓 @ 修复", 
+        "description": "脊髓后面接一个词，统计时按照词性归并"
+    }
+]
+```

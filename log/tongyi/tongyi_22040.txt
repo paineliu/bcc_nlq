@@ -1,0 +1,168 @@
+以下是将给定的检索式转换为带含义的json结构：
+
+```json
+[
+    {
+        "query": "依靠 的/u 福利院",
+        "description": "依靠后接的/u词（通常指的是介词），紧跟福利院"
+    },
+    {
+        "query": "../n+族",
+        "description": "单个名词后接加族"
+    },
+    {
+        "query": "../n 族",
+        "description": "单个名词后接族"
+    },
+    {
+        "query": "../n杀w",
+        "description": "单个名词后接杀后的动词"
+    },
+    {
+        "query": "n+好心/n",
+        "description": "名词后接好心"
+    },
+    {
+        "query": "n 好心/n",
+        "description": "名词后接好心"
+    },
+    {
+        "query": "乡愁/n+，+就是+记住+根本/a",
+        "description": "乡愁后接逗号，然后就是、记住、根本"
+    },
+    {
+        "query": "乡愁/n ， 就是 记住 根本/a",
+        "description": "乡愁后接、就是、记住、根本"
+    },
+    {
+        "query": "上/v+../n+",
+        "description": "动词上后接的+n词"
+    },
+    {
+        "query": "上/v ../n",
+        "description": "动词上后接的单个+n词"
+    },
+    {
+        "query": "黄芳/nr+告诉",
+        "description": "人名黄芳后接告诉"
+    },
+    {
+        "query": "黄芳/nr 告诉",
+        "description": "人名黄芳后接告诉"
+    },
+    {
+        "query": "a+友情/n",
+        "description": "形容词后接友情"
+    },
+    {
+        "query": "a 友情/n",
+        "description": "形容词后接友情"
+    },
+    {
+        "query": "./v./a",
+        "description": "单个动词后接单个形容词"
+    },
+    {
+        "query": ".../n之中",
+        "description": "一个+n词后接在之中"
+    },
+    {
+        "query": "大数据/n+解决",
+        "description": "大数据后接解决"
+    },
+    {
+        "query": "大数据/n 解决",
+        "description": "大数据后接解决"
+    },
+    {
+        "query": "v+劲头/n",
+        "description": "动词后接劲头"
+    },
+    {
+        "query": "v 劲头/n",
+        "description": "动词后接劲头"
+    },
+    {
+        "query": "咬/v",
+        "description": "咬这个动作"
+    },
+    {
+        "query": "提案+的/u+？",
+        "description": "提案后接的/u词（通常是介词），紧跟问号"
+    },
+    {
+        "query": "提案 的/u ？",
+        "description": "提案后接的/u词（通常是介词），紧跟问号"
+    },
+    {
+        "query": "走向/v+深入+。/w",
+        "description": "走向后接深入，句末有句号"
+    },
+    {
+        "query": "走向/v 深入 。/w",
+        "description": "走向后接深入，句末有句号"
+    },
+    {
+        "query": "话语/n+坦诚/a",
+        "description": "话语后接坦诚"
+    },
+    {
+        "query": "话语/n 坦诚/a",
+        "description": "话语后接坦诚"
+    },
+    {
+        "query": "生/v+在+s",
+        "description": "动词生后接在，后接s，可能是一个名词"
+    },
+    {
+        "query": "生/v 在 s",
+        "description": "动词生后接在，后接s，可能是一个名词"
+    },
+    {
+        "query": "忠诚/a+是+中办人+的+宝贵+品质+。/w",
+        "description": "忠诚后接是，然后是中办人、的、宝贵、品质，句末有句号"
+    },
+    {
+        "query": "忠诚/a 是 中办人 的 宝贵 品质 。/w",
+        "description": "忠诚后接是，然后是中办人、的、宝贵、品质，句末有句号"
+    },
+    {
+        "query": "涌/v上",
+        "description": "涌这个动词后接上"
+    },
+    {
+        "query": "万千+。/w",
+        "description": "万千后接句号"
+    },
+    {
+        "query": "万千 。/w",
+        "description": "万千后接句号"
+    },
+    {
+        "query": "果真/c",
+        "description": "副词果真"
+    },
+    {
+        "query": "v+友谊/n",
+        "description": "动词后接友谊"
+    },
+    {
+        "query": "v 友谊/n",
+        "description": "动词后接友谊"
+    },
+    {
+        "query": "里约+备战/v+进入",
+        "description": "里约后接备战，然后是进入"
+    },
+    {
+        "query": "里约 备战/v 进入",
+        "description": "里约后接备战，然后是进入"
+    },
+    {
+        "query": "给/p+儿子+做/v",
+        "description": "给这个动作后接儿子，然后是做"
+    }
+]
+```
+
+请注意，这些描述都是基于对检索式的理解，实际的含义可能因上下文而异。

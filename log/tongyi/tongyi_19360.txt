@@ -1,0 +1,154 @@
+以下是将给定的检索式转换为带含义的JSON结构：
+
+```json
+[
+    {
+        "query": "明白/v",
+        "description": "包含动词明白的句子"
+    },
+    {
+        "query": "如诗如画+般/u+美丽",
+        "description": "包含如诗如画般美丽的描述"
+    },
+    {
+        "query": "如诗如画 般/u 美丽",
+        "description": "包含如诗如画般美丽，般为词性u"
+    },
+    {
+        "query": "了+许多/m+。",
+        "description": "包含后接许多。的句子"
+    },
+    {
+        "query": "了 许多/m 。",
+        "description": "包含后接许多的句子"
+    },
+    {
+        "query": "面/n+设计",
+        "description": "包含面设计的描述"
+    },
+    {
+        "query": "面/n 设计",
+        "description": "包含面设计的描述"
+    },
+    {
+        "query": "努力+把/p+社区",
+        "description": "包含努力把社区的描述"
+    },
+    {
+        "query": "努力 把/p 社区",
+        "description": "包含努力把社区的描述"
+    },
+    {
+        "query": "脱贫致富+领头雁/n",
+        "description": "包含脱贫致富领头雁的描述"
+    },
+    {
+        "query": "脱贫致富 领头雁/n",
+        "description": "包含脱贫致富领头雁的描述"
+    },
+    {
+        "query": "处理/v",
+        "description": "包含处理的动词"
+    },
+    {
+        "query": "振一振+决战/v+决胜",
+        "description": "包含振一振决战决胜的描述"
+    },
+    {
+        "query": "振一振 决战/v 决胜",
+        "description": "包含振一振决战决胜的描述"
+    },
+    {
+        "query": "表示/v+。/w",
+        "description": "包含表示后接的句子"
+    },
+    {
+        "query": "表示/v 。/w",
+        "description": "包含表示后接的句子"
+    },
+    {
+        "query": ".手/n",
+        "description": "包含后接手的描述"
+    },
+    {
+        "query": "河南/ns+宁陵县",
+        "description": "包含河南宁陵县的描述"
+    },
+    {
+        "query": "河南/ns 宁陵县",
+        "description": "包含河南宁陵县的描述"
+    },
+    {
+        "query": "世界+。/w",
+        "description": "包含后接世界的句子"
+    },
+    {
+        "query": "世界 。/w",
+        "description": "包含后接世界的句子"
+    },
+    {
+        "query": "污./n",
+        "description": "包含污的描述"
+    },
+    {
+        "query": "主要+领导/n+责任",
+        "description": "包含主要领导责任的描述"
+    },
+    {
+        "query": "主要 领导/n 责任",
+        "description": "包含主要领导责任的描述"
+    },
+    {
+        "query": "正/b+深度",
+        "description": "包含正深度的描述"
+    },
+    {
+        "query": "走./v",
+        "description": "包含走的动词"
+    },
+    {
+        "query": "干部/n+可不+能+闲/v",
+        "description": "包含干部可不能力闲的描述"
+    },
+    {
+        "query": "责备/v",
+        "description": "包含责备的动词"
+    },
+    {
+        "query": "n+的+善意/n",
+        "description": "包含n的善意的描述"
+    },
+    {
+        "query": "残障+大学生/n+。",
+        "description": "包含残障大学生的描述"
+    },
+    {
+        "query": "残障 大学生/n 。",
+        "description": "包含残障大学生的描述"
+    },
+    {
+        "query": "访问+韩国/ns",
+        "description": "包含访问韩国的描述"
+    },
+    {
+        "query": "访问 韩国/ns",
+        "description": "包含访问韩国的描述"
+    },
+    {
+        "query": "吐/v",
+        "description": "包含吐的动词"
+    },
+    {
+        "query": "方便/a",
+        "description": "包含方便的形容词"
+    },
+    {
+        "query": "福彩/n+延迟+开奖+为何+引/v",
+        "description": "包含福彩延迟开奖为何引的描述"
+    },
+    {
+        "query": "福彩/n 延迟 开奖 为何 引/v",
+        "description": "包含福彩延迟开奖为何引的描述"
+    }
+]
+```

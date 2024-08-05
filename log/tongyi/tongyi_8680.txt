@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "大.大.", 
+        "description": "大后面隔一个字后接大"
+    },
+    {
+        "query": "终生@", 
+        "description": "终生后接一个词性"
+    },
+    {
+        "query": "无+..+不+..", 
+        "description": "无后面隔多个字后接不，然后不后面隔多个字后接某个词"
+    },
+    {
+        "query": "无 .. 不 ..", 
+        "description": "无后面隔一个字后接不，然后不后面隔一个字后接某个词"
+    },
+    {
+        "query": "他们..+起来w", 
+        "description": "他们后面隔多个字后接起来，然后起来后面接一个词性"
+    },
+    {
+        "query": "他们.. 起来w", 
+        "description": "他们后面隔一个字后接起来，然后起来后面接一个词性"
+    },
+    {
+        "query": "回*神.", 
+        "description": "回后面离合出现神，然后神后面一个字"
+    },
+    {
+        "query": "n有n的*", 
+        "description": "n后接有，然后有后面接n的某个词性"
+    },
+    {
+        "query": "把*起起", 
+        "description": "把后面离合出现起，然后起后面离合出现起"
+    },
+    {
+        "query": "连.都.", 
+        "description": "连后面隔一个字后接都"
+    },
+    {
+        "query": "w和.战w", 
+        "description": "w后接和，然后和后面隔一个字后接战，最后战后面接一个词性"
+    },
+    {
+        "query": "v上*怒气", 
+        "description": "v后接上，然后上后面离合出现怒气"
+    },
+    {
+        "query": "大概*只好v", 
+        "description": "大概后面离合出现只好，然后只好后面接v"
+    },
+    {
+        "query": "把*起一起", 
+        "description": "把后面离合出现起，然后起后面离合出现一起"
+    },
+    {
+        "query": "请*假", 
+        "description": "请后面离合出现假"
+    },
+    {
+        "query": "n..n", 
+        "description": "n后面隔多个字后接n"
+    },
+    {
+        "query": "看来@也许", 
+        "description": "看来后接一个词性，也许也是后接一个词性"
+    },
+    {
+        "query": "对*真心", 
+        "description": "对后面离合出现真心"
+    },
+    {
+        "query": "或许*居然", 
+        "description": "或许后面离合出现居然"
+    },
+    {
+        "query": "即便...也", 
+        "description": "即便后面隔多个字后接也"
+    },
+    {
+        "query": "你一个........，", 
+        "description": "你后面隔多个逗号后接一个词"
+    },
+    {
+        "query": "你们一个*，", 
+        "description": "你们后面隔一个词后接一个词性，后面跟一个逗号"
+    },
+    {
+        "query": "*的菜", 
+        "description": "某个词后面接的菜"
+    },
+    {
+        "query": "他们一个*；", 
+        "description": "他们后面隔一个词后接一个词性，后面跟一个分号"
+    },
+    {
+        "query": "在*下w", 
+        "description": "在后面离合出现下，然后下后面接一个词性"
+    },
+    {
+        "query": "好得*", 
+        "description": "好后面离合出现得"
+    },
+    {
+        "query": "也许*定然", 
+        "description": "也许后面离合出现定然"
+    },
+    {
+        "query": "看*见", 
+        "description": "看后面离合出现见"
+    },
+    {
+        "query": "担*心", 
+        "description": "担后面离合出现心"
+    },
+    {
+        "query": "或许*一定会", 
+        "description": "或许后面离合出现一定，然后一定后面接会"
+    },
+    {
+        "query": "好像*偏要", 
+        "description": "好像后面离合出现偏要"
+    },
+    {
+        "query": "内*卷", 
+        "description": "内后面离合出现卷"
+    },
+    {
+        "query": "v进.来+", 
+        "description": "v后接进，然后进后面隔一个字后接来，最后来后面隔一个或多个字后接一个词性"
+    },
+    {
+        "query": "v进.来 ", 
+        "description": "v后接进，然后进后面隔一个字后接来，最后来后面接一个词性"
+    },
+    {
+        "query": "也许*正好", 
+        "description": "也许后面离合出现正好"
+    },
+    {
+        "query": "仿佛*分明", 
+        "description": "仿佛后面离合出现分明"
+    },
+    {
+        "query": "都快.....了", 
+        "description": "都快后面隔多个字后接了"
+    },
+    {
+        "query": "w迎.送w", 
+        "description": "w后接迎，然后迎后面隔一个字后接送，最后送后面接一个词性"
+    },
+    {
+        "query": "不是*，是", 
+        "description": "不是后面离合出现，然后，后面离合出现是"
+    },
+    {
+        "query": "仿佛*反正", 
+        "description": "仿佛后面离合出现反正"
+    }
+]
+```

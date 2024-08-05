@@ -1,0 +1,86 @@
+以下是根据给定的检索式及其含义的json结构：
+
+```json
+[
+    {
+        "query": "、 (n){end($1)!=[代 黄 躲 祝]}",
+        "description": "名词后面不以代、黄、躲、祝结束"
+    },
+    {
+        "query": "(n) 是 (v){len($1)>1; begin($2)!=[包 熬]}",
+        "description": "名词是动词，名词长度大于1，动词不以包、熬开始"
+    },
+    {
+        "query": "~ 核心",
+        "description": "核心中间有一个词"
+    },
+    {
+        "query": "@/[ns v] 自古",
+        "description": "地名或动词后面接自古，在统计时按照词性归并"
+    },
+    {
+        "query": "价值 (n){end($1)=[在 天 痒 扯]}",
+        "description": "价值后面接名词，名词以在、天、痒、扯结束"
+    },
+    {
+        "query": "文化 @/[n v]",
+        "description": "文化后面接名词或动词，在统计时按照词性归并"
+    },
+    {
+        "query": "也 (w){count>2}",
+        "description": "也后面接标点符号，出现超过两次"
+    },
+    {
+        "query": "(n) 操斤{begin($1)!=[欠 高]}",
+        "description": "名词后接操斤，名词不以欠、高开始"
+    },
+    {
+        "query": "优秀 .. 文化",
+        "description": "优秀和文化之间有两个词"
+    },
+    {
+        "query": "建设 ~ 取得",
+        "description": "建设和取得之间有一个词"
+    },
+    {
+        "query": "规矩 (b) 的{count<581}",
+        "description": "规矩后面接区别词和的，且出现次数少于581"
+    },
+    {
+        "query": "一 ./v 理想",
+        "description": "一后隔一个字接单音节动词，再接理想"
+    },
+    {
+        "query": "按时 (j) 叫好{begin($1)!=[戴 肥 被]}",
+        "description": "按时后接简称略语，再接叫好，简称略语不以戴、肥、被开始"
+    },
+    {
+        "query": "(nr) 太平{count>6}",
+        "description": "人名后接太平，出现超过6次"
+    },
+    {
+        "query": "了",
+        "description": "包含了的句子"
+    },
+    {
+        "query": "故事 ~ 有",
+        "description": "故事和有之间有一个词"
+    },
+    {
+        "query": "的 (vn){len($1)!=3}",
+        "description": "的后面接名动词，名动词长度不等于3"
+    },
+    {
+        "query": "坦言 ~",
+        "description": "坦言后面有一个词"
+    },
+    {
+        "query": "品位 ../[v v] 。",
+        "description": "品位后接双音节动词，再接句号"
+    },
+    {
+        "query": "’ ../[v v] ，",
+        "description": "单引号后接双音节动词，再接逗号"
+    }
+]
+```

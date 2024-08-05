@@ -1,0 +1,167 @@
+以下是将给定的检索式转换为带含义的json结构的结果：
+
+```json
+[
+    {
+        "query": "欧洲/ns 智库 欧洲 之 友 秘书长/n",
+        "description": "欧洲智库欧洲之友秘书长"
+    },
+    {
+        "query": "警钟/n+长震",
+        "description": "警钟长震"
+    },
+    {
+        "query": "警钟/n 长震",
+        "description": "警钟之后的长震"
+    },
+    {
+        "query": ".../v中w",
+        "description": "省略部分的动词在中间"
+    },
+    {
+        "query": "的+大/a+服务员",
+        "description": "大服务员"
+    },
+    {
+        "query": "的 大/a 服务员",
+        "description": "修饰服务员的大"
+    },
+    {
+        "query": "天下/n",
+        "description": "天下"
+    },
+    {
+        "query": "....../j",
+        "description": "省略部分的简称"
+    },
+    {
+        "query": "助力/n+种子+企业+快速/d",
+        "description": "助力种子企业快速"
+    },
+    {
+        "query": "助力/n 种子 企业 快速/d",
+        "description": "助力之后的种子企业快速"
+    },
+    {
+        "query": "警方+目前/t+已",
+        "description": "警方目前已经"
+    },
+    {
+        "query": "警方 目前/t 已",
+        "description": "警方的目前已经"
+    },
+    {
+        "query": "没/d+产权/n",
+        "description": "没产权"
+    },
+    {
+        "query": "没/d 产权/n",
+        "description": "修饰产权的没"
+    },
+    {
+        "query": "无奈/a+之下",
+        "description": "无奈之下"
+    },
+    {
+        "query": "无奈/a 之下",
+        "description": "无奈之后的"
+    },
+    {
+        "query": "推行+平衡/a+外交",
+        "description": "推行平衡外交"
+    },
+    {
+        "query": "推行 平衡/a 外交",
+        "description": "推行之后的平衡外交"
+    },
+    {
+        "query": "科学/n+精神+强调+平等+、+自由+的/u",
+        "description": "科学精神强调平等、自由的"
+    },
+    {
+        "query": "科学/n 精神 强调 平等 、 自由 的/u",
+        "description": "科学之后的精神强调平等、自由的"
+    },
+    {
+        "query": "定位/vn+创新+服务/vn",
+        "description": "定位创新服务"
+    },
+    {
+        "query": "定位/vn 创新 服务/vn",
+        "description": "定位之后的创新服务"
+    },
+    {
+        "query": "正*./a起来",
+        "description": "正起来"
+    },
+    {
+        "query": "校园+，/w+抓住",
+        "description": "校园，抓住"
+    },
+    {
+        "query": "校园 ，/w 抓住",
+        "description": "校园之后的，抓住"
+    },
+    {
+        "query": "../v界",
+        "description": "省略部分的动词在界"
+    },
+    {
+        "query": "再/d+无+音讯/n",
+        "description": "再无音讯"
+    },
+    {
+        "query": "再/d 无 音讯/n",
+        "description": "再之后的无音讯"
+    },
+    {
+        "query": "也/d+是/v",
+        "description": "也是"
+    },
+    {
+        "query": "也/d 是/v",
+        "description": "也之后的"
+    },
+    {
+        "query": "书/N",
+        "description": "书"
+    },
+    {
+        "query": "，+打造/v+品牌",
+        "description": "，打造品牌"
+    },
+    {
+        "query": "， 打造/v 品牌",
+        "description": "，之后的打造品牌"
+    },
+    {
+        "query": "保驾/vn+护航/vn",
+        "description": "保驾护航"
+    },
+    {
+        "query": "保驾/vn 护航/vn",
+        "description": "保驾之后的护航"
+    },
+    {
+        "query": "为/v+老人/n",
+        "description": "为老人"
+    },
+    {
+        "query": "为/v 老人/n",
+        "description": "为之后的老人"
+    },
+    {
+        "query": "晚上+的/u+工作",
+        "description": "晚上的工作"
+    },
+    {
+        "query": "晚上 的/u 工作",
+        "description": "晚上之后的，工作"
+    },
+    {
+        "query": "往来/v",
+        "description": "往来"
+    }
+]
+```
+以上json结构包含了每个检索式及其对应的描述信息。

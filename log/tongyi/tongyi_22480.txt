@@ -1,0 +1,168 @@
+```json
+[
+    {
+        "query": "(n) 创新 (n){len($1)<5; len($2)>1}",
+        "description": "创新，第一个名词长度小于5，第二个名词长度大于1"
+    },
+    {
+        "query": "(v)+特定+(u){begin($1)=[禁+巴+宝+辣]}",
+        "description": "特定动词，以禁、巴、宝、辣开头"
+    },
+    {
+        "query": "(v) 特定 (u){begin($1)=[禁 巴 宝 辣]}",
+        "description": "特定动词，以禁、巴、宝、辣开头"
+    },
+    {
+        "query": "深入+(v)+合作{count<315}",
+        "description": "深入动词合作，实例数量少于315"
+    },
+    {
+        "query": "深入 (v) 合作{count<315}",
+        "description": "深入动词合作，实例数量少于315"
+    },
+    {
+        "query": "博物馆+(u)+生长点{len($1)!=2}",
+        "description": "博物馆与其他词组合，除了长度为2的情况"
+    },
+    {
+        "query": "博物馆 (u) 生长点{len($1)!=2}",
+        "description": "博物馆与其他词组合，除了长度为2的情况"
+    },
+    {
+        "query": "(v)+(p){end($1)=[手+顿+雪+人]}",
+        "description": "动词，以手、顿、雪、人结尾"
+    },
+    {
+        "query": "(v) (p){end($1)=[手 顿 雪 人]}",
+        "description": "动词，以手、顿、雪、人结尾"
+    },
+    {
+        "query": "(w)+不+若+良言+(m){count>2}",
+        "description": "单词不、若、良言，实例数量超过2"
+    },
+    {
+        "query": "(w) 不 若 良言 (m){count>2}",
+        "description": "单词不、若、良言，实例数量超过2"
+    },
+    {
+        "query": "挂号+(w){count<459}",
+        "description": "挂号，实例数量少于459"
+    },
+    {
+        "query": "挂号 (w){count<459}",
+        "description": "挂号，实例数量少于459"
+    },
+    {
+        "query": "(nr)+去留{end($1)!=[呵+战]}",
+        "description": "人员去留，结尾不包含呵、战"
+    },
+    {
+        "query": "(nr) 去留{end($1)!=[呵 战]}",
+        "description": "人员去留，结尾不包含呵、战"
+    },
+    {
+        "query": "杜绝+(n)+操作{begin($1)!=[急+测]}",
+        "description": "杜绝某物操作，开头不包含急、测"
+    },
+    {
+        "query": "杜绝 (n) 操作{begin($1)!=[急 测]}",
+        "description": "杜绝某物操作，开头不包含急、测"
+    },
+    {
+        "query": "(d)挺好的{len($1)>=1}",
+        "description": "描述挺好的，长度至少为1"
+    },
+    {
+        "query": "v一(n)是一(n){$1=$2}",
+        "description": "动词后跟一，然后跟同一名词"
+    },
+    {
+        "query": "强力+(n){len($1)!=3}",
+        "description": "强力加名词，长度不等于3"
+    },
+    {
+        "query": "强力 (n){len($1)!=3}",
+        "description": "强力加名词，长度不等于3"
+    },
+    {
+        "query": "(n)怪(a)的{len($2)=3}",
+        "description": "名词后跟长度为3的形容词"
+    },
+    {
+        "query": "层面+(n)+范畴{count>4}",
+        "description": "层面加名词加范畴，实例数量超过4"
+    },
+    {
+        "query": "层面 (n) 范畴{count>4}",
+        "description": "层面加名词加范畴，实例数量超过4"
+    },
+    {
+        "query": "(v)+(a){count>2}",
+        "description": "动词加形容词，实例数量超过2"
+    },
+    {
+        "query": "(v) (a){count>2}",
+        "description": "动词加形容词，实例数量超过2"
+    },
+    {
+        "query": "(v)+(s){$1=$2}",
+        "description": "动词后跟同一名词"
+    },
+    {
+        "query": "(v) (s){$1=$2}",
+        "description": "动词后跟同一名词"
+    },
+    {
+        "query": "常委+(nr)+说{count>2}",
+        "description": "常委加人员加说，实例数量超过2"
+    },
+    {
+        "query": "常委 (nr) 说{count>2}",
+        "description": "常委加人员加说，实例数量超过2"
+    },
+    {
+        "query": "风光+(d)+再{len($1)!=2}",
+        "description": "风光加形容词加再，长度不等于2"
+    },
+    {
+        "query": "风光 (d) 再{len($1)!=2}",
+        "description": "风光加形容词加再，长度不等于2"
+    },
+    {
+        "query": "(a)也罢(a)也好{$1!=$2}",
+        "description": "形容词也罢、也好，不能相等"
+    },
+    {
+        "query": "郑建兵+(v)+。{len($1)!=3}",
+        "description": "郑建兵加动词加句点，长度不等于3"
+    },
+    {
+        "query": "郑建兵 (v) 。{len($1)!=3}",
+        "description": "郑建兵加动词加句点，长度不等于3"
+    },
+    {
+        "query": "利比亚+(n)+遭{count<560}",
+        "description": "利比亚加名词加遭，实例数量少于560"
+    },
+    {
+        "query": "利比亚 (n) 遭{count<560}",
+        "description": "利比亚加名词加遭，实例数量少于560"
+    },
+    {
+        "query": "的+(w){count<327}",
+        "description": "的加单词，实例数量少于327"
+    },
+    {
+        "query": "的 (w){count<327}",
+        "description": "的加单词，实例数量少于327"
+    },
+    {
+        "query": "失去+(u)+劳动{count>6}",
+        "description": "失去加其他词加劳动，实例数量超过6"
+    },
+    {
+        "query": "失去 (u) 劳动{count>6}",
+        "description": "失去加其他词加劳动，实例数量超过6"
+    }
+]
+```

@@ -1,0 +1,160 @@
+```json
+[
+    {
+        "query": "a一天是一天",
+        "description": "形容词后接一天，再接等同于一天的表达"
+    },
+    {
+        "query": "a不了",
+        "description": "形容词后接不了，表示无法、不成功的意思"
+    },
+    {
+        "query": "a下乡",
+        "description": "形容词后接下乡，表示去乡下的行动"
+    },
+    {
+        "query": "已经v+",
+        "description": "动词已经后面跟一个空格，表示动作已经完成"
+    },
+    {
+        "query": "已经v",
+        "description": "动词已经，表示动作已经完成"
+    },
+    {
+        "query": "n这个n",
+        "description": "名词这个后面跟另一个名词，表示强调特定的这个"
+    },
+    {
+        "query": "那么a+w",
+        "description": "形容词那么后面接一个词，表示程度加强"
+    },
+    {
+        "query": "那么a w",
+        "description": "形容词那么后面直接接一个词，表示程度加强"
+    },
+    {
+        "query": "a几何",
+        "description": "形容词后接几何，表示形状或数量的特定描述"
+    },
+    {
+        "query": "q包",
+        "description": "量词后接包，表示包裹的单位"
+    },
+    {
+        "query": "m杯n",
+        "description": "量词后接杯，再接名词，表示容器与内容的关系"
+    },
+    {
+        "query": "还t呢",
+        "description": "副词还后面接呢，表示加强语气的用法"
+    },
+    {
+        "query": "n毕竟是n",
+        "description": "名词后接毕竟是，再接另一个名词，表示最终结果"
+    },
+    {
+        "query": "v一齐",
+        "description": "动词后接一齐，表示同时或一起的动作"
+    },
+    {
+        "query": "a住院",
+        "description": "形容词后接住院，表示入院的状态"
+    },
+    {
+        "query": "什么a的a的",
+        "description": "疑问词什么后面接两次形容词的的，表示不确定的描述"
+    },
+    {
+        "query": "a为首",
+        "description": "形容词后接为首，表示领头或首要的意思"
+    },
+    {
+        "query": "a万岁",
+        "description": "形容词后接万岁，表示庆祝或长久的意思"
+    },
+    {
+        "query": "m+架+n",
+        "description": "量词后接架，再接名词，表示物体与用途的关系"
+    },
+    {
+        "query": "m 架 n",
+        "description": "量词后接架，再接名词，表示物体与用途的关系"
+    },
+    {
+        "query": "这般V来",
+        "description": "动词后接来，表示如此这般地进行"
+    },
+    {
+        "query": "还不是+r",
+        "description": "形容词还不是后面接一个词，表示不像是或不如的意思"
+    },
+    {
+        "query": "a胸针",
+        "description": "形容词后接胸针，表示装饰品的描述"
+    },
+    {
+        "query": "充分v",
+        "description": "动词充分，表示达到足够或完全的程度"
+    },
+    {
+        "query": "N圈",
+        "description": "名词后接圈，表示范围或路径的描述"
+    },
+    {
+        "query": "从中把n+v了",
+        "description": "介词从中后接把，再接名词，表示动作从某物中取出"
+    },
+    {
+        "query": "从中把n v了",
+        "description": "介词从中后接把，再接动词，表示动作从某物中取出"
+    },
+    {
+        "query": "流动v",
+        "description": "动词流动，表示运动或变化的状态"
+    },
+    {
+        "query": "a事态",
+        "description": "形容词后接事态，表示情况或状况的描述"
+    },
+    {
+        "query": "v得n",
+        "description": "动词后接得，再接名词，表示达到或获得的结果"
+    },
+    {
+        "query": "a参阅",
+        "description": "形容词后接参阅，表示参考或查阅的行动"
+    },
+    {
+        "query": "市场是n",
+        "description": "名词市场后接是，再接名词，表示市场类型或特征"
+    },
+    {
+        "query": "q学生",
+        "description": "量词后接学生，表示学生群体的数量"
+    },
+    {
+        "query": "奶奶v奶奶的",
+        "description": "动词后接奶奶的，表示行为对象为奶奶"
+    },
+    {
+        "query": "和平v",
+        "description": "动词和平，表示追求或实现和平的行为"
+    },
+    {
+        "query": "a儿女",
+        "description": "形容词后接儿女，表示家庭成员或子辈的描述"
+    },
+    {
+        "query": "忽略n",
+        "description": "动词忽略，表示忽视或不考虑的行为"
+    },
+    {
+        "query": "a乞求",
+        "description": "形容词后接乞求，表示请求或恳求的行为"
+    },
+    {
+        "query": "a亲热",
+        "description": "形容词后接亲热，表示亲密或热情的态度"
+    }
+]
+```

@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "发展 ./w",
+        "description": "发展后接一个字"
+    },
+    {
+        "query": "(v) 群众{end($1)=[持 价]}",
+        "description": "动词后接群众，且群众后面不接持或价"
+    },
+    {
+        "query": "../[v v] 因地制宜",
+        "description": "两个连续的动词后接因地制宜"
+    },
+    {
+        "query": "实施 (v) 搬迁{len($1)!=3}",
+        "description": "实施后接一个动词，但该动词不是三个字"
+    },
+    {
+        "query": "保护 ~/[v v]。",
+        "description": "保护后离合出现两个动词，后面接句点"
+    },
+    {
+        "query": "(m) 着力 (v){len($1)=1; len($2)=2}",
+        "description": "两个词性为m和v的词，其中第一个词长度为1，第二个词长度为2"
+    },
+    {
+        "query": "实施 (vn) 扶贫{len($1)=2}",
+        "description": "实施后接一个两字的动名词扶贫"
+    },
+    {
+        "query": "c 医疗 救助 脱贫 w",
+        "description": "连接词c后接医疗、救助和脱贫，最后接一个名词"
+    },
+    {
+        "query": "(v) 贫困{len($1)>1}",
+        "description": "动词后接一个长度大于1的词，表示贫困"
+    },
+    {
+        "query": "探索 ~ 收益",
+        "description": "探索后接任意词"
+    },
+    {
+        "query": "加强 ~ 未成年人",
+        "description": "加强后接任意词"
+    },
+    {
+        "query": "、",
+        "description": "逗号，单独的标点符号"
+    },
+    {
+        "query": "扶持 @ 地区",
+        "description": "扶持后接一个词，统计时按照扶持的词性归并"
+    },
+    {
+        "query": "@ 贫困",
+        "description": "任意词性后接贫困，统计时按照词性归并"
+    },
+    {
+        "query": "金融 (vn) 力度{begin($1)=[扶 证]}",
+        "description": "金融后接一个两字动名词，且动名词以扶或证开头"
+    },
+    {
+        "query": "(v) 扶贫 (vn){len($1)!=3}",
+        "description": "动词后接一个不是三个字的扶贫动名词"
+    },
+    {
+        "query": "~/[m v] 发挥",
+        "description": "离合出现一个介词或动词后接发挥"
+    },
+    {
+        "query": "二十二 ../v 东西部",
+        "description": "二十二后接一个双音节动词，动词后面接东西部"
+    },
+    {
+        "query": "健全 ../vd 扶贫",
+        "description": "健全后接一个双音节动词，动词后接扶贫"
+    },
+    {
+        "query": "力量 @ 机制",
+        "description": "力量后接一个词，统计时按照力量的词性归并"
+    },
+    {
+        "query": "建设 .",
+        "description": "建设后接一个字符"
+    },
+    {
+        "query": "三十三 (v) 扶贫{len($1)=2}",
+        "description": "三十三后接一个两字动词，动词后接扶贫"
+    },
+    {
+        "query": "(ns) 是{middle($1)=[大 绝]}",
+        "description": "两个字的名词后接是，且是字中间是大或绝"
+    },
+    {
+        "query": "(nr) 会见{len($1)>2}",
+        "description": "人名后接一个长度大于2的词，表示会见"
+    },
+    {
+        "query": "(a) 县城 也 能 (v){$1=$2}",
+        "description": "形容词后接县城，再接一个与县城相同的词，且词性为动词"
+    },
+    {
+        "query": "下 @/[n v]",
+        "description": "下后接一个词，可能是名词或动词"
+    },
+    {
+        "query": "九成",
+        "description": "九成，单独的百分比表达"
+    },
+    {
+        "query": "浙江省/ns 卫计委",
+        "description": "浙江省后接一个名词，表示卫生计生委"
+    },
+    {
+        "query": "d 受惠 u",
+        "description": "副词后接受惠，且受惠后接一个字符"
+    },
+    {
+        "query": "附近 @",
+        "description": "附近后接一个词，统计时按照附近的词性归并"
+    },
+    {
+        "query": "苦干 (v) 刮目相看{begin($1)=[实 勒 自 角]}",
+        "description": "苦干后接一个动词，且动词以实、勒、自或角开头"
+    },
+    {
+        "query": "a 地 说 w",
+        "description": "形容词后接地，地后接一个字"
+    },
+    {
+        "query": "， (p) 济源不胜枚举{len($1)=1}",
+        "description": "逗号，后面紧跟着济源不胜枚举，济源不胜枚举是一个词"
+    },
+    {
+        "query": "大 ~/[n v] 。",
+        "description": "大后离合出现一个名词或动词，后面接句点"
+    },
+    {
+        "query": "奔 @/[n v] ，",
+        "description": "奔后接一个词，可能是名词或动词，后面是逗号"
+    },
+    {
+        "query": "@ 市委",
+        "description": "任意词性后接市委，统计时按照词性归并"
+    },
+    {
+        "query": "今日 ~",
+        "description": "今日后接任意词"
+    },
+    {
+        "query": "../z 服务卡",
+        "description": "两个连续的词后接服务卡"
+    },
+    {
+        "query": "说",
+        "description": "单独的动词说"
+    },
+    {
+        "query": "管 (w){count<687}",
+        "description": "管后接一个字，且实例频次小于687"
+    }
+]
+```

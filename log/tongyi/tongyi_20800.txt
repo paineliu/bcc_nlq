@@ -1,0 +1,166 @@
+以下是将给定的检索式转换为带含义的JSON结构的列表：
+
+```json
+[
+    {
+        "query": "通过 /p 服务 管理 铸 品牌 。 /w",
+        "description": "通过服务管理铸品牌，句尾有句点"
+    },
+    {
+        "query": "市场 /n+有+多+热 /a",
+        "description": "市场有多热，描述性形容词热"
+    },
+    {
+        "query": "市场 /n 有 多 热 /a",
+        "description": "市场有多个热，描述性形容词热"
+    },
+    {
+        "query": "v+情谊 /n",
+        "description": "动词后接情谊，情谊作为一个名词"
+    },
+    {
+        "query": "v 情谊 /n",
+        "description": "动词后接情谊，情谊作为一个名词"
+    },
+    {
+        "query": "在 /p+村村 /n",
+        "description": "在村村，村村作为一个名词"
+    },
+    {
+        "query": "在 /p 村村 /n",
+        "description": "在村村，村村作为一个名词"
+    },
+    {
+        "query": "开创 +空间 /n",
+        "description": "开创空间，空间作为一个名词"
+    },
+    {
+        "query": "开创 空间 /n",
+        "description": "开创空间，空间作为一个名词"
+    },
+    {
+        "query": "， +寒风 /n+瑟瑟",
+        "description": "逗号后接寒风瑟瑟"
+    },
+    {
+        "query": "， 寒风 /n 瑟瑟",
+        "description": "逗号后接寒风瑟瑟"
+    },
+    {
+        "query": "美丽的 +../n",
+        "description": "美丽后接一个未指定的名词"
+    },
+    {
+        "query": "美丽的 ../n",
+        "description": "美丽后接一个未指定的名词"
+    },
+    {
+        "query": "./v对了",
+        "description": "句尾为对了的陈述句"
+    },
+    {
+        "query": "陈利刚 /nr+向",
+        "description": "陈利刚向，名字陈利刚之后接向"
+    },
+    {
+        "query": "陈利刚 /nr 向",
+        "description": "陈利刚向，名字陈利刚之后接向"
+    },
+    {
+        "query": "的 +难题 /n+，",
+        "description": "的难题后接逗号"
+    },
+    {
+        "query": "的 难题 /n ，",
+        "description": "的难题后接逗号"
+    },
+    {
+        "query": "v+爱心 /n",
+        "description": "动词后接爱心，爱心作为一个名词"
+    },
+    {
+        "query": "v 爱心 /n",
+        "description": "动词后接爱心，爱心作为一个名词"
+    },
+    {
+        "query": "二十四 /m+不断",
+        "description": "二十四不间断"
+    },
+    {
+        "query": "二十四 /m 不断",
+        "description": "二十四不间断"
+    },
+    {
+        "query": "丰富 /a",
+        "description": "描述性形容词丰富"
+    },
+    {
+        "query": "政策性 +。 /w",
+        "description": "政策性句尾有句点"
+    },
+    {
+        "query": "政策性 。 /w",
+        "description": "政策性句尾有句点"
+    },
+    {
+        "query": "./v",
+        "description": "句尾为未指定动词"
+    },
+    {
+        "query": "太 /d+w",
+        "description": "太后接未指定的词"
+    },
+    {
+        "query": "太 /d w",
+        "description": "太后接未指定的词"
+    },
+    {
+        "query": "为 +要 /v+被",
+        "description": "为要被，描述性结构"
+    },
+    {
+        "query": "为 要 /v 被",
+        "description": "为要被，描述性结构"
+    },
+    {
+        "query": "为重 +。 /w",
+        "description": "为重句尾有句点"
+    },
+    {
+        "query": "为重 。 /w",
+        "description": "为重句尾有句点"
+    },
+    {
+        "query": "明坑 /+暗道 /n+，",
+        "description": "明坑暗道后接逗号"
+    },
+    {
+        "query": "明坑 暗道 /n ，",
+        "description": "明坑暗道后接逗号"
+    },
+    {
+        "query": "./v到 n",
+        "description": "句尾为到达的陈述句"
+    },
+    {
+        "query": "有意 +../v",
+        "description": "有意后接一个未指定的动词"
+    },
+    {
+        "query": "有意 ../v",
+        "description": "有意后接一个未指定的动词"
+    },
+    {
+        "query": "培养 /v+具有",
+        "description": "培养具有，描述性结构"
+    },
+    {
+        "query": "培养 /v 具有",
+        "description": "培养具有，描述性结构"
+    },
+    {
+        "query": "点 /v+../n+",
+        "description": "点后接一个未指定的名词"
+    }
+]
+```

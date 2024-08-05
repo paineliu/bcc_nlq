@@ -1,0 +1,160 @@
+```json
+[
+    {
+        "query": "(nt) 任免{end($1)!=[容 西 腿 退]}",
+        "description": "任免职务，但排除'容'、'西'、'腿'、'退'作为结束词"
+    },
+    {
+        "query": "在 ./[j v] 召开",
+        "description": "在介词后面接动词或形容词的句子中召开"
+    },
+    {
+        "query": "产业",
+        "description": "只包含'产业'这个词"
+    },
+    {
+        "query": "转型 @/[w v] 从",
+        "description": "转型后接'从'，并且'从'前面可能是形容词或动词"
+    },
+    {
+        "query": "这样 ./u 。",
+        "description": "这样的句子以单字连词连接，句尾是句号"
+    },
+    {
+        "query": "这下 (v) 了{end($1)!=[件 除]}",
+        "description": "这后面接一个动词，但排除'件'和'除'作为结束词"
+    },
+    {
+        "query": "点头",
+        "description": "直接包含'点头'这个动作"
+    },
+    {
+        "query": ". 告状 照样 息诉 ..",
+        "description": "句尾包含'告状'、'照样'、'息诉'中的一个，可能还有更多内容"
+    },
+    {
+        "query": "nr 南海 摄 (n){begin($2)!=[武 句 母]}",
+        "description": "名词'南海'后接名词，但排除'武'、'句'、'母'作为开始词"
+    },
+    {
+        "query": "ns 叫停",
+        "description": "包含'叫停'这个词"
+    },
+    {
+        "query": "v 变",
+        "description": "动词后面接'变'"
+    },
+    {
+        "query": "是 ~ 一",
+        "description": "包含'是'和一个词"
+    },
+    {
+        "query": "v n",
+        "description": "动词后面接名词"
+    },
+    {
+        "query": "nr 说{len($1)<4}",
+        "description": "人名后面接的词长度小于4个字符"
+    },
+    {
+        "query": "v w",
+        "description": "动词后面接一个字"
+    },
+    {
+        "query": "闻 @",
+        "description": "包含'闻'这个词，统计时按词性归并"
+    },
+    {
+        "query": "../vn 改革",
+        "description": "双音节动词后面接改革"
+    },
+    {
+        "query": "大学 将/d 优化",
+        "description": "大学后面接'将'，然后是动词'优化'"
+    },
+    {
+        "query": "如何 @/[v v]",
+        "description": "如何后面接一个或两个动词"
+    },
+    {
+        "query": "很多 @ 钻",
+        "description": "很多后面接一个词，统计时按词性归并"
+    },
+    {
+        "query": "... 说",
+        "description": "省略号后面接'说'"
+    },
+    {
+        "query": "(n) 联手 促进 (n){len($1)>1; len($2)>1}",
+        "description": "两个名词相连，且每个名词长度大于1"
+    },
+    {
+        "query": "英文 (n) 上线{begin($1)!=[着 刚 陪 专]}",
+        "description": "英文后面接名词，但排除'着'、'刚'、'陪'、'专'作为开始词"
+    },
+    {
+        "query": "荷兰 @/[ns v] 的",
+        "description": "荷兰后面接形容词或动词，后面可能跟一个'的'"
+    },
+    {
+        "query": "街景 ./w",
+        "description": "街道景色，'街景'后面接一个字"
+    },
+    {
+        "query": "扬帆 ~ 巨浪",
+        "description": "扬帆后面接一个词"
+    },
+    {
+        "query": "(n) 深处{count<692}",
+        "description": "名词'深处'出现次数少于692次"
+    },
+    {
+        "query": "回响 。/w",
+        "description": "回响后面接句号"
+    },
+    {
+        "query": "联通 (v) 发展{count>4}",
+        "description": "联通动词后面接发展，且该组合出现次数多于4次"
+    },
+    {
+        "query": "~/[r v] ，",
+        "description": "一个词后面接动词或代词，后面是逗号"
+    },
+    {
+        "query": "w c",
+        "description": "一个字后面接c，可能表示连接词"
+    },
+    {
+        "query": "就 ~/[v v] 海上",
+        "description": "就后面接一个或两个动词，后面是海上"
+    },
+    {
+        "query": "互通 @/[w v] 只是",
+        "description": "互通后面接形容词或动词，后面是'只是'"
+    },
+    {
+        "query": "： ~ 聚焦",
+        "description": "冒号后面接一个词"
+    },
+    {
+        "query": "： @/[v v] 同心",
+        "description": "冒号后面接一个词，后面是动词或动词组"
+    },
+    {
+        "query": "这是 (m) 场{count>9}",
+        "description": "这是后面接一个数词，且该组合出现次数多于9次"
+    },
+    {
+        "query": "往来 w 要",
+        "description": "往来后面接一个字，然后是'要'"
+    },
+    {
+        "query": "式 (vn) ：{count<606}",
+        "description": "式后面接一个动名词，且该组合出现次数少于606次"
+    },
+    {
+        "query": "(n) 改写 一 (q){len($1)=1; len($2)!=2}",
+        "description": "一个名词后面接'一'，但'一'后面不是一个词"
+    }
+]
+```

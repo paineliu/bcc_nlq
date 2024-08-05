@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "/v",
+        "description": "动词"
+    },
+    {
+        "query": "a+的+风情/n",
+        "description": "形容词后接的风情名词"
+    },
+    {
+        "query": "a 的 风情/n",
+        "description": "形容词后接的风情名词"
+    },
+    {
+        "query": "n+的+真心/n",
+        "description": "名词后接的真心名词"
+    },
+    {
+        "query": "n 的 真心/n",
+        "description": "名词后接的真心名词"
+    },
+    {
+        "query": "中欧/j+深入+务实+合作+。/w",
+        "description": "中欧后接深入、务实、合作并以句末符号结尾"
+    },
+    {
+        "query": "中欧/j 深入 务实 合作 。/w",
+        "description": "中欧后接深入、务实、合作并以句末符号结尾"
+    },
+    {
+        "query": "开/v",
+        "description": "动词"
+    },
+    {
+        "query": "不+高/a+。",
+        "description": "不和高组合形成的句子"
+    },
+    {
+        "query": "不 高/a 。",
+        "description": "不和高组合形成的句子"
+    },
+    {
+        "query": "作者+为/v+天津",
+        "description": "作者后接为和天津"
+    },
+    {
+        "query": "作者 为/v 天津",
+        "description": "作者后接为和天津"
+    },
+    {
+        "query": "习近平/nr+主持+会议+。/w",
+        "description": "习近平后接主持、会议并以句末符号结尾"
+    },
+    {
+        "query": "习近平/nr 主持 会议 。/w",
+        "description": "习近平后接主持、会议并以句末符号结尾"
+    },
+    {
+        "query": "v*亲情/n",
+        "description": "动词后接亲情名词"
+    },
+    {
+        "query": "热/a",
+        "description": "形容词"
+    },
+    {
+        "query": "u+太/d",
+        "description": "u后接太"
+    },
+    {
+        "query": "u 太/d",
+        "description": "u后接太"
+    },
+    {
+        "query": "./v了",
+        "description": "单音节动词后接了"
+    },
+    {
+        "query": "这么/r+说+，+可能+还+抽象+了+点/q",
+        "description": "这么后接说、可能、还、抽象、了、点并以句末符号结尾"
+    },
+    {
+        "query": "这么/r 说 ， 可能 还 抽象 了 点/q",
+        "description": "这么后接说、可能、还、抽象、了、点并以句末符号结尾"
+    },
+    {
+        "query": "检阅+。/w",
+        "description": "检阅以句末符号结尾"
+    },
+    {
+        "query": "检阅 。/w",
+        "description": "检阅以句末符号结尾"
+    },
+    {
+        "query": "开放性/n+。/w",
+        "description": "开放性以句末符号结尾"
+    },
+    {
+        "query": "开放性/n 。/w",
+        "description": "开放性以句末符号结尾"
+    },
+    {
+        "query": "与+中小学/j+结",
+        "description": "与后接中小学、结"
+    },
+    {
+        "query": "与 中小学/j 结",
+        "description": "与后接中小学、结"
+    },
+    {
+        "query": "又+面临/v+困难",
+        "description": "又后接面临、困难"
+    },
+    {
+        "query": "又 面临/v 困难",
+        "description": "又后接面临、困难"
+    },
+    {
+        "query": "解决/v+人+与+自然/n",
+        "description": "解决后接人、与、自然"
+    },
+    {
+        "query": "解决/v 人 与 自然/n",
+        "description": "解决后接人、与、自然"
+    },
+    {
+        "query": "光大+银行/n+阳光",
+        "description": "光大后接银行、阳光"
+    },
+    {
+        "query": "光大 银行/n 阳光",
+        "description": "光大后接银行、阳光"
+    },
+    {
+        "query": "和/p",
+        "description": "连词"
+    },
+    {
+        "query": "极/d+a",
+        "description": "极后接a"
+    },
+    {
+        "query": "极/d a",
+        "description": "极后接a"
+    },
+    {
+        "query": "...者/n",
+        "description": "省略部分后接者"
+    },
+    {
+        "query": "引发+了/u+一些",
+        "description": "引发后接了、一些"
+    },
+    {
+        "query": "引发 了/u 一些",
+        "description": "引发后接了、一些"
+    },
+    {
+        "query": "v+诚意/n",
+        "description": "动词后接诚意名词"
+    }
+]
+```

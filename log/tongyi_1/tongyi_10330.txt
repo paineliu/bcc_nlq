@@ -1,0 +1,156 @@
+```json
+[
+    {
+        "query": "把 (ns) 打造{count<489}",
+        "description": "把后接地名，打造的实例频次小于489"
+    },
+    {
+        "query": "铁军 。/w",
+        "description": "铁军后接句尾符号"
+    },
+    {
+        "query": "@/[ns v] 临沂",
+        "description": "以临沂开头的句子，临沂可能是名词或动词"
+    },
+    {
+        "query": "nr 以",
+        "description": "人名后接以"
+    },
+    {
+        "query": "严以律己 @ 前提",
+        "description": "严以律己作为前提"
+    },
+    {
+        "query": "(n) 是 (n){len($1)=2; len($2)=2}",
+        "description": "两个长度为2的名词相连"
+    },
+    {
+        "query": "江苏 ~ 陈达",
+        "description": "江苏后接任意词"
+    },
+    {
+        "query": "杜坚 ~/[v v] 人民",
+        "description": "杜坚后接两个连续的动词，后面接人民"
+    },
+    {
+        "query": "坡边 ../n 生长",
+        "description": "坡边后接名词生长"
+    },
+    {
+        "query": "微凉 ./w",
+        "description": "微凉作为形容词"
+    },
+    {
+        "query": "~ 笑",
+        "description": "笑作为一个词"
+    },
+    {
+        "query": "， (v) 干部{end($1)=[进 架 卡 唉]}",
+        "description": "逗号后接动词，干部后面是进、架、卡或唉"
+    },
+    {
+        "query": "结束 ~",
+        "description": "结束后面有一个词"
+    },
+    {
+        "query": "~/[v v] 下",
+        "description": "以一个词接两个连续动词，后面接下"
+    },
+    {
+        "query": "到此 (v){count>6}",
+        "description": "到此后面出现次数大于6的动词"
+    },
+    {
+        "query": "下车 (w) 刺骨{count>9}",
+        "description": "下车后面接刺骨，且刺骨出现次数大于9"
+    },
+    {
+        "query": "m n",
+        "description": "一个量词后接名词"
+    },
+    {
+        "query": "(nr) 徐{middle($1)!=[套 测 糖]}",
+        "description": "徐字出现在名词中间，但不包括套、测、糖"
+    },
+    {
+        "query": "@/[nr v] 卫星",
+        "description": "以人名或动词开头的句子，后面接卫星"
+    },
+    {
+        "query": "(nr) 礼品{len($1)!=4}",
+        "description": "名词长度不为4的人名"
+    },
+    {
+        "query": "(n) 单位{len($1)>1}",
+        "description": "长度大于1的名词"
+    },
+    {
+        "query": "(a) (v){count<775}",
+        "description": "形容词后接动词，且实例频次小于775"
+    },
+    {
+        "query": "(v) 三 严 三 实 ， 关键 在于 (v){begin($1)!=[待 及 初]; len($2)>1}",
+        "description": "三个连续词，后面是关键在于，关键在于后面是长度大于1的动词，且不以待、及、初开头"
+    },
+    {
+        "query": "(v) 关键 (n){len($1)!=3; len($2)!=3}",
+        "description": "关键后面接非长度为3的名词"
+    },
+    {
+        "query": "实际",
+        "description": "实际"
+    },
+    {
+        "query": "深化 (vn) 教育{len($1)!=3}",
+        "description": "深化后面接非长度为3的动名词"
+    },
+    {
+        "query": "用 . 两面",
+        "description": "用后接一个字，两面"
+    },
+    {
+        "query": "为 ~/[v v] 之",
+        "description": "为后接一个词，该词后面接两个连续动词"
+    },
+    {
+        "query": "强化 (n) 建设{begin($1)=[制 衣]}",
+        "description": "强化后面接建设，建设的前面是制或衣"
+    },
+    {
+        "query": "落实 .. 追究",
+        "description": "落实后面接任意词，再接追究"
+    },
+    {
+        "query": "@/[m v] 次",
+        "description": "以数词或动词开头的句子，后面接次"
+    },
+    {
+        "query": "改革",
+        "description": "改革"
+    },
+    {
+        "query": "的 (vn) 要{len($1)=2}",
+        "description": "的后面接长度为2的动词"
+    },
+    {
+        "query": "改革 ./p 哪个",
+        "description": "改革后接一个介词，然后是哪个"
+    },
+    {
+        "query": "徐未晚 ../v 。",
+        "description": "徐未晚后接一个动词，然后是句尾符号"
+    },
+    {
+        "query": "(nr) 未{count<296}",
+        "description": "未字出现在人名中，且频次小于296"
+    },
+    {
+        "query": "(a) 地 (v){len($1)=1; len($2)=2}",
+        "description": "一个形容词后接一个长度为2的动词"
+    },
+    {
+        "query": "(n) (d){len($1)!=3; len($2)=1}",
+        "description": "一个名词后面接一个长度不为3的副词"
+    }
+]
+```

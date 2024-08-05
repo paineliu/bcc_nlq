@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "恐怕*定有",
+        "description": "恐怕后面离合出现定有"
+    },
+    {
+        "query": "大概*非得v",
+        "description": "大概后面离合出现非得动词"
+    },
+    {
+        "query": "我.+进来w",
+        "description": "我后邻一个单字，然后是进来"
+    },
+    {
+        "query": "我. 进来w",
+        "description": "我后邻空格，然后是进来"
+    },
+    {
+        "query": "*一次w",
+        "description": "一个字后面离合出现一次"
+    },
+    {
+        "query": "捧*n",
+        "description": "捧后接名词"
+    },
+    {
+        "query": "V+.....观点",
+        "description": "动词后接一个由点、点组成的观点"
+    },
+    {
+        "query": "V .....观点",
+        "description": "动词后接一个由点、点组成的观点"
+    },
+    {
+        "query": "w我.敌w",
+        "description": "我后邻敌，然后是w"
+    },
+    {
+        "query": "一.是一",
+        "description": "一后面隔一个字后接是一"
+    },
+    {
+        "query": "似乎*就v",
+        "description": "似乎后面离合出现就动词"
+    },
+    {
+        "query": "大概*呢？",
+        "description": "大概后面离合出现呢？"
+    },
+    {
+        "query": "似乎*绝不",
+        "description": "似乎后面离合出现绝不"
+    },
+    {
+        "query": "既...，又...",
+        "description": "既后邻一个由点、点组成的元素，然后是逗号，再后邻另一个由点、点组成的元素"
+    },
+    {
+        "query": "向..v来",
+        "description": "向后面隔一个字后接动词来"
+    },
+    {
+        "query": "恐怕*绝不",
+        "description": "恐怕后面离合出现绝不"
+    },
+    {
+        "query": "是*的打算w",
+        "description": "是后面离合出现的，的后面是打算"
+    },
+    {
+        "query": "怒火*V下",
+        "description": "怒火后面离合出现V动词下"
+    },
+    {
+        "query": "摇钱树*v",
+        "description": "摇钱树后接动词"
+    },
+    {
+        "query": "抢不.",
+        "description": "抢后面隔一个字后接不"
+    },
+    {
+        "query": "连......也",
+        "description": "连后邻一个由点、点组成的元素，然后是也"
+    },
+    {
+        "query": "她们..+过来w",
+        "description": "她们后邻一个单字，然后是过来"
+    },
+    {
+        "query": "她们.. 过来w",
+        "description": "她们后邻空格，然后是过来"
+    },
+    {
+        "query": "女生*男生",
+        "description": "女生后面离合出现男生"
+    },
+    {
+        "query": "那......m+q+n",
+        "description": "那后面离合出现一个由m、q、n组成的元素"
+    },
+    {
+        "query": "那......m q n",
+        "description": "那后面离合出现一个由m、q、n组成的元素"
+    },
+    {
+        "query": "你们..+回来w",
+        "description": "你们后邻一个单字，然后是回来"
+    },
+    {
+        "query": "你们.. 回来w",
+        "description": "你们后邻空格，然后是回来"
+    },
+    {
+        "query": "咱们一个*；",
+        "description": "咱们后邻一个由点、点组成的元素，然后是分号"
+    },
+    {
+        "query": "仿佛*就是v",
+        "description": "仿佛后面离合出现就是动词"
+    },
+    {
+        "query": "~哒",
+        "description": "一个词"
+    },
+    {
+        "query": "w有.无w",
+        "description": "有后面隔一个字后接无，然后是w"
+    },
+    {
+        "query": "越.越",
+        "description": "越后面隔一个字后接越"
+    },
+    {
+        "query": "恐怕*的。",
+        "description": "恐怕后面离合出现的，然后是句尾符号。"
+    },
+    {
+        "query": "至少*好像",
+        "description": "至少后面离合出现好像"
+    },
+    {
+        "query": "我们..+出来w",
+        "description": "我们后邻一个单字，然后是出来"
+    },
+    {
+        "query": "我们.. 出来w",
+        "description": "我们后邻空格，然后是出来"
+    },
+    {
+        "query": "太.了吧",
+        "description": "太后面隔一个字后接吧"
+    },
+    {
+        "query": "好像@+m+q",
+        "description": "好像后接一个词性，然后是m、q"
+    },
+    {
+        "query": "好像@ m q",
+        "description": "好像后接一个词性，然后是m、q"
+    }
+]
+```

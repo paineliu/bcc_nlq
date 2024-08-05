@@ -1,0 +1,156 @@
+```json
+[
+    {
+        "query": "~工作", 
+        "description": "工作中间有一个词"
+    },
+    {
+        "query": "(n) 进行{begin($1)=[记 道]}", 
+        "description": "进行，后面紧跟记或道作为开始"
+    },
+    {
+        "query": "(v) 大 (n){len($2)>1}", 
+        "description": "大后面跟着一个长度大于1的名词"
+    },
+    {
+        "query": "发人深省 ./w", 
+        "description": "发人深省，发后面可能跟一个词"
+    },
+    {
+        "query": "..暖", 
+        "description": "两个连续的字，第二个字为暖"
+    },
+    {
+        "query": "啊 (w){count<589}", 
+        "description": "啊，频次小于589"
+    },
+    {
+        "query": "最后 ./m 公里", 
+        "description": "最后后面接一个米字单位"
+    },
+    {
+        "query": "的", 
+        "description": "单独的词，可能是形容词、助词或语气词"
+    },
+    {
+        "query": "(n) 不 能 仅仅 把 病人 当 (n){begin($2)!=[衣 解]}",
+        "description": "不、能、仅仅、把、病人、当，病人后面不接衣或解"
+    },
+    {
+        "query": "都 @/[v v] 白求恩", 
+        "description": "都后接两个连续的动词，动词后面可能是白求恩"
+    },
+    {
+        "query": "@ ，", 
+        "description": "逗号，可能是句尾符号"
+    },
+    {
+        "query": "(a) (u){len($1)<3}", 
+        "description": "两个连续的字，第一个字是形容词，长度小于3"
+    },
+    {
+        "query": "(nr) 老师{count>5}", 
+        "description": "老师这个词出现次数大于5次"
+    },
+    {
+        "query": "记者 (v) 最多{len($1)<3}", 
+        "description": "记者后面最多跟两个字的动词"
+    },
+    {
+        "query": "是 (n) 。{count>8}", 
+        "description": "是后面跟一个名词，且句尾是句号，且该句的句号数量大于8"
+    },
+    {
+        "query": "n r", 
+        "description": "名词后面接一个字"
+    },
+    {
+        "query": "~/[v v] 规矩", 
+        "description": "规矩中间可能有一个词，前后都是动词"
+    },
+    {
+        "query": "(v) 纪律{len($1)!=3}", 
+        "description": "纪律这个词的长度不是3"
+    },
+    {
+        "query": ".../r 讲", 
+        "description": "三个连续的字，最后一个字为讲"
+    },
+    {
+        "query": "认真 @/[w v] 就是", 
+        "description": "认真后面可能是动词或形容词，再接就是"
+    },
+    {
+        "query": "为了 ../[t v] 。", 
+        "description": "为了后面可能是时间词或动词，后面是句号"
+    },
+    {
+        "query": "文献 .../n 副", 
+        "description": "文献后面可能是两个连续的字，第二个字为名词"
+    },
+    {
+        "query": "(n) 思想 (v){len($1)=3; end($2)=[v 网]}", 
+        "description": "思想后面接三个字的动词，且动词后可能是网"
+    },
+    {
+        "query": "人 .. ！", 
+        "description": "人后面可能接两个连续的字，末尾是感叹号"
+    },
+    {
+        "query": "出 (r) 问题{len($1)<3}", 
+        "description": "出后面接一个字，该字为疑问词，且长度小于3"
+    },
+    {
+        "query": ".", 
+        "description": "句尾符号"
+    },
+    {
+        "query": "一致", 
+        "description": "一致，可能是形容词或其他词"
+    },
+    {
+        "query": "汲取 (w){count>5}", 
+        "description": "汲取这个词出现次数大于5次"
+    },
+    {
+        "query": "方面 @ 明确", 
+        "description": "方面后面接一个词，可能是明确"
+    },
+    {
+        "query": "动摇 @/[w v]", 
+        "description": "动摇后面可能是动词或形容词"
+    },
+    {
+        "query": "@/[r v] 显然", 
+        "description": "可能是动词或形容词，再接显然"
+    },
+    {
+        "query": "打折 。/w", 
+        "description": "打折后面可能是句尾符号"
+    },
+    {
+        "query": "中央 ../[n v] 部署", 
+        "description": "中央后面可能是名词或动词，再接部署"
+    },
+    {
+        "query": "为 (ns) 政治{count<555}", 
+        "description": "为后面接政治，且该组合频次小于555"
+    },
+    {
+        "query": "根本 vn", 
+        "description": "根本后面接一个单音节动词"
+    },
+    {
+        "query": "事实 (d) 如此{begin($1)=[的 半 雪 若]}", 
+        "description": "事实后面接如此，如此可能是被的、半、雪或若开头的词"
+    },
+    {
+        "query": "为 (j) 北京{begin($1)=[中 腰 几]}", 
+        "description": "为后面接北京，北京可能是中、腰或几开头的词"
+    },
+    {
+        "query": "(n) 群众 是 事业 (v){count>8}", 
+        "description": "群众、是、事业，群众后面接的词是事业，且频次大于8"
+    }
+]
+```

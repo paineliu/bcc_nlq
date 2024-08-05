@@ -1,0 +1,159 @@
+以下是将给定的检索式转换为带含义的JSON结构的结果：
+
+```json
+[
+    {
+        "query": "感谢/v 俞 主任 和 社区/n",
+        "description": "感谢后面接俞主任和社区"
+    },
+    {
+        "query": "v*悬念/n",
+        "description": "动词后面离合出现悬念"
+    },
+    {
+        "query": "摄+人民/n+视觉",
+        "description": "摄加人民加视觉"
+    },
+    {
+        "query": "摄 人民/n 视觉",
+        "description": "摄后接人民和视觉"
+    },
+    {
+        "query": "不/d+能/v",
+        "description": "不后接能"
+    },
+    {
+        "query": "不/d 能/v",
+        "description": "不后接能"
+    },
+    {
+        "query": "揣+着/u+明白",
+        "description": "揣加着加明白"
+    },
+    {
+        "query": "揣 着/u 明白",
+        "description": "揣后接着和明白"
+    },
+    {
+        "query": "焦点/n+之二",
+        "description": "焦点后接之二"
+    },
+    {
+        "query": "焦点/n 之二",
+        "description": "焦点后接之二"
+    },
+    {
+        "query": "命/n",
+        "description": "命"
+    },
+    {
+        "query": "..../v自由",
+        "description": "句尾离合出现自由"
+    },
+    {
+        "query": "./v+下",
+        "description": "单音节动词后接下"
+    },
+    {
+        "query": "./v 下",
+        "description": "单音节动词后接下"
+    },
+    {
+        "query": "老屋+那/c+扇",
+        "description": "老屋加那加扇"
+    },
+    {
+        "query": "老屋 那/c 扇",
+        "description": "老屋后接那和扇"
+    },
+    {
+        "query": "融资+工具/n+。",
+        "description": "融资加工具加句点"
+    },
+    {
+        "query": "融资 工具/n 。",
+        "description": "融资后接工具和句点"
+    },
+    {
+        "query": "吸引力+也/d+是",
+        "description": "吸引力加也加是"
+    },
+    {
+        "query": "吸引力 也/d 是",
+        "description": "吸引力后接也和是"
+    },
+    {
+        "query": "v*兴致/n",
+        "description": "动词后面离合出现兴致"
+    },
+    {
+        "query": "共同/d+扞卫",
+        "description": "共同后接扞卫"
+    },
+    {
+        "query": "共同/d 扞卫",
+        "description": "共同后接扞卫"
+    },
+    {
+        "query": "保险+机构/n+参与",
+        "description": "保险加机构加参与"
+    },
+    {
+        "query": "保险 机构/n 参与",
+        "description": "保险后接机构和参与"
+    },
+    {
+        "query": "新/a+思路/n",
+        "description": "新加思路"
+    },
+    {
+        "query": "新/a 思路/n",
+        "description": "新后接思路"
+    },
+    {
+        "query": "当然/d+，",
+        "description": "当然后接逗号"
+    },
+    {
+        "query": "当然/d ，",
+        "description": "当然后接逗号"
+    },
+    {
+        "query": "冷/a",
+        "description": "冷"
+    },
+    {
+        "query": "v+人+./n",
+        "description": "动词后接人和单字"
+    },
+    {
+        "query": "v 人 ./n",
+        "description": "动词后接人和单字"
+    },
+    {
+        "query": "孙/nr+洪水",
+        "description": "孙加洪水"
+    },
+    {
+        "query": "孙/nr 洪水",
+        "description": "孙后接洪水"
+    },
+    {
+        "query": "..../j",
+        "description": "句尾离合出现j"
+    },
+    {
+        "query": "敢/v+想象+。/w",
+        "description": "敢后离合出现想象和句点"
+    },
+    {
+        "query": "敢/v 想象 。/w",
+        "description": "敢后离合出现想象和句点"
+    },
+    {
+        "query": "..人/n",
+        "description": "句尾离合出现人"
+    }
+]
+```
+这些JSON结构包含了给定检索式的描述性文本，每个条目对应一个具体的检索表达式及其解释。

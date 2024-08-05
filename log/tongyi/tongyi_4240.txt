@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "V 黑|白|红|蓝|绿|橙|粉|黄|紫|灰了",
+        "description": "动词后接黑、白、红、蓝、绿、橙、粉、黄、紫、灰"
+    },
+    {
+        "query": "a合理",
+        "description": "形容词合理"
+    },
+    {
+        "query": "想v就v",
+        "description": "动词想后接动词就"
+    },
+    {
+        "query": "犯罪n",
+        "description": "名词犯罪"
+    },
+    {
+        "query": "d+p+他",
+        "description": "副词+介词+代词他"
+    },
+    {
+        "query": "d p 他",
+        "description": "副词+介词后接代词他"
+    },
+    {
+        "query": "得可以w",
+        "description": "动词得后接副词可以"
+    },
+    {
+        "query": "。d可以说，",
+        "description": "句尾句首是副词可以说"
+    },
+    {
+        "query": "净v",
+        "description": "动词净"
+    },
+    {
+        "query": "v+出+s",
+        "description": "动词后接出再接s"
+    },
+    {
+        "query": "v 出 s",
+        "description": "动词出后接s"
+    },
+    {
+        "query": "有什么好+Ng+的",
+        "description": "有什么好Ng的"
+    },
+    {
+        "query": "有什么好 Ng 的",
+        "description": "有什么好Ng后接的"
+    },
+    {
+        "query": "厂房v",
+        "description": "动词厂房"
+    },
+    {
+        "query": "一头v",
+        "description": "动词一头"
+    },
+    {
+        "query": "ad+栽种",
+        "description": "副形词+栽种"
+    },
+    {
+        "query": "ad 栽种",
+        "description": "副形词后接栽种"
+    },
+    {
+        "query": "干a了",
+        "description": "形容词干后接了"
+    },
+    {
+        "query": "n及n",
+        "description": "名词及名词"
+    },
+    {
+        "query": "不饥饿w",
+        "description": "不+副词饥饿"
+    },
+    {
+        "query": "a共和国",
+        "description": "形容词共和国"
+    },
+    {
+        "query": "不老a",
+        "description": "不+形容词老"
+    },
+    {
+        "query": "在v什么？",
+        "description": "动词在后接疑问词什么"
+    },
+    {
+        "query": "外V内V",
+        "description": "动词外后接动词内"
+    },
+    {
+        "query": "u文化自信",
+        "description": "助词后接文化自信"
+    },
+    {
+        "query": "v情况",
+        "description": "动词后接情况"
+    },
+    {
+        "query": "v冤了",
+        "description": "动词后接冤"
+    },
+    {
+        "query": "恁a",
+        "description": "形容词恁"
+    },
+    {
+        "query": "a仪器",
+        "description": "形容词仪器"
+    },
+    {
+        "query": "无论是d还是d",
+        "description": "副词无论是后接副词还是"
+    },
+    {
+        "query": "可a",
+        "description": "形容词可"
+    },
+    {
+        "query": "a划分",
+        "description": "形容词划分"
+    },
+    {
+        "query": "十分a而a",
+        "description": "形容词十分后接形容词而"
+    },
+    {
+        "query": "件n",
+        "description": "名词件"
+    },
+    {
+        "query": "一兜n",
+        "description": "数词一后接名词兜"
+    },
+    {
+        "query": "连忙d",
+        "description": "副词连忙"
+    },
+    {
+        "query": "V哪V哪",
+        "description": "动词后接哪哪"
+    },
+    {
+        "query": "好n",
+        "description": "名词好"
+    },
+    {
+        "query": "n情绪",
+        "description": "名词情绪"
+    },
+    {
+        "query": "喝+n+喝",
+        "description": "动词喝后接名词再接喝"
+    }
+]
+```

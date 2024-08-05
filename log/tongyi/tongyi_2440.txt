@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "分工合作",
+        "description": "包含‘分工’与‘合作’的句子"
+    },
+    {
+        "query": "简单而言",
+        "description": "以‘简单而言’开头的句子"
+    },
+    {
+        "query": "你这就",
+        "description": "以‘你这’开头的句子，后接动词或形容词"
+    },
+    {
+        "query": "和谐之风",
+        "description": "包含‘和谐’与‘之风’的句子"
+    },
+    {
+        "query": "玉减香消",
+        "description": "包含四个字，前两个字为形容词，后两个字为动词的句子"
+    },
+    {
+        "query": "南国梨",
+        "description": "包含‘南国’与‘梨’的句子"
+    },
+    {
+        "query": "面子不面子",
+        "description": "包含‘面子’重复出现两次的句子"
+    },
+    {
+        "query": "奉行",
+        "description": "包含‘奉行’的句子"
+    },
+    {
+        "query": "根底",
+        "description": "包含‘底’和‘根’的句子"
+    },
+    {
+        "query": "奔进去",
+        "description": "包含‘奔’和‘进’的句子，以‘奔’开头，以‘进’结尾"
+    },
+    {
+        "query": "婚",
+        "description": "单个汉字‘婚’"
+    },
+    {
+        "query": "和谐与亲",
+        "description": "包含‘和谐’与‘与亲’的句子"
+    },
+    {
+        "query": "够理智",
+        "description": "包含‘够’和‘理智’的句子"
+    },
+    {
+        "query": "有空",
+        "description": "包含‘有空’的句子"
+    },
+    {
+        "query": "人口",
+        "description": "单个汉字‘人口’"
+    },
+    {
+        "query": "唱+歌",
+        "description": "包含‘唱’和‘歌’的句子"
+    },
+    {
+        "query": "唱 歌",
+        "description": "以‘唱’开头，以‘歌’结尾的句子"
+    },
+    {
+        "query": "人权活",
+        "description": "包含‘人权’与‘活’的句子"
+    },
+    {
+        "query": "严格地说",
+        "description": "包含‘严格说’的句子"
+    },
+    {
+        "query": "‘完了。’",
+        "description": "以‘完了。’开头的句子"
+    },
+    {
+        "query": "信心",
+        "description": "单个汉字‘信心’"
+    },
+    {
+        "query": "敢不敢别",
+        "description": "包含‘敢不敢’与‘别’的句子"
+    },
+    {
+        "query": "向",
+        "description": "单个汉字‘向’"
+    },
+    {
+        "query": "机动车登记证",
+        "description": "包含‘机动车’与‘登记证’的句子"
+    },
+    {
+        "query": "自豪",
+        "description": "单个汉字‘自豪’"
+    },
+    {
+        "query": "重码",
+        "description": "单个汉字‘重码’"
+    },
+    {
+        "query": "我请问",
+        "description": "包含‘我请’与‘问’的句子"
+    },
+    {
+        "query": "和谐人居",
+        "description": "包含‘和谐’与‘居’的句子"
+    },
+    {
+        "query": "卷门",
+        "description": "单个汉字‘卷门’"
+    },
+    {
+        "query": "不够时间",
+        "description": "包含‘不够’与‘时间’的句子"
+    },
+    {
+        "query": "造成",
+        "description": "单个汉字‘造成’"
+    },
+    {
+        "query": "整个一个",
+        "description": "包含‘整’与‘个’的句子"
+    },
+    {
+        "query": "不太好玩",
+        "description": "包含‘不’与‘玩’的句子"
+    },
+    {
+        "query": "重新",
+        "description": "单个汉字‘重新’"
+    },
+    {
+        "query": "插科打诨",
+        "description": "包含‘插科’与‘打诨’的句子"
+    },
+    {
+        "query": "躺平",
+        "description": "单个汉字‘躺平’"
+    },
+    {
+        "query": "坑",
+        "description": "单个汉字‘坑’"
+    },
+    {
+        "query": "合股",
+        "description": "包含‘合’与‘股’的句子"
+    },
+    {
+        "query": "膨胀",
+        "description": "单个汉字‘膨胀’"
+    },
+    {
+        "query": "据此而言",
+        "description": "包含‘据’与‘此言’的句子"
+    }
+]
+```

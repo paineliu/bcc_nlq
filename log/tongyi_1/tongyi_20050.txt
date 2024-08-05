@@ -1,0 +1,160 @@
+```json
+[
+    {
+        "query": "需 (v) 。{len($1)=2}",
+        "description": "需要一个长度为2的动词后接句号"
+    },
+    {
+        "query": "完善 ../[vn v] 标准",
+        "description": "完善一个双音节动词后面接名词或动词的标准"
+    },
+    {
+        "query": "@/[m v] 是",
+        "description": "以介词'为'开头，后面跟一个名词或动词，且是整个句子"
+    },
+    {
+        "query": "加强 .. 检查",
+        "description": "加强一个词后面接检查"
+    },
+    {
+        "query": "(v) 强化 支持 (vn){len($2)>1}",
+        "description": "一个动词后面接强化，再接一个长度大于1的名词或动词"
+    },
+    {
+        "query": "推广 w",
+        "description": "推广后接一个字"
+    },
+    {
+        "query": "(v) 数九 (n){begin($2)!=[口 罗]}",
+        "description": "一个动词后面接数九，但数九的开始不能是口或罗"
+    },
+    {
+        "query": "./[n v] 为",
+        "description": "一个名词或动词后接为"
+    },
+    {
+        "query": "(nr) 摄{count<728}",
+        "description": "人名摄，出现次数少于728次"
+    },
+    {
+        "query": "~/[m v] 枚",
+        "description": "一个数量词后面接枚"
+    },
+    {
+        "query": "办结 (n) 九千{begin($1)=[事 期]}",
+        "description": "办结后接一个名词，且该名词的开始是事或期"
+    },
+    {
+        "query": "(a) 了 ， (n){len($1)!=2}",
+        "description": "一个形容词后接了，然后是一个非长度为2的名词"
+    },
+    {
+        "query": "， @ 教育",
+        "description": "逗号后接教育"
+    },
+    {
+        "query": "年 ~ 向下",
+        "description": "年后面接一个词，可能是向下"
+    },
+    {
+        "query": "年 ./[w v] 向上",
+        "description": "年后面接一个动词或名词，表示向上"
+    },
+    {
+        "query": "教育 ./d 生长",
+        "description": "教育后面接生长，生长可能是动词或名词"
+    },
+    {
+        "query": "改革 ~/[u v] 压力",
+        "description": "改革后面离合出现一个介词和动词或名词的压力"
+    },
+    {
+        "query": "随勇者 ./[v v] 深水",
+        "description": "随勇者后面接两个动词，再接深水"
+    },
+    {
+        "query": "(ns) 分社 (n){count<736}",
+        "description": "某个地名分社，出现次数少于736次"
+    },
+    {
+        "query": "(d) 大 的 (n){begin($2)=[压 托 占]}",
+        "description": "大后面接一个形容词，再接一个名词，名词的开始是压、托或占"
+    },
+    {
+        "query": "基层 (n){count>9}",
+        "description": "基层后接名词，出现次数多于9次"
+    },
+    {
+        "query": "日报 (n){middle($1)=[论 青 八]}",
+        "description": "日报后接的名词中位子是论、青或八"
+    },
+    {
+        "query": "不 (v) 一蹴而就{len($1)!=2}",
+        "description": "不后面接一个非长度为2的动词，表示一蹴而就"
+    },
+    {
+        "query": "~/[nr v] 本报",
+        "description": "一个数量词后面接本报"
+    },
+    {
+        "query": "../d 每次 会面 ， 改革 都 是 话题 ./w",
+        "description": "两次动词后接会面，改革后接都是，都是后面是话题且是句首"
+    },
+    {
+        "query": "倒逼 ./[w v]",
+        "description": "倒逼后面接一个动词"
+    },
+    {
+        "query": "现代 (vn) 一线{count>3}",
+        "description": "现代后面接一线，一线出现次数多于3次"
+    },
+    {
+        "query": "本报 @ 分社",
+        "description": "本报后接分社，且在统计时按词性归并"
+    },
+    {
+        "query": "记 (n) 。{count>3}",
+        "description": "记后接一个名词，出现次数多于3次，后面接句号"
+    },
+    {
+        "query": "， ~ 与",
+        "description": "逗号后面接一个词，可能是与"
+    },
+    {
+        "query": "桌 @",
+        "description": "桌后接一个字"
+    },
+    {
+        "query": "百元汇 (w) 微群{count<413}",
+        "description": "百元汇后接微群，出现次数少于413次"
+    },
+    {
+        "query": "品格 w",
+        "description": "品格后接一个字"
+    },
+    {
+        "query": "决定 (u) 地球{len($1)!=2}",
+        "description": "决定后接地球，但决定不是长度为2的词"
+    },
+    {
+        "query": "~/[ns v] 梦",
+        "description": "一个数量词后面接梦"
+    },
+    {
+        "query": "北京 ./[m v] 位",
+        "description": "北京后面接一个动词或名词，表示位置"
+    },
+    {
+        "query": "(v) 微 时代 的 (n){len($1)=2; len($2)=2}",
+        "description": "一个动词后面接微时代，再接一个长度为2的名词"
+    },
+    {
+        "query": "./v 好",
+        "description": "一个动词后接好"
+    },
+    {
+        "query": "最 (v) 。{len($1)=2}",
+        "description": "最后面接一个长度为2的动词后接句号"
+    }
+]
+```

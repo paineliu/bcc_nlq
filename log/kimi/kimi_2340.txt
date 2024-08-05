@@ -1,0 +1,86 @@
+以下是根据给定的检索式及其含义的JSON结构列表：
+
+```json
+[
+    {
+        "query": "../v 评议",
+        "description": "双音节动词后接评议"
+    },
+    {
+        "query": "群众 (n){begin($1)=[点 农 专]}",
+        "description": "名词群众，其开始为点、农、专中的一个"
+    },
+    {
+        "query": "一 ~ 一",
+        "description": "一字前后各有一个词"
+    },
+    {
+        "query": "汉字 (u) 美{count<665}",
+        "description": "汉字后面接助词，然后是一个出现次数少于665次的词美"
+    },
+    {
+        "query": "： (nr){end($1)=[嵩 爸 没 饿]}",
+        "description": "冒号后面接人名，人名结束为嵩、爸、没、饿中的一个"
+    },
+    {
+        "query": "r d",
+        "description": "代词后接副词"
+    },
+    {
+        "query": "喜欢 . 所以",
+        "description": "喜欢后接任意单字，然后接所以"
+    },
+    {
+        "query": "寥寥无几 ./[w v]",
+        "description": "寥寥无几被单字分隔，分隔的字为连词或动词"
+    },
+    {
+        "query": "下来",
+        "description": "包含下来的短语"
+    },
+    {
+        "query": "../p 目前",
+        "description": "双音节介词后接目前"
+    },
+    {
+        "query": "@/[p v] 国内",
+        "description": "以任意词性开始的词，后接介词或动词，再接国内"
+    },
+    {
+        "query": "需要 r 多",
+        "description": "需要后接代词，然后接多"
+    },
+    {
+        "query": "(t) 本{begin($1)!=[认 斗 封 农]}",
+        "description": "时间词本，不以认、斗、封、农开始"
+    },
+    {
+        "query": "为 @ 石窟",
+        "description": "为后面接任意词性，然后接石窟"
+    },
+    {
+        "query": "权 (d) 可{count>7}",
+        "description": "权后面接副词，可出现次数大于7"
+    },
+    {
+        "query": "孩子 ./[k v] 的",
+        "description": "孩子后接单字，该字为后接成分或动词，然后接的"
+    },
+    {
+        "query": "载 (n){end($1)!=[抢 涛 水 其]}",
+        "description": "载后面接名词，名词不以抢、涛、水、其结束"
+    },
+    {
+        "query": "撒播 (n){len($1)>1}",
+        "description": "撒播后面接名词，名词长度大于1"
+    },
+    {
+        "query": "~/[v v] 基层",
+        "description": "任意词性后接双音节动词，再接基层"
+    },
+    {
+        "query": "(v) 整合{len($1)<3}",
+        "description": "动词整合，整合所在短语长度小于3"
+    }
+]
+```

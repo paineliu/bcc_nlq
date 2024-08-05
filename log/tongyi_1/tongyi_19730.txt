@@ -1,0 +1,160 @@
+```json
+[
+    {
+        "query": "还 ~/[v v]", 
+        "description": "还后邻一个或两个动词"
+    },
+    {
+        "query": "好 w", 
+        "description": "好做句首"
+    },
+    {
+        "query": "都 @ 社会", 
+        "description": "都后跟社会，统计时按词性归并"
+    },
+    {
+        "query": "朱珉迕 (v) 日报{len($1)>1}", 
+        "description": "朱珉迕后面跟着一个长度大于1的动词"
+    },
+    {
+        "query": "../ns 造", 
+        "description": "两个字的名词后接造"
+    },
+    {
+        "query": "克江 ~ 德国", 
+        "description": "克江后面接一个词，可能是德国"
+    },
+    {
+        "query": "联盟 ~/[u v] 试验", 
+        "description": "联盟后面离合出现动词或名词，然后是试验"
+    },
+    {
+        "query": "在 (ns) ，{len($1)!=3}", 
+        "description": "在后面接一个不是三个字的地名，逗号后面可能有其他内容"
+    },
+    {
+        "query": "养老 .. 夕阳", 
+        "description": "养老后面隔一个或多个字后接夕阳"
+    },
+    {
+        "query": "晚晴 ./w", 
+        "description": "晚晴做句尾"
+    },
+    {
+        "query": "单位 @/[w v] 吉林", 
+        "description": "单位后跟一个词，可能是吉林，统计时按词性归并"
+    },
+    {
+        "query": "(nr) (n){len($2)=1}", 
+        "description": "人名后面跟一个长度为1的名词"
+    },
+    {
+        "query": "(v) 撞 人民 (n){len($1)!=2}", 
+        "description": "动词撞后面跟人民，但撞不是一个长度为2的词"
+    },
+    {
+        "query": "(n) 关心 (w){$1=$2}", 
+        "description": "名词关心，前后两个词相同"
+    },
+    {
+        "query": "保险 ../n 的", 
+        "description": "保险后面接名词，可能是的"
+    },
+    {
+        "query": "是 i .", 
+        "description": "是做句首，可能以句号结尾"
+    },
+    {
+        "query": "除 ./[n v] 祛邪", 
+        "description": "除后面跟名词或动词，然后是祛邪"
+    },
+    {
+        "query": "坦言 ~/[w v]", 
+        "description": "坦言后面离合出现动词或名词"
+    },
+    {
+        "query": "三 (q) 一批{len($1)=1}", 
+        "description": "三后面跟一个长度为1的量词"
+    },
+    {
+        "query": "(n) 部门 (vn){begin($1)=[组 话 更 圈]}", 
+        "description": "名词部门，且部门这个词的开始是组、话、更或圈"
+    },
+    {
+        "query": "使用", 
+        "description": "直接使用这个词，无更多限定"
+    },
+    {
+        "query": "(vn) (n){begin($1)=[用 哭 记]}", 
+        "description": "两个词，第一个词的开始是用、哭或记"
+    },
+    {
+        "query": "(n) (vn){len($1)=3; len($2)=2}", 
+        "description": "名词后面跟一个长度为3的词和一个长度为2的词"
+    },
+    {
+        "query": "防止 (v) 提拔{len($1)!=3}", 
+        "description": "防止后面跟一个不是长度为3的动词"
+    },
+    {
+        "query": "说 ~/[w v]", 
+        "description": "说后面离合出现动词或名词"
+    },
+    {
+        "query": "位", 
+        "description": "单独的位字"
+    },
+    {
+        "query": "(n) (a){len($1)!=3; len($2)!=2}", 
+        "description": "名词后面跟一个不是长度为3的形容词和一个不是长度为2的词"
+    },
+    {
+        "query": "负责 .. 介绍", 
+        "description": "负责后面隔一个或多个字后接介绍"
+    },
+    {
+        "query": "， @ 可不", 
+        "description": "逗号后面跟一个词，可能是可或不，统计时按词性归并"
+    },
+    {
+        "query": "书记 张/nr 吉福", 
+        "description": "书记后面接人名张吉福"
+    },
+    {
+        "query": "省委 (n) 王儒林{len($1)=2}", 
+        "description": "省委后面跟一个长度为2的名词"
+    },
+    {
+        "query": "和 (n){begin($1)=[公 影]}", 
+        "description": "和后面接一个词，可能是公或影"
+    },
+    {
+        "query": "指导", 
+        "description": "直接的指导"
+    },
+    {
+        "query": "目标 ~", 
+        "description": "目标后面接一个词"
+    },
+    {
+        "query": "(v) 科学 合理 (u){count<109}", 
+        "description": "科学合理，且科学和合理之间至少隔一个词，实例频次少于109次"
+    },
+    {
+        "query": "评奖 ~ 设置", 
+        "description": "评奖后面接一个词"
+    },
+    {
+        "query": "子项 @ 需", 
+        "description": "子项后面跟一个词，可能是需，统计时按词性归并"
+    },
+    {
+        "query": "(vn) (n){begin($1)=[评 别 尿]}", 
+        "description": "两个词，第一个词的开始是评、别或尿"
+    },
+    {
+        "query": "八 ./[w v] 加强", 
+        "description": "八后面可能是动词或名词，后面是加强"
+    }
+]
+```

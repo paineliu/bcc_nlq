@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "首先v+v[，+。]",
+        "description": "首先动词 + 首先动词 + 逗号 或 分号"
+    },
+    {
+        "query": "首先v v[， 。]",
+        "description": "首先动词 + 首先动词 + 逗号 或 句号"
+    },
+    {
+        "query": "逐步v+a[，+。]",
+        "description": "逐步动词 + 形容词 + 逗号 或 分号"
+    },
+    {
+        "query": "逐步v a[， 。]",
+        "description": "逐步动词 + 形容词 + 逗号 或 句号"
+    },
+    {
+        "query": "按期d+a[，+。]",
+        "description": "按期动词 + 形容词 + 逗号 或 分号"
+    },
+    {
+        "query": "按期d a[， 。]",
+        "description": "按期动词 + 形容词 + 逗号 或 句号"
+    },
+    {
+        "query": "v[网游+网络游戏+手游+游戏]",
+        "description": "动词后接网游、网络游戏、手游、游戏"
+    },
+    {
+        "query": "v[网游 网络游戏 手游 游戏]",
+        "description": "动词后接网游、网络游戏、手游、游戏"
+    },
+    {
+        "query": "稍微a[，+。]",
+        "description": "稍微形容词 + 逗号 或 分号"
+    },
+    {
+        "query": "稍微a[， 。]",
+        "description": "稍微形容词 + 逗号 或 句号"
+    },
+    {
+        "query": "顺序n[，+。]",
+        "description": "顺序名词 + 逗号 或 分号"
+    },
+    {
+        "query": "顺序n[， 。]",
+        "description": "顺序名词 + 逗号 或 句号"
+    },
+    {
+        "query": "时而v+n[，+。]",
+        "description": "时而动词 + 名词 + 逗号 或 分号"
+    },
+    {
+        "query": "时而v n[， 。]",
+        "description": "时而动词 + 名词 + 逗号 或 句号"
+    },
+    {
+        "query": "万分v[v+a+n+r][，+。]",
+        "description": "万分动词 + 形容词 + 名词 + 助词 + 助词 + 句尾"
+    },
+    {
+        "query": "万分v[v a n r][， 。]",
+        "description": "万分动词 + 形容词 + 名词 + 助词 + 助词 + 句尾"
+    },
+    {
+        "query": "事先v+u[，+。]",
+        "description": "事先动词 + 助词 + 逗号 或 分号"
+    },
+    {
+        "query": "事先v u[， 。]",
+        "description": "事先动词 + 助词 + 逗号 或 句号"
+    },
+    {
+        "query": "过度v+u[，+。]",
+        "description": "过度动词 + 助词 + 逗号 或 分号"
+    },
+    {
+        "query": "过度v u[， 。]",
+        "description": "过度动词 + 助词 + 逗号 或 句号"
+    },
+    {
+        "query": "不时v+a[，+。]",
+        "description": "不时动词 + 形容词 + 逗号 或 分号"
+    },
+    {
+        "query": "不时v a[， 。]",
+        "description": "不时动词 + 形容词 + 逗号 或 句号"
+    },
+    {
+        "query": "当然v+u[，+。]",
+        "description": "当然动词 + 助词 + 逗号 或 分号"
+    },
+    {
+        "query": "当然v u[， 。]",
+        "description": "当然动词 + 助词 + 逗号 或 句号"
+    },
+    {
+        "query": "擅自v+a[，+。]",
+        "description": "擅自动词 + 形容词 + 逗号 或 分号"
+    },
+    {
+        "query": "擅自v a[， 。]",
+        "description": "擅自动词 + 形容词 + 逗号 或 句号"
+    },
+    {
+        "query": "有n有n[，+。]",
+        "description": "名词 + 名词 + 逗号 或 分号"
+    },
+    {
+        "query": "有n有n[， 。]",
+        "description": "名词 + 名词 + 逗号 或 句号"
+    },
+    {
+        "query": "万万[v+a+n+r][，+。]",
+        "description": "万万动词 + 形容词 + 名词 + 助词 + 助词 + 句尾"
+    },
+    {
+        "query": "万万[v a n r][， 。]",
+        "description": "万万动词 + 形容词 + 名词 + 助词 + 助词 + 句尾"
+    },
+    {
+        "query": "一心v+y[，+。]",
+        "description": "一心动词 + 语气词 + 逗号 或 分号"
+    },
+    {
+        "query": "一心v y[， 。]",
+        "description": "一心动词 + 语气词 + 逗号 或 句号"
+    },
+    {
+        "query": "w[q+r+d+c+v+a++n+m++p]熟.生w",
+        "description": "以w开头，后接包含q、r、d、c、v、a、n、m、p的词组，熟后接生"
+    },
+    {
+        "query": "w[q r d c v a  n m  p]熟.生w",
+        "description": "以w开头，后接q、r、d、c、v、a、n、m、p的词组，熟后接生"
+    },
+    {
+        "query": "还是d+n[，+。]",
+        "description": "还是动词 + 名词 + 逗号 或 分号"
+    },
+    {
+        "query": "还是d n[， 。]",
+        "description": "还是动词 + 名词 + 逗号 或 句号"
+    },
+    {
+        "query": "仿佛是[v+a]",
+        "description": "仿佛是动词 + 形容词"
+    },
+    {
+        "query": "仿佛是[v a]",
+        "description": "仿佛是动词 + 形容词"
+    },
+    {
+        "query": "反复d+n[，+。]",
+        "description": "反复动词 + 名词 + 逗号 或 分号"
+    },
+    {
+        "query": "反复d n[， 。]",
+        "description": "反复动词 + 名词 + 逗号 或 句号"
+    }
+]
+```

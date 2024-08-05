@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "不太a[，+。]", 
+        "description":"形容词不太后邻逗号或句号"
+    },
+    {
+        "query": "不太a[， 。]", 
+        "description":"形容词不太后邻逗号或句点"
+    },
+    {
+        "query": "不时v+u[，+。]", 
+        "description":"动词不时后邻u，u后邻逗号或句号"
+    },
+    {
+        "query": "不时v u[， 。]", 
+        "description":"动词不时后邻u，u后邻逗号或句点"
+    },
+    {
+        "query": "[。+？+！]不@", 
+        "description":"句末符号后为不@"
+    },
+    {
+        "query": "[。 ？ ！]不@", 
+        "description":"句末符号后为不@"
+    },
+    {
+        "query": "[a+d+n+v+l]一味", 
+        "description":"由a, d, n, v, l组成的词汇后接一味"
+    },
+    {
+        "query": "[a d n v l]一味", 
+        "description":"由a, d, n, v, l组成的词汇后接一味"
+    },
+    {
+        "query": "主要v[，+。]", 
+        "description":"动词主要后邻逗号或句号"
+    },
+    {
+        "query": "主要v[， 。]", 
+        "description":"动词主要后邻逗号或句点"
+    },
+    {
+        "query": "[难道+难怪+难以]v[v+a+n+][，+。]", 
+        "description":"由难道、难怪、难以组成的词汇后接动词，动词后邻形容词、名词、再接逗号或句号"
+    },
+    {
+        "query": "[难道 难怪 难以]v[v a n ][， 。]", 
+        "description":"由难道、难怪、难以组成的词汇后接动词，动词后邻形容词、名词、再接逗号或句点"
+    },
+    {
+        "query": "[，+。]p+r+q+[，+。]", 
+        "description":"逗号或句号后接p、r、q，q后接逗号或句号"
+    },
+    {
+        "query": "[， 。]p r q [， 。]", 
+        "description":"逗号或句点后接p、r、q，q后接逗号或句点"
+    },
+    {
+        "query": "多v点[，+。]", 
+        "description":"动词多后接点，点后邻逗号或句号"
+    },
+    {
+        "query": "多v点[， 。]", 
+        "description":"动词多后接点，点后邻逗号或句点"
+    },
+    {
+        "query": "构建[N+A+V]", 
+        "description":"由N、A、V组成的词汇后接构建"
+    },
+    {
+        "query": "构建[N A V]", 
+        "description":"由N、A、V组成的词汇后接构建"
+    },
+    {
+        "query": "不错/a+[v+p+地]", 
+        "description":"形容词不错后接v、p、地，地后邻逗号或句号"
+    },
+    {
+        "query": "不错/a [v p 地]", 
+        "description":"形容词不错后接v、p、地，地后邻逗号或句点"
+    },
+    {
+        "query": "大致v[v+a+n+r][，+。]", 
+        "description":"动词大致后接由形容词、名词、动词、形容词组成的词汇，词汇后接逗号或句号"
+    },
+    {
+        "query": "大致v[v a n r][， 。]", 
+        "description":"动词大致后接由形容词、名词、动词、形容词组成的词汇，词汇后接逗号或句点"
+    },
+    {
+        "query": "起初v+a[，+。]", 
+        "description":"动词起初后接a，a后邻逗号或句号"
+    },
+    {
+        "query": "起初v a[， 。]", 
+        "description":"动词起初后接a，a后邻逗号或句点"
+    },
+    {
+        "query": "的确d+a[，+。]", 
+        "description":"副词的确后接a，a后邻逗号或句号"
+    },
+    {
+        "query": "的确d a[， 。]", 
+        "description":"副词的确后接a，a后邻逗号或句点"
+    },
+    {
+        "query": "究竟v[v+a+n+r][，+。]", 
+        "description":"动词究竟后接由形容词、名词、动词、形容词组成的词汇，词汇后接逗号或句号"
+    },
+    {
+        "query": "究竟v[v a n r][， 。]", 
+        "description":"动词究竟后接由形容词、名词、动词、形容词组成的词汇，词汇后接逗号或句点"
+    },
+    {
+        "query": "尤其v+u[，+。]", 
+        "description":"动词尤其后邻u，u后邻逗号或句号"
+    },
+    {
+        "query": "尤其v u[， 。]", 
+        "description":"动词尤其后邻u，u后邻逗号或句点"
+    },
+    {
+        "query": "备受v[，+。]", 
+        "description":"动词备受后邻逗号或句号"
+    },
+    {
+        "query": "备受v[， 。]", 
+        "description":"动词备受后邻逗号或句点"
+    },
+    {
+        "query": "难怪[v+a+n+r][，+。]", 
+        "description":"动词难怪后接由形容词、名词、动词、形容词组成的词汇，词汇后接逗号或句号"
+    },
+    {
+        "query": "难怪[v a n r][， 。]", 
+        "description":"动词难怪后接由形容词、名词、动词、形容词组成的词汇，词汇后接逗号或句点"
+    },
+    {
+        "query": "未必a[，+。]", 
+        "description":"形容词未必后邻逗号或句号"
+    },
+    {
+        "query": "未必a[， 。]", 
+        "description":"形容词未必后邻逗号或句点"
+    },
+    {
+        "query": "就地v+n[，+。]", 
+        "description":"动词就地后接名词，名词后邻逗号或句号"
+    },
+    {
+        "query": "就地v n[， 。]", 
+        "description":"动词就地后接名词，名词后邻逗号或句点"
+    },
+    {
+        "query": "v给了他[，+。]", 
+        "description":"动词v后接了他，了他后邻逗号或句号"
+    },
+    {
+        "query": "v给了他[， 。]", 
+        "description":"动词v后接了他，了他后邻逗号或句点"
+    }
+]
+```

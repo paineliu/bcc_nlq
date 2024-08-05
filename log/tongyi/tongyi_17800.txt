@@ -1,0 +1,166 @@
+以下是将给定的检索式转换为带含义的json结构的完整列表：
+
+```json
+[
+    {
+        "query": "幸好v+u[，+。]",
+        "description": "幸好后面接u，u后面可以接逗号或句号"
+    },
+    {
+        "query": "幸好v u[， 。]",
+        "description": "幸好后面接u，u后面可以接逗号或句号"
+    },
+    {
+        "query": "准备[。+？+！]",
+        "description": "准备后面接句号、问号或感叹号"
+    },
+    {
+        "query": "准备[。 ？ ！]",
+        "description": "准备后面接句号、问号或感叹号"
+    },
+    {
+        "query": "交替v+v[，+。]",
+        "description": "交替两次动词，两次动词之间可以接逗号或句号"
+    },
+    {
+        "query": "交替v v[， 。]",
+        "description": "交替两次动词，两次动词之间可以接逗号或句号"
+    },
+    {
+        "query": "花在n[f+s]",
+        "description": "花在名词，名词由f+s构成"
+    },
+    {
+        "query": "花在n[f s]",
+        "description": "花在名词，名词由f和s构成"
+    },
+    {
+        "query": "[两+几]片n",
+        "description": "两加几构成的组合后接名词"
+    },
+    {
+        "query": "[两 几]片n",
+        "description": "两或几个构成的组合后接名词"
+    },
+    {
+        "query": "不妨v[，+。]",
+        "description": "不妨后面接逗号或句号"
+    },
+    {
+        "query": "不妨v[， 。]",
+        "description": "不妨后面接逗号或句号"
+    },
+    {
+        "query": "自然d+n[，+。]",
+        "description": "自然后接名词，名词后面可以接逗号或句号"
+    },
+    {
+        "query": "自然d n[，+。]",
+        "description": "自然后接名词，名词后面可以接逗号或句号"
+    },
+    {
+        "query": "w老.幼[q+r+d+c+v+a++n+m++p]w",
+        "description": "w后接老加幼，中间由q+r+d+c+v+a构成的组合，后面接n加m构成的组合，n和m之间可以接逗号或句号"
+    },
+    {
+        "query": "w老.幼[q r d c v a  n m  p]w",
+        "description": "w后接老加幼，中间由q、r、d、c、v、a构成的组合，后面接n、m构成的组合"
+    },
+    {
+        "query": "口头n[，+。]",
+        "description": "口头后接名词，名词后面可以接逗号或句号"
+    },
+    {
+        "query": "口头n[， 。]",
+        "description": "口头后接名词，名词后面可以接逗号或句号"
+    },
+    {
+        "query": "眼看v+u[，+。]",
+        "description": "眼看后面接u，u后面可以接逗号或句号"
+    },
+    {
+        "query": "眼看v u[， 。]",
+        "description": "眼看后面接u，u后面可以接逗号或句号"
+    },
+    {
+        "query": "一定a[，+。]",
+        "description": "一定后面接逗号或句号"
+    },
+    {
+        "query": "一定a[， 。]",
+        "description": "一定后面接逗号或句号"
+    },
+    {
+        "query": "特别[v+a+n+r][，+。]",
+        "description": "特别后面接v、a、n、r构成的组合，后面可以接逗号或句号"
+    },
+    {
+        "query": "特别[v a n r][， 。]",
+        "description": "特别后面接v、a、n、r构成的组合"
+    },
+    {
+        "query": "不料v+y[，+。]",
+        "description": "不料后面接y，y后面可以接逗号或句号"
+    },
+    {
+        "query": "不料v y[， 。]",
+        "description": "不料后面接y，y后面可以接逗号或句号"
+    },
+    {
+        "query": "v过一q[，+。]",
+        "description": "v后面接过一q，后面可以接逗号或句号"
+    },
+    {
+        "query": "v过一q[， 。]",
+        "description": "v后面接过一q，后面可以接逗号或句号"
+    },
+    {
+        "query": "v着我[，+。]",
+        "description": "v后面接着我，后面可以接逗号或句号"
+    },
+    {
+        "query": "v着我[， 。]",
+        "description": "v后面接着我，后面可以接逗号或句号"
+    },
+    {
+        "query": "v不起那n[，+。]",
+        "description": "v后面接不起那n，后面可以接逗号或句号"
+    },
+    {
+        "query": "v不起那n[， 。]",
+        "description": "v后面接不起那n，后面可以接逗号或句号"
+    },
+    {
+        "query": "万万v[，+。]",
+        "description": "万万后面接v，后面可以接逗号或句号"
+    },
+    {
+        "query": "万万v[， 。]",
+        "description": "万万后面接v，后面可以接逗号或句号"
+    },
+    {
+        "query": "w[q+r+d+c+v+a++n+m++p]战.和w",
+        "description": "w后接q+r+d+c+v+a构成的组合，后面接战和w，战和w之间可以接逗号或句号"
+    },
+    {
+        "query": "w[q r d c v a  n m  p]战.和w",
+        "description": "w后接q、r、d、c、v、a构成的组合，后面接战和w"
+    },
+    {
+        "query": "随即v+v[，+。]",
+        "description": "随即两次动词，两次动词之间可以接逗号或句号"
+    },
+    {
+        "query": "随即v v[， 。]",
+        "description": "随即两次动词，两次动词之间可以接逗号或句号"
+    },
+    {
+        "query": "经常v+n[，+。]",
+        "description": "经常后面接名词，名词后面可以接逗号或句号"
+    },
+    {
+        "query": "经常v n[，+。]",
+        "description": "经常后面接名词，名词后面可以接逗号或句号"
+    }
+]
+```

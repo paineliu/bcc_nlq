@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "不懂v[，+。]", 
+        "description":"不懂后面离合出现逗号或句号"
+    },
+    {
+        "query": "不懂v[， 。]", 
+        "description":"不懂后面离合出现逗号或句号"
+    },
+    {
+        "query": "几乎d+v[，+。]", 
+        "description":"几乎之后动词后面离合出现逗号或句号"
+    },
+    {
+        "query": "几乎d v[， 。]", 
+        "description":"几乎之后动词后面离合出现逗号或句号"
+    },
+    {
+        "query": "[或许+或者+及早]v[q+m+]v[，+。]", 
+        "description":"或许、或者、及早这三个词之后动词后面离合出现逗号或句号"
+    },
+    {
+        "query": "[或许 或者 及早]v[q m ]v[， 。]", 
+        "description":"或许、或者、及早这三个词之后动词后面离合出现逗号或句号"
+    },
+    {
+        "query": "果然v+u[，+。]", 
+        "description":"果然之后的助词后面离合出现逗号或句号"
+    },
+    {
+        "query": "果然v u[， 。]", 
+        "description":"果然之后的助词后面离合出现逗号或句号"
+    },
+    {
+        "query": "其它n[，+。]", 
+        "description":"其它之后名词后面离合出现逗号或句号"
+    },
+    {
+        "query": "其它n[， 。]", 
+        "description":"其它之后名词后面离合出现逗号或句号"
+    },
+    {
+        "query": "你的n+[，+。]", 
+        "description":"你的之后名词后面离合出现逗号或句号"
+    },
+    {
+        "query": "你的n [， 。]", 
+        "description":"你的之后名词后面离合出现逗号或句号"
+    },
+    {
+        "query": "比r+d+a[，+。]", 
+        "description":"比之后形容词、动词、名词后面离合出现逗号或句号"
+    },
+    {
+        "query": "比r d a[， 。]", 
+        "description":"比之后形容词、动词、名词后面离合出现逗号或句号"
+    },
+    {
+        "query": "亲手n[，+。]", 
+        "description":"亲手之后名词后面离合出现逗号或句号"
+    },
+    {
+        "query": "亲手n[， 。]", 
+        "description":"亲手之后名词后面离合出现逗号或句号"
+    },
+    {
+        "query": "而后[v+a+n+r][，+。]", 
+        "description":"而后之后的助词、名词、动词、形容词后面离合出现逗号或句号"
+    },
+    {
+        "query": "而后[v a n r][， 。]", 
+        "description":"而后之后的助词、名词、动词、形容词后面离合出现逗号或句号"
+    },
+    {
+        "query": "胡乱d+v[，+。]", 
+        "description":"胡乱之后动词后面离合出现逗号或句号"
+    },
+    {
+        "query": "胡乱d v[， 。]", 
+        "description":"胡乱之后动词后面离合出现逗号或句号"
+    },
+    {
+        "query": "无疑v+u[，+。]", 
+        "description":"无疑之后的助词后面离合出现逗号或句号"
+    },
+    {
+        "query": "无疑v u[， 。]", 
+        "description":"无疑之后的助词后面离合出现逗号或句号"
+    },
+    {
+        "query": "持续n[，+。]", 
+        "description":"持续之后名词后面离合出现逗号或句号"
+    },
+    {
+        "query": "持续n[， 。]", 
+        "description":"持续之后名词后面离合出现逗号或句号"
+    },
+    {
+        "query": "总共v+u[，+。]", 
+        "description":"总共之后的助词后面离合出现逗号或句号"
+    },
+    {
+        "query": "总共v u[， 。]", 
+        "description":"总共之后的助词后面离合出现逗号或句号"
+    },
+    {
+        "query": "w[q+r+d+c+v+a++n+m++p]谐.庄w", 
+        "description":"谐.庄之前有q+r+d+c+v+a++n+m++p这个序列"
+    },
+    {
+        "query": "w[q r d c v a  n m  p]谐.庄w", 
+        "description":"谐.庄之前有q r d c v a  n m  p这个序列"
+    },
+    {
+        "query": "难道d+a[，+。]", 
+        "description":"难道之后形容词、动词后面离合出现逗号或句号"
+    },
+    {
+        "query": "难道d a[， 。]", 
+        "description":"难道之后形容词、动词后面离合出现逗号或句号"
+    },
+    {
+        "query": "[a+d+n+v+l]一气", 
+        "description":"一气之前有a+d+n+v+l这个序列"
+    },
+    {
+        "query": "[a d n v l]一气", 
+        "description":"一气之前有a d n v l这个序列"
+    },
+    {
+        "query": "不禁[v+a+n+r][，+。]", 
+        "description":"不禁之后的助词、名词、动词、形容词后面离合出现逗号或句号"
+    },
+    {
+        "query": "不禁[v a n r][， 。]", 
+        "description":"不禁之后的助词、名词、动词、形容词后面离合出现逗号或句号"
+    },
+    {
+        "query": "一起d+n[，+。]", 
+        "description":"一起之后名词、动词后面离合出现逗号或句号"
+    },
+    {
+        "query": "一起d n[， 。]", 
+        "description":"一起之后名词、动词后面离合出现逗号或句号"
+    },
+    {
+        "query": "不定a[，+。]", 
+        "description":"不定之后形容词后面离合出现逗号或句号"
+    },
+    {
+        "query": "不定a[， 。]", 
+        "description":"不定之后形容词后面离合出现逗号或句号"
+    },
+    {
+        "query": "依据n+[，+。]", 
+        "description":"依据之后名词后面离合出现逗号或句号"
+    },
+    {
+        "query": "依据n [， 。]", 
+        "description":"依据之后名词后面离合出现逗号或句号"
+    }
+]
+```

@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "年轻化 ~ 见效",
+        "description": "年轻化后面接一个词生效"
+    },
+    {
+        "query": "半程 (v){end($1)!=[角 娶 果]}",
+        "description": "半程后面接一个不是角、娶或果的动词"
+    },
+    {
+        "query": "北京队 @ 下滑",
+        "description": "北京队后面接下滑，统计时按照队的词性归并"
+    },
+    {
+        "query": "(nt) 风光{len($1)>2}",
+        "description": "三个及以上字的名词风光"
+    },
+    {
+        "query": "强 ./n 呢",
+        "description": "强后面接单音节名词后跟一个呢"
+    },
+    {
+        "query": "(n) 闵{len($1)=3}",
+        "description": "长度为3的名词闵"
+    },
+    {
+        "query": "锻炼 (n){len($1)=2}",
+        "description": "锻炼后面接一个长度为2的名词"
+    },
+    {
+        "query": "真 章/n",
+        "description": "真后面接章，章是名词"
+    },
+    {
+        "query": "(d) 得 呵护 环境 (n){count<759}",
+        "description": "得后面接呵护环境，且呵护环境的实例频次少于759"
+    },
+    {
+        "query": "(nr) 复出{len($1)=2}",
+        "description": "复出，复出的长度为2"
+    },
+    {
+        "query": "(v) 美 职篮 名人堂 (n){len($1)=2; len($2)!=4}",
+        "description": "美职篮名人堂，美是动词，名人堂的长度不是4"
+    },
+    {
+        "query": "(w) (nr){begin($2)!=[色 挂 园]}",
+        "description": "一个名词前后接一个不是色、挂或园的名词"
+    },
+    {
+        "query": "场地/n 越野赛 总决赛 落幕/v",
+        "description": "场地后面接越野赛、总决赛，再接落幕，落幕是动词"
+    },
+    {
+        "query": "普拉蒂尼 (n) 被{begin($1)!=[成 约]}",
+        "description": "普拉蒂尼后面接被，但不是被成或约"
+    },
+    {
+        "query": "体育课 (vn) 内容{begin($1)!=[起 放 闪]}",
+        "description": "体育课后面接内容，但内容不是以起、放或闪开头"
+    },
+    {
+        "query": "京都 (n) 颁奖{begin($1)=[球 后]}",
+        "description": "京都后面接颁奖，且颁奖以球或后开头"
+    },
+    {
+        "query": "光景",
+        "description": "光景"
+    },
+    {
+        "query": "(nr) ：{count<625}",
+        "description": "冒号后面实例频次少于625的"
+    },
+    {
+        "query": "荣获 (n) 。{len($1)>1}",
+        "description": "荣获后面接一个长度大于1的名词，且紧跟句点"
+    },
+    {
+        "query": ", (v) 艺术{count>5}",
+        "description": "逗号后面接一个动词艺术，且艺术的频次大于5"
+    },
+    {
+        "query": "(t) ，{len($1)=2}",
+        "description": "两个字的逗号"
+    },
+    {
+        "query": "故事 ./[w v]",
+        "description": "故事后面接一个词，可能是动词或形容词"
+    },
+    {
+        "query": "./[v v] 之",
+        "description": "两个动词之间接之"
+    },
+    {
+        "query": "范景 (f) 中国{count>3}",
+        "description": "范景后面接中国，范景中国实例频次大于3"
+    },
+    {
+        "query": "故事 ~/[d v] 成",
+        "description": "故事后面接一个词，该词可能是副词或动词，且后面接成"
+    },
+    {
+        "query": "亦可 (v){end($1)=[传 等 常]}",
+        "description": "亦可后面接传、等或常"
+    },
+    {
+        "query": "美术 (n) 副教授{begin($1)!=[喜 十 候]}",
+        "description": "美术后面接副教授，但副教授不是以喜、十或候开头"
+    },
+    {
+        "query": "《 ../ns 营造",
+        "description": "左引号开始，接一个名词，然后是营造"
+    },
+    {
+        "query": "故书 新/a 遗响",
+        "description": "故书后面接新，新是形容词，再接遗响"
+    },
+    {
+        "query": "博物院 编审/v",
+        "description": "博物院后面接编审，编审是动词"
+    },
+    {
+        "query": "定鼎 ~/[w v] 遂",
+        "description": "定鼎后面接一个词，可能是动词或形容词，再接遂"
+    },
+    {
+        "query": "(ns) 字记 (w){$1=$2}",
+        "description": "两个单字名词字记，且两者相同"
+    },
+    {
+        "query": "(v) 字脉 (v){len($1)=2}",
+        "description": "字脉，字脉是两个字的动词"
+    },
+    {
+        "query": "(nr) 清华{middle($1)=[敬 屋]}",
+        "description": "清华，清华的中间是敬或屋"
+    },
+    {
+        "query": "../[t v] 我们",
+        "description": "一个动词或时间词后面接我们"
+    },
+    {
+        "query": "(n) (p){len($1)=2; len($2)=1}",
+        "description": "一个长度为2的名词后面接一个长度为1的介词"
+    },
+    {
+        "query": "(nr) (nr){end($1)!=[欠 猪 行 玩]}",
+        "description": "两个名词，第二个名词不是欠、猪、行或玩"
+    },
+    {
+        "query": "(k) 设计{count>7}",
+        "description": "设计，设计的实例频次大于7"
+    },
+    {
+        "query": "(n) 科学院 (w){count>3}",
+        "description": "科学院后面接一个词，科学院的实例频次大于3"
+    },
+    {
+        "query": "贺信 ../n 另",
+        "description": "贺信后面接一个名词，然后是另"
+    }
+]
+```

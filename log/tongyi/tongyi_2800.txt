@@ -1,0 +1,160 @@
+```json
+[
+    {
+        "query": "钓鱼",
+        "description": "包含'钓鱼'这个词的句子"
+    },
+    {
+        "query": "电器",
+        "description": "包含'电器'这个词的句子"
+    },
+    {
+        "query": "砸钱",
+        "description": "包含'砸钱'这个词组的句子"
+    },
+    {
+        "query": "美丽和谐",
+        "description": "包含'美丽和谐'这个词组的句子"
+    },
+    {
+        "query": "民人权",
+        "description": "包含'Min right'这个词组的句子，注意这里的'right'是英文单词，用于描述民人权的概念"
+    },
+    {
+        "query": "绿色",
+        "description": "包含'绿色'这个词的句子"
+    },
+    {
+        "query": "和谐与极",
+        "description": "包含'和谐与极'这个词组的句子"
+    },
+    {
+        "query": "安定",
+        "description": "包含'安定'这个词的句子"
+    },
+    {
+        "query": "尴尴尬尬",
+        "description": "包含'尴尴尬尬'这个词组的句子"
+    },
+    {
+        "query": "正是",
+        "description": "包含'正是'这个词组的句子"
+    },
+    {
+        "query": "这样一看",
+        "description": "包含'这样一看'这个词组的句子"
+    },
+    {
+        "query": "恐怕正好",
+        "description": "包含'恐怕正好'这个词组的句子"
+    },
+    {
+        "query": "北京",
+        "description": "包含'北京'这个词的句子"
+    },
+    {
+        "query": "这样那样地",
+        "description": "包含'这样那样地'这个词组的句子"
+    },
+    {
+        "query": "南江",
+        "description": "包含'南江'这个词的句子"
+    },
+    {
+        "query": "好一个",
+        "description": "包含'好一个'这个词组的句子"
+    },
+    {
+        "query": "出了命+",
+        "description": "包含'出了命+'的词组，注意这里的'+'可能代表某种特定的附加信息，具体含义需根据上下文确定"
+    },
+    {
+        "query": "和谐共相",
+        "description": "包含'和谐共相'这个词组的句子"
+    },
+    {
+        "query": "想半天",
+        "description": "包含'想半天'这个词组的句子"
+    },
+    {
+        "query": "落在家里",
+        "description": "包含'落在家里'这个词组的句子"
+    },
+    {
+        "query": "也难说",
+        "description": "包含'也难说'这个词组的句子"
+    },
+    {
+        "query": "不定",
+        "description": "包含'不定'这个词的句子"
+    },
+    {
+        "query": "摇摇",
+        "description": "包含'摇摇'这个词组的句子"
+    },
+    {
+        "query": "得了。",
+        "description": "包含'得了。'的词组，注意句尾的标点"
+    },
+    {
+        "query": "掉",
+        "description": "包含'掉'这个词的句子"
+    },
+    {
+        "query": "俏皮",
+        "description": "包含'俏皮'这个词的句子"
+    },
+    {
+        "query": "可想而知",
+        "description": "包含'可想而知'这个词组的句子"
+    },
+    {
+        "query": "急急慌慌",
+        "description": "包含'急急慌慌'这个词组的句子"
+    },
+    {
+        "query": "穿搭",
+        "description": "包含'穿搭'这个词组的句子"
+    },
+    {
+        "query": "疏财仗义",
+        "description": "包含'疏财仗义'这个词组的句子"
+    },
+    {
+        "query": "卅",
+        "description": "包含'卅'这个数词的句子"
+    },
+    {
+        "query": "啊？",
+        "description": "包含'啊？'的词组，注意句尾的标点"
+    },
+    {
+        "query": "蹑脚蹑手",
+        "description": "包含'蹑脚蹑手'这个词组的句子"
+    },
+    {
+        "query": "瞧你说的",
+        "description": "包含'瞧你说的'这个词组的句子"
+    },
+    {
+        "query": "提高",
+        "description": "包含'提高'这个词的句子"
+    },
+    {
+        "query": "你这个老师",
+        "description": "包含'你这个老师'的词组，注意句中包含人称代词"
+    },
+    {
+        "query": "有没有可能",
+        "description": "包含'有没有可能'的词组，注意句中包含疑问语气"
+    },
+    {
+        "query": "铄石流金",
+        "description": "包含'铄石流金'这个词组的句子"
+    },
+    {
+        "query": "不太理想",
+        "description": "包含'不太理想'这个词组的句子"
+    }
+]
+```

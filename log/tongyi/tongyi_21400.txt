@@ -1,0 +1,158 @@
+以下是将给出的检索式转换为带含义的json结构：
+
+```json
+[
+    {
+        "query": "我们/r 写 小说/n",
+        "description": "我们写小说的句子"
+    },
+    {
+        "query": "为此/d+， 为此/d ，",
+        "description": "为此的句子，包含逗号"
+    },
+    {
+        "query": "./v到了n",
+        "description": "到达的句子"
+    },
+    {
+        "query": "构想+变为/v+现实",
+        "description": "构想变为现实的句子"
+    },
+    {
+        "query": "构想 变为/v 现实",
+        "description": "构想变为现实的句子"
+    },
+    {
+        "query": "指责/v",
+        "description": "指责的句子"
+    },
+    {
+        "query": "./v旧了",
+        "description": "变旧的句子"
+    },
+    {
+        "query": "了+一/m+跳",
+        "description": "跳了一下的句子"
+    },
+    {
+        "query": "了 一/m 跳",
+        "description": "跳了一下的句子"
+    },
+    {
+        "query": "又+回来/v+了",
+        "description": "又回来的句子"
+    },
+    {
+        "query": "又 回来/v 了",
+        "description": "又回来的句子"
+    },
+    {
+        "query": "从来/d 没",
+        "description": "从来没的句子"
+    },
+    {
+        "query": "../v+得美丽",
+        "description": "变得美丽的句子"
+    },
+    {
+        "query": "../v 得美丽",
+        "description": "变得美丽的句子"
+    },
+    {
+        "query": "./v圆了",
+        "description": "变圆的句子"
+    },
+    {
+        "query": "，+推动/v+区域",
+        "description": "推动区域的句子，包含逗号"
+    },
+    {
+        "query": "， 推动/v 区域",
+        "description": "推动区域的句子"
+    },
+    {
+        "query": ".../v+问题",
+        "description": "问题的句子，包含省略号"
+    },
+    {
+        "query": ".../v 问题",
+        "description": "问题的句子"
+    },
+    {
+        "query": "创作+演出/v",
+        "description": "创作演出的句子"
+    },
+    {
+        "query": "创作 演出/v",
+        "description": "创作演出的句子"
+    },
+    {
+        "query": "准+症结/n+是",
+        "description": "准症结是的句子"
+    },
+    {
+        "query": "准 症结/n 是",
+        "description": "准症结是的句子"
+    },
+    {
+        "query": "生活/vn+更+美好/a",
+        "description": "生活更加美好的句子"
+    },
+    {
+        "query": "生活/vn 更 美好/a",
+        "description": "生活更加美好的句子"
+    },
+    {
+        "query": "人才+红利/n",
+        "description": "人才红利的句子"
+    },
+    {
+        "query": "人才 红利/n",
+        "description": "人才红利的句子"
+    },
+    {
+        "query": "故意+./v",
+        "description": "故意的句子"
+    },
+    {
+        "query": "故意 ./v",
+        "description": "故意的句子"
+    },
+    {
+        "query": "v*意思/n",
+        "description": "动词后接意思的句子"
+    },
+    {
+        "query": "须/d+因地制宜+点睛/i",
+        "description": "须因地制宜点睛的句子"
+    },
+    {
+        "query": "须/d 因地制宜 点睛/i",
+        "description": "须因地制宜点睛的句子"
+    },
+    {
+        "query": "人民+视觉/n",
+        "description": "人民视觉的句子"
+    },
+    {
+        "query": "人民 视觉/n",
+        "description": "人民视觉的句子"
+    },
+    {
+        "query": "联赛/n+第六+位/q",
+        "description": "联赛第六位的句子"
+    },
+    {
+        "query": "联赛/n 第六 位/q",
+        "description": "联赛第六位的句子"
+    },
+    {
+        "query": "一些/m+原本",
+        "description": "一些原本的句子"
+    },
+    {
+        "query": "一些/m 原本",
+        "description": "一些原本的句子"
+    }
+]
+```

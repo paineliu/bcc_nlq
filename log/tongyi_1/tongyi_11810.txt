@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "时间 (v){len($1)!=3}",
+        "description": "时间后面跟的不是三个字的动词"
+    },
+    {
+        "query": "电梯 (n) 说{len($1)>1}",
+        "description": "电梯后面跟的词的长度大于1"
+    },
+    {
+        "query": "关系 ~ 上",
+        "description": "关系后面直接跟上"
+    },
+    {
+        "query": "义利 @/[d v] 兼",
+        "description": "义利后面可以是‘并’或‘兼’，但必须是副词或动词"
+    },
+    {
+        "query": "共同 (v) 的{begin($1)!=[经 赢]}",
+        "description": "共同后面接的副词不是‘经’、‘赢’"
+    },
+    {
+        "query": "开端",
+        "description": "只有开端这个词"
+    },
+    {
+        "query": "~/[nr v] 源潮",
+        "description": "前后都是名词或动词，且源潮在中间"
+    },
+    {
+        "query": "对 (ns) 政策{count<626}",
+        "description": "对后面接政策，且相关政策实例少于626个"
+    },
+    {
+        "query": "命运 (n) 。{len($1)<4}",
+        "description": "命运后面跟的是一个长度小于4的词，且以句号结束"
+    },
+    {
+        "query": "(n) (a){len($1)>1; len($2)=2}",
+        "description": "先是一个名词，后面跟的词长度为2且是形容词"
+    },
+    {
+        "query": "(ns) (v){end($1)=[ns 沙 泡 笑]; len($2)=2}",
+        "description": "先是一个人名，后面跟的词长度为2且以特定词结尾"
+    },
+    {
+        "query": "(v) (n){end($2)=[治 灯 货]}",
+        "description": "先是一个动词，后面接的名词以特定词结尾"
+    },
+    {
+        "query": "../a 高层",
+        "description": "两个字的形容词后面接高层"
+    },
+    {
+        "query": "(v) (v){end($1)=[v 踢]; len($2)=2}",
+        "description": "动词后面跟另一个动词，且后者以‘踢’结尾"
+    },
+    {
+        "query": "间 ~ 与",
+        "description": "间隔一个词后跟‘与’"
+    },
+    {
+        "query": "m v",
+        "description": "数量词m后面接动词"
+    },
+    {
+        "query": "经贸/j 合作/vn",
+        "description": "经贸后面接名词‘合作’，且合作是动名词"
+    },
+    {
+        "query": "助推 .. 工业化",
+        "description": "助推后面可能有间隔，然后是工业化"
+    },
+    {
+        "query": "助力 (ns) 农业{begin($1)=[非 软 块]}",
+        "description": "助力后面接农业，且助力前可能是非、软或块"
+    },
+    {
+        "query": "鼓励 ./[c v] 促进",
+        "description": "鼓励后面可以是‘并’或动词，促进做动词"
+    },
+    {
+        "query": "设施 vn",
+        "description": "设施后面接动名词"
+    },
+    {
+        "query": "金融 vn",
+        "description": "金融后面接动名词"
+    },
+    {
+        "query": "促进 (ns) 贸易{count>2}",
+        "description": "促进后面接名词贸易，且此类贸易实例多于2个"
+    },
+    {
+        "query": "~/[v v] 资源",
+        "description": "前后都是动词，中间接资源"
+    },
+    {
+        "query": "经济 vn",
+        "description": "经济后面接动名词"
+    },
+    {
+        "query": "中非 发展/v 合作",
+        "description": "中非后面接发展，发展后接动名词合作"
+    },
+    {
+        "query": "(vd) 增加{len($1)=2}",
+        "description": "两个字的副动词后面接增加"
+    },
+    {
+        "query": "和 ../n 资源",
+        "description": "‘和’后面跟一个名词"
+    },
+    {
+        "query": "减贫 (n){len($1)=2}",
+        "description": "减贫后面接的是一个长度为2的名词"
+    },
+    {
+        "query": "科技 (vn) 与{count>6}",
+        "description": "科技后面接动名词，且此类动名词实例多于6个"
+    },
+    {
+        "query": "加强/v 气候 变化 和 环境 保护 协作/vn",
+        "description": "加强后面接一系列动词和名词"
+    },
+    {
+        "query": "(m) 深化 (c){$1=$2}",
+        "description": "两个相同的数量词深化"
+    },
+    {
+        "query": "体育 ../vn 与",
+        "description": "体育后面接动名词，然后是‘与’"
+    },
+    {
+        "query": "(v) 旅游 (vn){count<260}",
+        "description": "动词后面接旅游，旅游是动名词，且实例少于260个"
+    },
+    {
+        "query": "和 (vn) 影视{count>2}",
+        "description": "和后面接动名词影视，且影视实例多于2个"
+    },
+    {
+        "query": "./c 智库 ../vn",
+        "description": "单字连词后接智库，智库后面接动名词"
+    },
+    {
+        "query": "增进/v 民间",
+        "description": "增进后面接动词民间"
+    },
+    {
+        "query": "推动 中非/ns 青年",
+        "description": "推动后面接中非，中非后面接名词青年"
+    },
+    {
+        "query": "(n) 与 (an){len($1)!=3}",
+        "description": "先是一个名词，然后是与，再接一个不是三个字的名词"
+    },
+    {
+        "query": "支持 (ns) 实现{count<517}",
+        "description": "支持后面接名词实现，且实现实例少于517个"
+    }
+]
+```

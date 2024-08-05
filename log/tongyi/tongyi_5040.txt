@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "a分寸",
+        "description": "形容词后接分寸"
+    },
+    {
+        "query": "n冷暖",
+        "description": "名词后接冷暖"
+    },
+    {
+        "query": "怎么样也v",
+        "description": "怎样也后接动词"
+    },
+    {
+        "query": "m壶",
+        "description": "量词后接壶"
+    },
+    {
+        "query": "应v尽v",
+        "description": "动词后接应尽动词"
+    },
+    {
+        "query": "V了个v",
+        "description": "动词后接V个动词"
+    },
+    {
+        "query": "得到v",
+        "description": "得到后接动词"
+    },
+    {
+        "query": "，n的n是n、",
+        "description": "逗号后接的后接是后接名词"
+    },
+    {
+        "query": "d省得",
+        "description": "副词省得"
+    },
+    {
+        "query": "a伸手",
+        "description": "形容词后接伸手"
+    },
+    {
+        "query": "一扇n",
+        "description": "一后接扇后名词"
+    },
+    {
+        "query": "v了一m+q",
+        "description": "动词后接了一m量词"
+    },
+    {
+        "query": "v了一m q",
+        "description": "动词后接了一m名词"
+    },
+    {
+        "query": "就m+q+",
+        "description": "就后接m+q+"
+    },
+    {
+        "query": "就m q",
+        "description": "就后接m名词"
+    },
+    {
+        "query": "把N罩在",
+        "description": "把后接名词罩在"
+    },
+    {
+        "query": "检查n",
+        "description": "检查后接名词"
+    },
+    {
+        "query": "v了它m+q",
+        "description": "动词后接了它m量词"
+    },
+    {
+        "query": "v了它m q",
+        "description": "动词后接了它m名词"
+    },
+    {
+        "query": "m口",
+        "description": "量词后接口"
+    },
+    {
+        "query": "也不v了",
+        "description": "也不后接动词了"
+    },
+    {
+        "query": "得以V",
+        "description": "得以后接动词"
+    },
+    {
+        "query": "自从n+",
+        "description": "自从后接n+"
+    },
+    {
+        "query": "自从n",
+        "description": "自从后接n"
+    },
+    {
+        "query": "a书包",
+        "description": "形容词后接书包"
+    },
+    {
+        "query": "(v)不了",
+        "description": "动词不了"
+    },
+    {
+        "query": "a世代",
+        "description": "形容词后接世代"
+    },
+    {
+        "query": "用N粘N",
+        "description": "用后接N粘后接N"
+    },
+    {
+        "query": "a农田",
+        "description": "形容词后接农田"
+    },
+    {
+        "query": "w说不定w",
+        "description": "w后接说不定w"
+    },
+    {
+        "query": "n中",
+        "description": "名词后接中"
+    },
+    {
+        "query": "d总得+",
+        "description": "d总得后接+"
+    },
+    {
+        "query": "d总得",
+        "description": "d总得后接名词"
+    },
+    {
+        "query": "这样V来",
+        "description": "这样后接V来"
+    },
+    {
+        "query": "睡n",
+        "description": "睡后接名词"
+    },
+    {
+        "query": "得太a+w",
+        "description": "太后接形容词加w"
+    },
+    {
+        "query": "得太a w",
+        "description": "太后接形容词w"
+    },
+    {
+        "query": "用N抹N",
+        "description": "用后接N抹后接N"
+    },
+    {
+        "query": "n轻重",
+        "description": "名词后接轻重"
+    },
+    {
+        "query": "无论n还n",
+        "description": "无论后接n还n"
+    }
+]
+```

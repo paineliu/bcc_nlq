@@ -1,0 +1,164 @@
+以下是将给定的检索式转换为带含义的json结构：
+
+```json
+[
+    {
+        "query": "失败",
+        "description": "失败"
+    },
+    {
+        "query": "九译",
+        "description": "九译"
+    },
+    {
+        "query": "基本上而言",
+        "description": "基本上而言"
+    },
+    {
+        "query": "得了！",
+        "description": "得了！"
+    },
+    {
+        "query": "吓死",
+        "description": "吓死"
+    },
+    {
+        "query": "打脸",
+        "description": "打脸"
+    },
+    {
+        "query": "刹车",
+        "description": "刹车"
+    },
+    {
+        "query": "宪法修正案",
+        "description": "宪法修正案"
+    },
+    {
+        "query": "撸起袖子加油干",
+        "description": "撸起袖子加油干"
+    },
+    {
+        "query": "生痨病",
+        "description": "生痨病"
+    },
+    {
+        "query": "真狗",
+        "description": "真狗"
+    },
+    {
+        "query": "老鼠笼",
+        "description": "老鼠笼"
+    },
+    {
+        "query": "人权至",
+        "description": "人权至"
+    },
+    {
+        "query": "十分",
+        "description": "十分"
+    },
+    {
+        "query": "悲欢离合",
+        "description": "悲欢离合"
+    },
+    {
+        "query": "主不主流",
+        "description": "主不主流"
+    },
+    {
+        "query": "刚",
+        "description": "刚"
+    },
+    {
+        "query": "翼翼",
+        "description": "翼翼"
+    },
+    {
+        "query": "特郑重",
+        "description": "特郑重"
+    },
+    {
+        "query": "怎么比得上",
+        "description": "怎么比得上"
+    },
+    {
+        "query": "诽谤",
+        "description": "诽谤"
+    },
+    {
+        "query": "迷你",
+        "description": "迷你"
+    },
+    {
+        "query": "钻石不钻石",
+        "description": "钻石不钻石"
+    },
+    {
+        "query": "和谐源于",
+        "description": "和谐源于"
+    },
+    {
+        "query": "黑脸",
+        "description": "黑脸"
+    },
+    {
+        "query": "杀必死",
+        "description": "杀必死"
+    },
+    {
+        "query": "老老",
+        "description": "老老"
+    },
+    {
+        "query": "电脑+",
+        "description": "电脑+"
+    },
+    {
+        "query": "在我看来",
+        "description": "在我看来"
+    },
+    {
+        "query": "嘎",
+        "description": "嘎"
+    },
+    {
+        "query": "录影带",
+        "description": "录影带"
+    },
+    {
+        "query": "和谐是把",
+        "description": "和谐是把"
+    },
+    {
+        "query": "你吃饭了吗",
+        "description": "你吃饭了吗"
+    },
+    {
+        "query": "惨烈",
+        "description": "惨烈"
+    },
+    {
+        "query": "在我看来，",
+        "description": "在我看来，"
+    },
+    {
+        "query": "和谐化。",
+        "description": "和谐化。"
+    },
+    {
+        "query": "设想",
+        "description": "设想"
+    },
+    {
+        "query": "七个样",
+        "description": "七个样"
+    },
+    {
+        "query": "行动党",
+        "description": "行动党"
+    }
+]
+```
+
+这些检索式都是单独的词汇或短语，没有特定的条件限制，所以它们的描述直接反映了检索式的含义。

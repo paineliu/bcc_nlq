@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "酸甜苦辣",
+        "description": "包含酸甜苦辣这四个词组成的句子"
+    },
+    {
+        "query": "和谐也具",
+        "description": "包含和谐与也具两个词组成的句子"
+    },
+    {
+        "query": "容易",
+        "description": "包含容易这个词语的句子"
+    },
+    {
+        "query": "当然也许",
+        "description": "包含当然与也许这两个词语组成的句子"
+    },
+    {
+        "query": "总的看来，",
+        "description": "包含总的看来，这个词语组合的句子，句末有逗号"
+    },
+    {
+        "query": "考试",
+        "description": "包含考试这个词语的句子"
+    },
+    {
+        "query": "表扬",
+        "description": "包含表扬这个词语的句子"
+    },
+    {
+        "query": "人权作",
+        "description": "包含人权与作两个词语组成的句子"
+    },
+    {
+        "query": "孤孤单单",
+        "description": "包含孤孤单单这个词语组合的句子"
+    },
+    {
+        "query": "出生入死",
+        "description": "包含出生与入死两个词语组成的句子"
+    },
+    {
+        "query": "愈不",
+        "description": "包含愈与不两个词语组成的句子"
+    },
+    {
+        "query": "森森",
+        "description": "包含森森这个词语的句子"
+    },
+    {
+        "query": "人权县",
+        "description": "包含人权与县两个词语组成的句子"
+    },
+    {
+        "query": "进行",
+        "description": "包含进行这个词语的句子"
+    },
+    {
+        "query": "值得最好",
+        "description": "包含值得与最好两个词语组成的句子"
+    },
+    {
+        "query": "卖起来",
+        "description": "包含卖与起来两个词语组成的句子"
+    },
+    {
+        "query": "日日夜夜",
+        "description": "包含日日夜夜这个词语组合的句子"
+    },
+    {
+        "query": "秋风",
+        "description": "包含秋风这个词语的句子"
+    },
+    {
+        "query": "条件",
+        "description": "包含条件这个词语的句子"
+    },
+    {
+        "query": "兰人权",
+        "description": "包含兰与人权两个词语组成的句子"
+    },
+    {
+        "query": "蛮不",
+        "description": "包含蛮与不两个词语组成的句子"
+    },
+    {
+        "query": "你个鸟",
+        "description": "包含你个与鸟两个词语组成的句子"
+    },
+    {
+        "query": "冲动",
+        "description": "包含冲动这个词语的句子"
+    },
+    {
+        "query": "车牌",
+        "description": "包含车牌这个词语的句子"
+    },
+    {
+        "query": "女权",
+        "description": "包含女与权两个词语组成的句子"
+    },
+    {
+        "query": "和谐之光",
+        "description": "包含和谐与之光两个词语组成的句子"
+    },
+    {
+        "query": "收拾",
+        "description": "包含收拾这个词语的句子"
+    },
+    {
+        "query": "水火",
+        "description": "包含水与火两个词语组成的句子"
+    },
+    {
+        "query": "嘀嘀咕咕",
+        "description": "包含嘀嘀与咕咕两个词语组成的句子"
+    },
+    {
+        "query": "孝子",
+        "description": "包含孝与子两个词语组成的句子"
+    },
+    {
+        "query": "徙置区",
+        "description": "包含徙与置区两个词语组成的句子"
+    },
+    {
+        "query": "和谐上凝",
+        "description": "包含和谐与上凝两个词语组成的句子"
+    },
+    {
+        "query": "《和谐",
+        "description": "包含《与和谐两个词语组成的句子，句首有书名号"
+    },
+    {
+        "query": "没个准",
+        "description": "包含没个与准两个词语组成的句子"
+    },
+    {
+        "query": "编写",
+        "description": "包含编写这个词语的句子"
+    },
+    {
+        "query": "你个蛋",
+        "description": "包含你个与蛋两个词语组成的句子"
+    },
+    {
+        "query": "打败",
+        "description": "包含打败这个词语的句子"
+    },
+    {
+        "query": "学海无涯苦作舟",
+        "description": "包含学海无涯苦作舟这个词语组合的句子"
+    },
+    {
+        "query": "祝贺你",
+        "description": "包含祝贺与你两个词语组成的句子"
+    },
+    {
+        "query": "弹性",
+        "description": "包含弹性这个词语的句子"
+    }
+]
+```

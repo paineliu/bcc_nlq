@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "关+Ng",
+        "description": "包含关+Ng的组合"
+    },
+    {
+        "query": "关 Ng",
+        "description": "关后面直接跟Ng"
+    },
+    {
+        "query": "a不堪",
+        "description": "形容词不堪出现在此处"
+    },
+    {
+        "query": "怒气v上",
+        "description": "动词怒气后面跟上"
+    },
+    {
+        "query": "v的n",
+        "description": "动词后面紧跟着名词的组合"
+    },
+    {
+        "query": "a办公",
+        "description": "形容词a跟在办公之后"
+    },
+    {
+        "query": "不d千",
+        "description": "副词不d后面跟着千"
+    },
+    {
+        "query": "的n+下+w",
+        "description": "名词的后面紧跟下w"
+    },
+    {
+        "query": "的n 下 w",
+        "description": "名词的后面紧跟下w"
+    },
+    {
+        "query": "a哭了",
+        "description": "形容词a在哭了之前"
+    },
+    {
+        "query": "锁n",
+        "description": "名词锁出现在此处"
+    },
+    {
+        "query": "少了n",
+        "description": "名词少了出现在此处"
+    },
+    {
+        "query": "a分母",
+        "description": "形容词a在分母之前"
+    },
+    {
+        "query": "a到爆",
+        "description": "形容词a在到爆之前"
+    },
+    {
+        "query": "a信赖",
+        "description": "形容词a在信赖之前"
+    },
+    {
+        "query": "经验+ad",
+        "description": "经验后面紧跟着副形词ad"
+    },
+    {
+        "query": "经验 ad",
+        "description": "经验后面紧跟着形容词ad"
+    },
+    {
+        "query": "v豆腐房",
+        "description": "动词v在豆腐房之前"
+    },
+    {
+        "query": "不时把n+v了",
+        "description": "不时把名词后面紧跟着动词v了"
+    },
+    {
+        "query": "不时把n v了",
+        "description": "不时把名词后面紧跟着动词v了"
+    },
+    {
+        "query": "v足了",
+        "description": "动词v后面紧跟着足了"
+    },
+    {
+        "query": "还n",
+        "description": "名词还出现在此处"
+    },
+    {
+        "query": "m班n",
+        "description": "机构团体m班后面跟着名词n"
+    },
+    {
+        "query": "m户",
+        "description": "机构团体m户"
+    },
+    {
+        "query": "一盘n",
+        "description": "数量词一盘后面跟着名词n"
+    },
+    {
+        "query": "管他a不a",
+        "description": "副词a在管他之前，不确定是否a后接否定词"
+    },
+    {
+        "query": "中国人民的a+n",
+        "description": "形容词a在'中国人民的'之后，后面跟着名词n"
+    },
+    {
+        "query": "中国人民的a n",
+        "description": "形容词a在'中国人民的'之后，紧跟名词n"
+    },
+    {
+        "query": "a多了",
+        "description": "形容词a在多了之前"
+    },
+    {
+        "query": "进进了n",
+        "description": "动词进进在名词n之前"
+    },
+    {
+        "query": "你(v)你的",
+        "description": "代词你后面跟着你的"
+    },
+    {
+        "query": "没(n)就(v)",
+        "description": "名词没后面跟着动词就"
+    },
+    {
+        "query": "(n)者",
+        "description": "名词n后面跟着者"
+    },
+    {
+        "query": "ad启示",
+        "description": "副形词ad在启示之前"
+    },
+    {
+        "query": "v了他m+q",
+        "description": "动词v在m+q之前"
+    },
+    {
+        "query": "v了他m q",
+        "description": "动词v在m之后，q之前"
+    },
+    {
+        "query": "大有v",
+        "description": "副词大有在动词v之前"
+    },
+    {
+        "query": "没z地",
+        "description": "形容词没在z地之前"
+    },
+    {
+        "query": "尊重+N",
+        "description": "名词尊重后面跟着N"
+    },
+    {
+        "query": "尊重 N",
+        "description": "名词尊重后面跟着形容词N"
+    }
+]
+```

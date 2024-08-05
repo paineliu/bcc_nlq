@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "(u) 算 (w){count<886}",
+        "description": "算，计数少于886次的"
+    },
+    {
+        "query": ". 率先",
+        "description": "率先"
+    },
+    {
+        "query": "会",
+        "description": "会"
+    },
+    {
+        "query": "， (n) 要{end($1)!=[此 舍]}",
+        "description": "逗号后面接名词，且该名词不是'此'或'舍'"
+    },
+    {
+        "query": "(nr) (v){len($1)>2; len($2)>1}",
+        "description": "人名后面接至少两个字的动词"
+    },
+    {
+        "query": "(nr) 认为{middle($1)!=[属 跳 树]}",
+        "description": "人名后面接认为，但认为的中间部分不是'属'、'跳'或'树'"
+    },
+    {
+        "query": "该 (n) 谁{len($1)=1}",
+        "description": "该后面接一个字的名词"
+    },
+    {
+        "query": "走 ./[u v] 好",
+        "description": "走后面跟一个介词或动词再接好"
+    },
+    {
+        "query": "董事长 (nr) 说{begin($1)=[晏 候]}",
+        "description": "董事长后面接人名，且该人名以'晏'或'候'开头"
+    },
+    {
+        "query": "(n) (v){len($1)<3}",
+        "description": "名词后面接长度少于3的动词"
+    },
+    {
+        "query": "驻 @/[ns v] 记者",
+        "description": "驻后面跟'ns'或'v'的词，再接记者"
+    },
+    {
+        "query": "~ 驻",
+        "description": "驻字"
+    },
+    {
+        "query": "澳大利亚 (n){begin($1)!=[康 定 勇]}",
+        "description": "澳大利亚，排除以'康'、'定'或'勇'开头的"
+    },
+    {
+        "query": "(ns) (n){len($1)>3; end($2)!=[偶 更 腿]}",
+        "description": "两个名词，第一个名词长度大于3，且第二个名词末尾不是'偶'、'更'或'腿'"
+    },
+    {
+        "query": "../n 无情人 有 ./n",
+        "description": "动词后面接无情人，再接一个动词和名词"
+    },
+    {
+        "query": "(r) 驻{end($1)=[报 差 古 吻]}",
+        "description": "驻后面接以'报'、'差'、'古'或'吻'结尾的词"
+    },
+    {
+        "query": "说 (w){count<285}",
+        "description": "说，出现次数少于285次"
+    },
+    {
+        "query": "本报 ./v 比利时",
+        "description": "本报后面接一个动词和'比利时'"
+    },
+    {
+        "query": "早已 (i) 。{len($1)>3}",
+        "description": "早已后面跟一个超过3个字的句子"
+    },
+    {
+        "query": "教授 @/[w v]",
+        "description": "教授后面接一个词，可能是'w'或'v'"
+    },
+    {
+        "query": "法国 (n){begin($1)=[记 带]}",
+        "description": "法国，排除以'记'或'带'开头的"
+    },
+    {
+        "query": "严肃",
+        "description": "严肃"
+    },
+    {
+        "query": "../a 袭击",
+        "description": "动词后面接袭击"
+    },
+    {
+        "query": "本报 (v) 叙利亚{len($1)=1}",
+        "description": "本报后面接一个长度为1的动词和叙利亚"
+    },
+    {
+        "query": "至少 .. 的",
+        "description": "至少后面跟两个点"
+    },
+    {
+        "query": "驻 (ns) 记者{begin($1)!=[以 准]}",
+        "description": "驻后面接'ns'的词，且不是以'以'或'准'开头的记者"
+    },
+    {
+        "query": "(ns) (n){count>5}",
+        "description": "两个名词，第二个名词出现次数大于5次"
+    },
+    {
+        "query": "(d) 严格 (w){count<985}",
+        "description": "严格，计数少于985次的"
+    },
+    {
+        "query": "美国 (n){len($1)>1}",
+        "description": "美国，长度大于1的"
+    },
+    {
+        "query": "本报 (v) 南非{len($1)!=2}",
+        "description": "本报后面接一个不是两个字的动词和南非"
+    },
+    {
+        "query": "也 (v) 行动{len($1)!=2}",
+        "description": "也后面接一个不是两个字的动词和行动"
+    },
+    {
+        "query": "(v) 报以 (a){len($1)!=2; len($2)!=3}",
+        "description": "动词后面接报以，且报以的第一个字不是两个字，第二个字不是三个字"
+    },
+    {
+        "query": "但 (n) 是{end($1)!=[像 换 摸]}",
+        "description": "但后面接名词，且该名词不是'像'、'换'或'摸'"
+    },
+    {
+        "query": "驻 ns 记者",
+        "description": "驻后面接'ns'的词，再接记者"
+    },
+    {
+        "query": "本报 @ 英国",
+        "description": "本报后面接'@'，再接英国"
+    },
+    {
+        "query": "资产 ./w",
+        "description": "资产后面接一个词"
+    },
+    {
+        "query": "@ 交易",
+        "description": "交易，可能是名词或代词"
+    },
+    {
+        "query": "(n) ：{len($1)!=3}",
+        "description": "名词后面接一个不是三个字的冒号"
+    },
+    {
+        "query": "： ../[nr v]",
+        "description": "冒号后面接一个动词或人名"
+    },
+    {
+        "query": "(v) (ns){count<818}",
+        "description": "动词后面接一个出现次数少于818次的名词"
+    }
+]
+```

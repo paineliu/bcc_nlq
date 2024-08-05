@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "(n) 将 聚焦 京津冀 、 太湖 (n){len($1)=2; end($2)=[n 困 那 俺]}",
+        "description": "聚焦'京津冀'，后面跟一个长度为2的名词，且该名词不在'n 困 那 俺'中"
+    },
+    {
+        "query": "专项 ./u 收官",
+        "description": "专项后面接'u'，然后是'收官'"
+    },
+    {
+        "query": "农村 @/[vn v] 垃圾",
+        "description": "农村后面接一个动词或名词的垃圾"
+    },
+    {
+        "query": "美丽 (ns) ·{begin($1)!=[路 及]}",
+        "description": "美丽后面可能跟一个'·'，但不以'路'或'及'开始"
+    },
+    {
+        "query": "脊椎动物 ../n 名录",
+        "description": "脊椎动物后面接一个名词，可能是名录"
+    },
+    {
+        "query": "落地",
+        "description": "直接的落地"
+    },
+    {
+        "query": "不灵 w",
+        "description": "不灵后面是一个词"
+    },
+    {
+        "query": "新华社 (nr) 绘{len($1)>2}",
+        "description": "新华社后面接一个长度大于2的词"
+    },
+    {
+        "query": "目录化 ../[v v]",
+        "description": "目录化后面接两个连续的动词"
+    },
+    {
+        "query": "./d 再",
+        "description": "一个单音节动词后面接'再'"
+    },
+    {
+        "query": "@ 作出",
+        "description": "后面接一个词，统计时按照词性归并"
+    },
+    {
+        "query": "(p) 程序{count<133}",
+        "description": "程序的实例数量少于133个"
+    },
+    {
+        "query": "不 动/v",
+        "description": "不后面接一个动词"
+    },
+    {
+        "query": "(s) 走{len($1)=2}",
+        "description": "走这个动作的描述，长度为2"
+    },
+    {
+        "query": "让 (n) 决策{len($1)=2}",
+        "description": "让后面接一个长度为2的名词，可能是决策"
+    },
+    {
+        "query": "决策",
+        "description": "单独的决策"
+    },
+    {
+        "query": "发展 应有/v 法治",
+        "description": "发展后面接'应有'，然后是动词和法治"
+    },
+    {
+        "query": "建议 。/w",
+        "description": "建议后面接一个句尾符号"
+    },
+    {
+        "query": "直面 (n){begin($1)=[问 啦 丽]}",
+        "description": "直面后面可能跟一个词，但不以'问 啦 丽'开始"
+    },
+    {
+        "query": "正阳 ~",
+        "description": "正阳后面接一个词"
+    },
+    {
+        "query": "方 (v) 进步{len($1)=1}",
+        "description": "方后面接一个长度为1的动词，可能是进步"
+    },
+    {
+        "query": "(p) 乡村 公路 系上 (n){begin($2)=[安 偷]}",
+        "description": "乡村公路后面接一个名词，但不以'安 偷'开始"
+    },
+    {
+        "query": "袁来根",
+        "description": "袁来根这个名称"
+    },
+    {
+        "query": "立法 (v) 结合{count<834}",
+        "description": "立法后面接'结合'，且实例少于834个"
+    },
+    {
+        "query": "浙江 (n) 教授{len($1)>1}",
+        "description": "浙江后面接一个长度大于1的教授"
+    },
+    {
+        "query": "中国 (j) 大学{begin($1)=[政 俊 差 品]}",
+        "description": "中国后面接一个'j'类型的大学，但不以'政 俊 差 品'开始"
+    },
+    {
+        "query": "， @/[n v] 解决",
+        "description": "逗号后面接一个名词或动词，然后是解决"
+    },
+    {
+        "query": "中央 (j) 提供{middle($1)=[法 啥]}",
+        "description": "中央后面接一个以'法'或'啥'中间的词"
+    },
+    {
+        "query": "哪些 (n) 可{len($1)!=2}",
+        "description": "哪些后面接一个不是长度为2的名词，可能是可"
+    },
+    {
+        "query": "(b) 案件 的 被害人 等 四类 (n){len($2)<3}",
+        "description": "案件的后面跟一个长度小于3的名词，可能是四类"
+    },
+    {
+        "query": "救助 @ 如何",
+        "description": "救助后面接一个词，统计时按照词性归并，可能是如何"
+    },
+    {
+        "query": "社会 (ad) 参与{begin($1)!=[切 料 左 十]}",
+        "description": "社会后面接一个副词，但不以'切 料 左 十'开始，然后是参与"
+    },
+    {
+        "query": "调动 ../n 参与",
+        "description": "调动后面接一个名词，可能是参与"
+    },
+    {
+        "query": "如何 v",
+        "description": "如何后面接一个动词"
+    },
+    {
+        "query": "救助 不是/c 赔偿",
+        "description": "救助后面接一个不是/c类型的词，可能是赔偿"
+    },
+    {
+        "query": "户口 vn ，",
+        "description": "户口后面接一个名词，然后是逗号"
+    },
+    {
+        "query": "的 (n) 。{middle($1)!=[共 街 站 求]}",
+        "description": "的后面接一个名词，但中间不包含'共 街 站 求'"
+    },
+    {
+        "query": "的 ../[n v] 。",
+        "description": "的后面接一个名词或动词，然后是句尾符号"
+    },
+    {
+        "query": "登记 (w) 一个{count>3}",
+        "description": "登记后面接一个词，且实例数量大于3"
+    },
+    {
+        "query": "联防{begin($1)!=[赚 斤]}",
+        "description": "联防这个词后面不以'赚 斤'开始"
+    }
+]
+```

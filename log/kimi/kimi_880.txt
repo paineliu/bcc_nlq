@@ -1,0 +1,86 @@
+以下是根据给定的检索式及其含义转换为JSON结构的完整列表：
+
+```json
+[
+    {
+        "query": "居民 (n) 尝{begin($1)!=[丑 憋 对 密]}",
+        "description": "名词居民后面接尝，且尝不以丑、憋、对、密开始"
+    },
+    {
+        "query": "充满 (n) 。{len($1)<3}",
+        "description": "名词充满后接句号，且充满长度小于3"
+    },
+    {
+        "query": "市场",
+        "description": "包含市场的句子"
+    },
+    {
+        "query": ".. 是",
+        "description": "任意两个字符后接是"
+    },
+    {
+        "query": "养老 ../[n v] 发展",
+        "description": "养老后接单音节名词或动词，再接发展"
+    },
+    {
+        "query": "敬请 (v) 。{count<731}",
+        "description": "动词敬请后接句号，且频次小于731"
+    },
+    {
+        "query": "有 ..../n 的",
+        "description": "有后面隔三个字接单音节名词后接的"
+    },
+    {
+        "query": "环保法 ~ 就",
+        "description": "环保法后接一个词，再接就"
+    },
+    {
+        "query": "(nr) 制图{len($1)=3}",
+        "description": "人名后接制图，且制图长度等于3"
+    },
+    {
+        "query": "大 ./[u v] 一",
+        "description": "大后隔一字接副词或动词，再接一"
+    },
+    {
+        "query": "道理 ~",
+        "description": "道理后接一个词"
+    },
+    {
+        "query": "频次/d 多/a",
+        "description": "频次后接多，频次为副词，多为形容词"
+    },
+    {
+        "query": "罗浩 v 。",
+        "description": "罗浩后接动词，再接句号"
+    },
+    {
+        "query": "(r) (v){len($1)!=3; len($2)!=3}",
+        "description": "代词后接动词，代词和动词长度均不等于3"
+    },
+    {
+        "query": "了 (m) 办法{end($1)=[少 村 活]}",
+        "description": "了后接办法，办法以少、村、活结束"
+    },
+    {
+        "query": "没有 .. 洼地",
+        "description": "没有后隔两字接洼地"
+    },
+    {
+        "query": "就是 (v) 候鸟{count<293}",
+        "description": "就是后接动词，再接候鸟，且频次小于293"
+    },
+    {
+        "query": "(nr) 说 (w){len($1)>2}",
+        "description": "人名后接说，再说为句首"
+    },
+    {
+        "query": "设计 ./[w v] 蔡华伟",
+        "description": "设计后隔一字接连词或动词，再接蔡华伟"
+    },
+    {
+        "query": "使用",
+        "description": "包含使用的句子"
+    }
+]
+```

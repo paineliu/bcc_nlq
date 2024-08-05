@@ -1,0 +1,86 @@
+以下是根据您提供的检索式及其含义的JSON结构：
+
+```json
+[
+    {
+        "query": "改革 ./[w v]",
+        "description": "改革后面紧跟着连词或动词"
+    },
+    {
+        "query": "(ns) (v){len($1)>1}",
+        "description": "地名后面接动词，且地名长度大于1"
+    },
+    {
+        "query": "开放 . 开发",
+        "description": "开放后跟开发，中间有一个字"
+    },
+    {
+        "query": "国家 (an){len($1)>1}",
+        "description": "国家后面接名形词，且名形词长度大于1"
+    },
+    {
+        "query": "烟叶 ~ 价格",
+        "description": "烟叶和价格之间有一个词"
+    },
+    {
+        "query": "(n) 改革{count>3}",
+        "description": "名词后面接改革，且改革出现次数大于3"
+    },
+    {
+        "query": "： (nr){len($1)=2}",
+        "description": "冒号后面接人名，且人名长度等于2"
+    },
+    {
+        "query": "可以 ~ 放开",
+        "description": "可以和放开之间有一个词"
+    },
+    {
+        "query": "充分 。/w",
+        "description": "充分后面接句尾，且句尾为标点符号"
+    },
+    {
+        "query": "供应 a ．",
+        "description": "供应后面接形容词，且后面是句号"
+    },
+    {
+        "query": "(m) 是 行业 运行 平稳 (w){len($1)!=2}",
+        "description": "数词后面接是、行业、运行、平稳，且句尾不是两个字"
+    },
+    {
+        "query": "(d) 放 了 之 (w){count>8}",
+        "description": "副词后面接放、了、之，且该结构出现次数大于8"
+    },
+    {
+        "query": "三峡 船闸/n 通过",
+        "description": "三峡船闸作为名词后面接通过"
+    },
+    {
+        "query": "显着 ../v 。",
+        "description": "显着后面接双音节动词，且后面是句号"
+    },
+    {
+        "query": "... 说",
+        "description": "省略号后面接说"
+    },
+    {
+        "query": "三 ./[q v] 外企",
+        "description": "三后面接疑问代词或动词，再接外企"
+    },
+    {
+        "query": "贷款 @ 提高",
+        "description": "贷款后面接一个词，再接提高，统计时按词性归并"
+    },
+    {
+        "query": "： ...",
+        "description": "冒号后面接省略号"
+    },
+    {
+        "query": "守望 ~ ，",
+        "description": "守望和逗号之间有一个词"
+    },
+    {
+        "query": "走 (u) 不{len($1)!=2}",
+        "description": "走后面接助词，再接不，且不不是两个字"
+    }
+]
+```

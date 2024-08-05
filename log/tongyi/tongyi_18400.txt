@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "亲笔v+a[，+。]",
+        "description": "亲笔动词后接形容词，形容词后接逗号或句号"
+    },
+    {
+        "query": "亲笔v a[， 。]",
+        "description": "亲笔动词后接形容词，形容词后接逗号或句号"
+    },
+    {
+        "query": "一时v+a[，+。]",
+        "description": "一时动词后接形容词，形容词后接逗号或句号"
+    },
+    {
+        "query": "一时v a[， 。]",
+        "description": "一时动词后接形容词，形容词后接逗号或句号"
+    },
+    {
+        "query": "p+他+v[，+。]",
+        "description": "p后接他，他后接动词，动词后接逗号或句号"
+    },
+    {
+        "query": "p 他 v[， 。]",
+        "description": "p后接他，他后接动词，动词后接逗号或句号"
+    },
+    {
+        "query": "v的这个n[，+。]",
+        "description": "动词后接'的'，然后接这个，最后接名词，名词后接逗号或句号"
+    },
+    {
+        "query": "v的这个n[， 。]",
+        "description": "动词后接'的'，然后接这个，最后接名词，名词后接逗号或句号"
+    },
+    {
+        "query": "总体上[说+讲]",
+        "description": "总体上后接'说'和'讲'，两者之间无空格"
+    },
+    {
+        "query": "总体上[说 讲]",
+        "description": "总体上后接'说'和'讲'，两者之间有空格"
+    },
+    {
+        "query": "一处n+n[，+。]",
+        "description": "一处名词后接另一个名词，两个名词后接逗号或句号"
+    },
+    {
+        "query": "一处n n[， 。]",
+        "description": "一处名词后接另一个名词，两个名词后接逗号或句号"
+    },
+    {
+        "query": "建立在[nt+ns+s+f+r]+",
+        "description": "建立在后接nt、ns、s、f、r中的任意组合"
+    },
+    {
+        "query": "建立在[nt ns s f r] ",
+        "description": "建立在后接nt、ns、s、f、r中的任意组合"
+    },
+    {
+        "query": "就算d+v[，+。]",
+        "description": "就算动词后接形容词，形容词后接逗号或句号"
+    },
+    {
+        "query": "就算d v[， 。]",
+        "description": "就算动词后接形容词，形容词后接逗号或句号"
+    },
+    {
+        "query": "不觉d+v[，+。]",
+        "description": "不觉动词后接形容词，形容词后接逗号或句号"
+    },
+    {
+        "query": "不觉d v[， 。]",
+        "description": "不觉动词后接形容词，形容词后接逗号或句号"
+    },
+    {
+        "query": "偏偏d+n[，+。]",
+        "description": "偏偏动词后接名词，名词后接逗号或句号"
+    },
+    {
+        "query": "偏偏d n[， 。]",
+        "description": "偏偏动词后接名词，名词后接逗号或句号"
+    },
+    {
+        "query": "非常n[，+。]",
+        "description": "非常后接名词，名词后接逗号或句号"
+    },
+    {
+        "query": "非常n[， 。]",
+        "description": "非常后接名词，名词后接逗号或句号"
+    },
+    {
+        "query": "一q也不v[，+。]",
+        "description": "一q也不动词，动词后接逗号或句号"
+    },
+    {
+        "query": "一q也不v[， 。]",
+        "description": "一q也不动词，动词后接逗号或句号"
+    },
+    {
+        "query": "格外+a[，+。]",
+        "description": "格外后接形容词，形容词后接逗号或句号"
+    },
+    {
+        "query": "格外 a[， 。]",
+        "description": "格外后接形容词，形容词后接逗号或句号"
+    },
+    {
+        "query": "a不回来[，+。]",
+        "description": "a不回来，后接逗号或句号"
+    },
+    {
+        "query": "a不回来[， 。]",
+        "description": "a不回来，后接逗号或句号"
+    },
+    {
+        "query": "d能v+y[，+。]",
+        "description": "d能动词后接y，y后接逗号或句号"
+    },
+    {
+        "query": "d能v y[， 。]",
+        "description": "d能动词后接y，y后接逗号或句号"
+    },
+    {
+        "query": "自发v[，+。]",
+        "description": "自发动词，后接逗号或句号"
+    },
+    {
+        "query": "自发v[， 。]",
+        "description": "自发动词，后接逗号或句号"
+    },
+    {
+        "query": "一处n[，+。]",
+        "description": "一处名词，后接逗号或句号"
+    },
+    {
+        "query": "一处n[， 。]",
+        "description": "一处名词，后接逗号或句号"
+    },
+    {
+        "query": "难道v[，+。]",
+        "description": "难道动词，后接逗号或句号"
+    },
+    {
+        "query": "难道v[， 。]",
+        "description": "难道动词，后接逗号或句号"
+    },
+    {
+        "query": "[搬+食+租+学+探+煮+收]个",
+        "description": "搬、食、租、学、探、煮、收这七个词组合，后接一个词"
+    },
+    {
+        "query": "[搬 食 租 学 探 煮 收]个",
+        "description": "搬、食、租、学、探、煮、收这七个词组合，后接一个词"
+    },
+    {
+        "query": "w高.矮[q+r+d+c+v+a++n+m++p]w",
+        "description": "w后接高、矮，然后接q、r、d、c、v、a、n、m、p这九个字母中的任意组合，最后接w"
+    },
+    {
+        "query": "w高.矮[q r d c v a  n m  p]w",
+        "description": "w后接高、矮，然后接q、r、d、c、v、a、n、m、p这九个字母中的任意组合，最后接w"
+    }
+]
+```

@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "看起来V",
+        "description": "看起来之后的动词"
+    },
+    {
+        "query": "一拳头就V",
+        "description": "一拳头之后，紧接着的动词"
+    },
+    {
+        "query": "加以V",
+        "description": "加以之后的动词"
+    },
+    {
+        "query": "不V熟",
+        "description": "不之后的动词，熟作为一个独立的实体"
+    },
+    {
+        "query": "v+分析",
+        "description": "以v开头的动词，紧接着分析"
+    },
+    {
+        "query": "v 分析",
+        "description": "以v开头的动词，紧接着分析"
+    },
+    {
+        "query": "v过了",
+        "description": "以v开头的动词，紧接着过了"
+    },
+    {
+        "query": "讨厌n+v",
+        "description": "讨厌之后，紧接着的动词和名词组合"
+    },
+    {
+        "query": "讨厌n v",
+        "description": "讨厌之后，紧接着的名词和动词组合"
+    },
+    {
+        "query": "v癫痫",
+        "description": "以v开头的动词，紧接着癫痫"
+    },
+    {
+        "query": "n十足",
+        "description": "名词之后，紧接着的十足"
+    },
+    {
+        "query": "不住把n+v了",
+        "description": "不住把之后，紧接着名词和动词组合，以了结尾"
+    },
+    {
+        "query": "不住把n v了",
+        "description": "不住把之后，紧接着名词和动词组合，以了结尾"
+    },
+    {
+        "query": "a公平",
+        "description": "形容词公平作为一个独立的实体"
+    },
+    {
+        "query": "v下愉悦",
+        "description": "以v开头的动词，紧接着下愉悦"
+    },
+    {
+        "query": "是a的",
+        "description": "是之后的形容词，作为独立的实体"
+    },
+    {
+        "query": "a道德",
+        "description": "形容词道德作为一个独立的实体"
+    },
+    {
+        "query": "w不消说w",
+        "description": "w不消说w作为一个独立的实体"
+    },
+    {
+        "query": "出了s",
+        "description": "出了之后的标点符号s"
+    },
+    {
+        "query": "给n+v",
+        "description": "给之后，紧接着名词和动词组合"
+    },
+    {
+        "query": "给n v",
+        "description": "给之后，紧接着名词和动词组合"
+    },
+    {
+        "query": "v点心",
+        "description": "以v开头的动词，紧接着点心"
+    },
+    {
+        "query": "一V就",
+        "description": "一之后，紧接着动词"
+    },
+    {
+        "query": "a上涨",
+        "description": "形容词上涨作为一个独立的实体"
+    },
+    {
+        "query": "ns+更",
+        "description": "ns作为一个独立的实体，紧接着更"
+    },
+    {
+        "query": "ns 更",
+        "description": "ns作为一个独立的实体，紧接着更"
+    },
+    {
+        "query": "p+r",
+        "description": "p和r作为一个组合实体"
+    },
+    {
+        "query": "p r",
+        "description": "p和r作为一个组合实体"
+    },
+    {
+        "query": "v一新",
+        "description": "以v开头的动词，紧接着一新"
+    },
+    {
+        "query": "，n的n是n。",
+        "description": "逗号之后，紧接着n的n是n，作为一个独立的实体"
+    },
+    {
+        "query": "v下级",
+        "description": "以v开头的动词，紧接着下级"
+    },
+    {
+        "query": "vn说",
+        "description": "以vn开头的动词组合，紧接着说"
+    },
+    {
+        "query": "a友谊",
+        "description": "形容词友谊作为一个独立的实体"
+    },
+    {
+        "query": "是n",
+        "description": "是之后的名词作为一个独立的实体"
+    },
+    {
+        "query": "该+n+n",
+        "description": "该之后，紧接着两个名词组合"
+    },
+    {
+        "query": "该 n n",
+        "description": "该之后，紧接着两个名词组合"
+    },
+    {
+        "query": "能V多少就多少",
+        "description": "能之后，紧接着动词，多少作为独立的实体，再接就多少"
+    },
+    {
+        "query": "成天把n+v了",
+        "description": "成天把之后，紧接着名词和动词组合，以了结尾"
+    },
+    {
+        "query": "成天把n v了",
+        "description": "成天把之后，紧接着名词和动词组合，以了结尾"
+    },
+    {
+        "query": "V+黑|白|红|蓝|绿|橙|粉|黄|紫|灰了",
+        "description": "以V开头的动词，紧接着颜色词，以了结尾"
+    }
+]
+```

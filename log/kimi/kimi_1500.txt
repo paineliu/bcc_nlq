@@ -1,0 +1,86 @@
+以下是根据您提供的检索式及其含义转换的JSON结构：
+
+```json
+[
+    {
+        "query": "韭菜 ~/[n v] 人民",
+        "description": "韭菜后面接一个名词或动词，再接人民"
+    },
+    {
+        "query": "治 (n) ，",
+        "description": "治疗名词后接逗号，且该名词出现次数小于687"
+    },
+    {
+        "query": "神 @/[a v] 送",
+        "description": "神后面接一个形容词或动词，再接送"
+    },
+    {
+        "query": "整治 (v) 首次{end($1)!=[俺 种 角]}",
+        "description": "整治动词后面接首次，首次不以俺、种、角结束"
+    },
+    {
+        "query": "@ 深化",
+        "description": "任意词性后面接深化"
+    },
+    {
+        "query": "气难扬 w",
+        "description": "气难扬作为句尾"
+    },
+    {
+        "query": "环保 (v) 资金{len($1)=1}",
+        "description": "环保动词后面接资金，资金为单字"
+    },
+    {
+        "query": "， @/[d v] 沾光",
+        "description": "逗号后面接一个副词或动词，再接沾光"
+    },
+    {
+        "query": "相 ../v ，",
+        "description": "相后面接一个双音节动词，再接逗号"
+    },
+    {
+        "query": "小 (n) 图{len($1)<3}",
+        "description": "小后面接名词图，图的长度小于3"
+    },
+    {
+        "query": "(r) 的{len($1)!=3}",
+        "description": "代词后面接的，代词长度不等于3"
+    },
+    {
+        "query": "发好 n 之",
+        "description": "发好后面接名词再接之"
+    },
+    {
+        "query": "身段 (v) 信任{count<866}",
+        "description": "身段动词后面接信任，信任出现次数小于866"
+    },
+    {
+        "query": "表述",
+        "description": "包含表述的句子"
+    },
+    {
+        "query": "容纳 (n) 表述{begin($1)!=[句 钱]}",
+        "description": "容纳后面接名词表述，表述不以句、钱开始"
+    },
+    {
+        "query": "忌 (v) 假{len($1)=1}",
+        "description": "忌动词后面接假，假为单字"
+    },
+    {
+        "query": "(n) (vn){len($2)>1}",
+        "description": "名词后面接动名词，动名词长度大于1"
+    },
+    {
+        "query": "攻坚克 @",
+        "description": "攻坚克后面接任意词性"
+    },
+    {
+        "query": "政策 ~/[v v]",
+        "description": "政策后面接两个动词"
+    },
+    {
+        "query": "小 ~ 细实",
+        "description": "小后面接一个词，再接细实"
+    }
+]
+```

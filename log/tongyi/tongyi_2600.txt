@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "这是明智的",
+        "description": "包含'这是明智的'这样的句子"
+    },
+    {
+        "query": "示威",
+        "description": "单独的词汇，可能出现在句子中"
+    },
+    {
+        "query": "毒气",
+        "description": "单独的词汇，可能出现在句子中"
+    },
+    {
+        "query": "白热化",
+        "description": "单独的词汇，可能出现在句子中"
+    },
+    {
+        "query": "树立",
+        "description": "单独的词汇，可能出现在句子中"
+    },
+    {
+        "query": "插话",
+        "description": "单独的词汇，可能出现在句子中"
+    },
+    {
+        "query": "愿意不愿意",
+        "description": "包含'愿意不愿意'这样的句子"
+    },
+    {
+        "query": "守候",
+        "description": "单独的词汇，可能出现在句子中"
+    },
+    {
+        "query": "剥啄",
+        "description": "单独的词汇，可能出现在句子中"
+    },
+    {
+        "query": "发",
+        "description": "单独的词汇，可能出现在句子中"
+    },
+    {
+        "query": "不太灵敏",
+        "description": "包含'不太灵敏'这样的句子"
+    },
+    {
+        "query": "按理而言",
+        "description": "包含'按理而言'这样的句子"
+    },
+    {
+        "query": "唯一两",
+        "description": "包含'唯一两'这样的句子"
+    },
+    {
+        "query": "超过",
+        "description": "单独的词汇，可能出现在句子中"
+    },
+    {
+        "query": "给你。",
+        "description": "包含'给你。'这样的句子"
+    },
+    {
+        "query": "和谐及进",
+        "description": "包含'和谐及进'这样的句子"
+    },
+    {
+        "query": "呐呐",
+        "description": "单独的词汇，可能出现在句子中"
+    },
+    {
+        "query": "可算是",
+        "description": "包含'可算是'这样的句子"
+    },
+    {
+        "query": "差点就没",
+        "description": "包含'差点就没'这样的句子"
+    },
+    {
+        "query": "老舍",
+        "description": "单独的词汇，可能出现在句子中"
+    },
+    {
+        "query": "骑虎难下",
+        "description": "包含'骑虎难下'这样的句子"
+    },
+    {
+        "query": "阿姨",
+        "description": "单独的词汇，可能出现在句子中"
+    },
+    {
+        "query": "毒舌",
+        "description": "单独的词汇，可能出现在句子中"
+    },
+    {
+        "query": "磊磊",
+        "description": "单独的词汇，可能出现在句子中"
+    },
+    {
+        "query": "不太冷",
+        "description": "包含'不太冷'这样的句子"
+    },
+    {
+        "query": "冉冉",
+        "description": "单独的词汇，可能出现在句子中"
+    },
+    {
+        "query": "全然",
+        "description": "单独的词汇，可能出现在句子中"
+    },
+    {
+        "query": "稠稠",
+        "description": "单独的词汇，可能出现在句子中"
+    },
+    {
+        "query": "跪前",
+        "description": "单独的词汇，可能出现在句子中"
+    },
+    {
+        "query": "套话",
+        "description": "单独的词汇，可能出现在句子中"
+    },
+    {
+        "query": "头顶上",
+        "description": "包含'头顶上'这样的句子"
+    },
+    {
+        "query": "和谐的家",
+        "description": "包含'和谐的家'这样的句子"
+    },
+    {
+        "query": "宽宽裕裕",
+        "description": "包含'宽宽裕裕'这样的句子"
+    },
+    {
+        "query": "她那个",
+        "description": "包含'她那个'这样的句子"
+    },
+    {
+        "query": "男司机",
+        "description": "单独的词汇，可能出现在句子中"
+    },
+    {
+        "query": "通过大门",
+        "description": "包含'通过大门'这样的句子"
+    },
+    {
+        "query": "白旗",
+        "description": "单独的词汇，可能出现在句子中"
+    },
+    {
+        "query": "还是和谐",
+        "description": "包含'还是和谐'这样的句子"
+    },
+    {
+        "query": "时间是女人",
+        "description": "包含'时间是女人'这样的句子"
+    },
+    {
+        "query": "也许能够",
+        "description": "包含'也许能够'这样的句子"
+    }
+]
+```

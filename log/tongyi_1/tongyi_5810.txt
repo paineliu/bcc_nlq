@@ -1,0 +1,156 @@
+```json
+[
+    {
+        "query": "可", 
+        "description":"包含可的句子"
+    },
+    {
+        "query": "枯寂 . 莲蓬", 
+        "description":"枯寂后面隔一个字后接莲蓬"
+    },
+    {
+        "query": "(n) 丛谈{begin($1)=[编 服]}", 
+        "description":"丛谈的开始是编或服"
+    },
+    {
+        "query": "意思 (z) 。{end($1)=[然 懂 修]}", 
+        "description":"意思后面以然、懂或修结尾"
+    },
+    {
+        "query": "(d) 能{len($1)!=2}", 
+        "description":"能字的前后不是两个字"
+    },
+    {
+        "query": "文字 。/w", 
+        "description":"文字后面隔一个字"
+    },
+    {
+        "query": "(n) (a){count<913}", 
+        "description":"两个相邻的名词和形容词，且总频次少于913"
+    },
+    {
+        "query": "这", 
+        "description":"包含这的句子"
+    },
+    {
+        "query": "一 @/[q v] 习惯", 
+        "description":"一后面接一个词性为疑问代词或动词的词，习惯是句尾"
+    },
+    {
+        "query": "鲜能 (n) 也{len($1)<3}", 
+        "description":"鲜能后面接一个名词，且鲜能的长度小于3"
+    },
+    {
+        "query": "召开", 
+        "description":"召开的句子"
+    },
+    {
+        "query": "叫 (u) 响{len($1)=1}", 
+        "description":"叫后面接一个长度为1的词，响"
+    },
+    {
+        "query": "纪律 ~/[n v] 带出", 
+        "description":"纪律后面离合出现名词或动词，再接带出"
+    },
+    {
+        "query": "联运 (n) 班列{middle($1)!=[婷 缺]}", 
+        "description":"联运后面接名词班列，但不包含婷或缺"
+    },
+    {
+        "query": "不是 . 有", 
+        "description":"不是后面隔一个字后接有"
+    },
+    {
+        "query": "一直 @ 人", 
+        "description":"一直后面接一个词，人"
+    },
+    {
+        "query": "退休 ~", 
+        "description":"退休后面接一个词"
+    },
+    {
+        "query": "会 (v) 吗{len($1)=2}", 
+        "description":"会后面接一个长度为2的动词，且可能是吗"
+    },
+    {
+        "query": "(n) 人员 不 再 为 (j){len($1)=2; len($2)=2}", 
+        "description":"人员后面接不、再、为，且不和为的长度均为2"
+    },
+    {
+        "query": "召开 (nt) 常务{count<314}", 
+        "description":"召开后面接常务，且召开常务的频次少于314"
+    },
+    {
+        "query": "二 @/[v v] 大力", 
+        "description":"二后面接一个或两个动词，大力是句尾"
+    },
+    {
+        "query": "(v) 、 合作 办医 (n){len($2)!=3}", 
+        "description":"合作办医作为整体词，前后各是一个动词，且合作办医的长度不等于3"
+    },
+    {
+        "query": "还 (v) 了{count<167}", 
+        "description":"还后面接一个动词，且动词了的频次少于167"
+    },
+    {
+        "query": "(w) 李 (n){$1!=$2}", 
+        "description":"李后面接一个名词，且李和名词不相同"
+    },
+    {
+        "query": "(n) 会 (v){end($1)=[遇 窝 刘 村]}", 
+        "description":"会后面接一个名词，且名词的结尾是遇、窝、刘或村"
+    },
+    {
+        "query": "是否 (v) 保障{len($1)=1}", 
+        "description":"是否后面接一个长度为1的动词，保障可能是句尾"
+    },
+    {
+        "query": "../vn 待遇", 
+        "description":"双音节动词后面接待遇"
+    },
+    {
+        "query": "(r) ，{count>8}", 
+        "description":"逗号出现的次数多于8次"
+    },
+    {
+        "query": "文件 (d) 发到{end($1)!=[冰 整 逛 余]}", 
+        "description":"文件后面接发到，但不以冰、整、逛或余结尾"
+    },
+    {
+        "query": "保障 (y) ？{count<208}", 
+        "description":"保障后面接一个语气词，且可能是问号，频次少于208"
+    },
+    {
+        "query": "从 (r) 来{begin($1)=[哪 贵]}", 
+        "description":"从后面接一个词，且词的开始是哪或贵"
+    },
+    {
+        "query": "公平 吗/y ？", 
+        "description":"公平后面接一个词，可能是吗或问号"
+    },
+    {
+        "query": "有人 ../[v v] 这", 
+        "description":"有人后面离合出现两个动词，这可能是句尾"
+    },
+    {
+        "query": "深入 .. 三下乡", 
+        "description":"深入后面隔一个词后接三下乡"
+    },
+    {
+        "query": "新 (n){count<190}", 
+        "description":"新后面接一个名词，且新名词的频次少于190"
+    },
+    {
+        "query": "回笼 (n) 待{count>2}", 
+        "description":"回笼后面接待，且回笼待的频次多于2"
+    },
+    {
+        "query": "全体 ~/[n v]", 
+        "description":"全体后面离合出现名词或动词"
+    },
+    {
+        "query": "全球 ../[vn v] 合作", 
+        "description":"全球后面离合出现一个动词和一个名词，合作可能是句尾"
+    }
+]
+```

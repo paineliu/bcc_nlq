@@ -1,0 +1,166 @@
+以下是将给定的检索式转换为带含义的json结构：
+
+```json
+[
+    {
+        "query": "恐怕*当真",
+        "description": "恐怕后面离合出现当真"
+    },
+    {
+        "query": "nr*容忍",
+        "description": "nr后接容忍"
+    },
+    {
+        "query": "差不多*好像",
+        "description": "差不多后面离合出现好像"
+    },
+    {
+        "query": "我们..+上去w",
+        "description": "我们后接一个连词，然后是上去"
+    },
+    {
+        "query": "我们.. 上去w",
+        "description": "我们后接一个连词，然后是上去"
+    },
+    {
+        "query": "V上*悲哀",
+        "description": "动词上后面离合出现悲哀"
+    },
+    {
+        "query": "看在@的份上",
+        "description": "看在某个词性上，后面是的份上"
+    },
+    {
+        "query": "v*的年纪",
+        "description": "动词后面离合出现的年纪"
+    },
+    {
+        "query": "大概*毕竟",
+        "description": "大概后面离合出现毕竟"
+    },
+    {
+        "query": "连*也v",
+        "description": "连后面离合出现也动词"
+    },
+    {
+        "query": "w新.旧w",
+        "description": "w后接新字，中间有一个字，然后是旧"
+    },
+    {
+        "query": "用不.",
+        "description": "用不后面是标点符号."
+    },
+    {
+        "query": "我..+上来w",
+        "description": "我后接一个连词，然后是上来"
+    },
+    {
+        "query": "我.. 上来w",
+        "description": "我后接一个连词，然后是上来"
+    },
+    {
+        "query": "w+v啥.w",
+        "description": "w后接动词v，然后是啥，最后是w"
+    },
+    {
+        "query": "w v啥.w",
+        "description": "w后接动词v，然后是啥，最后是w"
+    },
+    {
+        "query": "w升.降w",
+        "description": "w后接升字，中间有一个字，然后是降"
+    },
+    {
+        "query": "w雄.雌w",
+        "description": "w后接雄字，中间有一个字，然后是雌"
+    },
+    {
+        "query": "是*的格局w",
+        "description": "是后面离合出现的格局"
+    },
+    {
+        "query": "他们..+出去w",
+        "description": "他们后接一个连词，然后是出去"
+    },
+    {
+        "query": "他们.. 出去w",
+        "description": "他们后接一个连词，然后是出去"
+    },
+    {
+        "query": "或许*反而",
+        "description": "或许后面离合出现反而"
+    },
+    {
+        "query": "w亏.盈w",
+        "description": "w后接亏字，中间有一个字，然后是盈"
+    },
+    {
+        "query": "V下*害怕",
+        "description": "动词下后面离合出现害怕"
+    },
+    {
+        "query": "v上*感情",
+        "description": "动词上后面离合出现感情"
+    },
+    {
+        "query": "一n*该n",
+        "description": "一后接名词n，然后是该"
+    },
+    {
+        "query": "把*v过",
+        "description": "把后面离合出现v动词"
+    },
+    {
+        "query": "越*越",
+        "description": "越后面离合出现越"
+    },
+    {
+        "query": "不*才怪",
+        "description": "不后面离合出现才怪"
+    },
+    {
+        "query": "把*v向",
+        "description": "把后面离合出现v动词"
+    },
+    {
+        "query": "喘不.",
+        "description": "喘不后面是标点符号."
+    },
+    {
+        "query": "一种很*的",
+        "description": "一种后面离合出现很，然后是的"
+    },
+    {
+        "query": "气得*紫",
+        "description": "气得后面离合出现紫"
+    },
+    {
+        "query": "是*的、",
+        "description": "是后面离合出现的、"
+    },
+    {
+        "query": "你.+出去w",
+        "description": "你后接一个连词，然后是出去"
+    },
+    {
+        "query": "你. 出去w",
+        "description": "你后接一个连词，然后是出去"
+    },
+    {
+        "query": "在*的前提下",
+        "description": "在后面离合出现的前提下"
+    },
+    {
+        "query": "不是*就是*",
+        "description": "不是后面离合出现就是"
+    },
+    {
+        "query": "不该*的*",
+        "description": "不该后面离合出现的"
+    },
+    {
+        "query": "仿佛*呢？",
+        "description": "仿佛后面离合出现呢？"
+    }
+]
+```

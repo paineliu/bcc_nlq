@@ -1,0 +1,86 @@
+以下是根据给定的检索式及其含义转换为JSON结构的完整列表：
+
+```json
+[
+    {
+        "query": "书画 ... 将",
+        "description": "书画后面隔三个字接将"
+    },
+    {
+        "query": "经济 @/[a v] 常态",
+        "description": "经济后面接以a或v开头的词，然后接常态"
+    },
+    {
+        "query": "要 (ad) 看待{end($1)=[确 贴]}",
+        "description": "要后面接副形词看待，并且看待的最后一个字是确或贴"
+    },
+    {
+        "query": "../v 创新 与 ../vn",
+        "description": "二字动词后面接创新与，然后接动名词"
+    },
+    {
+        "query": "就是 i 。",
+        "description": "就是后面接成语i，然后接句点"
+    },
+    {
+        "query": "(n) 与 (vn){len($1)>1}",
+        "description": "名词后面接与，然后接动名词，名词长度大于1"
+    },
+    {
+        "query": "(n) 为{count<813}",
+        "description": "名词后面接为，名词出现次数小于813"
+    },
+    {
+        "query": "城区 n 。",
+        "description": "城区后面接名词，然后接句点"
+    },
+    {
+        "query": "重大",
+        "description": "包含重大的句子"
+    },
+    {
+        "query": "建设 (l){middle($1)=[机 肉 老 送]}",
+        "description": "建设后面接后接成分l，且l中间包含机、肉、老、送中的任意一个"
+    },
+    {
+        "query": "(n) (vn){len($1)=2; len($2)!=3}",
+        "description": "名词后面接动名词，名词长度等于2，动名词长度不等于3"
+    },
+    {
+        "query": "(v) (ad){len($1)=1}",
+        "description": "动词后面接副形词，动词长度等于1"
+    },
+    {
+        "query": "(j) (j){begin($1)!=[吓 赵]}",
+        "description": "简称略语后面接简称略语，第一个简称略语不以吓或赵开始"
+    },
+    {
+        "query": "../[n v] 助推",
+        "description": "二字名词或动词后面接助推"
+    },
+    {
+        "query": "(v) (n){count<688}",
+        "description": "动词后面接名词，动词出现次数小于688"
+    },
+    {
+        "query": "v 融资 渠道 w",
+        "description": "动词后面接融资渠道，然后接标点符号"
+    },
+    {
+        "query": "为 (ns) 市长{begin($1)!=[汤 饭 费 午]}",
+        "description": "为后面接地名ns，然后接市长，地名不以汤、饭、费、午开始"
+    },
+    {
+        "query": ": (nr){count>10}",
+        "description": "冒号后面接人名，人名出现次数大于10"
+    },
+    {
+        "query": "全面 ../[v v] 有",
+        "description": "全面后面接二字动词，然后接有"
+    },
+    {
+        "query": "停用 y ，",
+        "description": "停用后面接语气词y，然后接逗号"
+    }
+]
+```

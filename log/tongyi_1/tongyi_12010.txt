@@ -1,0 +1,162 @@
+以下是检索式及其含义的JSON结构：
+
+```json
+[
+    {
+        "query": "走 @/[m v] 个",
+        "description": "走后面跟一个介词或动词，后面再接一个量词"
+    },
+    {
+        "query": "水 (w) 是{count>9}",
+        "description": "包含'水'作为句首词，且'是'后面的内容出现次数大于9"
+    },
+    {
+        "query": "发现 (n) 怎么{begin($1)=[问 梦]}",
+        "description": "发现后面接'怎么'，且'怎么'之前可能是'问'或'梦'"
+    },
+    {
+        "query": "浸润 生活/n",
+        "description": "浸润后面接名词生活"
+    },
+    {
+        "query": ".. 清澈",
+        "description": "两个连续的词，最后一个词是清澈"
+    },
+    {
+        "query": "@ 难得",
+        "description": "少见的或难得的情况"
+    },
+    {
+        "query": "(ns) 市委{len($1)>1}",
+        "description": "市委这个词出现在地名前，且地名长度大于1"
+    },
+    {
+        "query": "畅通 @ 建制",
+        "description": "畅通后面接一个词，可能表示制度或体制"
+    },
+    {
+        "query": "全国",
+        "description": "全国，单个词"
+    },
+    {
+        "query": "拆 . 房",
+        "description": "拆后面隔一个字后接房"
+    },
+    {
+        "query": "人民 ../[n v]",
+        "description": "人民后面接名词或动词"
+    },
+    {
+        "query": "服务 @ 可",
+        "description": "服务后面接一个词，可能表示可接受或可行"
+    },
+    {
+        "query": ".. 西部",
+        "description": "两个连续的词，最后一个词是西部"
+    },
+    {
+        "query": "是 @ 造成",
+        "description": "是后面接一个词，可能表示原因或影响"
+    },
+    {
+        "query": "行 调查/v .",
+        "description": "行后面接调查，调查是动词"
+    },
+    {
+        "query": "新 n 并网",
+        "description": "新后面接名词并网"
+    },
+    {
+        "query": "(v) 降低{count<985}",
+        "description": "动词降低，出现次数少于985次"
+    },
+    {
+        "query": "到岗 @ 不",
+        "description": "到岗后面接一个词，可能表示否定"
+    },
+    {
+        "query": "微信 ~",
+        "description": "微信后面接一个词"
+    },
+    {
+        "query": "说 .",
+        "description": "说后面隔一个字"
+    },
+    {
+        "query": "(v) (a){len($1)=2; len($2)!=2}",
+        "description": "两个连续的动词后接一个非两个字的形容词"
+    },
+    {
+        "query": "(v) (a){len($1)!=3; len($2)=1}",
+        "description": "一个非三个字的动词后接一个单字形容词"
+    },
+    {
+        "query": "评 (n) 管用{end($1)!=[挺 厚 怪 菜]}",
+        "description": "评后面接名词管用，且管用的末尾不是挺、厚、怪或菜"
+    },
+    {
+        "query": "../[ns v] 区委",
+        "description": "两个连续词，可能是名词或地名，后面接区委"
+    },
+    {
+        "query": "李 启斌/nr 说",
+        "description": "人名李启斌后面接说"
+    },
+    {
+        "query": "(d) 围绕 着 (v){len($1)=1; len($2)!=2}",
+        "description": "围绕后面接一个长度为1的副词，再接一个非两个字的动词"
+    },
+    {
+        "query": "活动 (v){begin($1)!=[臭 联 黑]}",
+        "description": "活动后面接动词，但动词的前面不是臭、联或黑"
+    },
+    {
+        "query": "京津冀 将/d 再现",
+        "description": "京津冀后面接将，然后是动词再现"
+    },
+    {
+        "query": "侗年 ../[n v] 来",
+        "description": "侗年后面接名词或动词，且可能是连续词"
+    },
+    {
+        "query": "n 新规",
+        "description": "名词后面接新的规定"
+    },
+    {
+        "query": "处置 .. 着 .",
+        "description": "处置后面可能是两个连续词，最后一个是句尾符号"
+    },
+    {
+        "query": "的 @/[an v] .",
+        "description": "的后面接一个词，可能是形容词或动词，句尾符号"
+    },
+    {
+        "query": "是 .. 经济学",
+        "description": "是后面可能是两个连续词，最后一个是经济学"
+    },
+    {
+        "query": "说 (w){count<380}",
+        "description": "说作为句首词，出现次数少于380次"
+    },
+    {
+        "query": "那么 ./w 什么",
+        "description": "那么后面接一个词，可能是疑问词"
+    },
+    {
+        "query": "史学 ~/[d v] 经济学",
+        "description": "史学后面可能是动词或副词，后面接经济学"
+    },
+    {
+        "query": "中国 (n) 史学{len($1)>1}",
+        "description": "中国后面接名词史学，且史学的长度大于1"
+    },
+    {
+        "query": "~/[v v] 为",
+        "description": "两个连续的动词后面接为"
+    },
+    {
+        "query": "科学 @ 发展",
+        "description": "科学后面接一个词，可能表示发展"
+    }
+]
+```

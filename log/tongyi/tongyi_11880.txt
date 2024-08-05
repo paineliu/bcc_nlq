@@ -1,0 +1,166 @@
+以下是将给定的检索式转换为带含义的JSON结构：
+
+```json
+[
+    {
+        "query": "他一n[，+。]", 
+        "description": "他一后面接名词，后跟逗号或句号"
+    },
+    {
+        "query": "他一n[， 。]", 
+        "description": "他一后面接名词，后跟句号"
+    },
+    {
+        "query": "w[q+r+d+c+v+a++n+m++p]朝.夕w", 
+        "description": "以[q+r+d+c+v+a++]开头，以[n+m++p]结尾，中间为朝.夕，整个表达式以w开头和结尾"
+    },
+    {
+        "query": "w[q r d c v a  n m  p]朝.夕w", 
+        "description": "以[q r d c v a n m p]排列，中间为朝.夕，整个表达式以w开头和结尾"
+    },
+    {
+        "query": "提早v[v+a+n+r][，+。]", 
+        "description": "提早后面接[v+a+n+r]，后跟逗号或句号"
+    },
+    {
+        "query": "提早v[v a n r][， 。]", 
+        "description": "提早后面接[v a n r]，后跟句号"
+    },
+    {
+        "query": "尽力v[，+。]", 
+        "description": "尽力后面接逗号或句号"
+    },
+    {
+        "query": "尽力v[， 。]", 
+        "description": "尽力后面接句号"
+    },
+    {
+        "query": "早已n[，+。]", 
+        "description": "早已后面接名词，后跟逗号或句号"
+    },
+    {
+        "query": "早已n[， 。]", 
+        "description": "早已后面接名词，后跟句号"
+    },
+    {
+        "query": "何等v+n[，+。]", 
+        "description": "何等后面接名词，后跟逗号或句号"
+    },
+    {
+        "query": "何等v n[， 。]", 
+        "description": "何等后面接名词，后跟句号"
+    },
+    {
+        "query": "终于v+u[，+。]", 
+        "description": "终于后面接u，后跟逗号或句号"
+    },
+    {
+        "query": "终于v u[， 。]", 
+        "description": "终于后面接u，后跟句号"
+    },
+    {
+        "query": "w下.上[q+r+d+c+v+a++n+m++p]w", 
+        "description": "以[w下.上[q+r+d+c+v+a++n+m++p]]开头和结尾"
+    },
+    {
+        "query": "w下.上[q r d c v a  n m  p]w", 
+        "description": "以[w下.上[q r d c v a n m p]]开头和结尾"
+    },
+    {
+        "query": "全都[v+a+n+r][，+。]", 
+        "description": "全都后面接[v+a+n+r]，后跟逗号或句号"
+    },
+    {
+        "query": "全都[v a n r][， 。]", 
+        "description": "全都后面接[v a n r]，后跟句号"
+    },
+    {
+        "query": "[不曾+不大+不定][v+a+n+r][，+。]", 
+        "description": "由不曾、不大、不定组成，后面接[v+a+n+r]，后跟逗号或句号"
+    },
+    {
+        "query": "[不曾 不大 不定][v a n r][， 。]", 
+        "description": "由不曾、不大、不定组成，后面接[v a n r]，后跟句号"
+    },
+    {
+        "query": "同年[v+a+n+r][，+。]", 
+        "description": "同年后面接[v+a+n+r]，后跟逗号或句号"
+    },
+    {
+        "query": "同年[v a n r][， 。]", 
+        "description": "同年后面接[v a n r]，后跟句号"
+    },
+    {
+        "query": "果然v+n[，+。]", 
+        "description": "果然后面接名词，后跟逗号或句号"
+    },
+    {
+        "query": "果然v n[， 。]", 
+        "description": "果然后面接名词，后跟句号"
+    },
+    {
+        "query": "缓缓v[v+a+n+r][，+。]", 
+        "description": "缓缓后面接[v+a+n+r]，后跟逗号或句号"
+    },
+    {
+        "query": "缓缓v[v a n r][， 。]", 
+        "description": "缓缓后面接[v a n r]，后跟句号"
+    },
+    {
+        "query": "看在+n[f+s]", 
+        "description": "看在后面接名词，后跟[f+s]"
+    },
+    {
+        "query": "看在 n[f s]", 
+        "description": "看在后面接名词，后跟[f s]"
+    },
+    {
+        "query": "天生v+u[，+。]", 
+        "description": "天生后面接u，后跟逗号或句号"
+    },
+    {
+        "query": "天生v u[， 。]", 
+        "description": "天生后面接u，后跟句号"
+    },
+    {
+        "query": "到底v[v+a+n+r][，+。]", 
+        "description": "到底后面接[v+a+n+r]，后跟逗号或句号"
+    },
+    {
+        "query": "到底v[v a n r][， 。]", 
+        "description": "到底后面接[v a n r]，后跟句号"
+    },
+    {
+        "query": "民主+[v+p+地]", 
+        "description": "民主后面接[v+p+地]"
+    },
+    {
+        "query": "民主 [v p 地]", 
+        "description": "民主后面接[v p 地]"
+    },
+    {
+        "query": "r+v啥[，+。]", 
+        "description": "r后面接v啥，后跟逗号或句号"
+    },
+    {
+        "query": "r v啥[， 。]", 
+        "description": "r后面接v啥，后跟句号"
+    },
+    {
+        "query": "专门v[，+。]", 
+        "description": "专门后面接逗号或句号"
+    },
+    {
+        "query": "专门v[， 。]", 
+        "description": "专门后面接句号"
+    },
+    {
+        "query": "重新v+y[，+。]", 
+        "description": "重新后面接y，后跟逗号或句号"
+    },
+    {
+        "query": "重新v y[， 。]", 
+        "description": "重新后面接y，后跟句号"
+    }
+]
+```

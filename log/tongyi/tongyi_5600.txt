@@ -1,0 +1,166 @@
+根据给定的检索式及其含义，我们可以将其转换为对应的JSON结构。以下是转换后的JSON结构：
+
+```json
+[
+    {
+        "query": "没 ad v",
+        "description": "包含‘没’作为副形词，后接动词的句子"
+    },
+    {
+        "query": "政策V",
+        "description": "包含‘政策’作为名词的句子"
+    },
+    {
+        "query": "倒s",
+        "description": "包含‘倒’作为副词的句子"
+    },
+    {
+        "query": "请求v",
+        "description": "包含‘请求’作为动词的句子"
+    },
+    {
+        "query": "(d)好极了",
+        "description": "包含形容词‘好’后接副词‘极了’的句子"
+    },
+    {
+        "query": "n进去",
+        "description": "包含名词‘进’后接动词‘去’的句子"
+    },
+    {
+        "query": "你+n",
+        "description": "包含代词‘你’后接名词的句子"
+    },
+    {
+        "query": "你 n",
+        "description": "包含代词‘你’的句子，后面没有明确的后续词汇"
+    },
+    {
+        "query": "a兰花",
+        "description": "包含形容词‘兰’修饰名词‘花’的句子"
+    },
+    {
+        "query": "a妇女",
+        "description": "包含形容词‘女’修饰名词‘妇’的句子"
+    },
+    {
+        "query": "a举行",
+        "description": "包含形容词‘举’后接动词‘行’的句子"
+    },
+    {
+        "query": "n的a味",
+        "description": "包含名词‘的’后接形容词‘味’的句子"
+    },
+    {
+        "query": "v公房",
+        "description": "包含动词‘公’后接名词‘房’的句子"
+    },
+    {
+        "query": "v进来",
+        "description": "包含动词‘进’后接动词‘来’的句子"
+    },
+    {
+        "query": "v妥帖了",
+        "description": "包含动词‘妥帖’后接‘了’的句子"
+    },
+    {
+        "query": "一篇n",
+        "description": "包含名词‘篇’的句子"
+    },
+    {
+        "query": "就+v",
+        "description": "包含‘就’后接动词的句子"
+    },
+    {
+        "query": "就 v",
+        "description": "包含‘就’的句子，后面没有明确的后续词汇"
+    },
+    {
+        "query": "(d)修建a",
+        "description": "包含副词‘修’后接形容词‘建’的句子"
+    },
+    {
+        "query": "a优惠",
+        "description": "包含形容词‘优’后接名词‘惠’的句子"
+    },
+    {
+        "query": "文化自信w",
+        "description": "包含名词‘文’后接形容词‘化’、‘自’、‘信’的句子"
+    },
+    {
+        "query": "v了m+q",
+        "description": "包含动词‘了’后接量词‘m’和‘q’的句子"
+    },
+    {
+        "query": "v了m q",
+        "description": "包含动词‘了’后接量词‘m’和‘q’的句子"
+    },
+    {
+        "query": "!+n是n+!",
+        "description": "包含感叹号后接名词、‘是’、名词、感叹号的句子"
+    },
+    {
+        "query": "! n是n ！",
+        "description": "包含感叹号后接名词、‘是’、名词、感叹号的句子"
+    },
+    {
+        "query": "N之V",
+        "description": "包含名词‘N’后接动词‘之’的句子"
+    },
+    {
+        "query": "d+p+你",
+        "description": "包含副词‘d’、介词‘p’、代词‘你’的句子"
+    },
+    {
+        "query": "d p 你",
+        "description": "包含副词‘d’、介词‘p’、代词‘你’的句子"
+    },
+    {
+        "query": "再a点儿就",
+        "description": "包含副词‘再’、形容词‘a’、‘点儿’、‘就’的句子"
+    },
+    {
+        "query": "vn呢",
+        "description": "包含动词‘v’后接名词、‘呢’的句子"
+    },
+    {
+        "query": "弊端n",
+        "description": "包含名词‘弊’后接‘端’的句子"
+    },
+    {
+        "query": "一串N",
+        "description": "包含数量词‘一串’后接名词的句子"
+    },
+    {
+        "query": "V上去",
+        "description": "包含动词‘上’后接动词‘去’的句子"
+    },
+    {
+        "query": "抓紧N",
+        "description": "包含动词‘抓’后接名词的句子"
+    },
+    {
+        "query": "v+n+的+n",
+        "description": "包含动词后接名词、‘的’、名词的句子"
+    },
+    {
+        "query": "v n 的 n",
+        "description": "包含动词后接名词、‘的’、名词的句子"
+    },
+    {
+        "query": "m巡",
+        "description": "包含量词‘m’后接名词‘巡’的句子"
+    },
+    {
+        "query": "颇+a",
+        "description": "包含形容词‘颇’后接形容词的句子"
+    },
+    {
+        "query": "颇 a",
+        "description": "包含形容词‘颇’后接形容词的句子"
+    },
+    {
+        "query": "a的样子",
+        "description": "包含形容词‘样’后接‘子’的句子"
+    }
+]
+```

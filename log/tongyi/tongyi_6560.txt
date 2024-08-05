@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "a技术",
+        "description": "形容词后接技术"
+    },
+    {
+        "query": "a一贯",
+        "description": "形容词后接一贯"
+    },
+    {
+        "query": "看nz的w",
+        "description": "看后接nz，再接的，的后邻w"
+    },
+    {
+        "query": "不得不V",
+        "description": "不得不后接动词"
+    },
+    {
+        "query": "时间是一q",
+        "description": "时间后接一，再接量词和名词"
+    },
+    {
+        "query": "？+n是n+，",
+        "description": "问号后接名词，再接是，然后是，最后跟一个标点"
+    },
+    {
+        "query": "？ n是n ，",
+        "description": "问号后接名词，再接是，然后是，最后跟一个标点"
+    },
+    {
+        "query": "多v了n",
+        "description": "动词后接多，再接量词和名词"
+    },
+    {
+        "query": "a不见得",
+        "description": "形容词后接不见得"
+    },
+    {
+        "query": "v了m年代",
+        "description": "动词后接了，再接m年代"
+    },
+    {
+        "query": "a中途",
+        "description": "形容词后接中途"
+    },
+    {
+        "query": "a主力",
+        "description": "形容词后接主力"
+    },
+    {
+        "query": "v什么",
+        "description": "动词后接什么"
+    },
+    {
+        "query": "w+n+外的n+w",
+        "description": "w后接名词，再接外的，外的后接名词，最后w"
+    },
+    {
+        "query": "w n 外的n w",
+        "description": "w后接名词，再接外的，外的后接名词，最后w"
+    },
+    {
+        "query": "毫不n",
+        "description": "毫不后接名词"
+    },
+    {
+        "query": "一圈n",
+        "description": "一圈后接名词"
+    },
+    {
+        "query": "v上v下",
+        "description": "动词后接上，再接动词，最后接下"
+    },
+    {
+        "query": "a公报",
+        "description": "形容词后接公报"
+    },
+    {
+        "query": "v也是它",
+        "description": "动词后接也是，再接它"
+    },
+    {
+        "query": "v一部",
+        "description": "动词后接一部"
+    },
+    {
+        "query": "a出差",
+        "description": "形容词后接出差"
+    },
+    {
+        "query": "v推测",
+        "description": "动词后接推测"
+    },
+    {
+        "query": "生死n",
+        "description": "动词后接生死"
+    },
+    {
+        "query": "往+n+v",
+        "description": "往后接名词，再接动词"
+    },
+    {
+        "query": "往 n v",
+        "description": "往后接名词，再接动词"
+    },
+    {
+        "query": "浅V",
+        "description": "动词后接浅"
+    },
+    {
+        "query": "坐V",
+        "description": "动词后接坐"
+    },
+    {
+        "query": "AABB",
+        "description": "由四个连续的字符组成，形式为AABB"
+    },
+    {
+        "query": "不知n",
+        "description": "动词后接不知"
+    },
+    {
+        "query": "V再三",
+        "description": "动词后接再三"
+    },
+    {
+        "query": "v透了",
+        "description": "动词后接透了"
+    },
+    {
+        "query": "V上愉快",
+        "description": "动词后接上，再接愉快"
+    },
+    {
+        "query": "V观点",
+        "description": "动词后接观点"
+    },
+    {
+        "query": "nr污蔑",
+        "description": "人名后接污蔑"
+    },
+    {
+        "query": "n作为n",
+        "description": "名词后接作为，再接名词"
+    },
+    {
+        "query": "从r+f+",
+        "description": "从后接r，再接f，最后跟一个空格"
+    },
+    {
+        "query": "从r f",
+        "description": "从后接r，再接f"
+    },
+    {
+        "query": "有什么好+ad+的",
+        "description": "有什么后接形容词，再接的"
+    },
+    {
+        "query": "有什么好 ad 的",
+        "description": "有什么后接形容词，再接的"
+    }
+]
+```

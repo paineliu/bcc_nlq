@@ -1,0 +1,167 @@
+以下是将给定的检索式转换为带含义的json结构：
+
+```json
+[
+    {
+        "query": "w八成w",
+        "description": "包含\"八成\"的句子，且\"八成\"前后均为单词"
+    },
+    {
+        "query": "风味+a",
+        "description": "风味后跟一个形容词"
+    },
+    {
+        "query": "风味 a",
+        "description": "风味后跟一个词性为a的词"
+    },
+    {
+        "query": "一瓦n",
+        "description": "一瓦后跟一个名词"
+    },
+    {
+        "query": "品味n",
+        "description": "品味后跟一个名词"
+    },
+    {
+        "query": "y哒",
+        "description": "y后跟一个词，且这个词是一个感叹词"
+    },
+    {
+        "query": "人格w",
+        "description": "人格后跟一个词性为w的词"
+    },
+    {
+        "query": "v死了",
+        "description": "动词后跟\"死了\""
+    },
+    {
+        "query": "V呢 么",
+        "description": "动词后跟\"呢么\""
+    },
+    {
+        "query": "m张n",
+        "description": "m后跟\"张\"后跟一个名词"
+    },
+    {
+        "query": "a不当",
+        "description": "一个词性为a的词后跟\"不当\""
+    },
+    {
+        "query": "那N+V的",
+        "description": "那后跟一个动词，然后跟\"的\""
+    },
+    {
+        "query": "那N V 的",
+        "description": "那后跟一个动词，再后跟一个名词，最后跟\"的\""
+    },
+    {
+        "query": "v被动句",
+        "description": "动词构成的被动句"
+    },
+    {
+        "query": "固然v",
+        "description": "固然后跟一个动词"
+    },
+    {
+        "query": "时代w",
+        "description": "时代后跟一个词性为w的词"
+    },
+    {
+        "query": "把+N+V+下去+",
+        "description": "把后跟一个名词，然后跟一个动词，再跟\"下去\"，最后句尾"
+    },
+    {
+        "query": "把 N V 下去",
+        "description": "把后跟一个名词，然后跟一个动词，再跟\"下去\""
+    },
+    {
+        "query": "不论是v还是v",
+        "description": "不论是一个动词，还是另一个动词"
+    },
+    {
+        "query": "n+是+a+n",
+        "description": "一个名词，后跟\"是\"，然后跟一个词性为a的词，最后跟一个名词"
+    },
+    {
+        "query": "n 是 a n",
+        "description": "一个名词，后跟\"是\"，然后跟一个词性为a的词，最后跟一个名词"
+    },
+    {
+        "query": "吃+a",
+        "description": "吃后跟一个形容词"
+    },
+    {
+        "query": "吃 a",
+        "description": "吃后跟一个词性为a的词"
+    },
+    {
+        "query": "v这v那",
+        "description": "动词后跟\"这动词那动词\""
+    },
+    {
+        "query": "特殊++n",
+        "description": "特殊后跟两个加号，然后跟一个名词"
+    },
+    {
+        "query": "特殊  n",
+        "description": "特殊后跟一个名词"
+    },
+    {
+        "query": "n主意",
+        "description": "一个名词后跟\"主意\""
+    },
+    {
+        "query": "a女鬼",
+        "description": "一个词性为a的词后跟\"女鬼\""
+    },
+    {
+        "query": "OK不OK",
+        "description": "\"OK\"后跟\"不OK\""
+    },
+    {
+        "query": "a事物",
+        "description": "一个词性为a的词后跟\"事物\""
+    },
+    {
+        "query": "在N下垫",
+        "description": "在一个名词下垫"
+    },
+    {
+        "query": "萌v",
+        "description": "萌后跟一个动词"
+    },
+    {
+        "query": "a人家",
+        "description": "一个词性为a的词后跟\"人家\""
+    },
+    {
+        "query": "r风味",
+        "description": "一个词性为r的词后跟\"风味\""
+    },
+    {
+        "query": "N V N 给 N",
+        "description": "一个名词，然后跟一个动词，再跟一个名词，最后跟\"给\"，最后跟一个名词"
+    },
+    {
+        "query": "N V N 给 N",
+        "description": "一个名词，然后跟一个动词，再跟一个名词，最后跟\"给\"，最后跟一个名词"
+    },
+    {
+        "query": "似乎就v",
+        "description": "似乎后跟一个动词"
+    },
+    {
+        "query": "满脸n",
+        "description": "满脸后跟一个名词"
+    },
+    {
+        "query": "a不禁",
+        "description": "一个词性为a的词后跟\"不禁\""
+    },
+    {
+        "query": "予以+n",
+        "description": "予以后跟一个名词"
+    }
+]
+```
+以上json结构包含了给定检索式的详细描述和对应的检索规则。

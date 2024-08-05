@@ -1,0 +1,156 @@
+```json
+[
+    {
+        "query": "[，+。]v+多少+n+[，+。]",
+        "description": "以v开头，后接多少，再接名词，最后以[，+。]结尾的句子"
+    },
+    {
+        "query": "[， 。]v 多少 n [， 。]",
+        "description": "以v开头，后接多少，再接名词，最后以[， 。]结尾的句子"
+    },
+    {
+        "query": "[，+。]p+m+a+[，+。]",
+        "description": "以p开头，后接m和a，最后以[，+。]结尾的句子"
+    },
+    {
+        "query": "[， 。]p m a [， 。]",
+        "description": "以p开头，后接m和a，最后以[， 。]结尾的句子"
+    },
+    {
+        "query": "悄悄v+a[，+。]",
+        "description": "以悄悄v开头，后接a，最后以[，+。]结尾的句子"
+    },
+    {
+        "query": "悄悄v a[， 。]",
+        "description": "以悄悄v开头，后接a，最后以[， 。]结尾的句子"
+    },
+    {
+        "query": "[收+陪+戳+教+熬+想来+串+得出]个",
+        "description": "由多个词组成的序列，后接个的句子"
+    },
+    {
+        "query": "[收 陪 戳 教 熬 想来 串 得出]个",
+        "description": "由多个词组成的序列，后接个的句子"
+    },
+    {
+        "query": "[可巧+空前+恐怕]v[q+m+]v[，+。]",
+        "description": "由多个词组成的序列，后接动词，再接[q+m+]序列，最后以[，+。]结尾的句子"
+    },
+    {
+        "query": "[可巧 空前 恐怕]v[q m ]v[， 。]",
+        "description": "由多个词组成的序列，后接动词，再接[q m ]序列，最后以[， 。]结尾的句子"
+    },
+    {
+        "query": "[a+d+n+v++l]一下",
+        "description": "由多个词组成的序列，后接一下的句子"
+    },
+    {
+        "query": "[a d n v  l]一下",
+        "description": "由多个词组成的序列，后接一下的句子"
+    },
+    {
+        "query": "[n+r]+的推广",
+        "description": "由[n+r]序列后接的\"的推广\"的句子"
+    },
+    {
+        "query": "[s+t]走过n",
+        "description": "由[s+t]序列后接名词的句子"
+    },
+    {
+        "query": "连忙v[v+a+n+r][，+。]",
+        "description": "由[连忙v[v+a+n+r]]序列结尾的句子"
+    },
+    {
+        "query": "连忙v[v a n r][， 。]",
+        "description": "由[连忙v[v a n r]]序列结尾的句子"
+    },
+    {
+        "query": "轻易v+u[，+。]",
+        "description": "由轻易v开头，后接u的句子"
+    },
+    {
+        "query": "轻易v u[， 。]",
+        "description": "由轻易v开头，后接u的句子"
+    },
+    {
+        "query": "无疑v+y[，+。]",
+        "description": "由无疑v开头，后接y的句子"
+    },
+    {
+        "query": "无疑v y[， 。]",
+        "description": "由无疑v开头，后接y的句子"
+    },
+    {
+        "query": "[不成+碰+照+杀+碰上+添+跑]个",
+        "description": "由多个词组成的序列，后接个的句子"
+    },
+    {
+        "query": "[不成 碰 照 杀 碰上 添 跑]个",
+        "description": "由多个词组成的序列，后接个的句子"
+    },
+    {
+        "query": "极端v+a[，+。]",
+        "description": "由极端v开头，后接a的句子"
+    },
+    {
+        "query": "极端v a[， 。]",
+        "description": "由极端v开头，后接a的句子"
+    },
+    {
+        "query": "[，+。]p+r+n+[，+。]",
+        "description": "由多个词组成的序列，后接p、r、n，最后以[，+。]结尾的句子"
+    },
+    {
+        "query": "[， 。]p r n [， 。]",
+        "description": "由多个词组成的序列，后接p、r、n，最后以[， 。]结尾的句子"
+    },
+    {
+        "query": "v我的n[，+。]",
+        "description": "以动词v开头，后接\"我的\"，再接名词n的句子"
+    },
+    {
+        "query": "v我的n[， 。]",
+        "description": "以动词v开头，后接\"我的\"，再接名词n的句子"
+    },
+    {
+        "query": "[，+。]c+n+p+[，+。]",
+        "description": "由多个词组成的序列，后接名词n，再接p，最后以[，+。]结尾的句子"
+    },
+    {
+        "query": "[， 。]c n p [， 。]",
+        "description": "由多个词组成的序列，后接名词n，再接p，最后以[， 。]结尾的句子"
+    },
+    {
+        "query": "附带v+u[，+。]",
+        "description": "由附带v开头，后接u的句子"
+    },
+    {
+        "query": "附带v u[， 。]",
+        "description": "由附带v开头，后接u的句子"
+    },
+    {
+        "query": "[a+d+n+v++l]交火",
+        "description": "由多个词组成的序列，后接\"交火\"的句子"
+    },
+    {
+        "query": "[a d n v  l]交火",
+        "description": "由多个词组成的序列，后接\"交火\"的句子"
+    },
+    {
+        "query": "走a些[，+。]",
+        "description": "由走a开头，后接\"些\"的句子"
+    },
+    {
+        "query": "走a些[， 。]",
+        "description": "由走a开头，后接\"些\"的句子"
+    },
+    {
+        "query": "有意v+u[，+。]",
+        "description": "由有意v开头，后接u的句子"
+    },
+    {
+        "query": "有意v u[， 。]",
+        "description": "由有意v开头，后接u的句子"
+    }
+]
+```

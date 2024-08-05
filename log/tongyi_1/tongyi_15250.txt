@@ -1,0 +1,166 @@
+以下是检索式及其含义的JSON结构：
+
+```json
+[
+    {
+        "query": "../[ns v] 出口",
+        "description": "二字动词后面接出口"
+    },
+    {
+        "query": "第五 q 上升",
+        "description": "第五后面接量词和名词，表示上升"
+    },
+    {
+        "query": "考验 . 经济",
+        "description": "考验后面隔一个字后接经济"
+    },
+    {
+        "query": "俄 ~/[a v]",
+        "description": "俄后邻一个词，该词可能是形容词或动词"
+    },
+    {
+        "query": "拉美 ~ 大",
+        "description": "拉美后邻一个词，该词可能是任何词性"
+    },
+    {
+        "query": "... 全景",
+        "description": "三个点后面接全景，可能表示省略"
+    },
+    {
+        "query": "沥青 (v) 施工{len($1)!=3}",
+        "description": "沥青后面接一个不是三个字的动词，然后是施工"
+    },
+    {
+        "query": "(v) (w){$1=$2}",
+        "description": "两个相邻的动词，且两者内容相同"
+    },
+    {
+        "query": "， (c) 主动{begin($1)!=[杯 您 雷]}",
+        "description": "逗号后接主动，但不以杯、您、雷开头"
+    },
+    {
+        "query": "r 有些",
+        "description": "r后接有些"
+    },
+    {
+        "query": "中间 ~ 一代",
+        "description": "中间后邻一代"
+    },
+    {
+        "query": "好几 . 他们",
+        "description": "好几后面隔一个字后接他们"
+    },
+    {
+        "query": "这就 ./[v v] 水电人",
+        "description": "这就后接两个相邻的动词，然后是水电人"
+    },
+    {
+        "query": "@ 副总经理",
+        "description": "副总经理"
+    },
+    {
+        "query": "·",
+        "description": "一个点"
+    },
+    {
+        "query": "(r) 安慰{len($1)!=2}",
+        "description": "r后接安慰，但安慰不是两个字"
+    },
+    {
+        "query": "三 (q) 的{end($1)=[年 陈 细]}",
+        "description": "三后面接量词，的后面可能是年、陈、细"
+    },
+    {
+        "query": "副总经理 @/[nr v] 瀚",
+        "description": "副总经理后接人名或动词，然后是瀚"
+    },
+    {
+        "query": "(c) 开 风气 (d){len($1)=1}",
+        "description": "开后接一个字的动词，然后是风气"
+    },
+    {
+        "query": "人 (v) 的{end($1)=[与 软]}",
+        "description": "人后接动词，的后面可能是与或软"
+    },
+    {
+        "query": "(w) (v){count<578}",
+        "description": "两个相邻的动词，且它们的组合出现次数少于578次"
+    },
+    {
+        "query": "万古 (v){len($1)=1}",
+        "description": "万古后接一个字的动词"
+    },
+    {
+        "query": "(n) (nr){middle($1)!=[汗 烦 山]}",
+        "description": "两个相邻的名词，中间不包含汗、烦、山"
+    },
+    {
+        "query": "悠久 @/[u v] 历史",
+        "description": "悠久后接一个词，可能是形容词或动词，然后是历史"
+    },
+    {
+        "query": "传统 @",
+        "description": "传统"
+    },
+    {
+        "query": "中国 历史/n 丛书",
+        "description": "中国后接名词历史，然后是名词丛书"
+    },
+    {
+        "query": "(n) 研究{len($1)<3}",
+        "description": "名词后接研究，研究的长度小于3"
+    },
+    {
+        "query": "清华 @ 教授",
+        "description": "清华后接教授"
+    },
+    {
+        "query": "家书 @/[w v]",
+        "description": "家书后接一个词，可能是动词或形容词"
+    },
+    {
+        "query": "(v) (u){begin($1)=[忘 鹏 噶]}",
+        "description": "两个相邻的动词，且动词的开头可能是忘、鹏、噶"
+    },
+    {
+        "query": "@/[v v] 耀敏社",
+        "description": "一个词后接两个相邻的动词，然后是耀敏社"
+    },
+    {
+        "query": "《 耶路撒冷/ns 三千",
+        "description": "耶路撒冷后面接一个名词，然后是三千"
+    },
+    {
+        "query": "(v) (nz){len($2)!=3}",
+        "description": "两个相邻的动词，第二个动词不是三个字"
+    },
+    {
+        "query": ".. 万圣 ..",
+        "description": "两个点后面接万圣，可能表示省略"
+    },
+    {
+        "query": "的 @/[vn v] ：",
+        "description": "的后接一个词，可能是名动词或动词，然后是冒号"
+    },
+    {
+        "query": "(a) 的 (ns){len($2)=2}",
+        "description": "一个形容词后接一个两个字的名词"
+    },
+    {
+        "query": "考古 @ 社长",
+        "description": "考古后接社长"
+    },
+    {
+        "query": "(p) (n){end($2)=[文 吹 望 西]}",
+        "description": "一个介词后接一个名词，且名词的结尾可能是文、吹、望、西"
+    },
+    {
+        "query": "曦",
+        "description": "曦"
+    },
+    {
+        "query": "倾听 ~ 代",
+        "description": "倾听后邻一个词"
+    }
+]
+```

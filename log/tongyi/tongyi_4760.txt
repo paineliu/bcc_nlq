@@ -1,0 +1,160 @@
+```json
+[
+    {
+        "query": "， n是n ；",
+        "description": "逗号后接名词，名词后接名词，句尾句号"
+    },
+    {
+        "query": "感情v上",
+        "description": "动词感情后接上"
+    },
+    {
+        "query": "满N",
+        "description": "名词满"
+    },
+    {
+        "query": "我v",
+        "description": "动词我"
+    },
+    {
+        "query": "d太",
+        "description": "副词d后接太"
+    },
+    {
+        "query": "对这q",
+        "description": "动词对后接这，这为量词"
+    },
+    {
+        "query": "a分工",
+        "description": "形容词a后接名词分工"
+    },
+    {
+        "query": "p+n+v+n+n",
+        "description": "介词后接名词、动词、名词、名词"
+    },
+    {
+        "query": "p n v n n",
+        "description": "介词后接名词、动词、名词、名词"
+    },
+    {
+        "query": "v+m+眼",
+        "description": "动词后接m、名词眼"
+    },
+    {
+        "query": "v m 眼",
+        "description": "动词后接m、名词眼"
+    },
+    {
+        "query": "v一人",
+        "description": "动词后接名词一人"
+    },
+    {
+        "query": "a个子",
+        "description": "形容词后接名词个子"
+    },
+    {
+        "query": "要N不要N",
+        "description": "名词后接要、不要"
+    },
+    {
+        "query": "w恐怕w",
+        "description": "助词w后接恐怕、w"
+    },
+    {
+        "query": "看N的。",
+        "description": "动词看后接名词的，句尾句号"
+    },
+    {
+        "query": "V+V",
+        "description": "动词+动词"
+    },
+    {
+        "query": "V V",
+        "description": "动词+动词"
+    },
+    {
+        "query": "v一元",
+        "description": "动词后接名词一元"
+    },
+    {
+        "query": "极其a的",
+        "description": "形容词极其后接的"
+    },
+    {
+        "query": "走N",
+        "description": "动词走后接名词"
+    },
+    {
+        "query": "别具n",
+        "description": "动词别具后接名词"
+    },
+    {
+        "query": "把N插在",
+        "description": "介词把后接名词、动词插在"
+    },
+    {
+        "query": "vd批判",
+        "description": "动词批判"
+    },
+    {
+        "query": "m停",
+        "description": "名词后接动词停"
+    },
+    {
+        "query": "时间就像一q+时间就像一q ",
+        "description": "名词时间后接像一、名词时间后接像一"
+    },
+    {
+        "query": "nr提拔",
+        "description": "专名后接提拔"
+    },
+    {
+        "query": "a卡片",
+        "description": "形容词后接名词卡片"
+    },
+    {
+        "query": "v一步v一步",
+        "description": "动词后接一步、动词后接一步"
+    },
+    {
+        "query": "a主任",
+        "description": "形容词后接名词主任"
+    },
+    {
+        "query": "了又v",
+        "description": "动词了后接又、动词"
+    },
+    {
+        "query": "m颗n",
+        "description": "名词m后接名词颗、名词"
+    },
+    {
+        "query": "好不v",
+        "description": "形容词好后接不、动词"
+    },
+    {
+        "query": "n+什么时候+v",
+        "description": "名词后接什么时候、动词"
+    },
+    {
+        "query": "n 什么时候 v",
+        "description": "名词后接什么时候、动词"
+    },
+    {
+        "query": "v树立",
+        "description": "动词后接树立"
+    },
+    {
+        "query": "有什么好+Vg+的",
+        "description": "动词有什么后接好、名语素Vg、形容词的"
+    },
+    {
+        "query": "有什么好 Vg 的",
+        "description": "动词有什么后接好、名语素Vg、形容词的"
+    },
+    {
+        "query": "v了好久",
+        "description": "动词后接了、动词后接好久"
+    }
+]
+```

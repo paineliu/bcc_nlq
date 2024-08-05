@@ -1,0 +1,166 @@
+以下是检索式及其含义的JSON结构：
+
+```json
+[
+    {
+        "query": "关系 (v) 再{count>9}",
+        "description": "关系动词后面出现次数大于9的句子"
+    },
+    {
+        "query": "(v) 了{len($1)=2}",
+        "description": "动词后跟一个长度为2的词"
+    },
+    {
+        "query": ".. 一",
+        "description": "两个连续的词，其中一个是'一'"
+    },
+    {
+        "query": "(v) 全球 治理 (n){len($1)!=3; len($2)!=3}",
+        "description": "动词后面接'全球'和一个长度不为3的名词"
+    },
+    {
+        "query": "全球 (vn) 体系{len($1)<3}",
+        "description": "名词'全球'后面接一个长度小于3的双音节名词"
+    },
+    {
+        "query": ".. 全球",
+        "description": "两个连续词，第二个是'全球'"
+    },
+    {
+        "query": "人气 ./v 了",
+        "description": "形容词'人气'后面接单音节动词再接'了'"
+    },
+    {
+        "query": "风气 w",
+        "description": "名词'风气'做句首"
+    },
+    {
+        "query": "不 ~ 没",
+        "description": "否定词'不'后面接任意词"
+    },
+    {
+        "query": "我们 (d) 等等{len($1)!=2}",
+        "description": "代词'我们'后面接副词，但副词长度不为2"
+    },
+    {
+        "query": "(d) (v){len($1)!=2; len($2)=1}",
+        "description": "两个副词，第一个不是长度为2，第二个是单音节动词"
+    },
+    {
+        "query": "(v) 之后{count<171}",
+        "description": "动词后面出现次数少于171的'之后'"
+    },
+    {
+        "query": "差点 被/p 取缔",
+        "description": "动词'差点'后面接'被'和'取缔'"
+    },
+    {
+        "query": "人民 @/[n v]",
+        "description": "人民后面接名词或动词"
+    },
+    {
+        "query": "植 友谊/n ，",
+        "description": "动词'植'后面接名词'友谊'，逗号结尾"
+    },
+    {
+        "query": "风雨同舟 @",
+        "description": "成语'风雨同舟'"
+    },
+    {
+        "query": "政治 (n) 是{count>5}",
+        "description": "名词'政治'后面出现次数大于5的'是'"
+    },
+    {
+        "query": "数据 @/[v v] 啧啧",
+        "description": "数据后面接两个动词和'啧啧'"
+    },
+    {
+        "query": "这些/r 对",
+        "description": "代词'这些'后面接'对'"
+    },
+    {
+        "query": ".. 掌声",
+        "description": "两个连续词，第二个是'掌声'"
+    },
+    {
+        "query": "(n) (w){count<329}",
+        "description": "名词后面接一个词，总次数少于329"
+    },
+    {
+        "query": "为了 ~/[d v] 发展",
+        "description": "为了后面接副词或动词，再接'发展'"
+    },
+    {
+        "query": ", (v) 一切{len($1)!=3}",
+        "description": "逗号后面接动词，但动词长度不为3"
+    },
+    {
+        "query": "兼 ./[w v] 方",
+        "description": "动词'兼'后面接一个词或动词，再接'方'"
+    },
+    {
+        "query": "(vn) (n){len($1)<3; len($2)>1}",
+        "description": "双音节名词后面接一个长度大于1的名词"
+    },
+    {
+        "query": "正在 ~/[v v] 前方",
+        "description": "动词'正在'后面接两个动词，表示方向"
+    },
+    {
+        "query": "(n) (y){len($1)=2}",
+        "description": "名词后面接一个长度为2的词"
+    },
+    {
+        "query": "(n) 未来 ， 我们 (v){len($1)!=3; len($2)!=3}",
+        "description": "名词'未来'后面接两个词，但第一个不是长度为3，第二个不是长度为3"
+    },
+    {
+        "query": "挑战 (w){count>4}",
+        "description": "名词'挑战'出现次数大于4"
+    },
+    {
+        "query": "发展 . 保障",
+        "description": "动词'发展'后面隔一个字接'保障'"
+    },
+    {
+        "query": "根源 ~/[w v]",
+        "description": "动词'根源'后面接一个词"
+    },
+    {
+        "query": "备受 @/[v v] 。",
+        "description": "动词'备受'后面接两个动词，句尾是句号"
+    },
+    {
+        "query": "一 ./[q v] 历史",
+        "description": "一后面接量词或动词，再接'历史'"
+    },
+    {
+        "query": "携手 ~/[c v] 进促",
+        "description": "动词'携手'后面接连词或动词，表示促进"
+    },
+    {
+        "query": "引领 @/[n v] 变化",
+        "description": "动词'引领'后面接名词或动词，表示变化"
+    },
+    {
+        "query": "巴黎 (n) 提出{count<162}",
+        "description": "名词'巴黎'后面提出次数少于162的情况"
+    },
+    {
+        "query": "共识 ~",
+        "description": "名词'共识'后面接一个词"
+    },
+    {
+        "query": "增添 @/[n v] 。",
+        "description": "动词'增添'后面接名词或动词，句尾是句号"
+    },
+    {
+        "query": "(v) (c){len($1)=1}",
+        "description": "动词后面接一个单音节的词"
+    },
+    {
+        "query": "~/[v v] 全球",
+        "description": "动词'~'后面接两个动词，最后接'全球'"
+    }
+]
+```

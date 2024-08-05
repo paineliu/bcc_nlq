@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "照什么相",
+        "description": "包含\"照什么相\"的句子"
+    },
+    {
+        "query": "依法治国",
+        "description": "包含\"依法治国\"的句子"
+    },
+    {
+        "query": "他们也不想想",
+        "description": "包含\"他们也不想想\"的句子"
+    },
+    {
+        "query": "增进和谐",
+        "description": "包含\"增进和谐\"的句子"
+    },
+    {
+        "query": "感知",
+        "description": "包含\"感知\"的句子"
+    },
+    {
+        "query": "低头",
+        "description": "包含\"低头\"的句子"
+    },
+    {
+        "query": "重三译",
+        "description": "包含\"重三译\"的句子"
+    },
+    {
+        "query": "够资金",
+        "description": "包含\"够资金\"的句子"
+    },
+    {
+        "query": "保存保存",
+        "description": "包含\"保存保存\"的句子"
+    },
+    {
+        "query": "废品",
+        "description": "包含\"废品\"的句子"
+    },
+    {
+        "query": "商量看看",
+        "description": "包含\"商量看看\"的句子"
+    },
+    {
+        "query": "恼",
+        "description": "包含\"恼\"的句子"
+    },
+    {
+        "query": "融化",
+        "description": "包含\"融化\"的句子"
+    },
+    {
+        "query": "健康",
+        "description": "包含\"健康\"的句子"
+    },
+    {
+        "query": "棒子不棒子",
+        "description": "包含\"棒子不棒子\"的句子"
+    },
+    {
+        "query": "水一程，",
+        "description": "包含\"水一程，\"的句子"
+    },
+    {
+        "query": "上海人",
+        "description": "包含\"上海人\"的句子"
+    },
+    {
+        "query": "红色",
+        "description": "包含\"红色\"的句子"
+    },
+    {
+        "query": "匿影藏形",
+        "description": "包含\"匿影藏形\"的句子"
+    },
+    {
+        "query": "天才",
+        "description": "包含\"天才\"的句子"
+    },
+    {
+        "query": "开办在",
+        "description": "包含\"开办在\"的句子"
+    },
+    {
+        "query": "严肃",
+        "description": "包含\"严肃\"的句子"
+    },
+    {
+        "query": "熬过去",
+        "description": "包含\"熬过去\"的句子"
+    },
+    {
+        "query": "居然……",
+        "description": "包含\"居然……\"的句子"
+    },
+    {
+        "query": "不问不闻",
+        "description": "包含\"不问不闻\"的句子"
+    },
+    {
+        "query": "痴心",
+        "description": "包含\"痴心\"的句子"
+    },
+    {
+        "query": "一紧张就",
+        "description": "包含\"一紧张就\"的句子"
+    },
+    {
+        "query": "狠狠",
+        "description": "包含\"狠狠\"的句子"
+    },
+    {
+        "query": "或许却",
+        "description": "包含\"或许却\"的句子"
+    },
+    {
+        "query": "不够时尚",
+        "description": "包含\"不够时尚\"的句子"
+    },
+    {
+        "query": "芝士",
+        "description": "包含\"芝士\"的句子"
+    },
+    {
+        "query": "手机",
+        "description": "包含\"手机\"的句子"
+    },
+    {
+        "query": "紧张",
+        "description": "包含\"紧张\"的句子"
+    },
+    {
+        "query": "合同",
+        "description": "包含\"合同\"的句子"
+    },
+    {
+        "query": "法律家",
+        "description": "包含\"法律家\"的句子"
+    },
+    {
+        "query": "草草率率",
+        "description": "包含\"草草率率\"的句子"
+    },
+    {
+        "query": "对话",
+        "description": "包含\"对话\"的句子"
+    },
+    {
+        "query": "……意思是",
+        "description": "包含\"……意思是\"的句子"
+    },
+    {
+        "query": "很青春",
+        "description": "包含\"很青春\"的句子"
+    },
+    {
+        "query": "人权议",
+        "description": "包含\"人权议\"的句子"
+    }
+]
+```

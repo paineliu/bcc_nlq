@@ -1,0 +1,160 @@
+```json
+[
+    {
+        "query": "令 ./[v v] 得",
+        "description": "令后接两个连续的动词"
+    },
+    {
+        "query": "地方 .. 举债",
+        "description": "地点名词后面接举债"
+    },
+    {
+        "query": "说 ./[w v]",
+        "description": "说后接一个动词或一个词"
+    },
+    {
+        "query": "违法 @/[v v] 担保",
+        "description": "违法后接两个连续的动词，其中一个可能是担保"
+    },
+    {
+        "query": "张少春 (v) 。{begin($1)!=[抄 软]}",
+        "description": "张少春后面接一个动词，且动词前不接抄或软"
+    },
+    {
+        "query": "医改 (v) 联动性{len($1)>1}",
+        "description": "医改后面接一个由两个或更多字符组成的联动性"
+    },
+    {
+        "query": "多/a 层次 医疗 保障 体系/n",
+        "description": "多后面接形容词，然后是一系列名词，最后一个名词是体系"
+    },
+    {
+        "query": "(nr) 摄{begin($1)=[王 品 了]}",
+        "description": "摄后面可能以王、品或了开头，但具体哪个词不确定"
+    },
+    {
+        "query": "失联 ~",
+        "description": "失联后面接一个词"
+    },
+    {
+        "query": "继续 (vx){end($1)=[行 燕]}",
+        "description": "继续后面接一个动词，且动词后以行或燕结尾"
+    },
+    {
+        "query": "供给 @/[f v] 结构性",
+        "description": "供给后接一个动词或介词，后面可能是结构性"
+    },
+    {
+        "query": "产能 ./[w v]",
+        "description": "产能后面接一个动词或词"
+    },
+    {
+        "query": "。",
+        "description": "句尾的点"
+    },
+    {
+        "query": "让 .. 与",
+        "description": "让后面接一个词，可能是与"
+    },
+    {
+        "query": "， @/[n v] 缺乏",
+        "description": "逗号后接一个名词或动词，后面是缺乏"
+    },
+    {
+        "query": "要素 ~/[w v]",
+        "description": "要素后面接一个动词或词"
+    },
+    {
+        "query": "法治 ../n",
+        "description": "法治后面接一个名词"
+    },
+    {
+        "query": "作者 (n) ：{len($1)<3}",
+        "description": "作者后面接一个名词，且名词长度小于3"
+    },
+    {
+        "query": "../j 乘风",
+        "description": "一个词后面接乘风"
+    },
+    {
+        "query": "万金 (n) 醉人{len($1)<3}",
+        "description": "万金后面接一个名词，醉人后面长度小于3"
+    },
+    {
+        "query": "n 骗局 n",
+        "description": "一个名词后面接骗局，再接一个名词"
+    },
+    {
+        "query": "一番 ~/[ad v] 付",
+        "description": "一番后面接一个形容词或动词，再接付"
+    },
+    {
+        "query": "(m) 图 吕 (nr){len($2)<3}",
+        "description": "图后面接吕，吕可能是名词，且名词长度小于3"
+    },
+    {
+        "query": "遏制 滥用/v 学生",
+        "description": "遏制后面接滥用，滥用后接学生"
+    },
+    {
+        "query": "滥缘 @ 监管",
+        "description": "滥缘后面接监管，按照词性归并统计"
+    },
+    {
+        "query": "诚哉斯言/n ！",
+        "description": "诚哉斯言后面接一个名词，感叹号结尾"
+    },
+    {
+        "query": "(v) 知识{end($1)=[快 凯 康]}",
+        "description": "知识后面接一个动词，动词后以快、凯或康结尾"
+    },
+    {
+        "query": "(v) 民族{count>7}",
+        "description": "民族后面接一个动词，且该动词出现次数大于7次"
+    },
+    {
+        "query": "~/[vn v] 发展",
+        "description": "一个词或动词后面接发展"
+    },
+    {
+        "query": "挑战 (a){len($1)>1}",
+        "description": "挑战后面接一个形容词，且形容词长度大于1"
+    },
+    {
+        "query": "共享 (vn) 成果{len($1)>1}",
+        "description": "共享后面接动名词，成果后面长度大于1"
+    },
+    {
+        "query": "(nr) 说{count>2}",
+        "description": "一个名词后面接说，且说的前面名词出现次数大于2"
+    },
+    {
+        "query": "应对 @ 老龄化",
+        "description": "应对后面接老龄化，按照词性归并统计"
+    },
+    {
+        "query": "看病 难/v 看病",
+        "description": "看病难后面接看病"
+    },
+    {
+        "query": "(v) 成绩{len($1)=1}",
+        "description": "成绩后面接一个动词，动词长度为1"
+    },
+    {
+        "query": "布局 ../n 不",
+        "description": "布局后面接一个名词，名词后接不"
+    },
+    {
+        "query": "说/v 。/w",
+        "description": "说后接一个动词，句尾是标点"
+    },
+    {
+        "query": "(v) 首 个 (n){begin($1)=[设立 零]; len($2)=2}",
+        "description": "首后面接一个动词和一个长度为2的名词，动词可能是设立或零"
+    },
+    {
+        "query": "世界 ../n 发展",
+        "description": "世界后面接一个名词和发展"
+    }
+]
+```

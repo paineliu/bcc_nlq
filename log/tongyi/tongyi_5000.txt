@@ -1,0 +1,166 @@
+以下是将给定的检索式转换为带含义的json结构的结果：
+
+```json
+[
+    {
+        "query": "得才a+w",
+        "description": "包含'得才'后接形容词和名词的句子"
+    },
+    {
+        "query": "得才a w",
+        "description": "包含'得才'后接形容词的句子"
+    },
+    {
+        "query": "那么q+n",
+        "description": "包含'那么'后接名词的句子"
+    },
+    {
+        "query": "那么q n",
+        "description": "包含'那么'后接名词的句子"
+    },
+    {
+        "query": "她一个n",
+        "description": "包含'她'后接一个名词的句子"
+    },
+    {
+        "query": "世界杯+n+",
+        "description": "包含'世界杯'后接一个名词的句子"
+    },
+    {
+        "query": "世界杯 n",
+        "description": "包含'世界杯'后接名词的句子"
+    },
+    {
+        "query": "大致把n+v了",
+        "description": "包含'大致'后接名词，然后动词'把'后接动词的句子"
+    },
+    {
+        "query": "大致把n v了",
+        "description": "包含'大致'后接名词，然后动词'把'后接动词的句子"
+    },
+    {
+        "query": "抬出来n",
+        "description": "包含'抬出来'后接名词的句子"
+    },
+    {
+        "query": "一直v得",
+        "description": "包含'一直'后接动词的句子"
+    },
+    {
+        "query": "v一半",
+        "description": "包含动词'一半'的句子"
+    },
+    {
+        "query": "N生物",
+        "description": "包含'N'后接'生物'的句子"
+    },
+    {
+        "query": "不胜v",
+        "description": "包含'不胜'后接动词的句子"
+    },
+    {
+        "query": "固然w",
+        "description": "包含'固然'后接语气词的句子"
+    },
+    {
+        "query": "v一阵n",
+        "description": "包含动词后接'一阵'再接名词的句子"
+    },
+    {
+        "query": "v一端",
+        "description": "包含动词后接'一端'的句子"
+    },
+    {
+        "query": "a不许",
+        "description": "包含形容词后接'不许'的句子"
+    },
+    {
+        "query": "v锅炉房",
+        "description": "包含动词后接'锅炉房'的句子"
+    },
+    {
+        "query": "m舍",
+        "description": "包含'm'后接'舍'的句子"
+    },
+    {
+        "query": "v一来",
+        "description": "包含动词后接'一来'的句子"
+    },
+    {
+        "query": "老a了",
+        "description": "包含形容词'老'后接'了'的句子"
+    },
+    {
+        "query": "a箱子",
+        "description": "包含形容词后接'箱子'的句子"
+    },
+    {
+        "query": "一拳就V",
+        "description": "包含'一拳'后接动词的句子"
+    },
+    {
+        "query": "nr坑害",
+        "description": "包含'nr'后接'坑害'的句子"
+    },
+    {
+        "query": "v厢房",
+        "description": "包含动词后接'厢房'的句子"
+    },
+    {
+        "query": "有点儿不a",
+        "description": "包含'有点儿'后接'不'再接形容词的句子"
+    },
+    {
+        "query": "n运输",
+        "description": "包含名词后接'运输'的句子"
+    },
+    {
+        "query": "a+死了",
+        "description": "包含形容词后接'死了'的句子"
+    },
+    {
+        "query": "a 死了",
+        "description": "包含形容词'a'后接'死了'的句子"
+    },
+    {
+        "query": "炒n",
+        "description": "包含'炒'后接名词的句子"
+    },
+    {
+        "query": "一行n",
+        "description": "包含'一行'后接名词的句子"
+    },
+    {
+        "query": "吃+u",
+        "description": "包含'吃'后接未知词的句子"
+    },
+    {
+        "query": "吃 u",
+        "description": "包含'吃'后接未知词的句子"
+    },
+    {
+        "query": "v政权",
+        "description": "包含动词后接'政权'的句子"
+    },
+    {
+        "query": "m摊子",
+        "description": "包含'm'后接'摊子'的句子"
+    },
+    {
+        "query": "a书籍",
+        "description": "包含形容词后接'书籍'的句子"
+    },
+    {
+        "query": "总v吧",
+        "description": "包含动词后接'吧'的句子"
+    },
+    {
+        "query": "无V不V",
+        "description": "包含'无'后接动词再接'不'后接动词的句子"
+    },
+    {
+        "query": "a停泊",
+        "description": "包含形容词后接'停泊'的句子"
+    }
+]
+```

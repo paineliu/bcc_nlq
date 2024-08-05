@@ -1,0 +1,86 @@
+以下是根据您提供的检索式及其含义的JSON结构列表：
+
+```json
+[
+    {
+        "query": "政府 ~ 保姆",
+        "description": "政府和保姆之间有一个词"
+    },
+    {
+        "query": "(vn) 人员{count<283}",
+        "description": "名动词人员出现频次小于283"
+    },
+    {
+        "query": "天津 .../n 科技局",
+        "description": "天津后接三个任意字符，再接名词科技局"
+    },
+    {
+        "query": "(v) (v){len($2)<3}",
+        "description": "两个动词，第二个动词长度小于3"
+    },
+    {
+        "query": "(nz) 控股{len($1)>1}",
+        "description": "其他专名控股，其他专名长度大于1"
+    },
+    {
+        "query": "~ 增长",
+        "description": "任意词后接增长"
+    },
+    {
+        "query": "高 ~",
+        "description": "高前有一个词"
+    },
+    {
+        "query": "特大 ~ 拱架",
+        "description": "特大和拱架之间有一个词"
+    },
+    {
+        "query": "扩散 ../[n v]",
+        "description": "扩散后接单字名词或动词"
+    },
+    {
+        "query": "首届 @/[j v] 能源",
+        "description": "首届后接介词或动词，再接能源"
+    },
+    {
+        "query": "(ns) (d){len($1)>1}",
+        "description": "地名后接副词，地名长度大于1"
+    },
+    {
+        "query": "搭",
+        "description": "包含搭的句子"
+    },
+    {
+        "query": "二十局 ~/[n v] 供图",
+        "description": "二十局后接一个词，该词为名词或动词，再接供图"
+    },
+    {
+        "query": "铁路 .. 打通",
+        "description": "铁路后接两个字，再接打通"
+    },
+    {
+        "query": "。",
+        "description": "包含句号的句子"
+    },
+    {
+        "query": "(n) 网络{end($1)=[空 系 康 活]}",
+        "description": "名词后接网络，名词以空、系、康、活结尾"
+    },
+    {
+        "query": "远 @/[v v] 加纳",
+        "description": "远后接动词，动词以动词开头，再接加纳"
+    },
+    {
+        "query": "罗成/nr 表示",
+        "description": "人名罗成后接表示"
+    },
+    {
+        "query": "~ 深深",
+        "description": "任意词后接深深"
+    },
+    {
+        "query": "园区 ~ 合作",
+        "description": "园区和合作之间有一个词"
+    }
+]
+```

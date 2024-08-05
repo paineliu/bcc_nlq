@@ -1,0 +1,166 @@
+以下是将给定的检索式转换为带含义的json结构的结果：
+
+```json
+[
+    {
+        "query": "[受+敲+保持+看到+刮+落下+忙]个",
+        "description": "包含一系列动作后跟'个'的句子"
+    },
+    {
+        "query": "[受 敲 保持 看到 刮 落下 忙]个",
+        "description": "包含一系列动作后跟'个'的句子"
+    },
+    {
+        "query": "分外v[，+。]",
+        "description": "以'分外'开头，后跟逗号或句号的句子"
+    },
+    {
+        "query": "分外v[， 。]",
+        "description": "以'分外'开头，后跟逗号或句点的句子"
+    },
+    {
+        "query": "w[q+r+d+c+v+a++n+m++p]左.右w",
+        "description": "以[q r d c v a n m p]开头，后跟'左.右'，再以[w]结尾的句子"
+    },
+    {
+        "query": "w[q r d c v a  n m  p]左.右w",
+        "description": "以[q r d c v a n m p]开头，后跟'左.右'，再以[w]结尾的句子"
+    },
+    {
+        "query": "不断d+a[，+。]",
+        "description": "包含'不断'，后跟逗号或句号的句子"
+    },
+    {
+        "query": "不断d a[，+。]",
+        "description": "包含'不断'，后跟逗号或句号的句子"
+    },
+    {
+        "query": "稍微d+a[，+。]",
+        "description": "包含'稍微'，后跟逗号或句号的句子"
+    },
+    {
+        "query": "稍微d a[，+。]",
+        "description": "包含'稍微'，后跟逗号或句号的句子"
+    },
+    {
+        "query": "准时v+n[，+。]",
+        "description": "包含'准时'，后跟名词，再跟逗号或句号的句子"
+    },
+    {
+        "query": "准时v n[，+。]",
+        "description": "包含'准时'，后跟名词，再跟逗号或句号的句子"
+    },
+    {
+        "query": "乘机v[v+a+n+r][，+。]",
+        "description": "包含'乘机'，后跟动词v、a、n、r，再跟逗号或句号的句子"
+    },
+    {
+        "query": "乘机v[v a n r][，+。]",
+        "description": "包含'乘机'，后跟动词v、a、n、r，再跟逗号或句号的句子"
+    },
+    {
+        "query": "插在[nt+ns+s+f+r]+",
+        "description": "包含特定字母组合后跟'插在'的句子"
+    },
+    {
+        "query": "插在[nt ns s f r]",
+        "description": "包含特定字母组合后的句子"
+    },
+    {
+        "query": "反而v+y[，+。]",
+        "description": "包含'反而'，后跟'y'，再跟逗号或句号的句子"
+    },
+    {
+        "query": "反而v y[，+。]",
+        "description": "包含'反而'，后跟'y'，再跟逗号或句号的句子"
+    },
+    {
+        "query": "不见n[，+。]",
+        "description": "包含'不见'，后跟逗号或句号的句子"
+    },
+    {
+        "query": "不见n[， 。]",
+        "description": "包含'不见'，后跟逗号或句点的句子"
+    },
+    {
+        "query": "难道n[，+。]",
+        "description": "包含'难道'，后跟逗号或句号的句子"
+    },
+    {
+        "query": "难道n[， 。]",
+        "description": "包含'难道'，后跟逗号或句点的句子"
+    },
+    {
+        "query": "p+n+d+a[，+。]",
+        "description": "包含特定字母组合后跟'p+n+d+a'的句子"
+    },
+    {
+        "query": "p n d a[，+。]",
+        "description": "包含特定字母组合后的句子"
+    },
+    {
+        "query": "处处[v+a+n+r][，+。]",
+        "description": "包含'处处'，后跟动词v、a、n、r，再跟逗号或句号的句子"
+    },
+    {
+        "query": "处处[v a n r][，+。]",
+        "description": "包含'处处'，后跟动词v、a、n、r，再跟逗号或句号的句子"
+    },
+    {
+        "query": "w仇.恩[q+r+d+c+v+a++n+m++p]w",
+        "description": "以'w仇.恩'开头，后跟特定组合，再以'w'结尾的句子"
+    },
+    {
+        "query": "w仇.恩[q r d c v a  n m  p]w",
+        "description": "以'w仇.恩'开头，后跟特定组合，再以'w'结尾的句子"
+    },
+    {
+        "query": "[n+r]+的+[a+d]+表扬",
+        "description": "包含[n+r]组合，后跟'的'，再包含[a+d]组合，最后是'表扬'"
+    },
+    {
+        "query": "[n r] 的 [a d] 表扬",
+        "description": "包含[n r]组合，后跟'的'，再包含[a d]组合，最后是'表扬'"
+    },
+    {
+        "query": "[n+r]+的支持",
+        "description": "包含[n+r]组合，后跟'的支持'"
+    },
+    {
+        "query": "[n r] 的支持",
+        "description": "包含[n r]组合，后跟'的'，最后是'支持'"
+    },
+    {
+        "query": "成心v[，+。]",
+        "description": "包含'成心'，后跟逗号或句号的句子"
+    },
+    {
+        "query": "成心v[， 。]",
+        "description": "包含'成心'，后跟逗号或句点的句子"
+    },
+    {
+        "query": "更加+a[，+。]",
+        "description": "包含'更加'，后跟逗号或句号的句子"
+    },
+    {
+        "query": "更加 a[，+。]",
+        "description": "包含'更加'，后跟逗号或句号的句子"
+    },
+    {
+        "query": "w静.动[q+r+d+c+v+a++n+m++p]w",
+        "description": "以'w静.动'开头，后跟特定组合，再以'w'结尾的句子"
+    },
+    {
+        "query": "w静.动[q r d c v a  n m  p]w",
+        "description": "以'w静.动'开头，后跟特定组合，再以'w'结尾的句子"
+    },
+    {
+        "query": "乘机v+n[，+。]",
+        "description": "包含'乘机'，后跟名词，再跟逗号或句号的句子"
+    },
+    {
+        "query": "乘机v n[，+。]",
+        "description": "包含'乘机'，后跟名词，再跟逗号或句号的句子"
+    }
+]
+```

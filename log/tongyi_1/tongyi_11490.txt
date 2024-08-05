@@ -1,0 +1,156 @@
+```json
+[
+    {
+        "query": "(l)，{end($1)=[此 辣 尿 就]}",
+        "description": "逗号后面以‘此、辣、尿、就’之一结尾"
+    },
+    {
+        "query": "(n) (n){len($2)!=3}",
+        "description": "两个相邻名词，第二个名词的长度不为3"
+    },
+    {
+        "query": "品质 (v) 好{len($1)!=3}",
+        "description": "品质后面接一个非3字节的动词和好"
+    },
+    {
+        "query": "乳业 共同/d 成长",
+        "description": "乳业后面接共同，再接动词成长"
+    },
+    {
+        "query": "../n 共赢 ../v",
+        "description": "连续的两个名词后接共赢，再接连续的动词"
+    },
+    {
+        "query": "时而 (v) ，{count>9}",
+        "description": "时而后面是动词，且该动词出现次数大于9次"
+    },
+    {
+        "query": "这 (d) 为{len($1)=1}",
+        "description": "这后面接一个长度为1的词"
+    },
+    {
+        "query": "(v) (ns){len($2)!=3}",
+        "description": "动词后面接一个非3字节的地名"
+    },
+    {
+        "query": "南部 (n){count>10}",
+        "description": "南部这个名词出现次数大于10次"
+    },
+    {
+        "query": "(m) 是{len($1)=1}",
+        "description": "是后面接一个长度为1的词"
+    },
+    {
+        "query": "好建 @/[w v] 机构",
+        "description": "好建后面接一个词性为动词或形容词的词，再接机构"
+    },
+    {
+        "query": "是 ../vn 。",
+        "description": "是后面接一个动词或名词，且紧跟着句号"
+    },
+    {
+        "query": "~/[vn v] 卫生",
+        "description": "卫生这个词前后各有一个动词或名词"
+    },
+    {
+        "query": "生活",
+        "description": "生活单独作为一个词"
+    },
+    {
+        "query": "对路 @/[w v] 荒山",
+        "description": "对路后面接一个词性为动词或形容词的词，再接荒山"
+    },
+    {
+        "query": "后花园 (w){count>9}",
+        "description": "后花园作为词出现且出现次数大于9次"
+    },
+    {
+        "query": "津津乐道 @/[w v]",
+        "description": "津津乐道后面接一个词性为动词或形容词的词"
+    },
+    {
+        "query": "来 ./w",
+        "description": "来后面接一个词"
+    },
+    {
+        "query": "何 ./v 源头",
+        "description": "何后面接一个动词，再接源头"
+    },
+    {
+        "query": "撬动 (u) 支点{len($1)=1}",
+        "description": "撬动后面接一个长度为1的词"
+    },
+    {
+        "query": "初 (v) ，{count<130}",
+        "description": "初后面接一个动词，且该动词出现次数少于130次"
+    },
+    {
+        "query": "夏 @ 淌",
+        "description": "夏后面接一个词，可能是任何词性"
+    },
+    {
+        "query": "四两拨千斤 .",
+        "description": "四两拨千斤后面直接跟一个句号"
+    },
+    {
+        "query": "纷至沓来 ~",
+        "description": "纷至沓来后面接一个词"
+    },
+    {
+        "query": "成 ~/[n v] ，",
+        "description": "成后面接一个词，可能是名词或动词，后面跟一个逗号"
+    },
+    {
+        "query": "走 v 西山",
+        "description": "走后面接一个动词，再接西山"
+    },
+    {
+        "query": "被 难倒/v 。",
+        "description": "被后面接一个动词，难倒，后面直接跟一个句号"
+    },
+    {
+        "query": "削坡 (v) 。{len($1)<3}",
+        "description": "削坡后面接一个长度小于3的动词，后面直接跟一个句号"
+    },
+    {
+        "query": "是 (n){len($1)<3}",
+        "description": "是后面接一个长度小于3的词"
+    },
+    {
+        "query": "俺 做梦/v 也",
+        "description": "俺后面接一个动词，做梦，再接一个也"
+    },
+    {
+        "query": "思路 @",
+        "description": "思路后面接一个词，统计时按词性归并"
+    },
+    {
+        "query": "政府 (a) ，{count>10}",
+        "description": "政府后面接一个形容词，且该形容词出现次数大于10次"
+    },
+    {
+        "query": "住 (v) 的{len($1)<3}",
+        "description": "住后面接一个动词，再接一个长度小于3的词"
+    },
+    {
+        "query": "难 ./[u v] 问题",
+        "description": "难后面接一个动词或介词，再接问题"
+    },
+    {
+        "query": "(r) 临汾 百姓 (v){len($1)=2; len($2)=1}",
+        "description": "临汾后面接一个长度为2的词，再接一个长度为1的动词"
+    },
+    {
+        "query": "钱 (d) 挣{count>10}",
+        "description": "钱后面接一个副词，挣，且该副词出现次数大于10次"
+    },
+    {
+        "query": "条件 ../[v v] 很",
+        "description": "条件后面接连续的两个动词，再接很"
+    },
+    {
+        "query": "。",
+        "description": "句尾的句号"
+    }
+]
+```

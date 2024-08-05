@@ -1,0 +1,152 @@
+```json
+[
+    {
+        "query": "党 v",
+        "description": "动词党"
+    },
+    {
+        "query": "常委会 @ 情况",
+        "description": "常委+会后接一个词+情况"
+    },
+    {
+        "query": "重大 @/[w v]",
+        "description": "重大后接‘或’关系中的一个词(w或v)"
+    },
+    {
+        "query": "(c) (j){end($2)!=[烧 片 团]}",
+        "description": "副词(c)后面接副形词(j)，且不以‘烧’、‘片’、‘团’结尾"
+    },
+    {
+        "query": "彩票 管理/v",
+        "description": "彩票后接动词管理"
+    },
+    {
+        "query": "@/[r v] 实现",
+        "description": "动词后接‘或’关系中的一个词(r或v)并实现"
+    },
+    {
+        "query": "有 (r) 回应{count>8}",
+        "description": "有后接副词(r)，回应的实例频次大于8次"
+    },
+    {
+        "query": "哪些 ~ ？",
+        "description": "哪些后接一个词，问号结尾"
+    },
+    {
+        "query": "(u) 采访 (w){len($1)!=2}",
+        "description": "未知词(u)后接采访，但采访不是两个字"
+    },
+    {
+        "query": "福彩 (n){len($1)!=3}",
+        "description": "福彩后接名词，但福彩不是三个字"
+    },
+    {
+        "query": "(v) 应急{len($1)>1}",
+        "description": "动词应急，且应急的长度大于1"
+    },
+    {
+        "query": "美国 (ns){len($1)<6}",
+        "description": "美国(nationality)的名称，长度小于6"
+    },
+    {
+        "query": "(v) 延迟 很 少 禁止 (v){end($1)!=[龙 活 这]}",
+        "description": "动词延迟，后面接着很、少、禁止，且不以‘龙’、‘活’、‘这’结尾"
+    },
+    {
+        "query": "道 ./[w v]",
+        "description": "道后接一个词(w或v)"
+    },
+    {
+        "query": "(ad) 提前 (v){begin($2)=[通 勒]}",
+        "description": "副形词(ad)提前，且紧跟的动词以‘通’或‘勒’开头"
+    },
+    {
+        "query": "(n) 老家{begin($1)!=[红 排 先 七]}",
+        "description": "名词老家，且不以‘红’、‘排’、‘先’、‘七’开头"
+    },
+    {
+        "query": "乡愁 (n) 观察{len($1)>1}",
+        "description": "乡愁后接名词观察，观察的长度大于1"
+    },
+    {
+        "query": "篁岭 (v) 景色{begin($1)=[晒 服]}",
+        "description": "篁岭后接动词景色，景色的开头是‘晒’或‘服’"
+    },
+    {
+        "query": "海岸 (s) 栈道{end($1)!=[喽 随]}",
+        "description": "海岸后接名词栈道，栈道的结尾不是‘喽’或‘随’"
+    },
+    {
+        "query": "@/[a v] 制作",
+        "description": "动词或形容词后接制作"
+    },
+    {
+        "query": "i ！",
+        "description": "感叹词i后接惊叹号"
+    },
+    {
+        "query": "(vn) 项目 (p){$1=$2}",
+        "description": "单音节动词后接项目，且前后两个项目相同"
+    },
+    {
+        "query": "生活 (n) 中{begin($1)!=[骗 宇 原 猫]}",
+        "description": "名词生活后接名词中，且不以‘骗’、‘宇’、‘原’、‘猫’开头"
+    },
+    {
+        "query": "(nr) 说 (w){len($1)=3}",
+        "description": "人名(nr)后接一个三个字的词说"
+    },
+    {
+        "query": "(nr) 说{count<620}",
+        "description": "人名(nr)后接说，且说的实例频次小于620"
+    },
+    {
+        "query": "(nr) 说{end($1)=[林 如 澡]}",
+        "description": "人名(nr)后接说，且说的结尾是‘林’、‘如’、‘澡’"
+    },
+    {
+        "query": "古建 n",
+        "description": "古建后接名词"
+    },
+    {
+        "query": "(nr) (v){end($1)=[阳 妹 懂]}",
+        "description": "人名(nr)后接一个动词，且动词以‘阳’、‘妹’、‘懂’结尾"
+    },
+    {
+        "query": "进入 (j) 时代{len($1)>1}",
+        "description": "进入后接副形词，且副形词的长度大于1"
+    },
+    {
+        "query": ".../ns 顺道",
+        "description": "省略号后接地名(ns)顺道"
+    },
+    {
+        "query": "都 (v) 班车{len($1)!=2}",
+        "description": "都后接动词，且动词不是两个字"
+    },
+    {
+        "query": "(ns) (n){end($1)!=[度 事]}",
+        "description": "国家地名(ns)后接名词，且名词不以‘度’、‘事’结尾"
+    },
+    {
+        "query": "../v ：
+        "description": "双音节动词后接冒号"
+    },
+    {
+        "query": "~ ：
+        "description": "一个词后接冒号"
+    },
+    {
+        "query": "(vn) 初学者{begin($1)!=[剪 必]}",
+        "description": "单音节动词后接初学者，且初学者的开头不是‘剪’、‘必’"
+    },
+    {
+        "query": "~ 尼雅",
+        "description": "一个词后接尼雅"
+    },
+    {
+        "query": "(v) 项目{len($1)=2}",
+        "description": "动词后接一个长度为2的项目"
+    }
+]
+```

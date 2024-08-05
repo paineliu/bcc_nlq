@@ -1,0 +1,88 @@
+以下是您提供的检索式转换为带含义的 JSON 结构：
+
+```json
+[
+    {
+        "query": "出席/v 典礼 。/w",
+        "description": "出席动词后接典礼名词，句子以句号结尾"
+    },
+    {
+        "query": "成为 @/[v v] 关键词",
+        "description": "成为后面接动词词性的词，形成关键词"
+    },
+    {
+        "query": "(vn) 投入 (d){end($2)=[越 午]}",
+        "description": "名动词投入后接副词，副词的结尾是越或午"
+    },
+    {
+        "query": "宽 ~ 市场",
+        "description": "宽后面接一个词后是市场"
+    },
+    {
+        "query": "访问",
+        "description": "包含访问的句子"
+    },
+    {
+        "query": "就 (ns) 半岛{end($1)!=[存 爷 叶]}",
+        "description": "就后面接地名半岛，但半岛的结尾不是存、爷或叶"
+    },
+    {
+        "query": "会见 ./[u v] 韩国",
+        "description": "会见后接助词或动词，后面接韩国"
+    },
+    {
+        "query": "现场 @",
+        "description": "现场后面接一个词，词性不限"
+    },
+    {
+        "query": "举行 ~/[v v]",
+        "description": "举行后面接一个词，再接两个动词"
+    },
+    {
+        "query": "(ns) 国民 (n){end($1)=[坦 叼]}",
+        "description": "地名后接国民名词，名词的结尾是坦或叼"
+    },
+    {
+        "query": "vn n",
+        "description": "名动词后接名词"
+    },
+    {
+        "query": "要求 @/[m v] 大队",
+        "description": "要求后面接量词或动词，再接大队"
+    },
+    {
+        "query": "石",
+        "description": "包含石字的句子"
+    },
+    {
+        "query": "感叹 ~",
+        "description": "感叹后接一个词"
+    },
+    {
+        "query": "中华 @",
+        "description": "中华后面接一个词，词性不限"
+    },
+    {
+        "query": "总的来看 (w) 大部分{count<952}",
+        "description": "总的来看后接大部分作为句尾，且实例频次小于952"
+    },
+    {
+        "query": "公司 @/[vn v] 负责人",
+        "description": "公司后面接名动词或动词，再接负责人"
+    },
+    {
+        "query": "调整 @/[w v]",
+        "description": "调整后面接标点符号或动词"
+    },
+    {
+        "query": "网传 (v) 后{len($1)=2}",
+        "description": "网传后接动词，动词长度为2个字"
+    },
+    {
+        "query": "这样",
+        "description": "包含这样子的句子"
+    }
+]
+```
+
+请注意，这些 JSON 对象中的 description 字段是基于您提供的检索式和其含义进行解释的，可能需要根据具体使用场景进一步调整。

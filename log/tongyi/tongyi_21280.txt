@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "大使+常华/nr",
+        "description": "大使后接常华，常华是nr"
+    },
+    {
+        "query": "大使 常华/nr",
+        "description": "大使和常华都是nr"
+    },
+    {
+        "query": "n+深情/n",
+        "description": "一个名词后接深情，深情是nr"
+    },
+    {
+        "query": "n 深情/n",
+        "description": "名词后接深情，深情是nr"
+    },
+    {
+        "query": "多么/d+文雅",
+        "description": "多么是副词，后接文雅，文雅是nr"
+    },
+    {
+        "query": "多么/d 文雅",
+        "description": "多么是副词，后接文雅，文雅是nr"
+    },
+    {
+        "query": "也许/d",
+        "description": "也许是副词"
+    },
+    {
+        "query": "不/d+再/d",
+        "description": "不和再都是副词"
+    },
+    {
+        "query": "不/d 再/d",
+        "description": "不和再都是副词"
+    },
+    {
+        "query": "没有+调查/v+就",
+        "description": "没有后接调查，调查是v，后接就，就是连词"
+    },
+    {
+        "query": "没有 调查/v 就",
+        "description": "没有后接调查，调查是v，后接就，就是连词"
+    },
+    {
+        "query": "马国英/nr+绘图",
+        "description": "马国英是nr，后接绘图，绘图是v"
+    },
+    {
+        "query": "马国英/nr 绘图",
+        "description": "马国英是nr，后接绘图，绘图是v"
+    },
+    {
+        "query": "本+条例/n+自",
+        "description": "本后接条例，条例是n，后接自，自是连词"
+    },
+    {
+        "query": "本 条例/n 自",
+        "description": "本后接条例，条例是n，后接自，自是连词"
+    },
+    {
+        "query": "路/n+都+没+走+多少/l",
+        "description": "路后接都，都后接没，没后接走，走后接多少，路是n，都、没、走、多少都是l"
+    },
+    {
+        "query": "路/n 都 没 走 多少/l",
+        "description": "路后接都，都后接没，没后接走，走后接多少，路是n，都、没、走、多少都是l"
+    },
+    {
+        "query": "的+../a+而+../a",
+        "description": "的后接/，/后接而，而后接/，的、/、而都是a"
+    },
+    {
+        "query": "的 ../a 而 ../a",
+        "description": "的后接/，/后接而，而后接/，的、/、而都是a"
+    },
+    {
+        "query": "赵/nr+杰昌+重庆市/ns",
+        "description": "赵是nr，后接杰昌，杰昌是人名的一部分，后接重庆市，重庆市是ns"
+    },
+    {
+        "query": "赵/nr 杰昌 重庆市/ns",
+        "description": "赵是nr，后接杰昌，杰昌是人名的一部分，后接重庆市，重庆市是ns"
+    },
+    {
+        "query": "a+深情/n",
+        "description": "a是形容词，后接深情，深情是nr"
+    },
+    {
+        "query": "a 深情/n",
+        "description": "a是形容词，后接深情，深情是nr"
+    },
+    {
+        "query": "要+靠/v+自律",
+        "description": "要后接靠，靠后接v，自律是n，要、靠、自律都是词"
+    },
+    {
+        "query": "要 靠/v 自律",
+        "description": "要后接靠，靠后接v，自律是n，要、靠、自律都是词"
+    },
+    {
+        "query": "v*真心/n",
+        "description": "v是动词，后接真心，真心是nr"
+    },
+    {
+        "query": "薄/a.",
+        "description": "薄是a，后接。"
+    },
+    {
+        "query": "余+彭帅/nr+体坛",
+        "description": "余后接彭帅，彭帅是nr，后接体坛，体坛是ns"
+    },
+    {
+        "query": "余 彭帅/nr 体坛",
+        "description": "余后接彭帅，彭帅是nr，后接体坛，体坛是ns"
+    },
+    {
+        "query": "以+气魄/n+和",
+        "description": "以后接气魄，气魄是n，后接和，和是连词"
+    },
+    {
+        "query": "以 气魄/n 和",
+        "description": "以后接气魄，气魄是n，后接和，和是连词"
+    },
+    {
+        "query": "地球+家园/n+的",
+        "description": "地球后接家园，家园是n，后接的，的后接/，地球、家园、的都是词"
+    },
+    {
+        "query": "地球 家园/n 的",
+        "description": "地球后接家园，家园是n，后接的，的后接/，地球、家园、的都是词"
+    },
+    {
+        "query": "喘/v",
+        "description": "喘是v"
+    },
+    {
+        "query": "v+./a了",
+        "description": "v是v，后接./，./后接a了，a了是连词"
+    },
+    {
+        "query": "v ./a了",
+        "description": "v是v，后接./，./后接a了，a了是连词"
+    },
+    {
+        "query": "..头/n",
+        "description": "是两个点，后接头，头是n"
+    },
+    {
+        "query": "检查/v",
+        "description": "检查是v"
+    },
+    {
+        "query": "n+情谊/n",
+        "description": "一个名词后接情谊，情谊是nr"
+    },
+    {
+        "query": "n 情谊/n",
+        "description": "名词后接情谊，情谊是nr"
+    }
+]
+```

@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "闹了半",
+        "description": "包含\"闹了半\"这个短语"
+    },
+    {
+        "query": "瞧不出",
+        "description": "包含\"瞧不出\"这个短语"
+    },
+    {
+        "query": "慌慌",
+        "description": "包含\"慌慌\"这个短语"
+    },
+    {
+        "query": "和谐党主",
+        "description": "包含\"和谐党主\"这个短语"
+    },
+    {
+        "query": "更不一定",
+        "description": "包含\"更不一定\"这个短语"
+    },
+    {
+        "query": "射箭",
+        "description": "包含\"射箭\"这个短语"
+    },
+    {
+        "query": "吃你",
+        "description": "包含\"吃你\"这个短语"
+    },
+    {
+        "query": "不太方便",
+        "description": "包含\"不太方便\"这个短语"
+    },
+    {
+        "query": "起头",
+        "description": "包含\"起头\"这个短语"
+    },
+    {
+        "query": "残废",
+        "description": "包含\"残废\"这个短语"
+    },
+    {
+        "query": "闯进来",
+        "description": "包含\"闯进来\"这个短语"
+    },
+    {
+        "query": "阐述和谐",
+        "description": "包含\"阐述和谐\"这个短语"
+    },
+    {
+        "query": "一句咒骂",
+        "description": "包含\"一句咒骂\"这个短语"
+    },
+    {
+        "query": "一通",
+        "description": "包含\"一通\"这个短语"
+    },
+    {
+        "query": "紧接着",
+        "description": "包含\"紧接着\"这个短语"
+    },
+    {
+        "query": "是，是的",
+        "description": "包含\"是，是的\"这个短语"
+    },
+    {
+        "query": "哇塞",
+        "description": "包含\"哇塞\"这个短语"
+    },
+    {
+        "query": "曲曲",
+        "description": "包含\"曲曲\"这个短语"
+    },
+    {
+        "query": "烟卷儿",
+        "description": "包含\"烟卷儿\"这个短语"
+    },
+    {
+        "query": "取得",
+        "description": "包含\"取得\"这个短语"
+    },
+    {
+        "query": "长长",
+        "description": "包含\"长长\"这个短语"
+    },
+    {
+        "query": "杀气",
+        "description": "包含\"杀气\"这个短语"
+    },
+    {
+        "query": "关键是",
+        "description": "包含\"关键是\"这个短语"
+    },
+    {
+        "query": "承接",
+        "description": "包含\"承接\"这个短语"
+    },
+    {
+        "query": "和谐与温",
+        "description": "包含\"和谐与温\"这个短语"
+    },
+    {
+        "query": "在和谐",
+        "description": "包含\"在和谐\"这个短语"
+    },
+    {
+        "query": "整个是一个",
+        "description": "包含\"整个是一个\"这个短语"
+    },
+    {
+        "query": "哀愁",
+        "description": "包含\"哀愁\"这个短语"
+    },
+    {
+        "query": "我敢打赌",
+        "description": "包含\"我敢打赌\"这个短语"
+    },
+    {
+        "query": "和谐中保",
+        "description": "包含\"和谐中保\"这个短语"
+    },
+    {
+        "query": "既视感",
+        "description": "包含\"既视感\"这个短语"
+    },
+    {
+        "query": "好处",
+        "description": "包含\"好处\"这个短语"
+    },
+    {
+        "query": "它一",
+        "description": "包含\"它一\"这个短语"
+    },
+    {
+        "query": "人权扩",
+        "description": "包含\"人权扩\"这个短语"
+    },
+    {
+        "query": "和谐丝路",
+        "description": "包含\"和谐丝路\"这个短语"
+    },
+    {
+        "query": "差点就",
+        "description": "包含\"差点就\"这个短语"
+    },
+    {
+        "query": "一连串",
+        "description": "包含\"一连串\"这个短语"
+    },
+    {
+        "query": "栩栩",
+        "description": "包含\"栩栩\"这个短语"
+    },
+    {
+        "query": "第二手",
+        "description": "包含\"第二手\"这个短语"
+    },
+    {
+        "query": "密告",
+        "description": "包含\"密告\"这个短语"
+    }
+]
+```

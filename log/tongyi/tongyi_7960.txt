@@ -1,0 +1,166 @@
+以下是将给定的检索式转换为带含义的json结构：
+
+```json
+[
+    {
+        "query": "v朴实",
+        "description": "动词 + 实朴"
+    },
+    {
+        "query": "也许本来v",
+        "description": "也许 + 动词 + 本来"
+    },
+    {
+        "query": "二n",
+        "description": "数字二 + 名词"
+    },
+    {
+        "query": "包v包v",
+        "description": "动词包 + 动词包"
+    },
+    {
+        "query": "Yg",
+        "description": "未知词"
+    },
+    {
+        "query": "a占领",
+        "description": "形容词 + 占领"
+    },
+    {
+        "query": "a原则",
+        "description": "形容词 + 原则"
+    },
+    {
+        "query": "a产物",
+        "description": "形容词 + 产物"
+    },
+    {
+        "query": "m景",
+        "description": "数词 + 景"
+    },
+    {
+        "query": "生产+N",
+        "description": "动词生产 + 名词N"
+    },
+    {
+        "query": "生产 N",
+        "description": "动词生产 + 名词"
+    },
+    {
+        "query": "看v",
+        "description": "动词看"
+    },
+    {
+        "query": "d被她",
+        "description": "副词被 + 她"
+    },
+    {
+        "query": "V着很",
+        "description": "动词着 + 很"
+    },
+    {
+        "query": "v宅",
+        "description": "动词宅"
+    },
+    {
+        "query": "，n的，",
+        "description": "标点 + 名词 + 标点"
+    },
+    {
+        "query": "大有a",
+        "description": "形容词大有"
+    },
+    {
+        "query": "死不n",
+        "description": "动词死不 + 名词"
+    },
+    {
+        "query": "知识+v+",
+        "description": "名词知识 + 动词"
+    },
+    {
+        "query": "知识 v ",
+        "description": "名词知识 + 动词"
+    },
+    {
+        "query": "w一句话w",
+        "description": "标点 + 一句话 + 标点"
+    },
+    {
+        "query": "a一齐",
+        "description": "形容词 + 一齐"
+    },
+    {
+        "query": "不太v",
+        "description": "不太 + 动词"
+    },
+    {
+        "query": "还d呢",
+        "description": "副词还 + 副词呢"
+    },
+    {
+        "query": "持n",
+        "description": "动词持"
+    },
+    {
+        "query": "从来v",
+        "description": "动词从来"
+    },
+    {
+        "query": "m拳",
+        "description": "数词拳"
+    },
+    {
+        "query": "n云",
+        "description": "名词云"
+    },
+    {
+        "query": "v一同",
+        "description": "动词一同"
+    },
+    {
+        "query": "n是n的n",
+        "description": "名词是 + 名词 + 的 + 名词"
+    },
+    {
+        "query": "a关键",
+        "description": "形容词关键"
+    },
+    {
+        "query": "一架n",
+        "description": "名词一架"
+    },
+    {
+        "query": "一条n",
+        "description": "名词一条"
+    },
+    {
+        "query": "有什么好+y+的",
+        "description": "疑问词有什么 + 形容词好 + 的"
+    },
+    {
+        "query": "有什么好 y 的",
+        "description": "疑问词有什么 + 形容词y + 的"
+    },
+    {
+        "query": "n真像",
+        "description": "名词真像"
+    },
+    {
+        "query": "a+的+n",
+        "description": "形容词 + 的 + 名词"
+    },
+    {
+        "query": "a 的 n",
+        "description": "形容词 + 的 + 名词"
+    },
+    {
+        "query": "n风起云涌",
+        "description": "名词风起云涌"
+    },
+    {
+        "query": "很a",
+        "description": "形容词很"
+    }
+]
+```

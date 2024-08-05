@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "翻番",
+        "description": "查找包含'翻番'的句子"
+    },
+    {
+        "query": "动工",
+        "description": "查找包含'动工'的句子"
+    },
+    {
+        "query": "相反",
+        "description": "查找包含'相反'的句子"
+    },
+    {
+        "query": "多不和谐",
+        "description": "查找包含'多不和谐'的句子"
+    },
+    {
+        "query": "和谐从云",
+        "description": "查找包含'和谐从云'的句子"
+    },
+    {
+        "query": "人权还",
+        "description": "查找包含'人权还'的句子"
+    },
+    {
+        "query": "工工整整",
+        "description": "查找包含'工工整整'的句子"
+    },
+    {
+        "query": "和谐及社",
+        "description": "查找包含'和谐及社'的句子"
+    },
+    {
+        "query": "拖是",
+        "description": "查找包含'拖是'的句子"
+    },
+    {
+        "query": "辣",
+        "description": "查找包含'辣'的句子"
+    },
+    {
+        "query": "总而言之，",
+        "description": "查找包含'总而言之，'的句子"
+    },
+    {
+        "query": "一+株",
+        "description": "查找包含'一+株'的句子"
+    },
+    {
+        "query": "一 株",
+        "description": "查找包含'一 株'的句子"
+    },
+    {
+        "query": "快别提了",
+        "description": "查找包含'快别提了'的句子"
+    },
+    {
+        "query": "一叫就",
+        "description": "查找包含'一叫就'的句子"
+    },
+    {
+        "query": "不太黑",
+        "description": "查找包含'不太黑'的句子"
+    },
+    {
+        "query": "不太弱",
+        "description": "查找包含'不太弱'的句子"
+    },
+    {
+        "query": "你还说什么",
+        "description": "查找包含'你还说什么'的句子"
+    },
+    {
+        "query": "饱满",
+        "description": "查找包含'饱满'的句子"
+    },
+    {
+        "query": "风雅",
+        "description": "查找包含'风雅'的句子"
+    },
+    {
+        "query": "压根儿",
+        "description": "查找包含'压根儿'的句子"
+    },
+    {
+        "query": "看来大约",
+        "description": "查找包含'看来大约'的句子"
+    },
+    {
+        "query": "或许可",
+        "description": "查找包含'或许可'的句子"
+    },
+    {
+        "query": "八八",
+        "description": "查找包含'八八'的句子"
+    },
+    {
+        "query": "鸟不鸟",
+        "description": "查找包含'鸟不鸟'的句子"
+    },
+    {
+        "query": "水碧和谐",
+        "description": "查找包含'水碧和谐'的句子"
+    },
+    {
+        "query": "以人权",
+        "description": "查找包含'以人权'的句子"
+    },
+    {
+        "query": "办理",
+        "description": "查找包含'办理'的句子"
+    },
+    {
+        "query": "科学",
+        "description": "查找包含'科学'的句子"
+    },
+    {
+        "query": "和谐又怎",
+        "description": "查找包含'和谐又怎'的句子"
+    },
+    {
+        "query": "相反的",
+        "description": "查找包含'相反的'的句子"
+    },
+    {
+        "query": "和谐与寂",
+        "description": "查找包含'和谐与寂'的句子"
+    },
+    {
+        "query": "销量",
+        "description": "查找包含'销量'的句子"
+    },
+    {
+        "query": "使",
+        "description": "查找包含'使'的句子"
+    },
+    {
+        "query": "时",
+        "description": "查找包含'时'的句子"
+    },
+    {
+        "query": "不太贵",
+        "description": "查找包含'不太贵'的句子"
+    },
+    {
+        "query": "谓之",
+        "description": "查找包含'谓之'的句子"
+    },
+    {
+        "query": "和谐公社",
+        "description": "查找包含'和谐公社'的句子"
+    },
+    {
+        "query": "就算是",
+        "description": "查找包含'就算是'的句子"
+    },
+    {
+        "query": "打穿",
+        "description": "查找包含'打穿'的句子"
+    }
+]
+```

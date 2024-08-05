@@ -1,0 +1,162 @@
+以下是将给定的检索式转换为带含义的JSON结构的结果：
+
+```json
+[
+    {
+        "query": "是*的念头w",
+        "description": "是后接的，的后面是念头，之后是句尾"
+    },
+    {
+        "query": "或者*恐怕",
+        "description": "或者后面离合出现恐怕"
+    },
+    {
+        "query": "都快.了",
+        "description": "都快后面隔一个字后接了"
+    },
+    {
+        "query": "v+~",
+        "description": "动词后接一个词"
+    },
+    {
+        "query": "v ~",
+        "description": "动词后接一个词"
+    },
+    {
+        "query": "连*都",
+        "description": "连后面离合出现都"
+    },
+    {
+        "query": "*不*",
+        "description": "一个词后面离合出现不，之后是另一个词"
+    },
+    {
+        "query": "刷@",
+        "description": "刷+一个词性"
+    },
+    {
+        "query": "何尝@仿佛",
+        "description": "何尝+一个词性，仿佛是句尾"
+    },
+    {
+        "query": "作了...v",
+        "description": "作了后面有一个词，之后是动词"
+    },
+    {
+        "query": "鞠*躬",
+        "description": "鞠后面离合出现躬"
+    },
+    {
+        "query": "是*的感受w",
+        "description": "是后接的，的感受是句尾"
+    },
+    {
+        "query": "欢乐*v下",
+        "description": "欢乐后面是动词，之后是下"
+    },
+    {
+        "query": "都n*了",
+        "description": "都后接名词，之后是了"
+    },
+    {
+        "query": "大概*总得",
+        "description": "大概后面离合出现总得"
+    },
+    {
+        "query": "w贬.褒w",
+        "description": "贬后面隔一个字后接褒，之后是句尾"
+    },
+    {
+        "query": "也许*只好v",
+        "description": "也许后面离合出现只好动词"
+    },
+    {
+        "query": "w你.我w",
+        "description": "你后面隔一个字后接我，之后是句尾"
+    },
+    {
+        "query": "v*树敌",
+        "description": "动词后接树敌"
+    },
+    {
+        "query": "当*面",
+        "description": "当后面离合出现面"
+    },
+    {
+        "query": "你一个*闺",
+        "description": "你一个后面离合出现闺"
+    },
+    {
+        "query": "吃了*亏",
+        "description": "吃了后面离合出现亏"
+    },
+    {
+        "query": "冷*热",
+        "description": "冷后面离合出现热"
+    },
+    {
+        "query": "@侠",
+        "description": "一个词性侠"
+    },
+    {
+        "query": "V上*怒火",
+        "description": "动词上后面离合出现怒火"
+    },
+    {
+        "query": "你一个*女",
+        "description": "你一个后面离合出现女"
+    },
+    {
+        "query": "虽然*，但是",
+        "description": "虽然后面离合出现，之后是但是"
+    },
+    {
+        "query": "你一个............，",
+        "description": "你一个后面是多个点，之后是逗号"
+    },
+    {
+        "query": "也不是...也不是",
+        "description": "也不是后面是多个点，之后也是也不是"
+    },
+    {
+        "query": "也许*定有",
+        "description": "也许后面离合出现定有"
+    },
+    {
+        "query": "也许*确有",
+        "description": "也许后面离合出现确有"
+    },
+    {
+        "query": "心酸*V下",
+        "description": "心酸后面离合出现动词，之后是下"
+    },
+    {
+        "query": "*做c",
+        "description": "一个词后接做c"
+    },
+    {
+        "query": "w稠.稀w",
+        "description": "稠后面隔一个字后接稀，之后是句尾"
+    },
+    {
+        "query": "无*不",
+        "description": "无后面离合出现不"
+    },
+    {
+        "query": "w勤.懒w",
+        "description": "勤后面隔一个字后接懒，之后是句尾"
+    },
+    {
+        "query": "w凶.吉w",
+        "description": "凶后面隔一个字后接吉，之后是句尾"
+    },
+    {
+        "query": "说.就.",
+        "description": "说后面是单字，之后是就，再接一个字"
+    },
+    {
+        "query": "v n v ~ 了",
+        "description": "动词后接名词，之后是动词，再接一个词，之后是了"
+    }
+]
+```

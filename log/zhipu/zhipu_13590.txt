@@ -1,0 +1,88 @@
+以下是根据您提供的检索式转换为带含义的JSON结构：
+
+```json
+[
+    {
+        "query": "(ns) 大明湖{count<982}",
+        "description": "地名大明湖的频次小于982"
+    },
+    {
+        "query": "(ns) 瘦西湖{end($1)!=[累 燕]}",
+        "description": "地名瘦西湖不以累或燕结尾"
+    },
+    {
+        "query": "(nr) (u){len($1)>2}",
+        "description": "人名后面接的助词长度大于2"
+    },
+    {
+        "query": "烟水迷离",
+        "description": "包含烟水迷离的句子"
+    },
+    {
+        "query": "飞棹 v 如梭",
+        "description": "飞棹后接动词如梭"
+    },
+    {
+        "query": "透明 . 游鱼",
+        "description": "透明后隔一个字接游鱼"
+    },
+    {
+        "query": "添 了/u 一半",
+        "description": "添后接助词了，再接一半"
+    },
+    {
+        "query": "(n) 远{begin($1)!=[校 从]}",
+        "description": "名词远不以校或从开头"
+    },
+    {
+        "query": "龙潭西 . 趵",
+        "description": "龙潭西后隔一个字接趵"
+    },
+    {
+        "query": "(n) ， 三更 画舫 ， 锦绣 (z){$1!=$2}",
+        "description": "名词，三更画舫，锦绣中，名词和状态词内容不同"
+    },
+    {
+        "query": "漱玉声 @",
+        "description": "漱玉声后接一个词，在统计时按词性归并"
+    },
+    {
+        "query": "何在 (w){count<750}",
+        "description": "何在后的标点符号频次小于750"
+    },
+    {
+        "query": "(v) (w){$1!=$2}",
+        "description": "动词和标点符号内容不同"
+    },
+    {
+        "query": "谁 (p) 起舞{len($1)=1}",
+        "description": "谁后接的介词长度为1"
+    },
+    {
+        "query": "在 (v) 佳人{count<736}",
+        "description": "在后的动词接佳人的频次小于736"
+    },
+    {
+        "query": "千年 。/w",
+        "description": "千年后接句尾标点符号"
+    },
+    {
+        "query": "的",
+        "description": "包含的的句子"
+    },
+    {
+        "query": "(n) (v){len($1)>1; begin($2)!=[熊 犯 军]}",
+        "description": "名词长度大于1，后接的动词不以熊、犯、军开头"
+    },
+    {
+        "query": "(w) (d){count>2}",
+        "description": "标点符号和副词的频次大于2"
+    },
+    {
+        "query": "泓泉 ~/[d v] 一",
+        "description": "泓泉后接一个词，这个词是副词或动词，再接一"
+    }
+]
+```
+
+请注意，这些JSON对象的描述是根据您给出的检索式和其含义编写的，如有任何误解或错误，请指出以便更正。

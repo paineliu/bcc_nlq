@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "s放着n。",
+        "description": "放着后接名词。"
+    },
+    {
+        "query": "d+粗",
+        "description": "以d开头，后接粗。"
+    },
+    {
+        "query": "d 粗",
+        "description": "d后面直接接粗。"
+    },
+    {
+        "query": "w不是我说",
+        "description": "w后面接不是，然后是我说。"
+    },
+    {
+        "query": "子房v",
+        "description": "子房后接动词。"
+    },
+    {
+        "query": "读者v读者的",
+        "description": "读者后接动词，再接读者的。"
+    },
+    {
+        "query": "v前v后",
+        "description": "动词前接动词，后接动词。"
+    },
+    {
+        "query": "涮n",
+        "description": "涮后接名词。"
+    },
+    {
+        "query": "n为n",
+        "description": "名词后接名词。"
+    },
+    {
+        "query": "还不是v",
+        "description": "还不是后接动词。"
+    },
+    {
+        "query": "恐怕就v",
+        "description": "恐怕就后接动词。"
+    },
+    {
+        "query": "一些n",
+        "description": "一些后接名词。"
+    },
+    {
+        "query": "a一般",
+        "description": "a后面接一般。"
+    },
+    {
+        "query": "有什么好v的",
+        "description": "有什么后接动词，再接好，最后接的是一句话。"
+    },
+    {
+        "query": "v的游戏",
+        "description": "动词后接游戏。"
+    },
+    {
+        "query": "本性a",
+        "description": "本性后接a。"
+    },
+    {
+        "query": "e",
+        "description": "e。"
+    },
+    {
+        "query": "v一生",
+        "description": "动词后接一生。"
+    },
+    {
+        "query": "a判定",
+        "description": "a后接判定。"
+    },
+    {
+        "query": "w坦率地说w",
+        "description": "w后面接坦率地说，再接w。"
+    },
+    {
+        "query": "r口n",
+        "description": "r口后接名词。"
+    },
+    {
+        "query": "a优胜",
+        "description": "a后接优胜。"
+    },
+    {
+        "query": "v一件v一件",
+        "description": "动词后接一件，再接动词，最后接一件。"
+    },
+    {
+        "query": "p原地",
+        "description": "p后接原地。"
+    },
+    {
+        "query": "V暗了",
+        "description": "V后接暗了。"
+    },
+    {
+        "query": "v不大a",
+        "description": "动词后接不大，再接a。"
+    },
+    {
+        "query": "d亲口",
+        "description": "d后接亲口。"
+    },
+    {
+        "query": "变成+n+",
+        "description": "变成后接n，再接+。"
+    },
+    {
+        "query": "变成 n ",
+        "description": "变成后接n，再接空格，最后接空格。"
+    },
+    {
+        "query": "v起来",
+        "description": "动词后接起来。"
+    },
+    {
+        "query": "向f",
+        "description": "向后接f。"
+    },
+    {
+        "query": "买p+",
+        "description": "买后接p，再接+。"
+    },
+    {
+        "query": "买p",
+        "description": "买后接p。"
+    },
+    {
+        "query": "a凝结",
+        "description": "a后接凝结。"
+    },
+    {
+        "query": "神仙v",
+        "description": "神仙后接动词。"
+    },
+    {
+        "query": "v过来的",
+        "description": "动词后接过来的。"
+    },
+    {
+        "query": "w令我感到a的是w",
+        "description": "w后面接令我感到，a的是，再接w。"
+    },
+    {
+        "query": "看我a不a",
+        "description": "看我后接a，再接不，最后接a。"
+    },
+    {
+        "query": "a不同",
+        "description": "a后接不同。"
+    },
+    {
+        "query": "nr埋怨",
+        "description": "nr后接埋怨。"
+    }
+]
+```

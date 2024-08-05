@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "不算什么 N",
+        "description": "包含'不算什么'这样的句子，其中'什么'为名词"
+    },
+    {
+        "query": "a准时",
+        "description": "形容词'准'修饰'时'，表示准时的状态"
+    },
+    {
+        "query": "n匕首",
+        "description": "名词'匕首'表示一种武器或工具"
+    },
+    {
+        "query": "m头",
+        "description": "数词'头'后接名词，表示数量，具体数量由上下文决定"
+    },
+    {
+        "query": "在N上粘",
+        "description": "在某个物体或位置上粘贴或放置某物，'N'代表具体的物体或位置"
+    },
+    {
+        "query": "v+你+m+n",
+        "description": "动词后接'你'这个代词，然后是数词和名词，具体动作由上下文决定"
+    },
+    {
+        "query": "v 你 m n",
+        "description": "动词后接'你'这个代词，然后是数词和名词，具体动作由上下文决定"
+    },
+    {
+        "query": "n女鬼",
+        "description": "名词'女鬼'表示一种超自然的实体"
+    },
+    {
+        "query": "V着",
+        "description": "动词后接一个动态指示词，表示正在进行的动作"
+    },
+    {
+        "query": "N权力",
+        "description": "名词'权力'表示某种控制或支配的能力或权利"
+    },
+    {
+        "query": "n下",
+        "description": "名词后接'下'，表示在下面的位置或状态"
+    },
+    {
+        "query": "v严格了",
+        "description": "动词后接'了'，表示动作达到某种程度或状态的变化"
+    },
+    {
+        "query": "降价v",
+        "description": "动词表示价格降低的动作"
+    },
+    {
+        "query": "该+n+vd",
+        "description": "形容词后接名词和动词，表示某种属性或状态与动作的结合"
+    },
+    {
+        "query": "该 n vd",
+        "description": "形容词后接名词和动词，表示某种属性或状态与动作的结合"
+    },
+    {
+        "query": "买过n",
+        "description": "动词后接名词，表示购买的动作及购买的对象"
+    },
+    {
+        "query": "想不v都难",
+        "description": "动词后接否定词，表示某事难以避免或很难不想"
+    },
+    {
+        "query": "小V",
+        "description": "小字后接动词，表示动作的规模较小或程度较轻"
+    },
+    {
+        "query": "得v把",
+        "description": "动词表示需要或应该采取某种行动"
+    },
+    {
+        "query": "v一一",
+        "description": "动词后接'一一'，表示连续或逐一的动作"
+    },
+    {
+        "query": "a的原因",
+        "description": "形容词后接名词，表示某种原因或理由"
+    },
+    {
+        "query": "v一下n",
+        "description": "动词后接数词和名词，表示动作持续的时间或数量"
+    },
+    {
+        "query": "a作品",
+        "description": "形容词后接名词，表示某种类型的作品或艺术品"
+    },
+    {
+        "query": "没V着",
+        "description": "否定动词表示未达到预期的效果或状态"
+    },
+    {
+        "query": "太好V了",
+        "description": "动词表示达到极好的程度"
+    },
+    {
+        "query": "a声a气",
+        "description": "形容词后接'声气'，表示声音或气息的特点"
+    },
+    {
+        "query": "未v",
+        "description": "动词表示尚未发生或未完成的动作"
+    },
+    {
+        "query": "v七七",
+        "description": "动词后接'七七'，表示特定的日期或时间点"
+    },
+    {
+        "query": "检v",
+        "description": "动词表示检查或检验的动作"
+    },
+    {
+        "query": "v它m+q",
+        "description": "动词后接代词和量词，表示动作的对象和量度"
+    },
+    {
+        "query": "v它m q",
+        "description": "动词后接代词和量词，表示动作的对象和量度"
+    },
+    {
+        "query": "V+什么+V",
+        "description": "动词后接疑问词'什么'，然后是动词，表示询问某种动作或事物"
+    },
+    {
+        "query": "V 什么 V",
+        "description": "动词后接疑问词'什么'，然后是动词，表示询问某种动作或事物"
+    },
+    {
+        "query": "p知识",
+        "description": "介词后接名词，表示获取或涉及的知识"
+    },
+    {
+        "query": "情绪a",
+        "description": "形容词表示情感或心理状态"
+    },
+    {
+        "query": "很adj",
+        "description": "副词后接形容词，表示程度"
+    },
+    {
+        "query": "太好v了",
+        "description": "副词后接动词，表示极好的程度"
+    },
+    {
+        "query": "疼n",
+        "description": "名词表示疼痛的感觉或症状"
+    },
+    {
+        "query": "的n+中+w",
+        "description": "名词后接'中'和'w'，表示某个范围或位置的具体描述"
+    },
+    {
+        "query": "的n 中 w",
+        "description": "名词后接'中'和'w'，表示某个范围或位置的具体描述"
+    }
+]
+```

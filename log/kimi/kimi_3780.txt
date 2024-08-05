@@ -1,0 +1,86 @@
+以下是根据您提供的检索式及其含义转换为JSON结构的完整列表：
+
+```json
+[
+    {
+        "query": "取胜 n",
+        "description": "取胜后接名词"
+    },
+    {
+        "query": "(v) (n){len($1)>1; len($2)>1}",
+        "description": "动词长度大于1且名词长度大于1"
+    },
+    {
+        "query": "说 n ，",
+        "description": "说后面接名词，以逗号结束"
+    },
+    {
+        "query": "也 . 教师",
+        "description": "也后面接任意字符，然后是教师"
+    },
+    {
+        "query": "(n) 没有{begin($1)!=[弟 夏 组 恋]}",
+        "description": "名词不以弟、夏、组、恋开始且后面接没有"
+    },
+    {
+        "query": "(nr) 首 轮 (v){end($1)=[帅 练 建]}",
+        "description": "人名后接首和轮，动词以帅、练、建结束"
+    },
+    {
+        "query": "获 总/b 冠军",
+        "description": "获后接总/副形词和冠军"
+    },
+    {
+        "query": "(nr) 成功 (v){len($1)<4}",
+        "description": "人名后接成功，动词长度小于4"
+    },
+    {
+        "query": "(m) 连胜 骑士 五 (v){len($1)=1; len($2)=2}",
+        "description": "数词后接连胜、骑士、五，动词长度为1且骑士长度为2"
+    },
+    {
+        "query": "(n) (n){len($2)<3}",
+        "description": "名词后接名词，第二个名词长度小于3"
+    },
+    {
+        "query": "岛屿 @ 》",
+        "description": "岛屿后接任意词性，然后是书名号"
+    },
+    {
+        "query": "对 (n) 来说{begin($1)=[人 百]}",
+        "description": "对后面接名词，名词以人或百开始，然后是来说"
+    },
+    {
+        "query": "和平 w 发展",
+        "description": "和平后接标点符号和名词发展"
+    },
+    {
+        "query": "(w) (v){$1!=$2}",
+        "description": "标点符号后接动词，标点符号和动词不同"
+    },
+    {
+        "query": "民族 (w){count>3}",
+        "description": "民族后接标点符号，标点符号出现次数大于3"
+    },
+    {
+        "query": "思之 .",
+        "description": "思之后接任意字符"
+    },
+    {
+        "query": "纪程",
+        "description": "包含纪程的短语"
+    },
+    {
+        "query": "青铜 @/[n v]",
+        "description": "青铜后接名词或动词"
+    },
+    {
+        "query": "第一 ~/[q v] 其实",
+        "description": "第一后接量词或动词，然后是其实"
+    },
+    {
+        "query": "书者 ~",
+        "description": "书者后接任意词"
+    }
+]
+```

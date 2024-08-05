@@ -1,0 +1,86 @@
+以下是根据您提供的检索式及其含义的json结构：
+
+```json
+[
+    {
+        "query": "前",
+        "description": "包含“前”的句子"
+    },
+    {
+        "query": "nr 摄",
+        "description": "人名后接摄"
+    },
+    {
+        "query": "香港 @ 通航",
+        "description": "香港后接通航，中间有一个词"
+    },
+    {
+        "query": "该 (v){len($1)!=3}",
+        "description": "该后面接动词，且动词长度不等于3"
+    },
+    {
+        "query": "打破",
+        "description": "包含打破的句子"
+    },
+    {
+        "query": "(v) 想法 要 (v){end($2)!=[扔 半]}",
+        "description": "动词后接想法要动词，且动词不以扔或半结束"
+    },
+    {
+        "query": "心态 . 警醒",
+        "description": "心态和警醒之间有一个词"
+    },
+    {
+        "query": "加强 (n) 信念{len($1)>1}",
+        "description": "加强后接名词信念，且名词长度大于1"
+    },
+    {
+        "query": "@/[nz v] 客户端",
+        "description": "以语素或动词开头的词后接客户端"
+    },
+    {
+        "query": "(ns) 网友{begin($1)!=[性 找]}",
+        "description": "地名后接网友，且地名不以性或找开始"
+    },
+    {
+        "query": "问政 v 蜗牛",
+        "description": "问政后接动词蜗牛"
+    },
+    {
+        "query": "人民 (n){end($1)=[觉 金 床]}",
+        "description": "人民后接名词，且名词以觉、金或床结束"
+    },
+    {
+        "query": "看点 @ 精确",
+        "description": "看点后接精确，中间有一个词"
+    },
+    {
+        "query": "说 @/[u v] 算",
+        "description": "说后接以助词或动词开头的词，再接算"
+    },
+    {
+        "query": "贫困",
+        "description": "包含贫困的句子"
+    },
+    {
+        "query": "积雪 (n) 。{count<299}",
+        "description": "积雪后接名词，句尾为句号，且该模式出现次数小于299"
+    },
+    {
+        "query": "多少 @/[n v] ？",
+        "description": "多少后接以名词或动词开头的词，句尾为问号"
+    },
+    {
+        "query": "(l) (n){len($2)!=3}",
+        "description": "习用语后接名词，且名词长度不等于3"
+    },
+    {
+        "query": "不 (v) 。{len($1)=2}",
+        "description": "不后接动词，动词长度为2，句尾为句号"
+    },
+    {
+        "query": "笑 ~ ：",
+        "description": "笑后接一个词，再接冒号"
+    }
+]
+```

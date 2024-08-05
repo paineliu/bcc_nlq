@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "喝 n 喝",
+        "description": "包含喝 n 喝的句子"
+    },
+    {
+        "query": "在N上堆",
+        "description": "在 N 的上堆的句子"
+    },
+    {
+        "query": "w毋庸讳言",
+        "description": "w 毋庸讳言 的句子"
+    },
+    {
+        "query": "还不是a",
+        "description": "还不是 形容词 的句子"
+    },
+    {
+        "query": "v在+n+f",
+        "description": "动词 在 后接 名词 和 形状词 的句子"
+    },
+    {
+        "query": "v在 n f",
+        "description": "动词 在 后接 名词 和 形状词 的句子"
+    },
+    {
+        "query": "o哒",
+        "description": "哒 声音词 的句子"
+    },
+    {
+        "query": "每人w",
+        "description": "每人 标点符号 的句子"
+    },
+    {
+        "query": "v一边",
+        "description": "动词 一边 的句子"
+    },
+    {
+        "query": "一部分n",
+        "description": "一部分 名词 的句子"
+    },
+    {
+        "query": "有v",
+        "description": "有 动词 的句子"
+    },
+    {
+        "query": "瞧他a的w",
+        "description": "瞧 他 形容词 的 标点符号 的句子"
+    },
+    {
+        "query": "v给谁",
+        "description": "动词 给 后接 代词 的句子"
+    },
+    {
+        "query": "n政治",
+        "description": "政治 名词 的句子"
+    },
+    {
+        "query": "d+p+我",
+        "description": "副词 加 我 的句子"
+    },
+    {
+        "query": "d p 我",
+        "description": "副词 和 我 的句子"
+    },
+    {
+        "query": "多+v",
+        "description": "多 动词 的句子"
+    },
+    {
+        "query": "多 v",
+        "description": "多 后接 动词 的句子"
+    },
+    {
+        "query": "a兄弟",
+        "description": "形容词 后接 兄弟 的句子"
+    },
+    {
+        "query": "v什么？",
+        "description": "动词 什么 后接 标点符号 的句子"
+    },
+    {
+        "query": "。V着",
+        "description": "句尾 标点符号 动词 后接 标点符号 的句子"
+    },
+    {
+        "query": "满n",
+        "description": "满 名词 的句子"
+    },
+    {
+        "query": "(a)一(q)，",
+        "description": "副词 加 数词 ， 标点符号 的句子"
+    },
+    {
+        "query": "还没有v",
+        "description": "还没有 动词 的句子"
+    },
+    {
+        "query": "a仓库",
+        "description": "形容词 后接 仓库 的句子"
+    },
+    {
+        "query": "虚v",
+        "description": "虚 动词 的句子"
+    },
+    {
+        "query": "N人",
+        "description": "N 名词 后接 人 的句子"
+    },
+    {
+        "query": "有一点不a",
+        "description": "有一点 形容词 不 的句子"
+    },
+    {
+        "query": "吃过饭v",
+        "description": "吃过饭 动词 的句子"
+    },
+    {
+        "query": "a的疼痛",
+        "description": "形容词 后接 疼痛 的句子"
+    },
+    {
+        "query": "从来把n+v了",
+        "description": "从来 把 名词 后接 动词 了 的句子"
+    },
+    {
+        "query": "从来把n v了",
+        "description": "从来 把 名词 后接 动词 了 的句子"
+    },
+    {
+        "query": "a到期",
+        "description": "形容词 后接 到期 的句子"
+    },
+    {
+        "query": "n控",
+        "description": "名词 后接 控 的句子"
+    },
+    {
+        "query": "赶快v",
+        "description": "赶快 动词 的句子"
+    },
+    {
+        "query": "a人生",
+        "description": "形容词 后接 人生 的句子"
+    },
+    {
+        "query": "r知识",
+        "description": "r 标记符 后接 知识 的句子"
+    },
+    {
+        "query": "还真a",
+        "description": "还真 形容词 的句子"
+    },
+    {
+        "query": "m呎",
+        "description": "m 标记符 后接 呎 的句子"
+    },
+    {
+        "query": "a一连",
+        "description": "形容词 后接 一连 的句子"
+    }
+]
+```

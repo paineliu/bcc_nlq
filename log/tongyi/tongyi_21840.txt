@@ -1,0 +1,160 @@
+```json
+[
+    {
+        "query": "订单/n 增多 ， 丁红玉 不 敢 懈怠/a",
+        "description": "订单数量增多，涉及人物丁红玉，不敢懈怠"
+    },
+    {
+        "query": "自然人+不/d+能",
+        "description": "自然人无法"
+    },
+    {
+        "query": "自然人 不/d 能",
+        "description": "自然人无法"
+    },
+    {
+        "query": "就地+../v",
+        "description": "就地进行动词操作"
+    },
+    {
+        "query": "就地 ../v",
+        "description": "就地进行动词操作"
+    },
+    {
+        "query": "主角/n+。/w",
+        "description": "主角之后句尾"
+    },
+    {
+        "query": "主角/n 。/w",
+        "description": "主角之后句尾"
+    },
+    {
+        "query": "老./n",
+        "description": "老字"
+    },
+    {
+        "query": "克定+说/v+。",
+        "description": "克定说了某事"
+    },
+    {
+        "query": "克定 说/v 。",
+        "description": "克定说了某事"
+    },
+    {
+        "query": "不+做/v+管家",
+        "description": "不做管家"
+    },
+    {
+        "query": "不 做/v 管家",
+        "description": "不做管家"
+    },
+    {
+        "query": "好意/n*v",
+        "description": "表达好意"
+    },
+    {
+        "query": "目前/t+，",
+        "description": "目前情况"
+    },
+    {
+        "query": "目前/t ，",
+        "description": "目前情况"
+    },
+    {
+        "query": "总统府+内/f+。",
+        "description": "总统府内部"
+    },
+    {
+        "query": "总统府 内/f 。",
+        "description": "总统府内部"
+    },
+    {
+        "query": "爱心/n*v",
+        "description": "表达爱心"
+    },
+    {
+        "query": "一道+风景/i+！",
+        "description": "描述一道风景"
+    },
+    {
+        "query": "一道 风景/i ！",
+        "description": "描述一道风景"
+    },
+    {
+        "query": "细/a.",
+        "description": "细字"
+    },
+    {
+        "query": "洗/v",
+        "description": "进行洗的动作"
+    },
+    {
+        "query": "第六十二/m+条/q",
+        "description": "第六十二条"
+    },
+    {
+        "query": "第六十二/m 条/q",
+        "description": "第六十二条"
+    },
+    {
+        "query": "亲/v",
+        "description": "亲动作"
+    },
+    {
+        "query": "./v不../a",
+        "description": "否定动作"
+    },
+    {
+        "query": "有人/r+来+取经/v",
+        "description": "有人前来取经"
+    },
+    {
+        "query": "有人/r 来 取经/v",
+        "description": "有人前来取经"
+    },
+    {
+        "query": "吃奶+也/d+尴尬",
+        "description": "吃奶也感到尴尬"
+    },
+    {
+        "query": "吃奶 也/d 尴尬",
+        "description": "吃奶也感到尴尬"
+    },
+    {
+        "query": "是/v+，+她+外出+学习+手机+关机+。/w",
+        "description": "是的，她外出学习并将手机关机"
+    },
+    {
+        "query": "是/v ， 她 外出 学习 手机 关机 。/w",
+        "description": "是的，她外出学习并将手机关机"
+    },
+    {
+        "query": "脚下+冰雪/n+的",
+        "description": "脚下的冰雪"
+    },
+    {
+        "query": "整改+落实/v",
+        "description": "整改并落实"
+    },
+    {
+        "query": "整改 落实/v",
+        "description": "整改并落实"
+    },
+    {
+        "query": "舆论/n+又",
+        "description": "舆论再次"
+    },
+    {
+        "query": "舆论/n 又",
+        "description": "舆论再次"
+    },
+    {
+        "query": "信+他/r+？",
+        "description": "询问是否相信他"
+    },
+    {
+        "query": "信 他/r ？",
+        "description": "询问是否相信他"
+    }
+]
+```

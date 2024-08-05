@@ -1,0 +1,167 @@
+以下是将给定的检索式转换为带含义的json结构的结果：
+
+```json
+[
+    {
+        "query": "首q",
+        "description": "以首字开头的句子"
+    },
+    {
+        "query": "m+名+n",
+        "description": "由形语素、名词、名词组成的句子"
+    },
+    {
+        "query": "m 名 n",
+        "description": "由形语素、名词、名词组成的句子"
+    },
+    {
+        "query": "v兴旺了",
+        "description": "动词后接表示兴旺的句子"
+    },
+    {
+        "query": "w两q",
+        "description": "以w开头的句子后接两个量词"
+    },
+    {
+        "query": "不敢v+w",
+        "description": "动词'不敢'后接某个词的句子"
+    },
+    {
+        "query": "不敢v w",
+        "description": "动词'不敢'后接某个词的句子"
+    },
+    {
+        "query": "nr赏识",
+        "description": "人名后接表示赏识的句子"
+    },
+    {
+        "query": "v调查",
+        "description": "动词后接表示调查的句子"
+    },
+    {
+        "query": "a得多。",
+        "description": "形容词后接表示多的句子，句末有句点"
+    },
+    {
+        "query": "n油灯",
+        "description": "名词后接表示油灯的句子"
+    },
+    {
+        "query": "跑N",
+        "description": "动词后接表示跑的句子"
+    },
+    {
+        "query": "在v前",
+        "description": "动词后接表示在之前的句子"
+    },
+    {
+        "query": "i+i",
+        "description": "由两个成语组成的句子"
+    },
+    {
+        "query": "i i",
+        "description": "由两个成语组成的句子"
+    },
+    {
+        "query": "不堪v",
+        "description": "形容词后接表示不堪的句子"
+    },
+    {
+        "query": "m见解",
+        "description": "形语素后接表示见解的句子"
+    },
+    {
+        "query": "主意v",
+        "description": "名词后接表示主意的句子"
+    },
+    {
+        "query": "有什么v头",
+        "description": "疑问句，询问有什么可以动词的句子"
+    },
+    {
+        "query": "a决心",
+        "description": "形容词后接表示决心的句子"
+    },
+    {
+        "query": "a不要",
+        "description": "形容词后接表示不要的句子"
+    },
+    {
+        "query": "a的生活",
+        "description": "形容词后接表示生活状态的句子"
+    },
+    {
+        "query": "茶房v",
+        "description": "动词后接表示茶房的句子"
+    },
+    {
+        "query": "手段n",
+        "description": "名词后接表示手段的句子"
+    },
+    {
+        "query": "v起来a",
+        "description": "动词后接表示起来的句子，形容词作为状态词"
+    },
+    {
+        "query": "那前m+q+n",
+        "description": "形语素后接量词和名词的句子"
+    },
+    {
+        "query": "那前m q n",
+        "description": "形语素后接量词和名词的句子"
+    },
+    {
+        "query": "a上加a",
+        "description": "形容词后接表示上加的句子"
+    },
+    {
+        "query": "没有多v",
+        "description": "否定句，表示没有过多动词的句子"
+    },
+    {
+        "query": "a伤脑筋",
+        "description": "形容词后接表示伤脑筋的句子"
+    },
+    {
+        "query": "。n的n是n！",
+        "description": "句点开头，表示某物的名词后接表示是的句子，句末感叹号"
+    },
+    {
+        "query": "特别V",
+        "description": "形容词后接表示特别的句子"
+    },
+    {
+        "query": "冻V",
+        "description": "形容词后接表示冻的句子"
+    },
+    {
+        "query": "细+V",
+        "description": "形语素后接表示细的句子"
+    },
+    {
+        "query": "细 V",
+        "description": "形语素后接表示细的句子"
+    },
+    {
+        "query": "大不a",
+        "description": "形容词后接表示不大的句子"
+    },
+    {
+        "query": "怪不a",
+        "description": "形容词后接表示怪不的句子"
+    },
+    {
+        "query": "留在s",
+        "description": "动词后接表示留在的句子"
+    },
+    {
+        "query": "m起n",
+        "description": "形语素后接名词的句子"
+    },
+    {
+        "query": "v严实了",
+        "description": "动词后接表示严实的句子"
+    }
+]
+```
+请注意，这些描述是基于给定的检索式直接翻译而来，可能无法完全反映原始检索式的所有可能含义。在实际应用中，这些描述应结合具体的上下文和语境来理解。

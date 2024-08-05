@@ -1,0 +1,156 @@
+```json
+[
+    {
+        "query": "(v) (r){len($1)!=3; len($2)!=3}",
+        "description": "动词后面接一个长度不为3的词，再接一个长度不为3的副词"
+    },
+    {
+        "query": "企业 (v) 重组{end($1)=[并 零 辉]}",
+        "description": "企业后面接动词，重组的末尾不能是并、零、辉"
+    },
+    {
+        "query": "部门 (v) 税收{len($1)=2}",
+        "description": "部门后面接动词，动词长度为2"
+    },
+    {
+        "query": "迈入 (n) 时代{len($1)>1}",
+        "description": "迈入后面接一个长度大于1的名词"
+    },
+    {
+        "query": "总 (n) 为{len($1)!=3}",
+        "description": "总后面接名词，名词长度不为3"
+    },
+    {
+        "query": "。(j) 召开 双周 (vn){$1=$2}",
+        "description": "句尾点后接召开，双周连续，且两者相同"
+    },
+    {
+        "query": "大家 @ 讲",
+        "description": "大家后面接一个词，词性不限"
+    },
+    {
+        "query": "变为 (n){begin($1)=[现 所]}",
+        "description": "变为后面接一个以现或所开头的名词"
+    },
+    {
+        "query": "追 (n) 钟声{len($1)!=2}",
+        "description": "追后面接名词，名词长度不为2"
+    },
+    {
+        "query": "相期 @/[i v] 至",
+        "description": "相期后面接一个词，词性为i或v，后面是至"
+    },
+    {
+        "query": "期待 w",
+        "description": "期待后面接一个词，词性为w"
+    },
+    {
+        "query": "是 a 的",
+        "description": "是后面接形容词，再接一个的"
+    },
+    {
+        "query": "(d) 举 盛事 (v){$1!=$2}",
+        "description": "副词举后面接盛事，且副词与盛事不同"
+    },
+    {
+        "query": ". 首发式",
+        "description": "句尾点后接首发式"
+    },
+    {
+        "query": "../ns 元素",
+        "description": "双音节动词后面接元素"
+    },
+    {
+        "query": "进行",
+        "description": "进行，单个词"
+    },
+    {
+        "query": "外交部 @ 就",
+        "description": "外交部后面接一个词，词性不限，后面是就"
+    },
+    {
+        "query": "(n) 是否 (p){len($1)=2; len($2)!=2}",
+        "description": "名词后面接是否，其中是否的长度为2，名词长度不为2"
+    },
+    {
+        "query": "朝 ~ 有",
+        "description": "朝后面接一个词，词性不限，后面是有的"
+    },
+    {
+        "query": "中国 ~ 八",
+        "description": "中国后面接一个词，词性不限，后面是八"
+    },
+    {
+        "query": "起初 . 以为",
+        "description": "起初后面隔一个字接以为"
+    },
+    {
+        "query": "做 v 外",
+        "description": "做后面接动词，动词后接外"
+    },
+    {
+        "query": "类似/a 现象",
+        "description": "类似后面接形容词，再接现象"
+    },
+    {
+        "query": "， ~/[r v] 并非",
+        "description": "逗号后面接一个词，词性为r或v，后面是非"
+    },
+    {
+        "query": "无意识 ./w",
+        "description": "无意识后面接一个词，词性为w"
+    },
+    {
+        "query": "讲 . 己所不欲",
+        "description": "讲后面隔一个字接己所不欲"
+    },
+    {
+        "query": "自由者 ~ 凡所欲为",
+        "description": "自由者后面接一个词，词性不限，后面是凡所欲为"
+    },
+    {
+        "query": "(n) 为 烈士 送行 的 (n){len($1)>1; len($2)>1}",
+        "description": "两个名词，第一个为烈士送行的，且长度大于1，第二个名词长度大于1"
+    },
+    {
+        "query": "中国 (n) 旅游年{middle($1)=[绸 娃 华]}",
+        "description": "中国后面接名词，名词中间是绸、娃或华"
+    },
+    {
+        "query": "尘肺病 v 救助",
+        "description": "尘肺病后面接动词救助"
+    },
+    {
+        "query": "腐必 v",
+        "description": "腐必后面接动词"
+    },
+    {
+        "query": "巡视 ~/[vn v] 成果",
+        "description": "巡视后面接一个词，词性为vn或v，后面是成果"
+    },
+    {
+        "query": "d 能 v",
+        "description": "d后面接能，再接动词"
+    },
+    {
+        "query": "正人 (d) 正{count>3}",
+        "description": "正人后面接一个副词，且该副词出现次数大于3"
+    },
+    {
+        "query": "用 ~ 的",
+        "description": "用后面接一个词，词性不限，后面是的"
+    },
+    {
+        "query": "~ 而",
+        "description": "一个词后面接而"
+    },
+    {
+        "query": "关进 ~ ？",
+        "description": "关进后面接一个词，后面是问号"
+    },
+    {
+        "query": "../[d v] ，",
+        "description": "双音节动词后面接一个词，可能是动词或副词，后面是逗号"
+    }
+]
+```

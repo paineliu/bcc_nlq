@@ -1,0 +1,166 @@
+以下是将上述检索式转换为带含义的JSON结构的结果：
+
+```json
+[
+    {
+        "query": "干部 (v) 作为{len($1)=1}",
+        "description": "干部之后的动词作为单字短句"
+    },
+    {
+        "query": "(m)+加强+舆论+(v){len($1)=1; len($2)=2}",
+        "description": "加强和舆论组成的短语，舆论之后的动词为单字短句"
+    },
+    {
+        "query": "(m) 加强 舆论 (v){len($1)=1; len($2)=2}",
+        "description": "加强和舆论组成的短语，舆论之后的动词为单字短句"
+    },
+    {
+        "query": "南非+(v){begin($1)=[举+熊+锁+屁]}",
+        "description": "南非之后的动词以举、熊、锁、屁开头"
+    },
+    {
+        "query": "南非 (v){begin($1)=[举 熊 锁 屁]}",
+        "description": "南非之后的动词以举、熊、锁、屁开头"
+    },
+    {
+        "query": "座+(n)+被{begin($1)=[城+亮+雷+输]}",
+        "description": "座之后的名词以城、亮、雷、输开头，被作为句尾"
+    },
+    {
+        "query": "座 (n) 被{begin($1)=[城 亮 雷 输]}",
+        "description": "座之后的名词以城、亮、雷、输开头，被作为句尾"
+    },
+    {
+        "query": "为(n)供(r){len($1)<4;len($2)<4}",
+        "description": "为和供都是少于4个字的词"
+    },
+    {
+        "query": "办医+(w){count>6}",
+        "description": "办医作为短句，出现次数大于6次"
+    },
+    {
+        "query": "办医 (w){count>6}",
+        "description": "办医作为短句，出现次数大于6次"
+    },
+    {
+        "query": "(m)+是+市场+(v){len($1)!=2; len($2)=2}",
+        "description": "市场之后的动词为单字短句，且'是'不为2个字"
+    },
+    {
+        "query": "(m) 是 市场 (v){len($1)!=2; len($2)=2}",
+        "description": "市场之后的动词为单字短句，且'是'不为2个字"
+    },
+    {
+        "query": "亏+(v)+，{begin($1)!=[写+杂]}",
+        "description": "亏之后的动词，逗号之前不以写、杂开头"
+    },
+    {
+        "query": "亏 (v) ，{begin($1)!=[写 杂]}",
+        "description": "亏之后的动词，逗号之前不以写、杂开头"
+    },
+    {
+        "query": "一+(q)+深刻{len($1)!=2}",
+        "description": "一之后的形容词不为2个字"
+    },
+    {
+        "query": "一 (q) 深刻{len($1)!=2}",
+        "description": "一之后的形容词不为2个字"
+    },
+    {
+        "query": "(w)+小镇+(w){$1!=$2}",
+        "description": "小镇前后不相同"
+    },
+    {
+        "query": "(w) 小镇 (w){$1!=$2}",
+        "description": "小镇前后不相同"
+    },
+    {
+        "query": "(v)+(n){count>9}",
+        "description": "动词和名词组成的短语，出现次数大于9次"
+    },
+    {
+        "query": "(v) (n){count>9}",
+        "description": "动词和名词组成的短语，出现次数大于9次"
+    },
+    {
+        "query": "，+(r)+仅{count>8}",
+        "description": "仅作为句尾，出现次数大于8次"
+    },
+    {
+        "query": "， (r) 仅{count>8}",
+        "description": "仅作为句尾，出现次数大于8次"
+    },
+    {
+        "query": "学问(n)*w{len($1)=2}",
+        "description": "学问作为名词，之后的词为2个字"
+    },
+    {
+        "query": "得来不易+(w){count>4}",
+        "description": "得来不易作为短句，出现次数大于4次"
+    },
+    {
+        "query": "得来不易 (w){count>4}",
+        "description": "得来不易作为短句，出现次数大于4次"
+    },
+    {
+        "query": "给(n)供(n){len($1)<4;len($2)<4}",
+        "description": "给和供都是少于4个字的词"
+    },
+    {
+        "query": "服务+(c)+票价{len($1)=1}",
+        "description": "服务作为单字短句，之后的词为票价"
+    },
+    {
+        "query": "服务 (c) 票价{len($1)=1}",
+        "description": "服务作为单字短句，之后的词为票价"
+    },
+    {
+        "query": "(v)+文化+(n){len($1)!=2; len($2)!=3}",
+        "description": "文化之后的名词不为3个字，且文化不为2个字"
+    },
+    {
+        "query": "(v) 文化 (n){len($1)!=2; len($2)!=3}",
+        "description": "文化之后的名词不为3个字，且文化不为2个字"
+    },
+    {
+        "query": "(vn)+节奏{count>3}",
+        "description": "节奏作为短语，出现次数大于3次"
+    },
+    {
+        "query": "(vn) 节奏{count>3}",
+        "description": "节奏作为短语，出现次数大于3次"
+    },
+    {
+        "query": "(n)+放权{len($1)>1}",
+        "description": "放权作为名词，长度大于1"
+    },
+    {
+        "query": "(n) 放权{len($1)>1}",
+        "description": "放权作为名词，长度大于1"
+    },
+    {
+        "query": "细腻+(vn)+大师{begin($1)=[演+丁+勒+呢]}",
+        "description": "细腻之后的大师以演、丁、勒、呢开头"
+    },
+    {
+        "query": "细腻 (vn) 大师{begin($1)=[演 丁 勒 呢]}",
+        "description": "细腻之后的大师以演、丁、勒、呢开头"
+    },
+    {
+        "query": "(d)+(v){len($1)=1; len($2)!=3}",
+        "description": "动词长度为1，且之后的动词长度不为3"
+    },
+    {
+        "query": "(d) (v){len($1)=1; len($2)!=3}",
+        "description": "动词长度为1，且之后的动词长度不为3"
+    },
+    {
+        "query": "的+(n)+发生{begin($1)=[城+赵+通]}",
+        "description": "的之后的名词以城、赵、通开头"
+    },
+    {
+        "query": "的 (n) 发生{begin($1)=[城 赵 通]}",
+        "description": "的之后的名词以城、赵、通开头"
+    }
+]
+```

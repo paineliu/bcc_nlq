@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "进[进+一进+]",
+        "description": "进后面接进和一进组合"
+    },
+    {
+        "query": "进[进 一进 ]",
+        "description": "进后面接进或一进"
+    },
+    {
+        "query": "天生v+a[，+。]",
+        "description": "天生后面接形容词和逗号或句号组合"
+    },
+    {
+        "query": "天生v a[， 。]",
+        "description": "天生后面接形容词和逗号或句号"
+    },
+    {
+        "query": "特地v[，+。]",
+        "description": "特地后面接逗号或句号组合"
+    },
+    {
+        "query": "特地v[， 。]",
+        "description": "特地后面接逗号或句号"
+    },
+    {
+        "query": "戴n+[f+s]",
+        "description": "戴后面接f或s组合"
+    },
+    {
+        "query": "戴n [f s]",
+        "description": "戴后面接f或s"
+    },
+    {
+        "query": "w进.退[q+r+d+c+v+a++n+m++p]w",
+        "description": "w后面接进，后面隔一个字后接退，然后是q、r、d、c、v、a、n、m、p组合"
+    },
+    {
+        "query": "w进.退[q r d c v a  n m  p]w",
+        "description": "w后面接进，后面隔一个字后接退，然后是q、r、d、c、v、a、n、m、p"
+    },
+    {
+        "query": "[，+。]n一q[，+。]",
+        "description": "逗号或句号组合后面接n，然后是'一q'组合，最后是逗号或句号组合"
+    },
+    {
+        "query": "[， 。]n一q[， 。]",
+        "description": "逗号或句号组合后面接n，然后是'一q'组合，最后是逗号或句号"
+    },
+    {
+        "query": "w[q+r+d+c+v+a++n+m++p]乱.治w",
+        "description": "w后面接q、r、d、c、v、a、n、m、p组合，然后是乱，后面隔一个字后接治，最后是w"
+    },
+    {
+        "query": "w[q r d c v a  n m  p]乱.治w",
+        "description": "w后面接q、r、d、c、v、a、n、m、p，然后是乱，后面隔一个字后接治，最后是w"
+    },
+    {
+        "query": "不过[v+a+n+r][，+。]",
+        "description": "不过后面接形容词和n、r组合，然后是逗号或句号组合"
+    },
+    {
+        "query": "不过[v a n r][， 。]",
+        "description": "不过后面接形容词和n、r，然后是逗号或句号"
+    },
+    {
+        "query": "日夜v+n[，+。]",
+        "description": "日夜后面接动词和n组合，然后是逗号或句号组合"
+    },
+    {
+        "query": "日夜v n[， 。]",
+        "description": "日夜后面接动词和n，然后是逗号或句号"
+    },
+    {
+        "query": "曾经v+u[，+。]",
+        "description": "曾经后面接动词和u组合，然后是逗号或句号组合"
+    },
+    {
+        "query": "曾经v u[， 。]",
+        "description": "曾经后面接动词和u，然后是逗号或句号"
+    },
+    {
+        "query": "合理+[v+p+地]",
+        "description": "合理后面接动词、p和地组合"
+    },
+    {
+        "query": "合理 [v p 地]",
+        "description": "合理后面接动词、p和地"
+    },
+    {
+        "query": "而后d+n[，+。]",
+        "description": "而后后面接d和n组合，然后是逗号或句号组合"
+    },
+    {
+        "query": "而后d n[， 。]",
+        "description": "而后后面接d和n，然后是逗号或句号"
+    },
+    {
+        "query": "更加v+y[，+。]",
+        "description": "更加后面接动词和y组合，然后是逗号或句号组合"
+    },
+    {
+        "query": "更加v y[， 。]",
+        "description": "更加后面接动词和y，然后是逗号或句号"
+    },
+    {
+        "query": "做a事[，+。]",
+        "description": "做后面接a和事组合，然后是逗号或句号组合"
+    },
+    {
+        "query": "做a事[， 。]",
+        "description": "做后面接a和事，然后是逗号或句号"
+    },
+    {
+        "query": "眼看v+n[，+。]",
+        "description": "眼看后面接动词和n组合，然后是逗号或句号组合"
+    },
+    {
+        "query": "眼看v n[， 。]",
+        "description": "眼看后面接动词和n，然后是逗号或句号"
+    },
+    {
+        "query": "[查+走+补+拼+搭+戴+抱+依+介绍]个",
+        "description": "查、走、补、拼、搭、戴、抱、依、介绍组合后面接个"
+    },
+    {
+        "query": "[查 走 补 拼 搭 戴 抱 依 介绍]个",
+        "description": "查、走、补、拼、搭、戴、抱、依、介绍组合后面接个"
+    },
+    {
+        "query": "既不d[，+。]",
+        "description": "既不后面接d组合，然后是逗号或句号组合"
+    },
+    {
+        "query": "既不d[， 。]",
+        "description": "既不后面接d组合，然后是逗号或句号"
+    },
+    {
+        "query": "n很a[，+。]",
+        "description": "n后面接很、a组合，然后是逗号或句号组合"
+    },
+    {
+        "query": "n很a[， 。]",
+        "description": "n后面接很、a组合，然后是逗号或句号"
+    },
+    {
+        "query": "[s+t]*有",
+        "description": "s和t组合出现任意次之后接有"
+    },
+    {
+        "query": "[s t]*有",
+        "description": "s和t组合出现任意次之后接有"
+    },
+    {
+        "query": "似乎是[v+a]",
+        "description": "似乎是后面接动词和形容词组合"
+    },
+    {
+        "query": "似乎是[v a]",
+        "description": "似乎是后面接动词和形容词"
+    }
+]
+```

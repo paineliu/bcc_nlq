@@ -1,0 +1,86 @@
+以下是根据提供的检索式转换为带含义的JSON结构：
+
+```json
+[
+  {
+    "query": "(n) (u){len($1)=2; len($2)!=2}",
+    "description": "名词长度为2，后面接的助词长度不为2"
+  },
+  {
+    "query": "n n",
+    "description": "两个名词相连"
+  },
+  {
+    "query": "落幕",
+    "description": "包含落幕的句子"
+  },
+  {
+    "query": "柔性 (v) 领军者{count<227}",
+    "description": "柔性后接动词领军者，且出现次数少于227次"
+  },
+  {
+    "query": "天津市 (n) 副局长{len($1)!=4}",
+    "description": "天津市后接名词副局长，且名词长度不是4"
+  },
+  {
+    "query": "科技 ./[a v] 巨人",
+    "description": "科技后接形容词或动词巨人"
+  },
+  {
+    "query": "天津市 @/[j v] 负责人",
+    "description": "天津市后接简称略语或动词负责人，统计时按照词性归并"
+  },
+  {
+    "query": "(j) 负责人 (v){end($1)!=[而 尽 全]; len($2)>1}",
+    "description": "简称略语负责人后接动词，简称略语不以而、尽、全结尾，且动词长度大于1"
+  },
+  {
+    "query": "有 (a) 环境{begin($1)!=[很 美]}",
+    "description": "有后接形容词环境，形容词不以很、美开头"
+  },
+  {
+    "query": "沙宏磊 .",
+    "description": "包含沙宏磊的句子，沙宏磊后有一个点"
+  },
+  {
+    "query": "政府 ~ 保姆",
+    "description": "政府与保姆之间有一个词"
+  },
+  {
+    "query": "(vn) 人员{count<283}",
+    "description": "名动词人员出现次数少于283次"
+  },
+  {
+    "query": "天津 .../n 科技局",
+    "description": "天津后隔三个字接名词科技局"
+  },
+  {
+    "query": "(v) (v){len($2)<3}",
+    "description": "两个动词相连，第二个动词长度小于3"
+  },
+  {
+    "query": "(nz) 控股{len($1)>1}",
+    "description": "其他专名控股，长度大于1"
+  },
+  {
+    "query": "~ 增长",
+    "description": "一个词后接增长"
+  },
+  {
+    "query": "高 ~",
+    "description": "高后接一个词"
+  },
+  {
+    "query": "特大 ~ 拱架",
+    "description": "特大后接一个词再接拱架"
+  },
+  {
+    "query": "扩散 ../[n v]",
+    "description": "扩散后接双音节名词或动词"
+  },
+  {
+    "query": "首届 @/[j v] 能源",
+    "description": "首届后接简称略语或动词能源，统计时按照词性归并"
+  }
+]
+```

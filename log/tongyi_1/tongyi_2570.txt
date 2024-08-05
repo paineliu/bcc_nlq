@@ -1,0 +1,160 @@
+```json
+[
+    {
+        "query": "变 ~ 不",
+        "description": "变后跟一个词，然后是不"
+    },
+    {
+        "query": ". 蟠虺",
+        "description": "句首是'.'，后面是'蟠虺'"
+    },
+    {
+        "query": "正 ~ 如此",
+        "description": "正后跟一个词，然后是如此"
+    },
+    {
+        "query": "不够 ~",
+        "description": "不够后面可能有一个词"
+    },
+    {
+        "query": "还是 (n){len($1)=2}",
+        "description": "还是后面跟着一个长度为2的名词"
+    },
+    {
+        "query": "(ns) (w){begin($1)!=[期 精]}",
+        "description": "两个地名，且第一个词的开始字符不等于期或精"
+    },
+    {
+        "query": "追寻 (n) 变迁{len($1)<3}",
+        "description": "追寻后面接一个长度小于3的名词，描述变迁"
+    },
+    {
+        "query": "@/[w v] 日头",
+        "description": "日头前面是单音节词或双音节词"
+    },
+    {
+        "query": "悲壮 ~/[u v] 探索",
+        "description": "悲壮后面离合出现一个动词或语气词探索"
+    },
+    {
+        "query": "设计 . 蔡华伟",
+        "description": "设计后面隔一个字后接蔡华伟"
+    },
+    {
+        "query": "真的",
+        "description": "真的单独作为一个词"
+    },
+    {
+        "query": "张 ../[nr v] 主持",
+        "description": "张后面是双音节词，可能是人名，再接主持"
+    },
+    {
+        "query": "是 .... 生生不息",
+        "description": "是后面接一系列词，最后是生生不息"
+    },
+    {
+        "query": "推动 ~/[n v] 创新",
+        "description": "推动后面离合出现名词或动词，然后是创新"
+    },
+    {
+        "query": "(n) 创新 ， 重点 是 (v){begin($1)=[万众 睡 镇]; len($2)=2}",
+        "description": "名词后接创新，重点后面跟一个长度为2的副词"
+    },
+    {
+        "query": "惟 (n) 进{len($1)!=4}",
+        "description": "惟后面接一个长度不为4的名词"
+    },
+    {
+        "query": "v 文化",
+        "description": "动词后面接文化"
+    },
+    {
+        "query": ".. 的 ..",
+        "description": "两个连续的标点符号后面接两个标点符号"
+    },
+    {
+        "query": "未来 ./w",
+        "description": "未来后面接一个词作为句尾"
+    },
+    {
+        "query": "留住 @ 根脉",
+        "description": "留住后面接一个词，统计时按词性归并"
+    },
+    {
+        "query": "../[v v] 中华",
+        "description": "双音节动词后面接中华"
+    },
+    {
+        "query": "../n 深刻",
+        "description": "双音节名词后面接深刻"
+    },
+    {
+        "query": "家底/n 的 重大 举措 。/w",
+        "description": "家底后面接名词，然后是'的'，重大，举措，句尾可能是句点"
+    },
+    {
+        "query": "@/[r v] 真",
+        "description": "真前面是代词或动词"
+    },
+    {
+        "query": "../a 文物 的 ..../i",
+        "description": "双音节形容词后面接文物，可能是形容词或介词"
+    },
+    {
+        "query": "总书记 ../[l v] 写",
+        "description": "总书记后面接领导词或动词，写"
+    },
+    {
+        "query": "之 (n) 。{len($1)!=2}",
+        "description": "之后面接名词，但名词长度不为2，句尾是句点"
+    },
+    {
+        "query": "在 国家/n 科学技术",
+        "description": "在后面接国家，名词，科学技术"
+    },
+    {
+        "query": "、 朋友们/n :",
+        "description": "并列符号后接朋友们，名词，冒号"
+    },
+    {
+        "query": "vn 空间 w",
+        "description": "单音节动词后面接空间，可能是句尾"
+    },
+    {
+        "query": "未来 (w){count<927}",
+        "description": "未来作为句尾，实例频次小于927"
+    },
+    {
+        "query": "中华人民共和国 ~",
+        "description": "中华人民共和国后面可能跟一个词"
+    },
+    {
+        "query": "结 v 更",
+        "description": "结后面接动词，可能是更"
+    },
+    {
+        "query": "上月/t 同比 上涨/v",
+        "description": "上月后面接时间词，同比后面接动词上涨"
+    },
+    {
+        "query": "(vn) (vn){len($1)<3}",
+        "description": "两个连续的动词，且第一个动词长度小于3"
+    },
+    {
+        "query": "公安 (vn){len($1)<3}",
+        "description": "公安后面接长度小于3的动词"
+    },
+    {
+        "query": "推进 @/[m v] 项",
+        "description": "推进后面接介词或动词，后面可能是项目"
+    },
+    {
+        "query": "今年 (j) 笔试{begin($1)=[国 局 想]}",
+        "description": "今年后面接单音节词，笔试内容可能是国、局、想等"
+    },
+    {
+        "query": "期权 @",
+        "description": "期权后面可能是词性标记，统计时按词性归并"
+    }
+]
+```

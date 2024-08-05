@@ -1,0 +1,146 @@
+以下是检索式及其含义的JSON结构：
+
+```json
+[
+    {
+        "query": "~/[m v] 条",
+        "description": "包含‘m’或‘v’开头的条"
+    },
+    {
+        "query": "(m) 条{count<611}",
+        "description": "包含‘m’开头的条，实例频次少于611次"
+    },
+    {
+        "query": "第二十四 (q){len($1)=1}",
+        "description": "第二十四，单字"
+    },
+    {
+        "query": "(m) (q){len($1)!=5}",
+        "description": "‘m’后跟不是5个字符的单字"
+    },
+    {
+        "query": "第二十六 条/q",
+        "description": "第二十六，后面接‘/q’"
+    },
+    {
+        "query": "教学 (n) 。{begin($1)!=[缺 付 衣 古]}",
+        "description": "教学后面，不是以‘缺’、‘付’、‘衣’或‘古’开头"
+    },
+    {
+        "query": "~ 条",
+        "description": "一个词后面接条"
+    },
+    {
+        "query": "(n) 地图{len($1)=3}",
+        "description": "名词后面接长度为3的‘地图’"
+    },
+    {
+        "query": "(m) 条{len($1)<5}",
+        "description": "‘m’开头的条，长度小于5"
+    },
+    {
+        "query": "第三十三 (q){count<760}",
+        "description": "第三十三，实例频次少于760次"
+    },
+    {
+        "query": "(m) 条{count<632}",
+        "description": "‘m’开头的条，实例频次少于632次"
+    },
+    {
+        "query": "(m) 条{len($1)>3}",
+        "description": "‘m’开头的条，长度大于3"
+    },
+    {
+        "query": "第三十六 q",
+        "description": "第三十六，后面接单字‘q’"
+    },
+    {
+        "query": "第四十二",
+        "description": "第四十二"
+    },
+    {
+        "query": "第四十三 条/q",
+        "description": "第四十三，后面接‘/q’"
+    },
+    {
+        "query": "第四十四/m 条",
+        "description": "第四十四，后面接‘/m’再接条"
+    },
+    {
+        "query": "(m) 条{count>6}",
+        "description": "‘m’开头的条，实例频次大于6"
+    },
+    {
+        "query": "第四十六 条/q",
+        "description": "第四十六，后面接‘/q’"
+    },
+    {
+        "query": "第四十七 条/q",
+        "description": "第四十七，后面接‘/q’"
+    },
+    {
+        "query": "第四十八 (q){len($1)=1}",
+        "description": "第四十八，单字"
+    },
+    {
+        "query": "第四十九/m 条/q",
+        "description": "第四十九，后面接‘/m’再接‘/q’"
+    },
+    {
+        "query": "第五十 @/[q v]",
+        "description": "第五十，后面接‘/’再接‘q’或‘v’"
+    },
+    {
+        "query": "第五十一 (q){count>4}",
+        "description": "第五十一，后面接‘/q’，实例频次大于4"
+    },
+    {
+        "query": "@ 条",
+        "description": "一个词后面接条，在统计时按照词性归并"
+    },
+    {
+        "query": "第五十三 (q){len($1)!=2}",
+        "description": "第五十三，后面接不是两个字符的词"
+    },
+    {
+        "query": "(m) (q){len($1)=4}",
+        "description": "‘m’后跟长度为4的词"
+    },
+    {
+        "query": "@ 条",
+        "description": "一个词后面接条，在统计时按照词性归并"
+    },
+    {
+        "query": "条",
+        "description": "条"
+    },
+    {
+        "query": "(m) 条{count>3}",
+        "description": "‘m’开头的条，实例频次大于3"
+    },
+    {
+        "query": "(m) 条{end($1)=[八 懒 晒 精]}",
+        "description": "‘m’开头的条，末尾是‘八’、‘懒’、‘晒’或‘精’"
+    },
+    {
+        "query": "设计 vn 条例",
+        "description": "设计后接名动词vn的条例"
+    },
+    {
+        "query": "......./[ns v] 国务院",
+        "description": "多个连续字符后接‘ns’或‘v’的国务院"
+    },
+    {
+        "query": "(n) (vn){begin($2)!=[永 上 凶 随]}",
+        "description": "名词后面接名动词，且名动词开头不是‘永’、‘上’、‘凶’或‘随’"
+    },
+    {
+        "query": "(m) 条{len($1)>2}",
+        "description": "‘m’开头的条，长度大于2"
+    },
+    {
+        "query": "建设 (n) 勘察{count<461}",
+        "description": "建设后接名词勘察，实例频次少于461次"
+    }
+]
+```

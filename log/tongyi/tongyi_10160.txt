@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "说句.....话",
+        "description": "说句后接一系列标点符号，再接话"
+    },
+    {
+        "query": "怕*大概",
+        "description": "怕后面离合出现大概"
+    },
+    {
+        "query": "应该*的",
+        "description": "应该后面离合出现的应该是"
+    },
+    {
+        "query": "v得d.w",
+        "description": "动词后接得d，再接句尾"
+    },
+    {
+        "query": "甚或*恐怕",
+        "description": "甚或后面离合出现恐怕"
+    },
+    {
+        "query": "w饱.饥w",
+        "description": "饱后面隔一个字后接饥，再接w"
+    },
+    {
+        "query": "坚持*n",
+        "description": "坚持后接名词"
+    },
+    {
+        "query": "你一个..。",
+        "description": "你后接一个词，这个词后面隔一个或多个点，再接话"
+    },
+    {
+        "query": "你个*的*",
+        "description": "你个后面离合出现的应该是，再出现的应该是"
+    },
+    {
+        "query": "w坏.好w",
+        "description": "坏后面隔一个字后接好，再接w"
+    },
+    {
+        "query": "他.+过来w",
+        "description": "他后加一个词，这个词后接过来，再接w"
+    },
+    {
+        "query": "他. 过来w",
+        "description": "他后接过来，再接w"
+    },
+    {
+        "query": "好像*反而",
+        "description": "好像后面离合出现反而"
+    },
+    {
+        "query": "(a)一(.)是一(.)",
+        "description": "一后加一个词，这个词后接是一，再接一个点"
+    },
+    {
+        "query": ".就.吧",
+        "description": "一个点后接就，再接一个词，这个词后接吧"
+    },
+    {
+        "query": "理由@",
+        "description": "理由后接理由，统计时按照词性归并"
+    },
+    {
+        "query": "说句.........话",
+        "description": "说句后接一系列标点符号，再接话"
+    },
+    {
+        "query": "该...了",
+        "description": "该后接一系列标点符号，再接了"
+    },
+    {
+        "query": "大概*确也",
+        "description": "大概后面离合出现的确也"
+    },
+    {
+        "query": ".此.彼",
+        "description": "一个点后接此，再接一个词，这个词后接彼"
+    },
+    {
+        "query": ".不得",
+        "description": "一个点后接不得"
+    },
+    {
+        "query": "她一个*？",
+        "description": "她后接一个词，这个词后接问号"
+    },
+    {
+        "query": "轮不.",
+        "description": "轮后接一系列标点符号，再接不"
+    },
+    {
+        "query": "都快...........了",
+        "description": "都快后接一系列标点符号，再接了"
+    },
+    {
+        "query": "是*的；",
+        "description": "是后面离合出现的应该是，再接分号"
+    },
+    {
+        "query": "没有v*之前",
+        "description": "没有后接动词，这个动词后接之前"
+    },
+    {
+        "query": "也许*本来是",
+        "description": "也许后面离合出现的应该是本来是"
+    },
+    {
+        "query": "w忧.喜w",
+        "description": "忧后面隔一个字后接喜，再接w"
+    },
+    {
+        "query": "w缓.急w",
+        "description": "缓后面隔一个字后接急，再接w"
+    },
+    {
+        "query": "说好*的",
+        "description": "说好后面离合出现的应该是"
+    },
+    {
+        "query": "我..+过来w",
+        "description": "我后加一个词，这个词后接过来，再接w"
+    },
+    {
+        "query": "我.. 过来w",
+        "description": "我后接过来，再接w"
+    },
+    {
+        "query": "你一个....。",
+        "description": "你后接一个词，这个词后面隔一个或多个点，再接话"
+    },
+    {
+        "query": "恐怕*死活v",
+        "description": "恐怕后面离合出现死活"
+    },
+    {
+        "query": "是*的心态w",
+        "description": "是后面离合出现的心态"
+    },
+    {
+        "query": "对*来说",
+        "description": "对后面离合出现的应该是来说"
+    },
+    {
+        "query": "或许*偏偏",
+        "description": "或许后面离合出现偏偏"
+    },
+    {
+        "query": "没有*不",
+        "description": "没有后面离合出现的应该是不"
+    },
+    {
+        "query": "nr*污蔑",
+        "description": "nr后离合出现污蔑"
+    },
+    {
+        "query": "v*作用",
+        "description": "动词后面离合出现的作用"
+    }
+]
+```

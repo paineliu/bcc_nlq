@@ -1,0 +1,160 @@
+```json
+[
+    {
+        "query": "率 ~/[f v]", 
+        "description": "率后面接'f'或'v'"
+    },
+    {
+        "query": "率先垂范 d 无声", 
+        "description": "副词率先接'垂范'，后面是无声"
+    },
+    {
+        "query": "自觉 ./[v v] 政治", 
+        "description": "自觉后面接两个连续的动词，然后是政治"
+    },
+    {
+        "query": "能", 
+        "description": "能"
+    },
+    {
+        "query": "中国 @ 走出", 
+        "description": "中国后面接任意词性"
+    },
+    {
+        "query": "n 佳作", 
+        "description": "名词后面接佳作"
+    },
+    {
+        "query": "中国 .. 在", 
+        "description": "中国后面接任意词，后面是'在'"
+    },
+    {
+        "query": "中国", 
+        "description": "中国"
+    },
+    {
+        "query": "说 .", 
+        "description": "说后面接一个字符"
+    },
+    {
+        "query": "太 @/[a v] 了", 
+        "description": "太后面接形容词或动词，然后是了"
+    },
+    {
+        "query": "后悔 @/[w v]", 
+        "description": "后悔后面接'w'或'v'"
+    },
+    {
+        "query": "太 ~/[a v] 了", 
+        "description": "太后面接一个词，可能是形容词或动词，然后是了"
+    },
+    {
+        "query": "驻 (ns) 大使{end($1)=[尔 穷 期 谈]}", 
+        "description": "驻后面接'ns'，大使后面排除尔、穷、期、谈"
+    },
+    {
+        "query": ".. 基多", 
+        "description": "两个词的组合，可能是指基多"
+    },
+    {
+        "query": "慰安妇 @ 达成", 
+        "description": "慰安妇后面接达成"
+    },
+    {
+        "query": "(j) 企业 筑 梦 (ns){len($1)<3; len($2)>1}", 
+        "description": "两个词组，第一个长度小于3，第二个长度大于1"
+    },
+    {
+        "query": "蒙古国 ~/[vn v] 大使", 
+        "description": "蒙古国后面接一个动词或名词"
+    },
+    {
+        "query": "友谊 @ 中", 
+        "description": "友谊后面接中"
+    },
+    {
+        "query": "土耳其 (vn) 范围{len($1)>1}", 
+        "description": "土耳其后面接一个长度大于1的词"
+    },
+    {
+        "query": "重要 (n){len($1)>1}", 
+        "description": "重要后面接一个长度大于1的名词"
+    },
+    {
+        "query": "坚决 (v) 四风{len($1)!=3}", 
+        "description": "坚决后面接四风，但坚决这个词的长度不是3"
+    },
+    {
+        "query": "剃刀 ~/[n v] 论坛", 
+        "description": "剃刀后面接一个名词或动词"
+    },
+    {
+        "query": "(v) 用人 (w){count>10}", 
+        "description": "两个连续动词，用人，且实例数大于10"
+    },
+    {
+        "query": "(i) (v){len($1)>3; end($2)!=[谁 餐 蛮 服]}", 
+        "description": "两个连续词，第一个长度大于3，第二个排除特定词"
+    },
+    {
+        "query": "立足 a 涵养", 
+        "description": "立足后面接形容词涵养"
+    },
+    {
+        "query": "一 ./q .", 
+        "description": "一后面接一个量词，后面是一个字符"
+    },
+    {
+        "query": "一心 (v) 凝聚{begin($1)!=[的 身]}", 
+        "description": "一心后面接凝聚，但不以'的'或'身'开始"
+    },
+    {
+        "query": "(v) 公益{end($1)=[心 嘿]}", 
+        "description": "连续动词，公益，排除'心'或'嘿'作为结尾"
+    },
+    {
+        "query": "人民 (n){len($1)=2}", 
+        "description": "人民是一个长度为2的名词"
+    },
+    {
+        "query": "(u) (n){begin($2)=[群 怪 湿 忘]}", 
+        "description": "两个词，第一个是助词，第二个以群、怪、湿、忘开始"
+    },
+    {
+        "query": "(n) 的 媒介 (n){begin($1)!=[纸 跳]; len($2)>1}", 
+        "description": "两个名词，第一个以'的'开始，媒介后面排除'纸'、'跳'，且第二个名词长度大于1"
+    },
+    {
+        "query": "(vn) (u){end($1)=[联 厂 燕]}", 
+        "description": "一个动词和一个助词，动词后面排除联、厂、燕"
+    },
+    {
+        "query": "转型 (n) 的{len($1)>1}", 
+        "description": "转型后面接一个长度大于1的名词"
+    },
+    {
+        "query": "(v) (w){$1=$2}", 
+        "description": "两个连续动词，且内容相同"
+    },
+    {
+        "query": "转型 v", 
+        "description": "转型后面接一个动词"
+    },
+    {
+        "query": "@ 本报", 
+        "description": "任意词性接'本报'"
+    },
+    {
+        "query": "意义 @ 自不待言", 
+        "description": "意义后面接自不待言"
+    },
+    {
+        "query": "好 (r) 盘大{count<424}", 
+        "description": "好后面接形容词盘大，实例数少于424"
+    },
+    {
+        "query": "打开 @ 。", 
+        "description": "打开后面接一个字符"
+    }
+]
+```

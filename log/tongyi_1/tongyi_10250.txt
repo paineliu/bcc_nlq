@@ -1,0 +1,156 @@
+```json
+[
+    {
+        "query": "创新 @ 更",
+        "description": "创新后面接一个词，统计时按照词性归并"
+    },
+    {
+        "query": "交流",
+        "description": "交流"
+    },
+    {
+        "query": "(v) 学术{begin($1)=[拓 校]}",
+        "description": "学术开始是拓或校的动词"
+    },
+    {
+        "query": "培养/vn ， 制度 建设 是 关键/n",
+        "description": "培养和制度建设之间是动词，后面接名词关键"
+    },
+    {
+        "query": "(n) (n){begin($2)=[人 晕 酸 奶]}",
+        "description": "两个名词，第一个名词后面以人、晕、酸或奶开始"
+    },
+    {
+        "query": "管理 ./v 也",
+        "description": "管理后接单音节动词也"
+    },
+    {
+        "query": "想象 ./f 顺利",
+        "description": "想象后接副形词顺利"
+    },
+    {
+        "query": "位 独立/vn 学院",
+        "description": "位独立后接动词名词学院"
+    },
+    {
+        "query": "国外 ./u 经验",
+        "description": "国外后接介词经验"
+    },
+    {
+        "query": "不少 vn 学院",
+        "description": "不少后接双音节名词学院"
+    },
+    {
+        "query": "泰 (vn) 交流{count>5}",
+        "description": "泰后接单音节动词交流，且交流实例频次大于5"
+    },
+    {
+        "query": "中国 ~ 农业",
+        "description": "中国后接任意词"
+    },
+    {
+        "query": "(v) 中 (v){len($1)>1; end($2)!=[受 通 市]}",
+        "description": "两个动词，第一个动词长度大于1，且第二个动词不以受、通或市结尾"
+    },
+    {
+        "query": "进入 (n) 。{len($1)!=4}",
+        "description": "进入后接名词，但不包含4个字符"
+    },
+    {
+        "query": "(p) (n){len($1)=1; len($2)!=3}",
+        "description": "一个介词后接一个长度为1的名词，但名词长度不为3"
+    },
+    {
+        "query": "并 @ 今冬",
+        "description": "并后接一个词，统计时按照词性归并，紧跟今冬"
+    },
+    {
+        "query": "扶贫 (v) 扶错人{len($1)>1}",
+        "description": "扶贫后接动词扶，动词扶的长度大于1，后面接错人"
+    },
+    {
+        "query": "(d) 先 治 治 各种 (n){begin($2)=[眼 泡]}",
+        "description": "先治治后面接各种名词，第一个名词以眼或泡开始"
+    },
+    {
+        "query": "(s) 不免 嘀咕 ： (r){begin($1)=[心里 风 假]; len($2)=2}",
+        "description": "不免后面接嘀咕，嘀咕后跟冒号，冒号后接长度为2的任一词"
+    },
+    {
+        "query": "一 v ，",
+        "description": "一后接动词，后面可能有逗号"
+    },
+    {
+        "query": "(v) 了 (r){len($1)>1}",
+        "description": "一个动词后接了，且动词的长度大于1"
+    },
+    {
+        "query": "(u) 问题 (w){len($1)=1}",
+        "description": "问题后接一个字"
+    },
+    {
+        "query": "。",
+        "description": "句尾符号"
+    },
+    {
+        "query": "贫 ~ 富",
+        "description": "贫后接任意词，富后也可能接任意词"
+    },
+    {
+        "query": "有的 (ad) 散光{end($1)!=[专 费 福 阿]}",
+        "description": "有的后接形容词散光，且形容词散光不以专、费、福或阿结尾"
+    },
+    {
+        "query": "分清 (y) ，{count<423}",
+        "description": "分清后接语气词，且分清的实例频次小于423"
+    },
+    {
+        "query": "(v) 做法 ， 就是 青睐 (v){len($2)=1}",
+        "description": "做法后接一个单音节动词，动词就是后面接青睐，青睐长度为1"
+    },
+    {
+        "query": "只 . 肉眼",
+        "description": "只后接一个字，后面可能是肉眼"
+    },
+    {
+        "query": "村里 ./[d v] 产业",
+        "description": "村里后接介词或动词，后面接产业"
+    },
+    {
+        "query": "(v) (w){len($1)!=4}",
+        "description": "一个动词后接一个字，但动词的长度不为4"
+    },
+    {
+        "query": "出 在/p 心上",
+        "description": "出后接在，然后接介词心上"
+    },
+    {
+        "query": "~ 心",
+        "description": "心前可能接任意词"
+    },
+    {
+        "query": "艾滋病 .../n 上升",
+        "description": "艾滋病后接任意数量的字，然后接名词上升"
+    },
+    {
+        "query": "(n) 项目 (v){len($1)>1; len($2)=2}",
+        "description": "一个名词后接一个双音节动词，且名词长度大于1"
+    },
+    {
+        "query": "@ 全市",
+        "description": "全市前接一个词，统计时按照词性归并"
+    },
+    {
+        "query": "写作",
+        "description": "写作"
+    },
+    {
+        "query": "烟斗 (w) 宁肯{count>6}",
+        "description": "烟斗后接一个字，且烟斗后面宁肯的频次大于6"
+    },
+    {
+        "query": "他 .. 微博",
+        "description": "他后接任意数量的字，然后是微博"
+    }
+]
+```

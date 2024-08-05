@@ -1,0 +1,122 @@
+以下是将给定的检索式转换为带含义的json结构的结果：
+
+```json
+[
+    {
+        "query": "n+../n+v",
+        "description": "名词后接二字动词后接动词"
+    },
+    {
+        "query": "n ../n v",
+        "description": "名词后接单字动词后接动词"
+    },
+    {
+        "query": "太/d",
+        "description": "副词太"
+    },
+    {
+        "query": "垫江县+中医院/n+副院长",
+        "description": "地名后接机构团体后接职称"
+    },
+    {
+        "query": "垫江县 中医院/n 副院长",
+        "description": "地名、机构团体、职称连续出现"
+    },
+    {
+        "query": "背后/f+环球/n",
+        "description": "方位词背后后接名词"
+    },
+    {
+        "query": "背后/f 环球/n",
+        "description": "方位词背后后接名词"
+    },
+    {
+        "query": "李朝辉/nr+说",
+        "description": "人名后接动词"
+    },
+    {
+        "query": "太/d@",
+        "description": "副词太作为词性"
+    },
+    {
+        "query": "n+的+真情/n",
+        "description": "名词后接定语后接名词"
+    },
+    {
+        "query": "n 的 真情/n",
+        "description": "名词后接定语后接名词"
+    },
+    {
+        "query": "立刻/d+v+完",
+        "description": "副词立刻后接动词后接动词"
+    },
+    {
+        "query": "立刻/d v 完",
+        "description": "副词立刻后接动词后接动词"
+    },
+    {
+        "query": "巴塞罗那+由/p+第二",
+        "description": "地名后接介词后接序数词"
+    },
+    {
+        "query": "巴塞罗那 由/p 第二",
+        "description": "地名、介词、序数词连续出现"
+    },
+    {
+        "query": "矛盾+？/w",
+        "description": "名词后接问号"
+    },
+    {
+        "query": "机械化+增幅/n+高于",
+        "description": "名词后接名词后接动词"
+    },
+    {
+        "query": "等/v",
+        "description": "动词等"
+    },
+    {
+        "query": "国际+冰雪节/n+开幕",
+        "description": "名词后接机构团体后接动词"
+    },
+    {
+        "query": "了+积极/a+探索",
+        "description": "助词了后接形容词后接动词"
+    },
+    {
+        "query": "成果+一/m+桩",
+        "description": "名词后接数词后接名词"
+    },
+    {
+        "query": "抵/v+",
+        "description": "动词抵"
+    },
+    {
+        "query": "抵/v ",
+        "description": "动词抵后空格"
+    },
+    {
+        "query": "有的+企业/n+大批",
+        "description": "存在后接名词后接数量"
+    },
+    {
+        "query": "土地+，/w+我",
+        "description": "名词后接逗号后接代词"
+    },
+    {
+        "query": "企业+提高/v+商业",
+        "description": "名词后接动词后接名词"
+    },
+    {
+        "query": "，+带头/vd+溜",
+        "description": "逗号后接动词后接动词"
+    },
+    {
+        "query": "北京+杨秀宇/nr+有偿",
+        "description": "地名后接人名后接形容词"
+    },
+    {
+        "query": "n+的+亲情/n",
+        "description": "名词后接定语后接名词"
+    }
+]
+```

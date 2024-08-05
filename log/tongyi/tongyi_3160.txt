@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "淦",
+        "description": "无法解析，'淦'可能是口语或网络用语，缺乏明确的语义和语法结构。"
+    },
+    {
+        "query": "国家",
+        "description": "包含'国家'这个词的句子"
+    },
+    {
+        "query": "生物",
+        "description": "包含'生物'这个词的句子"
+    },
+    {
+        "query": "才能和谐",
+        "description": "包含'才能和谐'的句子"
+    },
+    {
+        "query": "大概绝对",
+        "description": "包含'大概绝对'的句子"
+    },
+    {
+        "query": "美丽的少年",
+        "description": "包含'美丽的少年'这个短语的句子"
+    },
+    {
+        "query": "不太融洽",
+        "description": "包含'不太融洽'的句子"
+    },
+    {
+        "query": "腐败",
+        "description": "包含'腐败'这个词的句子"
+    },
+    {
+        "query": "授人权",
+        "description": "包含'授人权'的句子"
+    },
+    {
+        "query": "岂知",
+        "description": "包含'岂知'这个短语的句子"
+    },
+    {
+        "query": "童军",
+        "description": "包含'童军'这个词的句子"
+    },
+    {
+        "query": "恐怕能够",
+        "description": "包含'恐怕能够'的句子"
+    },
+    {
+        "query": "露宿风餐",
+        "description": "包含'露宿风餐'的句子"
+    },
+    {
+        "query": "比较不",
+        "description": "包含'比较不'的句子"
+    },
+    {
+        "query": "人权下",
+        "description": "包含'人权下'的句子"
+    },
+    {
+        "query": "瘆人",
+        "description": "包含'瘆人'这个词的句子"
+    },
+    {
+        "query": "尤其是",
+        "description": "包含'尤其是'这个短语的句子"
+    },
+    {
+        "query": "和谐全面",
+        "description": "包含'和谐全面'的句子"
+    },
+    {
+        "query": "发泄",
+        "description": "包含'发泄'这个词的句子"
+    },
+    {
+        "query": "字",
+        "description": "包含'字'这个词的句子"
+    },
+    {
+        "query": "也是",
+        "description": "包含'也是'这个短语的句子"
+    },
+    {
+        "query": "想着",
+        "description": "包含'想着'这个短语的句子"
+    },
+    {
+        "query": "这算什么？",
+        "description": "包含'这算什么？'这个短语的句子"
+    },
+    {
+        "query": "贶",
+        "description": "无法解析，'贶'可能是口语或古文用语，缺乏明确的语义和语法结构。"
+    },
+    {
+        "query": "句叙述",
+        "description": "包含'句叙述'这个短语的句子"
+    },
+    {
+        "query": "和不和谐",
+        "description": "包含'和不和谐'的句子"
+    },
+    {
+        "query": "她人呢？",
+        "description": "包含'她人呢？'这个短语的句子"
+    },
+    {
+        "query": "概念化",
+        "description": "包含'概念化'这个词的句子"
+    },
+    {
+        "query": "告示",
+        "description": "包含'告示'这个词的句子"
+    },
+    {
+        "query": "用心",
+        "description": "包含'用心'这个词的句子"
+    },
+    {
+        "query": "紧着",
+        "description": "包含'紧着'这个词的句子"
+    },
+    {
+        "query": "国企",
+        "description": "包含'国企'这个词的句子"
+    },
+    {
+        "query": "和谐企业",
+        "description": "包含'和谐企业'的句子"
+    },
+    {
+        "query": "几乎",
+        "description": "包含'几乎'这个词的句子"
+    },
+    {
+        "query": "乃至于",
+        "description": "包含'乃至于'这个短语的句子"
+    },
+    {
+        "query": "吉少凶多",
+        "description": "包含'吉少凶多'的句子"
+    },
+    {
+        "query": "这看来",
+        "description": "包含'这看来'这个短语的句子"
+    },
+    {
+        "query": "负担",
+        "description": "包含'负担'这个词的句子"
+    },
+    {
+        "query": "我们那个",
+        "description": "包含'我们那个'这个短语的句子"
+    },
+    {
+        "query": "连同",
+        "description": "包含'连同'这个短语的句子"
+    }
+]
+```

@@ -1,0 +1,160 @@
+```json
+[
+    {
+        "query": "分析 ./[v v]", 
+        "description": "分析后面接两个连续的动词"
+    },
+    {
+        "query": "说 (w){count>5}", 
+        "description": "说这个词出现的次数大于5次"
+    },
+    {
+        "query": "改改 (u) 民生观{len($1)!=2}", 
+        "description": "连续的两个'改'后面接民生观，且'改'的个数不等于2"
+    },
+    {
+        "query": "(d) (v){len($2)=1}", 
+        "description": "两个副词，其中第二个副词长度为1"
+    },
+    {
+        "query": "令 ./n 欣慰", 
+        "description": "令后面接名词欣慰"
+    },
+    {
+        "query": "叫 ../nr 经营", 
+        "description": "叫后面接人名经营"
+    },
+    {
+        "query": "， @ 换旧", 
+        "description": "逗号后面接换旧"
+    },
+    {
+        "query": "从 @/[v v] 到", 
+        "description": "从后面接两个连续的动词到"
+    },
+    {
+        "query": "c 是", 
+        "description": "c后面是"
+    },
+    {
+        "query": "(c) (r){count>8}", 
+        "description": "两个词，其中第一个词的出现次数大于8"
+    },
+    {
+        "query": "盔甲 (u) 生命{len($1)!=2}", 
+        "description": "盔甲后面接生命，且'盔'和'甲'不是单独一个词"
+    },
+    {
+        "query": "名 (n) 获{len($1)!=4}", 
+        "description": "名后面接获得，但'名'不是一个四字词"
+    },
+    {
+        "query": "~ 药品", 
+        "description": "药品中间有一个不确定的词"
+    },
+    {
+        "query": "救 (n) 实行{len($1)>1}", 
+        "description": "救后面接实行，实行的长度大于1"
+    },
+    {
+        "query": "急 抢救/vn 药品", 
+        "description": "急后面接抢救动词和药品"
+    },
+    {
+        "query": "(v) (d){count>3}", 
+        "description": "两个动词，其中第二个动词的出现次数大于3"
+    },
+    {
+        "query": "利爪 (n) 解读{len($1)<3}", 
+        "description": "利爪后面接解读，解读的长度小于3"
+    },
+    {
+        "query": "(w) 充分 (v){end($2)=[虑 苏 问 很]}",
+        "description": "充分后面接一个动词，且动词的结尾是虑、苏、问或很"
+    },
+    {
+        "query": "蔡华伟 制图/v", 
+        "description": "蔡华伟后面接制图动词"
+    },
+    {
+        "query": "(u) (n){count<591}", 
+        "description": "两个词，其中第一个词的出现次数小于591"
+    },
+    {
+        "query": "水草 (a) 中国{begin($1)=[美 永 满]}", 
+        "description": "水草后面接形容词中国，且'水草'的开始部分是美、永或满"
+    },
+    {
+        "query": "扎陵湖/ns 畔", 
+        "description": "扎陵湖后面接名词畔"
+    },
+    {
+        "query": "三江源 (n) 供图{middle($1)=[公 吓 果]}", 
+        "description": "三江源后面接名词供图，供图的中间部分是公、吓或果"
+    },
+    {
+        "query": "牧民 (v) 才{len($1)=2}", 
+        "description": "牧民后面接才，'才'的长度为2"
+    },
+    {
+        "query": "淘金者 (v) 黄金{len($1)>1}", 
+        "description": "淘金者后面接黄金，淘金者的长度大于1"
+    },
+    {
+        "query": "法松 ~ ，", 
+        "description": "法松后面接一个不确定的词，然后是逗号"
+    },
+    {
+        "query": "了 ~/[r v] 句", 
+        "description": "了后面离合出现r或v后接句子"
+    },
+    {
+        "query": "(v) 才 让 说 (w){end($1)=[藏 句 若]}", 
+        "description": "三个动词，其中第二个动词是才，第三个动词是让，让后面接说，说的结尾是藏、句或若"
+    },
+    {
+        "query": "尕藏 ./d 让", 
+        "description": "尕藏后面接一个副词让"
+    },
+    {
+        "query": "说 ~/[w v]", 
+        "description": "说后面离合出现w或v"
+    },
+    {
+        "query": "拨款 @", 
+        "description": "拨款后面接一个词，词性未指定"
+    },
+    {
+        "query": "浓度 (v){end($1)=[降 初 春]}", 
+        "description": "浓度后面接一个动词，动词的结尾是降、初或春"
+    },
+    {
+        "query": "合作 ../vn 海气", 
+        "description": "合作后面接一个双音节动词和海气"
+    },
+    {
+        "query": "被 @/[n v] 改变", 
+        "description": "被后面接一个词，可能是名词或动词，然后是改变"
+    },
+    {
+        "query": "(ns) 村口{count>10}", 
+        "description": "两个词，其中第一个词的出现次数大于10，村口可能是地名"
+    },
+    {
+        "query": "(v) (w){len($1)>1}", 
+        "description": "两个动词，其中第二个动词的长度大于1"
+    },
+    {
+        "query": "'@ 有人", 
+        "description": "单引号后面接一个词，词性未指定，后面是有人"
+    },
+    {
+        "query": "王万军/nr 说 。/w", 
+        "description": "王万军后面接人名，然后是说，说后面是句号"
+    },
+    {
+        "query": "撤诉 @/[w v] 就", 
+        "description": "撤诉后面接一个词，可能是动词或句首词，然后是就"
+    }
+]
+```

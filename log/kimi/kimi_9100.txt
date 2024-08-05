@@ -1,0 +1,86 @@
+以下是检索式及其含义的json结构：
+
+```json
+[
+    {
+        "query": "孩子 ~",
+        "description": "孩子后面有一个词"
+    },
+    {
+        "query": "你",
+        "description": "包含你的句子"
+    },
+    {
+        "query": "也 (d) 接送{begin($1)=[从 它 湖]}",
+        "description": "副词也后面接副词，并且副词以从、它、湖开始"
+    },
+    {
+        "query": "事情 ~/[v v] 了",
+        "description": "事情后面有一个词，接着是动词，动词后面接了"
+    },
+    {
+        "query": "(r) 怎么办 (w){count>3}",
+        "description": "代词怎么办后面接标点符号，并且代词出现频次大于3"
+    },
+    {
+        "query": "../[n v] 的",
+        "description": "双音节名词后面接动词，再接的"
+    },
+    {
+        "query": "@ 说",
+        "description": "任意词性后面接说"
+    },
+    {
+        "query": "~ 人",
+        "description": "一个词后面接人"
+    },
+    {
+        "query": "(d) 人 回答 (r){len($1)!=2}",
+        "description": "副词后面接人，再接回答，并且副词长度不等于2"
+    },
+    {
+        "query": "(nr) 还 知道 吸烟 ， 他 可 (d){len($1)!=3; len($2)!=2}",
+        "description": "人名还知道吸烟，他可副词，人名长度不等于3，副词长度不等于2"
+    },
+    {
+        "query": "一 (q) 吧{len($1)=1}",
+        "description": "一后面接量词，并且量词长度等于1"
+    },
+    {
+        "query": "送给 他/r 吧",
+        "description": "送给他后接标点符号吧"
+    },
+    {
+        "query": "没 @/[v v] 雨伞",
+        "description": "没后面接任意词性，该词性以动词开始，再接雨伞"
+    },
+    {
+        "query": "带 .. 。",
+        "description": "带后面隔两个字接句号"
+    },
+    {
+        "query": "春 .. 承认",
+        "description": "春后面隔两个字接承认"
+    },
+    {
+        "query": "好 w",
+        "description": "好后面接标点符号"
+    },
+    {
+        "query": "粗话 ./[w v]",
+        "description": "粗话后面隔一个字接标点符号或动词"
+    },
+    {
+        "query": "(v) (u){$1!=$2}",
+        "description": "动词后面接助词，并且动词和助词不同"
+    },
+    {
+        "query": "了 @/[w v] 黑",
+        "description": "了后面接任意词性，该词性以标点符号或动词开始，再接黑"
+    },
+    {
+        "query": "但/c 房国/n",
+        "description": "但是连词后面接名词房国"
+    }
+]
+```

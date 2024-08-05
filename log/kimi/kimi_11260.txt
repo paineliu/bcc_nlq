@@ -1,0 +1,86 @@
+以下是检索式及其含义的json结构：
+
+```json
+[
+    {
+        "query": "的 ~/[vn v] 最",
+        "description": "的后面接一个词，该词可以是动名词或动词，且这个词后面紧跟着最"
+    },
+    {
+        "query": "@ 领",
+        "description": "任意词性后面接领"
+    },
+    {
+        "query": "随时 @ 挂",
+        "description": "随时后面接任意词性，然后接挂"
+    },
+    {
+        "query": "人民 (n){len($1)>1}",
+        "description": "人民后面接长度大于1的名词"
+    },
+    {
+        "query": "高 不/d 高",
+        "description": "高后面不接副词，然后再次接高"
+    },
+    {
+        "query": "了 ~",
+        "description": "了后面接一个词"
+    },
+    {
+        "query": "看病 (n){count>2}",
+        "description": "看病后面接名词，且该名词在文本中出现次数大于2"
+    },
+    {
+        "query": "时间 @",
+        "description": "时间后面接任意词性"
+    },
+    {
+        "query": "说 .",
+        "description": "说后面接任意单个字符"
+    },
+    {
+        "query": "问诊",
+        "description": "包含问诊的文本"
+    },
+    {
+        "query": "有 ../[n v] 天",
+        "description": "有后面接单音节名词或动词，然后接天"
+    },
+    {
+        "query": "定制 (vn){len($1)=2}",
+        "description": "定制后面接长度为2的动名词"
+    },
+    {
+        "query": "关系",
+        "description": "包含关系的文本"
+    },
+    {
+        "query": "线上 ../vn 遭遇",
+        "description": "线上后面接单音节动名词，然后接遭遇"
+    },
+    {
+        "query": "线 (v) 医疗{count<882}",
+        "description": "线后面接动词，然后接医疗，且医疗在文本中出现次数小于882"
+    },
+    {
+        "query": "保护 ./[w v]",
+        "description": "保护后面接一个字，可以是标点符号或动词"
+    },
+    {
+        "query": "(n) 缘何{begin($1)!=[擦 忍 树 瞎]}",
+        "description": "名词后面接缘何，且该名词不以擦、忍、树、瞎为开始"
+    },
+    {
+        "query": "社交 ./v 争夺",
+        "description": "社交后面接一个字，然后接动词，最后接争夺"
+    },
+    {
+        "query": "(v) 做到 (n){begin($2)=[极 放]}",
+        "description": "动词后面接做到，然后接以极或放开始的名词"
+    },
+    {
+        "query": "(v) (w){begin($1)=[认 生 徐 华]}",
+        "description": "动词后面接以认、生、徐、华为开始的标点符号或词"
+    }
+]
+```

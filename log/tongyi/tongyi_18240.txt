@@ -1,0 +1,166 @@
+以下是将给出的检索式转换为带含义的json结构后的完整列表：
+
+```json
+[
+    {
+        "query": "越a[，+。]",
+        "description": "形容词越后接逗号或句号"
+    },
+    {
+        "query": "越a[， 。]",
+        "description": "形容词越后接逗号或句号"
+    },
+    {
+        "query": "连忙v+y[，+。]",
+        "description": "动词连忙后接连缀符+y，再接逗号或句号"
+    },
+    {
+        "query": "连忙v y[，+。]",
+        "description": "动词连忙后接连缀符y，再接逗号或句号"
+    },
+    {
+        "query": "被r+v+n[，+。]",
+        "description": "动词被后接动词r，再接连缀符+v，最后接名词n，再接逗号或句号"
+    },
+    {
+        "query": "被r v n[，+。]",
+        "description": "动词被后接动词r，再接名词v，最后接名词n，再接逗号或句号"
+    },
+    {
+        "query": "拼命a[，+。]",
+        "description": "形容词拼命后接逗号或句号"
+    },
+    {
+        "query": "拼命a[， 。]",
+        "description": "形容词拼命后接逗号或句号"
+    },
+    {
+        "query": "成功*[发挥+挑战+潜能+理想+成就+积累+创造+贡献+绩效+胜任+出色]",
+        "description": "成功后接一系列形容词，包括发挥、挑战、潜能、理想、成就、积累、创造、贡献、绩效、胜任、出色"
+    },
+    {
+        "query": "成功*[发挥 挑战 潜能 理想 成就 积累 创造 贡献 绩效 胜任 出色]",
+        "description": "成功后接一系列形容词，包括发挥、挑战、潜能、理想、成就、积累、创造、贡献、绩效、胜任、出色"
+    },
+    {
+        "query": "赶快d+a[，+。]",
+        "description": "副词赶快后接副词a，再接逗号或句号"
+    },
+    {
+        "query": "赶快d a[，+。]",
+        "description": "副词赶快后接副词a，再接逗号或句号"
+    },
+    {
+        "query": "被r+v+y[，+。]",
+        "description": "动词被后接动词r，再接连缀符+v，最后接连缀符+y，再接逗号或句号"
+    },
+    {
+        "query": "被r v y[，+。]",
+        "description": "动词被后接动词r，再接名词v，最后接连缀符+y，再接逗号或句号"
+    },
+    {
+        "query": "[从而+因而+进而]",
+        "description": "连词序列从而、因而、进而"
+    },
+    {
+        "query": "[从而 因而 进而]",
+        "description": "连词序列从而、因而、进而"
+    },
+    {
+        "query": "[气忿+怫郁+怨愤]*V[上+下+起]",
+        "description": "一系列形容词气忿、怫郁、怨愤后接动词V，再接上、下、起"
+    },
+    {
+        "query": "[气忿 怫郁 怨愤]*V[上 下 起]",
+        "description": "一系列形容词气忿、怫郁、怨愤后接动词V，再接上、下、起"
+    },
+    {
+        "query": "w升.降[q+r+d+c+v+a++n+m++p]w",
+        "description": "动词w后接升和降，再接一系列动词q、r、d、c、v、a、n、m、p，最后接w"
+    },
+    {
+        "query": "w升.降[q r d c v a  n m  p]w",
+        "description": "动词w后接升和降，再接一系列动词q、r、d、c、v、a、n、m、p，最后接w"
+    },
+    {
+        "query": "反复v+n[，+。]",
+        "description": "动词反复后接名词n，再接逗号或句号"
+    },
+    {
+        "query": "反复v n[，+。]",
+        "description": "动词反复后接名词n，再接逗号或句号"
+    },
+    {
+        "query": "一度v[，+。]",
+        "description": "动词一度后接逗号或句号"
+    },
+    {
+        "query": "一度v[， 。]",
+        "description": "动词一度后接逗号或句号"
+    },
+    {
+        "query": "w[q+r+d+c+v+a++n+m++p]危.安w",
+        "description": "动词w后接一系列动词q、r、d、c、v、a、n、m、p，再接危和安，最后接w"
+    },
+    {
+        "query": "w[q r d c v a  n m  p]危.安w",
+        "description": "动词w后接一系列动词q、r、d、c、v、a、n、m、p，再接危和安，最后接w"
+    },
+    {
+        "query": "相互d+n[，+。]",
+        "description": "副词相互后接名词n，再接逗号或句号"
+    },
+    {
+        "query": "相互d n[，+。]",
+        "description": "副词相互后接名词n，再接逗号或句号"
+    },
+    {
+        "query": "自古v+v[，+。]",
+        "description": "动词自古后接动词v，再接逗号或句号"
+    },
+    {
+        "query": "自古v v[，+。]",
+        "description": "动词自古后接动词v，再接逗号或句号"
+    },
+    {
+        "query": "同年n[，+。]",
+        "description": "名词同年后接逗号或句号"
+    },
+    {
+        "query": "同年n[， 。]",
+        "description": "名词同年后接逗号或句号"
+    },
+    {
+        "query": "势必v[v+a+n+r][，+。]",
+        "description": "动词势必后接一系列动词v、a、n、r，再接逗号或句号"
+    },
+    {
+        "query": "势必v[v a n r][，+。]",
+        "description": "动词势必后接一系列动词v、a、n、r，再接逗号或句号"
+    },
+    {
+        "query": "成功/a[v+p+地/u]",
+        "description": "形容词成功后接动词v、p、地，再接/u"
+    },
+    {
+        "query": "成功/a[v p 地/u]",
+        "description": "形容词成功后接动词v、p、地，再接/u"
+    },
+    {
+        "query": "自然d+a[，+。]",
+        "description": "副词自然后接副词d、a，再接逗号或句号"
+    },
+    {
+        "query": "自然d a[，+。]",
+        "description": "副词自然后接副词d、a，再接逗号或句号"
+    },
+    {
+        "query": "陆续v+y[，+。]",
+        "description": "动词陆续后接连缀符+y，再接逗号或句号"
+    },
+    {
+        "query": "陆续v y[，+。]",
+        "description": "动词陆续后接连缀符y，再接逗号或句号"
+    }
+]
+```

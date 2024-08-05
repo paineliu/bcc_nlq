@@ -1,0 +1,168 @@
+```json
+[
+    {
+        "query": "铭记/v+二战/j",
+        "description": "铭记动词后紧跟二战形容词"
+    },
+    {
+        "query": "铭记/v 二战/j",
+        "description": "铭记动词后紧跟二战名词"
+    },
+    {
+        "query": "太/d+l",
+        "description": "太副词后紧跟l词性"
+    },
+    {
+        "query": "太/d l",
+        "description": "太副词后紧跟l词性"
+    },
+    {
+        "query": "呼/v",
+        "description": "呼动词独立使用"
+    },
+    {
+        "query": "极/d+V",
+        "description": "极副词后紧跟V词性"
+    },
+    {
+        "query": "极/d V",
+        "description": "极副词后紧跟V词性"
+    },
+    {
+        "query": "知道/v",
+        "description": "知道动词独立使用"
+    },
+    {
+        "query": "开刀+。/w",
+        "description": "开刀动词后紧跟句尾符号。"
+    },
+    {
+        "query": "开刀 。/w",
+        "description": "开刀动词后紧跟句尾符号。"
+    },
+    {
+        "query": "，/w+兑现+是+果实/n",
+        "description": "逗号后紧跟兑现动词，然后是是形容词，最后是果实名词"
+    },
+    {
+        "query": "，/w 兑现 是 果实/n",
+        "description": "逗号后紧跟兑现动词，然后是是形容词，最后是果实名词"
+    },
+    {
+        "query": "首单/m+土地+流转+保险+合同+签约/v",
+        "description": "首单名词后紧跟土地名词、流转动词、保险名词、合同名词和签约动词"
+    },
+    {
+        "query": "首单/m 土地 流转 保险 合同 签约/v",
+        "description": "首单名词后紧跟土地名词、流转动词、保险名词、合同名词和签约动词"
+    },
+    {
+        "query": "n+诚意/n",
+        "description": "n名词后紧跟诚意名词"
+    },
+    {
+        "query": "n 诚意/n",
+        "description": "n名词后紧跟诚意名词"
+    },
+    {
+        "query": "整理/v*n",
+        "description": "整理动词后紧跟n词性"
+    },
+    {
+        "query": "好意/n*a",
+        "description": "好意名词后紧跟a词性"
+    },
+    {
+        "query": "生/v",
+        "description": "生动词独立使用"
+    },
+    {
+        "query": "v+./v+",
+        "description": "v动词后紧跟./v+组合使用"
+    },
+    {
+        "query": "v ./v",
+        "description": "v动词后紧跟句尾符号"
+    },
+    {
+        "query": "其实/d+何必+舍近求远/i",
+        "description": "其实副词后紧跟何必形容词、舍近求远动词"
+    },
+    {
+        "query": "其实/d 何必 舍近求远/i",
+        "description": "其实副词后紧跟何必形容词、舍近求远动词"
+    },
+    {
+        "query": "../v+回忆",
+        "description": "三字动词后紧跟回忆名词"
+    },
+    {
+        "query": "../v 回忆",
+        "description": "三字动词后紧跟回忆名词"
+    },
+    {
+        "query": "痴心/n+v",
+        "description": "痴心名词后紧跟v动词"
+    },
+    {
+        "query": "痴心/n v",
+        "description": "痴心名词后紧跟v动词"
+    },
+    {
+        "query": "看/v+着+他+远走+，/w",
+        "description": "看动词后紧跟着动词、他名词、远走动词和句尾符号"
+    },
+    {
+        "query": "看/v 着 他 远走 ，/w",
+        "description": "看动词后紧跟着动词、他名词、远走动词和句尾符号"
+    },
+    {
+        "query": "蹄/n+疾",
+        "description": "蹄名词后紧跟疾形容词"
+    },
+    {
+        "query": "蹄/n 疾",
+        "description": "蹄名词后紧跟疾形容词"
+    },
+    {
+        "query": "政府/n+，+财力+有限+。/w",
+        "description": "政府名词后紧跟逗号、财力名词、有限形容词和句尾符号"
+    },
+    {
+        "query": "政府/n ， 财力 有限 。/w",
+        "description": "政府名词后紧跟逗号、财力名词、有限形容词和句尾符号"
+    },
+    {
+        "query": "也/d+格外+理解+和/c",
+        "description": "也副词后紧跟格外形容词、理解动词、和连词"
+    },
+    {
+        "query": "也/d 格外 理解 和/c",
+        "description": "也副词后紧跟格外形容词、理解动词、和连词"
+    },
+    {
+        "query": "的+限值/vn+。",
+        "description": "的后紧跟限值动词和句尾符号"
+    },
+    {
+        "query": "的 限值/vn 。",
+        "description": "的后紧跟限值动词和句尾符号"
+    },
+    {
+        "query": "新型/b+国际",
+        "description": "新型形容词后紧跟国际名词"
+    },
+    {
+        "query": "新型/b 国际",
+        "description": "新型形容词后紧跟国际名词"
+    },
+    {
+        "query": "该+从严/v+。",
+        "description": "该动词后紧跟从严动词和句尾符号"
+    },
+    {
+        "query": "该 从严/v 。",
+        "description": "该动词后紧跟从严动词和句尾符号"
+    }
+]
+```

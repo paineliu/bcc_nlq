@@ -1,0 +1,168 @@
+根据给定的检索式规则和解析方法，以下是将各个检索式转换为带含义的JSON结构的结果：
+
+```json
+[
+    {
+        "query": "进步",
+        "description": "包含‘进步’这个词汇的句子"
+    },
+    {
+        "query": "拘拘束束",
+        "description": "包含‘拘拘束束’这个词汇的句子"
+    },
+    {
+        "query": "牡丹亭",
+        "description": "包含‘牡丹亭’这个词汇的句子"
+    },
+    {
+        "query": "好不开心",
+        "description": "包含‘好不开心’这个词汇的句子"
+    },
+    {
+        "query": "不有",
+        "description": "包含‘不有’这个词汇的句子"
+    },
+    {
+        "query": "人权神",
+        "description": "包含‘人权神’这个词汇的句子"
+    },
+    {
+        "query": "耕种",
+        "description": "包含‘耕种’这个词汇的句子"
+    },
+    {
+        "query": "消失",
+        "description": "包含‘消失’这个词汇的句子"
+    },
+    {
+        "query": "统一",
+        "description": "包含‘统一’这个词汇的句子"
+    },
+    {
+        "query": "矮穷矬",
+        "description": "包含‘矮穷矬’这个词汇的句子"
+    },
+    {
+        "query": "便道",
+        "description": "包含‘便道’这个词汇的句子"
+    },
+    {
+        "query": "傍",
+        "description": "包含‘傍’这个词汇的句子"
+    },
+    {
+        "query": "和谐体现",
+        "description": "包含‘和谐体现’这个词汇的句子"
+    },
+    {
+        "query": "好像当真",
+        "description": "包含‘好像当真’这个词汇的句子"
+    },
+    {
+        "query": "和谐与互",
+        "description": "包含‘和谐与互’这个词汇的句子"
+    },
+    {
+        "query": "累惨了",
+        "description": "包含‘累惨了’这个词汇的句子"
+    },
+    {
+        "query": "简直",
+        "description": "包含‘简直’这个词汇的句子"
+    },
+    {
+        "query": "人权说",
+        "description": "包含‘人权说’这个词汇的句子"
+    },
+    {
+        "query": "不一定",
+        "description": "包含‘不一定’这个词汇的句子"
+    },
+    {
+        "query": "没有",
+        "description": "包含‘没有’这个词汇的句子"
+    },
+    {
+        "query": "死死",
+        "description": "包含‘死死’这个词汇的句子"
+    },
+    {
+        "query": "旗帜",
+        "description": "包含‘旗帜’这个词汇的句子"
+    },
+    {
+        "query": "宠物",
+        "description": "包含‘宠物’这个词汇的句子"
+    },
+    {
+        "query": "暴雨",
+        "description": "包含‘暴雨’这个词汇的句子"
+    },
+    {
+        "query": "很美貌",
+        "description": "包含‘很美貌’这个词汇的句子"
+    },
+    {
+        "query": "吃",
+        "description": "包含‘吃’这个词汇的句子"
+    },
+    {
+        "query": "有点太那个",
+        "description": "包含‘有点太那个’这个词汇的句子"
+    },
+    {
+        "query": "晒",
+        "description": "包含‘晒’这个词汇的句子"
+    },
+    {
+        "query": "和谐与经济",
+        "description": "包含‘和谐与经济’这个词汇的句子"
+    },
+    {
+        "query": "不太遥远",
+        "description": "包含‘不太遥远’这个词汇的句子"
+    },
+    {
+        "query": "碰头",
+        "description": "包含‘碰头’这个词汇的句子"
+    },
+    {
+        "query": "你这才",
+        "description": "包含‘你这才’这个词汇的句子"
+    },
+    {
+        "query": "十分抱歉",
+        "description": "包含‘十分抱歉’这个词汇的句子"
+    },
+    {
+        "query": "给力",
+        "description": "包含‘给力’这个词汇的句子"
+    },
+    {
+        "query": "中医药",
+        "description": "包含‘中医药’这个词汇的句子"
+    },
+    {
+        "query": "怀念",
+        "description": "包含‘怀念’这个词汇的句子"
+    },
+    {
+        "query": "和谐是两",
+        "description": "包含‘和谐是两’这个词汇的句子"
+    },
+    {
+        "query": "垂危",
+        "description": "包含‘垂危’这个词汇的句子"
+    },
+    {
+        "query": "放松",
+        "description": "包含‘放松’这个词汇的句子"
+    },
+    {
+        "query": "妹",
+        "description": "包含‘妹’这个词汇的句子"
+    }
+]
+```
+
+请注意，以上JSON结构中的描述部分是基于检索式本身含义的直接翻译，并未进一步添加特定的上下文或解析细节，因为原始问题并未提供具体的数据上下文或额外的解析逻辑。

@@ -1,0 +1,144 @@
+```json
+[
+    {
+        "query": ". /w",
+        "description": "句尾为句点"
+    },
+    {
+        "query": "..... /j",
+        "description": "句尾为省略号"
+    },
+    {
+        "query": "位 + 奢侈品 /n + 销售",
+        "description": "位后紧接奢侈品，奢侈品后紧接销售"
+    },
+    {
+        "query": "位 奢侈品 /n 销售",
+        "description": "位后紧接奢侈品，奢侈品后紧接销售"
+    },
+    {
+        "query": "n * 恩情 /n",
+        "description": "恩情可以为任意长度的名词"
+    },
+    {
+        "query": "痴心 /n * v",
+        "description": "痴心后紧接任意动词"
+    },
+    {
+        "query": ".. 机 /n",
+        "description": "机为任意长度的名词"
+    },
+    {
+        "query": "雪中送炭 /i + 之",
+        "description": "雪中送炭后紧接之"
+    },
+    {
+        "query": "雪中送炭 /i 之",
+        "description": "雪中送炭后紧接之"
+    },
+    {
+        "query": "国际 + 女子 /n + 冰壶",
+        "description": "国际后紧接女子，女子后紧接冰壶"
+    },
+    {
+        "query": "国际 女子 /n 冰壶",
+        "description": "国际后紧接女子，女子后紧接冰壶"
+    },
+    {
+        "query": "记者 + 说 /v +。",
+        "description": "记者后紧接说，说后紧接句点"
+    },
+    {
+        "query": "记者 说 /v 。",
+        "description": "记者后紧接说，说后紧接句点"
+    },
+    {
+        "query": "的 + 吉他 /n + 回家",
+        "description": "的后紧接吉他，吉他后紧接回家"
+    },
+    {
+        "query": "爱情 /n * a",
+        "description": "爱情后紧接任意形容词"
+    },
+    {
+        "query": "田 /n + 利用 + 占 /v",
+        "description": "田后紧接利用，利用后紧接占"
+    },
+    {
+        "query": "田 /n 利用 占 /v",
+        "description": "田后紧接利用，利用后紧接占"
+    },
+    {
+        "query": "因素 * ？ /w",
+        "description": "因素后紧接任意长度的问号"
+    },
+    {
+        "query": "因素 ？ /w",
+        "description": "因素后紧接问号"
+    },
+    {
+        "query": "./a + 鬼",
+        "description": "以./a开头的单字，后紧接鬼"
+    },
+    {
+        "query": "./a 鬼",
+        "description": "以./a开头的单字，后紧接鬼"
+    },
+    {
+        "query": "苦 /a + n",
+        "description": "苦后紧接任意名词"
+    },
+    {
+        "query": "苦 /a n",
+        "description": "苦后紧接任意名词"
+    },
+    {
+        "query": "德·阿·梅德韦杰夫 /nr",
+        "description": "直接输入人名"
+    },
+    {
+        "query": "a + 的 + 激情 /n",
+        "description": "以a开头的形容词后紧接的的，的后紧接激情"
+    },
+    {
+        "query": "代 /v",
+        "description": "代为任意长度的动词"
+    },
+    {
+        "query": "雄辩 + 。 /w",
+        "description": "雄辩后紧接句点"
+    },
+    {
+        "query": "雄辩 。 /w",
+        "description": "雄辩后紧接句点"
+    },
+    {
+        "query": "./v 轻了",
+        "description": "以./v开头的单音节动词，后紧接轻了"
+    },
+    {
+        "query": "十几 /m + 元 + 的 + 取款 /n",
+        "description": "十几后紧接元，元后紧接的，的后紧接取款"
+    },
+    {
+        "query": "十几 /m 元 的 取款 /n",
+        "description": "十几后紧接元，元后紧接的，的后紧接取款"
+    },
+    {
+        "query": "a + 敬意 /n",
+        "description": "以a开头的形容词后紧接的敬意"
+    },
+    {
+        "query": "中国 + 的 /u + 智慧",
+        "description": "中国后紧接的，的后紧接智慧"
+    },
+    {
+        "query": "v + 苦 /a +",
+        "description": "动词后紧接苦，苦后紧接a"
+    },
+    {
+        "query": "成立 * ？ /w",
+        "description": "成立后紧接任意长度的问号"
+    }
+]
+```

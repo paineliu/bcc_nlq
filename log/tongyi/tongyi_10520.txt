@@ -1,0 +1,166 @@
+以下是将给定的检索式转换为带含义的json结构的结果：
+
+```json
+[
+    {
+        "query": "男子*女子",
+        "description": "男子后面离合出现女子"
+    },
+    {
+        "query": "况且~又",
+        "description": "况且后接一个词，再接又"
+    },
+    {
+        "query": "也不是........也不是",
+        "description": "也不是后面隔多个字后接也不是"
+    },
+    {
+        "query": "往*里说",
+        "description": "往后面离合出现里说"
+    },
+    {
+        "query": "欢喜*v上",
+        "description": "欢喜后接v上"
+    },
+    {
+        "query": "老*少",
+        "description": "老后面离合出现少"
+    },
+    {
+        "query": "V上*心酸",
+        "description": "动词后接V上，再接心酸"
+    },
+    {
+        "query": "或许*却",
+        "description": "或许后面离合出现却"
+    },
+    {
+        "query": "*做N",
+        "description": "一个词后接N"
+    },
+    {
+        "query": "w主.仆w",
+        "description": "w主后面隔一个字后接仆w"
+    },
+    {
+        "query": "我们一个*，",
+        "description": "我们一个后面离合出现，"
+    },
+    {
+        "query": "据*称",
+        "description": "据后面离合出现称"
+    },
+    {
+        "query": "w活.死w",
+        "description": "w活后面隔一个字后接死w"
+    },
+    {
+        "query": "劳*驾",
+        "description": "劳后面离合出现驾"
+    },
+    {
+        "query": "或许*恰巧",
+        "description": "或许后面离合出现恰巧"
+    },
+    {
+        "query": "她们一个*。",
+        "description": "她们一个后面离合出现，。"
+    },
+    {
+        "query": "每...老",
+        "description": "每后面隔多个字后接老"
+    },
+    {
+        "query": "逢..必",
+        "description": "逢后面隔一个字后接必"
+    },
+    {
+        "query": "当*的时候w",
+        "description": "当后面离合出现的时候w"
+    },
+    {
+        "query": "无.不.",
+        "description": "无后面隔一个字后接不，再接一个字"
+    },
+    {
+        "query": "他们..+下来w",
+        "description": "他们后面隔一个词后接下来w"
+    },
+    {
+        "query": "他们.. 下来w",
+        "description": "他们后面隔一个词后接下来w"
+    },
+    {
+        "query": "灯花*v",
+        "description": "灯花后接v"
+    },
+    {
+        "query": "v*问题",
+        "description": "动词后接v，再接问题"
+    },
+    {
+        "query": "或许*原来",
+        "description": "或许后面离合出现原来"
+    },
+    {
+        "query": "望.兴叹",
+        "description": "望后面隔一个字后接兴叹"
+    },
+    {
+        "query": "假*真",
+        "description": "假后面离合出现真"
+    },
+    {
+        "query": "孩子*父母",
+        "description": "孩子后面离合出现父母"
+    },
+    {
+        "query": "既...又...",
+        "description": "既后面隔一个字后接又，再接一个字"
+    },
+    {
+        "query": "其实@大约",
+        "description": "其实作为词性后接大约"
+    },
+    {
+        "query": "连*都*",
+        "description": "连后面离合出现都，再出现都"
+    },
+    {
+        "query": "我..+起来w",
+        "description": "我后面隔一个词后接起来w"
+    },
+    {
+        "query": "我.. 起来w",
+        "description": "我后面隔一个词后接起来w"
+    },
+    {
+        "query": "把+*+被",
+        "description": "把后面离合出现*，再出现被"
+    },
+    {
+        "query": "把 * 被",
+        "description": "把后面空格后接被"
+    },
+    {
+        "query": "v*交际花",
+        "description": "动词后接v，再接交际花"
+    },
+    {
+        "query": "轻~",
+        "description": "轻后接一个词"
+    },
+    {
+        "query": "一.了之",
+        "description": "一后面隔一个字后接了之"
+    },
+    {
+        "query": "其实@也许",
+        "description": "其实作为词性后接也许"
+    },
+    {
+        "query": "犯不.",
+        "description": "犯后面隔一个字后接不"
+    }
+]
+```

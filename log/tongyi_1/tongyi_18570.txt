@@ -1,0 +1,162 @@
+以下是根据提供的检索式转换为带含义的JSON结构的列表：
+
+```json
+[
+    {
+        "query": "防霾 (n) 较{len($1)>1}",
+        "description": "防霾后面跟着一个长度大于1的名词"
+    },
+    {
+        "query": "夸大其辞 w",
+        "description": "夸大其辞作为句子的开头"
+    },
+    {
+        "query": "该 (v) 鸡肋{len($1)!=2}",
+        "description": "该后跟的不是一个长度为2的词"
+    },
+    {
+        "query": "换 (an) ?{begin($1)=[实 八 回]}",
+        "description": "换后面可能是实、八或回，但不是句首"
+    },
+    {
+        "query": "(c) 难 在 (d){len($2)>3}",
+        "description": "难和在之间至少有4个字符"
+    },
+    {
+        "query": "掉",
+        "description": "单独的词掉"
+    },
+    {
+        "query": "(v) 侵权 (w){len($1)!=2}",
+        "description": "侵权后面不是由一个词组成的"
+    },
+    {
+        "query": "零散 (n) 做{count<754}",
+        "description": "零散后面接一个名词，且该组合出现次数少于754次"
+    },
+    {
+        "query": "(nr) 说 (w){len($1)=2}",
+        "description": "说作为人名的后接词，且长度为2"
+    },
+    {
+        "query": "../[n v] 保险",
+        "description": "保险前可能接一个名词或动词"
+    },
+    {
+        "query": "(n) 公司{begin($1)=[保 脏 段]}",
+        "description": "公司前可能是保、脏或段"
+    },
+    {
+        "query": "赔付率 确定/v 在",
+        "description": "赔付率后面接确定，确定是动词，然后是‘在’"
+    },
+    {
+        "query": "公司 (d) 插手{count<164}",
+        "description": "公司后面接一个副词插手，且该组合出现次数少于164次"
+    },
+    {
+        "query": "设计 (n) 吸取{count<909}",
+        "description": "设计后面接吸取，且该组合出现次数少于909次"
+    },
+    {
+        "query": "联网 ../v 管",
+        "description": "联网后面接一个动词，动词后面可能是管"
+    },
+    {
+        "query": "(n) 实时 (v){end($1)=[统 习]}",
+        "description": "实时后面接一个动词，且该动词以统或习结尾"
+    },
+    {
+        "query": "~ 完全",
+        "description": "完全是一个词"
+    },
+    {
+        "query": "陈登菊 ~/[v v] 。",
+        "description": "陈登菊后面可能是两个动词，后面是句点"
+    },
+    {
+        "query": "孩子 (v) 不吐不快{end($1)!=[请 骂]}",
+        "description": "孩子后面接一个动词，但不以请或骂结尾"
+    },
+    {
+        "query": "../d 是",
+        "description": "是前可能接一个动词或副词"
+    },
+    {
+        "query": "的 .. 。",
+        "description": "的后面可能接一个词，后面是句点"
+    },
+    {
+        "query": "(n) 疾病 (v){len($1)!=2}",
+        "description": "疾病后面接一个不是长度为2的词"
+    },
+    {
+        "query": "卫生 (vn) 体系{count>6}",
+        "description": "卫生后面接动名词体系，且该组合出现次数多于6次"
+    },
+    {
+        "query": "调控 ~/[n v] 举办",
+        "description": "调控后面可能是名词或动词，后面是举办"
+    },
+    {
+        "query": "n 们",
+        "description": "n后面接们"
+    },
+    {
+        "query": "贫血 @/[y v] ？",
+        "description": "贫血后面可能是语气词或动词，后面是问号"
+    },
+    {
+        "query": "五万 (w) 还{count>5}",
+        "description": "五万后面接一个‘还’，且该组合出现次数多于5次"
+    },
+    {
+        "query": "能否 (v) 实惠{end($1)!=[穿 而 肯 如]}",
+        "description": "能否后面接实惠，但不以穿、而、肯或如结尾"
+    },
+    {
+        "query": "(a) 审核 (vn){len($1)<3; len($2)>1}",
+        "description": "审核后面接一个长度大于1的动名词，且审核本身长度小于3"
+    },
+    {
+        "query": "负责人 ./[v v] 。",
+        "description": "负责人后面可能是两个动词，后面是句点"
+    },
+    {
+        "query": "倪树磊 ~/[v v] 。",
+        "description": "倪树磊后面可能是两个动词，后面是句点"
+    },
+    {
+        "query": "保障 ~ 不是",
+        "description": "保障后面接一个词，但不是不是"
+    },
+    {
+        "query": "(n) (n){len($1)=2; len($2)=3}",
+        "description": "两个相邻的名词，第一个是长度为2，第二个是长度为3"
+    },
+    {
+        "query": "(m) 号{middle($1)!=[认 俺]}",
+        "description": "号字中间不是认或俺"
+    },
+    {
+        "query": "共和国 @ 习近平",
+        "description": "共和国后面接习近平，按照词性归并统计"
+    },
+    {
+        "query": "第一 ~ 总则",
+        "description": "第一后面接总则"
+    },
+    {
+        "query": "第二 ./[q v] 组织",
+        "description": "第二后面可能是疑问词或动词，后面是组织"
+    },
+    {
+        "query": "../m 章",
+        "description": "章前可能接一个动词或副词"
+    },
+    {
+        "query": "(m) 章 (n){len($2)<3}",
+        "description": "章后面接一个长度小于3的名词"
+    }
+]
+```

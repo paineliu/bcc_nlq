@@ -1,0 +1,88 @@
+以下是根据您提供的检索式和含义，转换成的JSON结构：
+
+```json
+[
+    {
+        "query": "~/[i v] 领",
+        "description": "任意词性后面接成语或动词再接领"
+    },
+    {
+        "query": "(v) ，{begin($1)=[比 操 凶]}",
+        "description": "动词后接逗号，且动词以比、操、凶开始"
+    },
+    {
+        "query": "张弛有道 .",
+        "description": "张弛有道后接一个点"
+    },
+    {
+        "query": "照进 (n) 年度{count<363}",
+        "description": "照进后接名词再接年度，且出现的次数小于363"
+    },
+    {
+        "query": "突围 ~/[u v] 作",
+        "description": "突围后接任意词性或动词再作"
+    },
+    {
+        "query": "@/[t v] 戏剧",
+        "description": "时间词或动词后接戏剧，并且在统计时按词性归并"
+    },
+    {
+        "query": "(n) (n){len($1)=3; len($2)=2}",
+        "description": "两个名词连用，第一个名词长度为3，第二个名词长度为2"
+    },
+    {
+        "query": "得 @/[i v] 。",
+        "description": "得后接成语或动词再接句号"
+    },
+    {
+        "query": "(n) 阐释{count>3}",
+        "description": "名词后接阐释，且出现的次数大于3"
+    },
+    {
+        "query": "高 ./[v v] 四",
+        "description": "高后接动词再接四"
+    },
+    {
+        "query": "践行 ./[m v] 严",
+        "description": "践行后接数词或动词再接严"
+    },
+    {
+        "query": "加强 (n) 廉政{count>6}",
+        "description": "加强后接名词再接廉政，且出现的次数大于6"
+    },
+    {
+        "query": "， (vn) 方面{len($1)=2}",
+        "description": "逗号后接动名词，且动名词长度为2"
+    },
+    {
+        "query": "清醒 (w){count>4}",
+        "description": "清醒后接标点，且出现的次数大于4"
+    },
+    {
+        "query": "全党 ~/[v v] 向",
+        "description": "全党后接任意词性或动词再接向"
+    },
+    {
+        "query": "效 ./y ，",
+        "description": "效后接语气词再接逗号"
+    },
+    {
+        "query": "十大 (n){len($1)=2}",
+        "description": "十大后接名词，且名词长度为2"
+    },
+    {
+        "query": "向 ~/[m v] 出发",
+        "description": "向接任意词性或动词再接出发"
+    },
+    {
+        "query": "股 @/[n v] 经历",
+        "description": "股后接名词或动词再接经历，并且在统计时按词性归并"
+    },
+    {
+        "query": ".../[ns v] ·",
+        "description": "三个点后接地名或动词再接点"
+    }
+]
+```
+
+这个JSON结构列表包含了您提供的所有检索式和它们的含义描述。

@@ -1,0 +1,166 @@
+以下是检索式及其含义的JSON结构：
+
+```json
+[
+    {
+        "query": "当 ./[v v] 北漂", 
+        "description": "动词+动词后接北漂"
+    },
+    {
+        "query": "执白 . 败", 
+        "description": "执白后接任意词性字符败"
+    },
+    {
+        "query": "在", 
+        "description": "在前后可能有内容"
+    },
+    {
+        "query": "(n) 敢于 (v){end($1)=[话 样]}", 
+        "description": "名词后邻敢于，敢于后面接'话'或'样'"
+    },
+    {
+        "query": "看重 (w){count<802}", 
+        "description": "看重，实例频次小于802"
+    },
+    {
+        "query": "(v) (nz){len($2)=3}", 
+        "description": "单音节动词后接3个字的其他专名"
+    },
+    {
+        "query": "现在 ，/w 中国", 
+        "description": "现在后面接逗号，然后是中国"
+    },
+    {
+        "query": "北京 (d) 胜{begin($1)!=[精 腰 间 咬]}", 
+        "description": "北京后接副词，但不以精、腰、间、咬开头的副词"
+    },
+    {
+        "query": "@/[m v] 届", 
+        "description": "以'm'或've'开头的词后接届"
+    },
+    {
+        "query": "../s 给力", 
+        "description": "双音节动词后接给力"
+    },
+    {
+        "query": "创新 。/w", 
+        "description": "创新后接句尾标点"
+    },
+    {
+        "query": "蓬勃 (v){end($1)!=[烂 响 水]}", 
+        "description": "蓬勃后接动词，但不接烂、响、水"
+    },
+    {
+        "query": "一下 (v) ：{count<716}", 
+        "description": "一下后接动词，实例频次小于716"
+    },
+    {
+        "query": "老 (n) 焕发{end($1)=[业 丽 踩 衣]}",
+        "description": "老后接名词，名词后面接业、丽、踩、衣"
+    },
+    {
+        "query": "晋煤 (n) 是{begin($1)!=[乖 挑]}",
+        "description": "晋煤后接名词，但不以乖、挑开头"
+    },
+    {
+        "query": "没/d 技术", 
+        "description": "没后接副词，技术"
+    },
+    {
+        "query": "市场 ./w", 
+        "description": "市场后接句尾标点"
+    },
+    {
+        "query": "这个 (n) 。{count<661}", 
+        "description": "这个后接名词，句尾标点且实例频次小于661"
+    },
+    {
+        "query": "助力 集群/n 发展", 
+        "description": "助力后接集群，集群后接名词发展"
+    },
+    {
+        "query": "脱硝 n 的", 
+        "description": "脱硝后接名词"
+    },
+    {
+        "query": "./v 不见", 
+        "description": "单音节动词后接不见"
+    },
+    {
+        "query": "新 ~", 
+        "description": "新后接一个词"
+    },
+    {
+        "query": "九 . 下梢", 
+        "description": "九后接句尾标点，下梢"
+    },
+    {
+        "query": "城市 ~ 更", 
+        "description": "城市后接一个词，更"
+    },
+    {
+        "query": "(t) ， (ns){len($1)>1; len($2)=2}", 
+        "description": "时间词后接逗号，逗号后接两个字的地名"
+    },
+    {
+        "query": "大气 (v) 天常{count<383}", 
+        "description": "大气后接动词，动词后接天常，实例频次小于383"
+    },
+    {
+        "query": "(n) 质量{len($1)>1}", 
+        "description": "名词后接质量，名词长度大于1"
+    },
+    {
+        "query": "(n) 疏解{len($1)<3}", 
+        "description": "名词后接疏解，名词长度小于3"
+    },
+    {
+        "query": "， .. 要", 
+        "description": "逗号后可能有内容，要"
+    },
+    {
+        "query": "改善 @/[w v]", 
+        "description": "改善后接'w'或've'"
+    },
+    {
+        "query": "有 ../[n v] 的", 
+        "description": "有后接双音节名词或动词，后接的"
+    },
+    {
+        "query": "美亲 (n) 首发{len($1)>1}", 
+        "description": "美亲后接名词，美亲长度大于1"
+    },
+    {
+        "query": "亲子 ../[n v]", 
+        "description": "亲子后接双音节名词或动词"
+    },
+    {
+        "query": "授人以鱼 ~/[w v] 不如", 
+        "description": "授人以鱼后接'w'或've'，不如"
+    },
+    {
+        "query": "提供 ../[n v] 细致", 
+        "description": "提供后接双音节名词或动词，细致"
+    },
+    {
+        "query": "践行 ../n 责任", 
+        "description": "践行后接名词责任"
+    },
+    {
+        "query": "， ../n 打造", 
+        "description": "逗号后接名词，打造"
+    },
+    {
+        "query": "打造 ..", 
+        "description": "打造后可能有内容"
+    },
+    {
+        "query": "抓 ../[n v] ，", 
+        "description": "抓后接双音节名词或动词，逗号"
+    },
+    {
+        "query": "， .. 建设", 
+        "description": "逗号后可能有内容，建设"
+    }
+]
+```

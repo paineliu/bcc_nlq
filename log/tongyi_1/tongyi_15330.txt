@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "拉苏尔 佐达/nr",
+        "description": "拉苏尔后面接人名佐达"
+    },
+    {
+        "query": "共和国 ~ 副",
+        "description": "共和国后面接一个副词"
+    },
+    {
+        "query": "区域 内/f 良好",
+        "description": "区域后面接介词内，再接形容词良好"
+    },
+    {
+        "query": "~/[nr v] 说",
+        "description": "句首接人名或动词后跟说"
+    },
+    {
+        "query": "@/[n v] 在",
+        "description": "单音节名词或动词后接在"
+    },
+    {
+        "query": "(n) 发 (v){count>7}",
+        "description": "两个相邻的名词后接动词，且该动词实例频次大于7"
+    },
+    {
+        "query": "电子 ~",
+        "description": "电子后面接任意词"
+    },
+    {
+        "query": "的 @/[n v] 人民",
+        "description": "的后面接单音节名词或动词，再接人民"
+    },
+    {
+        "query": "在 (s) 。{end($1)!=[情 区 胖]}",
+        "description": "在后面接状态词，句尾为句号，但不包括情、区、胖"
+    },
+    {
+        "query": "乌镇 (v) 好{len($1)=2}",
+        "description": "乌镇后面接一个两字动词，且动词后接好"
+    },
+    {
+        "query": "'",
+        "description": "单引号"
+    },
+    {
+        "query": "评论 ./w",
+        "description": "评论后接一个词"
+    },
+    {
+        "query": "中 ~ 更",
+        "description": "中后面接任意词"
+    },
+    {
+        "query": "李涛说 @/[w v]",
+        "description": "李涛说后接一个词或动词"
+    },
+    {
+        "query": "一 @ 一",
+        "description": "一后面接一"
+    },
+    {
+        "query": "(n) (v){$1=$2}",
+        "description": "两个相邻的名词后接相同的动词"
+    },
+    {
+        "query": "迈向 @/[n v] 强国",
+        "description": "迈向后面接单音节名词或动词，再接强国"
+    },
+    {
+        "query": "(n) (ad){count>9}",
+        "description": "两个相邻的名词后接形容词，且形容词实例频次大于9"
+    },
+    {
+        "query": "来 @/[y v] ！",
+        "description": "来后面接语气词或动词，句尾为感叹号"
+    },
+    {
+        "query": "./v 经济 发展 重要 .../n",
+        "description": "单音节动词后接经济、发展，再接重要，后面可能是任意名词"
+    },
+    {
+        "query": "经济 (u) 繁荣{count<543}",
+        "description": "经济后接助词，再接繁荣，繁荣实例频次小于543"
+    },
+    {
+        "query": "网络 @/[n v] 法治化",
+        "description": "网络后面接单音节名词或动词，再接法治化"
+    },
+    {
+        "query": "扬帆",
+        "description": "扬帆"
+    },
+    {
+        "query": "./[a v] ，",
+        "description": "单音节形容词或动词后接逗号"
+    },
+    {
+        "query": "自我 ../[vn v] 声音",
+        "description": "自我后面接动词或动名词，再接声音"
+    },
+    {
+        "query": "责任 ~ 的",
+        "description": "责任后面接任意词"
+    },
+    {
+        "query": "(n) ， 人 过 (v){$1=$2}",
+        "description": "两个相邻的名词后接人和过，且人和过相同"
+    },
+    {
+        "query": "(u) 目光 (w){$1!=$2}",
+        "description": "目光后接一个词，但不与目光相同"
+    },
+    {
+        "query": ".. 照",
+        "description": "两个连续的字后接照"
+    },
+    {
+        "query": "差距 。/w",
+        "description": "差距后接句号，但不是句尾词"
+    },
+    {
+        "query": "(n) 常理 一 理 (n){len($1)!=2}",
+        "description": "两个相邻的名词后接常理，一和理，但不包括一理两个词"
+    },
+    {
+        "query": "攻坚 任务/n 的",
+        "description": "攻坚后面接任务名词，再接一个的"
+    },
+    {
+        "query": "程度 @/[w v]",
+        "description": "程度后面接一个词或动词"
+    },
+    {
+        "query": "决胜 . 精神",
+        "description": "决胜后面接一个字，再接精神"
+    },
+    {
+        "query": "@/[l v] ，",
+        "description": "任意词后接逗号"
+    },
+    {
+        "query": "?",
+        "description": "问号"
+    },
+    {
+        "query": "(n) 不{begin($1)=[单 订]}",
+        "description": "两个相邻的名词后接不，且不字前是单或订"
+    },
+    {
+        "query": "易 ./n ，",
+        "description": "易后接一个词，再接逗号"
+    },
+    {
+        "query": "?",
+        "description": "问号"
+    },
+    {
+        "query": "莫 ./[v v] 换",
+        "description": "莫后面接一个动词，再接另一个动词"
+    }
+]
+```

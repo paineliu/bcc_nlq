@@ -1,0 +1,166 @@
+以下是将给定的检索式转换为带含义的JSON结构的结果：
+
+```json
+[
+    {
+        "query": "按时把n+v了",
+        "description": "表示'按时'后紧跟一个动词n，然后是'把'，之后是动词v，最后是'了'。"
+    },
+    {
+        "query": "按时把n v了",
+        "description": "表示'按时'后紧跟一个动词n，然后是'把'，之后直接是动词v，最后是'了'。"
+    },
+    {
+        "query": "看n多a",
+        "description": "表示'看'后紧跟名词n，然后是形容词多。"
+    },
+    {
+        "query": "熘n",
+        "description": "表示'熘'后紧跟名词。"
+    },
+    {
+        "query": "给予n",
+        "description": "表示'给予'后紧跟名词。"
+    },
+    {
+        "query": "w你说说w",
+        "description": "表示以'w'开头，然后是'你说说'，最后是'w'。"
+    },
+    {
+        "query": "m观点",
+        "description": "表示以'm'开头，然后是'观点'。"
+    },
+    {
+        "query": "有V",
+        "description": "表示'有'后紧跟动词V。"
+    },
+    {
+        "query": "老v",
+        "description": "表示'老'后紧跟动词v。"
+    },
+    {
+        "query": "r的理由",
+        "description": "表示以'r'开头，然后是'理由'。"
+    },
+    {
+        "query": "异常a+n",
+        "description": "表示形容词异常后紧跟名词。"
+    },
+    {
+        "query": "异常a n",
+        "description": "表示形容词异常后紧跟名词。"
+    },
+    {
+        "query": "怎么也v",
+        "description": "表示'怎么也'后紧跟动词v。"
+    },
+    {
+        "query": "v妖了",
+        "description": "表示动词v后紧跟'妖了'。"
+    },
+    {
+        "query": "w令人感到a的是w",
+        "description": "表示以'w'开头，然后是'令人感到'，接着是形容词a，再是'是'，最后是'w'。"
+    },
+    {
+        "query": "自己n",
+        "description": "表示'自己'后紧跟名词n。"
+    },
+    {
+        "query": "m拃",
+        "description": "表示以'm'开头，然后是'拃'。"
+    },
+    {
+        "query": "那样一V",
+        "description": "表示'那样一'后紧跟动词V。"
+    },
+    {
+        "query": "a厂长",
+        "description": "表示以'a'开头，然后是'厂长'。"
+    },
+    {
+        "query": "a+n",
+        "description": "表示以'a'开头，然后紧跟名词n。"
+    },
+    {
+        "query": "a n",
+        "description": "表示以'a'开头，然后紧跟名词n。"
+    },
+    {
+        "query": "为了n+",
+        "description": "表示'为了'后紧跟名词，后面有一个未完成的符号。"
+    },
+    {
+        "query": "为了n ",
+        "description": "表示'为了'后紧跟名词，后面有一个空格。"
+    },
+    {
+        "query": "欢乐v上",
+        "description": "表示'欢乐'后紧跟动词v，然后是'上'。"
+    },
+    {
+        "query": "v什么就是什么",
+        "description": "表示动词v后紧跟疑问词'什么'，然后是'就是什么'。"
+    },
+    {
+        "query": "n相接",
+        "description": "表示名词n后紧跟'相接'。"
+    },
+    {
+        "query": "y？",
+        "description": "表示以'y'开头，然后是一个问号。"
+    },
+    {
+        "query": "d吃",
+        "description": "表示以'd'开头，然后是'吃'。"
+    },
+    {
+        "query": "把住n",
+        "description": "表示'把住'后紧跟名词n。"
+    },
+    {
+        "query": "v他m个",
+        "description": "表示动词v后紧跟代词他m，然后是'个'。"
+    },
+    {
+        "query": "有点儿n",
+        "description": "表示'有点儿'后紧跟名词n。"
+    },
+    {
+        "query": "a不用",
+        "description": "表示以'a'开头，然后是'不用'。"
+    },
+    {
+        "query": "算了，d",
+        "description": "表示'算了'后紧跟逗号d。"
+    },
+    {
+        "query": "w不是w",
+        "description": "表示以'w'开头，然后是'不是'，最后是'w'。"
+    },
+    {
+        "query": "该批n",
+        "description": "表示'该批'后紧跟名词n。"
+    },
+    {
+        "query": "不大v",
+        "description": "表示'不大'后紧跟动词v。"
+    },
+    {
+        "query": "不特a",
+        "description": "表示'不特'后紧跟形容词a。"
+    },
+    {
+        "query": "一晌n",
+        "description": "表示'一晌'后紧跟名词n。"
+    },
+    {
+        "query": "都给你V完了",
+        "description": "表示'都给你'后紧跟动词V，然后是'完了'。"
+    },
+    {
+        "query": "n馆",
+        "description": "表示名词n后紧跟'馆'。"
+    }
+]
+```

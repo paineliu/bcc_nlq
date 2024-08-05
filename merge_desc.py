@@ -21,7 +21,13 @@ def merge_desc(log_pathname, json_filename):
                     print(e)
             else:
                 print(full_name, False)
-    data2 = sorted(desc_data, key=lambda keys: keys.get("query"), reverse=False)
+    desc_data2 = []
+    for each in desc_data:
+        if not isinstance(each, dict):
+            print(each) 
+        else:
+            desc_data2.append(each)
+    data2 = sorted(desc_data2, key=lambda keys: keys.get("query"), reverse=False)
     f_json = open(json_filename, 'w', encoding='utf_8')
     json.dump(data2, f_json, ensure_ascii=False, indent=4)
     f_json.close()
@@ -29,5 +35,5 @@ def merge_desc(log_pathname, json_filename):
 if __name__ == '__main__':
 
     merge_desc('./log/tongyi', './data/rmrb_desc_tongyi.json')
-    merge_desc('./log/zhipu', './data/rmrb_desc_zhipu.json')
-    merge_desc('./log/kimi', './data/rmrb_desc_kimi.json')
+    # merge_desc('./log/zhipu', './data/rmrb_desc_zhipu.json')
+    # merge_desc('./log/kimi', './data/rmrb_desc_kimi.json')

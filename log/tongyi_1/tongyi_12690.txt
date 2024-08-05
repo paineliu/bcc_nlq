@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "异地 ~ ，",
+        "description": "包含异地和一个逗号"
+    },
+    {
+        "query": "~ 眼睁睁",
+        "description": "眼睁睁前面可能有其他词"
+    },
+    {
+        "query": "受害 呢/y ？",
+        "description": "受害后接‘呢’，可能是疑问句"
+    },
+    {
+        "query": "制度 ../n 引发",
+        "description": "制度后面接一个名词，可能导致某种引发"
+    },
+    {
+        "query": "@ 打造",
+        "description": "动词‘打造’"
+    },
+    {
+        "query": "回收 (j) 利民{len($1)=2}",
+        "description": "回收后接一个长度为2的副词，利于人民"
+    },
+    {
+        "query": "海口 (v) 向{begin($1)!=[丑 班 呃 只]}",
+        "description": "海口后接一个不是丑、班、呃或只开头的动词"
+    },
+    {
+        "query": "哪个 ~ 号码",
+        "description": "哪个后面可能接一个词，可能是号码"
+    },
+    {
+        "query": "十足 ~",
+        "description": "十足后面可能接一个词"
+    },
+    {
+        "query": "部门 有/v 没有",
+        "description": "部门后接‘有’或‘没有’"
+    },
+    {
+        "query": "评论员 n 追问",
+        "description": "评论员后接名词，可能是追问"
+    },
+    {
+        "query": "东营 (n) 书记{begin($1)!=[练 记 加]}",
+        "description": "东营后接书记，但书记前面不能是练、记或加"
+    },
+    {
+        "query": "马国英 ../v",
+        "description": "马国英后面是双音节动词"
+    },
+    {
+        "query": "救助 (n) 基本{count<288}",
+        "description": "救助后接基本，且救助实例频次少于288次"
+    },
+    {
+        "query": "富民 ./[nr v] 新春",
+        "description": "富民后面接名词或动词，可能是新春"
+    },
+    {
+        "query": "五 ./a 监督员",
+        "description": "五后面接形容词，可能是监督员"
+    },
+    {
+        "query": "结合 @ 养老院",
+        "description": "结合后接一个词，可能是养老院"
+    },
+    {
+        "query": "： @ 姿阅",
+        "description": "冒号后接一个词，可能是姿阅"
+    },
+    {
+        "query": "(d) 该 (r){len($1)!=2; len($2)!=3}",
+        "description": "副词‘该’后面接一个不是长度为2或3的词"
+    },
+    {
+        "query": "保障 ../[a v] 。",
+        "description": "保障后面接形容词或动词，可能是句尾"
+    },
+    {
+        "query": "高 ./w",
+        "description": "高后接一个词"
+    },
+    {
+        "query": "(vn) 能力{end($1)!=[瞎 吹 熬 惨]}",
+        "description": "能力后接一个不是瞎、吹、熬或惨结尾的动词"
+    },
+    {
+        "query": "(vn) 资源 (v){len($2)!=2}",
+        "description": "资源后接一个不是长度为2的动词"
+    },
+    {
+        "query": "， (v) 如何{len($1)>1}",
+        "description": "逗号后接一个长度大于1的动词，可能是提问"
+    },
+    {
+        "query": "(n) 增长 (a){len($1)=2; len($2)=1}",
+        "description": "增长后接一个长度为2的形容词，然后是一个长度为1的词"
+    },
+    {
+        "query": "公办 (n) 需{count>10}",
+        "description": "公办后接名词，且实例频次大于10"
+    },
+    {
+        "query": "@ 应该",
+        "description": "应该"
+    },
+    {
+        "query": "脱贫 ？/w",
+        "description": "脱贫后可能是问号"
+    },
+    {
+        "query": "谁 ./v 扶贫",
+        "description": "谁后面接一个动词，可能是扶贫"
+    },
+    {
+        "query": "各级/r 干部 。/w",
+        "description": "各级后接一个副词，干部后可能是句尾"
+    },
+    {
+        "query": "被动 (v) 的{len($1)=2}",
+        "description": "被动后接一个长度为2的动词"
+    },
+    {
+        "query": "穿暖 (v) ？{count<879}",
+        "description": "穿暖后可能是问号，且实例频次少于879"
+    },
+    {
+        "query": "看 ~ 上",
+        "description": "看后面可能接一个词，可能是‘上’"
+    },
+    {
+        "query": "核桃 @/[n v] 还是",
+        "description": "核桃后接名词或动词，可能是‘还是’"
+    },
+    {
+        "query": "算账",
+        "description": "算账"
+    },
+    {
+        "query": "本质 @ 还是",
+        "description": "本质后接一个词，可能是‘还是’"
+    },
+    {
+        "query": "在 ~ 激励",
+        "description": "在后面可能接一个词，可能是激励"
+    },
+    {
+        "query": "执法",
+        "description": "执法"
+    },
+    {
+        "query": "(v) 时 ， 毕国昌 已 离开 (v){len($1)=2; end($2)=[v 何 插 嘿]}",
+        "description": "两个动词之间，毕国昌已经离开，离开动词不是‘v何’、‘v插’或‘v嘿’"
+    },
+    {
+        "query": "制图/v ：",
+        "description": "制图后接一个动词，可能是冒号"
+    }
+]
+```

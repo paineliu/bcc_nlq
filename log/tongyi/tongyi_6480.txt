@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "没+v+a了",
+        "description": "没 + 动词 + 形容词 + 了"
+    },
+    {
+        "query": "没 v a了",
+        "description": "没 + 动词 + 形容词 + 了"
+    },
+    {
+        "query": "还a呢",
+        "description": "还 + 形容词 + 呢"
+    },
+    {
+        "query": "v一枝",
+        "description": "动词 + 一枝"
+    },
+    {
+        "query": "一种n",
+        "description": "一种 + 名词"
+    },
+    {
+        "query": "一趟n",
+        "description": "一趟 + 名词"
+    },
+    {
+        "query": "f交叉着",
+        "description": "方位词 + 交叉着"
+    },
+    {
+        "query": "a死我了",
+        "description": "形容词 + 死我了"
+    },
+    {
+        "query": "a点子",
+        "description": "形容词 + 点子"
+    },
+    {
+        "query": "得就a+w",
+        "description": "得就 + 形容词 + w"
+    },
+    {
+        "query": "得就a w",
+        "description": "得就 + 形容词 + w"
+    },
+    {
+        "query": "再三V",
+        "description": "再三 + 动词"
+    },
+    {
+        "query": "ad生活",
+        "description": "副词 + 生活"
+    },
+    {
+        "query": "v进去n",
+        "description": "动词 + 进去 + 名词"
+    },
+    {
+        "query": "似乎就是v",
+        "description": "似乎 + 就是 + 动词"
+    },
+    {
+        "query": "不论是a还是a",
+        "description": "不论是 + 形容词 + 还是 + 形容词"
+    },
+    {
+        "query": "别拿n不当n",
+        "description": "别拿 + 名词 + 不当 + 名词"
+    },
+    {
+        "query": "来到r",
+        "description": "来到 + 标点符号"
+    },
+    {
+        "query": "a出发点",
+        "description": "形容词 + 出发点"
+    },
+    {
+        "query": "W",
+        "description": "W"
+    },
+    {
+        "query": "n一片a",
+        "description": "名词 + 一片 + 形容词"
+    },
+    {
+        "query": "m比特n",
+        "description": "数词 + 比特 + 名词"
+    },
+    {
+        "query": "a与a",
+        "description": "形容词 + 与 + 形容词"
+    },
+    {
+        "query": "有被n住了",
+        "description": "有 + 被 + 名词 + 住 + 了"
+    },
+    {
+        "query": "依赖N",
+        "description": "依赖 + 名词"
+    },
+    {
+        "query": "建树v",
+        "description": "建树 + 动词"
+    },
+    {
+        "query": "赢v",
+        "description": "赢 + 动词"
+    },
+    {
+        "query": "a两极",
+        "description": "形容词 + 两极"
+    },
+    {
+        "query": "v++了+m++小时+的+N",
+        "description": "动词 + ++了 + 数词 + 小时 + 的 + 名词"
+    },
+    {
+        "query": "v 了 m  小时 的 N",
+        "description": "动词 + 了 + 数词 + 小时 + 的 + 名词"
+    },
+    {
+        "query": "a不到哪里去",
+        "description": "形容词 + 不到哪里去"
+    },
+    {
+        "query": "N值得V。",
+        "description": "名词 + 值得 + 动词 + 。"
+    },
+    {
+        "query": "a得很+",
+        "description": "形容词 + 很 + +"
+    },
+    {
+        "query": "a得很 ",
+        "description": "形容词 + 很 + "
+    },
+    {
+        "query": "v上海",
+        "description": "动词 + 上海"
+    },
+    {
+        "query": "在N上浇",
+        "description": "在 + 名词 + 上 + 浇"
+    },
+    {
+        "query": "n肯V",
+        "description": "名词 + 肯 + 动词"
+    },
+    {
+        "query": "真像n",
+        "description": "真像 + 名词"
+    },
+    {
+        "query": "大大把n+v了",
+        "description": "大大 + 把 + 名词 + 动词 + 了"
+    },
+    {
+        "query": "大大把n v了",
+        "description": "大大 + 把 + 名词 + 动词 + 了"
+    }
+]
+```

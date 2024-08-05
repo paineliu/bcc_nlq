@@ -1,0 +1,86 @@
+以下是根据给定的检索式及其含义转换为JSON结构的完整列表：
+
+```json
+[
+    {
+        "query": "协商 (n) 建设{count<656}",
+        "description": "协商后接名词建设，且该结构出现次数少于656"
+    },
+    {
+        "query": "关键 (n){count<332}",
+        "description": "关键后接名词，且该结构出现次数少于332"
+    },
+    {
+        "query": "会见 w",
+        "description": "会见作为句首"
+    },
+    {
+        "query": "(vn) 和{count>8}",
+        "description": "名动词后接和，且该结构出现次数大于8"
+    },
+    {
+        "query": "@ 天",
+        "description": "任意词性后接天，在统计时按照词性归并"
+    },
+    {
+        "query": "绿卡 (v) 万{count>3}",
+        "description": "绿卡后接动词，再接万，且该结构出现次数大于3"
+    },
+    {
+        "query": "(m) (n){len($2)>1}",
+        "description": "数词后接名词，且名词长度大于1"
+    },
+    {
+        "query": "你们 ~/[r v] 来",
+        "description": "你们后面接一个词，词性为动词或副词，再接来"
+    },
+    {
+        "query": "大笑 ~ 如同",
+        "description": "大笑后面接一个词，再接如同"
+    },
+    {
+        "query": "山庄 ./w",
+        "description": "山庄后接一个标点符号"
+    },
+    {
+        "query": "是 ./a ，",
+        "description": "是后面隔一个字符接形容词，再接逗号"
+    },
+    {
+        "query": "哪个 ~ 得",
+        "description": "哪个后面接一个词，再接得"
+    },
+    {
+        "query": "等 (u) 瞧{len($1)=1}",
+        "description": "等后面接一个助词，且助词长度为1"
+    },
+    {
+        "query": "自己",
+        "description": "包含自己的表达"
+    },
+    {
+        "query": "(ns) 的 变化 看 得 见 (w){count<987}",
+        "description": "地名后接的、变化、看、得、见，且该结构出现次数少于987"
+    },
+    {
+        "query": "祖法 香热/n 茶",
+        "description": "祖法后接香热，香热为名词，再接茶"
+    },
+    {
+        "query": "褚 ../[nr v] 找上门",
+        "description": "褚后面接一个单音节词，词性为人名或动词，再接找上门"
+    },
+    {
+        "query": "心",
+        "description": "包含心的表达"
+    },
+    {
+        "query": "相聚",
+        "description": "包含相聚的表达"
+    },
+    {
+        "query": "(w) (l){begin($2)!=[怕 游]}",
+        "description": "标点符号后接习用语，习用语不以怕或游开头"
+    }
+]
+```

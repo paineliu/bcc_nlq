@@ -1,0 +1,166 @@
+以下是将给定的检索式转换为带含义的json结构：
+
+```json
+[
+    {
+        "query": "一条N",
+        "description": "包含'一条'之后跟名词的句子"
+    },
+    {
+        "query": "a依赖",
+        "description": "包含形容词'a'后紧随动词'依赖'的句子"
+    },
+    {
+        "query": "v老百姓",
+        "description": "包含动词'v'后紧随名词'老百姓'的句子"
+    },
+    {
+        "query": "a京剧",
+        "description": "包含形容词'a'后紧随名词'京剧'的句子"
+    },
+    {
+        "query": "回收n",
+        "description": "包含名词'回收'的句子"
+    },
+    {
+        "query": "v库房",
+        "description": "包含动词'v'后紧随名词'库房'的句子"
+    },
+    {
+        "query": "调查n",
+        "description": "包含名词'调查'的句子"
+    },
+    {
+        "query": "d中等",
+        "description": "包含副词'd'后紧随名词'中等'的句子"
+    },
+    {
+        "query": "(v)并(v)着",
+        "description": "包含动词'v'两次，且第二次动词紧接在第一次动词后的句子"
+    },
+    {
+        "query": "m+根+n",
+        "description": "包含名词'm'后紧随量词'根'，再紧随名词'n'的句子"
+    },
+    {
+        "query": "m 根 n",
+        "description": "包含名词'm'后紧随量词'根'，再紧随名词'n'的句子"
+    },
+    {
+        "query": "情景v",
+        "description": "包含动词'情景'的句子"
+    },
+    {
+        "query": "v起v",
+        "description": "包含动词'v'两次，且第二次动词紧接在第一次动词后的句子"
+    },
+    {
+        "query": "v到n底下去",
+        "description": "包含动词'v'后紧随名词'到'，再紧随名词'底下去'的句子"
+    },
+    {
+        "query": "a叫做",
+        "description": "包含形容词'a'后紧随动词'叫做'的句子"
+    },
+    {
+        "query": "属实v",
+        "description": "包含动词'属实'的句子"
+    },
+    {
+        "query": "v浑浊了",
+        "description": "包含动词'v'后紧随形容词'浑浊了'的句子"
+    },
+    {
+        "query": "a代理",
+        "description": "包含形容词'a'后紧随名词'代理'的句子"
+    },
+    {
+        "query": "v草房",
+        "description": "包含动词'v'后紧随名词'草房'的句子"
+    },
+    {
+        "query": "a的眸子",
+        "description": "包含形容词'a'后紧随名词'的眸子'的句子"
+    },
+    {
+        "query": "ad",
+        "description": "包含副词'ad'的句子"
+    },
+    {
+        "query": "v而言",
+        "description": "包含动词'v'后紧随副词'而言'的句子"
+    },
+    {
+        "query": "n+耕种",
+        "description": "包含名词'n'后紧随动词'耕种'的句子"
+    },
+    {
+        "query": "n 耕种",
+        "description": "包含名词'n'后紧随动词'耕种'的句子"
+    },
+    {
+        "query": "v一改",
+        "description": "包含动词'v'后紧随数量词'一'，再紧随动词'改'的句子"
+    },
+    {
+        "query": "多少v",
+        "description": "包含数量词'多少'后紧随动词'v'的句子"
+    },
+    {
+        "query": "，众n",
+        "description": "包含标点符号','后紧随名词'众'的句子"
+    },
+    {
+        "query": "V回来",
+        "description": "包含动词'V'后紧随副词'回来'的句子"
+    },
+    {
+        "query": "在N上填",
+        "description": "包含介词'在'后紧随名词'N'，再紧随动词'上填'的句子"
+    },
+    {
+        "query": "a可惜",
+        "description": "包含形容词'a'后紧随副词'可惜'的句子"
+    },
+    {
+        "query": "n上",
+        "description": "包含名词'n'后紧随介词'上'的句子"
+    },
+    {
+        "query": "持续把n+v了",
+        "description": "包含动词'持续'后紧随动词'把'，再紧随名词'n'，最后紧随动词'v了'的句子"
+    },
+    {
+        "query": "持续把n v了",
+        "description": "包含动词'持续'后紧随动词'把'，再紧随名词'n'，最后紧随动词'v了'的句子"
+    },
+    {
+        "query": "为什么没v",
+        "description": "包含疑问词'为什么'后紧随动词'没'，再紧随动词'v'的句子"
+    },
+    {
+        "query": "n好酸",
+        "description": "包含名词'n'后紧随形容词'好酸'的句子"
+    },
+    {
+        "query": "看你a的w",
+        "description": "包含动词'看你'后紧随形容词'a'，再紧随名词'的w'的句子"
+    },
+    {
+        "query": "v起来了",
+        "description": "包含动词'v'后紧随副词'起来了'的句子"
+    },
+    {
+        "query": "风云n",
+        "description": "包含名词'风云'的句子"
+    },
+    {
+        "query": "a女性",
+        "description": "包含形容词'a'后紧随名词'女性'的句子"
+    },
+    {
+        "query": "a任务",
+        "description": "包含形容词'a'后紧随名词'任务'的句子"
+    }
+]
+```

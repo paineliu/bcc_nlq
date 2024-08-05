@@ -1,0 +1,166 @@
+以下是将给定的检索式转换为带含义的JSON结构：
+
+```json
+[
+    {
+        "query": "V得起",
+        "description": "动词后接得起"
+    },
+    {
+        "query": "p其v",
+        "description": "副词其后接动词"
+    },
+    {
+        "query": "a傻了",
+        "description": "形容词傻后接了"
+    },
+    {
+        "query": "在n+f+v",
+        "description": "在名词后接方位词和动词"
+    },
+    {
+        "query": "在n f v",
+        "description": "在名词后接方位词和动词"
+    },
+    {
+        "query": "已经V",
+        "description": "已经后接动词"
+    },
+    {
+        "query": "洗n澡",
+        "description": "洗后接名词澡"
+    },
+    {
+        "query": "是v而不是v",
+        "description": "是动词后接而不是动词"
+    },
+    {
+        "query": "a一共",
+        "description": "形容词一共"
+    },
+    {
+        "query": "没v去",
+        "description": "没动词后接去"
+    },
+    {
+        "query": "a而去",
+        "description": "形容词后接去"
+    },
+    {
+        "query": "v了m辈子的n",
+        "description": "动词后接量词辈子和名词"
+    },
+    {
+        "query": "a加班",
+        "description": "形容词加班"
+    },
+    {
+        "query": "v绷了",
+        "description": "动词后接绷了"
+    },
+    {
+        "query": "。一定n",
+        "description": "句尾点号后接名词"
+    },
+    {
+        "query": "谁都v",
+        "description": "任何名词后接动词"
+    },
+    {
+        "query": "一脸n",
+        "description": "脸后接名词"
+    },
+    {
+        "query": "V+n的n",
+        "description": "动词后接名词和的后接名词"
+    },
+    {
+        "query": "V n的n",
+        "description": "动词后接名词和的后接名词"
+    },
+    {
+        "query": "a交谈",
+        "description": "形容词交谈"
+    },
+    {
+        "query": "v上述",
+        "description": "动词后接上述"
+    },
+    {
+        "query": "d+认识+n",
+        "description": "d后接认识后接名词"
+    },
+    {
+        "query": "d 认识 n",
+        "description": "d后接认识后接名词"
+    },
+    {
+        "query": "m+把+n",
+        "description": "m后接把后接名词"
+    },
+    {
+        "query": "m 把 n",
+        "description": "m后接把后接名词"
+    },
+    {
+        "query": "v什么是什么",
+        "description": "动词后接什么是什么"
+    },
+    {
+        "query": "既不a也不a",
+        "description": "既不形容词也不形容词"
+    },
+    {
+        "query": "n+ing",
+        "description": "名词后接ing"
+    },
+    {
+        "query": "n ing",
+        "description": "名词后接ing"
+    },
+    {
+        "query": "无a无a",
+        "description": "无形容词无形容词"
+    },
+    {
+        "query": "m脑袋",
+        "description": "木后接脑袋"
+    },
+    {
+        "query": "一届n",
+        "description": "一后接届后接名词"
+    },
+    {
+        "query": "创造+v",
+        "description": "创造后接动词"
+    },
+    {
+        "query": "创造 v",
+        "description": "创造后接动词"
+    },
+    {
+        "query": "不得不v",
+        "description": "不得不动词"
+    },
+    {
+        "query": "v你的",
+        "description": "动词后接你的"
+    },
+    {
+        "query": "能V几q就V",
+        "description": "能动词后接几量词后接形容词后接动词"
+    },
+    {
+        "query": "，N嘛，",
+        "description": "逗号后接N后接嘛"
+    },
+    {
+        "query": "a吃亏",
+        "description": "形容词吃亏"
+    },
+    {
+        "query": "m烛",
+        "description": "木后接烛"
+    }
+]
+```

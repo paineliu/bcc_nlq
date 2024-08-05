@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "莱芜市/ns 公安局",
+        "description": "莱芜市后接公安局"
+    },
+    {
+        "query": "嘉兴市/ns+治水办+主任+施震东+说/v",
+        "description": "嘉兴市后接治水办主任施震东说"
+    },
+    {
+        "query": "嘉兴市/ns 治水办 主任 施震东 说/v",
+        "description": "嘉兴市后接治水办主任施震东说"
+    },
+    {
+        "query": "严+三/m+实",
+        "description": "严三实"
+    },
+    {
+        "query": "严 三/m 实",
+        "description": "严三实"
+    },
+    {
+        "query": "瞬间/t+，",
+        "description": "瞬间后接一个逗号"
+    },
+    {
+        "query": "瞬间/t ，",
+        "description": "瞬间后接一个逗号"
+    },
+    {
+        "query": "同/c",
+        "description": "同"
+    },
+    {
+        "query": "./v对+了",
+        "description": "对后接了"
+    },
+    {
+        "query": "./v对 了",
+        "description": "对后接了"
+    },
+    {
+        "query": "./v亮了",
+        "description": "亮后接了"
+    },
+    {
+        "query": "三水区/ns+党+联办+主任+赵+留记/v",
+        "description": "三水区后接党联办主任赵留记"
+    },
+    {
+        "query": "三水区/ns 党 联办 主任 赵 留记/v",
+        "description": "三水区后接党联办主任赵留记"
+    },
+    {
+        "query": "小+戏苗/n+们",
+        "description": "小戏苗们"
+    },
+    {
+        "query": "小 戏苗/n 们",
+        "description": "小戏苗们"
+    },
+    {
+        "query": "保+安全/an",
+        "description": "保安全"
+    },
+    {
+        "query": "保 安全/an",
+        "description": "保安全"
+    },
+    {
+        "query": "与/p+青春",
+        "description": "与青春"
+    },
+    {
+        "query": "与/p 青春",
+        "description": "与青春"
+    },
+    {
+        "query": "因为/c",
+        "description": "因为"
+    },
+    {
+        "query": "没+了/v+买主",
+        "description": "没后接了买主"
+    },
+    {
+        "query": "没 了/v 买主",
+        "description": "没后接了买主"
+    },
+    {
+        "query": "中/j+英/j",
+        "description": "中英"
+    },
+    {
+        "query": "中/j 英/j",
+        "description": "中英"
+    },
+    {
+        "query": "n+的+感情/n",
+        "description": "n的n感情"
+    },
+    {
+        "query": "n 的 感情/n",
+        "description": "n的n感情"
+    },
+    {
+        "query": "曼努埃尔·瓦尔斯+总理/n",
+        "description": "曼努埃尔·瓦尔斯总理"
+    },
+    {
+        "query": "曼努埃尔·瓦尔斯 总理/n",
+        "description": "曼努埃尔·瓦尔斯总理"
+    },
+    {
+        "query": "v*深情/n",
+        "description": "深情的动词"
+    },
+    {
+        "query": "洗/v+n+*+洗",
+        "description": "洗后接n星洗"
+    },
+    {
+        "query": "洗/v n * 洗",
+        "description": "洗后接n星洗"
+    },
+    {
+        "query": "我/r+住+在+花瑶+人+黄亮/nr",
+        "description": "我住在我在花瑶人黄亮"
+    },
+    {
+        "query": "我/r 住 在 花瑶 人 黄亮/nr",
+        "description": "我住在我在花瑶人黄亮"
+    },
+    {
+        "query": "./v暖和了",
+        "description": "暖和了"
+    },
+    {
+        "query": "太/d+d",
+        "description": "太d"
+    },
+    {
+        "query": "太/d d",
+        "description": "太d"
+    },
+    {
+        "query": "把/p",
+        "description": "把"
+    },
+    {
+        "query": "搞/V",
+        "description": "搞"
+    },
+    {
+        "query": "N+细/d",
+        "description": "N细"
+    },
+    {
+        "query": "N 细/d",
+        "description": "N细"
+    }
+]
+```

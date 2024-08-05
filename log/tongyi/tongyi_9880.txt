@@ -1,0 +1,166 @@
+以下是将给定的检索式转换为带含义的json结构的结果：
+
+```json
+[
+    {
+        "query": "w北.南w",
+        "description": "动词后接北，然后是标点，再接南，最后是动词"
+    },
+    {
+        "query": "v*原因",
+        "description": "动词后面离合出现原因"
+    },
+    {
+        "query": "也许*一定要",
+        "description": "也许后面离合出现一定要"
+    },
+    {
+        "query": "难道@或许",
+        "description": "难道是@词性，后面是或许"
+    },
+    {
+        "query": "@阿Q",
+        "description": "阿Q是@词性"
+    },
+    {
+        "query": "觉得~挺",
+        "description": "觉得后面是一个词，再接挺"
+    },
+    {
+        "query": "在*看来",
+        "description": "在后面离合出现看来"
+    },
+    {
+        "query": "你们一个*",
+        "description": "你们后面离合出现一个"
+    },
+    {
+        "query": "充其量*也许",
+        "description": "充其量后面离合出现也许"
+    },
+    {
+        "query": ".了半天",
+        "description": "标点后面隔一个字后接半天"
+    },
+    {
+        "query": "也许*好歹",
+        "description": "也许后面离合出现好歹"
+    },
+    {
+        "query": "我.+下去w",
+        "description": "我后面接+符号，再接下去动词"
+    },
+    {
+        "query": "我. 下去w",
+        "description": "我后面隔一个字后接下去动词"
+    },
+    {
+        "query": "在*+f+v",
+        "description": "在后面离合出现方位词，再接动词"
+    },
+    {
+        "query": "在* f v",
+        "description": "在后面离合出现方位词f，再接动词v"
+    },
+    {
+        "query": "似乎*一定要",
+        "description": "似乎后面离合出现一定要"
+    },
+    {
+        "query": "至少*大概",
+        "description": "至少后面离合出现大概"
+    },
+    {
+        "query": "w顺.逆w",
+        "description": "动词后接顺，然后是标点，再接逆，最后是动词"
+    },
+    {
+        "query": "w近.远w",
+        "description": "动词后接近，然后是标点，再接远，最后是动词"
+    },
+    {
+        "query": "贫*富",
+        "description": "贫后面离合出现富"
+    },
+    {
+        "query": "大概*啊。",
+        "description": "大概后面离合出现啊，最后是标点"
+    },
+    {
+        "query": "似乎*偏偏v",
+        "description": "似乎后面离合出现偏偏，再接动词v"
+    },
+    {
+        "query": "跑*步",
+        "description": "跑后面离合出现跑步"
+    },
+    {
+        "query": "年轻*老",
+        "description": "年轻后面离合出现老"
+    },
+    {
+        "query": "减少*n",
+        "description": "减少后面接量词n"
+    },
+    {
+        "query": "w败.胜w",
+        "description": "动词后接败，然后是标点，再接胜，最后是动词"
+    },
+    {
+        "query": "好像*的。",
+        "description": "好像后面离合出现的，最后是标点"
+    },
+    {
+        "query": "她们..+下去w",
+        "description": "她们后面接..符号，再接+符号，最后接下去动词"
+    },
+    {
+        "query": "她们.. 下去w",
+        "description": "她们后面接..符号，再接下去动词"
+    },
+    {
+        "query": "数落*因为",
+        "description": "数落后面离合出现因为"
+    },
+    {
+        "query": "似乎*必然会",
+        "description": "似乎后面离合出现必然会"
+    },
+    {
+        "query": "v*理由",
+        "description": "动词后面离合出现理由"
+    },
+    {
+        "query": "大概*当真",
+        "description": "大概后面离合出现当真"
+    },
+    {
+        "query": "怕.",
+        "description": "怕后面是一个标点"
+    },
+    {
+        "query": "v出.来+",
+        "description": "动词后接出，然后是标点，再接来，最后是+符号"
+    },
+    {
+        "query": "v出.来",
+        "description": "动词后接出，然后是标点，再接来"
+    },
+    {
+        "query": "w横.竖w",
+        "description": "动词后接横，然后是标点，再接竖，最后是动词"
+    },
+    {
+        "query": "关...心",
+        "description": "关后面隔一个字后接关心"
+    },
+    {
+        "query": "说句...话",
+        "description": "说句后面隔一个字后接话"
+    },
+    {
+        "query": "V上*悲痛",
+        "description": "V上后面离合出现悲痛"
+    }
+]
+```

@@ -1,0 +1,160 @@
+```json
+[
+    {
+        "query": "思维+的/u+前提",
+        "description": "思维后接的/u和前提"
+    },
+    {
+        "query": "思维 的/u 前提",
+        "description": "思维后接的/u和前提"
+    },
+    {
+        "query": "劣势/n+固然+有+，+但/c",
+        "description": "劣势后接固然、有、，、但"
+    },
+    {
+        "query": "劣势/n 固然 有 ， 但/c",
+        "description": "劣势后接固然、有、，、但"
+    },
+    {
+        "query": "金融+服务/vn",
+        "description": "金融后接服务"
+    },
+    {
+        "query": "金融 服务/vn",
+        "description": "金融后接服务"
+    },
+    {
+        "query": "切./v",
+        "description": "切"
+    },
+    {
+        "query": "丰富/v",
+        "description": "丰富"
+    },
+    {
+        "query": "要不得+。/w",
+        "description": "要不得后接。"
+    },
+    {
+        "query": "要不得 。/w",
+        "description": "要不得后接。"
+    },
+    {
+        "query": "../n界",
+        "description": "二字名词"
+    },
+    {
+        "query": "内/f+转运/v",
+        "description": "内后接转运"
+    },
+    {
+        "query": "内/f 转运/v",
+        "description": "内后接转运"
+    },
+    {
+        "query": "./a起来",
+        "description": "单个词a起来"
+    },
+    {
+        "query": "..../i",
+        "description": "单个词i"
+    },
+    {
+        "query": "第四+，/w+外交",
+        "description": "第四后接，和外交"
+    },
+    {
+        "query": "第四 ，/w 外交",
+        "description": "第四后接，和外交"
+    },
+    {
+        "query": "四/m+、+试点/vn",
+        "description": "四后接、和试点"
+    },
+    {
+        "query": "四/m 、 试点/vn",
+        "description": "四后接、和试点"
+    },
+    {
+        "query": "全国/n+宣传部长",
+        "description": "全国后接宣传部长"
+    },
+    {
+        "query": "全国/n 宣传部长",
+        "description": "全国后接宣传部长"
+    },
+    {
+        "query": "农民+。/w",
+        "description": "农民后接。"
+    },
+    {
+        "query": "农民 。/w",
+        "description": "农民后接。"
+    },
+    {
+        "query": "法治+思维/n",
+        "description": "法治后接思维"
+    },
+    {
+        "query": "法治 思维/n",
+        "description": "法治后接思维"
+    },
+    {
+        "query": "../v不./a",
+        "description": "二字动词后接不、形容词"
+    },
+    {
+        "query": "./v完了v",
+        "description": "单音节动词后接完了、动词"
+    },
+    {
+        "query": "物品+及/c+生物",
+        "description": "物品后接及、和、生物"
+    },
+    {
+        "query": "物品 及/c 生物",
+        "description": "物品后接及、和、生物"
+    },
+    {
+        "query": "将+全力/d+为",
+        "description": "将后接全力、为"
+    },
+    {
+        "query": "将 全力/d 为",
+        "description": "将后接全力、为"
+    },
+    {
+        "query": "技术+创造/v+更",
+        "description": "技术后接创造、更"
+    },
+    {
+        "query": "技术 创造/v 更",
+        "description": "技术后接创造、更"
+    },
+    {
+        "query": "步+走/v",
+        "description": "步后接走"
+    },
+    {
+        "query": "步 走/v",
+        "description": "步后接走"
+    },
+    {
+        "query": "白白/d",
+        "description": "白白"
+    },
+    {
+        "query": "更+公正/a+。",
+        "description": "更后接公正、。"
+    },
+    {
+        "query": "更 公正/a 。",
+        "description": "更后接公正、。"
+    },
+    {
+        "query": "a+兴致/n",
+        "description": "a后接兴致"
+    }
+]
+```

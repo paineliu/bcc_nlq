@@ -1,0 +1,166 @@
+以下是将给定的检索式转换为带含义的JSON结构：
+
+```json
+[
+    {
+        "query": "n友[，+。]", 
+        "description":"名词后邻友，友后邻逗号或句号"
+    },
+    {
+        "query": "n友[， 。]", 
+        "description":"名词后邻友，友后邻逗号或句号"
+    },
+    {
+        "query": "辣/a+[n+v+a]", 
+        "description":"形容词辣后邻名词、动词或形容词"
+    },
+    {
+        "query": "辣/a [n v a]", 
+        "description":"形容词辣后邻名词、动词或形容词"
+    },
+    {
+        "query": "大概v+n[，+。]", 
+        "description":"动词大概后邻名词，名词后邻逗号或句号"
+    },
+    {
+        "query": "大概v n[， 。]", 
+        "description":"动词大概后邻名词，名词后邻逗号或句号"
+    },
+    {
+        "query": "各v各的n[，+。]", 
+        "description":"动词各后邻动词、各的，各的后邻逗号或句号"
+    },
+    {
+        "query": "各v各的n[， 。]", 
+        "description":"动词各后邻动词、各的，各的后邻逗号或句号"
+    },
+    {
+        "query": "遇到n[，+。]", 
+        "description":"动词遇到后邻名词，名词后邻逗号或句号"
+    },
+    {
+        "query": "遇到n[， 。]", 
+        "description":"动词遇到后邻名词，名词后邻逗号或句号"
+    },
+    {
+        "query": "近来v+y[，+。]", 
+        "description":"动词近来后邻动词、y，y后邻逗号或句号"
+    },
+    {
+        "query": "近来v y[， 。]", 
+        "description":"动词近来后邻动词、y，y后邻逗号或句号"
+    },
+    {
+        "query": "比较+[a+v]", 
+        "description":"动词比较后邻形容词或动词"
+    },
+    {
+        "query": "比较 [a v]", 
+        "description":"动词比较后邻形容词或动词"
+    },
+    {
+        "query": "立体v[v+a+n+r][，+。]", 
+        "description":"动词立体后邻双音节动词、名词、形容词、动名词，最后逗号或句号"
+    },
+    {
+        "query": "立体v[v a n r][， 。]", 
+        "description":"动词立体后邻双音节动词、名词、形容词、动名词，最后逗号或句号"
+    },
+    {
+        "query": "胡乱v+u[，+。]", 
+        "description":"动词胡乱后邻虚词，虚词后邻逗号或句号"
+    },
+    {
+        "query": "胡乱v u[， 。]", 
+        "description":"动词胡乱后邻虚词，虚词后邻逗号或句号"
+    },
+    {
+        "query": "同年v+a[，+。]", 
+        "description":"动词同年后邻形容词，形容词后邻逗号或句号"
+    },
+    {
+        "query": "同年v a[， 。]", 
+        "description":"动词同年后邻形容词，形容词后邻逗号或句号"
+    },
+    {
+        "query": "顺序v[v+a+n+r][，+。]", 
+        "description":"动词顺序后邻双音节动词、名词、形容词、动名词，最后逗号或句号"
+    },
+    {
+        "query": "顺序v[v a n r][， 。]", 
+        "description":"动词顺序后邻双音节动词、名词、形容词、动名词，最后逗号或句号"
+    },
+    {
+        "query": "千万a[，+。]", 
+        "description":"形容词千万后邻逗号或句号"
+    },
+    {
+        "query": "千万a[， 。]", 
+        "description":"形容词千万后邻逗号或句号"
+    },
+    {
+        "query": "随后a[，+。]", 
+        "description":"形容词随后后邻逗号或句号"
+    },
+    {
+        "query": "随后a[， 。]", 
+        "description":"形容词随后后邻逗号或句号"
+    },
+    {
+        "query": "[一贯+一举+一连]v[v+a+n+][，+。]", 
+        "description":"动词后接一贯、一举、一连，最后逗号或句号"
+    },
+    {
+        "query": "[一贯 一举 一连]v[v a n ][， 。]", 
+        "description":"动词后接一贯、一举、一连，最后逗号或句号"
+    },
+    {
+        "query": "长年v+a[，+。]", 
+        "description":"动词长年后邻形容词，形容词后邻逗号或句号"
+    },
+    {
+        "query": "长年v a[， 。]", 
+        "description":"动词长年后邻形容词，形容词后邻逗号或句号"
+    },
+    {
+        "query": "一直d+n[，+。]", 
+        "description":"副词一直后邻名词，名词后邻逗号或句号"
+    },
+    {
+        "query": "一直d n[， 。]", 
+        "description":"副词一直后邻名词，名词后邻逗号或句号"
+    },
+    {
+        "query": "常常v[，+。]", 
+        "description":"动词常常后邻逗号或句号"
+    },
+    {
+        "query": "常常v[， 。]", 
+        "description":"动词常常后邻逗号或句号"
+    },
+    {
+        "query": "聚集在+n[f+s+ns]", 
+        "description":"动词聚集在后邻方位词、名词、数量词"
+    },
+    {
+        "query": "聚集在 n[f s ns]", 
+        "description":"动词聚集在后邻方位词、名词、数量词"
+    },
+    {
+        "query": "w[q+r+d+c+v+a++n+m++p]今.古w", 
+        "description":"标点符号后接q、r、d、c、v、a、n、m、p，然后是今、古，最后是标点符号"
+    },
+    {
+        "query": "w[q r d c v a  n m  p]今.古w", 
+        "description":"标点符号后接q、r、d、c、v、a、n、m、p，然后是今、古，最后是标点符号"
+    },
+    {
+        "query": "就是v+u[，+。]", 
+        "description":"动词就是后邻虚词，虚词后邻逗号或句号"
+    },
+    {
+        "query": "就是v u[， 。]", 
+        "description":"动词就是后邻虚词，虚词后邻逗号或句号"
+    }
+]
+```

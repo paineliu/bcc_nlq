@@ -1,0 +1,84 @@
+```json
+[
+    {
+        "query": "说 @", 
+        "description":"说后面跟一个词，词性不限"
+    },
+    {
+        "query": "审核 ~ 在线",
+        "description":"审核后面跟一个词，再接在线"
+    },
+    {
+        "query": "~ 依法",
+        "description":"依法前面有一个词，词性不限"
+    },
+    {
+        "query": "依法",
+        "description":"包含依法的实例"
+    },
+    {
+        "query": "坚持 ~ 执政",
+        "description":"坚持后面跟一个词，再接执政"
+    },
+    {
+        "query": "依法 ~ 的",
+        "description":"依法后面跟一个词，再接的"
+    },
+    {
+        "query": "管 @ 治",
+        "description":"管后面跟一个词，词性不限，再接治"
+    },
+    {
+        "query": "党规 ../n 严于",
+        "description":"党规后面跟一个单音节名词，再接严于"
+    },
+    {
+        "query": "治 @/[n v] 的",
+        "description":"治后面跟一个词，词性为名词或动词，再接的"
+    },
+    {
+        "query": "质量 ~",
+        "description":"质量后面跟一个词，词性不限"
+    },
+    {
+        "query": "(v) 法治 (n){len($2)=2}",
+        "description":"动词后面接法治，法治后面接长度为2的名词"
+    },
+    {
+        "query": "n 是",
+        "description":"名词后面接是"
+    },
+    {
+        "query": "维护 (v) 公正{len($1)>1}",
+        "description":"维护后面接长度大于1的动词，再接公正"
+    },
+    {
+        "query": "(v) (n){begin($2)!=[张 祝]}",
+        "description":"动词后面接名词，名词不以张或祝开头"
+    },
+    {
+        "query": "法治 .. 。",
+        "description":"法治中间有两个字，后面接句号"
+    },
+    {
+        "query": "(v) 法治 (vn){end($1)=[v 定 蓝]; len($2)=2}",
+        "description":"动词后面接法治，法治后面接以v、定、蓝结尾的词性为动名词的词，长度为2"
+    },
+    {
+        "query": "(v) (v){len($1)>1; begin($2)!=[话 胃]}",
+        "description":"长度大于1的动词后面接不以话或胃开头的动词"
+    },
+    {
+        "query": "作者 (v) 中共{len($1)!=2}",
+        "description":"作者后面接长度不为2的动词，再接中共"
+    },
+    {
+        "query": "更 (a) 思想{count<204}",
+        "description":"更后面接形容词，再接思想，且该结构的频次小于204"
+    },
+    {
+        "query": "(d) (v){count<477}",
+        "description":"副词后面接动词，且该结构的频次小于477"
+    }
+]
+```

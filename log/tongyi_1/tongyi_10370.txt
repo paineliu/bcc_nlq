@@ -1,0 +1,166 @@
+以下是检索式及其含义的JSON结构：
+
+```json
+[
+    {
+        "query": "(nr) 表示{begin($1)=[徐 线 认 操]}", 
+        "description": "表示后面接徐、线、认、操中的一个名词"
+    },
+    {
+        "query": "强调 ./[w v]", 
+        "description": "强调后接一个动词或一个形容词"
+    },
+    {
+        "query": "../nr 也许 并 不 可怕 青年 ./v", 
+        "description": "二字名词后面接也许、并、不、可怕、青年中的任何一个词，然后是动词"
+    },
+    {
+        "query": "(a) 为何{count>2}", 
+        "description": "形容词为何，且实例频次大于2"
+    },
+    {
+        "query": "我们/r 尚", 
+        "description": "我们后面接一个副词尚"
+    },
+    {
+        "query": "人民 (n){begin($1)=[图 知 吓]}", 
+        "description": "人民后面接图、知、吓中的任何一个词"
+    },
+    {
+        "query": "要 (v) 需求{len($1)=2}", 
+        "description": "要后面接一个两字的动词需求"
+    },
+    {
+        "query": "(q) (w){count<536}", 
+        "description": "括号内的单字(w)实例频次小于536"
+    },
+    {
+        "query": "年轻人 .. 怎样", 
+        "description": "年轻人后面可能有一个或多个字后接怎样"
+    },
+    {
+        "query": "快递 (n) 造成{len($1)=2}", 
+        "description": "快递后面接造成，造成是两字词"
+    },
+    {
+        "query": "陕西", 
+        "description": "陕西"
+    },
+    {
+        "query": "一个半 (n){len($1)!=2}", 
+        "description": "一个半后面接的不是一个两字词"
+    },
+    {
+        "query": "轿车 w", 
+        "description": "轿车后面接一个单字"
+    },
+    {
+        "query": "之下 ~/[w v] 只好", 
+        "description": "之下后面可能是单字或两字词，再接只好"
+    },
+    {
+        "query": "洛阳市 (nr){len($1)=3}", 
+        "description": "洛阳市"
+    },
+    {
+        "query": "已 ../n 学生", 
+        "description": "已后面接一个名词学生"
+    },
+    {
+        "query": "了 ~/[vn v] 课", 
+        "description": "了后面可能是动名词或动词，再接课"
+    },
+    {
+        "query": "(n) 难道 (c){begin($1)=[教 说 联 选]}", 
+        "description": "难道后面接教、说、联、选中的一个词，且是副词"
+    },
+    {
+        "query": "培养", 
+        "description": "培养"
+    },
+    {
+        "query": "陕西 (ns) 张秋宪{len($1)=2}", 
+        "description": "陕西后面接张秋宪，张秋宪是两字词"
+    },
+    {
+        "query": "(v) 卡成{len($1)!=3}", 
+        "description": "动词卡成，但卡成不是三个字"
+    },
+    {
+        "query": "阳城县 刘/nr 国信", 
+        "description": "阳城县后面接刘国信，刘国信是人名"
+    },
+    {
+        "query": "极 @/[v v] 。", 
+        "description": "极后面接一个或两个动词，然后是一个句点"
+    },
+    {
+        "query": "有些 (n) ，{len($1)!=2}", 
+        "description": "有些后面接一个不是两字的词，然后是一个逗号"
+    },
+    {
+        "query": "何在 @", 
+        "description": "何在，统计时按照词性归并"
+    },
+    {
+        "query": "让 ./v 三甲", 
+        "description": "让后面接一个动词，然后是三甲"
+    },
+    {
+        "query": "的 @/[n v] 。", 
+        "description": "的后面接一个名词或动词，然后是一个句点，统计时按照词性归并"
+    },
+    {
+        "query": "视觉", 
+        "description": "视觉"
+    },
+    {
+        "query": "开 (n) ？{len($1)>1}", 
+        "description": "开后面接一个字以上的名词，然后是一个问号"
+    },
+    {
+        "query": "开 (w){count<848}", 
+        "description": "开(w)实例频次小于848"
+    },
+    {
+        "query": "河南 (ns) 真真{len($1)>2}", 
+        "description": "河南后面接真真，真真是多于两个字的地名"
+    },
+    {
+        "query": "何时 . 需", 
+        "description": "何时后面接一个字，然后是需"
+    },
+    {
+        "query": "南城县", 
+        "description": "南城县"
+    },
+    {
+        "query": "璧山区", 
+        "description": "璧山区"
+    },
+    {
+        "query": "广东 (ns) 李荣灿{count<979}", 
+        "description": "广东后面接李荣灿，李荣灿是多于两个字的地名，实例频次小于979"
+    },
+    {
+        "query": "(v) 牌{len($1)!=2}", 
+        "description": "动词牌，但牌不是两个字"
+    },
+    {
+        "query": "开车", 
+        "description": "开车"
+    },
+    {
+        "query": "司机 . 校车", 
+        "description": "司机后面接一个字，然后是校车"
+    },
+    {
+        "query": "山西 ... 鲍", 
+        "description": "山西后面可能是一个或多个字后接鲍"
+    },
+    {
+        "query": "下期 (v) ：{begin($1)!=[难 帮]}", 
+        "description": "下期后面接一个不是难或帮的动词，然后是一个冒号"
+    }
+]
+```

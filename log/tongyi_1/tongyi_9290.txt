@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "n 贬值", 
+        "description": "名词后面接贬值"
+    },
+    {
+        "query": "大 @", 
+        "description": "大后面接一个词"
+    },
+    {
+        "query": "： ~", 
+        "description": "冒号后面接任意字符"
+    },
+    {
+        "query": "多 (a) ？{len($1)!=2}", 
+        "description": "多后面接形容词，且形容词不是两个字"
+    },
+    {
+        "query": "(d) (vx){begin($1)=[就 果 至 却]}", 
+        "description": "副词后面接两个字的动词，且动词不在给定列表中"
+    },
+    {
+        "query": "(ad) 贬值 (v){$1!=$2}", 
+        "description": "副形词后面接贬值，且两者不同"
+    },
+    {
+        "query": "(r) 表明{len($1)!=2}", 
+        "description": "表明后面接的不是两个字"
+    },
+    {
+        "query": ".. ， 但 ..", 
+        "description": "两个标点符号中间的内容"
+    },
+    {
+        "query": "(r) 欢喜 有人 (v){len($1)=2}", 
+        "description": "欢喜后面接一个字的动词"
+    },
+    {
+        "query": "分析 (w){count>7}", 
+        "description": "分析这个词的使用频次大于7次"
+    },
+    {
+        "query": "~/[nr v] 元春", 
+        "description": "元春前面离合出现名词或动词"
+    },
+    {
+        "query": "称 (vn) 趋势{len($1)=2}", 
+        "description": "称后面接两个字的动名词"
+    },
+    {
+        "query": "从 (n) 创新{end($1)!=[挣 线 下]}", 
+        "description": "从后面接名词，且名词不以挣、线或下结尾"
+    },
+    {
+        "query": "@ 药业", 
+        "description": "后面接‘药业’"
+    },
+    {
+        "query": "， . 是", 
+        "description": "逗号、句号后面接‘是’"
+    },
+    {
+        "query": "资源 (vn) ？{len($1)>1}", 
+        "description": "资源后面接的动名词长度大于1"
+    },
+    {
+        "query": "(ns) 驿站{count>9}", 
+        "description": "驿站的频次大于9"
+    },
+    {
+        "query": "(v) 过分{len($1)>1}", 
+        "description": "过分后面接的动词长度大于1"
+    },
+    {
+        "query": "还 ~/[v v] 用", 
+        "description": "还后面离合出现两个动词再接用"
+    },
+    {
+        "query": "(v) 挂 ， 限制 腐败 滋生 (n){len($1)>1; len($2)>1}", 
+        "description": "挂后面接两个名词，且限制和滋生后面都有名词"
+    },
+    {
+        "query": "../[vn v] 机制", 
+        "description": "两个词组成的动词短语后面接机制"
+    },
+    {
+        "query": "(n) (v){$1=$2}", 
+        "description": "两个名词后面接相同的动词"
+    },
+    {
+        "query": "广西 (j) 贸易{middle($1)!=[狗 晓]}",
+        "description": "广西后面接简略语贸易，且中间不包含狗或晓"
+    },
+    {
+        "query": "汽车 ../[ns v] 分公司", 
+        "description": "汽车后面接由两个词组成的名词和动词短语"
+    },
+    {
+        "query": "@/[v v] 巡回", 
+        "description": "两个动词之间接巡回"
+    },
+    {
+        "query": "法庭 .", 
+        "description": "法庭后面接一个点"
+    },
+    {
+        "query": "有 (d) 大{len($1)=1}", 
+        "description": "有后面接一个字的副词，再接一个字的大"
+    },
+    {
+        "query": "../n 从", 
+        "description": "两个词组成的动词短语后面接从"
+    },
+    {
+        "query": "怎么 ~/[v v] 案件", 
+        "description": "怎么后面离合出现两个动词再接案件"
+    },
+    {
+        "query": "(ns) 建设 将 发挥 哪些 (n){len($1)=2; len($2)=2}", 
+        "description": "建设、将、发挥后面接两个名词"
+    },
+    {
+        "query": "(n) 进行{count<807}", 
+        "description": "进行后面接的名词频次小于807"
+    },
+    {
+        "query": "设 ../vn 法庭", 
+        "description": "设置后面接动词和名词"
+    },
+    {
+        "query": "法庭 @/[v v] 哪些", 
+        "description": "法庭后面接两个动词"
+    },
+    {
+        "query": "巡回 (n) 管{end($1)!=[飞 志 风]}", 
+        "description": "巡回后面接名词，且名词不以飞、志或风结尾"
+    },
+    {
+        "query": "(v) (n){len($2)>1}", 
+        "description": "动词后面接的名词长度大于1"
+    },
+    {
+        "query": "中国 (n){end($1)!=[克 以 菜]}", 
+        "description": "中国后面接的名词不以克、以或菜结尾"
+    },
+    {
+        "query": "../nr 强调", 
+        "description": "两个词组成的动词短语后面接强调"
+    },
+    {
+        "query": "(v) 一 场 攻坚 克难 (u){len($1)!=2; len($2)!=2}", 
+        "description": "一后面接两个字的动词，再接两个字的动词"
+    },
+    {
+        "query": "改进 ~/[n v] 到", 
+        "description": "改进后面离合出现名词或动词再接到"
+    },
+    {
+        "query": "抓 (u) 快{len($1)=1}", 
+        "description": "抓后面接一个字的助词，再接快"
+    }
+]
+```

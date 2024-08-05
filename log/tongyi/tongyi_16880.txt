@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "[逐步+逐渐+逐年]v[q+m+]v[，+。]",
+        "description": "动词后接q+m+名词或形容词，再接逗号或句号"
+    },
+    {
+        "query": "[逐步 逐渐 逐年]v[q m ]v[， 。]",
+        "description": "动词后接q+m或名词或形容词，再接逗号或句号"
+    },
+    {
+        "query": "从头v+n[，+。]",
+        "description": "动词后接名词，再接逗号或句号"
+    },
+    {
+        "query": "从头v n[， 。]",
+        "description": "动词后接名词，再接逗号或句号"
+    },
+    {
+        "query": "照样v+a[，+。]",
+        "description": "动词后接形容词或副词，再接逗号或句号"
+    },
+    {
+        "query": "照样v a[， 。]",
+        "description": "动词后接形容词或副词，再接逗号或句号"
+    },
+    {
+        "query": "[顺便+顺序+私自]v[q+m+]v[，+。]",
+        "description": "动词后接q+m+名词或形容词，再接逗号或句号"
+    },
+    {
+        "query": "[顺便 顺序 私自]v[q m ]v[， 。]",
+        "description": "动词后接q+m或名词或形容词，再接逗号或句号"
+    },
+    {
+        "query": "不住d+v[，+。]",
+        "description": "动词后接名词，再接逗号或句号"
+    },
+    {
+        "query": "不住d v[， 。]",
+        "description": "动词后接名词，再接逗号或句号"
+    },
+    {
+        "query": "w刚.柔[q+r+d+c+v+a++n+m++p]w",
+        "description": "单词以w开头，中间以逗号或句号分隔的词汇集合，以w结尾"
+    },
+    {
+        "query": "w刚.柔[q r d c v a  n m  p]w",
+        "description": "单词以w开头，中间包含q、r、d、c、v、a、n、m、p字母集合，以w结尾"
+    },
+    {
+        "query": "长期v+a[，+。]",
+        "description": "动词后接形容词或副词，再接逗号或句号"
+    },
+    {
+        "query": "长期v a[， 。]",
+        "description": "动词后接形容词或副词，再接逗号或句号"
+    },
+    {
+        "query": "[，+。]c+c+n+[，+。]",
+        "description": "两个标点符号后接两个相同标点符号，再接名词，最后以逗号或句号结尾"
+    },
+    {
+        "query": "[， 。]c c n [， 。]",
+        "description": "两个逗号或句号后接两个相同标点符号，再接名词，最后以逗号或句号结尾"
+    },
+    {
+        "query": "近来v+u[，+。]",
+        "description": "动词后接u或时间词，再接逗号或句号"
+    },
+    {
+        "query": "近来v u[， 。]",
+        "description": "动词后接u或时间词，再接逗号或句号"
+    },
+    {
+        "query": "的+n[，+。]",
+        "description": "名词后接逗号或句号"
+    },
+    {
+        "query": "的 n[， 。]",
+        "description": "名词后接逗号或句号"
+    },
+    {
+        "query": "惟独v[，+。]",
+        "description": "动词后接逗号或句号"
+    },
+    {
+        "query": "惟独v[， 。]",
+        "description": "动词后接逗号或句号"
+    },
+    {
+        "query": "[给+送+教+找+借]r+n",
+        "description": "以给、送、教、找、借为开头的动词后接名词"
+    },
+    {
+        "query": "[给 送 教 找 借]r n",
+        "description": "以给、送、教、找、借为开头的动词后接名词"
+    },
+    {
+        "query": "聚集+n[f+s+ns]",
+        "description": "名词后接f+s+ns为开头的名词"
+    },
+    {
+        "query": "聚集 n[f s ns]",
+        "description": "名词后接f+s+ns为开头的名词"
+    },
+    {
+        "query": "好了[。+，+；+！+？]",
+        "description": "动词后接句号、逗号、分号、感叹号、问号"
+    },
+    {
+        "query": "好了[。 ， ； ！ ？]",
+        "description": "动词后接句号、逗号、分号、感叹号、问号"
+    },
+    {
+        "query": "[a+d+n+v++l]人声",
+        "description": "以a、d、n、v、l开头的名词后接人声"
+    },
+    {
+        "query": "[a d n v  l]人声",
+        "description": "以a、d、n、v、l开头的名词后接人声"
+    },
+    {
+        "query": "几乎v+a[，+。]",
+        "description": "动词后接形容词或副词，再接逗号或句号"
+    },
+    {
+        "query": "几乎v a[， 。]",
+        "description": "动词后接形容词或副词，再接逗号或句号"
+    },
+    {
+        "query": "不可a[，+。]",
+        "description": "形容词后接逗号或句号"
+    },
+    {
+        "query": "不可a[， 。]",
+        "description": "形容词后接逗号或句号"
+    },
+    {
+        "query": "v+v+n里[，+。]",
+        "description": "两个动词后接名词，再接逗号或句号"
+    },
+    {
+        "query": "v v n里[， 。]",
+        "description": "两个动词后接名词，再接逗号或句号"
+    },
+    {
+        "query": "v着一q+n[，+。]",
+        "description": "动词后接一、q、名词，再接逗号或句号"
+    },
+    {
+        "query": "v着一q n[， 。]",
+        "description": "动词后接一、q、名词，再接逗号或句号"
+    },
+    {
+        "query": "[网络游戏+网游+手游+手机游戏]的n",
+        "description": "以网络游戏、网游、手游、手机游戏为开头的名词后接的"
+    },
+    {
+        "query": "[网络游戏 网游 手游 手机游戏]的n",
+        "description": "以网络游戏、网游、手游、手机游戏为开头的名词后接的"
+    }
+]
+```

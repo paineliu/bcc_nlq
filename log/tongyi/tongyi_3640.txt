@@ -1,0 +1,166 @@
+根据给定的规则和示例，我们将以下检索式转换为带含义的json结构：
+
+```json
+[
+    {
+        "query": "丑",
+        "description": "包含丑的句子"
+    },
+    {
+        "query": "清白",
+        "description": "包含清白的句子"
+    },
+    {
+        "query": "和谐一些",
+        "description": "包含和谐一些的句子"
+    },
+    {
+        "query": "太污",
+        "description": "包含太污的句子"
+    },
+    {
+        "query": "特色",
+        "description": "包含特色的句子"
+    },
+    {
+        "query": "和谐侨乡",
+        "description": "包含和谐侨乡的句子"
+    },
+    {
+        "query": "普通自信",
+        "description": "包含普通自信的句子"
+    },
+    {
+        "query": "有没有这样一种可能",
+        "description": "包含有没有这样一种可能的句子"
+    },
+    {
+        "query": "党性",
+        "description": "包含党性的句子"
+    },
+    {
+        "query": "一句夸赞",
+        "description": "包含一句夸赞的句子"
+    },
+    {
+        "query": "不过多",
+        "description": "包含不过多的句子"
+    },
+    {
+        "query": "苦活",
+        "description": "包含苦活的句子"
+    },
+    {
+        "query": "那可真是太",
+        "description": "包含那可真是太的句子"
+    },
+    {
+        "query": "苦斗",
+        "description": "包含苦斗的句子"
+    },
+    {
+        "query": "想法",
+        "description": "包含想法的句子"
+    },
+    {
+        "query": "文字读起来",
+        "description": "包含文字读起来的句子"
+    },
+    {
+        "query": "风月无边",
+        "description": "包含风月无边的句子"
+    },
+    {
+        "query": "侵占",
+        "description": "包含侵占的句子"
+    },
+    {
+        "query": "他妈的",
+        "description": "包含他妈的的句子"
+    },
+    {
+        "query": "放学",
+        "description": "包含放学的句子"
+    },
+    {
+        "query": "看得清楚",
+        "description": "包含看得清楚的句子"
+    },
+    {
+        "query": "一再劝",
+        "description": "包含一再劝的句子"
+    },
+    {
+        "query": "累牍连篇",
+        "description": "包含累牍连篇的句子"
+    },
+    {
+        "query": "游戏玩起来",
+        "description": "包含游戏玩起来的句子"
+    },
+    {
+        "query": "出局",
+        "description": "包含出局的句子"
+    },
+    {
+        "query": "小打",
+        "description": "包含小打的句子"
+    },
+    {
+        "query": "异常没",
+        "description": "包含异常没的句子"
+    },
+    {
+        "query": "低人权",
+        "description": "包含低人权的句子"
+    },
+    {
+        "query": "这个东西",
+        "description": "包含这个东西的句子"
+    },
+    {
+        "query": "人权舞",
+        "description": "包含人权舞的句子"
+    },
+    {
+        "query": "磨蚀",
+        "description": "包含磨蚀的句子"
+    },
+    {
+        "query": "感谢",
+        "description": "包含感谢的句子"
+    },
+    {
+        "query": "一个农民的儿子",
+        "description": "包含一个农民的儿子的句子"
+    },
+    {
+        "query": "相当不",
+        "description": "包含相当不的句子"
+    },
+    {
+        "query": "十个样",
+        "description": "包含十个样的句子"
+    },
+    {
+        "query": "和谐及友",
+        "description": "包含和谐及友的句子"
+    },
+    {
+        "query": "起初",
+        "description": "包含起初的句子"
+    },
+    {
+        "query": "看来大概",
+        "description": "包含看来大概的句子"
+    },
+    {
+        "query": "出姓",
+        "description": "包含出姓的句子"
+    },
+    {
+        "query": "，绝了，",
+        "description": "包含，绝了，的句子"
+    }
+]
+```

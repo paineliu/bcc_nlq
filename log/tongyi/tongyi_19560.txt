@@ -1,0 +1,140 @@
+```json
+[
+    {
+        "query": "二十 完善/v 扶贫",
+        "description": "二十后接完善，然后是扶贫"
+    },
+    {
+        "query": "./v着",
+        "description": "单音节动词后接着"
+    },
+    {
+        "query": "v*诚意/n",
+        "description": "动词后接诚意，诚意为名词"
+    },
+    {
+        "query": "养/v+../n+",
+        "description": "养动词后接一个名词"
+    },
+    {
+        "query": "养/v ../n",
+        "description": "养动词后接单音节名词"
+    },
+    {
+        "query": "../v算了",
+        "description": "一个动词后接算了"
+    },
+    {
+        "query": "的+就是/d+党性",
+        "description": "的后接就是，就是后接党性，党性为名词"
+    },
+    {
+        "query": "的 就是/d 党性",
+        "description": "的后接就是，就是后接党性，党性为名词"
+    },
+    {
+        "query": "./v了a",
+        "description": "单音节动词后接形容词了"
+    },
+    {
+        "query": "校园+足球/n+，",
+        "description": "校园后接足球，足球为名词，后面跟逗号"
+    },
+    {
+        "query": "校园 足球/n ，",
+        "description": "校园后接足球，足球为名词，后面跟逗号"
+    },
+    {
+        "query": "../v+../v",
+        "description": "两个动词连在一起"
+    },
+    {
+        "query": "../v ../v",
+        "description": "两个动词连在一起"
+    },
+    {
+        "query": "v*敬意/n",
+        "description": "动词后接敬意，敬意为名词"
+    },
+    {
+        "query": "每年/r+两+次+评选/v",
+        "description": "每年后接两次，然后是评选"
+    },
+    {
+        "query": "每年/r 两 次 评选/v",
+        "description": "每年后接两次，然后是评选"
+    },
+    {
+        "query": "坚持/v+立行+立改/v",
+        "description": "坚持后接立行，立行后接立改"
+    },
+    {
+        "query": "坚持/v 立行 立改/v",
+        "description": "坚持后接立行，立行后接立改"
+    },
+    {
+        "query": "疏离+到/v+亲近",
+        "description": "疏离后接到，然后是亲近"
+    },
+    {
+        "query": "超 两成/m",
+        "description": "超后接两成，两成为名量词"
+    },
+    {
+        "query": "./v错了",
+        "description": "单音节动词后接错了"
+    },
+    {
+        "query": "会+将/p+疗效",
+        "description": "会后接将，然后是疗效"
+    },
+    {
+        "query": "会 将/p 疗效",
+        "description": "会后接将，然后是疗效"
+    },
+    {
+        "query": "表示/v",
+        "description": "表示动词"
+    },
+    {
+        "query": "../v../n",
+        "description": "一个动词后接一个名词"
+    },
+    {
+        "query": "压/v+../n+",
+        "description": "压动词后接一个名词"
+    },
+    {
+        "query": "压/v ../n",
+        "description": "压动词后接单音节名词"
+    },
+    {
+        "query": "的+好/a",
+        "description": "的后接形容词好"
+    },
+    {
+        "query": "的 好/a",
+        "description": "的后接形容词好"
+    },
+    {
+        "query": "养老+服务/vn+标准",
+        "description": "养老后接服务，服务后接标准"
+    },
+    {
+        "query": "一+名/q+学生",
+        "description": "一后接名，名后接学生"
+    },
+    {
+        "query": "办证+多/d+办事",
+        "description": "办证后接多，多后接办事"
+    },
+    {
+        "query": "直爽/a",
+        "description": "形容词直爽"
+    },
+    {
+        "query": ",/w+结果+是+人人+不满+。/w",
+        "description": "逗号后接结果，结果后接是，是后接人人，人人后接不满，不满后接句尾符号"
+    }
+]
+```

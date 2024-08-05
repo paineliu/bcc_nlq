@@ -1,0 +1,168 @@
+以下是将给定的检索式转换为带含义的json结构的列表：
+
+```json
+[
+    {
+        "query": "演*戏",
+        "description": "演员后面离合出现戏"
+    },
+    {
+        "query": "恐怕*啊？",
+        "description": "恐怕后面离合出现啊？"
+    },
+    {
+        "query": "n包围*r",
+        "description": "名词后面紧接包围再接名词"
+    },
+    {
+        "query": "w去.来w",
+        "description": "去后面隔一个字后接来再接去"
+    },
+    {
+        "query": "把n捧@",
+        "description": "把后面接名词，再接@的词性"
+    },
+    {
+        "query": "会*不少",
+        "description": "会后面离合出现不少"
+    },
+    {
+        "query": "把@捧",
+        "description": "把后面接@的词性"
+    },
+    {
+        "query": "一.一.",
+        "description": "数字一后面隔一个字后接一再隔一个字后接数字"
+    },
+    {
+        "query": "不就*了……",
+        "description": "不就后面离合出现了……"
+    },
+    {
+        "query": "罩不.",
+        "description": "罩后面隔一个字后接不"
+    },
+    {
+        "query": "话*听",
+        "description": "话后面离合出现听"
+    },
+    {
+        "query": "仿佛*明知",
+        "description": "仿佛后面离合出现明知"
+    },
+    {
+        "query": "w浅.深w",
+        "description": "浅后面隔一个字后接深再接浅"
+    },
+    {
+        "query": "一@一个",
+        "description": "@的词性后面紧接一个"
+    },
+    {
+        "query": "管不.",
+        "description": "管后面隔一个字后接不"
+    },
+    {
+        "query": "年*来着",
+        "description": "年后面离合出现来着"
+    },
+    {
+        "query": "v*行为",
+        "description": "动词后面离合出现行为"
+    },
+    {
+        "query": "怎么说你*好",
+        "description": "怎么说你后面离合出现好"
+    },
+    {
+        "query": "@的原因",
+        "description": "@的词性后面紧接原因"
+    },
+    {
+        "query": "帮*忙",
+        "description": "帮后面离合出现忙"
+    },
+    {
+        "query": "时间是.......n",
+        "description": "时间后面隔多个字后接是再隔多个字后接名词"
+    },
+    {
+        "query": "可见*d",
+        "description": "可见后面紧接*d的词性"
+    },
+    {
+        "query": "仿佛*当真",
+        "description": "仿佛后面离合出现当真"
+    },
+    {
+        "query": "这.一动",
+        "description": "这后面隔一个字后接一再接动"
+    },
+    {
+        "query": "属实~",
+        "description": "属实后面紧接~的符号"
+    },
+    {
+        "query": "大概*确是",
+        "description": "大概后面离合出现确是"
+    },
+    {
+        "query": "v下*怒气",
+        "description": "动词后面紧接下再接怒气"
+    },
+    {
+        "query": "不...甚至",
+        "description": "不后面隔一个或多个字后接甚至"
+    },
+    {
+        "query": "了.来",
+        "description": "了后面隔一个字后接来"
+    },
+    {
+        "query": "论不.",
+        "description": "论后面隔一个字后接不"
+    },
+    {
+        "query": "可不可能*？",
+        "description": "可不可能后面离合出现？"
+    },
+    {
+        "query": "是......的",
+        "description": "是后面隔一个或多个字后接......的"
+    },
+    {
+        "query": "说句*的话",
+        "description": "说句后面离合出现的话"
+    },
+    {
+        "query": "V上*情感",
+        "description": "动词后面紧接上再接情感"
+    },
+    {
+        "query": "充其量*仿佛",
+        "description": "充其量后面离合出现仿佛"
+    },
+    {
+        "query": "新*旧",
+        "description": "新后面紧接旧"
+    },
+    {
+        "query": "觉得~特别",
+        "description": "觉得后面紧接~再接特别"
+    },
+    {
+        "query": "~就是了",
+        "description": "~的符号后面紧接就是了"
+    },
+    {
+        "query": "不.得",
+        "description": "不后面隔一个或多个字后接得"
+    },
+    {
+        "query": "似乎*决非",
+        "description": "似乎后面离合出现决非"
+    }
+]
+```
+
+这个json列表包含了给定检索式的详细描述和含义，每一项都对应一个检索式及其解释。

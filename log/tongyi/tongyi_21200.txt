@@ -1,0 +1,166 @@
+以下是将给出的检索式转换为带含义的json结构的结果：
+
+```json
+[
+    {
+        "query": "期间/f ， 他 电话 不断 。/w",
+        "description": "期间, 在句子中紧跟着他, 后面是电话, 并且电话后面不断, 最后是句号。"
+    },
+    {
+        "query": "持/v+居住证+可+积分+落户+政策/n",
+        "description": "持居住证可以积分落户的政策"
+    },
+    {
+        "query": "持/v 居住证 可 积分 落户 政策/n",
+        "description": "持居住证可以积分落户的政策"
+    },
+    {
+        "query": "好歹/d....",
+        "description": "好歹...表示不确定的语气，后面跟着省略号"
+    },
+    {
+        "query": "如何/r+打开",
+        "description": "如何打开，表示询问打开的方法"
+    },
+    {
+        "query": "如何/r 打开",
+        "description": "如何打开，表示询问打开的具体步骤"
+    },
+    {
+        "query": "竟/d+需+一个半/m",
+        "description": "竟需要一个半，表示出乎意料的需要数量"
+    },
+    {
+        "query": "竟/d 需 一个半/m",
+        "description": "竟需要一个半，表示出乎意料的需要数量"
+    },
+    {
+        "query": "苦/a+a",
+        "description": "苦加苦，表示重复的苦"
+    },
+    {
+        "query": "苦/a a",
+        "description": "苦加a加苦，可能表示某种特定情境下的苦"
+    },
+    {
+        "query": ".干/v",
+        "description": "表示干的动作，后面跟句点，可能表示完成或停止"
+    },
+    {
+        "query": "评+日志/n+管用",
+        "description": "评价日志是否管用"
+    },
+    {
+        "query": "评 日志/n 管用",
+        "description": "评价日志是否管用"
+    },
+    {
+        "query": "抓住/v+全民",
+        "description": "抓住全民，表示动作针对全体人民"
+    },
+    {
+        "query": "抓住/v 全民",
+        "description": "抓住全民，表示动作针对全体人民"
+    },
+    {
+        "query": "./v贵了",
+        "description": "表示价格或费用变贵了"
+    },
+    {
+        "query": "，/w+不/d",
+        "description": "逗号后面跟着否定词不，表示句子的否定"
+    },
+    {
+        "query": "，/w 不/d",
+        "description": "逗号后面跟着否定词不，表示句子的否定"
+    },
+    {
+        "query": "尝/v",
+        "description": "表示尝试或品尝的动作"
+    },
+    {
+        "query": "浙江/ns+开化",
+        "description": "关于浙江开化的信息或描述"
+    },
+    {
+        "query": "浙江/ns 开化",
+        "description": "关于浙江开化的信息或描述"
+    },
+    {
+        "query": "反/v+恐怖主义+法/n",
+        "description": "关于反恐怖主义的法律"
+    },
+    {
+        "query": "反/v 恐怖主义 法/n",
+        "description": "关于反恐怖主义的法律"
+    },
+    {
+        "query": "乡镇+人大/j+不撂荒",
+        "description": "乡镇人大防止土地撂荒的举措"
+    },
+    {
+        "query": "乡镇 人大/j 不撂荒",
+        "description": "乡镇人大防止土地撂荒的举措"
+    },
+    {
+        "query": "风情/n*v",
+        "description": "表示某种风情或情调的词汇"
+    },
+    {
+        "query": "../v觉悟",
+        "description": "觉悟的行动或过程"
+    },
+    {
+        "query": "n+爱情/n",
+        "description": "关于爱情的描述或主题"
+    },
+    {
+        "query": "n 爱情/n",
+        "description": "关于爱情的描述或主题"
+    },
+    {
+        "query": "吃/v",
+        "description": "表示吃的动作"
+    },
+    {
+        "query": "../a+而+./a",
+        "description": "表示某种情况与另一个情况并列或对比"
+    },
+    {
+        "query": "../a 而 ./a",
+        "description": "表示某种情况与另一个情况并列或对比"
+    },
+    {
+        "query": "淘金+？/w",
+        "description": "关于淘金的疑问或询问"
+    },
+    {
+        "query": "淘金 ？/w",
+        "description": "关于淘金的疑问或询问"
+    },
+    {
+        "query": "处置/v+存在",
+        "description": "关于处理存在的问题或事物"
+    },
+    {
+        "query": "处置/v 存在",
+        "description": "关于处理存在的问题或事物"
+    },
+    {
+        "query": "实+要/v+向",
+        "description": "表示实际上需要朝向或指向某个方向"
+    },
+    {
+        "query": "实 要/v 向",
+        "description": "表示实际上需要朝向或指向某个方向"
+    },
+    {
+        "query": "农垦+公共/b+品牌",
+        "description": "关于农垦公共品牌的描述或信息"
+    },
+    {
+        "query": "农垦 公共/b 品牌",
+        "description": "关于农垦公共品牌的描述或信息"
+    }
+]
+```

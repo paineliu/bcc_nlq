@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "你们. .v了",
+        "description": "你们后面隔一个字后接动词"
+    },
+    {
+        "query": "再*也",
+        "description": "再后面离合出现也"
+    },
+    {
+        "query": "洗.澡",
+        "description": "洗后面隔一个字后接澡"
+    },
+    {
+        "query": "也许*多亏",
+        "description": "也许后面离合出现多亏"
+    },
+    {
+        "query": "他..+过去w",
+        "description": "他后面加过去，w表示句尾"
+    },
+    {
+        "query": "他.. 过去w",
+        "description": "他后面跟过去，w表示句尾"
+    },
+    {
+        "query": "或许*确是",
+        "description": "或许后面离合出现确是"
+    },
+    {
+        "query": "不.不",
+        "description": "不后面隔一个字后接不"
+    },
+    {
+        "query": "*一下w",
+        "description": "离合出现一下，w表示句尾"
+    },
+    {
+        "query": "说句.话",
+        "description": "说句后面隔一个字后接话"
+    },
+    {
+        "query": "输*赢",
+        "description": "输后面离合出现赢"
+    },
+    {
+        "query": "不就*了？",
+        "description": "不就后面离合出现了，问号表示句尾"
+    },
+    {
+        "query": "你..+出去w",
+        "description": "你后面加出去，w表示句尾"
+    },
+    {
+        "query": "你.. 出去w",
+        "description": "你后面跟出去，w表示句尾"
+    },
+    {
+        "query": "留*神。",
+        "description": "留后面离合出现神，句尾符号为。"
+    },
+    {
+        "query": "v了金.",
+        "description": "动词后接金，句尾符号为。"
+    },
+    {
+        "query": "恐怕*吧？",
+        "description": "恐怕后面离合出现吧，问号表示句尾"
+    },
+    {
+        "query": "仿佛*竟然",
+        "description": "仿佛后面离合出现竟然"
+    },
+    {
+        "query": "驳*倒",
+        "description": "驳后面离合出现倒"
+    },
+    {
+        "query": "w吸.呼w",
+        "description": "w表示句首，吸后面隔一个字后接呼，w表示句尾"
+    },
+    {
+        "query": "似乎*当真",
+        "description": "似乎后面离合出现当真"
+    },
+    {
+        "query": "是*的时代w",
+        "description": "是后面离合出现的时代，w表示句尾"
+    },
+    {
+        "query": "别太*了",
+        "description": "别太后面离合出现了"
+    },
+    {
+        "query": "好*坏",
+        "description": "好后面离合出现坏"
+    },
+    {
+        "query": "他一个.........，",
+        "description": "他一个后面跟着一系列符号，句尾符号为。"
+    },
+    {
+        "query": "@界",
+        "description": "界作为一个词性出现在句中"
+    },
+    {
+        "query": "忧.",
+        "description": "忧后面隔一个字后接。"
+    },
+    {
+        "query": "或许*宁愿",
+        "description": "或许后面离合出现宁愿"
+    },
+    {
+        "query": "引起n.",
+        "description": "引起后面跟一个名词，句尾符号为。"
+    },
+    {
+        "query": "有.于",
+        "description": "有后面隔一个字后接于"
+    },
+    {
+        "query": "浅*一*",
+        "description": "浅后面离合出现一"
+    },
+    {
+        "query": "a.匕首",
+        "description": "a作为词性出现在句中"
+    },
+    {
+        "query": "牛..头",
+        "description": "牛后面隔一个字后接头"
+    },
+    {
+        "query": "v+n~的v",
+        "description": "动词加一个名词，再加一个词，最后接动词"
+    },
+    {
+        "query": "v n~的v",
+        "description": "动词加一个名词，再加一个词，最后接动词"
+    },
+    {
+        "query": "*搭子",
+        "description": "离合出现搭子"
+    },
+    {
+        "query": "w浊.清w",
+        "description": "w表示句首，浊后面隔一个字后接清，w表示句尾"
+    },
+    {
+        "query": "有什么..的。",
+        "description": "有什么后面跟着一系列符号，句尾符号为。"
+    },
+    {
+        "query": "富*贫",
+        "description": "富后面离合出现贫"
+    },
+    {
+        "query": "连*也",
+        "description": "连后面离合出现也"
+    }
+]
+```

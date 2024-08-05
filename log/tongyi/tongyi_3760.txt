@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "倘然",
+        "description": "包含'倘然'的句子"
+    },
+    {
+        "query": "赤裸",
+        "description": "包含'赤裸'的句子"
+    },
+    {
+        "query": "潜入",
+        "description": "包含'潜入'的句子"
+    },
+    {
+        "query": "？",
+        "description": "包含问号的句子"
+    },
+    {
+        "query": "水仙",
+        "description": "包含'水仙'的句子"
+    },
+    {
+        "query": "交往看看",
+        "description": "包含'交往看看'的句子"
+    },
+    {
+        "query": "米娜桑",
+        "description": "包含'米娜桑'的句子"
+    },
+    {
+        "query": "法定机构",
+        "description": "包含'法定机构'的句子"
+    },
+    {
+        "query": "夜间",
+        "description": "包含'夜间'的句子"
+    },
+    {
+        "query": "国家和谐",
+        "description": "包含'国家和谐'的句子"
+    },
+    {
+        "query": "中国芯片",
+        "description": "包含'中国芯片'的句子"
+    },
+    {
+        "query": "为此",
+        "description": "包含'为此'的句子"
+    },
+    {
+        "query": "半天",
+        "description": "包含'半天'的句子"
+    },
+    {
+        "query": "随从",
+        "description": "包含'随从'的句子"
+    },
+    {
+        "query": "鸡娃",
+        "description": "包含'鸡娃'的句子"
+    },
+    {
+        "query": "城市和谐",
+        "description": "包含'城市和谐'的句子"
+    },
+    {
+        "query": "知乎",
+        "description": "包含'知乎'的句子"
+    },
+    {
+        "query": "就使",
+        "description": "包含'就使'的句子"
+    },
+    {
+        "query": "左右这样",
+        "description": "包含'左右这样'的句子"
+    },
+    {
+        "query": "好了，",
+        "description": "包含'好了，'的句子"
+    },
+    {
+        "query": "颇为没",
+        "description": "包含'颇为没'的句子"
+    },
+    {
+        "query": "吃重",
+        "description": "包含'吃重'的句子"
+    },
+    {
+        "query": "的人人",
+        "description": "包含'的人人'的句子"
+    },
+    {
+        "query": "既然",
+        "description": "包含'既然'的句子"
+    },
+    {
+        "query": "秀",
+        "description": "包含'秀'的句子"
+    },
+    {
+        "query": "四轮驱动车",
+        "description": "包含'四轮驱动车'的句子"
+    },
+    {
+        "query": "成果",
+        "description": "包含'成果'的句子"
+    },
+    {
+        "query": "一样",
+        "description": "包含'一样'的句子"
+    },
+    {
+        "query": "、人权",
+        "description": "包含','后紧跟'人权'的句子"
+    },
+    {
+        "query": "都？？？？",
+        "description": "包含'都？？？？'的句子"
+    },
+    {
+        "query": "复人权",
+        "description": "包含'复人权'的句子"
+    },
+    {
+        "query": "调与和谐",
+        "description": "包含'调与和谐'的句子"
+    },
+    {
+        "query": "流离颠沛",
+        "description": "包含'流离颠沛'的句子"
+    },
+    {
+        "query": "贴身",
+        "description": "包含'贴身'的句子"
+    },
+    {
+        "query": "人工",
+        "description": "包含'人工'的句子"
+    },
+    {
+        "query": "牙不牙",
+        "description": "包含'牙不牙'的句子"
+    },
+    {
+        "query": "小学语文阅读教学",
+        "description": "包含'小学语文阅读教学'的句子"
+    },
+    {
+        "query": "卡司",
+        "description": "包含'卡司'的句子"
+    },
+    {
+        "query": "你也别说",
+        "description": "包含'你也别说'的句子"
+    },
+    {
+        "query": "捣乱",
+        "description": "包含'捣乱'的句子"
+    }
+]
+```

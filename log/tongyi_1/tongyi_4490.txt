@@ -1,0 +1,160 @@
+```json
+[
+    {
+        "query": ", 始于足下 (w){begin($1)!=[路 诶 减 钱]}",
+        "description": "句首带有'始于足下'，但不以路、诶、减或钱开始"
+    },
+    {
+        "query": "(ns) (j){end($1)=[ns 丫 脚]; len($2)=4}",
+        "description": "一个四字的ns词后面跟着一个j词，且末尾不为射、托、付"
+    },
+    {
+        "query": "法国 (ns) 副市长{end($1)!=[射 托 付]}",
+        "description": "包含'法国'，后面紧接着一个'副市长'，且不以射、托、付结束"
+    },
+    {
+        "query": "驻 @/[ns v] 大使",
+        "description": "驻扎的动词后面接ns词，然后是大使"
+    },
+    {
+        "query": "意大利 @/[n v] 总经理",
+        "description": "意大利后面接n词或v词，然后是总经理"
+    },
+    {
+        "query": "绿色 (v){count<306}",
+        "description": "绿色这个词出现次数少于306次"
+    },
+    {
+        "query": "面貌 @",
+        "description": "面貌后面有一个词"
+    },
+    {
+        "query": "胡志刚 . 人民",
+        "description": "胡志刚后面隔一个字后接人民"
+    },
+    {
+        "query": "富 ~/[w v] 学",
+        "description": "富后面离合出现w词或v词，然后是学"
+    },
+    {
+        "query": "城市 ~ 大",
+        "description": "城市后面有一个词，然后是大"
+    },
+    {
+        "query": "以 (ns) 因{begin($1)=[产 整]}",
+        "description": "以一个ns词开始，后面是因，且不以产或整开始"
+    },
+    {
+        "query": "厂",
+        "description": "单独的厂字"
+    },
+    {
+        "query": "(ns) , 因 (n){end($2)!=[爽 毛]}",
+        "description": "一个ns词后面跟逗号，然后是因和一个n词，但不以爽或毛结束"
+    },
+    {
+        "query": "以上 (w){count<912}",
+        "description": "以上这个词出现次数少于912次"
+    },
+    {
+        "query": "载 (n) 坚守{begin($1)=[创 命]}",
+        "description": "载后面接一个n词，然后是坚守，且不以创或命开始"
+    },
+    {
+        "query": "(w) (l){$1!=$2}",
+        "description": "两个相邻的词，但这两个词不相同"
+    },
+    {
+        "query": "会议 ~/[d v] 放",
+        "description": "会议后面离合出现d词或v词，然后是放"
+    },
+    {
+        "query": "(v) 红色{count<418}",
+        "description": "红色动词出现次数少于418次"
+    },
+    {
+        "query": "遵义 (n) 会址{count>6}",
+        "description": "遵义后面接一个n词，会址出现次数多于6次"
+    },
+    {
+        "query": "摄 ~/[n v] 视觉",
+        "description": "摄后面离合出现n词或v词，然后是视觉"
+    },
+    {
+        "query": "天行健 ~ 君子",
+        "description": "天行健后面有一个词，然后是君子"
+    },
+    {
+        "query": "./d 立 ./w",
+        "description": "一个d词后接立，然后是另一个w词"
+    },
+    {
+        "query": "给 .. 读懂",
+        "description": "给后面隔一个字后接读懂"
+    },
+    {
+        "query": "(ns) 的 (vn){len($1)=2; end($2)=[vn 羊 剪]}",
+        "description": "一个二字的ns词后面是'的'，然后是vn词，但不以羊或剪结束"
+    },
+    {
+        "query": "(u) (n){begin($2)!=[里 唐 喽]}",
+        "description": "一个u词后面是n词，但不以里、唐或喽开始"
+    },
+    {
+        "query": "(v) 中国 价值观 的 (nr){end($2)!=[冻 球 做 广]}",
+        "description": "一个v词后面是'中国 价值观'，然后是nr词，但不以冻、球、做或广结束"
+    },
+    {
+        "query": "指出 @",
+        "description": "指出后面有一个词"
+    },
+    {
+        "query": "(n) 广泛 (vn){len($1)<4; len($2)>1}",
+        "description": "一个n词后面是广泛，且广泛前面的词长度小于4，后面大于1字的vn词"
+    },
+    {
+        "query": "当下 即/v 未来",
+        "description": "当下后面接即/v，然后是未来"
+    },
+    {
+        "query": "的 (n) 。{len($1)!=3}",
+        "description": "的后面接一个n词，但的字本身不是三个字"
+    },
+    {
+        "query": "(v) (u){end($1)=[业 密]}",
+        "description": "一个v词后面是u词，且v词不以业或密结束"
+    },
+    {
+        "query": ".. 之",
+        "description": "两个连续的点后面接一个词"
+    },
+    {
+        "query": "这 c 消息",
+        "description": "这后面隔一个字后接消息"
+    },
+    {
+        "query": "教育 @ 究竟",
+        "description": "教育后面有一个词，然后是究竟"
+    },
+    {
+        "query": "新 @/[n v]",
+        "description": "新后面接n词或v词"
+    },
+    {
+        "query": "(r) (v){len($1)<3}",
+        "description": "一个r词后面是v词，且r词长度小于3"
+    },
+    {
+        "query": "与 (j) 结{len($1)!=4}",
+        "description": "与后面是j词，但与字本身不是四个字"
+    },
+    {
+        "query": "怎样 ~/[u v] 难度",
+        "description": "怎样后面离合出现u词或v词，然后是难度"
+    },
+    {
+        "query": "又 @/[v v] 哪些",
+        "description": "又后面接两个v词，然后是哪些"
+    }
+]
+```

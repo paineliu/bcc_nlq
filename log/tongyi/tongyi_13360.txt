@@ -1,0 +1,162 @@
+以下是将给定的检索式转换为带含义的json结构：
+
+```json
+[
+    {
+        "query": "当场v+y[，+。]",
+        "description": "当场动词后接逗号或句号"
+    },
+    {
+        "query": "当场v y[， 。]",
+        "description": "当场动词后接逗号或句号"
+    },
+    {
+        "query": "鉴于n+[，+。]",
+        "description": "鉴于名词后接逗号或句号"
+    },
+    {
+        "query": "鉴于n [， 。]",
+        "description": "鉴于名词后接逗号或句号"
+    },
+    {
+        "query": "m岁那年[，+。]",
+        "description": "m岁那年后接逗号或句号"
+    },
+    {
+        "query": "m岁那年[， 。]",
+        "description": "m岁那年后接逗号或句号"
+    },
+    {
+        "query": "关键n[，+。]",
+        "description": "关键名词后接逗号或句号"
+    },
+    {
+        "query": "关键n[， 。]",
+        "description": "关键名词后接逗号或句号"
+    },
+    {
+        "query": "[渐渐+将近+将要][v+a+n+r][，+。]",
+        "description": "由渐渐、将近、将要组成的序列动词后接逗号或句号"
+    },
+    {
+        "query": "[渐渐 将近 将要][v a n r][， 。]",
+        "description": "由渐渐、将近、将要组成的序列动词后接逗号或句号"
+    },
+    {
+        "query": "自然d+v[，+。]",
+        "description": "自然副词后接动词"
+    },
+    {
+        "query": "自然d v[， 。]",
+        "description": "自然副词后接动词"
+    },
+    {
+        "query": "自行v[v+a+n+r][，+。]",
+        "description": "自行动词后接逗号或句号"
+    },
+    {
+        "query": "自行v[v a n r][， 。]",
+        "description": "自行动词后接逗号或句号"
+    },
+    {
+        "query": "不许a[，+。]",
+        "description": "不许副词后接逗号或句号"
+    },
+    {
+        "query": "不许a[， 。]",
+        "description": "不许副词后接逗号或句号"
+    },
+    {
+        "query": "从n+f+v+v[，+。]",
+        "description": "从名词后接f+v+v序列动词"
+    },
+    {
+        "query": "从n f v v[， 。]",
+        "description": "从名词后接f+v+v序列动词"
+    },
+    {
+        "query": "a+d+n+v+l]一早",
+        "description": "由a+d+n+v+l组成的序列动词后接一早"
+    },
+    {
+        "query": "[a d n v l]一早",
+        "description": "由a+d+n+v+l组成的序列动词后接一早"
+    },
+    {
+        "query": "立刻d+n[，+。]",
+        "description": "立刻副词后接名词"
+    },
+    {
+        "query": "立刻d n[， 。]",
+        "description": "立刻副词后接名词"
+    },
+    {
+        "query": "从不v+v[，+。]",
+        "description": "从不动词后接两个相同的动词"
+    },
+    {
+        "query": "从不v v[， 。]",
+        "description": "从不动词后接两个相同的动词"
+    },
+    {
+        "query": "塞+[起+上+下+过+开+进+出]",
+        "description": "塞后接一系列动词"
+    },
+    {
+        "query": "n的空子[，+。]",
+        "description": "名词后接的空子后接逗号或句号"
+    },
+    {
+        "query": "n的空子[， 。]",
+        "description": "名词后接的空子后接逗号或句号"
+    },
+    {
+        "query": "[眼看+也许+一边][v+a+n+r][，+。]",
+        "description": "由眼看、也许、一边组成的序列动词后接逗号或句号"
+    },
+    {
+        "query": "[眼看 也许 一边][v a n r][， 。]",
+        "description": "由眼看、也许、一边组成的序列动词后接逗号或句号"
+    },
+    {
+        "query": "短期v+v[，+。]",
+        "description": "短期动词后接两个相同的动词"
+    },
+    {
+        "query": "短期v v[， 。]",
+        "description": "短期动词后接两个相同的动词"
+    },
+    {
+        "query": "仅仅v[，+。]",
+        "description": "仅仅动词后接逗号或句号"
+    },
+    {
+        "query": "仅仅v[， 。]",
+        "description": "仅仅动词后接逗号或句号"
+    },
+    {
+        "query": "匆匆[v+a+n+r][，+。]",
+        "description": "匆匆动词后接逗号或句号"
+    },
+    {
+        "query": "匆匆[v a n r][， 。]",
+        "description": "匆匆动词后接逗号或句号"
+    },
+    {
+        "query": "眼看d+a[，+。]",
+        "description": "眼看副词后接形容词"
+    },
+    {
+        "query": "眼看d a[， 。]",
+        "description": "眼看副词后接形容词"
+    },
+    {
+        "query": "相互d+a[，+。]",
+        "description": "相互副词后接形容词"
+    },
+    {
+        "query": "相互d a[， 。]",
+        "description": "相互副词后接形容词"
+    }
+]
+```

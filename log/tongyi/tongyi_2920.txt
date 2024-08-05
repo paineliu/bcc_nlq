@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "有意",
+        "description": "包含有意的句子"
+    },
+    {
+        "query": "夹在",
+        "description": "包含夹在的句子"
+    },
+    {
+        "query": "恶化",
+        "description": "描述恶化的状况或趋势"
+    },
+    {
+        "query": "打残",
+        "description": "涉及打残的行为或结果"
+    },
+    {
+        "query": "哪里的话",
+        "description": "表示对某事的否定或惊讶"
+    },
+    {
+        "query": "一群一群",
+        "description": "形容数量多或频繁出现的群体"
+    },
+    {
+        "query": "死库水",
+        "description": "一种网络用语，表示极度的不耐烦或愤怒"
+    },
+    {
+        "query": "回往",
+        "description": "表示返回或回顾过去的动作或行为"
+    },
+    {
+        "query": "有点儿很",
+        "description": "表示程度或感觉的轻微或强烈"
+    },
+    {
+        "query": "新能源",
+        "description": "描述新兴的能源来源或技术"
+    },
+    {
+        "query": "风貌和谐",
+        "description": "形容环境或社会氛围的和谐与美观"
+    },
+    {
+        "query": "，是我。",
+        "description": "表示确认或强调某人的身份或观点"
+    },
+    {
+        "query": "嘀咕",
+        "description": "表示小声地说话或抱怨"
+    },
+    {
+        "query": "敬人权",
+        "description": "表示尊重和维护人权的态度或行为"
+    },
+    {
+        "query": "是眼看",
+        "description": "表示观察或注视的动作"
+    },
+    {
+        "query": "倾倒",
+        "description": "表示倒塌或倾覆的状态或动作"
+    },
+    {
+        "query": "希望你过得好",
+        "description": "表达对他人的良好祝愿"
+    },
+    {
+        "query": "难免",
+        "description": "表示某事不可避免或难以避免"
+    },
+    {
+        "query": "冲上来",
+        "description": "表示迅速或强行前进的动作"
+    },
+    {
+        "query": "相互",
+        "description": "表示彼此之间或互相的联系或作用"
+    },
+    {
+        "query": "头牛",
+        "description": "比喻勇敢或重要的领头人物"
+    },
+    {
+        "query": "顾忌",
+        "description": "表示考虑或担心某些潜在的风险或后果"
+    },
+    {
+        "query": "浸在",
+        "description": "表示处于某种状态或环境中"
+    },
+    {
+        "query": "老是",
+        "description": "表示经常或持续不断地"
+    },
+    {
+        "query": "加宽",
+        "description": "表示宽度的增加或扩大"
+    },
+    {
+        "query": "山沟",
+        "description": "描述地形特征或地理区域"
+    },
+    {
+        "query": "成果发表会",
+        "description": "表示学术研究或项目成果的展示会议"
+    },
+    {
+        "query": "京人权",
+        "description": "关注或讨论北京市的人权状况"
+    },
+    {
+        "query": "宝号",
+        "description": "用于称呼特定的公司、组织或个人"
+    },
+    {
+        "query": "这个就",
+        "description": "表示某事的结果或结论"
+    },
+    {
+        "query": "消防栓",
+        "description": "描述消防设施或安全设备"
+    },
+    {
+        "query": "由此而言",
+        "description": "表示从某种情况或事实出发的论述或推理"
+    },
+    {
+        "query": "不愈为",
+        "description": "表示不能痊愈或无法解决"
+    },
+    {
+        "query": "生疥癣",
+        "description": "描述皮肤病症状"
+    },
+    {
+        "query": "仰泳",
+        "description": "游泳技巧之一"
+    },
+    {
+        "query": "静静悄悄",
+        "description": "形容环境的安静或低调"
+    },
+    {
+        "query": "佛像",
+        "description": "佛教中的雕塑或艺术作品"
+    },
+    {
+        "query": "手臂",
+        "description": "人体的一部分"
+    },
+    {
+        "query": "长得越来越高",
+        "description": "描述事物逐渐增长或发展的过程"
+    },
+    {
+        "query": "作与和谐",
+        "description": "表示工作与生活的平衡或协调"
+    }
+]
+```

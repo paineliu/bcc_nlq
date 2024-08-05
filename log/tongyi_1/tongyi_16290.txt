@@ -1,0 +1,160 @@
+```json
+[
+    {
+        "query": "读 ./[d v] 有",
+        "description": "读后面接d或v，然后接有"
+    },
+    {
+        "query": "命 ~",
+        "description": "命后接一个词"
+    },
+    {
+        "query": "快 ~/[c v] 慢",
+        "description": "快后面离合出现c或v，再接慢"
+    },
+    {
+        "query": "诗歌集 ./[w v] 山水课",
+        "description": "诗歌集后接w或v，再接山水课"
+    },
+    {
+        "query": "中国 ../[n v]",
+        "description": "中国后接双音节动词或名词"
+    },
+    {
+        "query": "虚构 (n) {count>3}",
+        "description": "虚构后接名词，且实例频次大于3"
+    },
+    {
+        "query": "(c) (a){{end($1)!=[订 姨 木]}}",
+        "description": "两个连续的副词，且第二个副词不等于订、姨或木"
+    },
+    {
+        "query": "李向东 (w) 王增如{count<111}",
+        "description": "李向东后接姓氏王，名增如，实例频次小于111"
+    },
+    {
+        "query": "重新 (v) 丁玲{len($1)!=3}",
+        "description": "重新后接非3个字符的动词，然后是丁玲"
+    },
+    {
+        "query": "材料 (w) 也{count>5}",
+        "description": "材料后接也，且实例频次大于5"
+    },
+    {
+        "query": "群众 (i) 。{begin($1)!=[团 装 角]}",
+        "description": "群众后接标点，且不是团、装或角开头的句子"
+    },
+    {
+        "query": "../[v v] 驱动",
+        "description": "两个连续的动词后接驱动"
+    },
+    {
+        "query": "强劲 (v) 。{len($1)=2}",
+        "description": "强劲后接2个字符的词，且是句尾"
+    },
+    {
+        "query": "增长 ~/[a v] 亮点",
+        "description": "增长后面离合出现形容词或动词，再接亮点"
+    },
+    {
+        "query": "@ 投入",
+        "description": "投入，统计时按照词性归并"
+    },
+    {
+        "query": "图 ./d 大",
+        "description": "图后接d，然后接大"
+    },
+    {
+        "query": "增长 a 亮点",
+        "description": "增长后接形容词，再接亮点"
+    },
+    {
+        "query": "转型 .. 新",
+        "description": "转型后接两个相邻的词，且第二个词是新"
+    },
+    {
+        "query": "创新 (v) {len($1)>1}",
+        "description": "创新后接长度大于1的动词"
+    },
+    {
+        "query": "更 a ：",
+        "description": "更后接形容词，然后是冒号"
+    },
+    {
+        "query": "出路 (d) 改革{count<790}",
+        "description": "出路后接改革，且实例频次小于790"
+    },
+    {
+        "query": "越位 @/[d v] 缺位",
+        "description": "越位后接d或v，再接缺位"
+    },
+    {
+        "query": "的 n ，",
+        "description": "的后面接名词，然后是逗号"
+    },
+    {
+        "query": "是 @ 发展",
+        "description": "是后接一个词，统计时按照词性归并，然后是发展"
+    },
+    {
+        "query": "(n) 的 (b){{len($1)>1; begin($2)!=[空 吹 影 搭]}},
+        "description": "两个名词，第一个名词后面接的的，且第二个名词的长度大于1，且不是空、吹、影或搭"
+    },
+    {
+        "query": "， 与时偕行/i .",
+        "description": "逗号后接与时偕行，且是习惯用语，句尾是句点"
+    },
+    {
+        "query": "即将 通车/v",
+        "description": "即将后接通车，动词"
+    },
+    {
+        "query": "摄 (n) 视觉{len($1)=2}",
+        "description": "摄后接2个字符的名词，视觉"
+    },
+    {
+        "query": "(v) 冬日 的 寒意 今日 (v){len($1)!=3; len($2)!=2}",
+        "description": "两个动词，第一个不是3个字符，第二个不是2个字符，且冬日后接的寒意，接着是今日"
+    },
+    {
+        "query": "(n) ， (n){{begin($2)=[人 古 谈 准]}}",
+        "description": "两个名词，第一个名词后面是逗号，第二个名词以人、古、谈或准开头"
+    },
+    {
+        "query": "(n) 全{end($1)=[能 搬 准]}",
+        "description": "两个名词，第一个名词以全开始，且第二个名词的结尾是能、搬或准"
+    },
+    {
+        "query": "回复 @/[d v] 办理",
+        "description": "回复后接d或v，再接办理，统计时按照词性归并"
+    },
+    {
+        "query": "得到 a 回应",
+        "description": "得到后接形容词，然后是回应"
+    },
+    {
+        "query": "(nr) 女士 所 (v){len($2)=1}",
+        "description": "女士后接所，且所后面是1个字符的动词"
+    },
+    {
+        "query": "落实 (v) 点赞{len($1)!=2}",
+        "description": "落实后接不是2个字符的动词，然后是点赞"
+    },
+    {
+        "query": "互联网 ~",
+        "description": "互联网后接一个词"
+    },
+    {
+        "query": "和 (n){{begin($1)=[意 钟 应 网]}}",
+        "description": "和后接意、钟、应或网开头的名词"
+    },
+    {
+        "query": "， (ns) 时间{len($1)!=3}",
+        "description": "逗号后接不是3个字符的地名"
+    },
+    {
+        "query": "(n) (n){{len($2)=2}}",
+        "description": "两个名词，第二个名词是2个字符"
+    }
+]
+```

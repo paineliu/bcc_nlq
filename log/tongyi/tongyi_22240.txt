@@ -1,0 +1,142 @@
+以下是将给定的检索式转换为带含义的json结构的列表：
+
+```json
+[
+    {
+        "query": "艺术/n 元素 进/v",
+        "description": "艺术名词后接元素，元素后接动词进"
+    },
+    {
+        "query": "携手+补/v+短板",
+        "description": "携手后接补动词，补动词后接短板"
+    },
+    {
+        "query": "携手 补/v 短板",
+        "description": "携手后接补动词，补动词后接短板"
+    },
+    {
+        "query": "农民+教育/vn+培训",
+        "description": "农民后接教育动名词，教育动名词后接培训"
+    },
+    {
+        "query": "农民 教育/vn 培训",
+        "description": "农民后接教育动词，教育动词后接培训"
+    },
+    {
+        "query": "选出+合格/v+公仆",
+        "description": "选出后接合格动词，合格动词后接公仆"
+    },
+    {
+        "query": "选出 合格/v 公仆",
+        "description": "选出后接合格动词，合格动词后接公仆"
+    },
+    {
+        "query": "互联网/n+安全+需要/v",
+        "description": "互联网名词后接安全，安全后接需要动词"
+    },
+    {
+        "query": "互联网/n 安全 需要/v",
+        "description": "互联网名词后接安全，安全后接需要动词"
+    },
+    {
+        "query": "马上/d",
+        "description": "马上是副词"
+    },
+    {
+        "query": "了/y+：+柱子/n",
+        "description": "了后接冒号，冒号后接柱子名词"
+    },
+    {
+        "query": "了/y ： 柱子/n",
+        "description": "了后接冒号，冒号后接柱子名词"
+    },
+    {
+        "query": "们+心愿/n+梦圆",
+        "description": "们后接心愿名词，心愿名词后接梦圆"
+    },
+    {
+        "query": "：+办法/n+对路",
+        "description": "后接办法名词，办法名词后接对路"
+    },
+    {
+        "query": "女./n",
+        "description": "女是名词"
+    },
+    {
+        "query": "留坝县/ns+全面/ad",
+        "description": "留坝县名词后接全面形容词"
+    },
+    {
+        "query": "留坝县/ns 全面/ad",
+        "description": "留坝县名词后接全面形容词"
+    },
+    {
+        "query": "太/d+v",
+        "description": "太后接动词v"
+    },
+    {
+        "query": "太/d v",
+        "description": "太后接动词v"
+    },
+    {
+        "query": "a+好感/n",
+        "description": "a后接好感名词"
+    },
+    {
+        "query": "a 好感/n",
+        "description": "a后接好感名词"
+    },
+    {
+        "query": "警力+增长/v+超",
+        "description": "警力后接增长动词，增长动词后接超"
+    },
+    {
+        "query": "警力 增长/v 超",
+        "description": "警力后接增长动词，增长动词后接超"
+    },
+    {
+        "query": "./m杀w",
+        "description": "是标点后接杀动词"
+    },
+    {
+        "query": "感情/n*v",
+        "description": "感情名词后接动词v"
+    },
+    {
+        "query": "a+风情/n",
+        "description": "a后接风情名词"
+    },
+    {
+        "query": "a 风情/n",
+        "description": "a后接风情名词"
+    },
+    {
+        "query": "明明/d",
+        "description": "明明是副词"
+    },
+    {
+        "query": "，/w+先/d",
+        "description": "逗号后接先副词"
+    },
+    {
+        "query": "，/w 先/d",
+        "description": "逗号后接先副词"
+    },
+    {
+        "query": "也+有人/r+对此",
+        "description": "也后接有人代词，有人代词后接对此"
+    },
+    {
+        "query": "解琛/nr+摄+人民/n",
+        "description": "解琛名词后接摄，摄后接人民名词"
+    },
+    {
+        "query": "杨/nr+俊+自信+满满+。/w",
+        "description": "杨名词后接俊，然后依次接自信、满满，最后接句尾点"
+    },
+    {
+        "query": "政府/n+职能",
+        "description": "政府名词后接职能"
+    }
+]
+```

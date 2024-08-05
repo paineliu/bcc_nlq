@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "大概*呢。",
+        "description": "大概后面离合出现呢。"
+    },
+    {
+        "query": "别说.....连...",
+        "description": "别说后面离合出现....连..."
+    },
+    {
+        "query": "V*房",
+        "description": "动词后面离合出现房。"
+    },
+    {
+        "query": "在*v过程中",
+        "description": "在动词后面紧跟着过程。"
+    },
+    {
+        "query": "简直*好像",
+        "description": "简直后面离合出现好像。"
+    },
+    {
+        "query": "计划生育*n",
+        "description": "计划生育后面跟名词。"
+    },
+    {
+        "query": "望不.",
+        "description": "望后面隔一个字后接不。"
+    },
+    {
+        "query": "她们..+过去w",
+        "description": "她们后面隔一个词后接过去。"
+    },
+    {
+        "query": "她们.. 过去w",
+        "description": "她们后面隔一个词后接过去。"
+    },
+    {
+        "query": "心情*V下",
+        "description": "心情后面离合出现V下。"
+    },
+    {
+        "query": "愉悦*v上",
+        "description": "愉悦后面紧跟着上。"
+    },
+    {
+        "query": "经验@",
+        "description": "经验后面跟一个词性。"
+    },
+    {
+        "query": "v*海棠花",
+        "description": "动词后面离合出现海棠花。"
+    },
+    {
+        "query": "会*很大",
+        "description": "会后面紧跟着很大。"
+    },
+    {
+        "query": "这*+m+q+n",
+        "description": "这后面紧跟着m、q、n。"
+    },
+    {
+        "query": "这* m q n",
+        "description": "这后面紧跟着m、q、n。"
+    },
+    {
+        "query": "有被.到",
+        "description": "有后面隔一个字后接被，后面再隔一个字后接到。"
+    },
+    {
+        "query": "大概*却",
+        "description": "大概后面离合出现却。"
+    },
+    {
+        "query": "对*的n",
+        "description": "对后面离合出现的名词。"
+    },
+    {
+        "query": "连*都a",
+        "description": "连后面离合出现都a。"
+    },
+    {
+        "query": "也许*了！",
+        "description": "也许后面离合出现了一定的感叹词。"
+    },
+    {
+        "query": "不仅+*+而且",
+        "description": "不仅后面紧跟着+，然后离合出现+，最后紧跟着而且。"
+    },
+    {
+        "query": "不仅 * 而且",
+        "description": "不仅后面紧跟着而且。"
+    },
+    {
+        "query": "恐怕*吧。",
+        "description": "恐怕后面离合出现吧。"
+    },
+    {
+        "query": "恨不.",
+        "description": "恨后面隔一个字后接不。"
+    },
+    {
+        "query": "向...作贡献",
+        "description": "向后面隔一个词后接...，后面再紧跟着作贡献。"
+    },
+    {
+        "query": "该n*某n",
+        "description": "该后面离合出现某n。"
+    },
+    {
+        "query": "其实@似乎",
+        "description": "其实后面跟一个词性，后面紧跟着似乎。"
+    },
+    {
+        "query": "还不如*的好。",
+        "description": "不如后面离合出现的好。"
+    },
+    {
+        "query": "洗.......澡",
+        "description": "洗后面隔多个字后接澡。"
+    },
+    {
+        "query": "也许*吧！",
+        "description": "也许后面离合出现吧！"
+    },
+    {
+        "query": "上.下.",
+        "description": "上后面隔一个字后接下。"
+    },
+    {
+        "query": "树立*v",
+        "description": "树立后面紧跟着动词。"
+    },
+    {
+        "query": "nr*欺骗",
+        "description": "nr后面离合出现欺骗。"
+    },
+    {
+        "query": "w直.曲w",
+        "description": "w后面隔一个词后接直，后面再隔一个词后接曲w。"
+    },
+    {
+        "query": "是*的心思w",
+        "description": "是后面离合出现心思w。"
+    },
+    {
+        "query": "成功*富",
+        "description": "成功后面紧跟着富。"
+    },
+    {
+        "query": "n......n",
+        "description": "n后面隔多个字后接n。"
+    },
+    {
+        "query": "连.带.",
+        "description": "连后面隔一个字后接带。"
+    },
+    {
+        "query": "怕*似乎",
+        "description": "怕后面离合出现似乎。"
+    }
+]
+```

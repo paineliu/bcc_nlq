@@ -1,0 +1,166 @@
+以下是将给定的检索式转换为带含义的json结构后的完整列表：
+
+```json
+[
+    {
+        "query": "v均匀了",
+        "description": "动词后接均匀了"
+    },
+    {
+        "query": "怪v的",
+        "description": "怪后接动词，动词后接的为形容词或名词"
+    },
+    {
+        "query": "d讲",
+        "description": "以d开头的词后接讲"
+    },
+    {
+        "query": "C位",
+        "description": "C位表示特定的词或短语"
+    },
+    {
+        "query": "a点子an",
+        "description": "形容词后接点子，点子后接名词"
+    },
+    {
+        "query": "q+经历",
+        "description": "以q开头的词后接经历"
+    },
+    {
+        "query": "q 经历",
+        "description": "q后接经历"
+    },
+    {
+        "query": "一个人v一个人的",
+        "description": "一个后接人名，人名后接v，v后接的为形容词或名词"
+    },
+    {
+        "query": "n里的n",
+        "description": "n后接里，里后接n"
+    },
+    {
+        "query": "游戏v",
+        "description": "游戏后接动词"
+    },
+    {
+        "query": "n使n+v",
+        "description": "n后接使，使后接名词，名词后接动词"
+    },
+    {
+        "query": "n使n v",
+        "description": "n后接使，使后接名词，名词后接动词"
+    },
+    {
+        "query": "柏树v",
+        "description": "柏树后接动词"
+    },
+    {
+        "query": "打+n",
+        "description": "打后接名词"
+    },
+    {
+        "query": "打 n",
+        "description": "打后接名词"
+    },
+    {
+        "query": "v树敌",
+        "description": "动词后接树敌"
+    },
+    {
+        "query": "n下面",
+        "description": "n后接下面"
+    },
+    {
+        "query": "n女神，",
+        "description": "n后接女神，女神后接逗号"
+    },
+    {
+        "query": "n+v起来",
+        "description": "n后接动词，动词后接起来"
+    },
+    {
+        "query": "n v起来",
+        "description": "n后接动词，动词后接起来"
+    },
+    {
+        "query": "c文化自信",
+        "description": "c后接文化自信"
+    },
+    {
+        "query": "那小小m",
+        "description": "那后接小小，小小后接形容词"
+    },
+    {
+        "query": "n看法",
+        "description": "n后接看法"
+    },
+    {
+        "query": "要v",
+        "description": "要后接动词"
+    },
+    {
+        "query": "aa一同",
+        "description": "aa后接一同"
+    },
+    {
+        "query": "m例",
+        "description": "m后接例"
+    },
+    {
+        "query": "n感情",
+        "description": "n后接感情"
+    },
+    {
+        "query": "终身n",
+        "description": "终身后接n"
+    },
+    {
+        "query": "a包子",
+        "description": "a后接包子"
+    },
+    {
+        "query": "女儿v女儿的",
+        "description": "女儿后接动词，动词后接女儿的"
+    },
+    {
+        "query": "还好n",
+        "description": "还好后接形容词"
+    },
+    {
+        "query": "又不说V",
+        "description": "又不后接动词，动词后接说，说后接V"
+    },
+    {
+        "query": "一瓶n",
+        "description": "一瓶后接n"
+    },
+    {
+        "query": "一定n",
+        "description": "一定后接n"
+    },
+    {
+        "query": "v消沉了",
+        "description": "动词后接消沉了"
+    },
+    {
+        "query": "一点儿a",
+        "description": "一点儿后接形容词"
+    },
+    {
+        "query": "a发脾气",
+        "description": "a后接发脾气"
+    },
+    {
+        "query": "没+v+n+v",
+        "description": "没后接动词，动词后接名词，名词后接动词"
+    },
+    {
+        "query": "没 v n v",
+        "description": "没后接动词，动词后接名词，名词后接动词"
+    },
+    {
+        "query": "N+创造",
+        "description": "N后接创造"
+    }
+]
+```

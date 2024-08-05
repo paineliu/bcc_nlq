@@ -1,0 +1,166 @@
+根据提供的检索式及其含义的转换规则，我们将给出的检索式转换为带含义的json结构如下：
+
+```json
+[
+    {
+        "query": "感受+？/w",
+        "description": "感受后面接疑问词？"
+    },
+    {
+        "query": "感受 ？/w",
+        "description": "感受后面接疑问词？"
+    },
+    {
+        "query": "n+重新/d+",
+        "description": "名词后面接副词重新"
+    },
+    {
+        "query": "n 重新/d ",
+        "description": "名词后面接副词重新"
+    },
+    {
+        "query": "规则+制定/v+。",
+        "description": "规则后面接动词制定，句尾"
+    },
+    {
+        "query": "规则 制定/v 。",
+        "description": "规则后面接动词制定，句尾"
+    },
+    {
+        "query": "互联网+前沿/s+追踪",
+        "description": "互联网后面接名词前沿，再接动词追踪"
+    },
+    {
+        "query": "互联网 前沿/s 追踪",
+        "description": "互联网后面接名词前沿，再接动词追踪"
+    },
+    {
+        "query": "监督+不/d+留",
+        "description": "监督后面接副词不，再接动词留"
+    },
+    {
+        "query": "监督 不/d 留",
+        "description": "监督后面接副词不，再接动词留"
+    },
+    {
+        "query": "吗+走/v+转改·一线",
+        "description": "吗后面接动词走，再接转改·一线"
+    },
+    {
+        "query": "吗 走/v 转改·一线",
+        "description": "吗后面接动词走，再接转改·一线"
+    },
+    {
+        "query": "感动+过/u+很多",
+        "description": "感动后面接副词过，再接数量词很多"
+    },
+    {
+        "query": "感动 过/u 很多",
+        "description": "感动后面接副词过，再接数量词很多"
+    },
+    {
+        "query": "小./v",
+        "description": "单音节动词"
+    },
+    {
+        "query": "太/d*y",
+        "description": "副词接单音节字"
+    },
+    {
+        "query": "./v富了",
+        "description": "单音节动词后接名词富了"
+    },
+    {
+        "query": "大+../n的w",
+        "description": "大后面接二字名词，再接单音节字"
+    },
+    {
+        "query": "大 ../n的w",
+        "description": "大后面接二字名词，再接单音节字"
+    },
+    {
+        "query": "太/d+i",
+        "description": "副词接单音节字"
+    },
+    {
+        "query": "太/d i",
+        "description": "副词接单音节字"
+    },
+    {
+        "query": "地/u",
+        "description": "处所词"
+    },
+    {
+        "query": "../d杀w",
+        "description": "二字动词后接单音节字杀"
+    },
+    {
+        "query": "揭牌/v+，",
+        "description": "揭牌后面接逗号"
+    },
+    {
+        "query": "揭牌/v ，",
+        "description": "揭牌后面接逗号"
+    },
+    {
+        "query": "郭存海/nr+说/v",
+        "description": "郭存海后面接动词说"
+    },
+    {
+        "query": "郭存海/nr 说/v",
+        "description": "郭存海后面接动词说"
+    },
+    {
+        "query": "女士/n+无奈/a",
+        "description": "女士后面接形容词无奈"
+    },
+    {
+        "query": "女士/n 无奈/a",
+        "description": "女士后面接形容词无奈"
+    },
+    {
+        "query": "n+./n+a",
+        "description": "名词后面接标点符号./，再接形容词a"
+    },
+    {
+        "query": "n ./n a",
+        "description": "名词后面接标点符号./，再接形容词a"
+    },
+    {
+        "query": "立即/d+就要+v",
+        "description": "立即后面接副词就要，再接动词v"
+    },
+    {
+        "query": "立即/d 就要 v",
+        "description": "立即后面接副词就要，再接动词v"
+    },
+    {
+        "query": "发展+，/w+中",
+        "description": "发展后面接逗号，再接中"
+    },
+    {
+        "query": "发展 ，/w 中",
+        "description": "发展后面接逗号，再接中"
+    },
+    {
+        "query": "a+的+热情/a",
+        "description": "形容词a后面接的+名词热情，再接形容词a"
+    },
+    {
+        "query": "a 的 热情/a",
+        "description": "形容词a后面接的+名词热情，再接形容词a"
+    },
+    {
+        "query": "罗+先生/n+感触",
+        "description": "罗后面接名词先生，再接动词感触"
+    },
+    {
+        "query": "罗 先生/n 感触",
+        "description": "罗后面接名词先生，再接动词感触"
+    },
+    {
+        "query": "轻/a",
+        "description": "形容词轻"
+    }
+]
+```

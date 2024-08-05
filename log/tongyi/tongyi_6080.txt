@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "寒n",
+        "description": "包含寒后面跟名词的句子"
+    },
+    {
+        "query": "a借口",
+        "description": "包含形容词a后面跟借口的句子"
+    },
+    {
+        "query": "v了w",
+        "description": "包含动词后面跟了再接一个字的句子"
+    },
+    {
+        "query": "挨了n+m",
+        "description": "包含动词挨后面跟复合名词n+m的句子"
+    },
+    {
+        "query": "挨了n m",
+        "description": "包含动词挨后面跟名词n和m的句子"
+    },
+    {
+        "query": "n咖",
+        "description": "包含名词咖的句子"
+    },
+    {
+        "query": "v灰心了",
+        "description": "包含动词灰心后面跟了的句子"
+    },
+    {
+        "query": "n方略",
+        "description": "包含名词方略的句子"
+    },
+    {
+        "query": "毫不a",
+        "description": "包含副词毫不后面跟形容词的句子"
+    },
+    {
+        "query": "v平坦了",
+        "description": "包含动词平坦后面跟了的句子"
+    },
+    {
+        "query": "V+中w",
+        "description": "包含动词V后面跟中再接一个字的句子"
+    },
+    {
+        "query": "V 中w",
+        "description": "包含动词V后面跟中再接一个字的句子"
+    },
+    {
+        "query": "a见解",
+        "description": "包含形容词a后面跟见解的句子"
+    },
+    {
+        "query": "越发z",
+        "description": "包含副词越发后面跟状态词的句子"
+    },
+    {
+        "query": "a戒指",
+        "description": "包含形容词a后面跟戒指的句子"
+    },
+    {
+        "query": "万分a+n",
+        "description": "包含形容词万分后面跟名词的句子"
+    },
+    {
+        "query": "万分a n",
+        "description": "包含形容词万分后面跟名词的句子"
+    },
+    {
+        "query": "N碎",
+        "description": "包含名词N后面跟碎的句子"
+    },
+    {
+        "query": "Tg",
+        "description": "包含时语素Tg的句子"
+    },
+    {
+        "query": "v结实了",
+        "description": "包含动词结实后面跟了的句子"
+    },
+    {
+        "query": "没l地",
+        "description": "包含副词没后面跟l地的句子"
+    },
+    {
+        "query": "d特别",
+        "description": "包含副词d后面跟特别的句子"
+    },
+    {
+        "query": "a女人",
+        "description": "包含形容词a后面跟女人的句子"
+    },
+    {
+        "query": "v着m+m+q",
+        "description": "包含动词v后面跟着m+m+q的句子"
+    },
+    {
+        "query": "v着m m q",
+        "description": "包含动词v后面跟着m m q的句子"
+    },
+    {
+        "query": "不多a",
+        "description": "包含形容词不多的句子"
+    },
+    {
+        "query": "v闺房",
+        "description": "包含动词v后面跟闺房的句子"
+    },
+    {
+        "query": "a信封",
+        "description": "包含形容词a后面跟信封的句子"
+    },
+    {
+        "query": "a临床",
+        "description": "包含形容词a后面跟临床的句子"
+    },
+    {
+        "query": "你n不n",
+        "description": "包含名词你后面不的重复的句子"
+    },
+    {
+        "query": "公开v",
+        "description": "包含动词公开的句子"
+    },
+    {
+        "query": "a不由得",
+        "description": "包含形容词a后面不由得的句子"
+    },
+    {
+        "query": "n+v+起来+a",
+        "description": "包含名词、动词、起来、形容词的句子组合"
+    },
+    {
+        "query": "n v 起来 a",
+        "description": "包含名词、动词、起来、形容词的句子组合"
+    },
+    {
+        "query": "v一n",
+        "description": "包含动词v后面跟一再接名词的句子"
+    },
+    {
+        "query": "V你个",
+        "description": "包含动词V后面跟你个的句子"
+    },
+    {
+        "query": "一千个v",
+        "description": "包含数字一千后面跟动词v的句子"
+    },
+    {
+        "query": "a出事",
+        "description": "包含形容词a后面出事的句子"
+    },
+    {
+        "query": "v死人",
+        "description": "包含动词v后面跟死人"
+    },
+    {
+        "query": "a冲破",
+        "description": "包含形容词a后面冲破的句子"
+    }
+]
+```

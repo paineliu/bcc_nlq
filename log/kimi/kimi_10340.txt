@@ -1,0 +1,86 @@
+以下是根据您提供的检索式及其含义的JSON结构列表：
+
+```json
+[
+    {
+        "query": "~ 笑",
+        "description": "笑后面接一个词"
+    },
+    {
+        "query": "， (v) 干部{end($1)=[进 架 卡 唉]}",
+        "description": "逗号后接动词，干部结束于进、架、卡或唉"
+    },
+    {
+        "query": "结束 ~",
+        "description": "结束后面接一个词"
+    },
+    {
+        "query": "~/[v v] 下",
+        "description": "以动词开始的双音节词后面接下"
+    },
+    {
+        "query": "，",
+        "description": "包含逗号的句子"
+    },
+    {
+        "query": "到此 (v){count>6}",
+        "description": "到此后面接动词，且该动词出现次数大于6"
+    },
+    {
+        "query": "下车 (w) 刺骨{count>9}",
+        "description": "下车后接标点符号，刺骨出现次数大于9"
+    },
+    {
+        "query": "得 @/[r v] ？",
+        "description": "得后面接代词或动词，句子以问号结束"
+    },
+    {
+        "query": "m n",
+        "description": "数词后接名词"
+    },
+    {
+        "query": "(nr) 徐{middle($1)!=[套 测 糖]}",
+        "description": "人名徐，且名字中不包含套、测、糖"
+    },
+    {
+        "query": "@/[nr v] 卫星",
+        "description": "人名或动词后接卫星"
+    },
+    {
+        "query": "(nr) 礼品{len($1)!=4}",
+        "description": "人名礼品，且礼品长度不等于4"
+    },
+    {
+        "query": "(n) 单位{len($1)>1}",
+        "description": "名词单位，且单位长度大于1"
+    },
+    {
+        "query": "(a) (v){count<775}",
+        "description": "形容词后接动词，且该动词出现次数小于775"
+    },
+    {
+        "query": "(v) 三 严 三 实 ， 关键 在于 (v){begin($1)!=[待 及 初]; len($2)>1}",
+        "description": "动词后接三严三实，关键在于，动词不以待、及、初开始，且关键长度大于1"
+    },
+    {
+        "query": "(v) 关键 (n){len($1)!=3; len($2)!=3}",
+        "description": "动词后接关键，名词，且关键和名词长度均不等于3"
+    },
+    {
+        "query": "实际",
+        "description": "包含实际的句子"
+    },
+    {
+        "query": "深化 (vn) 教育{len($1)!=3}",
+        "description": "深化后接名动词教育，且教育长度不等于3"
+    },
+    {
+        "query": "用 . 两面",
+        "description": "用后面隔一个字接两面"
+    },
+    {
+        "query": "为 ~/[v v] 之",
+        "description": "为后面接以动词开始的双音节词，再接之"
+    }
+]
+```

@@ -1,0 +1,166 @@
+以下是将给定的检索式转换为带含义的json结构后的完整列表：
+
+```json
+[
+    {
+        "query": "底气 十足/z 。",
+        "description": "底气 后面接 十足/z 并以句点结尾的句子"
+    },
+    {
+        "query": "./v绿了",
+        "description": "单音节动词 绿了"
+    },
+    {
+        "query": "，+我/r+建议",
+        "description": "逗号、我/r 和 建议 三个元素组成的句子"
+    },
+    {
+        "query": "， 我/r 建议",
+        "description": "逗号、我/r 和 建议 三个元素组成的句子"
+    },
+    {
+        "query": "：/w+处罚/vn",
+        "description": "冒号 和 处罚/vn 组成的句子"
+    },
+    {
+        "query": "：/w 处罚/vn",
+        "description": "冒号 和 处罚/vn 组成的句子"
+    },
+    {
+        "query": "洗/v+衣裳+哟+喂/v",
+        "description": "洗/v、衣裳、哟 和 喂/v 组成的句子"
+    },
+    {
+        "query": "洗/v 衣裳 哟 喂/v",
+        "description": "洗/v、衣裳、哟 和 喂/v 组成的句子"
+    },
+    {
+        "query": "a*激情/n",
+        "description": "形容词 后接 激情/n 的句子"
+    },
+    {
+        "query": "咽/v",
+        "description": "单音节动词 咽/v"
+    },
+    {
+        "query": "v*好心/n",
+        "description": "动词 后接 好心/n 的句子"
+    },
+    {
+        "query": "d+太/d",
+        "description": "副词 太/d"
+    },
+    {
+        "query": "d 太/d",
+        "description": "副词 太/d"
+    },
+    {
+        "query": "是/v+我家+的+。/w",
+        "description": "是/v、我家、的 和 句点 组成的句子"
+    },
+    {
+        "query": "是/v 我家 的 。/w",
+        "description": "是/v、我家、的 和 句点 组成的句子"
+    },
+    {
+        "query": "新/a+常态/n",
+        "description": "形容词 新/a 后接 常态/n 的句子"
+    },
+    {
+        "query": "新/a 常态/n",
+        "description": "形容词 新/a 后接 常态/n 的句子"
+    },
+    {
+        "query": "圆../n",
+        "description": "单音节名词 圆../n"
+    },
+    {
+        "query": "好心/n+a",
+        "description": "名词 好心/n 后接 词性 a 的句子"
+    },
+    {
+        "query": "好心/n a",
+        "description": "名词 好心/n 后接 词性 a 的句子"
+    },
+    {
+        "query": "a+激情/n",
+        "description": "词性 a 后接 激情/n 的句子"
+    },
+    {
+        "query": "a 激情/n",
+        "description": "词性 a 后接 激情/n 的句子"
+    },
+    {
+        "query": "军人/n+牺牲+岂止/v",
+        "description": "军人/n、牺牲、岂止/v 组成的句子"
+    },
+    {
+        "query": "军人/n 牺牲 岂止/v",
+        "description": "军人/n、牺牲、岂止/v 组成的句子"
+    },
+    {
+        "query": "v+风情/n",
+        "description": "动词 后接 风情/n 的句子"
+    },
+    {
+        "query": "v 风情/n",
+        "description": "动词 后接 风情/n 的句子"
+    },
+    {
+        "query": "全都/d",
+        "description": "副词 全都/d"
+    },
+    {
+        "query": "惊人+逆袭/vn+。",
+        "description": "惊人、逆袭/vn、句点 组成的句子"
+    },
+    {
+        "query": "惊人 逆袭/vn 。",
+        "description": "惊人、逆袭/vn、句点 组成的句子"
+    },
+    {
+        "query": "宝汗·埃恩赛+根/n+说",
+        "description": "宝汗·埃恩赛、根/n、说 三个元素组成的句子"
+    },
+    {
+        "query": "宝汗·埃恩赛 根/n 说",
+        "description": "宝汗·埃恩赛、根/n、说 三个元素组成的句子"
+    },
+    {
+        "query": "梦+，/w+是",
+        "description": "梦、逗号、w、是 四个元素组成的句子"
+    },
+    {
+        "query": "梦 ，/w 是",
+        "description": "梦、逗号、w、是 四个元素组成的句子"
+    },
+    {
+        "query": "好心/n+v",
+        "description": "名词 好心/n 后接 动词 v 的句子"
+    },
+    {
+        "query": "好心/n v",
+        "description": "名词 好心/n 后接 动词 v 的句子"
+    },
+    {
+        "query": "在/p",
+        "description": "介词 在/p"
+    },
+    {
+        "query": "多+社会/n+力量",
+        "description": "多、社会/n、力量 三个元素组成的句子"
+    },
+    {
+        "query": "多 社会/n 力量",
+        "description": "多、社会/n、力量 三个元素组成的句子"
+    },
+    {
+        "query": "问题/n",
+        "description": "名词 问题/n"
+    },
+    {
+        "query": "好/d",
+        "description": "形容词 好/d"
+    }
+]
+```

@@ -1,0 +1,124 @@
+```json
+[
+    {
+        "query": "刘纪鹏+说/v+。",
+        "description": "刘纪鹏说之后紧跟一个标点符号。"
+    },
+    {
+        "query": "刘纪鹏 说/v 。",
+        "description": "刘纪鹏说之后紧跟一个句尾标点符号。"
+    },
+    {
+        "query": "文化/n+是/v",
+        "description": "文化之后紧跟是。"
+    },
+    {
+        "query": "文化/n 是/v",
+        "description": "文化是。"
+    },
+    {
+        "query": "./n",
+        "description": "一个单独的名词。"
+    },
+    {
+        "query": "北京/ns+盛玉雷/nr",
+        "description": "北京之后紧跟盛玉雷。"
+    },
+    {
+        "query": "北京/ns 盛玉雷/nr",
+        "description": "北京盛玉雷。"
+    },
+    {
+        "query": "江西+黎川/ns+瓷业",
+        "description": "江西黎川之后紧跟瓷业。"
+    },
+    {
+        "query": "江西 黎川/ns 瓷业",
+        "description": "江西黎川瓷业。"
+    },
+    {
+        "query": "..../n之中",
+        "description": "一个单独的名词位于两个句尾标点符号之间。"
+    },
+    {
+        "query": "好/a+收成/n",
+        "description": "形容词好之后紧跟名词收成。"
+    },
+    {
+        "query": "好/a 收成/n",
+        "description": "好收成。"
+    },
+    {
+        "query": "鸟儿/n+提供+更加+美好+的+家园/n",
+        "description": "鸟儿之后紧跟提供，然后是更加，接着是美好，最后是家园。"
+    },
+    {
+        "query": "鸟儿/n 提供 更加 美好 的 家园/n",
+        "description": "鸟儿提供更加美好的家园。"
+    },
+    {
+        "query": "福鼎+重新/d+定义",
+        "description": "福鼎之后紧跟重新定义。"
+    },
+    {
+        "query": "甘肃+农业/n+机械化",
+        "description": "甘肃之后紧跟农业，然后是机械化。"
+    },
+    {
+        "query": "银行卡/n+，+卖/v",
+        "description": "银行卡之后紧跟逗号，然后是卖。"
+    },
+    {
+        "query": "银行卡/n ， 卖/v",
+        "description": "银行卡，卖。"
+    },
+    {
+        "query": "猫+./c+狗",
+        "description": "猫之后紧跟一个标点符号，然后是狗。"
+    },
+    {
+        "query": "归去来兮+。/w",
+        "description": "归去来兮之后紧跟句尾标点。"
+    },
+    {
+        "query": "热./a",
+        "description": "一个形容词之后紧跟一个标点符号。"
+    },
+    {
+        "query": "李晓东/nr+中国",
+        "description": "李晓东之后紧跟中国。"
+    },
+    {
+        "query": "贾谊/nr+故居",
+        "description": "贾谊之后紧跟故居。"
+    },
+    {
+        "query": "二+是/v+影响",
+        "description": "二之后紧跟是影响。"
+    },
+    {
+        "query": "往事+还乡/v",
+        "description": "往事之后紧跟还乡。"
+    },
+    {
+        "query": "服务+。/w",
+        "description": "服务之后紧跟句尾标点。"
+    },
+    {
+        "query": "喽/y",
+        "description": "一个语气词。"
+    },
+    {
+        "query": "与/c",
+        "description": "一个连词。"
+    },
+    {
+        "query": "要/v+怎样",
+        "description": "要之后紧跟怎样。"
+    },
+    {
+        "query": "标准+如何/r+界定",
+        "description": "标准之后紧跟如何界定。"
+    }
+]
+```

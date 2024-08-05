@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "这/r 一",
+        "description": "这后面接一个r，然后是一个一"
+    },
+    {
+        "query": "(v) 贫困{count<250}",
+        "description": "动词后接贫困，且贫困出现的次数小于250次"
+    },
+    {
+        "query": "安详",
+        "description": "安详作为一个词"
+    },
+    {
+        "query": "山上 @",
+        "description": "山后面接一个词，统计时按照词性归并"
+    },
+    {
+        "query": "有 (n) 种树{begin($1)=[力 呃 每 屋]}",
+        "description": "有后面接一个名词，且这个名词以力、呃、每或屋开始"
+    },
+    {
+        "query": "树 . 当",
+        "description": "树后面隔一个字后接当"
+    },
+    {
+        "query": "引来",
+        "description": "单独的动词引来"
+    },
+    {
+        "query": "种 (r) 树{end($1)=[么 学 康 候]}",
+        "description": "种后面接一个r，且这个r以么、学、康或候结束"
+    },
+    {
+        "query": "树苗 v 哪里",
+        "description": "树苗后面接一个v，再接哪里"
+    },
+    {
+        "query": "彻夜 @",
+        "description": "彻夜后面接一个词，统计时按照词性归并"
+    },
+    {
+        "query": "了 @ 。",
+        "description": "了后面接一个词，且句尾是句号，统计时按照词性归并"
+    },
+    {
+        "query": "嗓子 (v) 甩开{len($1)=2}",
+        "description": "嗓子后面接一个长度为2的动词甩开"
+    },
+    {
+        "query": "实现 ~ 粮食",
+        "description": "实现后面接一个词，但统计时不区分词性"
+    },
+    {
+        "query": "(v) 破{count<369}",
+        "description": "动词后接破，且破出现的次数小于369次"
+    },
+    {
+        "query": "办 q 好事",
+        "description": "办后面接一个q，再接好事"
+    },
+    {
+        "query": "斯 (n) 已{count<387}",
+        "description": "斯后面接一个n，且这个n出现的次数小于387次"
+    },
+    {
+        "query": "规矩 (v) 自觉{count>6}",
+        "description": "规矩后面接自觉，且自觉出现的次数大于6次"
+    },
+    {
+        "query": "没有 (v) ，{len($1)>1}",
+        "description": "没有后面接一个v，且逗号之前的内容长度大于1"
+    },
+    {
+        "query": "突出 (v) 。{count<233}",
+        "description": "突出后面接句号，且突出出现的次数小于233次"
+    },
+    {
+        "query": "分歧 ~ 实质",
+        "description": "分歧后面接一个词，但统计时不区分词性"
+    },
+    {
+        "query": "句 @/[n v] 说到",
+        "description": "句后面接一个词，可能是名词或动词，说到前面"
+    },
+    {
+        "query": "(u) 指导 思想 (w){$1=$2}",
+        "description": "指导思想，指导和思想两个词相同"
+    },
+    {
+        "query": "c 共产国际",
+        "description": "c后面接共产国际"
+    },
+    {
+        "query": "的 (f) 。{count<756}",
+        "description": "的后面接句号，且的出现的次数小于756次"
+    },
+    {
+        "query": "矛盾/an 的 激化/vn",
+        "description": "矛盾后面接一个形容词，再接的和激化"
+    },
+    {
+        "query": "以往",
+        "description": "以往作为一个词"
+    },
+    {
+        "query": "的 转折/vn",
+        "description": "的后面接转折，转折是动词"
+    },
+    {
+        "query": "(a) 传统 (u){len($1)=1; len($2)=1}",
+        "description": "两个单字词，第一个是形容词，第二个是名词"
+    },
+    {
+        "query": "有 ../[m v] 过程",
+        "description": "有后面接一个动词或数词，再接过程"
+    },
+    {
+        "query": "什么 (w){count>3}",
+        "description": "什么是一个词，且出现次数大于3"
+    },
+    {
+        "query": "所在 ~",
+        "description": "所在后面接一个词，但统计时不区分词性"
+    },
+    {
+        "query": "(r) 又{begin($1)!=[甩 克 如]}",
+        "description": "又后面接一个r，且这个r不是甩、克或如"
+    },
+    {
+        "query": "重要 (u) 结论{count>6}",
+        "description": "重要后面接结论，且结论出现的次数大于6次"
+    },
+    {
+        "query": "一 ./[q v] 极端",
+        "description": "一后面接一个q或v，再接极端"
+    },
+    {
+        "query": "(r) 方面 我们 有 过 (m){end($2)=[少 服 彩 坐]}",
+        "description": "方面后面接我们，有，再接过，且过后面是少、服、彩或坐"
+    },
+    {
+        "query": "(u) 生态 (n){len($1)=1; len($2)=2}",
+        "description": "生态，生态中的两个字分别是一个单字的形容词和名词"
+    },
+    {
+        "query": "(n) (c){middle($1)=[地 便]}",
+        "description": "两个相邻的名词，其中一个以地或便开始"
+    },
+    {
+        "query": "》 说/v ：",
+        "description": "右大括号后接一个动词，冒号前的内容"
+    },
+    {
+        "query": "曰 ~ 天行健",
+        "description": "曰后面接一个词，但统计时不区分词性"
+    },
+    {
+        "query": "天人合一 ./p 天地",
+        "description": "天人合一后面接天地，天地之间用/分隔，表示词边界"
+    }
+]
+```

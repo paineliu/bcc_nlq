@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "c+v",
+        "description": "副词后接动词"
+    },
+    {
+        "query": "c v",
+        "description": "副词和动词相邻"
+    },
+    {
+        "query": "本来d",
+        "description": "原本或本来后接形容词"
+    },
+    {
+        "query": "n她们",
+        "description": "名词后接她们"
+    },
+    {
+        "query": "a结果",
+        "description": "形容词后接结果"
+    },
+    {
+        "query": "a历年",
+        "description": "形容词后接历年"
+    },
+    {
+        "query": "w早知道",
+        "description": "疑问词后接早知道"
+    },
+    {
+        "query": "nr勉励",
+        "description": "人名后接勉励"
+    },
+    {
+        "query": "v着a。",
+        "description": "动词后接着，再接形容词，句尾有句号"
+    },
+    {
+        "query": "w神vn",
+        "description": "疑问词后接神，再接动语素"
+    },
+    {
+        "query": "a升学",
+        "description": "形容词后接升学"
+    },
+    {
+        "query": "尤其+v",
+        "description": "尤其后接动词"
+    },
+    {
+        "query": "尤其 v",
+        "description": "尤其后接动词"
+    },
+    {
+        "query": "倒p",
+        "description": "副词倒后接动词"
+    },
+    {
+        "query": "n们",
+        "description": "名词后接们"
+    },
+    {
+        "query": "m目标",
+        "description": "名语素后接目标"
+    },
+    {
+        "query": "不管是d还是d",
+        "description": "不管后接形容词，还是后接形容词"
+    },
+    {
+        "query": "r情形",
+        "description": "代词后接情形"
+    },
+    {
+        "query": "d充满",
+        "description": "动词后接充满"
+    },
+    {
+        "query": "a决不",
+        "description": "形容词后接决不"
+    },
+    {
+        "query": "m鼻子",
+        "description": "名语素后接鼻子"
+    },
+    {
+        "query": "不可a",
+        "description": "副词后接不可"
+    },
+    {
+        "query": "(n)并(n)着",
+        "description": "名词并后接名词，再接着"
+    },
+    {
+        "query": "v到n边去",
+        "description": "动词后接到，再接名词，再接去"
+    },
+    {
+        "query": "一寸n",
+        "description": "数量词后接一寸，再接名词"
+    },
+    {
+        "query": "a争取",
+        "description": "形容词后接争取"
+    },
+    {
+        "query": "几十q",
+        "description": "量词后接几十，再接量词"
+    },
+    {
+        "query": "似乎原来v",
+        "description": "似乎后接形容词，原来后接动词"
+    },
+    {
+        "query": "v刑房",
+        "description": "动词后接刑房"
+    },
+    {
+        "query": "？众n",
+        "description": "疑问词后接众，再接名词"
+    },
+    {
+        "query": "m链",
+        "description": "名语素后接链"
+    },
+    {
+        "query": "v向",
+        "description": "动词后接向"
+    },
+    {
+        "query": "a发展",
+        "description": "形容词后接发展"
+    },
+    {
+        "query": "没怎么a",
+        "description": "副词没怎么后接形容词"
+    },
+    {
+        "query": "v完",
+        "description": "动词后接完"
+    },
+    {
+        "query": "n宅",
+        "description": "名词后接宅"
+    },
+    {
+        "query": "记忆的n",
+        "description": "形容词记忆的后接名词"
+    },
+    {
+        "query": "a加强",
+        "description": "形容词后接加强"
+    },
+    {
+        "query": "把N拴在",
+        "description": "介词把后接名词，再接拴在"
+    },
+    {
+        "query": "什么时候r+v",
+        "description": "代词什么时候后接动词"
+    }
+]
+```

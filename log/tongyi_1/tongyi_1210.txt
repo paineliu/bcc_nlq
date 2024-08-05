@@ -1,0 +1,160 @@
+```json
+[
+    {
+        "query": "网络 @/[n v] 告破",
+        "description": "网络后跟名词或动词并告破"
+    },
+    {
+        "query": "四中全会 @",
+        "description": "四中全会"
+    },
+    {
+        "query": "案入 (vn) 程序{end($1)!=[永 平 哄]}",
+        "description": "案件进入程序，但排除'永'、'平'、'哄'"
+    },
+    {
+        "query": "@/[ns v] 吉勒图",
+        "description": "吉勒图，可能是人名或地名，后面跟着名词或动词"
+    },
+    {
+        "query": "个 ~ 宪法",
+        "description": "一个词后接宪法"
+    },
+    {
+        "query": "../n 整理",
+        "description": "动词后跟一个名词进行整理"
+    },
+    {
+        "query": "李 n",
+        "description": "李后面接名词"
+    },
+    {
+        "query": "迎来 (v) 的{len($1)>1}",
+        "description": "动词迎来后接至少两个字的内容"
+    },
+    {
+        "query": "中国 (j) 董事长{len($1)<3}",
+        "description": "中国作为简称后接长度少于三个字的董事长"
+    },
+    {
+        "query": "(m) (w){count<608}",
+        "description": "两个相邻的词，总词频小于608"
+    },
+    {
+        "query": "主体 (d) 多元{len($1)<3}",
+        "description": "主体后跟的多字词长度小于3"
+    },
+    {
+        "query": "(w) (v){begin($2)=[支 窝]}",
+        "description": "两个词，第二个词以'支'或'窝'开头"
+    },
+    {
+        "query": "问题 ~/[w v]",
+        "description": "问题后面离合出现单词或动词"
+    },
+    {
+        "query": "?(d) 没有 任何 人 能 (v){len($1)=2; len($2)!=3}",
+        "description": "问句形式，没有、任何、人后跟能，且能字不是三个字"
+    },
+    {
+        "query": "家 (n) 入围{len($1)=2}",
+        "description": "家后面接长度为2的入围"
+    },
+    {
+        "query": "武汉 (n) 淘汰{count<982}",
+        "description": "武汉淘汰，频次小于982"
+    },
+    {
+        "query": "下 ../[n v]",
+        "description": "下后面离合出现名词或动词"
+    },
+    {
+        "query": "愁 ./v",
+        "description": "愁后跟动词"
+    },
+    {
+        "query": "好几 @ 电话",
+        "description": "好几后跟一个词，可能是电话"
+    },
+    {
+        "query": "(i) (u){count>4}",
+        "description": "两个相邻词，第一个词为介词，总词频大于4"
+    },
+    {
+        "query": "对 (t) 已{len($1)>1}",
+        "description": "对后面接已，且已字不是单字"
+    },
+    {
+        "query": "有 . 也",
+        "description": "有后面隔一个字后接也"
+    },
+    {
+        "query": "可不 买/v 的",
+        "description": "可不后面跟动词，可能表示一种选择"
+    },
+    {
+        "query": "../ns 以下",
+        "description": "动词或名词后跟以下"
+    },
+    {
+        "query": "精神 (v) 符合{end($1)!=[勒 十]}",
+        "description": "精神后跟动词符合，排除'勒'和'十'"
+    },
+    {
+        "query": "制图",
+        "description": "制图"
+    },
+    {
+        "query": "(f) 各项{len($1)<3}",
+        "description": "两个词，第一个词为方位词，且长度小于3"
+    },
+    {
+        "query": "受访人/n ：",
+        "description": "受访人后面是冒号，可能表示解释或引用"
+    },
+    {
+        "query": "北京市 ~ 律师",
+        "description": "北京市后跟一个词，可能是律师"
+    },
+    {
+        "query": "进一步 v 政府",
+        "description": "进一步后跟动词政府"
+    },
+    {
+        "query": "真凶 . 志红",
+        "description": "真凶后面隔一个字后接志红"
+    },
+    {
+        "query": ".. 无线",
+        "description": "两个词，第二个词可能是无线"
+    },
+    {
+        "query": "建惠 (n){len($1)!=3}",
+        "description": "建惠，可能是人名，但长度不是3"
+    },
+    {
+        "query": "海关 (v) 苹果{len($1)!=3}",
+        "description": "海关后跟动词苹果，但动词不是三个字"
+    },
+    {
+        "query": "全面 ../[v v] 数字化",
+        "description": "全面后面离合出现两个动词后接数字化"
+    },
+    {
+        "query": "取消 审批/v",
+        "description": "取消后跟审批，审批可能为动词"
+    },
+    {
+        "query": "(n) 咋{count>6}",
+        "description": "两个词，第一个词为名词，咋字频次大于6"
+    },
+    {
+        "query": "不 (v) 本地人{count<795}",
+        "description": "不后跟动词，动词后跟本地人，本地人频次小于795"
+    },
+    {
+        "query": "程度 . 比",
+        "description": "程度后面隔一个字后接比"
+    }
+]
+```

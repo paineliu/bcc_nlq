@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "(vn) (vn){len($1)!=3; len($2)!=3}",
+        "description": "两个相邻的动词，但都不是三个字"
+    },
+    {
+        "query": "是 电信/n 诈骗",
+        "description": "是后面跟着电信和名词诈骗"
+    },
+    {
+        "query": "忘 ~ 整治",
+        "description": "忘后面跟任意一个词整治"
+    },
+    {
+        "query": "开化县 (nr){begin($1)=[齐 冲]}",
+        "description": "开化县，限定以齐或冲开始"
+    },
+    {
+        "query": "身边 .",
+        "description": "身边后面可能接任意字符"
+    },
+    {
+        "query": "周 (nr){count>8}",
+        "description": "周这个地名出现次数超过8次"
+    },
+    {
+        "query": "书法 (w) 梁永琳{count>5}",
+        "description": "书法后面跟着梁永琳，梁永琳出现次数超过5次"
+    },
+    {
+        "query": "@ 设计",
+        "description": "设计，表示统计时按照词性归并"
+    },
+    {
+        "query": "机遇 @/[w v]",
+        "description": "机遇后面接任意一个词或动词"
+    },
+    {
+        "query": "(c) (n){begin($2)=[风 程 摸 白]}",
+        "description": "两个连续的词，第二个词以风、程、摸或白开始"
+    },
+    {
+        "query": "年度 (n){len($1)=3}",
+        "description": "年度后面接三个字的名词"
+    },
+    {
+        "query": "(p) 记忆 (f){len($1)!=2; len($2)=1}",
+        "description": "记忆后面先跟一个不是两个字的词，再跟一个一个字的词"
+    },
+    {
+        "query": "后后 @/[u v]",
+        "description": "后后后面接任意一个助词或动词"
+    },
+    {
+        "query": "(v) (n){$1!=$2}",
+        "description": "两个相邻的动词，但内容不相同"
+    },
+    {
+        "query": "从/p 记忆",
+        "description": "从后面接介词记忆"
+    },
+    {
+        "query": "(n) 都 有 属于 自己 的 (n){begin($1)=[时 运 哇 照]}",
+        "description": "三个名词，第一个词以时、运、哇或照开始"
+    },
+    {
+        "query": "《 (ns) 电视{len($1)=2}",
+        "description": "电视前面是书名号，电视二字"
+    },
+    {
+        "query": "年度 (v){end($1)=[荐 刀 晚]}",
+        "description": "年度后面接荐、刀或晚"
+    },
+    {
+        "query": "激活 (n) 作品{len($1)=2}",
+        "description": "激活后面接两个字的作品"
+    },
+    {
+        "query": "年度 (v){count>3}",
+        "description": "年度这个动词出现次数超过3次"
+    },
+    {
+        "query": "赤诚",
+        "description": "赤诚，可能是单个词"
+    },
+    {
+        "query": "立传 (n) 推荐{end($1)!=[见 亏 各]}",
+        "description": "立传后面接推荐，但不接见、亏或各"
+    },
+    {
+        "query": "越南 (n){begin($1)!=[次 拿]}",
+        "description": "越南这个名词，但不以次或拿开始"
+    },
+    {
+        "query": "./nr 辉煌",
+        "description": "辉煌，可能是单个词或以nr词性开头"
+    },
+    {
+        "query": "(v) 了 一 辆 电动车 (w){count>6}",
+        "description": "动词后接了、一个、辆和电动车，电动车出现次数超过6次"
+    },
+    {
+        "query": "看重 @/[n v] 和",
+        "description": "看重后面接名词或动词，然后是和"
+    },
+    {
+        "query": "... 加息",
+        "description": "省略号后面接加息"
+    },
+    {
+        "query": "数据",
+        "description": "数据，可能是单个词"
+    },
+    {
+        "query": "(n) 美国 (v){end($1)=[团 餐]}",
+        "description": "美国后面接动词，动词不以团或餐结束"
+    },
+    {
+        "query": "看 ... 国际",
+        "description": "看后面可能接省略号，后面接国际"
+    },
+    {
+        "query": "转型 ~/[v v] 实现",
+        "description": "转型后面接两个相邻的动词实现"
+    },
+    {
+        "query": "~",
+        "description": "一个任意词"
+    },
+    {
+        "query": "(v) 投资 (v){len($1)>1; end($2)!=[婷 招 清]}",
+        "description": "两个相邻的动词，第一个动词至少两个字，第二个动词不以婷、招或清结束"
+    },
+    {
+        "query": "讲堂 @",
+        "description": "讲堂，表示统计时按照词性归并"
+    },
+    {
+        "query": "自我 (v) 优化{len($1)<3}",
+        "description": "自我后面接一个长度小于3的动词优化"
+    },
+    {
+        "query": "(v) 内需 是 中国 (d){count<913}",
+        "description": "内需、是、中国三个词，内需是动词，中国是副词，总次数少于913"
+    },
+    {
+        "query": "潜力 @/[v v] 困难",
+        "description": "潜力后面接一个词或两个相邻的动词困难"
+    },
+    {
+        "query": "(nr){end($1)=[恩 欠 鞋 化]}",
+        "description": "一个名词，但不以恩、欠、鞋或化结束"
+    },
+    {
+        "query": "智利 n 阿里西亚",
+        "description": "智利后面接一个名词阿里西亚"
+    },
+    {
+        "query": "时代 @ 聚焦",
+        "description": "时代，表示统计时按照词性归并，后面接聚焦"
+    }
+]
+```

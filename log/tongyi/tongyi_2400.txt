@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "大事",
+        "description": "包含大事的句子"
+    },
+    {
+        "query": "美美",
+        "description": "包含美美这个词语的句子"
+    },
+    {
+        "query": "名士",
+        "description": "包含名士这个词语的句子"
+    },
+    {
+        "query": "打远",
+        "description": "包含打远这个词语的句子"
+    },
+    {
+        "query": "最大和谐",
+        "description": "包含最大和谐这个词语的句子"
+    },
+    {
+        "query": "得出",
+        "description": "包含得出这个词语的句子"
+    },
+    {
+        "query": "好不好找",
+        "description": "包含好不好找这个词语的句子"
+    },
+    {
+        "query": "应当说，",
+        "description": "包含应当说，这个词语的句子"
+    },
+    {
+        "query": "卷在",
+        "description": "包含卷在这个词语的句子"
+    },
+    {
+        "query": "桑榆暮景",
+        "description": "包含桑榆暮景这个词语的句子"
+    },
+    {
+        "query": "打准",
+        "description": "包含打准这个词语的句子"
+    },
+    {
+        "query": "这种东西",
+        "description": "包含这种东西这个词语的句子"
+    },
+    {
+        "query": "电视剧名",
+        "description": "包含电视剧名这个词语的句子"
+    },
+    {
+        "query": "有种，",
+        "description": "包含有种，这个词语的句子"
+    },
+    {
+        "query": "涉人权",
+        "description": "包含涉人权这个词语的句子"
+    },
+    {
+        "query": "所以说",
+        "description": "包含所以说这个词语的句子"
+    },
+    {
+        "query": "猛然",
+        "description": "包含猛然这个词语的句子"
+    },
+    {
+        "query": "不允许不",
+        "description": "包含不允许不这个词语的句子"
+    },
+    {
+        "query": "和谐也还",
+        "description": "包含和谐也还这个词语的句子"
+    },
+    {
+        "query": "肠肥脑满",
+        "description": "包含肠肥脑满这个词语的句子"
+    },
+    {
+        "query": "游行示威",
+        "description": "包含游行示威这个词语的句子"
+    },
+    {
+        "query": "无法和谐",
+        "description": "包含无法和谐这个词语的句子"
+    },
+    {
+        "query": "不够自然",
+        "description": "包含不够自然这个词语的句子"
+    },
+    {
+        "query": "罚款",
+        "description": "包含罚款这个词语的句子"
+    },
+    {
+        "query": "柔媚",
+        "description": "包含柔媚这个词语的句子"
+    },
+    {
+        "query": "和谐观含",
+        "description": "包含和谐观含这个词语的句子"
+    },
+    {
+        "query": "人马",
+        "description": "包含人马这个词语的句子"
+    },
+    {
+        "query": "狐假虎威",
+        "description": "包含狐假虎威这个词语的句子"
+    },
+    {
+        "query": "打急",
+        "description": "包含打急这个词语的句子"
+    },
+    {
+        "query": "募化",
+        "description": "包含募化这个词语的句子"
+    },
+    {
+        "query": "和谐的包",
+        "description": "包含和谐的包这个词语的句子"
+    },
+    {
+        "query": "令",
+        "description": "包含令这个词语的句子"
+    },
+    {
+        "query": "的确",
+        "description": "包含的确这个词语的句子"
+    },
+    {
+        "query": "容易和谐",
+        "description": "包含容易和谐这个词语的句子"
+    },
+    {
+        "query": "坦白",
+        "description": "包含坦白这个词语的句子"
+    },
+    {
+        "query": "深情",
+        "description": "包含深情这个词语的句子"
+    },
+    {
+        "query": "将离",
+        "description": "包含将离这个词语的句子"
+    },
+    {
+        "query": "抽象",
+        "description": "包含抽象这个词语的句子"
+    },
+    {
+        "query": "搂在",
+        "description": "包含搂在这个词语的句子"
+    },
+    {
+        "query": "依",
+        "description": "包含依这个词语的句子"
+    }
+]
+```

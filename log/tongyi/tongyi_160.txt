@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "敢是",
+        "description": "包含'敢是'这个词语的句子"
+    },
+    {
+        "query": "就别想",
+        "description": "包含'就别想'这个词语的句子"
+    },
+    {
+        "query": "一个盘旋",
+        "description": "包含'一个盘旋'这个词语的句子"
+    },
+    {
+        "query": "位人权",
+        "description": "包含'位人权'这个词语的句子"
+    },
+    {
+        "query": "花红柳绿",
+        "description": "包含'花红柳绿'这个词语的句子"
+    },
+    {
+        "query": "依赖症",
+        "description": "包含'依赖症'这个词语的句子"
+    },
+    {
+        "query": "安全和谐",
+        "description": "包含'安全和谐'这个词语的句子"
+    },
+    {
+        "query": "中国和马来西亚",
+        "description": "包含'中国和马来西亚'这个词语的句子"
+    },
+    {
+        "query": "人权\"",
+        "description": "包含'人权'这个词语的句子"
+    },
+    {
+        "query": "住",
+        "description": "包含'住'这个词语的句子"
+    },
+    {
+        "query": "谁都动摇不了",
+        "description": "包含'谁都动摇不了'这个词语的句子"
+    },
+    {
+        "query": "买买买",
+        "description": "包含'买买买'这个词语的句子"
+    },
+    {
+        "query": "争人权",
+        "description": "包含'争人权'这个词语的句子"
+    },
+    {
+        "query": "分级制度",
+        "description": "包含'分级制度'这个词语的句子"
+    },
+    {
+        "query": "下生",
+        "description": "包含'下生'这个词语的句子"
+    },
+    {
+        "query": "环境",
+        "description": "包含'环境'这个词语的句子"
+    },
+    {
+        "query": "沉沉",
+        "description": "包含'沉沉'这个词语的句子"
+    },
+    {
+        "query": "打工人",
+        "description": "包含'打工人'这个词语的句子"
+    },
+    {
+        "query": "恐怕敢",
+        "description": "包含'恐怕敢'这个词语的句子"
+    },
+    {
+        "query": "和谐与认",
+        "description": "包含'和谐与认'这个词语的句子"
+    },
+    {
+        "query": "削弱",
+        "description": "包含'削弱'这个词语的句子"
+    },
+    {
+        "query": "让百花齐放",
+        "description": "包含'让百花齐放'这个词语的句子"
+    },
+    {
+        "query": "这下好了",
+        "description": "包含'这下好了'这个词语的句子"
+    },
+    {
+        "query": "很男人",
+        "description": "包含'很男人'这个词语的句子"
+    },
+    {
+        "query": "个个",
+        "description": "包含'个个'这个词语的句子"
+    },
+    {
+        "query": "人权促",
+        "description": "包含'人权促'这个词语的句子"
+    },
+    {
+        "query": "妇女组",
+        "description": "包含'妇女组'这个词语的句子"
+    },
+    {
+        "query": "好歹不",
+        "description": "包含'好歹不'这个词语的句子"
+    },
+    {
+        "query": "混合泳",
+        "description": "包含'混合泳'这个词语的句子"
+    },
+    {
+        "query": "闭月羞花",
+        "description": "包含'闭月羞花'这个词语的句子"
+    },
+    {
+        "query": "回得到",
+        "description": "包含'回得到'这个词语的句子"
+    },
+    {
+        "query": "不太礼貌",
+        "description": "包含'不太礼貌'这个词语的句子"
+    },
+    {
+        "query": "抓包",
+        "description": "包含'抓包'这个词语的句子"
+    },
+    {
+        "query": "屡见不鲜",
+        "description": "包含'屡见不鲜'这个词语的句子"
+    },
+    {
+        "query": "的好脸",
+        "description": "包含'的好脸'这个词语的句子"
+    },
+    {
+        "query": "如实说",
+        "description": "包含'如实说'这个词语的句子"
+    },
+    {
+        "query": "青紫",
+        "description": "包含'青紫'这个词语的句子"
+    },
+    {
+        "query": "宽宽绰绰",
+        "description": "包含'宽宽绰绰'这个词语的句子"
+    },
+    {
+        "query": "系是和谐",
+        "description": "包含'系是和谐'这个词语的句子"
+    },
+    {
+        "query": "杀手",
+        "description": "包含'杀手'这个词语的句子"
+    }
+]
+```

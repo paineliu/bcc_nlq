@@ -1,0 +1,166 @@
+以下是将给定的检索式转换为带含义的json结构的结果：
+
+```json
+[
+    {
+        "query": "诚意/n+v",
+        "description": "诚意后接动词"
+    },
+    {
+        "query": "诚意/n v",
+        "description": "诚意后直接接动词"
+    },
+    {
+        "query": "延庆+徐/nr+小飞",
+        "description": "延庆和徐小飞组合"
+    },
+    {
+        "query": "延庆 徐/nr 小飞",
+        "description": "延庆和徐小飞组合，明确区分名词和人名"
+    },
+    {
+        "query": "币种+为/v+人民币",
+        "description": "币种后接为，再接人民币"
+    },
+    {
+        "query": "币种 为/v 人民币",
+        "description": "币种后接为，再接人民币，明确区分词与词之间的关系"
+    },
+    {
+        "query": "代表团+访问/v+越南",
+        "description": "代表团访问越南"
+    },
+    {
+        "query": "代表团 访问/v 越南",
+        "description": "代表团访问越南，明确区分词语和动词"
+    },
+    {
+        "query": "./V去",
+        "description": "单音节动词后接去"
+    },
+    {
+        "query": "泰山+移/v+。",
+        "description": "泰山后接移，句尾标点为。"
+    },
+    {
+        "query": "泰山 移/v 。",
+        "description": "泰山后接移，句尾标点为。明确区分词语和动词"
+    },
+    {
+        "query": "开/v+../n+",
+        "description": "开后接单音节名词，中间有空格"
+    },
+    {
+        "query": "开/v ../n ",
+        "description": "开后接单音节名词，明确区分动词和名词"
+    },
+    {
+        "query": "真+希望/v+蓝",
+        "description": "真后接希望，再接蓝"
+    },
+    {
+        "query": "真 希望/v 蓝",
+        "description": "真后接希望，再接蓝，明确区分词语和动词"
+    },
+    {
+        "query": "不停+。/w",
+        "description": "不停后接句尾标点。"
+    },
+    {
+        "query": "不停 。/w",
+        "description": "不停后接句尾标点，明确区分动词和标点"
+    },
+    {
+        "query": ".../v自由",
+        "description": "省略部分后接自由"
+    },
+    {
+        "query": "新+水平/n+。",
+        "description": "新后接水平，句尾标点为。"
+    },
+    {
+        "query": "新 水平/n 。",
+        "description": "新后接水平，句尾标点为，明确区分词语和标点"
+    },
+    {
+        "query": "京口+支行/n",
+        "description": "京口后接支行"
+    },
+    {
+        "query": "京口 支行/n",
+        "description": "京口后接支行，明确区分词语和名词"
+    },
+    {
+        "query": "排污权+交易/vn",
+        "description": "排污权后接交易"
+    },
+    {
+        "query": "排污权 交易/vn",
+        "description": "排污权后接交易，明确区分词语和动名词"
+    },
+    {
+        "query": "勿+忘/v+初心",
+        "description": "勿后接忘，再接初心"
+    },
+    {
+        "query": "勿 忘/v 初心",
+        "description": "勿后接忘，再接初心，明确区分词语和动词"
+    },
+    {
+        "query": ".../l",
+        "description": "省略部分内容"
+    },
+    {
+        "query": "了解+干部/n+活",
+        "description": "了解后接干部，再接活"
+    },
+    {
+        "query": "了解 干部/n 活",
+        "description": "了解后接干部，再接活，明确区分词语和名词"
+    },
+    {
+        "query": "v*劲头/n",
+        "description": "动词后接劲头"
+    },
+    {
+        "query": "规范化+。/w",
+        "description": "规范化后接句尾标点。"
+    },
+    {
+        "query": "规范化 。/w",
+        "description": "规范化后接句尾标点，明确区分词语和标点"
+    },
+    {
+        "query": "什么/r+是",
+        "description": "什么后接是"
+    },
+    {
+        "query": "什么/r 是",
+        "description": "什么后接是，明确区分词语和标点"
+    },
+    {
+        "query": "v*风情/n",
+        "description": "动词后接风情"
+    },
+    {
+        "query": "n+的+悬念/n",
+        "description": "名词后接的，再接悬念"
+    },
+    {
+        "query": "n 的 悬念/n",
+        "description": "名词后接的，再接悬念，明确区分词语和名词"
+    },
+    {
+        "query": "农民/n+看病+不/d",
+        "description": "农民后接看病，再接不"
+    },
+    {
+        "query": "农民/n 看病 不/d",
+        "description": "农民后接看病，再接不，明确区分词语和副词"
+    },
+    {
+        "query": "转经筒/n+过目/v",
+        "description": "转经筒后接过目"
+    }
+]
+```

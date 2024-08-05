@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "不 ~/[v v] 政府",
+        "description": "不后面接两个连续的动词，动词后面接政府"
+    },
+    {
+        "query": ".. 部门",
+        "description": "连续的两个词，可能是两个字的词组，后面接部门"
+    },
+    {
+        "query": "支撑 . 重要",
+        "description": "支撑后面隔一个字后接重要"
+    },
+    {
+        "query": "俸字号 (m) 农微{len($1)!=2}",
+        "description": "俸字号后面接长度不为2的名词"
+    },
+    {
+        "query": "v 着 赤脚 ， 皮肤 z",
+        "description": "动词后面接赤脚，赤脚后面可能隔一个字符接皮肤，皮肤可能是标点"
+    },
+    {
+        "query": "对 . 绿色",
+        "description": "对后面隔一个字后接绿色"
+    },
+    {
+        "query": "根基 ~/[w v]",
+        "description": "根基后面可能是接一个词或动词"
+    },
+    {
+        "query": "， (n) 满{count>7}",
+        "description": "逗号后面接一个名词，且该名词出现次数大于7次"
+    },
+    {
+        "query": "技能 (v){count>7}",
+        "description": "技能后面接动词，且动词出现次数大于7次"
+    },
+    {
+        "query": "能 ./v 电费",
+        "description": "能后面接单音节动词，动词后面接电费"
+    },
+    {
+        "query": "~ 助",
+        "description": "一个词"
+    },
+    {
+        "query": "./[n v] 下旬",
+        "description": "单音节动词或名词后面接下旬"
+    },
+    {
+        "query": "领 (r) 一起{len($1)!=2}",
+        "description": "领后面接一个长度不为2的词"
+    },
+    {
+        "query": "(r) 让{len($1)=2}",
+        "description": "长度为2的词"
+    },
+    {
+        "query": "电商 .../n ，",
+        "description": "电商后面接任意数量的词，然后可能是句尾的逗号"
+    },
+    {
+        "query": "年份 (n) 咋{count>9}",
+        "description": "年份后面接名词，且名词出现次数大于9次"
+    },
+    {
+        "query": "(v) 生态鱼{count<811}",
+        "description": "动词后面接生态鱼，且生态鱼出现次数少于811次"
+    },
+    {
+        "query": "干",
+        "description": "单独的干"
+    },
+    {
+        "query": ": @ 以",
+        "description": "冒号后面接一个词，可能是任何词性"
+    },
+    {
+        "query": "、",
+        "description": "逗号"
+    },
+    {
+        "query": "(v) 产生 (r){count>9}",
+        "description": "动词后面接产生，且产生后面接一个词，动词出现次数大于9次"
+    },
+    {
+        "query": "(v) ， (r){count>8}",
+        "description": "动词后面接一个词，且该词后面是逗号，动词出现次数大于8次"
+    },
+    {
+        "query": "冬日 (u) 香港{count<879}",
+        "description": "冬日后面接香港，香港出现次数少于879次"
+    },
+    {
+        "query": "(t) 家人 很 少 让 饶公见客 (w){end($1)!=[广 莫]}",
+        "description": "时间词后面接家人、很、少、让、饶公见客，且饶公见客后面不接广或莫"
+    },
+    {
+        "query": "赠书 @ 时",
+        "description": "赠书后面接一个词，可能是任何词性"
+    },
+    {
+        "query": "， ~ 气自华",
+        "description": "逗号后面接一个词"
+    },
+    {
+        "query": "， (v) 出奇制胜{count<680}",
+        "description": "逗号后面接动词，且动词后面接出奇制胜，动词出现次数少于680次"
+    },
+    {
+        "query": "推崇 ..../v 的",
+        "description": "推崇后面可能是接一个词或动词，动词后面接的"
+    },
+    {
+        "query": "的 (n) 里{len($1)!=3}",
+        "description": "的后面接长度不为3的名词"
+    },
+    {
+        "query": "./w 我 每天 ./p",
+        "description": "我后面接单音节词，单音节词后面接每天，每天后面接一个介词"
+    },
+    {
+        "query": "爱",
+        "description": "爱"
+    },
+    {
+        "query": "一个 .. 。",
+        "description": "一个后面接任意数量的词，然后是句尾符号"
+    },
+    {
+        "query": "益 d 是",
+        "description": "益后面接副形词，副形词后面接是"
+    },
+    {
+        "query": "恶果 @/[r v] 。",
+        "description": "恶果后面接一个词，可能是形容词或动词，句尾符号"
+    },
+    {
+        "query": "就 ~ 互害",
+        "description": "就后面接一个词"
+    },
+    {
+        "query": "得到 @ 启示",
+        "description": "得到后面接一个词，可能是任何词性"
+    },
+    {
+        "query": "造就 (u) 我{count<172}",
+        "description": "造就后面接一个词，可能是未知词，且该词后面接我，造就后面接的词出现次数少于172次"
+    },
+    {
+        "query": "./m 壶",
+        "description": "单音节动词或名词后面接壶"
+    },
+    {
+        "query": "一 ~/[q v] 境界",
+        "description": "一后面接一个量词或动词，动词后面接境界"
+    },
+    {
+        "query": "而 (d) 需{len($1)=2}",
+        "description": "而后面接长度为2的副词"
+    }
+]
+```

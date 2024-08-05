@@ -1,0 +1,140 @@
+```json
+[
+    {
+        "query": "、+栗/n+战书",
+        "description": "逗号后接栗/n，然后接战书"
+    },
+    {
+        "query": "、 栗/n 战书",
+        "description": "逗号直接连接栗/n和战书"
+    },
+    {
+        "query": "这个/r+账+算+得/u",
+        "description": "这个后接账，账后接算，最后接得/u"
+    },
+    {
+        "query": "这个/r 账 算 得/u",
+        "description": "这个后接账，账后接算，算后接得/u"
+    },
+    {
+        "query": "严+把/v+监测",
+        "description": "严后接把/v，把/v后接监测"
+    },
+    {
+        "query": "严 把/v 监测",
+        "description": "严后直接连接把/v，把/v后接监测"
+    },
+    {
+        "query": "这个/r+作用+就是+监督/v",
+        "description": "这个后接作用，作用后接就是，最后接监督/v"
+    },
+    {
+        "query": "这个/r 作用 就是 监督/v",
+        "description": "这个后接作用，作用后接就是，就是后接监督/v"
+    },
+    {
+        "query": "琳+采访/v+整理",
+        "description": "琳后接采访/v，采访/v后接整理"
+    },
+    {
+        "query": "琳 采访/v 整理",
+        "description": "琳后直接连接采访/v，采访/v后接整理"
+    },
+    {
+        "query": "那么+中国画/n+如何",
+        "description": "那么后接中国画/n，中国画/n后接如何"
+    },
+    {
+        "query": "那么 中国画/n 如何",
+        "description": "那么后接中国画/n，中国画/n后接如何"
+    },
+    {
+        "query": "赠礼/v+重/v",
+        "description": "赠礼/v后接重/v"
+    },
+    {
+        "query": "转型+之中/f+。",
+        "description": "转型后接之中/f，之中/f后接。"
+    },
+    {
+        "query": "转型 之中/f 。",
+        "description": "转型后直接连接之中/f，之中/f后接。"
+    },
+    {
+        "query": "了/y+。/w",
+        "description": "了/y后接。/w"
+    },
+    {
+        "query": "了/y 。/w",
+        "description": "了/y后接 。/w"
+    },
+    {
+        "query": "抱怨/v",
+        "description": "抱怨/v"
+    },
+    {
+        "query": "养老/v+待遇/n",
+        "description": "养老/v后接待遇/n"
+    },
+    {
+        "query": "./v咸了",
+        "description": "直接连接./v和咸了"
+    },
+    {
+        "query": "坚持+总量/n+调节",
+        "description": "坚持后接总量/n，总量/n后接调节"
+    },
+    {
+        "query": "坚持 总量/n 调节",
+        "description": "坚持后直接连接总量/n，总量/n后接调节"
+    },
+    {
+        "query": "不+./v+不",
+        "description": "不后接./v，./v后接不"
+    },
+    {
+        "query": "../m杀w",
+        "description": "后接杀w"
+    },
+    {
+        "query": "v*心意/n",
+        "description": "动词v后接心意/n"
+    },
+    {
+        "query": "排污权+有偿/d+使用",
+        "description": "排污权后接有偿/d，有偿/d后接使用"
+    },
+    {
+        "query": "排污权 有偿/d 使用",
+        "description": "排污权后直接连接有偿/d，有偿/d后接使用"
+    },
+    {
+        "query": "那+都/d+是",
+        "description": "那后接都/d，都/d后接是"
+    },
+    {
+        "query": "那 都/d 是",
+        "description": "那后直接连接都/d，都/d后接是"
+    },
+    {
+        "query": "谷豪+四川/ns+成都",
+        "description": "谷豪后接四川/ns，四川/ns后接成都"
+    },
+    {
+        "query": "谷豪 四川/ns 成都",
+        "description": "谷豪后直接连接四川/ns，四川/ns后接成都"
+    },
+    {
+        "query": "心+却/d+留",
+        "description": "心后接却/d，却/d后接留"
+    },
+    {
+        "query": "心 却/d 留",
+        "description": "心后直接连接却/d，却/d后接留"
+    },
+    {
+        "query": "n+善意/n",
+        "description": "n后接善意/n"
+    }
+]
+```

@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "爱死了",
+        "description": "包含\"爱死了\"的句子"
+    },
+    {
+        "query": "棉花",
+        "description": "单个词语\"棉花\""
+    },
+    {
+        "query": "的方式",
+        "description": "以\"的方式\"结尾的短语"
+    },
+    {
+        "query": "大小高低",
+        "description": "包含\"大小高低\"的短语"
+    },
+    {
+        "query": "寸长尺短",
+        "description": "包含\"寸长尺短\"的短语"
+    },
+    {
+        "query": "红",
+        "description": "单个词语\"红\""
+    },
+    {
+        "query": "透水",
+        "description": "包含\"透水\"的短语"
+    },
+    {
+        "query": "发蒙",
+        "description": "包含\"发蒙\"的短语"
+    },
+    {
+        "query": "馬",
+        "description": "单个词语\"馬\""
+    },
+    {
+        "query": "和谐之不",
+        "description": "以\"和谐之不\"开头的短语"
+    },
+    {
+        "query": "她自己的",
+        "description": "包含\"她自己的\"的短语"
+    },
+    {
+        "query": "这一来",
+        "description": "包含\"这一来\"的短语"
+    },
+    {
+        "query": "花花绿绿",
+        "description": "包含\"花花绿绿\"的短语"
+    },
+    {
+        "query": "姑娘",
+        "description": "单个词语\"姑娘\""
+    },
+    {
+        "query": "心花怒放",
+        "description": "包含\"心花怒放\"的短语"
+    },
+    {
+        "query": "编号",
+        "description": "单个词语\"编号\""
+    },
+    {
+        "query": "操刀",
+        "description": "包含\"操刀\"的短语"
+    },
+    {
+        "query": "适人权",
+        "description": "包含\"适人权\"的短语"
+    },
+    {
+        "query": "错误",
+        "description": "单个词语\"错误\""
+    },
+    {
+        "query": "遣",
+        "description": "单个词语\"遣\""
+    },
+    {
+        "query": "天窗",
+        "description": "单个词语\"天窗\""
+    },
+    {
+        "query": "贫乳",
+        "description": "包含\"贫乳\"的短语"
+    },
+    {
+        "query": "从中，",
+        "description": "以\"从中，\"开头的短语"
+    },
+    {
+        "query": "我建议",
+        "description": "包含\"我建议\"的短语"
+    },
+    {
+        "query": "不料",
+        "description": "包含\"不料\"的短语"
+    },
+    {
+        "query": "古代汉语入门",
+        "description": "包含\"古代汉语入门\"的短语"
+    },
+    {
+        "query": "阀值",
+        "description": "单个词语\"阀值\""
+    },
+    {
+        "query": "加人权",
+        "description": "包含\"加人权\"的短语"
+    },
+    {
+        "query": "同性恋",
+        "description": "单个词语\"同性恋\""
+    },
+    {
+        "query": "拾掇",
+        "description": "包含\"拾掇\"的短语"
+    },
+    {
+        "query": "岂可修",
+        "description": "包含\"岂可修\"的短语"
+    },
+    {
+        "query": "和谐发展",
+        "description": "包含\"和谐发展\"的短语"
+    },
+    {
+        "query": "种草",
+        "description": "单个词语\"种草\""
+    },
+    {
+        "query": "铁马金戈",
+        "description": "包含\"铁马金戈\"的短语"
+    },
+    {
+        "query": "人道",
+        "description": "单个词语\"人道\""
+    },
+    {
+        "query": "学院生",
+        "description": "包含\"学院生\"的短语"
+    },
+    {
+        "query": "人权比",
+        "description": "包含\"人权比\"的短语"
+    },
+    {
+        "query": "和谐力是",
+        "description": "包含\"和谐力是\"的短语"
+    },
+    {
+        "query": "人权太",
+        "description": "包含\"人权太\"的短语"
+    },
+    {
+        "query": "客观而言",
+        "description": "包含\"客观而言\"的短语"
+    }
+]
+```

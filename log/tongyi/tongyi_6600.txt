@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "不V也得V",
+        "description": "不后面接动词，后面再接动词"
+    },
+    {
+        "query": "什么都v",
+        "description": "什么后面接动词"
+    },
+    {
+        "query": "方法a",
+        "description": "方法后面接形容词"
+    },
+    {
+        "query": "n上去",
+        "description": "名词后面接上、去"
+    },
+    {
+        "query": "在N钉",
+        "description": "在后面接名词、钉"
+    },
+    {
+        "query": "跑来跑去v",
+        "description": "跑来回、去接动词"
+    },
+    {
+        "query": "v上愉悦",
+        "description": "动词上面接愉悦"
+    },
+    {
+        "query": "n交错",
+        "description": "名词后面接交错"
+    },
+    {
+        "query": "心房v",
+        "description": "心房后面接动词"
+    },
+    {
+        "query": "敢p+r",
+        "description": "敢后面接p、r"
+    },
+    {
+        "query": "敢p r",
+        "description": "敢后面接p、r"
+    },
+    {
+        "query": "v不了什么",
+        "description": "动词后面接不了、什么"
+    },
+    {
+        "query": "真的是d+a了",
+        "description": "真的后面接形容词、了"
+    },
+    {
+        "query": "真的是d a了",
+        "description": "真的后面接形容词、了"
+    },
+    {
+        "query": "上s",
+        "description": "上后面接s"
+    },
+    {
+        "query": "n之n",
+        "description": "名词后面接之、名词"
+    },
+    {
+        "query": "n调查",
+        "description": "名词后面接调查"
+    },
+    {
+        "query": "\"被\"v",
+        "description": "被后面接动词"
+    },
+    {
+        "query": "有被a到",
+        "description": "有后面接被、形容词、到"
+    },
+    {
+        "query": "a+t",
+        "description": "形容词后面接t"
+    },
+    {
+        "query": "a t",
+        "description": "形容词后面接t"
+    },
+    {
+        "query": "不过把n+v了",
+        "description": "不过后面接把、名词、动词、了"
+    },
+    {
+        "query": "不过把n v了",
+        "description": "不过后面接把、名词、动词、了"
+    },
+    {
+        "query": "a丈夫",
+        "description": "形容词后面接丈夫"
+    },
+    {
+        "query": "太n了一点",
+        "description": "太后面接形容词、一、点"
+    },
+    {
+        "query": "v得可以",
+        "description": "动词后面接得、可以"
+    },
+    {
+        "query": "v具体了",
+        "description": "动词后面接具体、了"
+    },
+    {
+        "query": "好y",
+        "description": "好后面接语气词"
+    },
+    {
+        "query": "你a",
+        "description": "你后面接形容词"
+    },
+    {
+        "query": "V了一V",
+        "description": "动词后面接了一、动词"
+    },
+    {
+        "query": "m局限",
+        "description": "m后面接局限"
+    },
+    {
+        "query": "c说",
+        "description": "c后面接说"
+    },
+    {
+        "query": "w+v得较a+w",
+        "description": "w后面接动词、得、较、a、w"
+    },
+    {
+        "query": "w v得较a w",
+        "description": "w后面接动词、得、较、a、w"
+    },
+    {
+        "query": "朝+n+f+v",
+        "description": "朝后面接名词、f、v"
+    },
+    {
+        "query": "朝 n f v",
+        "description": "朝后面接名词、n、f、v"
+    },
+    {
+        "query": "v都v了",
+        "description": "动词后面接都、动词、了"
+    },
+    {
+        "query": "n言n语",
+        "description": "名词后面接言、名词、语"
+    },
+    {
+        "query": "看ns的w",
+        "description": "看后面接ns、的、w"
+    },
+    {
+        "query": "多加a",
+        "description": "多后面接加、形容词"
+    }
+]
+```

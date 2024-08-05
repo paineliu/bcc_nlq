@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "灾难 (n){begin($1)=[状 什 挣]}",
+        "description": "以'状'、'什'、'挣'开头的名词"
+    },
+    {
+        "query": "至+(w)+盘点{count<772}",
+        "description": "至后面离合出现盘点，且盘点出现次数少于772次"
+    },
+    {
+        "query": "至 (w) 盘点{count<772}",
+        "description": "至后面直接接盘点，且盘点出现次数少于772次"
+    },
+    {
+        "query": "避免+(v){len($1)!=5}",
+        "description": "避免后的动词长度不等于5"
+    },
+    {
+        "query": "避免 (v){len($1)!=5}",
+        "description": "避免后的动词长度不等于5"
+    },
+    {
+        "query": "(v)不(v){$1=$2}",
+        "description": "一个动词后紧跟着另一个相同的动词"
+    },
+    {
+        "query": "(a)什么(a){$1=$2;len($1)=2}",
+        "description": "形容词后紧跟着形容词，且这两个形容词都是两个字"
+    },
+    {
+        "query": "(n)天(n)地{$1=$2}",
+        "description": "名词后紧跟着同一个名词"
+    },
+    {
+        "query": "(d)+闪烁{len($1)=2}",
+        "description": "以'd'开头的两个字"
+    },
+    {
+        "query": "(d) 闪烁{len($1)=2}",
+        "description": "以'd'开头的两个字"
+    },
+    {
+        "query": "(s)+(u){len($1)>2}",
+        "description": "以's'和'u'开头的字符串长度大于2"
+    },
+    {
+        "query": "(s) (u){len($1)>2}",
+        "description": "以's'和'u'开头的字符串长度大于2"
+    },
+    {
+        "query": "(d)+上{count>6}",
+        "description": "以'd'开头的'上'出现次数大于6"
+    },
+    {
+        "query": "(d) 上{count>6}",
+        "description": "以'd'开头的'上'出现次数大于6"
+    },
+    {
+        "query": "(ns)+双创{begin($1)!=[位+军]}",
+        "description": "以'ns'开头的双创，且双创不以'位+军'开头"
+    },
+    {
+        "query": "(ns) 双创{begin($1)!=[位 军]}",
+        "description": "双创不以'位+军'开头"
+    },
+    {
+        "query": "被+(n)+移送{len($1)<3}",
+        "description": "被后面离合出现一个名词，且这个名词长度小于3"
+    },
+    {
+        "query": "被 (n) 移送{len($1)<3}",
+        "description": "被后面直接接一个名词，且这个名词长度小于3"
+    },
+    {
+        "query": "从+(n)+后{count>7}",
+        "description": "从后面离合出现一个名词，且这个名词出现次数大于7"
+    },
+    {
+        "query": "从 (n) 后{count>7}",
+        "description": "从后面直接接一个名词，且这个名词出现次数大于7"
+    },
+    {
+        "query": "权+(p)+法定{len($1)!=2}",
+        "description": "权后面离合出现一个p词性，且这个p词性长度不等于2"
+    },
+    {
+        "query": "权 (p) 法定{len($1)!=2}",
+        "description": "权后面直接接一个p词性，且这个p词性长度不等于2"
+    },
+    {
+        "query": "(nr)+师傅+(d){len($1)=1; len($2)!=3}",
+        "description": "nr词性后紧跟着一个词性d，且师傅这个词是1个字，d词性长度不等于3"
+    },
+    {
+        "query": "(nr) 师傅 (d){len($1)=1; len($2)!=3}",
+        "description": "nr词性后紧跟着一个词性d，且师傅这个词是1个字，d词性长度不等于3"
+    },
+    {
+        "query": "(m)+、{len($1)=1}",
+        "description": "以'm'开头的、字符"
+    },
+    {
+        "query": "(m) 、{len($1)=1}",
+        "description": "、字符"
+    },
+    {
+        "query": "教育+(c)+人力{count>6}",
+        "description": "教育后面离合出现一个c词性，且人力出现次数大于6"
+    },
+    {
+        "query": "教育 (c) 人力{count>6}",
+        "description": "教育后面直接接一个c词性，且人力出现次数大于6"
+    },
+    {
+        "query": "(nr)+说+(w){begin($1)=[朱+兵+与+盖]}",
+        "description": "nr词性后紧跟着一个w词性，且说这个词是以朱、兵、与、盖开头"
+    },
+    {
+        "query": "(nr) 说 (w){begin($1)=[朱 兵 与 盖]}",
+        "description": "说这个词是以朱、兵、与、盖开头"
+    },
+    {
+        "query": "(u)+结束+(v){len($1)!=2; len($2)!=2}",
+        "description": "u词性后紧跟着一个v词性，且结束和这个v词都不是两个字"
+    },
+    {
+        "query": "(u) 结束 (v){len($1)!=2; len($2)!=2}",
+        "description": "结束和这个v词都不是两个字"
+    },
+    {
+        "query": "将+(n){len($1)=2}",
+        "description": "将后面紧跟着一个长度为2的名词"
+    },
+    {
+        "query": "将 (n){len($1)=2}",
+        "description": "将后面紧跟着一个长度为2的名词"
+    },
+    {
+        "query": "细化+(vn)+质量{len($1)>1}",
+        "description": "细化后面紧跟着一个长度大于1的vn词性"
+    },
+    {
+        "query": "细化 (vn) 质量{len($1)>1}",
+        "description": "细化后面紧跟着一个长度大于1的vn词性"
+    },
+    {
+        "query": "，+(v)+市场准入{len($1)>1}",
+        "description": "，后面紧跟着一个长度大于1的v词性"
+    },
+    {
+        "query": "， (v) 市场准入{len($1)>1}",
+        "description": "市场准入前面有一个，且长度大于1的v词性"
+    },
+    {
+        "query": "(m)大(n){len($1)=1;len($2)=2}",
+        "description": "m词性后紧跟着一个长度为2的n词性"
+    },
+    {
+        "query": "(v)什么(V){$1=$2;len($1)=1}",
+        "description": "一个动词后紧跟着另一个相同的动词，且这个动词长度为1"
+    }
+]
+```

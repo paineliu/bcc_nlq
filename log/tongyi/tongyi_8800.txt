@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "暴雨*把",
+        "description": "暴雨后面离合出现把"
+    },
+    {
+        "query": "或者*仿佛",
+        "description": "或者后面离合出现仿佛"
+    },
+    {
+        "query": "w纵.横w",
+        "description": "w纵后面隔一个字后接横"
+    },
+    {
+        "query": "简直@",
+        "description": "简直后接一个词性"
+    },
+    {
+        "query": "热*冷",
+        "description": "热后面离合出现冷"
+    },
+    {
+        "query": "猪.个",
+        "description": "猪后接一个字"
+    },
+    {
+        "query": "大概*绝不",
+        "description": "大概后面离合出现绝不"
+    },
+    {
+        "query": "恐怕*终究",
+        "description": "恐怕后面离合出现终究"
+    },
+    {
+        "query": "高*兴",
+        "description": "高后面离合出现兴"
+    },
+    {
+        "query": "a.肾上腺素",
+        "description": "a后接肾上腺素"
+    },
+    {
+        "query": "她们..+出来w",
+        "description": "她们后接一个词，然后中间隔一个字后接出来"
+    },
+    {
+        "query": "她们.. 出来w",
+        "description": "她们后接一个词，然后中间隔一个字后接出来，出来是句尾"
+    },
+    {
+        "query": "留不.",
+        "description": "留后面隔一个字后接不"
+    },
+    {
+        "query": "*一遍w",
+        "description": "一个词后面离合出现一遍"
+    },
+    {
+        "query": "把*v+a+了",
+        "description": "把后接动词，动词后接a，a后接了"
+    },
+    {
+        "query": "把*v a 了",
+        "description": "把后接动词，动词后接a，a后接了"
+    },
+    {
+        "query": "恐怕*果然",
+        "description": "恐怕后面离合出现果然"
+    },
+    {
+        "query": "在*之后",
+        "description": "在后面离合出现之后"
+    },
+    {
+        "query": "w而不是*",
+        "description": "w后面离合出现而不是"
+    },
+    {
+        "query": "除非*，才*",
+        "description": "除非后面离合出现，再接才"
+    },
+    {
+        "query": "想来@恐怕",
+        "description": "想来后接一个词性，再接恐怕"
+    },
+    {
+        "query": "政治..",
+        "description": "政治后接一个词，然后中间隔一个字"
+    },
+    {
+        "query": "往往*v",
+        "description": "往往后面离合出现动词"
+    },
+    {
+        "query": "v下*欣喜",
+        "description": "动词后邻下，再接欣喜"
+    },
+    {
+        "query": "v下.来+",
+        "description": "动词后邻下，然后中间隔一个字后接来"
+    },
+    {
+        "query": "v下.来",
+        "description": "动词后邻下，然后中间隔一个字后接来"
+    },
+    {
+        "query": "w奸.忠w",
+        "description": "w奸后面隔一个字后接忠"
+    },
+    {
+        "query": "也许*只得",
+        "description": "也许后面离合出现只得"
+    },
+    {
+        "query": "何曾*来",
+        "description": "何曾后面离合出现来"
+    },
+    {
+        "query": "都*就",
+        "description": "都后面离合出现就"
+    },
+    {
+        "query": "w丑.美w",
+        "description": "w丑后面隔一个字后接美"
+    },
+    {
+        "query": "w死.活w",
+        "description": "w死后面隔一个字后接活"
+    },
+    {
+        "query": "恐怕*甚至",
+        "description": "恐怕后面离合出现甚至"
+    },
+    {
+        "query": "v在+@+",
+        "description": "动词后接在，然后中间隔一个字后接@"
+    },
+    {
+        "query": "v在 @",
+        "description": "动词后接在，然后中间隔一个字后接@"
+    },
+    {
+        "query": "立*异",
+        "description": "立后面离合出现异"
+    },
+    {
+        "query": "的.",
+        "description": "的后面隔一个字"
+    },
+    {
+        "query": "好像*啊。",
+        "description": "好像后面离合出现啊"
+    },
+    {
+        "query": "w收.放w",
+        "description": "w收后面隔一个字后接放"
+    },
+    {
+        "query": "w是.非w",
+        "description": "w是后面隔一个字后接非"
+    }
+]
+```

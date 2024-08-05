@@ -1,0 +1,166 @@
+以下是将检索式转换为带含义的json结构后的结果：
+
+```json
+[
+    {
+        "query": "n+n+搭建",
+        "description": "两个名词后接搭建"
+    },
+    {
+        "query": "n n 搭建",
+        "description": "两个名词后接搭建"
+    },
+    {
+        "query": "v往n里",
+        "description": "动词后接往+名词+里"
+    },
+    {
+        "query": "a分析",
+        "description": "形容词后接分析"
+    },
+    {
+        "query": "样子w",
+        "description": "单音节词后接样子"
+    },
+    {
+        "query": "v是不可能",
+        "description": "动词后接是不可能"
+    },
+    {
+        "query": "绝对V",
+        "description": "形容词或动词后接绝对"
+    },
+    {
+        "query": "一片n",
+        "description": "名词后接一片"
+    },
+    {
+        "query": "a头a脑",
+        "description": "形容词后接头+形容词"
+    },
+    {
+        "query": "情况w",
+        "description": "单音节词后接情况"
+    },
+    {
+        "query": "v一词",
+        "description": "动词后接一词"
+    },
+    {
+        "query": "w各一q",
+        "description": "标点后接各+量词+名词"
+    },
+    {
+        "query": "我n不n",
+        "description": "我后接不+我"
+    },
+    {
+        "query": "倒v得",
+        "description": "动词后接倒+得"
+    },
+    {
+        "query": "a的灾难",
+        "description": "形容词后接的灾难"
+    },
+    {
+        "query": "有什么好+a+的",
+        "description": "疑问词后接有什么+形容词+的"
+    },
+    {
+        "query": "有什么好 a 的",
+        "description": "疑问词后接有什么+形容词+的"
+    },
+    {
+        "query": "未v先a",
+        "description": "动词后接未+形容词"
+    },
+    {
+        "query": "w恐怕+n+v",
+        "description": "标点后接恐怕+名词+动词"
+    },
+    {
+        "query": "w恐怕 n v",
+        "description": "标点后接恐怕+名词+动词"
+    },
+    {
+        "query": "没V之前",
+        "description": "否定词后接没+动词+之前"
+    },
+    {
+        "query": "把r+v的w",
+        "description": "代词后接把+动词+的+标点"
+    },
+    {
+        "query": "把r v的w",
+        "description": "代词后接把+动词+的+标点"
+    },
+    {
+        "query": "n的差异++",
+        "description": "名词后接的差异+双音节词"
+    },
+    {
+        "query": "n的差异",
+        "description": "名词后接的差异"
+    },
+    {
+        "query": "进行+n",
+        "description": "动词进行后接名词"
+    },
+    {
+        "query": "进行 n",
+        "description": "动词进行后接名词"
+    },
+    {
+        "query": "能V。",
+        "description": "动词能后接V标点"
+    },
+    {
+        "query": "折n",
+        "description": "动词折后接名词"
+    },
+    {
+        "query": "v不v此n",
+        "description": "动词后接不+动词+此+名词"
+    },
+    {
+        "query": "n不如n",
+        "description": "名词后接不如+名词"
+    },
+    {
+        "query": "v绿",
+        "description": "动词后接绿"
+    },
+    {
+        "query": "v走",
+        "description": "动词后接走"
+    },
+    {
+        "query": "nr牵挂",
+        "description": "人名后接牵挂"
+    },
+    {
+        "query": "在N上扎",
+        "description": "介词在后接N上扎"
+    },
+    {
+        "query": "i说",
+        "description": "标点后接我说"
+    },
+    {
+        "query": "n建议",
+        "description": "名词后接建议"
+    },
+    {
+        "query": "在N上围",
+        "description": "介词在后接N上围"
+    },
+    {
+        "query": "v熟练了",
+        "description": "动词后接熟练了"
+    },
+    {
+        "query": "他要v",
+        "description": "代词他后接要+动词"
+    }
+]
+```

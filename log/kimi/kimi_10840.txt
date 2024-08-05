@@ -1,0 +1,86 @@
+以下是根据您提供的检索式及其含义转换的JSON结构列表：
+
+```json
+[
+    {
+        "query": "王", 
+        "description":"包含王的句子"
+    },
+    {
+        "query": "病人 就/d 离", 
+        "description":"病人后面接副词就，再接动词离"
+    },
+    {
+        "query": "说 w", 
+        "description":"说后面接标点符号"
+    },
+    {
+        "query": "、 ~ 、", 
+        "description":"顿号前后各有一个词"
+    },
+    {
+        "query": "， (v) 授人以渔{len($1)=2}", 
+        "description":"逗号后面接双音节动词授人以渔，且动词长度为2"
+    },
+    {
+        "query": "(v) (d){count<798}", 
+        "description":"动词后面接副词，且该组合的频次小于798"
+    },
+    {
+        "query": "中华民族", 
+        "description":"包含中华民族的句子"
+    },
+    {
+        "query": "： 我/r 很", 
+        "description":"冒号后面接代词我，再接副词很"
+    },
+    {
+        "query": ".. 去 ， ..", 
+        "description":"任意两个词，去，逗号，再接任意两个词"
+    },
+    {
+        "query": ".. 持续", 
+        "description":"任意两个词后面接持续"
+    },
+    {
+        "query": "../[v v] 正在", 
+        "description":"双音节名词或动词后面接正在"
+    },
+    {
+        "query": "@ 是", 
+        "description":"任意词性词后面接是，在统计时按照词性归并"
+    },
+    {
+        "query": "说 ~/[w v]", 
+        "description":"说后面接一个词，这个词可以是语气词或动词"
+    },
+    {
+        "query": "虹桥路 (n) 校长{len($1)>1}", 
+        "description":"虹桥路后面接名词校长，且校长长度大于1"
+    },
+    {
+        "query": "(vd) (v){len($1)!=3}", 
+        "description":"副动词后面接动词，且副动词长度不等于3"
+    },
+    {
+        "query": "徐 ./v 。", 
+        "description":"徐后面接单音节动词，再接句号"
+    },
+    {
+        "query": "莫 让/v 二手", 
+        "description":"莫后面接动词让，再接名词二手"
+    },
+    {
+        "query": "(i) ，{end($1)!=[这 力]}", 
+        "description":"成语后面接逗号，且成语不以这或力结尾"
+    },
+    {
+        "query": "工程 (n) 聚焦{len($1)=2}", 
+        "description":"工程后面接双音节名词聚焦"
+    },
+    {
+        "query": "建 (n) 种{len($1)>1}", 
+        "description":"建后面接名词种，且种的长度大于1"
+    }
+]
+```

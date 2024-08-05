@@ -1,0 +1,166 @@
+以下是将给定的检索式转换为带含义的json结构：
+
+```json
+[
+    {
+        "query": "不V醒",
+        "description": "不后接动词醒的句子"
+    },
+    {
+        "query": "k",
+        "description": "单独的词k"
+    },
+    {
+        "query": "没V。",
+        "description": "没后接动词，句尾标点为句号的句子"
+    },
+    {
+        "query": "a偶尔",
+        "description": "形容词a后接偶尔的句子"
+    },
+    {
+        "query": "n就n",
+        "description": "名词后接名词的句子"
+    },
+    {
+        "query": "由于n+n+",
+        "description": "由于后接两个名词，之后是空格的句子"
+    },
+    {
+        "query": "由于n n",
+        "description": "由于后接两个名词的句子"
+    },
+    {
+        "query": "一吨n",
+        "description": "一吨后接名词的句子"
+    },
+    {
+        "query": "一树n",
+        "description": "一树后接名词的句子"
+    },
+    {
+        "query": "q风味",
+        "description": "q后接风味的句子"
+    },
+    {
+        "query": "d被我",
+        "description": "d后接被，我作为宾语的句子"
+    },
+    {
+        "query": "a保重",
+        "description": "形容词a后接保重的句子"
+    },
+    {
+        "query": "m碗",
+        "description": "m后接碗的句子"
+    },
+    {
+        "query": "非+V不可",
+        "description": "非后接动词，再接不可的句子"
+    },
+    {
+        "query": "非 V不可",
+        "description": "非后接动词V，再接不可的句子"
+    },
+    {
+        "query": "在+n+住",
+        "description": "在后接名词n，再接住的句子"
+    },
+    {
+        "query": "在 n 住",
+        "description": "在后接名词n，再接住的句子"
+    },
+    {
+        "query": "a一点",
+        "description": "形容词a后接一点的句子"
+    },
+    {
+        "query": "关+y",
+        "description": "关后接y的句子"
+    },
+    {
+        "query": "关 y",
+        "description": "关后接y的句子"
+    },
+    {
+        "query": "N都V",
+        "description": "N后接都，再接动词V的句子"
+    },
+    {
+        "query": "想不n都难",
+        "description": "想不后接名词n，再接都难的句子"
+    },
+    {
+        "query": "被a到",
+        "description": "被后接形容词a，再接到的句子"
+    },
+    {
+        "query": "可持续N",
+        "description": "可持续后接名词N的句子"
+    },
+    {
+        "query": "v下了n。",
+        "description": "动词v后接下了，再接名词n，句尾标点为句号的句子"
+    },
+    {
+        "query": "v++了+m++夏天+的+N",
+        "description": "动词v后接了，再接m，之后是夏天的N的句子"
+    },
+    {
+        "query": "v  了 m  夏天 的 N",
+        "description": "动词v后接了，再接m，之后是夏天的N的句子"
+    },
+    {
+        "query": "n+n",
+        "description": "名词后接名词的句子"
+    },
+    {
+        "query": "n n",
+        "description": "名词后接名词的句子"
+    },
+    {
+        "query": "N+细",
+        "description": "N后接细的句子"
+    },
+    {
+        "query": "N 细",
+        "description": "N后接细的句子"
+    },
+    {
+        "query": "w再说",
+        "description": "w后接再说的句子"
+    },
+    {
+        "query": "n时候",
+        "description": "名词后接时候的句子"
+    },
+    {
+        "query": "n+v的n",
+        "description": "名词后接v的，再接名词的句子"
+    },
+    {
+        "query": "n v的n",
+        "description": "名词后接v的，再接名词的句子"
+    },
+    {
+        "query": "经过n+n+",
+        "description": "经过后接两个名词，之后是空格的句子"
+    },
+    {
+        "query": "经过n n",
+        "description": "经过后接两个名词的句子"
+    },
+    {
+        "query": "不得v",
+        "description": "不得后接动词v的句子"
+    },
+    {
+        "query": "状况f",
+        "description": "状况后接f的句子"
+    },
+    {
+        "query": "n劳动",
+        "description": "名词后接劳动的句子"
+    }
+]
+```

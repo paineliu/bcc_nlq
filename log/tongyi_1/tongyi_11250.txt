@@ -1,0 +1,160 @@
+```json
+[
+    {
+        "query": "宋沙瓦", 
+        "description":"宋沙瓦 (可能是地名)"
+    },
+    {
+        "query": "降低 ~", 
+        "description":"降低后面可能有一个词"
+    },
+    {
+        "query": "... 说", 
+        "description":"省略号后面接一个词，可能是句子的一部分"
+    },
+    {
+        "query": "黑色 (t){end($1)!=[骂 茶 求]}", 
+        "description":"黑色后面不能接骂、茶或求"
+    },
+    {
+        "query": "与 (n) 经济{len($1)=2}", 
+        "description":"与后面紧跟着一个长度为2的经济相关词"
+    },
+    {
+        "query": "(n) 高度 评价 中国 (a){len($1)>1; len($2)>1}", 
+        "description":"两个名词之间评价中国，且每个名词长度超过1个字符"
+    },
+    {
+        "query": "(ns) 变通{count<332}", 
+        "description":"变通这个词的使用频率少于332次"
+    },
+    {
+        "query": "(ns) 经济{end($1)=[西 伟 起 破]}", 
+        "description":"经济后面可能以西、伟、起或破结尾"
+    },
+    {
+        "query": "包容 (vn) 新媒{len($1)<3}", 
+        "description":"包容后面接一个长度小于3的词，可能是新媒"
+    },
+    {
+        "query": "如何 ../[v v] ?", 
+        "description":"如何后面离合出现两个动词，可能是一个疑问句"
+    },
+    {
+        "query": "的 ~/[vn v] 最", 
+        "description":"的后面可能接一个动词或名词，然后是最"
+    },
+    {
+        "query": "@ 领", 
+        "description":"领字前后可能是一个词性标记"
+    },
+    {
+        "query": "随时 @ 挂", 
+        "description":"随时后面可能跟一个词性标记，挂字前后也可能是一个词性标记"
+    },
+    {
+        "query": "人民 (n){len($1)>1}", 
+        "description":"人民后面接一个长度大于1的词"
+    },
+    {
+        "query": "高 不/d 高", 
+        "description":"高后面接一个否定副词不，再接一个高"
+    },
+    {
+        "query": "了 ~", 
+        "description":"了后面可能有一个词"
+    },
+    {
+        "query": "看病 (n){count>2}", 
+        "description":"看病这个词的使用次数大于2"
+    },
+    {
+        "query": "时间 @", 
+        "description":"时间后面可能是一个词性标记"
+    },
+    {
+        "query": "问诊", 
+        "description":"问诊可能是单独的词或词组"
+    },
+    {
+        "query": "有 ../[n v] 天", 
+        "description":"有后面离合出现一个名词或动词，然后是天"
+    },
+    {
+        "query": "定制 (vn){len($1)=2}", 
+        "description":"定制后面是一个长度为2的词"
+    },
+    {
+        "query": "关系", 
+        "description":"关系可能是单独的词或词组"
+    },
+    {
+        "query": "线上 ../vn 遭遇", 
+        "description":"线上后面离合出现一个动词和名词，然后是遭遇"
+    },
+    {
+        "query": "线 (v) 医疗{count<882}", 
+        "description":"线开头的动词后面接医疗，且使用次数少于882次"
+    },
+    {
+        "query": "保护 ./[w v]", 
+        "description":"保护后面可能接一个动词或名词"
+    },
+    {
+        "query": "(n) 缘何{begin($1)!=[擦 忍 树 瞎]}", 
+        "description":"缘何后面不能接擦、忍、树或瞎"
+    },
+    {
+        "query": "社交 ./v 争夺", 
+        "description":"社交后面接一个动词，然后是争夺"
+    },
+    {
+        "query": "(v) 做到 (n){begin($2)=[极 放]}", 
+        "description":"做到后面可能接一个动词，且该动词后面是极或放"
+    },
+    {
+        "query": "(v) (w){begin($1)=[认 生 徐 华]}", 
+        "description":"动词后面可能是认、生、徐或华"
+    },
+    {
+        "query": "@/[r v] 来", 
+        "description":"可能是一个介词或动词后面接来"
+    },
+    {
+        "query": "./n 为", 
+        "description":"可能是单音节动词后面接一个名词，然后是为"
+    },
+    {
+        "query": "(a) ，{end($1)=[诞 胡]}", 
+        "description":"形容词后面可能是逗号，且后面是诞或胡"
+    },
+    {
+        "query": "吗 ./w", 
+        "description":"吗可能是疑问词后面接一个词性标记"
+    },
+    {
+        "query": "让 (r) 感{count<917}", 
+        "description":"让后面接一个代词，然后是感，且使用次数少于917次"
+    },
+    {
+        "query": "你 @ 影子", 
+        "description":"你后面可能是一个词性标记，影子可能是名词"
+    },
+    {
+        "query": "(r) 荒谬 (v){begin($1)!=[涛 间 片 高]}", 
+        "description":"荒谬后面接一个动词，且动词前面不是涛、间、片或高"
+    },
+    {
+        "query": "这 (d) 是{len($1)=2}", 
+        "description":"这后面接一个长度为2的词，可能是是"
+    },
+    {
+        "query": "是 ./[r v] 的", 
+        "description":"是后面可能是代词或动词，然后是的"
+    },
+    {
+        "query": "乌兰察布 (u) 树{count>6}", 
+        "description":"乌兰察布后面接一个树，且树的使用次数大于6"
+    }
+]
+```

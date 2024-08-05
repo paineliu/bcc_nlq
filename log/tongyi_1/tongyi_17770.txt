@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "(w) 一 年 种 几 茬 (w){len($2)!=2}",
+        "description": "一后面接年、种、几、茬，但第二个接的词不能是两个字"
+    },
+    {
+        "query": "两",
+        "description": "只包含'两'这个字"
+    },
+    {
+        "query": "顶多 (v) 一{len($1)=1}",
+        "description": "顶多后面跟一个单音节动词"
+    },
+    {
+        "query": "也 ~ 个",
+        "description": "也后面接一个词"
+    },
+    {
+        "query": "说",
+        "description": "仅包含'说'这个字"
+    },
+    {
+        "query": "(t) (v){len($1)>1}",
+        "description": "两个及以上字的动词"
+    },
+    {
+        "query": "船 ~/[w v]",
+        "description": "船后面接一个词，可能是动词或名词"
+    },
+    {
+        "query": "(n) 说{count<798}",
+        "description": "名词后面出现'说'，且该句的'说'数量少于798次"
+    },
+    {
+        "query": ".../[n v] 说",
+        "description": "一个词后面接名词或动词，然后是'说'"
+    },
+    {
+        "query": "说 @/[w v] 啧啧",
+        "description": "说后面接一个词，可能是动词或名词，然后是'啧啧'"
+    },
+    {
+        "query": "没 ../v ，",
+        "description": "没后面接一个动词，后面可能是逗号"
+    },
+    {
+        "query": "萝卜 (v) 有点{count>2}",
+        "description": "萝卜后面接一个动词，且'有点'后面出现次数超过2次"
+    },
+    {
+        "query": "名字/n 有点 怪 。/w",
+        "description": "名字后面接名词，有点后面接形容词，怪后面接句尾标点"
+    },
+    {
+        "query": "(n) 咧嘴{len($1)=3}",
+        "description": "名词后面接一个长度为3的词，可能是'咧嘴'"
+    },
+    {
+        "query": "啧啧 ~",
+        "description": "仅包含'啧啧'这个词"
+    },
+    {
+        "query": "近处 . 菜地",
+        "description": "近处后面接一个字，然后是'菜地'"
+    },
+    {
+        "query": "@ 说",
+        "description": "仅包含'说'这个词，用于统计时按照词性归并"
+    },
+    {
+        "query": "得 v 。",
+        "description": "得后面接一个动词，后面是句尾标点"
+    },
+    {
+        "query": "雪搓 ./w",
+        "description": "雪搓后面接一个词，可能是动词"
+    },
+    {
+        "query": "不 ./v 萝卜",
+        "description": "不后面接一个动词，然后是'萝卜'"
+    },
+    {
+        "query": "辣 ~",
+        "description": "仅包含'辣'这个词"
+    },
+    {
+        "query": "拔出 (m) ？{count>4}",
+        "description": "拔出后面接一个量词，问号出现次数超过4次"
+    },
+    {
+        "query": "地里 (v) 。{len($1)<4}",
+        "description": "地里后面接一个长度小于4的动词，后面是句尾标点"
+    },
+    {
+        "query": "@/[r v] 蔬菜",
+        "description": "以'r'或'v'开头的词后面接蔬菜"
+    },
+    {
+        "query": "(p) 萝卜 (v){count>8}",
+        "description": "萝卜后面接一个动词，且该动词出现次数超过8次"
+    },
+    {
+        "query": "他 (v) 一个{len($1)!=3}",
+        "description": "他后面接一个动词，但动词不是三个字"
+    },
+    {
+        "query": ".../n 张",
+        "description": "一个词后面接名词张"
+    },
+    {
+        "query": ".../[n v] 说",
+        "description": "一个词后面接名词或动词，然后是'说'"
+    },
+    {
+        "query": "说 ，/w 枝枝",
+        "description": "说后面接一个词，可能是逗号，然后是'枝枝'"
+    },
+    {
+        "query": "说 ~ 噢",
+        "description": "说后面接一个词"
+    },
+    {
+        "query": "总",
+        "description": "仅包含'总'这个字"
+    },
+    {
+        "query": "是 (r) 儿子{count<234}",
+        "description": "是后面接'儿子'，且儿子出现次数少于234次"
+    },
+    {
+        "query": "他 ./v 得",
+        "description": "他后面接一个动词，动词后面是'得'"
+    },
+    {
+        "query": "出来 ~ 她",
+        "description": "出来后面接一个词"
+    },
+    {
+        "query": "， (d) 惋惜{count<902}",
+        "description": "逗号后面接'惋惜'，且惋惜出现次数少于902次"
+    },
+    {
+        "query": "皮袄 的/u 事情",
+        "description": "皮袄后面接'的'，然后是'事情'"
+    },
+    {
+        "query": "@/[n v] 说",
+        "description": "以'n'或'v'开头的词后面接'说'"
+    },
+    {
+        "query": "， r 还要",
+        "description": "逗号后面接'r'，然后是'还要'"
+    },
+    {
+        "query": "说 (w) 这个{count<224}",
+        "description": "说后面接'这个'，且这个出现次数少于224次"
+    },
+    {
+        "query": "， (n) 还{count<787}",
+        "description": "逗号后面接'还'，且还出现次数少于787次"
+    }
+]
+```

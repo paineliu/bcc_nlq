@@ -1,0 +1,166 @@
+以下是转换后的带含义的JSON结构：
+
+```json
+[
+    {
+        "query": "助学 @/[vn v]",
+        "description": "助学后面接单音节动词或双音节动词"
+    },
+    {
+        "query": "千 @/[q v]",
+        "description": "千后面接单音节量词或单音节动词"
+    },
+    {
+        "query": "朱 卫国/nr 摄",
+        "description": "朱后面接人名卫国，后面可能是摄"
+    },
+    {
+        "query": "凉山 (nz) 自治州{end($1)=[族 见 唐 跳]}",
+        "description": "凉山后面接自治州，州名的结尾不在族、见、唐、跳中"
+    },
+    {
+        "query": "清理 ../v 六成",
+        "description": "清理后面接双音节动词，后面可能接六成"
+    },
+    {
+        "query": "(v) 一二·九{begin($1)=[纪 林 会]}",
+        "description": "以v开头的一二·九事件，但不以纪、林、会开始"
+    },
+    {
+        "query": "(m) 访 推动 履职 (v){$1!=$2}",
+        "description": "访、推动、履职三个动词连续，但不相邻"
+    },
+    {
+        "query": "村村 ./d 有",
+        "description": "村村后面接单字连词有"
+    },
+    {
+        "query": "能 ~ 调解员",
+        "description": "能后面接一个词，可能是调解员"
+    },
+    {
+        "query": "争执 (f) ，{count>4}",
+        "description": "争执后面至少有五个逗号"
+    },
+    {
+        "query": "宋某 该/v 不",
+        "description": "宋某后面接动词该，后面接否定词不"
+    },
+    {
+        "query": "不准 ./w",
+        "description": "不准后面接一个词，可能是句尾"
+    },
+    {
+        "query": "联调 @/[u v] 缩影",
+        "description": "联调后面接单音节或双音节动词，后面可能是缩影"
+    },
+    {
+        "query": "../n 宪",
+        "description": "双音节名词后面接宪"
+    },
+    {
+        "query": "(n) (n){len($1)!=3; len($2)=2}",
+        "description": "两个相邻的名词，第一个不是三个字，第二个是两个字"
+    },
+    {
+        "query": "(m) 届{count>2}",
+        "description": "届这个词出现次数超过两次"
+    },
+    {
+        "query": "走 (v) 青岛{len($1)!=2}",
+        "description": "走后面接动词，但动词不是两个字"
+    },
+    {
+        "query": "(v) (v){len($1)!=2; len($2)=1}",
+        "description": "两个相邻的动词，第一个不是两个字，第二个是单字"
+    },
+    {
+        "query": "~/[r v] 外贸",
+        "description": "一个词后面接外贸，可能是动词或代词"
+    },
+    {
+        "query": "更 ./[a v] 地",
+        "description": "更后面接形容词或动词，后面可能是地"
+    },
+    {
+        "query": "作者/n 为 审计署/n",
+        "description": "作者后面接审计署，两者都是名词"
+    },
+    {
+        "query": "(n) 并网 (v){end($1)=[n 丢 习]; len($2)=2}",
+        "description": "并网后面接动词，动词不是三个字，且并网的后一个字不在n、丢、习中"
+    },
+    {
+        "query": "@ 勇涛",
+        "description": "勇涛作为一个词进行检索"
+    },
+    {
+        "query": "对 ../ns 钻杆",
+        "description": "对后面接名词，可能是钻杆"
+    },
+    {
+        "query": "正 (v) 调查{begin($1)=[接 每 耍 答]}",
+        "description": "正后面接动词调查，但调查不是以接、每、耍、答开始"
+    },
+    {
+        "query": "部门 ~/[d v] 及时",
+        "description": "部门后面接单音节动词或单音节名词，后面可能是及时"
+    },
+    {
+        "query": "正能量 (v) 注册{count>4}",
+        "description": "正能量后面接动词注册，且注册出现次数超过四次"
+    },
+    {
+        "query": "v 武陵山 精准 脱贫 n",
+        "description": "动词后面接武陵山、精准、脱贫，最后接名词"
+    },
+    {
+        "query": "这里 u 变化",
+        "description": "这里后面接单音节字变化"
+    },
+    {
+        "query": "~ 吃下",
+        "description": "一个词后面接吃下"
+    },
+    {
+        "query": "(n) 发展 (n){len($1)!=3}",
+        "description": "两个相邻的名词，第一个不是三个字"
+    },
+    {
+        "query": "落户 (s) 。{end($1)!=[牛 往 石 顺]}",
+        "description": "落户后面接单字，但不以牛、往、石、顺结尾，后面可能是句尾"
+    },
+    {
+        "query": "~ 冬景",
+        "description": "一个词后面接冬景"
+    },
+    {
+        "query": "回黄转绿 ./w",
+        "description": "回黄转绿后面接一个词，可能是句尾"
+    },
+    {
+        "query": "说",
+        "description": "单独的说字"
+    },
+    {
+        "query": "~/[ns v] 全力以赴",
+        "description": "一个词后面接全力以赴，可能是动词或名词"
+    },
+    {
+        "query": "(d) 比 (an){$1=$2}",
+        "description": "两个相邻的副词，且相同"
+    },
+    {
+        "query": "就是 (v) 灌溉{len($1)=1}",
+        "description": "就是后面接单字动词灌溉"
+    },
+    {
+        "query": "或",
+        "description": "单独的或字"
+    },
+    {
+        "query": "(n) 中国{count<145}",
+        "description": "中国这个词出现次数少于145次"
+    }
+]
+```

@@ -1,0 +1,166 @@
+以下是将给出的检索式转换为带含义的json结构的结果：
+
+```json
+[
+    {
+        "query": "只是[v+a+n+r][，+。]", 
+        "description":"只是后接动词、形容词、名词、形容词，然后是逗号或句点"
+    },
+    {
+        "query": "只是[v a n r][， 。]", 
+        "description":"只是后接动词、形容词、名词、形容词，然后是逗号或句点"
+    },
+    {
+        "query": "被r+v+u[，+。]", 
+        "description":"被后接形容词、动词、形容词，然后是逗号或句点"
+    },
+    {
+        "query": "被r v u[， 。]", 
+        "description":"被后接动词、形容词、形容词，然后是逗号或句点"
+    },
+    {
+        "query": "以/p", 
+        "description":"以作为一个词的检索"
+    },
+    {
+        "query": "我+只能/v+听", 
+        "description":"我后接只能动词听的组合"
+    },
+    {
+        "query": "我 只能/v 听", 
+        "description":"我和只能动词听之间用空格隔开的组合"
+    },
+    {
+        "query": "独龙族+老人/n+木桂香", 
+        "description":"独龙族后接老人名词，然后是木桂香"
+    },
+    {
+        "query": "独龙族 老人/n 木桂香", 
+        "description":"独龙族、老人和木桂香之间用空格隔开的组合"
+    },
+    {
+        "query": "还有/v+一个+问题+，+医保+结算+难+。/w", 
+        "description":"还有后接一个、问题、医保、结算、难，最后是句尾符号"
+    },
+    {
+        "query": "还有/v 一个 问题 ， 医保 结算 难 。/w", 
+        "description":"还有、一个、问题、医保、结算、难之间用空格隔开的组合，最后是句尾符号"
+    },
+    {
+        "query": "公款+游/v+，", 
+        "description":"公款后接游动词，最后是逗号"
+    },
+    {
+        "query": "公款 游/v ，", 
+        "description":"公款和游动词之间用空格隔开的组合，最后是逗号"
+    },
+    {
+        "query": "通通/d", 
+        "description":"通通作为一个词的检索"
+    },
+    {
+        "query": "诚意/n+a", 
+        "description":"诚意后接a的组合"
+    },
+    {
+        "query": "诚意/n a", 
+        "description":"诚意和a之间用空格隔开的组合"
+    },
+    {
+        "query": "共存/v+。/w", 
+        "description":"共存动词后接句尾符号"
+    },
+    {
+        "query": "共存/v 。/w", 
+        "description":"共存动词后接句尾符号"
+    },
+    {
+        "query": "./v短了", 
+        "description":"单音节动词后接短了"
+    },
+    {
+        "query": "尽/d", 
+        "description":"尽作为一个词的检索"
+    },
+    {
+        "query": "弄./V", 
+        "description":"弄作为一个词的检索"
+    },
+    {
+        "query": "./v仔细了", 
+        "description":"单音节动词后接仔细了"
+    },
+    {
+        "query": "马上/d+就要+v", 
+        "description":"马上后接就要动词的组合"
+    },
+    {
+        "query": "马上/d 就要 v", 
+        "description":"马上和就要动词之间用空格隔开的组合"
+    },
+    {
+        "query": "n+敬意/n", 
+        "description":"名词后接敬意"
+    },
+    {
+        "query": "n 敬意/n", 
+        "description":"名词和敬意之间用空格隔开的组合"
+    },
+    {
+        "query": "吹/v", 
+        "description":"吹作为一个词的检索"
+    },
+    {
+        "query": "工资/n+谁", 
+        "description":"工资后接谁的组合"
+    },
+    {
+        "query": "工资/n 谁", 
+        "description":"工资和谁之间用空格隔开的组合"
+    },
+    {
+        "query": "文化+是/v+一个", 
+        "description":"文化后接是动词、一个的组合"
+    },
+    {
+        "query": "文化 是/v 一个", 
+        "description":"文化和是动词、一个之间用空格隔开的组合"
+    },
+    {
+        "query": "./v+满", 
+        "description":"单音节动词后接满"
+    },
+    {
+        "query": "./v 满", 
+        "description":"单音节动词和满之间用空格隔开的组合"
+    },
+    {
+        "query": "./v整齐了", 
+        "description":"单音节动词后接整齐了"
+    },
+    {
+        "query": "一/m+名/q", 
+        "description":"一后接名的组合"
+    },
+    {
+        "query": "一/m 名/q", 
+        "description":"一和名之间用空格隔开的组合"
+    },
+    {
+        "query": "../v着n", 
+        "description":"二字动词后接名词的组合"
+    },
+    {
+        "query": "烟+，/w+给", 
+        "description":"烟后接逗号、给的组合"
+    },
+    {
+        "query": "烟 ，/w 给", 
+        "description":"烟和逗号、给之间用空格隔开的组合"
+    },
+    {
+        "query": "莱芜市/ns+公安局", 
+        "description":"莱芜市后接公安局的组合"
+    }
+]
+```

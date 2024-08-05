@@ -1,0 +1,142 @@
+以下是将给定的检索式转换为带含义的json结构的列表：
+
+```json
+[
+    {
+        "query": "就近d+v[，+。]", 
+        "description":"形容词+动词+逗号或句号"
+    },
+    {
+        "query": "就近d v[， 。]", 
+        "description":"形容词+动词+逗号或句号"
+    },
+    {
+        "query": "公然v+a[，+。]", 
+        "description":"动词+形容词+逗号或句号"
+    },
+    {
+        "query": "公然v a[， 。]", 
+        "description":"动词+形容词+逗号或句号"
+    },
+    {
+        "query": "m+把+[刀+椅子+剑+火]", 
+        "description":"名词+把+刀、椅子、剑、火"
+    },
+    {
+        "query": "m 把 [刀 椅子 剑 火]", 
+        "description":"名词+把+刀、椅子、剑、火"
+    },
+    {
+        "query": "提早d+a[，+。]", 
+        "description":"副词+形容词+逗号或句号"
+    },
+    {
+        "query": "提早d a[， 。]", 
+        "description":"副词+形容词+逗号或句号"
+    },
+    {
+        "query": "w[q+r+d+c+v+a++n+m++p]敌.友w", 
+        "description":"疑问词+形容词+动词+名词+动词+名词+形容词+动词+名词+疑问词+敌.友+疑问词"
+    },
+    {
+        "query": "w[q r d c v a  n m  p]敌.友w", 
+        "description":"疑问词+形容词+动词+名词+动词+名词+形容词+动词+名词+敌.友+疑问词"
+    },
+    {
+        "query": "短期a[，+。]", 
+        "description":"形容词+逗号或句号"
+    },
+    {
+        "query": "短期a[， 。]", 
+        "description":"形容词+逗号或句号"
+    },
+    {
+        "query": "时时d+a[，+。]", 
+        "description":"副词+形容词+逗号或句号"
+    },
+    {
+        "query": "时时d a[， 。]", 
+        "description":"副词+形容词+逗号或句号"
+    },
+    {
+        "query": "w+n+d+a[，+。]", 
+        "description":"疑问词+名词+形容词+副词+逗号或句号"
+    },
+    {
+        "query": "w n d a[， 。]", 
+        "description":"疑问词+名词+形容词+副词+逗号或句号"
+    },
+    {
+        "query": "暗暗v+a[，+。]", 
+        "description":"动词+形容词+逗号或句号"
+    },
+    {
+        "query": "暗暗v a[， 。]", 
+        "description":"动词+形容词+逗号或句号"
+    },
+    {
+        "query": "w尾.头[q+r+d+c+v+a++n+m++p]w", 
+        "description":"疑问词+形容词+动词+名词+动词+名词+形容词+动词+名词+疑问词+尾.头+w"
+    },
+    {
+        "query": "w尾.头[q r d c v a  n m  p]w", 
+        "description":"疑问词+形容词+动词+名词+动词+名词+形容词+动词+名词+尾.头+w"
+    },
+    {
+        "query": "v过不少n[，+。]", 
+        "description":"动词+过去+不少+名词+逗号或句号"
+    },
+    {
+        "query": "v过不少n[， 。]", 
+        "description":"动词+过去+不少+名词+逗号或句号"
+    },
+    {
+        "query": "d+m+v[，+。]", 
+        "description":"副词+名词+动词+逗号或句号"
+    },
+    {
+        "query": "d m v[， 。]", 
+        "description":"副词+名词+动词+逗号或句号"
+    },
+    {
+        "query": "相互v[v+a+n+r][，+。]", 
+        "description":"动词+相互+形容词+名词+动词+名词+形容词+动词+名词+逗号或句号"
+    },
+    {
+        "query": "相互v[v a n r][， 。]", 
+        "description":"动词+相互+形容词+名词+动词+名词+形容词+动词+名词+逗号或句号"
+    },
+    {
+        "query": "处处n[，+。]", 
+        "description":"名词+处处+逗号或句号"
+    },
+    {
+        "query": "处处n[， 。]", 
+        "description":"名词+处处+逗号或句号"
+    },
+    {
+        "query": "暂且d+v[，+。]", 
+        "description":"副词+动词+逗号或句号"
+    },
+    {
+        "query": "暂且d v[， 。]", 
+        "description":"副词+动词+逗号或句号"
+    },
+    {
+        "query": "[腾+担+扛+变为+重建+发泄+蹲]个", 
+        "description":"组合词+个"
+    },
+    {
+        "query": "[腾 担 扛 变为 重建 发泄 蹲]个", 
+        "description":"组合词+个"
+    },
+    {
+        "query": "凡是d+v[，+。]", 
+        "description":"副词+动词+逗号或句号"
+    },
+    {
+        "query": "凡是d v[， 。]", 
+        "description":"副词+动词+逗号或句号"
+    }
+]
+```

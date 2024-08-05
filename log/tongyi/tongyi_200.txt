@@ -1,0 +1,160 @@
+```json
+[
+    {
+        "query": ";意思是",
+        "description": "分号之后的内容解释或含义"
+    },
+    {
+        "query": ".意思是",
+        "description": "句点之后的内容解释或含义"
+    },
+    {
+        "query": "挖方",
+        "description": "挖掘土石方"
+    },
+    {
+        "query": "大炮",
+        "description": "大型火炮或武器"
+    },
+    {
+        "query": "文章读起来",
+        "description": "阅读文章的过程或体验"
+    },
+    {
+        "query": "前程",
+        "description": "未来的职业或生活前景"
+    },
+    {
+        "query": "主观原因",
+        "description": "基于个人看法或感受的原因"
+    },
+    {
+        "query": "不着调",
+        "description": "不协调、不合拍的状态"
+    },
+    {
+        "query": "很没",
+        "description": "极度缺乏或无能的状态"
+    },
+    {
+        "query": "把握",
+        "description": "控制、掌握的程度或信心"
+    },
+    {
+        "query": "不说",
+        "description": "不说话或沉默"
+    },
+    {
+        "query": "得不像话",
+        "description": "行为或表现极为不当或糟糕"
+    },
+    {
+        "query": "和谐参与",
+        "description": "积极参与并促进和谐的活动"
+    },
+    {
+        "query": "平地",
+        "description": "平坦的土地或地面"
+    },
+    {
+        "query": "黑色",
+        "description": "颜色或物体表面的颜色"
+    },
+    {
+        "query": "标价",
+        "description": "商品或服务的价格标注"
+    },
+    {
+        "query": "不就行了",
+        "description": "已经足够、无需更多的情况或建议"
+    },
+    {
+        "query": "安邦定国+安邦定国",
+        "description": "加强国家稳定和安全的措施或目标"
+    },
+    {
+        "query": "友爱和谐",
+        "description": "友好、和睦、和平共处的状态"
+    },
+    {
+        "query": "如人权",
+        "description": "类似于人权的原则或概念"
+    },
+    {
+        "query": "比例",
+        "description": "数量或程度的比例关系"
+    },
+    {
+        "query": "苦衷",
+        "description": "内心的痛苦或难处"
+    },
+    {
+        "query": "相较",
+        "description": "比较、对照的意思"
+    },
+    {
+        "query": "和谐与平",
+        "description": "和谐和平共处的概念"
+    },
+    {
+        "query": "人权使",
+        "description": "促进或维护人权的行动或政策"
+    },
+    {
+        "query": "利税",
+        "description": "税收收入或利润"
+    },
+    {
+        "query": "怜爱",
+        "description": "怜悯、爱护的情感"
+    },
+    {
+        "query": "箱包",
+        "description": "箱子或袋子"
+    },
+    {
+        "query": "程度副词",
+        "description": "用于描述程度的副词"
+    },
+    {
+        "query": "看球看的？",
+        "description": "观看比赛或球赛的疑问或感叹"
+    },
+    {
+        "query": "人们感情",
+        "description": "大众的感情或情绪"
+    },
+    {
+        "query": "首相署",
+        "description": "政府或官员的官方办公室"
+    },
+    {
+        "query": "你真",
+        "description": "真实、确实的意思"
+    },
+    {
+        "query": "连贯性",
+        "description": "事物之间的连续性和一致性"
+    },
+    {
+        "query": "劫持在",
+        "description": "被劫持的状态或过程"
+    },
+    {
+        "query": "不进行",
+        "description": "停止、未执行的意思"
+    },
+    {
+        "query": "席地幕天",
+        "description": "在地面上铺上布幔或帐篷的活动"
+    },
+    {
+        "query": "似乎愿意",
+        "description": "表面上看起来愿意"
+    },
+    {
+        "query": "。糟了，",
+        "description": "情况糟糕或出错的感叹"
+    }
+]
+```

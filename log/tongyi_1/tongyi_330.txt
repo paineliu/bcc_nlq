@@ -1,0 +1,152 @@
+```json
+[
+    {
+        "query": "文化 ~",
+        "description": "文化后面有一个词"
+    },
+    {
+        "query": "前人 (a){len($1)=1}",
+        "description": "前人，前面是单个形容词"
+    },
+    {
+        "query": "(n) 在{count<433}",
+        "description": "名词后，这个位置的句子频次小于433"
+    },
+    {
+        "query": "进 ~/[n v] ，",
+        "description": "进后面离合出现名词或动词，后面是逗号"
+    },
+    {
+        "query": "这就 ./[v v] 我们",
+        "description": "这就后面是两个连续的动词，然后是‘我们’"
+    },
+    {
+        "query": "， 字 w",
+        "description": "逗号后面是一个字"
+    },
+    {
+        "query": "不 (v) 过去{len($1)!=2}",
+        "description": "不后面跟一个不是两个字的动词，过去"
+    },
+    {
+        "query": "青海省 (ns) 市委{len($1)>1}",
+        "description": "青海省后面是市委，市委的长度大于1个字"
+    },
+    {
+        "query": "大学生 (v) 摔伤{end($1)=[助 志 批]}",
+        "description": "大学生后面离合出现摔伤，摔伤后面是助词、志或批"
+    },
+    {
+        "query": "相信 (c) 好人{len($1)>1}",
+        "description": "相信后面接一个长度大于1的词，可能是好人"
+    },
+    {
+        "query": "好人 (a) ！{count<791}",
+        "description": "好人在感叹词前，且频次小于791"
+    },
+    {
+        "query": "(nr) 芝萍 游 (v){$1!=$2}",
+        "description": "芝萍后面接游，但芝萍和游不能相同"
+    },
+    {
+        "query": "大学 (n) 骆明伟{begin($1)=[教 客]}",
+        "description": "大学后面是以教或客开头的词"
+    },
+    {
+        "query": "对 (b) 活禽{len($1)=2}",
+        "description": "对后面跟一个长度为2的词，可能是活禽"
+    },
+    {
+        "query": "(w) 大众 品牌 攻陷 各 (a){count<826}",
+        "description": "大众品牌攻陷各，各前面是形容词，且频次小于826"
+    },
+    {
+        "query": "(n) (d){len($2)!=2}",
+        "description": "名词后面跟着一个不是两个字的词"
+    },
+    {
+        "query": "减少 (vn) ，{end($1)=[费 尿 胃]}",
+        "description": "减少后面跟一个以费、尿或胃结尾的词，然后是逗号"
+    },
+    {
+        "query": "比 t 减少",
+        "description": "比后面接t，然后是减少"
+    },
+    {
+        "query": "阿富汗 (a) 部队{len($1)=2}",
+        "description": "阿富汗后面跟一个长度为2的词，可能是部队"
+    },
+    {
+        "query": "客机 (vn) 工作{len($1)<3}",
+        "description": "客机后面接工作，工作长度小于3个字"
+    },
+    {
+        "query": "朝 t 互望",
+        "description": "朝后面接t，然后是互望"
+    },
+    {
+        "query": "(n) 陈 (i){len($1)=2; len($2)=2}",
+        "description": "陈后面跟两个字的词"
+    },
+    {
+        "query": "外交 ~ 突破",
+        "description": "外交后面有一个词，可能是突破"
+    },
+    {
+        "query": "有 ./q 约会",
+        "description": "有后面离合出现一个词，可能是约会"
+    },
+    {
+        "query": "晓龙 (v){count<792}",
+        "description": "晓龙后面频次小于792"
+    },
+    {
+        "query": "刘禹平 v",
+        "description": "刘禹平后面接一个动词"
+    },
+    {
+        "query": "冰雪 (n) 过瘾{len($1)=2}",
+        "description": "冰雪后面跟一个长度为2的词，可能是过瘾"
+    },
+    {
+        "query": "../[n v] 设计",
+        "description": "双音节动词后面接名词或动词，然后是设计"
+    },
+    {
+        "query": "体验 @/[n v]",
+        "description": "体验后面是名词或动词"
+    },
+    {
+        "query": "百病 @/[w v]",
+        "description": "百病后面是名词或动词"
+    },
+    {
+        "query": "服务 (c) 票价{count>7}",
+        "description": "服务后面接票价，且频次大于7"
+    },
+    {
+        "query": "? 冰雪 (n) ？{len($1)!=3}",
+        "description": "问号后面跟冰雪，冰雪后面是问号，且冰雪长度不是3个字"
+    },
+    {
+        "query": ".../n 路线",
+        "description": "连续的三个点后面接一个名词，可能是路线"
+    },
+    {
+        "query": "动",
+        "description": "单独的动词"
+    },
+    {
+        "query": "~/[n v] 磨意",
+        "description": "动词后面离合出现名词或动词，然后是磨意"
+    },
+    {
+        "query": "(d) 呼喊 ； 进攻 (w){begin($1)=[大 命]}",
+        "description": "呼喊后面接一个以大或命开头的词，然后是进攻"
+    },
+    {
+        "query": "(p) 激情 (v){$1=$2}",
+        "description": "激情后面接一个与激情相同的词，可能是激情"
+    }
+]
+```

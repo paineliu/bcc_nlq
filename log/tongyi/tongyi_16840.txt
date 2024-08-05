@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "从中a[，+。]", 
+        "description":"从后接名词，名词后接逗号或句号"
+    },
+    {
+        "query": "从中a[， 。]", 
+        "description":"从后接名词，名词后接逗号或句号"
+    },
+    {
+        "query": "就近v+a[，+。]", 
+        "description":"动词后接形容词，形容词后接逗号或句号"
+    },
+    {
+        "query": "就近v a[， 。]", 
+        "description":"动词后接形容词，形容词后接逗号或句号"
+    },
+    {
+        "query": "把*出了[出+一出]", 
+        "description":"把后离合出现出，出后接一出"
+    },
+    {
+        "query": "把*出了[出 一出]", 
+        "description":"把后离合出现出，出后接一出"
+    },
+    {
+        "query": "仍旧v+v[，+。]", 
+        "description":"动词后接动词，动词后接逗号或句号"
+    },
+    {
+        "query": "仍旧v v[， 。]", 
+        "description":"动词后接动词，动词后接逗号或句号"
+    },
+    {
+        "query": "匆匆d+v[，+。]", 
+        "description":"副词后接动词，动词后接逗号或句号"
+    },
+    {
+        "query": "匆匆d v[， 。]", 
+        "description":"副词后接动词，动词后接逗号或句号"
+    },
+    {
+        "query": "不住v+a[，+。]", 
+        "description":"动词后接形容词，形容词后接逗号或句号"
+    },
+    {
+        "query": "不住v a[， 。]", 
+        "description":"动词后接形容词，形容词后接逗号或句号"
+    },
+    {
+        "query": "v不住a[，+。]", 
+        "description":"动词后接形容词，形容词后接逗号或句号"
+    },
+    {
+        "query": "v不住a[， 。]", 
+        "description":"动词后接形容词，形容词后接逗号或句号"
+    },
+    {
+        "query": "恐怕a[，+。]", 
+        "description":"形容词后接逗号或句号"
+    },
+    {
+        "query": "恐怕a[， 。]", 
+        "description":"形容词后接逗号或句号"
+    },
+    {
+        "query": "毫不客气地[说+讲]", 
+        "description":"副词后接说，说后接讲"
+    },
+    {
+        "query": "毫不客气地[说 讲]", 
+        "description":"副词后接说，说后接讲"
+    },
+    {
+        "query": "w进.出[q+r+d+c+v+a++n+m++p]w", 
+        "description":"句首是w，进后面隔一个字后接出，出后接名词、动词、形容词、副词、动名词、名词、量词、处所词、代词、助词，句尾是w"
+    },
+    {
+        "query": "w进.出[q r d c v a  n m  p]w", 
+        "description":"句首是w，进后面隔一个字后接出，出后接名词、动词、形容词、副词、动名词、名词、量词、处所词、代词、助词，句尾是w"
+    },
+    {
+        "query": "[眼看+也许+一边]v[q+m+]v[，+。]", 
+        "description":"眼看、也许、一边后接动词，动词后接逗号或句号"
+    },
+    {
+        "query": "[眼看 也许 一边]v[q m ]v[， 。]", 
+        "description":"眼看、也许、一边后接动词，动词后接逗号或句号"
+    },
+    {
+        "query": "w[q+r+d+c+v+a++n+m++p]问.答w", 
+        "description":"句首是w，q、r、d、c、v、a、n、m、p后接问，问后接答，句尾是w"
+    },
+    {
+        "query": "w[q r d c v a  n m  p]问.答w", 
+        "description":"句首是w，q、r、d、c、v、a、n、m、p后接问，问后接答，句尾是w"
+    },
+    {
+        "query": "w俗.雅[q+r+d+c+v+a++n+m++p]w", 
+        "description":"句首是w，q、r、d、c、v、a、n、m、p后接俗，俗后接雅，句尾是w"
+    },
+    {
+        "query": "w俗.雅[q r d c v a  n m  p]w", 
+        "description":"句首是w，q、r、d、c、v、a、n、m、p后接俗，俗后接雅，句尾是w"
+    },
+    {
+        "query": "w[q+r+d+c+v+a++n+m++p]厚.薄w", 
+        "description":"句首是w，q、r、d、c、v、a、n、m、p后接厚，厚后接薄，句尾是w"
+    },
+    {
+        "query": "w[q r d c v a  n m  p]厚.薄w", 
+        "description":"句首是w，q、r、d、c、v、a、n、m、p后接厚，厚后接薄，句尾是w"
+    },
+    {
+        "query": "处处a[，+。]", 
+        "description":"形容词后接逗号或句号"
+    },
+    {
+        "query": "处处a[， 。]", 
+        "description":"形容词后接逗号或句号"
+    },
+    {
+        "query": "极其v+u[，+。]", 
+        "description":"动词后接副词，副词后接逗号或句号"
+    },
+    {
+        "query": "极其v u[， 。]", 
+        "description":"动词后接副词，副词后接逗号或句号"
+    },
+    {
+        "query": "果然d+a[，+。]", 
+        "description":"副词后接形容词，形容词后接逗号或句号"
+    },
+    {
+        "query": "果然d a[， 。]", 
+        "description":"副词后接形容词，形容词后接逗号或句号"
+    },
+    {
+        "query": "[以致+与其+总之]v[v+a][，+。]", 
+        "description":"以致、与其、总之后接动词，动词后接形容词、动词，动词后接逗号或句号"
+    },
+    {
+        "query": "[以致 与其 总之]v[v a][， 。]", 
+        "description":"以致、与其、总之后接动词，动词后接形容词、动词，动词后接逗号或句号"
+    },
+    {
+        "query": "徐徐v+a[，+。]", 
+        "description":"动词后接形容词，形容词后接逗号或句号"
+    },
+    {
+        "query": "徐徐v a[， 。]", 
+        "description":"动词后接形容词，形容词后接逗号或句号"
+    },
+    {
+        "query": "猛然n[，+。]", 
+        "description":"名词后接逗号或句号"
+    },
+    {
+        "query": "猛然n[， 。]", 
+        "description":"名词后接逗号或句号"
+    }
+]
+```

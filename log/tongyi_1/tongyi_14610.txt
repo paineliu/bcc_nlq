@@ -1,0 +1,166 @@
+以下是检索式及其含义的JSON结构：
+
+```json
+[
+    {
+        "query": "远光灯 杀手/n",
+        "description": "远光灯后面接杀手，杀手是名词"
+    },
+    {
+        "query": "、 ../[v v] 党校",
+        "description": "前后两个动词之间的党校"
+    },
+    {
+        "query": "政治 (n) 。{begin($1)!=[精 艹 美]}",
+        "description": "政治后面接名词，但不接精、草或美"
+    },
+    {
+        "query": "~/[m v] 坚持",
+        "description": "坚持前面是形容词或动词"
+    },
+    {
+        "query": "@/[m v] 坚持",
+        "description": "坚持前面是单音节的形容词或动词"
+    },
+    {
+        "query": "党校 (v) 之{len($1)=4}",
+        "description": "党校是动词，且党校这个词长度为4"
+    },
+    {
+        "query": "~ 坚持",
+        "description": "坚持中间有一个词"
+    },
+    {
+        "query": "九 v 党",
+        "description": "九后面接动词和党"
+    },
+    {
+        "query": "十 v 党性",
+        "description": "十后面接动词和党性"
+    },
+    {
+        "query": "../n 党纪 教育 ./w",
+        "description": "两个名词之间的教育，教育是句尾"
+    },
+    {
+        "query": "提升 ../n 科研",
+        "description": "提升后面接名词，且名词是句尾"
+    },
+    {
+        "query": "十五",
+        "description": "十五"
+    },
+    {
+        "query": "机制 ./w",
+        "description": "机制是句首"
+    },
+    {
+        "query": "要求 ./w",
+        "description": "要求是句首"
+    },
+    {
+        "query": "队伍 (n) 。{len($1)>1}",
+        "description": "队伍后面接名词，名词长度大于1"
+    },
+    {
+        "query": "水平 ~",
+        "description": "水平中间有一个词"
+    },
+    {
+        "query": "(m) 创新{end($1)=[九 婷 色 床]}",
+        "description": "创新后面接一个词，且该词不在九、婷、色或床之后"
+    },
+    {
+        "query": "、 ../ad 发挥",
+        "description": "前后是形容词和发挥"
+    },
+    {
+        "query": "办 n 。",
+        "description": "办后面接名词，且名词是句尾"
+    },
+    {
+        "query": "(vn) (n){len($1)=2}",
+        "description": "两个相邻的词，其中一个词是双音节动词，另一个词是名词，且双音节动词长度为2"
+    },
+    {
+        "query": "(p) 党校 姓 党 全面 贯穿 (n){len($2)=2}",
+        "description": "党校、姓、党、全面、贯穿这五个词后面接一个长度为2的名词"
+    },
+    {
+        "query": "(nr) 摄{middle($1)=[晓 知 额]}",
+        "description": "摄后面是晓、知或额"
+    },
+    {
+        "query": "好 ~ 论坛",
+        "description": "好后面接一个词，论坛是句尾"
+    },
+    {
+        "query": "实 ./v 落脚点",
+        "description": "实后面接动词和落脚点"
+    },
+    {
+        "query": "强调 ./[u v] 品德",
+        "description": "强调后面是助词或动词，品德是句尾"
+    },
+    {
+        "query": "自律 (w) 政者{count>6}",
+        "description": "自律后面接政者，且自律后面政者的数量大于6"
+    },
+    {
+        "query": "正/a ， 孰 敢 不 正/a",
+        "description": "正/a前后都有，且正/a后面是，孰敢不，正/a"
+    },
+    {
+        "query": "(u) (vn){len($2)<3}",
+        "description": "一个助词后面接一个长度小于3的双音节动词"
+    },
+    {
+        "query": "(c) (w){len($1)<3}",
+        "description": "一个连词后面接一个长度小于3的词"
+    },
+    {
+        "query": "严体/nr 现在 党 的 作风/n",
+        "description": "严体后面接名词，现在、党、的、作风四个词"
+    },
+    {
+        "query": "(v) 以{count>7}",
+        "description": "以后面动词的数量大于7"
+    },
+    {
+        "query": ".. 以",
+        "description": "以前面可能有一个词"
+    },
+    {
+        "query": "守志 (p) 补钙{count>9}",
+        "description": "守志后面接补钙，且守志后面补钙的数量大于9"
+    },
+    {
+        "query": "../nr 以",
+        "description": "以后面接一个名词"
+    },
+    {
+        "query": "尊道 (p) 弘道{count>10}",
+        "description": "尊道后面接弘道，且尊道后面弘道的数量大于10"
+    },
+    {
+        "query": "动真格 . 促",
+        "description": "动真格后面接一个字，促是句尾"
+    },
+    {
+        "query": "奠基石 (n) 纵横{end($1)=[想 餐 丹 密]}",
+        "description": "奠基石后面接一个词，且该词不在想、餐、丹或密之后"
+    },
+    {
+        "query": "(v) 人生 价值 (u){len($1)!=3}",
+        "description": "人生和价值之间是助词，且人生后面不是一个长度为3的词"
+    },
+    {
+        "query": "(n) 浸润 人 (u){count<850}",
+        "description": "浸润后面接人，且浸润后面人的数量小于850"
+    },
+    {
+        "query": "(n) 自觉 (w){len($1)<3}",
+        "description": "自觉后面接一个词，且自觉后面词的长度小于3"
+    }
+]
+```

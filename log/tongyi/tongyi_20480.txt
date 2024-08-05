@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "，+实现/v+绿色",
+        "description": "逗号后接实现/v，再接绿色"
+    },
+    {
+        "query": "， 实现/v 绿色",
+        "description": "逗号后直接接实现/v，然后接绿色"
+    },
+    {
+        "query": "多元/z+投资",
+        "description": "多元/z之后接投资"
+    },
+    {
+        "query": "多元/z 投资",
+        "description": "多元/z之后直接接投资"
+    },
+    {
+        "query": "./v满",
+        "description": "单音节动词后接满"
+    },
+    {
+        "query": "经验+可/v+供",
+        "description": "经验后接可/v，再接供"
+    },
+    {
+        "query": "经验 可/v 供",
+        "description": "经验后直接接可/v，然后接供"
+    },
+    {
+        "query": "最/d+n",
+        "description": "最/d之后接名词"
+    },
+    {
+        "query": "最/d n",
+        "description": "最/d之后直接接名词"
+    },
+    {
+        "query": "a+的+好意/n",
+        "description": "a之后接的，再接好意/n"
+    },
+    {
+        "query": "a 的 好意/n",
+        "description": "a之后接的，然后接好意/n"
+    },
+    {
+        "query": "n+./v+满+n",
+        "description": "名词之后接单音节动词，再接满，最后接名词"
+    },
+    {
+        "query": "n ./v 满 n",
+        "description": "名词之后直接接单音节动词，然后接满，最后接名词"
+    },
+    {
+        "query": "有+新规/n",
+        "description": "有之后接新规/n"
+    },
+    {
+        "query": "有 新规/n",
+        "description": "有之后直接接新规/n"
+    },
+    {
+        "query": "料事如神/n+的",
+        "description": "料事如神/n之后接的"
+    },
+    {
+        "query": "料事如神/n 的",
+        "description": "料事如神/n之后直接接的"
+    },
+    {
+        "query": "潘文博/nr+说",
+        "description": "潘文博/nr之后接说"
+    },
+    {
+        "query": "潘文博/nr 说",
+        "description": "潘文博/nr之后直接接说"
+    },
+    {
+        "query": "抗战+家书/n+《",
+        "description": "抗战之后接家书/n，再接《"
+    },
+    {
+        "query": "抗战 家书/n 《",
+        "description": "抗战之后直接接家书/n，然后接《"
+    },
+    {
+        "query": "党规+党纪/n+落地",
+        "description": "党规之后接党纪/n，再接落地"
+    },
+    {
+        "query": "党规 党纪/n 落地",
+        "description": "党规之后直接接党纪/n，然后接落地"
+    },
+    {
+        "query": "软钉子+到底/d+卡",
+        "description": "软钉子之后接到底/d，再接卡"
+    },
+    {
+        "query": "软钉子 到底/d 卡",
+        "description": "软钉子之后直接接到底/d，然后接卡"
+    },
+    {
+        "query": "奠基+。/w",
+        "description": "奠基之后接。"
+    },
+    {
+        "query": "奠基 。/w",
+        "description": "奠基之后直接接。"
+    },
+    {
+        "query": "./v快+了",
+        "description": "单音节动词后接快，再接了"
+    },
+    {
+        "query": "./v快 了",
+        "description": "单音节动词后直接接快，然后接了"
+    },
+    {
+        "query": "从/p+种植户/n",
+        "description": "从/p之后接种植户/n"
+    },
+    {
+        "query": "从/p 种植户/n",
+        "description": "从/p之后直接接种植户/n"
+    },
+    {
+        "query": "想/v",
+        "description": "直接接想/v"
+    },
+    {
+        "query": "马克思主义+具有/v+政治",
+        "description": "马克思主义之后接具有/v，再接政治"
+    },
+    {
+        "query": "马克思主义 具有/v 政治",
+        "description": "马克思主义之后直接接具有/v，然后接政治"
+    },
+    {
+        "query": "一生+愧疚/v+，",
+        "description": "一生之后接愧疚/v，再接，"
+    },
+    {
+        "query": "一生 愧疚/v ，",
+        "description": "一生之后直接接愧疚/v，然后接，"
+    },
+    {
+        "query": "赵/nr+玉国+摄+人民+视觉/n",
+        "description": "赵/nr之后依次接玉国、摄、人民、视觉/n"
+    },
+    {
+        "query": "赵/nr 玉国 摄 人民 视觉/n",
+        "description": "赵/nr之后依次接玉国、摄、人民、视觉/n"
+    },
+    {
+        "query": "之+义/n+。",
+        "description": "之之后接义/n，再接。"
+    },
+    {
+        "query": "之 义/n 。",
+        "description": "之之后直接接义/n，然后接。"
+    }
+]
+```

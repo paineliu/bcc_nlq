@@ -1,0 +1,166 @@
+以下是将提供的检索式转换为带含义的JSON结构：
+
+```json
+[
+    {
+        "query": "盘着",
+        "description": "包含盘着的句子"
+    },
+    {
+        "query": "揽人权",
+        "description": "包含揽人权的句子"
+    },
+    {
+        "query": "把柄不把柄",
+        "description": "包含把柄不把柄的句子"
+    },
+    {
+        "query": "凤凰涅槃",
+        "description": "包含凤凰涅槃的句子"
+    },
+    {
+        "query": "说多",
+        "description": "包含说多的句子"
+    },
+    {
+        "query": "舔狗",
+        "description": "包含舔狗的句子"
+    },
+    {
+        "query": "参观",
+        "description": "包含参观的句子"
+    },
+    {
+        "query": "两波",
+        "description": "包含两波的句子"
+    },
+    {
+        "query": "促进和谐",
+        "description": "包含促进和谐的句子"
+    },
+    {
+        "query": "不特别",
+        "description": "包含不特别的句子"
+    },
+    {
+        "query": "举人权",
+        "description": "包含举人权的句子"
+    },
+    {
+        "query": "裉",
+        "description": "包含「裉」的句子"
+    },
+    {
+        "query": "超级的",
+        "description": "包含超级的句子"
+    },
+    {
+        "query": "没像",
+        "description": "包含没像的句子"
+    },
+    {
+        "query": "圣地",
+        "description": "包含圣地的句子"
+    },
+    {
+        "query": "不蛮",
+        "description": "包含不蛮的句子"
+    },
+    {
+        "query": "妹子",
+        "description": "包含妹子的句子"
+    },
+    {
+        "query": "为农民演出",
+        "description": "包含为农民演出的句子"
+    },
+    {
+        "query": "和谐依存",
+        "description": "包含和谐依存的句子"
+    },
+    {
+        "query": "随笔",
+        "description": "包含随笔的句子"
+    },
+    {
+        "query": "差点儿就没",
+        "description": "包含差点儿就没的句子"
+    },
+    {
+        "query": "都是",
+        "description": "包含都是的句子"
+    },
+    {
+        "query": "写个心情",
+        "description": "包含写个心情的句子"
+    },
+    {
+        "query": "平房",
+        "description": "包含平房的句子"
+    },
+    {
+        "query": "扼杀",
+        "description": "包含扼杀的句子"
+    },
+    {
+        "query": "没对",
+        "description": "包含没对的句子"
+    },
+    {
+        "query": "人治",
+        "description": "包含人治的句子"
+    },
+    {
+        "query": "我就是喜欢",
+        "description": "包含我就是喜欢的句子"
+    },
+    {
+        "query": "的事",
+        "description": "包含的事的句子"
+    },
+    {
+        "query": "不吃上",
+        "description": "包含不吃上的句子"
+    },
+    {
+        "query": "简要说",
+        "description": "包含简要说的句子"
+    },
+    {
+        "query": "懂事",
+        "description": "包含懂事的句子"
+    },
+    {
+        "query": "实惠",
+        "description": "包含实惠的句子"
+    },
+    {
+        "query": "而",
+        "description": "包含「而」的句子"
+    },
+    {
+        "query": "笔挺",
+        "description": "包含笔挺的句子"
+    },
+    {
+        "query": "萌妹子",
+        "description": "包含萌妹子的句子"
+    },
+    {
+        "query": "从事",
+        "description": "包含从事的句子"
+    },
+    {
+        "query": "冲下去",
+        "description": "包含冲下去的句子"
+    },
+    {
+        "query": "外加",
+        "description": "包含外加的句子"
+    },
+    {
+        "query": "慢说",
+        "description": "包含慢说的句子"
+    }
+]
+```

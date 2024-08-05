@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "在N里装",
+        "description": "在某个容器（N）里放置或装载"
+    },
+    {
+        "query": "什么也v",
+        "description": "无论什么事物都能进行的动作或状态"
+    },
+    {
+        "query": "得又a+w",
+        "description": "必须再次或重复地完成的动作或状态"
+    },
+    {
+        "query": "得又a w",
+        "description": "必须再次或重复地完成的动作或状态，结尾为语气词"
+    },
+    {
+        "query": "a做工",
+        "description": "从事工作或劳动的行为"
+    },
+    {
+        "query": "a半岛",
+        "description": "位于某个地方的半岛区域"
+    },
+    {
+        "query": "vn味",
+        "description": "品尝或体验的味道"
+    },
+    {
+        "query": "能V多少N就V多少",
+        "description": "能够达到的最大数量或程度"
+    },
+    {
+        "query": "a列入",
+        "description": "将某物加入到列表、清单中"
+    },
+    {
+        "query": "w+n都a了",
+        "description": "所有名词类的事物都已经完成或达到了某种状态"
+    },
+    {
+        "query": "w n都a了",
+        "description": "所有名词类的事物都已经完成或达到了某种状态，结尾为语气词"
+    },
+    {
+        "query": "叫+N+V",
+        "description": "称呼或叫出某个名词类的事物的具体动作或行为"
+    },
+    {
+        "query": "叫 N V",
+        "description": "称呼或叫出某个名词类的事物的具体动作或行为，结尾为语气词"
+    },
+    {
+        "query": "m抱",
+        "description": "抱紧或拥抱的动作"
+    },
+    {
+        "query": "两n",
+        "description": "两个单位的事物或对象"
+    },
+    {
+        "query": "v一杯",
+        "description": "倒或喝一杯液体的动作"
+    },
+    {
+        "query": "a享福",
+        "description": "享受幸福或快乐的状态或行为"
+    },
+    {
+        "query": "v+r这边",
+        "description": "向这边移动或指向的动作"
+    },
+    {
+        "query": "v r这边",
+        "description": "向这边移动或指向的动作，结尾为语气词"
+    },
+    {
+        "query": "q情绪",
+        "description": "表达或体验的情感或心情"
+    },
+    {
+        "query": "从不把n+v了",
+        "description": "从未将某个名词类的事物进行某个动作或状态"
+    },
+    {
+        "query": "从不把n v了",
+        "description": "从未将某个名词类的事物进行某个动作或状态，结尾为语气词"
+    },
+    {
+        "query": "m晌",
+        "description": "短暂的时间段"
+    },
+    {
+        "query": "a一辈子",
+        "description": "一生或整个生命周期的持续状态或行为"
+    },
+    {
+        "query": "用N盛",
+        "description": "用某个容器（N）来容纳或盛装物品"
+    },
+    {
+        "query": "v满了",
+        "description": "充满或达到容量的动作或状态"
+    },
+    {
+        "query": "m宗n",
+        "description": "宗教或信仰相关的宗派或组织"
+    },
+    {
+        "query": "r目标",
+        "description": "设定或追求的目标或目的"
+    },
+    {
+        "query": "m棒n",
+        "description": "体育或娱乐活动中的棒类工具或设备"
+    },
+    {
+        "query": "N政治",
+        "description": "关于国家或地区政治事务的描述或讨论"
+    },
+    {
+        "query": "v一字",
+        "description": "书写或描绘出一个字的动作"
+    },
+    {
+        "query": "容易v",
+        "description": "易于进行或实现的动作或状态"
+    },
+    {
+        "query": "小+a",
+        "description": "形容小尺寸或数量的属性"
+    },
+    {
+        "query": "小 a",
+        "description": "形容小尺寸或数量的属性，结尾为语气词"
+    },
+    {
+        "query": "a伟大",
+        "description": "拥有伟大品质或成就的属性"
+    },
+    {
+        "query": "口吻w",
+        "description": "说话的方式或风格"
+    },
+    {
+        "query": "被a",
+        "description": "受到某种影响或状态的被动动作"
+    },
+    {
+        "query": "v全了",
+        "description": "完成或达到全部的动作或状态"
+    },
+    {
+        "query": "a作文",
+        "description": "撰写或创作文章或论文的行为"
+    },
+    {
+        "query": "在N垫",
+        "description": "在某个容器（N）内填充或垫入物品"
+    }
+]
+```

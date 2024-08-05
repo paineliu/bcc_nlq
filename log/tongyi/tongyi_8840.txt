@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "~倒",
+        "description": "表示一个词。例如：倒，表示倒+一个词"
+    },
+    {
+        "query": "w动.静w",
+        "description": "以动为首，中间有一个字，后面接静"
+    },
+    {
+        "query": "开.刀",
+        "description": "以开为首，后面接刀"
+    },
+    {
+        "query": "或许*当真",
+        "description": "或许后面离合出现当真"
+    },
+    {
+        "query": "不以*论英雄",
+        "description": "不以后面离合出现论英雄"
+    },
+    {
+        "query": "经历@",
+        "description": "经历后邻一个词性，即经历后接一个词"
+    },
+    {
+        "query": "大概*一定会",
+        "description": "大概后面离合出现一定会"
+    },
+    {
+        "query": "好像*总能",
+        "description": "好像后面离合出现总能"
+    },
+    {
+        "query": "大概*难免v",
+        "description": "大概后面离合出现难免动词"
+    },
+    {
+        "query": "颗~",
+        "description": "表示一个词。例如：颗，表示颗+一个词"
+    },
+    {
+        "query": "w歪.正w",
+        "description": "以w为首，中间有一个字，后面接正"
+    },
+    {
+        "query": "吧你可~",
+        "description": "吧你可作为一个整体，中间有一个词"
+    },
+    {
+        "query": "简直*极了",
+        "description": "简直后面离合出现极了"
+    },
+    {
+        "query": "或许*左右",
+        "description": "或许后面离合出现左右"
+    },
+    {
+        "query": "v*过程",
+        "description": "动词后面离合出现过程"
+    },
+    {
+        "query": "哪怕...也...",
+        "description": "哪怕后面跟一个省略号，省略号后面跟一个字，再跟一个也字"
+    },
+    {
+        "query": "她..+回去w",
+        "description": "她后面跟一个省略号，省略号后面跟一个词"
+    },
+    {
+        "query": "她.. 回去w",
+        "description": "她后面跟一个省略号，省略号后面跟回去，再跟一个词"
+    },
+    {
+        "query": "树敌*v",
+        "description": "树敌后面离合出现动词"
+    },
+    {
+        "query": "仿佛*终究",
+        "description": "仿佛后面离合出现终究"
+    },
+    {
+        "query": "洗~澡",
+        "description": "洗后接澡"
+    },
+    {
+        "query": "刹不.",
+        "description": "刹后接一个不字，后面跟一个句尾符号"
+    },
+    {
+        "query": "我一个*，",
+        "description": "我后面跟一个省略号，省略号后面跟一个字，后面跟一个逗号"
+    },
+    {
+        "query": "不是*就是",
+        "description": "不是后面离合出现就是"
+    },
+    {
+        "query": "w抑.扬w",
+        "description": "以w为首，中间有一个字，后面接扬"
+    },
+    {
+        "query": "w男.女w",
+        "description": "以w为首，中间有一个字，后面接女"
+    },
+    {
+        "query": "吃*惊",
+        "description": "吃后面离合出现惊"
+    },
+    {
+        "query": "或许*反倒",
+        "description": "或许后面离合出现反倒"
+    },
+    {
+        "query": "逢.....必",
+        "description": "逢后面跟一个省略号，省略号后面跟一个字，再跟一个必字"
+    },
+    {
+        "query": "v*时间",
+        "description": "动词后面离合出现时间"
+    },
+    {
+        "query": "她们一个*",
+        "description": "她们后面跟一个省略号，省略号后面跟一个字"
+    },
+    {
+        "query": "教*育",
+        "description": "教后接教育"
+    },
+    {
+        "query": "差不多*大概",
+        "description": "差不多后面离合出现大概"
+    },
+    {
+        "query": "是*的表现w",
+        "description": "是后面离合出现表现，表现后接一个词性"
+    },
+    {
+        "query": "她..+进来w",
+        "description": "她后面跟一个省略号，省略号后面跟一个词"
+    },
+    {
+        "query": "她.. 进来w",
+        "description": "她后面跟一个省略号，省略号后面跟进来，再跟一个词"
+    },
+    {
+        "query": "v*情况",
+        "description": "动词后面离合出现情况"
+    },
+    {
+        "query": "扛不.",
+        "description": "扛后接一个不字，后面跟一个句尾符号"
+    },
+    {
+        "query": "再@也",
+        "description": "再后接一个词性，即再后接一个词"
+    },
+    {
+        "query": "这一..也就",
+        "description": "这一后面跟一个省略号，省略号后面跟一个字，再跟一个也就字"
+    }
+]
+```

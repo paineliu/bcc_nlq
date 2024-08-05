@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "不",
+        "description": "包含'不'的句子"
+    },
+    {
+        "query": "(n) 助力{end($1)=[星 饭 逼]}",
+        "description": "助力后面是星、饭或逼"
+    },
+    {
+        "query": "： (nr) 姿阅{count>9}",
+        "description": "冒号后面跟着人名，且这个句子的频率大于9"
+    },
+    {
+        "query": "活力 (p) 大大{count>10}",
+        "description": "活力后面紧跟着大大，且这个组合的频率大于10"
+    },
+    {
+        "query": "剑指 (v) 空壳{end($1)=[眠 新 明 候]}",
+        "description": "剑指后面是眠、新、明或候"
+    },
+    {
+        "query": "问题 .. 解决",
+        "description": "问题后面离合出现解决"
+    },
+    {
+        "query": "网站 ../v 实用性",
+        "description": "网站后面是两个连续的动词，后面接实用性"
+    },
+    {
+        "query": "./m 不",
+        "description": "单音节动词后面接'不'"
+    },
+    {
+        "query": "信息 n 为",
+        "description": "信息后面接名词，且可能是'为'"
+    },
+    {
+        "query": "(n) 、 抽屉 ， 一个 (d){len($2)=1}",
+        "description": "一个名词后面是逗号，然后是单个字符的抽屉"
+    },
+    {
+        "query": "(vn) 集约化{begin($1)!=[相 理]}",
+        "description": "集约化这个词开始时不能是相或理"
+    },
+    {
+        "query": "网站 ~/[d v] 是",
+        "description": "网站后面可能是动词或助词，然后是'是'"
+    },
+    {
+        "query": "说",
+        "description": "单独的'说'"
+    },
+    {
+        "query": "一 @ 解",
+        "description": "一后面跟一个词解"
+    },
+    {
+        "query": "的 (n) 叫好{count<422}",
+        "description": "的后面接名词，'叫好'的频率小于422"
+    },
+    {
+        "query": "哪儿 ~ ？",
+        "description": "哪儿后面是一个词，后面是问号"
+    },
+    {
+        "query": "(v) ：{len($1)<3}",
+        "description": "一个动词后面是冒号，且动词长度小于3"
+    },
+    {
+        "query": "存在 .. ？",
+        "description": "存在后面离合出现问号"
+    },
+    {
+        "query": "合理 u ？",
+        "description": "合理后面接一个字，后面是问号"
+    },
+    {
+        "query": "正面 (n) 揭晓{count<806}",
+        "description": "正面后面接名词，'揭晓'的频率小于806"
+    },
+    {
+        "query": "给 (n) 领军者{begin($1)!=[密 完]}",
+        "description": "给后面接名词，但不包括密或完"
+    },
+    {
+        "query": "(vn) 资产{end($1)!=[级 南 便]}",
+        "description": "资产这个词结束时不能是级、南或便"
+    },
+    {
+        "query": "须 (a){begin($1)=[合 七 又]}",
+        "description": "须是形容词，且开始是合、七或又"
+    },
+    {
+        "query": "(a) 干 啥 、 (v){len($1)!=3}",
+        "description": "形容词干后面是啥，且干啥不是一个词"
+    },
+    {
+        "query": "多 (vn) 民生{end($1)!=[阿 村 今 测]}",
+        "description": "多后面接动词，民生后面不包括阿、村、今或测"
+    },
+    {
+        "query": "迟福林 (v) 。{len($1)=1}",
+        "description": "迟福林后面是单个字符"
+    },
+    {
+        "query": "这样 ./[u v] 问题",
+        "description": "这样后面是单字或双字动词，后面接问题"
+    },
+    {
+        "query": "(n) (l){middle($2)!=[补 加 害]}",
+        "description": "两个名词之间，中间字符不包括补、加或害"
+    },
+    {
+        "query": "莫 v 提价",
+        "description": "莫后面接单字动词，后面是提价"
+    },
+    {
+        "query": "迟福林 (v) 。{len($1)!=2}",
+        "description": "迟福林后面不是两个字符"
+    },
+    {
+        "query": "说 ~",
+        "description": "说后面是一个词"
+    },
+    {
+        "query": "风险 ~ 参谋",
+        "description": "风险后面是一个词，然后是参谋"
+    },
+    {
+        "query": "(v) (a){len($1)!=3; len($2)=2}",
+        "description": "一个动词后面接一个形容词，且动词不是三个字符"
+    },
+    {
+        "query": "岁月 (v) 逝芳{len($1)=1}",
+        "description": "岁月后面是单个字符，逝芳"
+    },
+    {
+        "query": "人物 .. ：
+        "description": "人物后面离合出现冒号"
+    },
+    {
+        "query": "可是 ./[r v] 能",
+        "description": "可是后面是连词或动词，然后是能"
+    },
+    {
+        "query": "李 (n){len($1)<3}",
+        "description": "李后面是长度小于3的名词"
+    },
+    {
+        "query": ". 何 .",
+        "description": "两个点之间的内容"
+    },
+    {
+        "query": "《 (t) 》{len($1)<3}",
+        "description": "书名号内的内容长度小于3"
+    },
+    {
+        "query": "的 (vn) 框架{begin($1)=[认 纯 叫]}",
+        "description": "的后面接动词，框架开始是认、纯或叫"
+    }
+]
+```

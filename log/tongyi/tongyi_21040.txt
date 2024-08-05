@@ -1,0 +1,166 @@
+以下是将给定的检索式转换为带含义的json结构的结果：
+
+```json
+[
+    {
+        "query": "发展 清洁/a 能源",
+        "description": "发展 + 形容词 + 名词"
+    },
+    {
+        "query": "./v就是了",
+        "description": "单音节动词 + 就是了"
+    },
+    {
+        "query": "做/v+../n+",
+        "description": "动词 + ... + 名词"
+    },
+    {
+        "query": "做/v ../n ",
+        "description": "动词 + 名词 + ..."
+    },
+    {
+        "query": "大+的/u+灵感",
+        "description": "大 + 未知词 + 名词"
+    },
+    {
+        "query": "大 的/u 灵感",
+        "description": "大 + 未知词 + 名词"
+    },
+    {
+        "query": "高../n",
+        "description": "高 + 名词"
+    },
+    {
+        "query": "运营商/n+之间",
+        "description": "名词 + 之间"
+    },
+    {
+        "query": "运营商/n 之间",
+        "description": "名词 + 之间"
+    },
+    {
+        "query": "否则/c+，",
+        "description": "副词 + ，"
+    },
+    {
+        "query": "否则/c ，",
+        "description": "副词 + ，"
+    },
+    {
+        "query": "爱情/n+v",
+        "description": "名词 + 动词"
+    },
+    {
+        "query": "爱情/n v",
+        "description": "名词 + 动词"
+    },
+    {
+        "query": "分化/v+带来",
+        "description": "动词 + 带来"
+    },
+    {
+        "query": "分化/v 带来",
+        "description": "动词 + 带来"
+    },
+    {
+        "query": "....性/n",
+        "description": "... + 名词"
+    },
+    {
+        "query": "万象更新+。/w",
+        "description": "万象更新 + 句尾符号"
+    },
+    {
+        "query": "万象更新 。/w",
+        "description": "万象更新 + 句尾符号"
+    },
+    {
+        "query": "存在/v",
+        "description": "动词"
+    },
+    {
+        "query": "这+事/n+我",
+        "description": "这 + 名词 + 我"
+    },
+    {
+        "query": "这 事/n 我",
+        "description": "这 + 名词 + 我"
+    },
+    {
+        "query": "莫+改/v+初衷",
+        "description": "形容词 + 动词 + 初衷"
+    },
+    {
+        "query": "莫 改/v 初衷",
+        "description": "形容词 + 动词 + 初衷"
+    },
+    {
+        "query": "据./v",
+        "description": "单音节动词"
+    },
+    {
+        "query": "发展+连通/v+内地",
+        "description": "动词 + 连通 + 内地"
+    },
+    {
+        "query": "发展 连通/v 内地",
+        "description": "动词 + 连通 + 内地"
+    },
+    {
+        "query": "二+是/v+督促",
+        "description": "数词 + 动词 + 督促"
+    },
+    {
+        "query": "二 是/v 督促",
+        "description": "数词 + 动词 + 督促"
+    },
+    {
+        "query": "../v人",
+        "description": "... + 动词 + 人"
+    },
+    {
+        "query": "a+亲情/n",
+        "description": "形容词 + 亲情"
+    },
+    {
+        "query": "a 亲情/n",
+        "description": "形容词 + 亲情"
+    },
+    {
+        "query": "./V*房",
+        "description": "单音节动词 + ... + 房"
+    },
+    {
+        "query": "深度+调整期/n+。",
+        "description": "深度 + 名词 + 句尾符号"
+    },
+    {
+        "query": "深度 调整期/n 。",
+        "description": "深度 + 名词 + 句尾符号"
+    },
+    {
+        "query": "是/v+什么/r",
+        "description": "动词 + 什么 + 形容词"
+    },
+    {
+        "query": "是/v 什么/r",
+        "description": "动词 + 什么 + 形容词"
+    },
+    {
+        "query": "./v过",
+        "description": "单音节动词 + 过"
+    },
+    {
+        "query": "麻烦/a",
+        "description": "形容词"
+    },
+    {
+        "query": "../n内向",
+        "description": "... + 名词 + 内向"
+    },
+    {
+        "query": "表示+。/w",
+        "description": "动词 + 句尾符号"
+    }
+]
+```

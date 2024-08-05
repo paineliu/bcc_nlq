@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "殷殷",
+        "description": "包含'殷殷'的句子"
+    },
+    {
+        "query": "扩充",
+        "description": "包含'扩充'的句子"
+    },
+    {
+        "query": "即刻",
+        "description": "包含'即刻'的句子"
+    },
+    {
+        "query": "调教",
+        "description": "包含'调教'的句子"
+    },
+    {
+        "query": "穿",
+        "description": "包含'穿'的句子"
+    },
+    {
+        "query": "轻易",
+        "description": "包含'轻易'的句子"
+    },
+    {
+        "query": "背书",
+        "description": "包含'背书'的句子"
+    },
+    {
+        "query": "捕人权",
+        "description": "包含'捕人权'的句子"
+    },
+    {
+        "query": "人权白",
+        "description": "包含'人权白'的句子"
+    },
+    {
+        "query": "没曾想",
+        "description": "包含'没曾想'的句子"
+    },
+    {
+        "query": "新闻",
+        "description": "包含'新闻'的句子"
+    },
+    {
+        "query": "很有限",
+        "description": "包含'很有限'的句子"
+    },
+    {
+        "query": "革命",
+        "description": "包含'革命'的句子"
+    },
+    {
+        "query": "汉江河",
+        "description": "包含'汉江河'的句子"
+    },
+    {
+        "query": "何等没",
+        "description": "包含'何等没'的句子"
+    },
+    {
+        "query": "地条钢",
+        "description": "包含'地条钢'的句子"
+    },
+    {
+        "query": "岌岌",
+        "description": "包含'岌岌'的句子"
+    },
+    {
+        "query": "成为",
+        "description": "包含'成为'的句子"
+    },
+    {
+        "query": "然而和谐",
+        "description": "包含'然而和谐'的句子"
+    },
+    {
+        "query": "爷",
+        "description": "包含'爷'的句子"
+    },
+    {
+        "query": "平整",
+        "description": "包含'平整'的句子"
+    },
+    {
+        "query": "晅",
+        "description": "包含'晅'的句子"
+    },
+    {
+        "query": "储备",
+        "description": "包含'储备'的句子"
+    },
+    {
+        "query": "声优",
+        "description": "包含'声优'的句子"
+    },
+    {
+        "query": "保出来",
+        "description": "包含'保出来'的句子"
+    },
+    {
+        "query": "而不是",
+        "description": "包含'而不是'的句子"
+    },
+    {
+        "query": "也许偏偏",
+        "description": "包含'也许偏偏'的句子"
+    },
+    {
+        "query": "看半天",
+        "description": "包含'看半天'的句子"
+    },
+    {
+        "query": "这么一说",
+        "description": "包含'这么一说'的句子"
+    },
+    {
+        "query": "肥宅",
+        "description": "包含'肥宅'的句子"
+    },
+    {
+        "query": "说得容易",
+        "description": "包含'说得容易'的句子"
+    },
+    {
+        "query": "。发现",
+        "description": "包含'。发现'的句子"
+    },
+    {
+        "query": "响响",
+        "description": "包含'响响'的句子"
+    },
+    {
+        "query": "可怕不可怕",
+        "description": "包含'可怕不可怕'的句子"
+    },
+    {
+        "query": "不太管用",
+        "description": "包含'不太管用'的句子"
+    },
+    {
+        "query": "全线",
+        "description": "包含'全线'的句子"
+    },
+    {
+        "query": "恐怕只得",
+        "description": "包含'恐怕只得'的句子"
+    },
+    {
+        "query": "前景",
+        "description": "包含'前景'的句子"
+    },
+    {
+        "query": "汉语常用词词频表",
+        "description": "包含'汉语常用词词频表'的句子"
+    },
+    {
+        "query": "手账",
+        "description": "包含'手账'的句子"
+    }
+]
+```

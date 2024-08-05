@@ -1,0 +1,166 @@
+以下是将给定检索式转换为带含义的json结构的结果：
+
+```json
+[
+    {
+        "query": "./v晴 了",
+        "description": "单音节动词后接晴，后面再接了"
+    },
+    {
+        "query": "a+的+口味/n",
+        "description": "形容词后接的，再接名词口味"
+    },
+    {
+        "query": "a 的 口味/n",
+        "description": "形容词后接的，再接名词口味"
+    },
+    {
+        "query": "消费+体验/v+开始",
+        "description": "消费和体验后接的动词，再接开始"
+    },
+    {
+        "query": "消费 体验/v 开始",
+        "description": "消费后接体验，体验后接的动词再接开始"
+    },
+    {
+        "query": "就是/d+一个+样本+。/w",
+        "description": "就是后接一个，再接样本，样本后接句尾符号"
+    },
+    {
+        "query": "就是/d 一个 样本 。/w",
+        "description": "就是后接一个，再接样本，样本后接句尾符号"
+    },
+    {
+        "query": "多+字库/n+吗",
+        "description": "多后接字库，字库后接吗"
+    },
+    {
+        "query": "多 字库/n 吗",
+        "description": "多后接字库，字库后接吗"
+    },
+    {
+        "query": "亲戚+朋友/n+。",
+        "description": "亲戚后接朋友，朋友后接句尾符号"
+    },
+    {
+        "query": "亲戚 朋友/n 。",
+        "description": "亲戚后接朋友，朋友后接句尾符号"
+    },
+    {
+        "query": "代表/n",
+        "description": "代表作为名词"
+    },
+    {
+        "query": "../v在",
+        "description": "二字动词后接在"
+    },
+    {
+        "query": "./v远+了",
+        "description": "单音节动词后接远，后面再接了"
+    },
+    {
+        "query": "./v远 了",
+        "description": "单音节动词后接远，后面再接了"
+    },
+    {
+        "query": "n+重/d+",
+        "description": "名词后接重，重后无后续"
+    },
+    {
+        "query": "n 重/d ",
+        "description": "名词后接重，重后无后续"
+    },
+    {
+        "query": "劳动+必须/d+得到",
+        "description": "劳动和必须后接的动词，再接得到"
+    },
+    {
+        "query": "劳动 必须/d 得到",
+        "description": "劳动后接必须，必须后接的动词再接得到"
+    },
+    {
+        "query": "假意+来/v+互动",
+        "description": "假意后接来，来后接互动"
+    },
+    {
+        "query": "假意 来/v 互动",
+        "description": "假意后接来，来后接互动"
+    },
+    {
+        "query": "a+的+情谊/n",
+        "description": "形容词后接的，再接名词情谊"
+    },
+    {
+        "query": "a 的 情谊/n",
+        "description": "形容词后接的，再接名词情谊"
+    },
+    {
+        "query": "第八十九/m+条/q",
+        "description": "第八十九后接条，条后接量化单位"
+    },
+    {
+        "query": "第八十九/m 条/q",
+        "description": "第八十九后接条，条后接量化单位"
+    },
+    {
+        "query": "爱护/v",
+        "description": "爱护作为动词"
+    },
+    {
+        "query": "殷鉴不远/nr+，",
+        "description": "殷鉴不远后接逗号"
+    },
+    {
+        "query": "殷鉴不远/nr ，",
+        "description": "殷鉴不远后接逗号"
+    },
+    {
+        "query": "人民+论坛/n",
+        "description": "人民后接论坛"
+    },
+    {
+        "query": "人民 论坛/n",
+        "description": "人民后接论坛"
+    },
+    {
+        "query": "./v疼了",
+        "description": "单音节动词后接疼，后面再接了"
+    },
+    {
+        "query": "把n+../v",
+        "description": "把后接名词，名词后接二字动词"
+    },
+    {
+        "query": "把n ../v",
+        "description": "把后接名词，名词后接二字动词"
+    },
+    {
+        "query": "顶/v+../n+",
+        "description": "顶后接二字动词，二字动词后接单音节名词"
+    },
+    {
+        "query": "顶/v ../n ",
+        "description": "顶后接二字动词，二字动词后接单音节名词"
+    },
+    {
+        "query": "中拉/j+正在+推进+很多+合作+项目/n",
+        "description": "中拉后接正在，正在后接推进，推进后接很多，很多后接合作，最后接项目"
+    },
+    {
+        "query": "中拉/j 正在 推进 很多 合作 项目/n",
+        "description": "中拉后接正在，正在后接推进，推进后接很多，很多后接合作，最后接项目"
+    },
+    {
+        "query": "./v矮了",
+        "description": "单音节动词后接矮，后面再接了"
+    },
+    {
+        "query": "二十二+健全/v+东西部",
+        "description": "二十二后接健全，健全后接的东西部"
+    },
+    {
+        "query": "二十二 健全/v 东西部",
+        "description": "二十二后接健全，健全后接的东西部"
+    }
+]
+```

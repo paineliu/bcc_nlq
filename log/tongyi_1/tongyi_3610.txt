@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "重大 .. 事件",
+        "description": "包含重大二字短语后面接事件"
+    },
+    {
+        "query": "跨国 @/[vn v] 团伙",
+        "description": "跨国后面接单音节动词或双音节名词的团伙"
+    },
+    {
+        "query": "微信 (d) 处理{len($1)=2}",
+        "description": "微信后接两个字符的处理"
+    },
+    {
+        "query": "娃娃 ..",
+        "description": "娃娃后面有一个或多个字符"
+    },
+    {
+        "query": "(nr) 俊强{count>10}",
+        "description": "人名俊强出现次数超过10次"
+    },
+    {
+        "query": "法院 ./[d v] 立案",
+        "description": "法院后面接副词或动词后跟立案"
+    },
+    {
+        "query": "将",
+        "description": "仅包含将字的句子"
+    },
+    {
+        "query": "哪 @",
+        "description": "哪后面接一个词"
+    },
+    {
+        "query": "图",
+        "description": "仅包含图字的句子"
+    },
+    {
+        "query": "的 @",
+        "description": "的后面接一个词"
+    },
+    {
+        "query": "计时 (n) 是{end($1)=[准 永]}",
+        "description": "计时后面接名词，且该名词的结尾是准或永"
+    },
+    {
+        "query": "何 (vn) ？{begin($1)!=[之 因 喜]}",
+        "description": "何后面接单音节动词，且动词前面不接之、因或喜"
+    },
+    {
+        "query": "呢 @",
+        "description": "呢后面接一个词"
+    },
+    {
+        "query": "说 ~",
+        "description": "说后面接一个词"
+    },
+    {
+        "query": "具体 .. 了",
+        "description": "具体后面接一个或多个字符后接了"
+    },
+    {
+        "query": "有 (r) 影响{end($1)=[些 度 酒]}",
+        "description": "有后面接一个状态词，且该词的结尾是些、度或酒"
+    },
+    {
+        "query": "有 (r) 价值{count<814}",
+        "description": "有后面接一个状态词，且该词的总数小于814"
+    },
+    {
+        "query": "中华 ~ 公益",
+        "description": "中华后面接一个词，可能是公益或其他词"
+    },
+    {
+        "query": "~/[w v] 韩",
+        "description": "韩前面可能接一个动词或形容词"
+    },
+    {
+        "query": ".. 博物院",
+        "description": "两个连续的字符后面接博物院"
+    },
+    {
+        "query": ".. 正",
+        "description": "两个连续的字符后面接正"
+    },
+    {
+        "query": "~/[nr v] 摄",
+        "description": "摄前面可能接人名或动词"
+    },
+    {
+        "query": "(v) 夜宴 图 》 (v){len($1)<3; len($2)>1}",
+        "description": "两个动词，第一个动词少于3个字符，第二个动词多于1个字符"
+    },
+    {
+        "query": "社会 (n) 的{len($1)=3}",
+        "description": "社会后面接三个字符的名词"
+    },
+    {
+        "query": "(j) 讲述 中国 故事 文艺 (a){end($1)!=[古 七 票 么]}",
+        "description": "讲述后面接中国故事，文艺后面接形容词，且形容词不以古、七、票或么结尾"
+    },
+    {
+        "query": "特色 ~/[w v]",
+        "description": "特色后面接一个动词或形容词"
+    },
+    {
+        "query": "是 (v) 传统{len($1)!=3}",
+        "description": "是后面接单音节动词，且动词不是三个字符"
+    },
+    {
+        "query": "密不可分 (w){count>9}",
+        "description": "密不可分出现次数超过9次"
+    },
+    {
+        "query": "中华 文化/n ，",
+        "description": "中华后面接文化，文化后面接一个名词，且前后用逗号隔开"
+    },
+    {
+        "query": "../[n v] 徐鹏飞",
+        "description": "徐鹏飞前面可能接名词或动词"
+    },
+    {
+        "query": "何谓 ../n ？",
+        "description": "何谓后面接名词，且名词后面接问号"
+    },
+    {
+        "query": "文化 (v) 还{end($1)!=[假 题 情 黄]}",
+        "description": "文化后面接单音节动词，且动词后面不接假、题、情或黄"
+    },
+    {
+        "query": "~/[r v] 摆",
+        "description": "摆前面可能接代词或动词"
+    },
+    {
+        "query": "保险 ~ 覆盖",
+        "description": "保险后面接一个词，可能是覆盖或其他词"
+    },
+    {
+        "query": "确实 ./v 一个",
+        "description": "确实后面接一个动词，动词后面接一个字"
+    },
+    {
+        "query": "制图 ~ 张芳曼",
+        "description": "制图后面接一个词，可能是张芳曼或其他词"
+    },
+    {
+        "query": "成为",
+        "description": "仅包含成为字的句子"
+    },
+    {
+        "query": "(v) 网络{end($1)=[出 学]}",
+        "description": "网络后面接动词，动词后面接出或学"
+    },
+    {
+        "query": "../s 做",
+        "description": "做前面可能接一个处所词"
+    },
+    {
+        "query": "捐出 (w){count<211}",
+        "description": "捐出出现次数少于211次"
+    }
+]
+```

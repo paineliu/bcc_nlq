@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "我敢肯定地说",
+        "description": "包含'我'、'敢'、'肯定'、'说'的句子"
+    },
+    {
+        "query": "大量",
+        "description": "数量词后接的词汇"
+    },
+    {
+        "query": "习近平总书记",
+        "description": "包含'习近平'和'总书记'的词汇"
+    },
+    {
+        "query": "霏霏",
+        "description": "形容词或拟声词"
+    },
+    {
+        "query": "这就是说",
+        "description": "包含'这'、'就是'、'说'的句子"
+    },
+    {
+        "query": "大美中国",
+        "description": "描述中国的词汇"
+    },
+    {
+        "query": "到爽",
+        "description": "形容词后接的词汇"
+    },
+    {
+        "query": "如果",
+        "description": "条件词"
+    },
+    {
+        "query": "得分",
+        "description": "动词后接的词汇"
+    },
+    {
+        "query": "深刻的",
+        "description": "形容词"
+    },
+    {
+        "query": "显出",
+        "description": "动词后接的词汇"
+    },
+    {
+        "query": "微博",
+        "description": "网络平台名称"
+    },
+    {
+        "query": "警民和谐",
+        "description": "描述警民关系的词汇"
+    },
+    {
+        "query": "彼女",
+        "description": "日本语中的女性指代"
+    },
+    {
+        "query": "人权叫",
+        "description": "动词后接的词汇"
+    },
+    {
+        "query": "龙的传人",
+        "description": "描述民族身份的词汇"
+    },
+    {
+        "query": "增损",
+        "description": "动词后接的词汇"
+    },
+    {
+        "query": "却瘟",
+        "description": "动词后接的词汇"
+    },
+    {
+        "query": "丛生",
+        "description": "动词后接的词汇"
+    },
+    {
+        "query": "难民",
+        "description": "描述人群的词汇"
+    },
+    {
+        "query": "人权成",
+        "description": "动词后接的词汇"
+    },
+    {
+        "query": "很是",
+        "description": "副词"
+    },
+    {
+        "query": "颠沛流离",
+        "description": "形容词"
+    },
+    {
+        "query": "五波",
+        "description": "数字后接的词汇"
+    },
+    {
+        "query": "构建和谐",
+        "description": "描述社会关系的词汇"
+    },
+    {
+        "query": "法则",
+        "description": "名词"
+    },
+    {
+        "query": "和谐深深",
+        "description": "形容词后接的词汇"
+    },
+    {
+        "query": "相互保",
+        "description": "描述关系的词汇"
+    },
+    {
+        "query": "人权利",
+        "description": "描述个体权利的词汇"
+    },
+    {
+        "query": "孤孤零零",
+        "description": "形容词"
+    },
+    {
+        "query": "不太明亮",
+        "description": "形容词"
+    },
+    {
+        "query": "复",
+        "description": "副词"
+    },
+    {
+        "query": "人权治",
+        "description": "动词后接的词汇"
+    },
+    {
+        "query": "和谐为工",
+        "description": "动词后接的词汇"
+    },
+    {
+        "query": "了半日",
+        "description": "时间词后接的词汇"
+    },
+    {
+        "query": "忽地",
+        "description": "副词"
+    },
+    {
+        "query": "穿裙子",
+        "description": "动词后接的词汇"
+    },
+    {
+        "query": "唧唧",
+        "description": "拟声词"
+    },
+    {
+        "query": "闪烁",
+        "description": "动词后接的词汇"
+    },
+    {
+        "query": "宝眷",
+        "description": "尊称"
+    }
+]
+```

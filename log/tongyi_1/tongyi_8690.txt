@@ -1,0 +1,160 @@
+```json
+[
+    {
+        "query": "../[n v] 回溯",
+        "description": "动词或名词后跟回溯"
+    },
+    {
+        "query": "惟 (r) 艰难{count<662}",
+        "description": "副词惟后面紧跟艰难，且实例频次小于662"
+    },
+    {
+        "query": "得 i 。",
+        "description": "得到，后面是句尾标点"
+    },
+    {
+        "query": "多 (q) 突破{count<903}",
+        "description": "多后面接突破，且实例频次小于903"
+    },
+    {
+        "query": "体制 ~ 。",
+        "description": "体制后面接任意字符，可能是句尾"
+    },
+    {
+        "query": "(t) (n){begin($1)=[未来 看 海]; len($2)=3}",
+        "description": "两个名词，第一个名词以未来、看或海开始，第二个名词长度为3"
+    },
+    {
+        "query": "(n) (v){len($1)!=3; len($2)=2}",
+        "description": "名词后面接动词，但第一个名词不是3个字，第二个动词是2个字"
+    },
+    {
+        "query": "空间 ./[w v]",
+        "description": "空间后面可以是形容词或动词"
+    },
+    {
+        "query": "(v) 基础 、 放眼 (a){begin($1)!=[顶 够]; len($2)>1}",
+        "description": "动词后面接基础，然后是单字连词，再接形容词，但不以顶或够开始，第二个词长度大于1"
+    },
+    {
+        "query": "激发 (n){len($1)>1}",
+        "description": "激发后面跟一个长度大于1的名词"
+    },
+    {
+        "query": "(w) (v){len($2)=2}",
+        "description": "两个词，第一个词是单字，第二个词是2个字"
+    },
+    {
+        "query": "民惟邦本 ./w 本固邦宁",
+        "description": "民惟邦本后面接单字，然后是本固邦宁"
+    },
+    {
+        "query": "试点",
+        "description": "仅包含试点"
+    },
+    {
+        "query": "要 .... 。",
+        "description": "要后面跟任意数量的字符，然后是句尾标点"
+    },
+    {
+        "query": "发力 ./w 立行",
+        "description": "发力后面接单字，然后是立即行动"
+    },
+    {
+        "query": "和 (n){len($1)>1}",
+        "description": "和后面接一个长度大于1的名词"
+    },
+    {
+        "query": "意见 (c) 建议{count<900}",
+        "description": "意见后面接建议，且实例频次小于900"
+    },
+    {
+        "query": "、 @/[ad v] 记",
+        "description": "并列连词后接形容词、动词或记"
+    },
+    {
+        "query": ". 外",
+        "description": "句尾是.，后面接外"
+    },
+    {
+        "query": "花儿",
+        "description": "仅包含花儿"
+    },
+    {
+        "query": "的 (n) 审批{end($1)!=[接 日]}",
+        "description": "的后面接名词，但不以接或日结尾"
+    },
+    {
+        "query": "， (v) 。{len($1)<3}",
+        "description": "逗号后面接动词，且前面的字符长度小于3，然后是句尾"
+    },
+    {
+        "query": "吴天文 ./[v v] 。",
+        "description": "吴天文后面接两个动词，然后是句尾"
+    },
+    {
+        "query": "服务 (n){count>3}",
+        "description": "服务后面接名词，实例频次大于3"
+    },
+    {
+        "query": "说 ~",
+        "description": "说后面接任意字符"
+    },
+    {
+        "query": "~/[v v] 增效",
+        "description": "波浪线后面接两个动词，然后是增效"
+    },
+    {
+        "query": "是 .. 。",
+        "description": "是后面跟任意数量的字符，然后是句尾"
+    },
+    {
+        "query": "(l) ， (n){len($1)!=5; len($2)!=3}",
+        "description": "两个词，第一个词是逗号，第二个词不是5个字也不是3个字"
+    },
+    {
+        "query": "(v) (nr){len($1)>2}",
+        "description": "动词后面接人名，且动词长度大于2"
+    },
+    {
+        "query": "服务 (n){count>9}",
+        "description": "服务后面接名词，实例频次大于9"
+    },
+    {
+        "query": "更 (v) 办{count>3}",
+        "description": "更后面接动词办，实例频次大于3"
+    },
+    {
+        "query": "(nr) 说{middle($1)!=[赞 五 作 倒]}",
+        "description": "人名后面接说，但人名中间不包含赞、五、作或倒"
+    },
+    {
+        "query": "(nr) (v){end($1)!=[烂 才 扣]}",
+        "description": "人名后面接动词，但动词不以烂、才或扣结尾"
+    },
+    {
+        "query": "健全 .. 标准",
+        "description": "健全后面跟任意数量的字符，然后是标准"
+    },
+    {
+        "query": "资源 (b) 市场{len($1)>1}",
+        "description": "资源后面接单字，然后是市场，且单字长度大于1"
+    },
+    {
+        "query": "、 .. 征",
+        "description": "并列连词后面跟任意数量的字符，然后是征"
+    },
+    {
+        "query": "(j) 未{len($1)=2}",
+        "description": "两个字的词，第一个词是未"
+    },
+    {
+        "query": "人民 (n){begin($1)=[视 仔]}",
+        "description": "人民后面接以视或仔开始的名词"
+    },
+    {
+        "query": "广东 (v) 企业{end($1)!=[除 姓 零]}",
+        "description": "广东后面接企业，但不以除、姓或零结尾"
+    }
+]
+```

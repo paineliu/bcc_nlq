@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "一旦v+n[，+。]",
+        "description": "一旦后接动词，动词后接名词，名词后可接逗号或句号"
+    },
+    {
+        "query": "一旦v n[， 。]",
+        "description": "一旦后接动词，动词后接名词，名词后可接逗号或句号"
+    },
+    {
+        "query": "w是[，+、+]是吧",
+        "description": "w后接单字是，是后可接逗号、顿号或句号，最后接是吧"
+    },
+    {
+        "query": "w是[， 、 ]是吧",
+        "description": "w后接单字是，是后可接逗号、顿号或句号，最后接是吧"
+    },
+    {
+        "query": "一心v+v[，+。]",
+        "description": "一心后接动词，动词后可接逗号或句号，然后再次接动词"
+    },
+    {
+        "query": "一心v v[， 。]",
+        "description": "一心后接动词，动词后可接逗号或句号，然后再次接动词"
+    },
+    {
+        "query": "[ns+nt+f+s]见证了",
+        "description": "ns、nt、f、s组成的集合后接见证了"
+    },
+    {
+        "query": "[ns nt f s]见证了",
+        "description": "ns、nt、f、s组成的集合后接见证了"
+    },
+    {
+        "query": "多么d+v[，+。]",
+        "description": "多么后接形容词，形容词后可接逗号或句号，然后接动词"
+    },
+    {
+        "query": "多么d v[， 。]",
+        "description": "多么后接形容词，形容词后可接逗号或句号，然后接动词"
+    },
+    {
+        "query": "以便d+n[，+。]",
+        "description": "以便后接副词，副词后接名词，名词后可接逗号或句号"
+    },
+    {
+        "query": "以便d n[， 。]",
+        "description": "以便后接副词，副词后接名词，名词后可接逗号或句号"
+    },
+    {
+        "query": "陆续v[，+。]",
+        "description": "陆续后接动词，动词后可接逗号或句号"
+    },
+    {
+        "query": "陆续v[， 。]",
+        "description": "陆续后接动词，动词后可接逗号或句号"
+    },
+    {
+        "query": "大多v[，+。]",
+        "description": "大多后接动词，动词后可接逗号或句号"
+    },
+    {
+        "query": "大多v[， 。]",
+        "description": "大多后接动词，动词后可接逗号或句号"
+    },
+    {
+        "query": "w仆.主[q+r+d+c+v+a++n+m++p]w",
+        "description": "w后接仆，仆后接主，主由q、r、d、c、v、a、n、m、p组成"
+    },
+    {
+        "query": "w仆.主[q r d c v a  n m  p]w",
+        "description": "w后接仆，仆后接主，主由q、r、d、c、v、a、n、m、p组成"
+    },
+    {
+        "query": "[过分+过于+还是][v+a+n+r][，+。]",
+        "description": "过分、过于、还是组成的集合后接动词、形容词、名词、再接r，最后可接逗号或句号"
+    },
+    {
+        "query": "[过分 过于 还是][v a n r][， 。]",
+        "description": "过分、过于、还是组成的集合后接动词、形容词、名词、再接r，最后可接逗号或句号"
+    },
+    {
+        "query": "成功*[盈利+营利]",
+        "description": "成功后接星号，星号后接盈利、营利"
+    },
+    {
+        "query": "成功*[盈利 营利]",
+        "description": "成功后接星号，星号后接盈利、营利"
+    },
+    {
+        "query": "m+q[，+。]",
+        "description": "m、q组成的集合后接逗号或句号"
+    },
+    {
+        "query": "m q[， 。]",
+        "description": "m、q组成的集合后接逗号或句号"
+    },
+    {
+        "query": "[宁愿+要么+以免][v+a][，+。]",
+        "description": "宁愿、要么、以免组成的集合后接动词、形容词，最后可接逗号或句号"
+    },
+    {
+        "query": "[宁愿 要么 以免][v a][， 。]",
+        "description": "宁愿、要么、以免组成的集合后接动词、形容词，最后可接逗号或句号"
+    },
+    {
+        "query": "你才[a+v]",
+        "description": "你后接才，才后接形容词或动词"
+    },
+    {
+        "query": "你才[a v]",
+        "description": "你后接才，才后接形容词或动词"
+    },
+    {
+        "query": "的确v+v[，+。]",
+        "description": "的确后接动词，动词后可接逗号或句号，然后再次接动词"
+    },
+    {
+        "query": "的确v v[， 。]",
+        "description": "的确后接动词，动词后可接逗号或句号，然后再次接动词"
+    },
+    {
+        "query": "w[q+r+d+c+v+a++n+m++p]恶.善w",
+        "description": "w后接q、r、d、c、v、a、n、m、p组成的集合，然后恶后接句点、善，善后接w"
+    },
+    {
+        "query": "w[q r d c v a  n m  p]恶.善w",
+        "description": "w后接q、r、d、c、v、a、n、m、p组成的集合，然后恶后接句点、善，善后接w"
+    },
+    {
+        "query": "过分v[，+。]",
+        "description": "过分后接动词，动词后可接逗号或句号"
+    },
+    {
+        "query": "过分v[， 。]",
+        "description": "过分后接动词，动词后可接逗号或句号"
+    },
+    {
+        "query": "[，+。]c+v+y+[，+。]",
+        "description": "逗号或句号后接c、v、y组成的集合，然后c、v、y、c、v、y后接逗号或句号"
+    },
+    {
+        "query": "[， 。]c v y [， 。]",
+        "description": "逗号或句号后接c、v、y组成的集合，然后c、v、y、c、v、y后接逗号或句号"
+    },
+    {
+        "query": "w凶.吉[q+r+d+c+v+a++n+m++p]w",
+        "description": "w后接凶，凶后接句点，然后q、r、d、c、v、a、n、m、p组成的集合后接吉，吉后接w"
+    },
+    {
+        "query": "w凶.吉[q r d c v a  n m  p]w",
+        "description": "w后接凶，凶后接句点，然后q、r、d、c、v、a、n、m、p组成的集合后接吉，吉后接w"
+    },
+    {
+        "query": "[另外+陆续+屡次]v[v+a+n+][，+。]",
+        "description": "另外、陆续、屡次组成的集合后接v，v后接v、a、n、v，最后可接逗号或句号"
+    },
+    {
+        "query": "[另外 陆续 屡次]v[v a n ][， 。]",
+        "description": "另外、陆续、屡次组成的集合后接v，v后接v、a、n、v，最后可接逗号或句号"
+    }
+]
+```

@@ -1,0 +1,168 @@
+为了将给定的检索式转换为带含义的JSON结构，我们需要理解每个检索式的具体含义和规则应用。以下是对每个检索式转换后的JSON结构：
+
+```json
+[
+    {
+        "query": "旁门左道",
+        "description": "包含旁门左道的句子"
+    },
+    {
+        "query": "尿在",
+        "description": "尿后面离合出现在"
+    },
+    {
+        "query": "时间是毒药",
+        "description": "时间后接是，后面是毒药"
+    },
+    {
+        "query": "选定",
+        "description": "选定作为一个单独的词汇"
+    },
+    {
+        "query": "错别字",
+        "description": "包含错别字的句子"
+    },
+    {
+        "query": "力",
+        "description": "作为单个词的力"
+    },
+    {
+        "query": "等于说",
+        "description": "等于后面接说"
+    },
+    {
+        "query": "是吗？",
+        "description": "是后面接吗，后面是问号"
+    },
+    {
+        "query": "怜香惜玉",
+        "description": "怜香惜玉作为一个单独的词汇"
+    },
+    {
+        "query": "和谐和生",
+        "description": "和谐和生作为一个连续的词汇"
+    },
+    {
+        "query": "逃兵",
+        "description": "逃兵作为一个单独的词汇"
+    },
+    {
+        "query": "阻塞交通",
+        "description": "阻塞后面接交通"
+    },
+    {
+        "query": "给予",
+        "description": "给予作为一个单独的词汇"
+    },
+    {
+        "query": "上门",
+        "description": "上门作为一个单独的词汇"
+    },
+    {
+        "query": "结果通常",
+        "description": "结果通常作为一个连续的词汇"
+    },
+    {
+        "query": "虎妈",
+        "description": "虎妈作为一个单独的词汇"
+    },
+    {
+        "query": "登记机关",
+        "description": "登记机关作为一个连续的词汇"
+    },
+    {
+        "query": "高级",
+        "description": "高级作为一个单独的词汇"
+    },
+    {
+        "query": "发明",
+        "description": "发明作为一个单独的词汇"
+    },
+    {
+        "query": "讲句老实话",
+        "description": "讲句后面接老实话"
+    },
+    {
+        "query": "点火",
+        "description": "点火作为一个单独的词汇"
+    },
+    {
+        "query": "农村改革",
+        "description": "农村改革作为一个连续的词汇"
+    },
+    {
+        "query": "对吧",
+        "description": "对后面接吧"
+    },
+    {
+        "query": "也许会",
+        "description": "也许后面接会"
+    },
+    {
+        "query": "结果",
+        "description": "结果作为一个单独的词汇"
+    },
+    {
+        "query": "和谐动听",
+        "description": "和谐动听作为一个连续的词汇"
+    },
+    {
+        "query": "和谐带入",
+        "description": "和谐带入作为一个连续的词汇"
+    },
+    {
+        "query": "放人权",
+        "description": "放权后面接人权"
+    },
+    {
+        "query": "人权悲",
+        "description": "人权后面接悲"
+    },
+    {
+        "query": "这一开始就",
+        "description": "这一开始就作为一个连续的词汇"
+    },
+    {
+        "query": "人权技",
+        "description": "人权后面接技"
+    },
+    {
+        "query": "。对对",
+        "description": "。后面接对对"
+    },
+    {
+        "query": "书画",
+        "description": "书画作为一个连续的词汇"
+    },
+    {
+        "query": "掐",
+        "description": "掐作为一个单独的词汇"
+    },
+    {
+        "query": "宁肯",
+        "description": "宁肯作为一个连续的词汇"
+    },
+    {
+        "query": "一马当先",
+        "description": "一马当先作为一个连续的词汇"
+    },
+    {
+        "query": "喜欢",
+        "description": "喜欢作为一个单独的词汇"
+    },
+    {
+        "query": "人更和谐",
+        "description": "人后面接更，再接和谐"
+    },
+    {
+        "query": "不越",
+        "description": "不后面接越"
+    },
+    {
+        "query": "，你这就",
+        "description": "，后面接你这，再接就"
+    }
+]
+```
+
+这些JSON结构包含了每个检索式的查询和对应的描述，反映了检索式的基本含义。

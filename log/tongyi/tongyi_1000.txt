@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "首府",
+        "description": "包含'首府'这个词的句子"
+    },
+    {
+        "query": "足足的",
+        "description": "包含'足足的'这个成语的句子"
+    },
+    {
+        "query": "贤惠",
+        "description": "包含'贤惠'这个词的句子"
+    },
+    {
+        "query": "报效",
+        "description": "包含'报效'这个词的句子"
+    },
+    {
+        "query": "和谐之情",
+        "description": "包含'和谐之情'这个成语的句子"
+    },
+    {
+        "query": "辎重",
+        "description": "包含'辎重'这个词的句子"
+    },
+    {
+        "query": "\"意思是\"",
+        "description": "包含\"意思是\"这个表达的句子"
+    },
+    {
+        "query": "不太苦",
+        "description": "包含'不太苦'这个词组的句子"
+    },
+    {
+        "query": "储蓄",
+        "description": "包含'储蓄'这个词的句子"
+    },
+    {
+        "query": "贫困治理",
+        "description": "包含'贫困治理'这个短语的句子"
+    },
+    {
+        "query": "个别",
+        "description": "包含'个别'这个词的句子"
+    },
+    {
+        "query": "一般来说",
+        "description": "包含'一般来说'这个短语的句子"
+    },
+    {
+        "query": "总之，",
+        "description": "包含'总之，'这个表达的句子"
+    },
+    {
+        "query": "这叫什么",
+        "description": "包含'这叫什么'这个表达的句子"
+    },
+    {
+        "query": "不光是",
+        "description": "包含'不光是'这个短语的句子"
+    },
+    {
+        "query": "肺癌",
+        "description": "包含'肺癌'这个词的句子"
+    },
+    {
+        "query": "未来派",
+        "description": "包含'未来派'这个词的句子"
+    },
+    {
+        "query": "土地",
+        "description": "包含'土地'这个词的句子"
+    },
+    {
+        "query": "极度不",
+        "description": "包含'极度不'这个表达的句子"
+    },
+    {
+        "query": "漠漠",
+        "description": "包含'漠漠'这个词的句子"
+    },
+    {
+        "query": "轻",
+        "description": "包含'轻'这个词的句子"
+    },
+    {
+        "query": "撑死",
+        "description": "包含'撑死'这个词组的句子"
+    },
+    {
+        "query": "暂且",
+        "description": "包含'暂且'这个词的句子"
+    },
+    {
+        "query": "多了嘴",
+        "description": "包含'多了嘴'这个词组的句子"
+    },
+    {
+        "query": "降陆",
+        "description": "包含'降陆'这个词组的句子"
+    },
+    {
+        "query": "轮滑",
+        "description": "包含'轮滑'这个词的句子"
+    },
+    {
+        "query": "告状",
+        "description": "包含'告状'这个词的句子"
+    },
+    {
+        "query": "不算",
+        "description": "包含'不算'这个词组的句子"
+    },
+    {
+        "query": "趣味",
+        "description": "包含'趣味'这个词的句子"
+    },
+    {
+        "query": "生长",
+        "description": "包含'生长'这个词的句子"
+    },
+    {
+        "query": "打什么岔",
+        "description": "包含'打什么岔'这个表达的句子"
+    },
+    {
+        "query": "想来大概",
+        "description": "包含'想来大概'这个表达的句子"
+    },
+    {
+        "query": "艳艳",
+        "description": "包含'艳艳'这个词的句子"
+    },
+    {
+        "query": "详实",
+        "description": "包含'详实'这个词的句子"
+    },
+    {
+        "query": "现在",
+        "description": "包含'现在'这个词的句子"
+    },
+    {
+        "query": "我也经常",
+        "description": "包含'我也经常'这个表达的句子"
+    },
+    {
+        "query": "我还说什么",
+        "description": "包含'我还说什么'这个表达的句子"
+    },
+    {
+        "query": "可爱子",
+        "description": "包含'可爱子'这个词的句子"
+    },
+    {
+        "query": "饮马于河",
+        "description": "包含'饮马于河'这个表达的句子"
+    },
+    {
+        "query": "?",
+        "description": "包含问号的句子"
+    }
+]
+```

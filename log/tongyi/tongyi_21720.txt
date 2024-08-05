@@ -1,0 +1,128 @@
+```json
+[
+    {
+        "query": "拙处+建功/v+。",
+        "description": "拙处后接建功/v，再接句尾。"
+    },
+    {
+        "query": "拙处 建功/v 。",
+        "description": "拙处后接建功/v，再接句尾。"
+    },
+    {
+        "query": "时代/n+更+要+讲+科学+精神/n",
+        "description": "时代后接更，更后接要，要后接讲，讲后接科学，科学后接精神。"
+    },
+    {
+        "query": "时代/n 更 要 讲 科学 精神/n",
+        "description": "时代后接更，更后接要，要后接讲，讲后接科学，科学后接精神。"
+    },
+    {
+        "query": "机会+。/w",
+        "description": "机会后接句尾。"
+    },
+    {
+        "query": "机会 。/w",
+        "description": "机会后接句尾。"
+    },
+    {
+        "query": "大水/n+大",
+        "description": "大水后接大。"
+    },
+    {
+        "query": "大水/n 大",
+        "description": "大水后接大。"
+    },
+    {
+        "query": "风情/n*a",
+        "description": "风情后接一个词。"
+    },
+    {
+        "query": "延./v",
+        "description": "延后接动词。"
+    },
+    {
+        "query": "附件/n+：",
+        "description": "附件后接冒号。"
+    },
+    {
+        "query": "附件/n ：",
+        "description": "附件后接冒号。"
+    },
+    {
+        "query": "产业+改/v+穷业",
+        "description": "产业后接改/v，改/v后接穷业。"
+    },
+    {
+        "query": "产业 改/v 穷业",
+        "description": "产业后接改/v，改/v后接穷业。"
+    },
+    {
+        "query": "密切+关注/v+。",
+        "description": "密切后接关注/v，关注/v后接句尾。"
+    },
+    {
+        "query": "密切 关注/v 。",
+        "description": "密切后接关注/v，关注/v后接句尾。"
+    },
+    {
+        "query": "宪法+具有/v+高度",
+        "description": "宪法后接具有/v，具有/v后接高度。"
+    },
+    {
+        "query": "宪法 具有/v 高度",
+        "description": "宪法后接具有/v，具有/v后接高度。"
+    },
+    {
+        "query": "。延/v",
+        "description": "句尾前接延/v。"
+    },
+    {
+        "query": "策/n+就+等于+精准+了+吗/y",
+        "description": "策后接就，就后接等于，等于后接精准，精准后接了，了后接吗/y。"
+    },
+    {
+        "query": "策/n 就 等于 精准 了 吗/y",
+        "description": "策后接就，就后接等于，等于后接精准，精准后接了，了后接吗/y。"
+    },
+    {
+        "query": "。延/v",
+        "description": "句尾前接延/v。"
+    },
+    {
+        "query": "。冷了",
+        "description": "句尾前接冷了。"
+    },
+    {
+        "query": "访问+蒙古国/ns",
+        "description": "访问后接蒙古国/ns。"
+    },
+    {
+        "query": "访问 蒙古国/ns",
+        "description": "访问后接蒙古国/ns。"
+    },
+    {
+        "query": "执法+效能/n+监察",
+        "description": "执法后接效能/n，效能/n后接监察。"
+    },
+    {
+        "query": "执法 效能/n 监察",
+        "description": "执法后接效能/n，效能/n后接监察。"
+    },
+    {
+        "query": "重/d+v",
+        "description": "重/d后接动词。"
+    },
+    {
+        "query": "重/d v",
+        "description": "重/d后接动词。"
+    },
+    {
+        "query": "为/v+入驻+组织+提供/v",
+        "description": "为/v后接入驻，入驻后接组织，组织后接提供/v。"
+    },
+    {
+        "query": "为/v 出入/v 组织/v 提供/v",
+        "description": "为/v后接出入/v，出入/v后接组织/v，组织/v后接提供/v。"
+    }
+]
+```

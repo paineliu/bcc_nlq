@@ -1,0 +1,160 @@
+```json
+[
+    {
+        "query": "(p) 年龄{len($1)=1}",
+        "description": "长度为1的年龄"
+    },
+    {
+        "query": "李 @/[nr v] 说",
+        "description": "李后面接人名或动词并说"
+    },
+    {
+        "query": "青石村 全景/n 。",
+        "description": "青石村后面接名词全景并以句号结尾"
+    },
+    {
+        "query": "经过 .",
+        "description": "经过后接任意字符"
+    },
+    {
+        "query": "红叶",
+        "description": "红叶单独作为句子"
+    },
+    {
+        "query": "(n) 支书 杨庆华 说 (w){$1!=$2}",
+        "description": "支书杨庆华说，但前后内容不相同"
+    },
+    {
+        "query": "， 真切",
+        "description": "逗号后接真切"
+    },
+    {
+        "query": "扫 ~ ！",
+        "description": "扫后接任意词并以感叹号结尾"
+    },
+    {
+        "query": "(v) 要{len($1)<3}",
+        "description": "长度小于3的要"
+    },
+    {
+        "query": "韭菜 ~/[n v] 人民",
+        "description": "韭菜后面离合出现名词或动词和人民"
+    },
+    {
+        "query": "治 (n) ，{count<687}",
+        "description": "治后面接名词，且实例频次小于687"
+    },
+    {
+        "query": "神 @/[a v] 送",
+        "description": "神后面接形容词或动词并送"
+    },
+    {
+        "query": "整治 (v) 首次{end($1)!=[俺 种 角]}",
+        "description": "整治后接首次，但不以俺、种、角结尾"
+    },
+    {
+        "query": "@ 深化",
+        "description": "深化，统计时按照词性归并"
+    },
+    {
+        "query": "气难扬 w",
+        "description": "气难扬作为句尾"
+    },
+    {
+        "query": "环保 (v) 资金{len($1)=1}",
+        "description": "环保后接单音节资金"
+    },
+    {
+        "query": "， @/[d v] 沾光",
+        "description": "逗号后接连词或动词并沾光"
+    },
+    {
+        "query": "相 ../v ，",
+        "description": "相后面接双音节动词，逗号前的内容"
+    },
+    {
+        "query": "小 (n) 图{len($1)<3}",
+        "description": "小后面接长度小于3的名词图"
+    },
+    {
+        "query": "(r) 的{len($1)!=3}",
+        "description": "的后面不是3个字符"
+    },
+    {
+        "query": "发好 n 之",
+        "description": "发好后面接名词"
+    },
+    {
+        "query": "身段 (v) 信任{count<866}",
+        "description": "身段后接信任，频次小于866"
+    },
+    {
+        "query": "表述",
+        "description": "表述单独作为句子"
+    },
+    {
+        "query": "容纳 (n) 表述{begin($1)!=[句 钱]}",
+        "description": "容纳后接名词表述，但不以句或钱开头"
+    },
+    {
+        "query": "忌 (v) 假{len($1)=1}",
+        "description": "忌后接单音节假"
+    },
+    {
+        "query": "(n) (vn){len($2)>1}",
+        "description": "两个连续的名词或动词，其中第二个词长度大于1"
+    },
+    {
+        "query": "攻坚克 @",
+        "description": "攻坚克，统计时按照词性归并"
+    },
+    {
+        "query": "政策 ~/[v v]",
+        "description": "政策后面离合出现两个动词"
+    },
+    {
+        "query": "小 ~ 细实",
+        "description": "小后面接一个词细实"
+    },
+    {
+        "query": "(n) (v){len($1)=2; begin($2)=[转变 对]}",
+        "description": "两个连续词，第一个词长度为2且第二个词以转变或对开头"
+    },
+    {
+        "query": "管 (n){end($1)!=[空 爷 准]}",
+        "description": "管后面接名词，但不以空、爷、准结尾"
+    },
+    {
+        "query": "融合 (v) 发展{len($1)=2}",
+        "description": "融合后接发展，且融合是双音节词"
+    },
+    {
+        "query": "重 (v){count>10}",
+        "description": "重后接动词，频次大于10"
+    },
+    {
+        "query": "(nr) 之{count<664}",
+        "description": "人名后接之，频次小于664"
+    },
+    {
+        "query": "实力 d 增强",
+        "description": "实力后接副词增强"
+    },
+    {
+        "query": "有限 .. 收购",
+        "description": "有限后面接任意字符再接收购"
+    },
+    {
+        "query": "改到 (s){len($1)!=3}",
+        "description": "改到后面接非3个字符的字符串"
+    },
+    {
+        "query": "更 需/v 细化",
+        "description": "更后面接需，然后接动词细化"
+    },
+    {
+        "query": "例如/v ，",
+        "description": "例如后面接动词，逗号前的内容"
+    }
+]
+```

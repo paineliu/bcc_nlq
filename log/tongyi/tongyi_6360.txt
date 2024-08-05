@@ -1,0 +1,166 @@
+以下是将给定检索式转换为带含义的json结构的结果：
+
+```json
+[
+    {
+        "query": "得正a+w",
+        "description": "得到正向的评价或结果"
+    },
+    {
+        "query": "得正a w",
+        "description": "得到正向的评价或结果"
+    },
+    {
+        "query": "v喽w",
+        "description": "发出某种声音或表示某种行为的动词后跟了w"
+    },
+    {
+        "query": "a专业户",
+        "description": "形容某人或某事擅长或专注于特定领域"
+    },
+    {
+        "query": "还v+w",
+        "description": "表示对过去行为的回顾或强调动作的持续性"
+    },
+    {
+        "query": "还v w",
+        "description": "表示对过去行为的回顾或强调动作的持续性"
+    },
+    {
+        "query": "把n捧",
+        "description": "表示将某物或某人捧起来的动作或状态"
+    },
+    {
+        "query": "虚a",
+        "description": "形容虚幻、虚假的状态"
+    },
+    {
+        "query": "a协会",
+        "description": "表示组织或团体的名称"
+    },
+    {
+        "query": "”众n",
+        "description": "引用或描述大众、群体的名词"
+    },
+    {
+        "query": "a农作物",
+        "description": "表示农业种植的对象"
+    },
+    {
+        "query": "v+m眼",
+        "description": "动词后跟了m眼，可能表示某种视觉上的动作或效果"
+    },
+    {
+        "query": "v m眼",
+        "description": "动词后跟了m眼，可能表示某种视觉上的动作或效果"
+    },
+    {
+        "query": "你说你v不v",
+        "description": "表示对某人的疑问或自我确认"
+    },
+    {
+        "query": "m掬",
+        "description": "可能表示某种情感的表达或动作"
+    },
+    {
+        "query": "改革开放n",
+        "description": "历史事件或政策的描述"
+    },
+    {
+        "query": "挺a的",
+        "description": "表示对某事或某人的肯定或满意"
+    },
+    {
+        "query": "日渐a",
+        "description": "表示逐渐增加或改善的状态"
+    },
+    {
+        "query": "牢房v",
+        "description": "表示关押或监禁的动作或状态"
+    },
+    {
+        "query": "地震n",
+        "description": "自然现象的描述"
+    },
+    {
+        "query": "私房v",
+        "description": "表示私人拥有的房产或秘密的信息"
+    },
+    {
+        "query": "一种a一种a",
+        "description": "表示两种不同的事物或状态"
+    },
+    {
+        "query": "继续+没v",
+        "description": "表示某事的持续进行但未完成或未达到预期"
+    },
+    {
+        "query": "继续 没v",
+        "description": "表示某事的持续进行但未完成或未达到预期"
+    },
+    {
+        "query": "v了几秒",
+        "description": "表示动作持续了几秒"
+    },
+    {
+        "query": "a华丽",
+        "description": "形容某物或某人的外表或风格"
+    },
+    {
+        "query": "p手段",
+        "description": "表示策略、方法或技巧"
+    },
+    {
+        "query": "可V。",
+        "description": "表示可能性或不确定性"
+    },
+    {
+        "query": "既a又a",
+        "description": "表示同时拥有或涉及两种不同的属性或状态"
+    },
+    {
+        "query": "大约就是v",
+        "description": "表示对某个数量或时间的估计或概述"
+    },
+    {
+        "query": "m瓶n",
+        "description": "表示一瓶或多瓶的容器"
+    },
+    {
+        "query": "w四个",
+        "description": "表示数量为四的描述"
+    },
+    {
+        "query": "m + 伙 + n",
+        "description": "表示团队、伙伴或集体的组合"
+    },
+    {
+        "query": "m 伙 n",
+        "description": "表示团队、伙伴或集体的组合"
+    },
+    {
+        "query": "v原因",
+        "description": "表示寻找或说明某事发生的原因"
+    },
+    {
+        "query": "r口",
+        "description": "可能表示某种开口的动作或状态"
+    },
+    {
+        "query": "a内幕",
+        "description": "表示隐藏或未公开的信息或事实"
+    },
+    {
+        "query": "无论是n还是n",
+        "description": "表示对两种或更多选项的比较或选择"
+    },
+    {
+        "query": "我+(一)个+n",
+        "description": "表示个体或单一单位的描述"
+    },
+    {
+        "query": "我 (一)个 n",
+        "description": "表示个体或单一单位的描述"
+    }
+]
+```

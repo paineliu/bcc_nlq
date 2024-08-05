@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "九 (n) 北朝{begin($1)!=[钱 并]}",
+        "description": "九后面跟一个名词，但不包括钱或并的名词"
+    },
+    {
+        "query": "独木棺",
+        "description": "独木棺（无限制条件）"
+    },
+    {
+        "query": "甘肃/ns 马鬃山",
+        "description": "甘肃后面接地名马鬃山"
+    },
+    {
+        "query": "(n) (n){end($2)=[址 习]}",
+        "description": "两个名词，第二个名词以址或习结尾"
+    },
+    {
+        "query": "中国",
+        "description": "中国（无限制条件）"
+    },
+    {
+        "query": "(ns) 祥云县{end($1)=[南 呗]}",
+        "description": "地名祥云县，最后一个字可能是南或呗"
+    },
+    {
+        "query": "考古学 (n) 序列{len($1)!=3}",
+        "description": "考古学后面接一个非长度为3的名词"
+    },
+    {
+        "query": "./r 遗址",
+        "description": "单音节的r后接遗址"
+    },
+    {
+        "query": "墓地 ./c 曲踏",
+        "description": "墓地后面接c（连接词）再接曲踏"
+    },
+    {
+        "query": "复原 (n) 王国{len($1)<3}",
+        "description": "复原后面接一个长度小于3的名词"
+    },
+    {
+        "query": "(ns) 考古{len($1)>2}",
+        "description": "两个名词，第一个名词长度大于2"
+    },
+    {
+        "query": "九 (n) 北朝{begin($1)=[原 亲]}",
+        "description": "九后面跟一个名词，但不包括原或亲的名词"
+    },
+    {
+        "query": "军事 的/u 胡汉",
+        "description": "军事后面接u（助词）再接胡汉"
+    },
+    {
+        "query": "升天图 ~/[c v] 展现",
+        "description": "升天图后面接一个c或v结尾的词，这个词可能是展现"
+    },
+    {
+        "query": "内蒙古/ns 岗嘎/ns",
+        "description": "内蒙古后面接地名岗嘎"
+    },
+    {
+        "query": "提供 vn 实证",
+        "description": "提供后面接动词实证"
+    },
+    {
+        "query": "(ns) 人民 大学 历史 学院 教授 (nr){len($1)=2}",
+        "description": "三个及以上名词，其中前两个名词长度为2"
+    },
+    {
+        "query": "(ns) (nr){len($1)>1; len($2)>1}",
+        "description": "两个及以上人名，每个名字长度大于1"
+    },
+    {
+        "query": "的 ~",
+        "description": "的后面接任意词"
+    },
+    {
+        "query": "(ns) 大学{begin($1)=[北 记]}",
+        "description": "大学，但不以北或记开头"
+    },
+    {
+        "query": ".. ：
+        "description": "两个连续的点符号"
+    },
+    {
+        "query": "了 (n) 身份证{end($1)=[络 又 菜 半]}",
+        "description": "了后面接名词身份证，但不以络、又、菜或半结尾"
+    },
+    {
+        "query": "研究院 (v) 北外{len($1)>1}",
+        "description": "研究院后面接一个长度大于1的动词，再接北外"
+    },
+    {
+        "query": "看 . 考核",
+        "description": "看后面隔一个字后接考核"
+    },
+    {
+        "query": "深化 vn 在",
+        "description": "深化后面接动词在"
+    },
+    {
+        "query": "记者 (vx) 了{begin($1)!=[酒 现 姨]}",
+        "description": "记者后面接vx（专业词性）的了，但不以酒、现或姨开头"
+    },
+    {
+        "query": "考核 (v) 的{len($1)=2}",
+        "description": "考核后面接一个长度为2的动词"
+    },
+    {
+        "query": "背后 ./[w v] 增比",
+        "description": "背后后面接w或v的词，可能是增比"
+    },
+    {
+        "query": "./d 考核",
+        "description": "d后接考核"
+    },
+    {
+        "query": "(ns) 县委{len($1)<3}",
+        "description": "两个名词，第一个名词长度小于3"
+    },
+    {
+        "query": "增速 (v){count>2}",
+        "description": "增速是一个频次大于2的动词"
+    },
+    {
+        "query": "为/v 小微",
+        "description": "为后面接动词小微"
+    },
+    {
+        "query": "种菜 @/[v v] 了",
+        "description": "种菜后面接一个动词或动词的了"
+    },
+    {
+        "query": "来 (v) 全面{count>9}",
+        "description": "来后面接一个频次大于9的动词全面"
+    },
+    {
+        "query": "： (nr){count<926}",
+        "description": "冒号后面的人名频次小于926"
+    },
+    {
+        "query": "金文 (v) 。{count>5}",
+        "description": "金文后面接一个频次大于5的句号"
+    },
+    {
+        "query": "保险 ../[f v] 。",
+        "description": "保险后面离合出现f或v的词，后面接句号"
+    },
+    {
+        "query": "(n) 解决 (n){end($1)!=[街 淡 贱]}",
+        "description": "两个名词，解决后面接另一个名词，但不以街、淡或贱结尾"
+    },
+    {
+        "query": "解决 (n) 问题{begin($1)!=[晒 告]}",
+        "description": "解决后面接名词问题，但不以晒或告开头"
+    },
+    {
+        "query": "为 (n) 护驾{len($1)<3}",
+        "description": "为后面接一个长度小于3的名词作为护驾"
+    }
+]
+```

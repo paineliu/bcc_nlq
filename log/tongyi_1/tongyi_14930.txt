@@ -1,0 +1,160 @@
+```json
+[
+    {
+        "query": "在 ~ 心头",
+        "description": "在后面接一个词后接心头"
+    },
+    {
+        "query": "(w) 使 你 惊恐 (u){count>2}",
+        "description": "使你惊恐，且实例频次大于2"
+    },
+    {
+        "query": "(d) 又{len($1)<3}",
+        "description": "又后面跟着长度小于3的词"
+    },
+    {
+        "query": "躲 ./[p v] 睫毛",
+        "description": "躲后面接介词或动词，然后接睫毛"
+    },
+    {
+        "query": "重量 ~/[w v] 声音",
+        "description": "重量后面离合出现声音"
+    },
+    {
+        "query": "无论 @ 或",
+        "description": "无论后面接一个词，或表示选择"
+    },
+    {
+        "query": "和",
+        "description": "和，无其他限定"
+    },
+    {
+        "query": "的 (vn){end($1)=[慰 首]}",
+        "description": "的后面接以慰或首结尾的动词"
+    },
+    {
+        "query": "当做 (a){count<448}",
+        "description": "当做，且实例频次小于448"
+    },
+    {
+        "query": "但 (m) 声音{end($1)!=[未 宇 赵]}",
+        "description": "但后面接一个词，且该词不等于未、宇、赵"
+    },
+    {
+        "query": "做 (q) 天真{len($1)!=2}",
+        "description": "做后面接非长度为2的天真"
+    },
+    {
+        "query": "个 (vn) 痴迷{len($1)!=3}",
+        "description": "个后面接非长度为3的名词痴迷"
+    },
+    {
+        "query": "(r) 陪伴 ， 你 的 人生 才 像 一 (q){len($1)=1; len($2)!=2}",
+        "description": "陪伴后面接逗号，你、的、人生、才、像、一个长度为1的词，且第二个词不是长度为2的词"
+    },
+    {
+        "query": "../d 从不",
+        "description": "二字动词后面接从不"
+    },
+    {
+        "query": "地 @ 在",
+        "description": "地后面接一个词，然后是‘在’"
+    },
+    {
+        "query": "相识 ~/[v v] 邻居",
+        "description": "相识后面离合出现两个动词，然后接邻居"
+    },
+    {
+        "query": "d 说",
+        "description": "d后面接一个词，然后是‘说’"
+    },
+    {
+        "query": "的 .. 是",
+        "description": "的后面隔一个字后接‘是’"
+    },
+    {
+        "query": "她 (v) 的{end($1)!=[妞 哦 丫]}",
+        "description": "她后面接一个动词，动词后面接的‘的’后面不接妞、哦、丫"
+    },
+    {
+        "query": "院子 (v){begin($1)=[散 菜]}",
+        "description": "院子后面是以散或菜开头的动词"
+    },
+    {
+        "query": "./n 就",
+        "description": "单音节动词后面接‘就’"
+    },
+    {
+        "query": "晚上",
+        "description": "晚上，无其他限定"
+    },
+    {
+        "query": "在 ../[s v] 听",
+        "description": "在后面接一个双音节动词或名词，然后听"
+    },
+    {
+        "query": "(r) 陪 (u){count<604}",
+        "description": "陪后面接一个词，且实例频次小于604"
+    },
+    {
+        "query": "照着 ~ 孤独",
+        "description": "照着后面接一个词，然后是‘孤独’"
+    },
+    {
+        "query": "共有 @ 喧嚣",
+        "description": "共有后面接一个词，统计时按照词性归并"
+    },
+    {
+        "query": "(n) (n){end($2)=[子 躺]}",
+        "description": "两个相邻的名词，且第二个名词以子或躺结尾"
+    },
+    {
+        "query": "(d) 让 (r){$1!=$2}",
+        "description": "让后面接一个词，且该词不等于第二个词"
+    },
+    {
+        "query": "有点 (p) 他{count>10}",
+        "description": "有点后面接一个词，然后是‘他’，实例频次大于10"
+    },
+    {
+        "query": "那 ../[a v] ，",
+        "description": "那后面接一个词，可能是形容词或动词，然后是逗号"
+    },
+    {
+        "query": "递给",
+        "description": "递给，无其他限定"
+    },
+    {
+        "query": "问 ./r ，",
+        "description": "问后面接一个词，然后是逗号"
+    },
+    {
+        "query": "@/[r v] 说",
+        "description": "一个词后接r或v，然后是‘说’"
+    },
+    {
+        "query": "说/v ， 那 不行 ， 你 得 收 钱/n",
+        "description": "说后面接一个动词，然后是那、不行、你、得、收、钱、名词"
+    },
+    {
+        "query": "说 . 给",
+        "description": "说后面隔一个字后接‘给’"
+    },
+    {
+        "query": ". 说",
+        "description": "句尾是‘说’"
+    },
+    {
+        "query": "了 (n) 。{len($1)>1}",
+        "description": "了后面接一个非长度为1的名词，然后是句号"
+    },
+    {
+        "query": "认识/v 十/m",
+        "description": "认识后面接一个动词，然后是数字十和一个量词"
+    },
+    {
+        "query": "他 ../d 哪里",
+        "description": "他后面接一个二字动词，然后是‘哪里’"
+    }
+]
+```

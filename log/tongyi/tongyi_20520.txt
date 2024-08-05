@@ -1,0 +1,154 @@
+以下是将给定的检索式转换为带含义的json结构的完整列表：
+
+```json
+[
+    {
+        "query": "太/d+n",
+        "description": "副词太之后加名词"
+    },
+    {
+        "query": "太/d n",
+        "description": "副词太之后直接跟名词"
+    },
+    {
+        "query": "咂/v",
+        "description": "动词咂"
+    },
+    {
+        "query": "./v近+了",
+        "description": "单音节动词之后紧跟近，然后是了"
+    },
+    {
+        "query": "./v近 了",
+        "description": "单音节动词之后紧跟近，之后是了"
+    },
+    {
+        "query": "事件+负有/v+重要",
+        "description": "事件之后跟负有动词和重要"
+    },
+    {
+        "query": "事件 负有/v 重要",
+        "description": "事件之后跟负有动词，之后是重要"
+    },
+    {
+        "query": "做/v+政治",
+        "description": "动词做之后加政治"
+    },
+    {
+        "query": "做/v 政治",
+        "description": "动词做之后直接跟政治"
+    },
+    {
+        "query": "长/a到",
+        "description": "形容词长到"
+    },
+    {
+        "query": "改变/v",
+        "description": "动词改变"
+    },
+    {
+        "query": "床./n",
+        "description": "单音节名词床"
+    },
+    {
+        "query": "压缩+员工/n+应有",
+        "description": "压缩之后加员工和应有"
+    },
+    {
+        "query": "压缩 员工/n 应有",
+        "description": "压缩之后直接跟员工和应有"
+    },
+    {
+        "query": "打开/v+隔绝+陌生人+的+围墙+人民/n",
+        "description": "动词打开之后加隔绝、陌生人、的、围墙、人民"
+    },
+    {
+        "query": "打开/v 隔绝 陌生人 的 围墙 人民/n",
+        "description": "动词打开之后直接加隔绝、陌生人、的、围墙、人民"
+    },
+    {
+        "query": "./v老了",
+        "description": "单音节动词之后紧跟老了"
+    },
+    {
+        "query": "党性/n+的+集中+补钙+加油/v",
+        "description": "党性之后加的、集中、补钙、加油"
+    },
+    {
+        "query": "党性/n 的 集中 补钙 加油/v",
+        "description": "党性之后直接加的、集中、补钙、加油"
+    },
+    {
+        "query": "./v苦了",
+        "description": "单音节动词之后紧跟苦了"
+    },
+    {
+        "query": "a*好意/n",
+        "description": "形容词a之后加好意"
+    },
+    {
+        "query": "未来+全国/n+范围",
+        "description": "未来之后加全国和范围"
+    },
+    {
+        "query": "未来 全国/n 范围",
+        "description": "未来之后直接加全国和范围"
+    },
+    {
+        "query": "不/v",
+        "description": "动词不"
+    },
+    {
+        "query": "n*好意/n",
+        "description": "名词之后加好意"
+    },
+    {
+        "query": "到/v",
+        "description": "动词到"
+    },
+    {
+        "query": "说说+新/a+农村",
+        "description": "说说之后加新和农村"
+    },
+    {
+        "query": "说说 新/a 农村",
+        "description": "说说之后直接加新和农村"
+    },
+    {
+        "query": "a+的+真情/n",
+        "description": "形容词a之后加的、真情"
+    },
+    {
+        "query": ",+高效/a+又",
+        "description": "逗号之后加高效、又"
+    },
+    {
+        "query": "醒睡+两/m+非",
+        "description": "醒睡之后加两和非"
+    },
+    {
+        "query": "醒睡 两/m 非",
+        "description": "醒睡之后直接加两和非"
+    },
+    {
+        "query": "v+热气/n",
+        "description": "动词之后加热气"
+    },
+    {
+        "query": "v 热气/n",
+        "description": "动词之后直接加热气"
+    },
+    {
+        "query": "有+破/v+有立",
+        "description": "有之后加破、有立"
+    },
+    {
+        "query": "有 破/v 有立",
+        "description": "有之后直接加破、有立"
+    },
+    {
+        "query": "苦/a+v",
+        "description": "形容词苦之后加动词"
+    }
+]
+```

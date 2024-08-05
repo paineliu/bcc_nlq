@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "王小波",
+        "description": "包含'王小波'这个词"
+    },
+    {
+        "query": "更不一样",
+        "description": "包含'更不一样'这个词组"
+    },
+    {
+        "query": "生急病",
+        "description": "包含'生急病'这个词组"
+    },
+    {
+        "query": "扭曲",
+        "description": "包含'扭曲'这个词"
+    },
+    {
+        "query": "个税",
+        "description": "包含'个税'这个词组"
+    },
+    {
+        "query": "合唱",
+        "description": "包含'合唱'这个词组"
+    },
+    {
+        "query": "顶价",
+        "description": "包含'顶价'这个词组"
+    },
+    {
+        "query": "大胆",
+        "description": "包含'大胆'这个词"
+    },
+    {
+        "query": "有点",
+        "description": "包含'有点'这个词组"
+    },
+    {
+        "query": "国内乱",
+        "description": "包含'国内乱'这个词组"
+    },
+    {
+        "query": "垃不垃圾",
+        "description": "包含'垃不垃圾'这个短语"
+    },
+    {
+        "query": "有益",
+        "description": "包含'有益'这个词"
+    },
+    {
+        "query": "买的菜",
+        "description": "包含'买的菜'这个词组"
+    },
+    {
+        "query": "冷的",
+        "description": "包含'冷的'这个词"
+    },
+    {
+        "query": "世代",
+        "description": "包含'世代'这个词"
+    },
+    {
+        "query": "人权立",
+        "description": "包含'人权立'这个词组"
+    },
+    {
+        "query": "出台",
+        "description": "包含'出台'这个词"
+    },
+    {
+        "query": "利益和谐",
+        "description": "包含'利益和谐'这个词组"
+    },
+    {
+        "query": "出息",
+        "description": "包含'出息'这个词"
+    },
+    {
+        "query": "说得轻松",
+        "description": "包含'说得轻松'这个词组"
+    },
+    {
+        "query": "过去",
+        "description": "包含'过去'这个词"
+    },
+    {
+        "query": "和",
+        "description": "包含'和'这个词"
+    },
+    {
+        "query": "风味",
+        "description": "包含'风味'这个词"
+    },
+    {
+        "query": "逍遥自在",
+        "description": "包含'逍遥自在'这个词组"
+    },
+    {
+        "query": "微微",
+        "description": "包含'微微'这个词"
+    },
+    {
+        "query": "对立",
+        "description": "包含'对立'这个词"
+    },
+    {
+        "query": "日渐",
+        "description": "包含'日渐'这个词"
+    },
+    {
+        "query": "没挺",
+        "description": "包含'没挺'这个词组"
+    },
+    {
+        "query": "一一",
+        "description": "包含'一一'这个词组"
+    },
+    {
+        "query": "实际上大概",
+        "description": "包含'实际上大概'这个词组"
+    },
+    {
+        "query": "大家",
+        "description": "包含'大家'这个词"
+    },
+    {
+        "query": "才刚",
+        "description": "包含'才刚'这个词组"
+    },
+    {
+        "query": "似乎宁可",
+        "description": "包含'似乎宁可'这个词组"
+    },
+    {
+        "query": "美人权",
+        "description": "包含'美人权'这个词组"
+    },
+    {
+        "query": "碰破",
+        "description": "包含'碰破'这个词组"
+    },
+    {
+        "query": "奶茶婊",
+        "description": "包含'奶茶婊'这个词组"
+    },
+    {
+        "query": "玩个痛快",
+        "description": "包含'玩个痛快'这个词组"
+    },
+    {
+        "query": "和谐优美",
+        "description": "包含'和谐优美'这个词组"
+    },
+    {
+        "query": "太",
+        "description": "包含'太'这个词"
+    },
+    {
+        "query": "死角",
+        "description": "包含'死角'这个词"
+    }
+]
+```

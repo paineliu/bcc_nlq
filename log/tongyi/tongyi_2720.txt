@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "来说",
+        "description": "单字短句，句首为来说"
+    },
+    {
+        "query": "跳高",
+        "description": "单字短句，句首为跳，句尾为高"
+    },
+    {
+        "query": "人权我",
+        "description": "人权后邻我"
+    },
+    {
+        "query": "了算了",
+        "description": "了后邻算、了"
+    },
+    {
+        "query": "实在不行",
+        "description": "实在后邻行"
+    },
+    {
+        "query": "不然",
+        "description": "不然作为单字短句的句尾"
+    },
+    {
+        "query": "结合在",
+        "description": "单字短句，句首为结合，在之间有空格"
+    },
+    {
+        "query": "一个国家和",
+        "description": "单字短句，句首为一个，后邻国家和"
+    },
+    {
+        "query": "唯一的最",
+        "description": "唯一后邻最"
+    },
+    {
+        "query": "什么？",
+        "description": "单字短句，句首为什么，句尾为问号"
+    },
+    {
+        "query": "睡",
+        "description": "单字短句，句首为睡"
+    },
+    {
+        "query": "好像应",
+        "description": "好像后邻应"
+    },
+    {
+        "query": "抬头",
+        "description": "单字短句，句首为抬，句尾为头"
+    },
+    {
+        "query": "这种时间",
+        "description": "这种后邻时间"
+    },
+    {
+        "query": "斗篷",
+        "description": "单字短句，句首为斗，句尾为篷"
+    },
+    {
+        "query": "不太寂寞",
+        "description": "不太后邻寂寞"
+    },
+    {
+        "query": "了半天",
+        "description": "半天后邻了"
+    },
+    {
+        "query": "一种回复",
+        "description": "一种后邻回复"
+    },
+    {
+        "query": "湘江",
+        "description": "单字短句，句首为湘，句尾为江"
+    },
+    {
+        "query": "资本家",
+        "description": "单字短句，句首为资本，句尾为家"
+    },
+    {
+        "query": "击楫中流",
+        "description": "击楫后邻中流"
+    },
+    {
+        "query": "，多个",
+        "description": "逗号后邻多个"
+    },
+    {
+        "query": "虎虎",
+        "description": "单字短句，句首为虎虎"
+    },
+    {
+        "query": "调相和谐",
+        "description": "调相后邻和谐"
+    },
+    {
+        "query": "和谐一大",
+        "description": "和谐后邻一大"
+    },
+    {
+        "query": "肥肥",
+        "description": "单字短句，句首为肥肥"
+    },
+    {
+        "query": "飞飞扬扬",
+        "description": "飞扬后邻飞扬"
+    },
+    {
+        "query": "族际和谐",
+        "description": "族际后邻和谐"
+    },
+    {
+        "query": "不太紧张",
+        "description": "不太后邻紧张"
+    },
+    {
+        "query": "提高通",
+        "description": "提高后邻通"
+    },
+    {
+        "query": "扬人权",
+        "description": "扬后邻人权"
+    },
+    {
+        "query": "喜不喜欢",
+        "description": "喜后邻不、喜"
+    },
+    {
+        "query": "不太足",
+        "description": "不太后邻足"
+    },
+    {
+        "query": "拨款",
+        "description": "单字短句，句首为拨，句尾为款"
+    },
+    {
+        "query": "分发",
+        "description": "分后邻发"
+    },
+    {
+        "query": "甚没",
+        "description": "甚后邻没"
+    },
+    {
+        "query": "人权么",
+        "description": "人权后邻么"
+    },
+    {
+        "query": "我家里有",
+        "description": "我后邻家里有"
+    },
+    {
+        "query": "部人权",
+        "description": "部后邻人权"
+    },
+    {
+        "query": "关于",
+        "description": "单字短句，句首为关于"
+    }
+]
+```

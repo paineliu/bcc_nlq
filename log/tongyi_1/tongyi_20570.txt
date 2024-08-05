@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "提升 @/[vn v] 水平",
+        "description": "提升后面跟单音节或双音节动词，再接名词水平"
+    },
+    {
+        "query": "二 . 构建",
+        "description": "二后面隔一个字后接构建"
+    },
+    {
+        "query": "是 @/[v v] 基层",
+        "description": "是后面跟单音节或双音节动词，再接基层"
+    },
+    {
+        "query": "天气",
+        "description": "天气"
+    },
+    {
+        "query": "(a) (u){len($1)!=2; len($2)=1}",
+        "description": "形容词后接长度不为2的单个字符"
+    },
+    {
+        "query": "写 ../n 状态",
+        "description": "写后面接名词状态"
+    },
+    {
+        "query": "时 ./w",
+        "description": "时后面接单字"
+    },
+    {
+        "query": "有 @ 变化",
+        "description": "有后面接一个词的变化"
+    },
+    {
+        "query": "(vn) 写 不 出 个性 (w){len($1)<3}",
+        "description": "双音节动词写后面接不、出，再接长度小于3的个性"
+    },
+    {
+        "query": "努力",
+        "description": "努力"
+    },
+    {
+        "query": "工作 (vn) 比{len($1)!=3}",
+        "description": "工作后面跟单音节动词，且不接长度为3的词"
+    },
+    {
+        "query": "(v) 不 (v){len($2)<3}",
+        "description": "动词后接不，再接长度小于3的动词"
+    },
+    {
+        "query": "没有 (n) ，{len($1)<3}",
+        "description": "没有后面接名词，且没有接长度为3的词"
+    },
+    {
+        "query": "深恶痛绝 (w){count<918}",
+        "description": "深恶痛绝，频次少于918"
+    },
+    {
+        "query": "(v) ， 水分 层层 (v){len($1)!=3}",
+        "description": "动词后接逗号，再接水分，然后接单个字的层层"
+    },
+    {
+        "query": "' (n) '{middle($1)=[传 有 歌]}",
+        "description": "单引号后面接传、有、歌中的一个词"
+    },
+    {
+        "query": "的 ~/[m v] 位",
+        "description": "的后面接名词或动词位置"
+    },
+    {
+        "query": "要求 ../n 飞扬",
+        "description": "要求后面接名词飞扬"
+    },
+    {
+        "query": "和 ../[n v] 挂钩",
+        "description": "和后面接名词或动词挂钩"
+    },
+    {
+        "query": "有 制度/n 约束",
+        "description": "有后面接名词制度，再接约束"
+    },
+    {
+        "query": "完善 .. 总结",
+        "description": "完善后面隔一个字后接总结"
+    },
+    {
+        "query": "对此 @ 也",
+        "description": "对此后面接一个词也"
+    },
+    {
+        "query": "(q) (n){len($1)!=2; len($2)=2}",
+        "description": "疑问词后接长度不为2的两个字符"
+    },
+    {
+        "query": "~ 某",
+        "description": "一个词"
+    },
+    {
+        "query": "为 @",
+        "description": "为"
+    },
+    {
+        "query": "均 已/d 立案",
+        "description": "均、已后接立案"
+    },
+    {
+        "query": "整治 (v) 恐怖{count<481}",
+        "description": "整治后面接恐怖，频次少于481"
+    },
+    {
+        "query": "党校 @ 会议",
+        "description": "党校后面接会议"
+    },
+    {
+        "query": "@ 引智",
+        "description": "引智"
+    },
+    {
+        "query": "(t) (n){len($1)=2; begin($2)=[微心 口]}",
+        "description": "两个字符后接微心或口"
+    },
+    {
+        "query": "帮 (v){len($1)>1}",
+        "description": "帮后接长度大于1的词"
+    },
+    {
+        "query": "领取 (n) 物品{count<325}",
+        "description": "领取后面接物品，频次少于325"
+    },
+    {
+        "query": "解琛 (v) 人民{len($1)!=2}",
+        "description": "解琛后面接人民，但不接长度为2的词"
+    },
+    {
+        "query": "全年 (v) 案件{count>4}",
+        "description": "全年后面接案件，频次大于4"
+    },
+    {
+        "query": "中 ./[w v]",
+        "description": "中后面接单字或动词"
+    },
+    {
+        "query": "＋ ../n ，",
+        "description": "加号后面接名词，后面是逗号"
+    },
+    {
+        "query": "， r 制造业",
+        "description": "逗号后接制造业"
+    },
+    {
+        "query": "院长 nr 分析",
+        "description": "院长后面接人名，再接分析"
+    },
+    {
+        "query": "贡献率 ~",
+        "description": "贡献率"
+    },
+    {
+        "query": "乡村 @ 培养",
+        "description": "乡村后面接培养"
+    }
+]
+```

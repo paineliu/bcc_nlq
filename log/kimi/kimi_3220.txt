@@ -1,0 +1,86 @@
+以下是检索式及其含义的JSON结构列表：
+
+```json
+[
+    {
+        "query": "一/m 特大",
+        "description": "一后面接特大，且一为数词"
+    },
+    {
+        "query": "发展 (a) 产业{count<626}",
+        "description": "发展后接形容词和产业，产业出现次数少于626"
+    },
+    {
+        "query": "产业 (vn) 研讨会{len($1)<3}",
+        "description": "产业后接动名词研讨会，且研讨会长度少于3"
+    },
+    {
+        "query": "用电 @/[r v] 用心",
+        "description": "用电后面接任意词性，再接用心"
+    },
+    {
+        "query": "(nr) 成 (n){len($1)=1; len($2)=2}",
+        "description": "人名后接单字的成，再接双字的名词"
+    },
+    {
+        "query": "n 事业",
+        "description": "名词后接事业"
+    },
+    {
+        "query": "荣记 .../[n v]",
+        "description": "荣记后面接任意长度的序列，后接名词或动词"
+    },
+    {
+        "query": "等 (n) 立案{count>5}",
+        "description": "等后面接名词，再接立案，且立案出现次数大于5"
+    },
+    {
+        "query": "(r) 就{count<249}",
+        "description": "副词后接就，且就出现次数少于249"
+    },
+    {
+        "query": "瞧 (n) 。{len($1)<3}",
+        "description": "瞧后面接名词，再接句号，且名词长度少于3"
+    },
+    {
+        "query": "的 。/w",
+        "description": "的后面接句号，且句号为句尾"
+    },
+    {
+        "query": "(t) 没{begin($1)=[当 孙 昂]}",
+        "description": "时间词后接没，且没的前面以当、孙、昂为开始"
+    },
+    {
+        "query": "好不容易 (v) 起{len($1)=1}",
+        "description": "好不容易后面接动词，再接起，且动词为单字"
+    },
+    {
+        "query": "@ 要",
+        "description": "任意词性后接要"
+    },
+    {
+        "query": "座",
+        "description": "检索词为座"
+    },
+    {
+        "query": "心里 . 这样",
+        "description": "心里后面隔一字接这样"
+    },
+    {
+        "query": "桥算 (v) 杠上{len($1)!=2}",
+        "description": "桥算后面接动词，再接杠上，且动词不是双字"
+    },
+    {
+        "query": "修桥 n",
+        "description": "修桥后面接名词"
+    },
+    {
+        "query": "扶贫 (v) 装{end($1)!=[会 冒 孙 付]}",
+        "description": "扶贫后面接动词，再接装，且动词不为会、冒、孙、付结尾"
+    },
+    {
+        "query": "动员 @ 后领",
+        "description": "动员后面接任意词性，再接后领"
+    }
+]
+```

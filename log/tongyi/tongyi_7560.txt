@@ -1,0 +1,166 @@
+以下是将给定的检索式转换为带含义的json结构的列表：
+
+```json
+[
+    {
+        "query": "v一项v一项",
+        "description": "动词后接一项，再接动词后又接一项"
+    },
+    {
+        "query": "非常没有n",
+        "description": "非常后接没有，后接名词"
+    },
+    {
+        "query": "就这么点n",
+        "description": "这么后接点，后接名词"
+    },
+    {
+        "query": "根n",
+        "description": "根后接名词"
+    },
+    {
+        "query": "准备n",
+        "description": "准备后接名词"
+    },
+    {
+        "query": "势必d",
+        "description": "势必后接动词"
+    },
+    {
+        "query": "要n有n",
+        "description": "要后接有，后接名词"
+    },
+    {
+        "query": "还真的是w",
+        "description": "还后接真的是，后接助词"
+    },
+    {
+        "query": "m胎",
+        "description": "m后接胎"
+    },
+    {
+        "query": "m盆",
+        "description": "m后接盆"
+    },
+    {
+        "query": "a主流",
+        "description": "a后接主流"
+    },
+    {
+        "query": "。+n的n是n+，",
+        "description": "句尾标点后接名词、的、名词，再接句尾标点"
+    },
+    {
+        "query": "。 n的n是n ，",
+        "description": "句尾标点后接名词、的、名词，再接句尾标点"
+    },
+    {
+        "query": "没有多a",
+        "description": "没有后接多，后接形容词"
+    },
+    {
+        "query": "v了m日的n",
+        "description": "动词后接了，后接m日的名词"
+    },
+    {
+        "query": "r被n包围",
+        "description": "r后接被，后接名词，再接包围"
+    },
+    {
+        "query": "爱a不a",
+        "description": "爱后接不，后接形容词"
+    },
+    {
+        "query": "倾向w",
+        "description": "倾向后接助词"
+    },
+    {
+        "query": "你不如v",
+        "description": "你后接不如，再接动词"
+    },
+    {
+        "query": "爱(v)就(v)",
+        "description": "爱后接就，再接动词，然后动词后又接就"
+    },
+    {
+        "query": "式n",
+        "description": "式后接名词"
+    },
+    {
+        "query": "n王",
+        "description": "n后接王"
+    },
+    {
+        "query": "借N",
+        "description": "借后接N"
+    },
+    {
+        "query": "恐怕准v",
+        "description": "恐怕后接准，再接动词"
+    },
+    {
+        "query": "一股n",
+        "description": "一股后接名词"
+    },
+    {
+        "query": "让N",
+        "description": "让后接N"
+    },
+    {
+        "query": "a危险",
+        "description": "a后接危险"
+    },
+    {
+        "query": "v师",
+        "description": "v后接师"
+    },
+    {
+        "query": "v一声v一声",
+        "description": "动词后接一声，再接动词后又接一声"
+    },
+    {
+        "query": "V进n去",
+        "description": "V后接进，后接名词，再接去"
+    },
+    {
+        "query": "r讲",
+        "description": "r后接讲"
+    },
+    {
+        "query": "一包n",
+        "description": "一后接包，后接名词"
+    },
+    {
+        "query": "反过来说w",
+        "description": "反过来说，后接助词"
+    },
+    {
+        "query": "竟然了W",
+        "description": "竟然后接了，再接W"
+    },
+    {
+        "query": "中，r发现",
+        "description": "中后接逗号，再接r发现"
+    },
+    {
+        "query": "我吃n",
+        "description": "我后接吃，后接名词"
+    },
+    {
+        "query": "a感情",
+        "description": "a后接感情"
+    },
+    {
+        "query": "a亲眼",
+        "description": "a后接亲眼"
+    },
+    {
+        "query": "a反击",
+        "description": "a后接反击"
+    },
+    {
+        "query": "V+了下来",
+        "description": "V后接加，再接下来"
+    }
+]
+```

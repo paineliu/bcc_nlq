@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "值得 (v){len($1)>1}",
+        "description": "动词 '值得'，后面跟着至少两个字"
+    },
+    {
+        "query": "红十字 . 红新月",
+        "description": "红十字后面紧接着红新月"
+    },
+    {
+        "query": "活跃 @/[v v] 国际",
+        "description": "活跃后接一个或两个动词，然后是国际"
+    },
+    {
+        "query": "会晤 (v) 新闻稿{len($1)=2}",
+        "description": "会晤后面是长度为2的新闻稿"
+    },
+    {
+        "query": "(j) 代表团{len($1)>1}",
+        "description": "代词 'j' 后面跟着一个或多个字的代表团"
+    },
+    {
+        "query": "青年 @/[n v] 要",
+        "description": "青年后接名词或动词，然后是 '要'"
+    },
+    {
+        "query": "(v) 才{len($1)>1}",
+        "description": "动词 '才' 后面跟着至少两个字"
+    },
+    {
+        "query": "一个 ./[a v] 视频",
+        "description": "一个后接形容词或动词，然后是视频"
+    },
+    {
+        "query": "她 (r) ?{len($1)=2}",
+        "description": "代词 '她' 后面紧跟着问号，且总长度为2"
+    },
+    {
+        "query": "共 ./v 中国",
+        "description": "共同的单音节动词后面接中国"
+    },
+    {
+        "query": "青春",
+        "description": "青春，单个词"
+    },
+    {
+        "query": "用 .. 的",
+        "description": "用后面隔一个字后接 '的'"
+    },
+    {
+        "query": "借 (n) 广泛{count>3}",
+        "description": "借来的名词后面频繁出现广泛，频次大于3"
+    },
+    {
+        "query": "摄 (n) 视觉{count>5}",
+        "description": "拍摄的名词后面频繁出现视觉，频次大于5"
+    },
+    {
+        "query": "李克强 ../v 召开",
+        "description": "李克强后面接双音节动词，然后是召开"
+    },
+    {
+        "query": "中医药",
+        "description": "中医药，单个词组"
+    },
+    {
+        "query": "n 还",
+        "description": "名词后面接 '还'"
+    },
+    {
+        "query": "了 @ 寨寨",
+        "description": "了后面接一个词，可能是寨寨"
+    },
+    {
+        "query": "笑 @",
+        "description": "笑后接一个词，但统计时按词性归并"
+    },
+    {
+        "query": "(w) (n){end($2)!=[王 贵 拜]}",
+        "description": "一个未知词(w)后面跟着一个名词(n)，且名词的末尾不包含王、贵、拜"
+    },
+    {
+        "query": "到 u",
+        "description": "到后面接一个未知词(u)"
+    },
+    {
+        "query": "(nt) 任免 (n){len($1)=3; begin($2)=[国家 闹]}",
+        "description": "任免职务的名词(n)，前面是长度为3且以国家或闹开头的词"
+    },
+    {
+        "query": "升级 @ 治理",
+        "description": "升级后接一个词，可能是治理"
+    },
+    {
+        "query": "@/[v v] 大水",
+        "description": "一个词后接一个或两个动词，然后是大水"
+    },
+    {
+        "query": "真贫 ./d 先",
+        "description": "真贫后面可能接一个副词 'd'，然后是先"
+    },
+    {
+        "query": "(v) 不 精准 问题 (w){count>8}",
+        "description": "动词 '不' 后面接 '精准'，然后是问题，频次大于8"
+    },
+    {
+        "query": "讲 ，/w 要",
+        "description": "讲后面接逗号，然后是 '要'"
+    },
+    {
+        "query": "干部 ~ 读书",
+        "description": "干部后面接一个词，可能是读书"
+    },
+    {
+        "query": "什么 .",
+        "description": "什么后面可能是一个字符"
+    },
+    {
+        "query": "不复 @ 公款",
+        "description": "不复后接一个词，可能是公款"
+    },
+    {
+        "query": "(n) (d){count>3}",
+        "description": "一个名词(n)后面跟着一个副词(d)，频次大于3"
+    },
+    {
+        "query": "严 (v) 禁令{count<297}",
+        "description": "严厉的动词(v)后面接禁令，频次小于297"
+    },
+    {
+        "query": "(r) 宵小{len($1)>1}",
+        "description": "一个代词(r)后面跟着一个长度大于1的词，可能是宵小"
+    },
+    {
+        "query": "(nr) 一{len($1)!=2}",
+        "description": "人名(nr)后面跟着不是一个长度为2的词"
+    },
+    {
+        "query": "验证码 (f) 的{end($1)=[后 捏 凉 比]}",
+        "description": "验证码后面跟一个可能是后、捏、凉、比的词"
+    },
+    {
+        "query": "做 . 微议录",
+        "description": "做后面隔一个字后接微议录"
+    },
+    {
+        "query": "人格 @/[u v] 真实",
+        "description": "人格后接一个可能是u或v的词，然后是真实"
+    },
+    {
+        "query": "人 所需/n 意识",
+        "description": "人后面接所需，然后是名词和意识"
+    },
+    {
+        "query": "沟通 (v) 盲目{len($1)!=3}",
+        "description": "沟通后面接一个非长度为3的盲目"
+    },
+    {
+        "query": ".. 网络",
+        "description": "两个点后接网络"
+    }
+]
+```

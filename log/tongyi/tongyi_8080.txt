@@ -1,0 +1,167 @@
+根据提供的检索式格式和说明，我们可以将每个检索式转换为其对应的含义描述，构建为JSON结构。下面是根据给定检索式的转换结果：
+
+```json
+[
+    {
+        "query": "n令n+v",
+        "description": "名词后接令、名词，后面离合出现动词"
+    },
+    {
+        "query": "n令n v",
+        "description": "名词后接令、名词，直接接动词"
+    },
+    {
+        "query": "不能再a",
+        "description": "不能再后接形容词"
+    },
+    {
+        "query": "a到来",
+        "description": "形容词后接到来"
+    },
+    {
+        "query": "p主意",
+        "description": "介词后接主意"
+    },
+    {
+        "query": "a了+去",
+        "description": "形容词后接了，后面隔一个字后接去"
+    },
+    {
+        "query": "a了 去",
+        "description": "形容词后接了，直接接去"
+    },
+    {
+        "query": "为v",
+        "description": "为后接动词"
+    },
+    {
+        "query": "v愚蠢了",
+        "description": "动词后接愚蠢了"
+    },
+    {
+        "query": "能v尽v",
+        "description": "动词后接能、尽、动词"
+    },
+    {
+        "query": "不够a",
+        "description": "不够后接形容词"
+    },
+    {
+        "query": "再a也不v+",
+        "description": "再、形容词后接也不、动词，后面加正向匹配"
+    },
+    {
+        "query": "再a也不v ",
+        "description": "再、形容词后接也不、动词，后面加空格"
+    },
+    {
+        "query": "a上诉",
+        "description": "形容词后接上诉"
+    },
+    {
+        "query": "v过n去",
+        "description": "动词后接过、名词、去"
+    },
+    {
+        "query": "依旧V",
+        "description": "依旧后接动词"
+    },
+    {
+        "query": "好+v",
+        "description": "好后接动词"
+    },
+    {
+        "query": "好 v",
+        "description": "好后接动词"
+    },
+    {
+        "query": "vd+v不v",
+        "description": "以vd开头的动词后接vd、不、动词"
+    },
+    {
+        "query": "vd v不v",
+        "description": "以vd开头的动词后接v、不、动词"
+    },
+    {
+        "query": "情感n",
+        "description": "情感后接名词"
+    },
+    {
+        "query": "v了一阵",
+        "description": "动词后接了一、一阵"
+    },
+    {
+        "query": "蹭a",
+        "description": "蹭后接形容词"
+    },
+    {
+        "query": "a方式",
+        "description": "形容词后接方式"
+    },
+    {
+        "query": "N+盒子",
+        "description": "以N开头的名词后接+、盒子"
+    },
+    {
+        "query": "N 盒子",
+        "description": "以N开头的名词后接盒子"
+    },
+    {
+        "query": "。在n，",
+        "description": "句点后接在、名词，后面加逗号"
+    },
+    {
+        "query": "v到s",
+        "description": "动词后接到、s"
+    },
+    {
+        "query": "orz",
+        "description": "动词或拟声词后接orz"
+    },
+    {
+        "query": "n+n+v",
+        "description": "名词后接名词，后面再接动词"
+    },
+    {
+        "query": "n n v",
+        "description": "名词后接名词，后面直接接动词"
+    },
+    {
+        "query": "那叫一个n",
+        "description": "那叫一个后接名词"
+    },
+    {
+        "query": "m蓬",
+        "description": "m后接蓬"
+    },
+    {
+        "query": "N里",
+        "description": "以N开头的名词后接里"
+    },
+    {
+        "query": "小v一下",
+        "description": "小后接动词，后面接一下"
+    },
+    {
+        "query": "V多点",
+        "description": "V后接多、点"
+    },
+    {
+        "query": "m圪节",
+        "description": "m后接圪、节"
+    },
+    {
+        "query": "v请vn",
+        "description": "动词后接请、vn"
+    },
+    {
+        "query": "三下五除二v",
+        "description": "三下五除二后接动词"
+    },
+    {
+        "query": "m根n",
+        "description": "m后接根、n"
+    }
+]
+```
+这个JSON列表包含了每一个检索式及其对应的含义描述，符合题目要求。

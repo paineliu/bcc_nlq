@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "仿佛*必然会",
+        "description": "仿佛后面离合出现必然会"
+    },
+    {
+        "query": "机房*v",
+        "description": "机房为双音节动词"
+    },
+    {
+        "query": "或许*压根",
+        "description": "或许后面离合出现压根"
+    },
+    {
+        "query": "你.+下去w",
+        "description": "你后面跟单字连词，再接下去"
+    },
+    {
+        "query": "你. 下去w",
+        "description": "你后面直接接下去"
+    },
+    {
+        "query": "电影..",
+        "description": "电影后面隔一个字后接"
+    },
+    {
+        "query": "也许*果真",
+        "description": "也许后面离合出现果真"
+    },
+    {
+        "query": "w劣.优w",
+        "description": "w劣后面直接接优"
+    },
+    {
+        "query": "不..之n",
+        "description": "不后面隔一个字后接之n"
+    },
+    {
+        "query": "连*都v",
+        "description": "连后面离合出现都v"
+    },
+    {
+        "query": "w私.公w",
+        "description": "w私后面直接接公"
+    },
+    {
+        "query": "才.了w",
+        "description": "才后面跟单字连词，再接了"
+    },
+    {
+        "query": "纵然...也",
+        "description": "纵然后面隔一个字后接也"
+    },
+    {
+        "query": "哪怕.....也.......",
+        "description": "哪怕后面隔多个字后接也，后面再接一个字"
+    },
+    {
+        "query": "关...注",
+        "description": "关后面隔一个字后接注"
+    },
+    {
+        "query": "得到*的vn",
+        "description": "得到后面离合出现的vn"
+    },
+    {
+        "query": "那m+q+*的n",
+        "description": "那后面跟量词和单字连词，再接的n"
+    },
+    {
+        "query": "那m q *的n",
+        "description": "那后面跟量词和连词，再接的n"
+    },
+    {
+        "query": "一..就知道",
+        "description": "一后面隔一个字后接就知道"
+    },
+    {
+        "query": "仿佛*非v",
+        "description": "仿佛后面离合出现非v"
+    },
+    {
+        "query": "w当*的时候",
+        "description": "w当后面离合出现的时候"
+    },
+    {
+        "query": "付*费用",
+        "description": "付后面离合出现费用"
+    },
+    {
+        "query": "认为*。",
+        "description": "认为后面离合出现。"
+    },
+    {
+        "query": "有一种*叫",
+        "description": "有一种后面离合出现叫"
+    },
+    {
+        "query": "其实@或许",
+        "description": "其实为形容词，或许为副词"
+    },
+    {
+        "query": "比*都",
+        "description": "比后面离合出现都"
+    },
+    {
+        "query": "w赢.输w",
+        "description": "w赢后面直接接输"
+    },
+    {
+        "query": "过了*年纪",
+        "description": "过了后面离合出现年纪"
+    },
+    {
+        "query": "她..+下来w",
+        "description": "她后面跟单字连词，再接下来"
+    },
+    {
+        "query": "她.. 下来w",
+        "description": "她后面直接接下来"
+    },
+    {
+        "query": "w减.增w",
+        "description": "w减后面直接接增"
+    },
+    {
+        "query": "也许*碰巧",
+        "description": "也许后面离合出现碰巧"
+    },
+    {
+        "query": "是*的剧情w",
+        "description": "是后面离合出现的剧情"
+    },
+    {
+        "query": "好像*着实",
+        "description": "好像后面离合出现着实"
+    },
+    {
+        "query": "一住.日",
+        "description": "一住后面隔一个字后接日"
+    },
+    {
+        "query": "仿佛*总要",
+        "description": "仿佛后面离合出现总要"
+    },
+    {
+        "query": "被v*",
+        "description": "被后面离合出现单音节动词"
+    },
+    {
+        "query": "仿佛*确也",
+        "description": "仿佛后面离合出现确也"
+    },
+    {
+        "query": "打不.",
+        "description": "打后面隔一个字后接"
+    },
+    {
+        "query": "猪.只",
+        "description": "猪后面直接接只"
+    }
+]
+```

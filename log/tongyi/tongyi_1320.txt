@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "当然或许",
+        "description": "包含'当然'和'或许'的句子"
+    },
+    {
+        "query": "，惨了",
+        "description": "逗号后紧跟着'惨了'"
+    },
+    {
+        "query": "难处",
+        "description": "直接出现'难处'这个词"
+    },
+    {
+        "query": "虎视鹰扬",
+        "description": "直接出现'虎视鹰扬'这个词组"
+    },
+    {
+        "query": "躲猫猫",
+        "description": "直接出现'躲猫猫'这个词组"
+    },
+    {
+        "query": "略略不",
+        "description": "直接出现'略略不'这个词组"
+    },
+    {
+        "query": "扎手",
+        "description": "直接出现'扎手'这个词组"
+    },
+    {
+        "query": "群众和谐",
+        "description": "直接出现'群众和谐'这个词组"
+    },
+    {
+        "query": "暮楚朝秦",
+        "description": "直接出现'暮楚朝秦'这个词组"
+    },
+    {
+        "query": "复句",
+        "description": "直接出现'复句'这个词"
+    },
+    {
+        "query": "主打",
+        "description": "直接出现'主打'这个词"
+    },
+    {
+        "query": "笼统说",
+        "description": "直接出现'笼统说'这个词组"
+    },
+    {
+        "query": "很少是",
+        "description": "直接出现'很少是'这个词组"
+    },
+    {
+        "query": "暖和",
+        "description": "直接出现'暖和'这个词"
+    },
+    {
+        "query": "倾心",
+        "description": "直接出现'倾心'这个词"
+    },
+    {
+        "query": "出来",
+        "description": "直接出现'出来'这个词"
+    },
+    {
+        "query": "敢不敢这么",
+        "description": "直接出现'敢不敢这么'的词组"
+    },
+    {
+        "query": "文学杂志",
+        "description": "直接出现'文学杂志'这个词组"
+    },
+    {
+        "query": "例如",
+        "description": "直接出现'例如'这个词"
+    },
+    {
+        "query": "可以",
+        "description": "直接出现'可以'这个词"
+    },
+    {
+        "query": "批示",
+        "description": "直接出现'批示'这个词"
+    },
+    {
+        "query": "热辣",
+        "description": "直接出现'热辣'这个词"
+    },
+    {
+        "query": "真正和谐",
+        "description": "直接出现'真正和谐'这个词组"
+    },
+    {
+        "query": "的她们",
+        "description": "直接出现'的她们'的词组"
+    },
+    {
+        "query": "那样一说",
+        "description": "直接出现'那样一说'的词组"
+    },
+    {
+        "query": "科人权",
+        "description": "直接出现'科人权'这个词组"
+    },
+    {
+        "query": "盘",
+        "description": "直接出现'盘'这个词"
+    },
+    {
+        "query": "香港和谐",
+        "description": "直接出现'香港和谐'这个词组"
+    },
+    {
+        "query": "车辆制造厂",
+        "description": "直接出现'车辆制造厂'这个词组"
+    },
+    {
+        "query": "结构和谐",
+        "description": "直接出现'结构和谐'这个词组"
+    },
+    {
+        "query": "错错落落",
+        "description": "直接出现'错错落落'这个词组"
+    },
+    {
+        "query": "谁都奈何不了",
+        "description": "直接出现'谁都奈何不了'的词组"
+    },
+    {
+        "query": "挫伤",
+        "description": "直接出现'挫伤'这个词"
+    },
+    {
+        "query": "台子",
+        "description": "直接出现'台子'这个词"
+    },
+    {
+        "query": "笨笨磕磕",
+        "description": "直接出现'笨笨磕磕'的词组"
+    },
+    {
+        "query": "和谐初步",
+        "description": "直接出现'和谐初步'的词组"
+    },
+    {
+        "query": "入口",
+        "description": "直接出现'入口'这个词"
+    },
+    {
+        "query": "贿",
+        "description": "直接出现'贿'这个词"
+    },
+    {
+        "query": "西奈",
+        "description": "直接出现'西奈'这个词"
+    },
+    {
+        "query": "该是和谐",
+        "description": "直接出现'该是和谐'的词组"
+    }
+]
+```

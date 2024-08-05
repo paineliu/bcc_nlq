@@ -1,0 +1,160 @@
+```json
+[
+    {
+        "query": "(n) 办事 (n){end($2)=[音 送 星 海}",
+        "description": "名词办事，办事后面以音、送、星或海结尾"
+    },
+    {
+        "query": "./[v v] 专业",
+        "description": "两个相邻的动词后面接专业"
+    },
+    {
+        "query": "精神 ~/[d v] 违背",
+        "description": "精神后面匹配违背，违背可能是动词或副词"
+    },
+    {
+        "query": "(n) 才能 (v){len($1)<3}",
+        "description": "名词才能后面接长度小于3的动词"
+    },
+    {
+        "query": "篇 ~ 。",
+        "description": "篇后面接任意字符直到句号"
+    },
+    {
+        "query": "有 规矩/n 才能",
+        "description": "有后面接规矩，规矩是名词，后面接才能"
+    },
+    {
+        "query": "./v 规矩",
+        "description": "单音节动词后面接规矩"
+    },
+    {
+        "query": "(nr) 整理{len($1)<4}",
+        "description": "人名整理，整理的长度小于4"
+    },
+    {
+        "query": "银川 ./w 不只",
+        "description": "银川后面接任意字符，但不一定是只"
+    },
+    {
+        "query": "./[m v] 张",
+        "description": "介词或动词后面接张"
+    },
+    {
+        "query": "@ 使用人",
+        "description": "使用人，使用可能是动词，人可能是名词"
+    },
+    {
+        "query": "变 (a) ，{end($1)!=[谈 刘 叔]}",
+        "description": "变后面接形容词，且后面不是谈、刘或叔"
+    },
+    {
+        "query": ".. 监管",
+        "description": "两个点后面的词可能是监管"
+    },
+    {
+        "query": "把 .. 当",
+        "description": "把后面接任意字符，然后接当"
+    },
+    {
+        "query": "(d) 是 依法 裁判 的 最低 限度 (n){begin($2)=[要 清 领]}",
+        "description": "副词是，后面接依法裁判的最低限度，且后面开始的词不是要、清或领"
+    },
+    {
+        "query": "坏 @",
+        "description": "坏后面接一个词，统计时按词性归并"
+    },
+    {
+        "query": "事业 (u) 精彩{count>8}",
+        "description": "事业后面接精彩，且精彩相关实例数量大于8"
+    },
+    {
+        "query": "姓 ./[n v] 不",
+        "description": "姓后面接名词或动词，后面接不"
+    },
+    {
+        "query": "改革 (d) 完成{len($1)>1}",
+        "description": "改革后面接完成，改革可能是动词，完成的长度大于1"
+    },
+    {
+        "query": "上午 (w) 看望{count>2}",
+        "description": "上午后面接看望，且看望相关实例数量大于2"
+    },
+    {
+        "query": "(ad) 把{len($1)!=3}",
+        "description": "副词把，但把的长度不是3"
+    },
+    {
+        "query": "(nr) 说{count<599}",
+        "description": "人名说，且说相关实例数量小于599"
+    },
+    {
+        "query": "社区 (a) ，{count>9}",
+        "description": "社区后面接形容词，且社区相关实例数量大于9"
+    },
+    {
+        "query": "(p) 这里 ， 安心 (w){$1!=$2}",
+        "description": "这里后面接安心，但这里和安心不能相同"
+    },
+    {
+        "query": "t u",
+        "description": "tu可能是两个任意字符"
+    },
+    {
+        "query": "走访 ~",
+        "description": "走访后面接任意字符"
+    },
+    {
+        "query": "是 @/[nr v] 复玲",
+        "description": "是后面接人名或动词，复玲可能是人名"
+    },
+    {
+        "query": "@/[nr v] 复玲",
+        "description": "复玲后面接人名或动词，复玲可能是人名"
+    },
+    {
+        "query": "主任 ./c 社区",
+        "description": "主任后面接社区，主任可能是代词"
+    },
+    {
+        "query": "(r) (n){len($2)!=4}",
+        "description": "两个相邻的词，第二个词的长度不是4"
+    },
+    {
+        "query": "高 ~",
+        "description": "高后面接任意字符"
+    },
+    {
+        "query": "由衷 (v) 。{begin($1)=[夸 胃 打]}",
+        "description": "由衷后面接句号，且由衷之前可能是夸、胃或打"
+    },
+    {
+        "query": "， ~ 又",
+        "description": "逗号后面接任意字符，然后接又"
+    },
+    {
+        "query": "找法 ../[v v] 常态",
+        "description": "找法后面离合出现两个动词，然后接常态"
+    },
+    {
+        "query": "并 @ 陌生",
+        "description": "并后面接一个词，统计时按词性归并，后面接陌生"
+    },
+    {
+        "query": "为 (ns) 人民{count>9}",
+        "description": "为后面接人民，人民可能是其他专名，且实例数量大于9"
+    },
+    {
+        "query": "话 ../n 大家",
+        "description": "话后面接任意字符直到名词大家"
+    },
+    {
+        "query": "(w) 政 不 二 门 (w){count>9}",
+        "description": "政后面接不二门，政可能是标点，不二门可能是标点，实例数量大于9"
+    },
+    {
+        "query": "(n) ， 则 (n){begin($2)=[举 来 硬]}",
+        "description": "两个相邻的词，第二个词的开始不是举、来或硬"
+    }
+]
+```

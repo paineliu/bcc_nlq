@@ -1,0 +1,156 @@
+```json
+[
+    {
+        "query": "曾/d 衍德",
+        "description": "副词曾后接衍德"
+    },
+    {
+        "query": "(r) (w){begin($1)=[怎 啥 累 元]}",
+        "description": "疑问词或副词后，紧接着可能是怎、啥、累或元"
+    },
+    {
+        "query": "精准化 (v) 配方{end($1)!=[宋 刘 娃 杨]}",
+        "description": "动词精准化后面跟着配方，但不以宋、刘、娃或杨结尾"
+    },
+    {
+        "query": "这 ~/[d v]",
+        "description": "这后面可能跟一个动词或一个区别词"
+    },
+    {
+        "query": "怎么办 ./[w v]",
+        "description": "怎么办可能是句首的动词或形容词"
+    },
+    {
+        "query": "黑土区 @/[r v]。",
+        "description": "黑土区后面可能是形容词或动词，且句尾是句点"
+    },
+    {
+        "query": "的 (n) 为{count>8}",
+        "description": "的后面紧跟一个名词，且该名词的实例频次大于8次"
+    },
+    {
+        "query": "耕地 n 污染",
+        "description": "耕地后面接名词污染"
+    },
+    {
+        "query": "湖南 @ 治理",
+        "description": "湖南后面接动词治理"
+    },
+    {
+        "query": "nr 说",
+        "description": "人名后面直接是说"
+    },
+    {
+        "query": "表示 ./w",
+        "description": "表示可能是句首的动词或形容词"
+    },
+    {
+        "query": ". 这里 .",
+        "description": "句点后接这里，再接一个句点"
+    },
+    {
+        "query": "(n) 是 有 新 (n){len($1)>1; end($2)!=[江 于]}",
+        "description": "名词后接'是'，然后'有'，再接一个长度大于1的名词，但不以江或于结尾"
+    },
+    {
+        "query": "新",
+        "description": "单个的新字"
+    },
+    {
+        "query": "有 (a) 技术{len($1)=1}",
+        "description": "有后接一个形容词，且形容词长度为1"
+    },
+    {
+        "query": "陈瑛 ./u 四",
+        "description": "陈瑛后面可能是助词或数字四"
+    },
+    {
+        "query": "(b) 农民{begin($1)!=[挺 点 白]}",
+        "description": "区别词后接农民，但不以挺、点或白开头"
+    },
+    {
+        "query": "学校 ./[w v]",
+        "description": "学校后面可能是动词或形容词"
+    },
+    {
+        "query": "可 @ ？",
+        "description": "可后可能是词性@，并且后面是问号"
+    },
+    {
+        "query": "谢国玉 ./v 。",
+        "description": "谢国玉后面可能是动词，且句尾是句点"
+    },
+    {
+        "query": "... 认为",
+        "description": "省略号后可能是认为"
+    },
+    {
+        "query": "(t) 最{count>3}",
+        "description": "副词最后面，该词组的实例频次大于3"
+    },
+    {
+        "query": "示范 ../[vn v]。",
+        "description": "示范后面可能是双音节动词或动词，且句尾是句点"
+    },
+    {
+        "query": "培训 (n) 。{len($1)=2}",
+        "description": "培训后面接一个长度为2的名词，且句尾是句点"
+    },
+    {
+        "query": "草根 ~ 真",
+        "description": "草根后面接一个词"
+    },
+    {
+        "query": "草根 n 扶起",
+        "description": "草根后面接名词扶起"
+    },
+    {
+        "query": "(nr) 说{count>7}",
+        "description": "人名后接说，且人名实例频次大于7"
+    },
+    {
+        "query": "服务 ../n 订制",
+        "description": "服务后面接名词订制"
+    },
+    {
+        "query": "@/[ns v] 金融",
+        "description": "可能是名词或动词后接金融"
+    },
+    {
+        "query": "市场",
+        "description": "市场单独作为一个词"
+    },
+    {
+        "query": "(n) (d){$1!=$2}",
+        "description": "两个相邻的名词，但这两个名词不同"
+    },
+    {
+        "query": "(n) (r){len($1)=1; len($2)!=2}",
+        "description": "两个相邻的名词，第一个名词长度为1，第二个名词长度不为2"
+    },
+    {
+        "query": ", ~/[n v] 出工",
+        "description": "逗号后可能是名词或动词，且出工在后面"
+    },
+    {
+        "query": "投入 (l) 。{len($1)!=6}",
+        "description": "投入后面接长度不为6的词，且句尾是句点"
+    },
+    {
+        "query": "建设 ../v 农民",
+        "description": "建设后面接双音节动词和农民"
+    },
+    {
+        "query": "美丽 乡村/n 三分",
+        "description": "美丽后面接名词乡村，乡村后面接三分"
+    },
+    {
+        "query": "组建 (vn) 队伍{begin($1)!=[非 德 别 精]}",
+        "description": "组建后面接双音节动词，动词后面接队伍，但不以非、德、别或精开头"
+    },
+    {
+        "query": "多 ~/[n v]",
+        "description": "多后面可能是名词或动词"
+    }
+]
+```

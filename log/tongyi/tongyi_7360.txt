@@ -1,0 +1,168 @@
+以下是将给定的检索式转换为带含义的json结构的结果：
+
+```json
+[
+    {
+        "query": "无n不n",
+        "description": "无后面接名词，不后面也接名词"
+    },
+    {
+        "query": "n是n",
+        "description": "名词后面接是，然后名词"
+    },
+    {
+        "query": "a剧场",
+        "description": "形容词后面接剧场"
+    },
+    {
+        "query": "a人体",
+        "description": "形容词后面接人体"
+    },
+    {
+        "query": "a助手",
+        "description": "形容词后面接助手"
+    },
+    {
+        "query": "r也不学学",
+        "description": "代词后面接也不，然后接动词学学"
+    },
+    {
+        "query": "尤其+n",
+        "description": "尤其后面接名词"
+    },
+    {
+        "query": "尤其 n",
+        "description": "尤其后面接名词"
+    },
+    {
+        "query": "要n没n",
+        "description": "要后面接名词，没后面也接名词"
+    },
+    {
+        "query": "m条n",
+        "description": "名量词后面接名词"
+    },
+    {
+        "query": "得v着",
+        "description": "动词后面接着"
+    },
+    {
+        "query": "不足v",
+        "description": "动词后面接不足"
+    },
+    {
+        "query": "所v",
+        "description": "动词后面接所"
+    },
+    {
+        "query": "走a",
+        "description": "动词后面接走"
+    },
+    {
+        "query": "不v不v+",
+        "description": "动词后面接不v，然后加符号+"
+    },
+    {
+        "query": "不v不v",
+        "description": "动词后面接不v，然后接不v"
+    },
+    {
+        "query": "a实力",
+        "description": "形容词后面接实力"
+    },
+    {
+        "query": "劳动m+q",
+        "description": "名量词后面接劳动"
+    },
+    {
+        "query": "劳动m q",
+        "description": "名量词后面接劳动，然后名词"
+    },
+    {
+        "query": "n朴实无华",
+        "description": "名词后面接朴实无华"
+    },
+    {
+        "query": "nr征服",
+        "description": "名词后面接征服"
+    },
+    {
+        "query": "m+a点w",
+        "description": "名量词后面接形容词，然后点w"
+    },
+    {
+        "query": "m a点w",
+        "description": "名量词后面接形容词，然后点w"
+    },
+    {
+        "query": "v+m次n",
+        "description": "动词后面接m次名词"
+    },
+    {
+        "query": "v m次n",
+        "description": "动词后面接m次名词"
+    },
+    {
+        "query": "他的+n",
+        "description": "代词他的后面接名词"
+    },
+    {
+        "query": "他的 n",
+        "description": "代词他的后面接名词"
+    },
+    {
+        "query": "m令",
+        "description": "名量词后面接令"
+    },
+    {
+        "query": "你v着",
+        "description": "你后面接动词着"
+    },
+    {
+        "query": "急忙v",
+        "description": "动词后面接急忙"
+    },
+    {
+        "query": "a企图",
+        "description": "形容词后面接企图"
+    },
+    {
+        "query": "(a)并(n)着",
+        "description": "括号内的形容词并着名词"
+    },
+    {
+        "query": "n佬",
+        "description": "名词佬"
+    },
+    {
+        "query": "开始V起来",
+        "description": "动词开始后面接起来"
+    },
+    {
+        "query": "N不N的",
+        "description": "名词N后面接不N的"
+    },
+    {
+        "query": "心里a",
+        "description": "动词里面后面接形容词a"
+    },
+    {
+        "query": "检查v",
+        "description": "动词检查"
+    },
+    {
+        "query": "v通顺了",
+        "description": "动词后面接通顺了"
+    },
+    {
+        "query": "把n+v+w",
+        "description": "把后面接动词v，然后名词w"
+    },
+    {
+        "query": "把n v w",
+        "description": "把后面接动词v，然后名词w"
+    }
+]
+```
+
+请注意，这些描述是基于给定的检索式进行的合理解释，可能根据实际语境会有细微差别。

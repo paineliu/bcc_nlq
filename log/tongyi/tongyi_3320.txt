@@ -1,0 +1,166 @@
+以下是将提供的检索式转换为带含义的json结构的结果：
+
+```json
+[
+    {
+        "query": "被就业",
+        "description": "被后接就业"
+    },
+    {
+        "query": "单单",
+        "description": "单单作为词汇"
+    },
+    {
+        "query": "啄破",
+        "description": "啄后面离合出现破"
+    },
+    {
+        "query": "通俗说",
+        "description": "通俗后接说"
+    },
+    {
+        "query": "帮",
+        "description": "帮作为词汇"
+    },
+    {
+        "query": "唧唧哝哝",
+        "description": "唧唧哝哝作为词汇"
+    },
+    {
+        "query": "和谐概要",
+        "description": "和谐后接概要"
+    },
+    {
+        "query": "破裂",
+        "description": "破裂作为词汇"
+    },
+    {
+        "query": "人权民",
+        "description": "人权后接民"
+    },
+    {
+        "query": "天底下",
+        "description": "天底下的词汇"
+    },
+    {
+        "query": "几江",
+        "description": "几江作为词汇"
+    },
+    {
+        "query": "鏾",
+        "description": "鏾作为词汇"
+    },
+    {
+        "query": "拳拳",
+        "description": "拳拳作为词汇"
+    },
+    {
+        "query": "里约奥运会",
+        "description": "里约后接奥运会"
+    },
+    {
+        "query": "和谐之城",
+        "description": "和谐后接之城"
+    },
+    {
+        "query": "还是",
+        "description": "还是作为词汇"
+    },
+    {
+        "query": "打昏",
+        "description": "打后面离合出现昏"
+    },
+    {
+        "query": "本土",
+        "description": "本土作为词汇"
+    },
+    {
+        "query": "，重要的是",
+        "description": "逗号后接重要的是"
+    },
+    {
+        "query": "提议",
+        "description": "提议作为词汇"
+    },
+    {
+        "query": "阿飞",
+        "description": "阿飞作为词汇"
+    },
+    {
+        "query": "遥感卫星",
+        "description": "遥感后接卫星"
+    },
+    {
+        "query": "按说",
+        "description": "按后接说"
+    },
+    {
+        "query": "抽丰",
+        "description": "抽后面离合出现丰"
+    },
+    {
+        "query": "一股劲",
+        "description": "一股后接劲"
+    },
+    {
+        "query": "白",
+        "description": "白作为词汇"
+    },
+    {
+        "query": "好了！",
+        "description": "好了后接感叹号"
+    },
+    {
+        "query": "方向",
+        "description": "方向作为词汇"
+    },
+    {
+        "query": "步伐",
+        "description": "步伐作为词汇"
+    },
+    {
+        "query": "抛",
+        "description": "抛作为词汇"
+    },
+    {
+        "query": "在不和谐",
+        "description": "在后接不和谐"
+    },
+    {
+        "query": "民营化",
+        "description": "民营后接化"
+    },
+    {
+        "query": "和谐的音",
+        "description": "和谐后接的音"
+    },
+    {
+        "query": "称人权",
+        "description": "称后接人权"
+    },
+    {
+        "query": "满分不满分",
+        "description": "满分后接不满分"
+    },
+    {
+        "query": "我不知道",
+        "description": "我后接不知道"
+    },
+    {
+        "query": "透支",
+        "description": "透后面接支"
+    },
+    {
+        "query": "慢半拍",
+        "description": "慢后接半拍"
+    },
+    {
+        "query": "那样一看",
+        "description": "那样后接看"
+    },
+    {
+        "query": "明人权",
+        "description": "明后接人权"
+    }
+]
+```

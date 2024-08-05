@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "书记 @ 守盛",
+        "description": "书记后面接守盛，统计时按照'书记'的词性进行归并统计"
+    },
+    {
+        "query": "..../[nr v]",
+        "description": "检索连续的两个名词或动词"
+    },
+    {
+        "query": "行进 ns ·",
+        "description": "行进后面接一个标点符号"
+    },
+    {
+        "query": "m 元",
+        "description": "元后面接一个字符"
+    },
+    {
+        "query": "次 ~",
+        "description": "次后接一个词"
+    },
+    {
+        "query": "次 ./[w v]",
+        "description": "次后接一个词，该词可能是形容词或动词"
+    },
+    {
+        "query": "优化 (v) 激发{len($1)=2}",
+        "description": "优化后接一个两字动词"
+    },
+    {
+        "query": "@ 大学",
+        "description": "大学作为词性限定"
+    },
+    {
+        "query": "养猪 @",
+        "description": "养猪作为词性限定"
+    },
+    {
+        "query": "预防 重/v 治本",
+        "description": "预防后接重的动词，再接治本"
+    },
+    {
+        "query": "一手 ~/[d v] 要",
+        "description": "一手后离合出现一个副词或动词，再接要"
+    },
+    {
+        "query": "治本 (u) 策{count>2}",
+        "description": "治本后接一个助词，策略实例频次大于2"
+    },
+    {
+        "query": "(v) (v){len($1)!=2; len($2)=2}",
+        "description": "两个连续的动词，但第二个动词长度为2"
+    },
+    {
+        "query": "油 ../v 变废为宝",
+        "description": "油后接一个双音节动词，再接变废为宝"
+    },
+    {
+        "query": "../[nr v] 摄",
+        "description": "连续的名词或动词后接摄"
+    },
+    {
+        "query": "(ns) (n){len($1)=2; len($2)=2}",
+        "description": "两个连续的名词，第一个名词长度为2，第二个名词长度也为2"
+    },
+    {
+        "query": "智慧 (n) 是{begin($1)=[城 便 表]}",
+        "description": "智慧后接一个名词，且该名词以'城'、'便'或'表'开头"
+    },
+    {
+        "query": "能 (v) 哪些{len($1)<3}",
+        "description": "能后接一个长度小于3的词"
+    },
+    {
+        "query": "服务 ./[w v] 最后",
+        "description": "服务后接一个形容词或动词，最后可能是句尾"
+    },
+    {
+        "query": "楼旭逵 (v) 。{len($1)=1}",
+        "description": "楼旭逵后接一个长度为1的词，可能是句尾"
+    },
+    {
+        "query": "海关 (v) 万{begin($1)!=[受 奇 断 朱]}",
+        "description": "海关后接一个不以受、奇、断、朱开头的动词"
+    },
+    {
+        "query": "(d) 让{count>3}",
+        "description": "让后出现次数大于3的副词"
+    },
+    {
+        "query": "用 清洁/a 能源",
+        "description": "用后接形容词清洁，再接能源"
+    },
+    {
+        "query": "f 企助力 哈萨克斯坦 世纪 n",
+        "description": "f后接企助力，再接哈萨克斯坦和一个名词"
+    },
+    {
+        "query": "得 (z) 。{count<138}",
+        "description": "得后接一个状态词，且实例频次小于138"
+    },
+    {
+        "query": "更 a",
+        "description": "更后接一个形容词"
+    },
+    {
+        "query": "(nr) 说 (w){begin($1)=[叶 恋]}",
+        "description": "两个连续的名词，第一个名词后面接说，且说的前面是叶或恋"
+    },
+    {
+        "query": "./[v v] 物流",
+        "description": "连续的两个动词后接物流"
+    },
+    {
+        "query": "(t) ，{len($1)=2}",
+        "description": "两个连续的字符，第一个长度为2，可能是逗号"
+    },
+    {
+        "query": "让 ~/[n v] 梦想",
+        "description": "让后离合出现名词或动词，再接梦想"
+    },
+    {
+        "query": "~ 全球",
+        "description": "一个词后接全球"
+    },
+    {
+        "query": "在 @ 。",
+        "description": "在后接句号，统计时按照'在'的词性进行归并统计"
+    },
+    {
+        "query": "系列 (v){begin($1)!=[些 半]}",
+        "description": "系列后接一个不以些或半开头的动词"
+    },
+    {
+        "query": "一如既往 ~ 蓬勃",
+        "description": "一如既往后接一个词，可能是任意词性，再接蓬勃"
+    },
+    {
+        "query": "(nr) 长龙 (v){$1!=$2}",
+        "description": "两个连续的名词，但名词内容不同"
+    },
+    {
+        "query": "(w) 就 得 不 到 (v){len($2)!=3}",
+        "description": "就、得、不、到连续，但得到的后面不是一个长度为3的词"
+    },
+    {
+        "query": "(nr) (nr){$1=$2}",
+        "description": "两个连续的名词，且内容相同"
+    },
+    {
+        "query": "姿阅 (v){len($1)>1}",
+        "description": "姿阅后接一个长度大于1的词"
+    },
+    {
+        "query": "的",
+        "description": "的字"
+    },
+    {
+        "query": "谁 .",
+        "description": "谁后接一个字符"
+    }
+]
+```

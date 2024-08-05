@@ -1,0 +1,168 @@
+以下是将给定的检索式转换为带含义的json结构：
+
+```json
+[
+    {
+        "query": "这么v",
+        "description": "动词后接'这么'"
+    },
+    {
+        "query": "(m)种(n)",
+        "description": "括号内的词性组合后接'n'"
+    },
+    {
+        "query": "一脚就V",
+        "description": "动词后接'一脚'"
+    },
+    {
+        "query": "v哭了",
+        "description": "动词后接'哭了'"
+    },
+    {
+        "query": "哪儿都v",
+        "description": "动词后接'哪儿都'"
+    },
+    {
+        "query": "(m)茬",
+        "description": "括号内的词性组合"
+    },
+    {
+        "query": "用N扣",
+        "description": "动词后接'用N扣'"
+    },
+    {
+        "query": "大写的n",
+        "description": "'大写'后接'n'"
+    },
+    {
+        "query": "m蔸",
+        "description": "词性组合"
+    },
+    {
+        "query": "比r都",
+        "description": "动词后接'比r都'"
+    },
+    {
+        "query": "a化石",
+        "description": "形容词后接'化石'"
+    },
+    {
+        "query": "跟n一样a",
+        "description": "动词后接'跟n一样'"
+    },
+    {
+        "query": "日常n",
+        "description": "名词后接'日常'"
+    },
+    {
+        "query": "a功绩",
+        "description": "形容词后接'功绩'"
+    },
+    {
+        "query": "a公式",
+        "description": "形容词后接'公式'"
+    },
+    {
+        "query": "V了一会儿",
+        "description": "动词后接'一会儿'"
+    },
+    {
+        "query": "v真实了",
+        "description": "动词后接'真实了'"
+    },
+    {
+        "query": "a的草原",
+        "description": "形容词后接'的草原'"
+    },
+    {
+        "query": "帅气v",
+        "description": "形容词后接'帅气'"
+    },
+    {
+        "query": "得极a+w",
+        "description": "动词后接'得极'"
+    },
+    {
+        "query": "得极a w",
+        "description": "动词后接'得极'"
+    },
+    {
+        "query": "m方n",
+        "description": "词性组合"
+    },
+    {
+        "query": "我V不V",
+        "description": "动词后接'我V不'"
+    },
+    {
+        "query": "n的a感",
+        "description": "名词后接'的a感'"
+    },
+    {
+        "query": "风味Ng",
+        "description": "名词后接'风味Ng'"
+    },
+    {
+        "query": "放+心+f",
+        "description": "动词后接'放+心'"
+    },
+    {
+        "query": "放 心 f",
+        "description": "动词后接'放 心'"
+    },
+    {
+        "query": "厚+N",
+        "description": "词性组合"
+    },
+    {
+        "query": "厚 N",
+        "description": "词性组合"
+    },
+    {
+        "query": "a倍数",
+        "description": "形容词后接'倍数'"
+    },
+    {
+        "query": "a乘机",
+        "description": "形容词后接'乘机'"
+    },
+    {
+        "query": "v我们",
+        "description": "动词后接'我们'"
+    },
+    {
+        "query": "三次n",
+        "description": "名词后接'三次'"
+    },
+    {
+        "query": "精神a",
+        "description": "名词后接'精神'"
+    },
+    {
+        "query": "a世界观",
+        "description": "形容词后接'世界观'"
+    },
+    {
+        "query": "不多v",
+        "description": "动词后接'不多'"
+    },
+    {
+        "query": "比n更a",
+        "description": "动词后接'比n更'"
+    },
+    {
+        "query": "a倡议",
+        "description": "形容词后接'倡议'"
+    },
+    {
+        "query": "但c",
+        "description": "副词后接'但'"
+    },
+    {
+        "query": "a前人",
+        "description": "形容词后接'前人'"
+    }
+]
+```
+
+以上json结构包含了每个检索式的描述，详细说明了检索式对应的具体含义。

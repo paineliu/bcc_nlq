@@ -1,0 +1,166 @@
+以下是将给定的检索式转换为带含义的json结构的结果：
+
+```json
+[
+    {
+        "query": "哭哭泣泣",
+        "description": "包含'哭哭泣泣'这个连续词串的句子"
+    },
+    {
+        "query": "人权百",
+        "description": "包含'人权百'这个连续词串的句子"
+    },
+    {
+        "query": "勉强",
+        "description": "包含'勉强'这个连续词串的句子"
+    },
+    {
+        "query": "铜乐队",
+        "description": "包含'铜乐队'这个连续词串的句子"
+    },
+    {
+        "query": "一般讲",
+        "description": "包含'一般讲'这个连续词串的句子"
+    },
+    {
+        "query": "家人权",
+        "description": "包含'家人权'这个连续词串的句子"
+    },
+    {
+        "query": "哟",
+        "description": "包含'哟'这个单字的句子"
+    },
+    {
+        "query": "牢牢",
+        "description": "包含'牢牢'这个连续词串的句子"
+    },
+    {
+        "query": "出世",
+        "description": "包含'出世'这个连续词串的句子"
+    },
+    {
+        "query": "东南",
+        "description": "包含'东南'这个连续词串的句子"
+    },
+    {
+        "query": "双",
+        "description": "包含'双'这个单字的句子"
+    },
+    {
+        "query": "点名",
+        "description": "包含'点名'这个连续词串的句子"
+    },
+    {
+        "query": "真不愧",
+        "description": "包含'真不愧'这个连续词串的句子"
+    },
+    {
+        "query": "对口",
+        "description": "包含'对口'这个连续词串的句子"
+    },
+    {
+        "query": "进",
+        "description": "包含'进'这个单字的句子"
+    },
+    {
+        "query": "什么呀你就",
+        "description": "包含'什么呀你就'这个连续词串的句子"
+    },
+    {
+        "query": "咦",
+        "description": "包含'咦'这个单字的句子"
+    },
+    {
+        "query": "规格",
+        "description": "包含'规格'这个连续词串的句子"
+    },
+    {
+        "query": "和谐与职",
+        "description": "包含'和谐与职'这个连续词串的句子"
+    },
+    {
+        "query": "这么看来",
+        "description": "包含'这么看来'这个连续词串的句子"
+    },
+    {
+        "query": "倡导和谐",
+        "description": "包含'倡导和谐'这个连续词串的句子"
+    },
+    {
+        "query": "欢欢",
+        "description": "包含'欢欢'这个连续词串的句子"
+    },
+    {
+        "query": "庄稼人",
+        "description": "包含'庄稼人'这个连续词串的句子"
+    },
+    {
+        "query": "收买",
+        "description": "包含'收买'这个连续词串的句子"
+    },
+    {
+        "query": "情话",
+        "description": "包含'情话'这个连续词串的句子"
+    },
+    {
+        "query": "夯实和谐",
+        "description": "包含'夯实和谐'这个连续词串的句子"
+    },
+    {
+        "query": "命人权",
+        "description": "包含'命人权'这个连续词串的句子"
+    },
+    {
+        "query": "身价",
+        "description": "包含'身价'这个连续词串的句子"
+    },
+    {
+        "query": "。总算",
+        "description": "包含'.总算'这个连续词串的句子"
+    },
+    {
+        "query": "好人",
+        "description": "包含'好人'这个连续词串的句子"
+    },
+    {
+        "query": "最不",
+        "description": "包含'最不'这个连续词串的句子"
+    },
+    {
+        "query": "爱怎办就",
+        "description": "包含'爱怎办就'这个连续词串的句子"
+    },
+    {
+        "query": "恕我直言",
+        "description": "包含'恕我直言'这个连续词串的句子"
+    },
+    {
+        "query": "过于不",
+        "description": "包含'过于不'这个连续词串的句子"
+    },
+    {
+        "query": "有请",
+        "description": "包含'有请'这个连续词串的句子"
+    },
+    {
+        "query": "合作",
+        "description": "包含'合作'这个连续词串的句子"
+    },
+    {
+        "query": "常规化",
+        "description": "包含'常规化'这个连续词串的句子"
+    },
+    {
+        "query": "即人权",
+        "description": "包含'即人权'这个连续词串的句子"
+    },
+    {
+        "query": "变化很多",
+        "description": "包含'变化很多'这个连续词串的句子"
+    },
+    {
+        "query": "似乎可以",
+        "description": "包含'似乎可以'这个连续词串的句子"
+    }
+]
+```

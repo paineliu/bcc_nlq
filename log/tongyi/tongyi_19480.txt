@@ -1,0 +1,168 @@
+```json
+[
+    {
+        "query": "就+容易/a+被",
+        "description": "就 + 形容词容易 + 被"
+    },
+    {
+        "query": "就 容易/a 被",
+        "description": "就 + 形容词容易 + 被"
+    },
+    {
+        "query": "经理人/n+制度+的+试点+。/w",
+        "description": "经理人 + 名词制度 + 的 + 名词试点 + 句尾符号"
+    },
+    {
+        "query": "经理人/n 制度 的 试点 。/w",
+        "description": "经理人 + 名词制度 + 的 + 名词试点 + 句尾符号"
+    },
+    {
+        "query": "v*热气/n",
+        "description": "动词后面离合出现热气"
+    },
+    {
+        "query": "零+../n",
+        "description": "零后面离合出现单音节名词"
+    },
+    {
+        "query": "零 ../n",
+        "description": "零后面出现单音节名词"
+    },
+    {
+        "query": "当代+文学/n+研究会",
+        "description": "当代 + 文学 + 名词研究会"
+    },
+    {
+        "query": "当代 文学/n 研究会",
+        "description": "当代 + 文学 + 名词研究会"
+    },
+    {
+        "query": "../a+而+../a",
+        "description": "句首单音节形容词 + 而 + 句首单音节形容词"
+    },
+    {
+        "query": "../a 而 ../a",
+        "description": "句首单音节形容词 + 而 + 句首单音节形容词"
+    },
+    {
+        "query": "这里+的/u+安静",
+        "description": "这里 + 的 + 形容词安静"
+    },
+    {
+        "query": "这里 的/u 安静",
+        "description": "这里 + 的 + 形容词安静"
+    },
+    {
+        "query": "./v大了",
+        "description": "单音节动词后面出现大了"
+    },
+    {
+        "query": "大数据/n+精准化",
+        "description": "大数据 + 名词精准化"
+    },
+    {
+        "query": "大数据/n 精准化",
+        "description": "大数据 + 名词精准化"
+    },
+    {
+        "query": "管理/vn+。/w",
+        "description": "动词管理 + 句尾符号"
+    },
+    {
+        "query": "管理/vn 。/w",
+        "description": "动词管理 + 句尾符号"
+    },
+    {
+        "query": "到位+。/w",
+        "description": "到位 + 句尾符号"
+    },
+    {
+        "query": "到位 。/w",
+        "description": "到位 + 句尾符号"
+    },
+    {
+        "query": "靳宇文/nr+说/v",
+        "description": "人物靳宇文 + 动词说"
+    },
+    {
+        "query": "靳宇文/nr 说/v",
+        "description": "人物靳宇文 + 动词说"
+    },
+    {
+        "query": "背/v+../n+",
+        "description": "动词背 + 句首单音节名词 + 句首符号"
+    },
+    {
+        "query": "背/v ../n ",
+        "description": "动词背 + 单音节名词 + 句首符号"
+    },
+    {
+        "query": "小+../a",
+        "description": "单音节字小 + 句首单音节形容词"
+    },
+    {
+        "query": "小 ../a",
+        "description": "单音节字小 + 单音节形容词"
+    },
+    {
+        "query": "反正/d..",
+        "description": "副词反正 + 句尾符号"
+    },
+    {
+        "query": "反正/d 而 ../a",
+        "description": "副词反正 + 而 + 句首单音节形容词"
+    },
+    {
+        "query": "中国+传统/a+节日",
+        "description": "中国 + 形容词传统 + 名词节日"
+    },
+    {
+        "query": "中国 传统/a 节日",
+        "description": "中国 + 形容词传统 + 名词节日"
+    },
+    {
+        "query": "同/p",
+        "description": "副词同"
+    },
+    {
+        "query": "简政/n+放权+管/v",
+        "description": "名词简政 + 放权 + 动词管"
+    },
+    {
+        "query": "简政/n 放权 管/v",
+        "description": "名词简政 + 放权 + 动词管"
+    },
+    {
+        "query": "交流/vn+。/w",
+        "description": "动词交流 + 句尾符号"
+    },
+    {
+        "query": "交流/vn 。/w",
+        "description": "动词交流 + 句尾符号"
+    },
+    {
+        "query": "../v住了",
+        "description": "句首单音节动词 + 住在"
+    },
+    {
+        "query": "通知/v",
+        "description": "动词通知"
+    },
+    {
+        "query": "诚意/n*a",
+        "description": "名词诚意 + 未知词"
+    },
+    {
+        "query": "y+太/d",
+        "description": "单音节字y + 副词太"
+    },
+    {
+        "query": "y 太/d",
+        "description": "单音节字y + 副词太"
+    },
+    {
+        "query": "长/v+在+s",
+        "description": "动词长 + 在 + 名词"
+    }
+]
+```

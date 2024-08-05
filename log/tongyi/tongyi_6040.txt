@@ -1,0 +1,166 @@
+以下是将上述检索式转换为带含义的json结构的结果：
+
+```json
+[
+    {
+        "query": "n口味",
+        "description": "包含名词'口味'的句子"
+    },
+    {
+        "query": "v下放",
+        "description": "包含动词'下放'的句子"
+    },
+    {
+        "query": "v见解",
+        "description": "包含动词'见解'的句子"
+    },
+    {
+        "query": "还a",
+        "description": "包含形容词'还'的句子"
+    },
+    {
+        "query": "n比n+a",
+        "description": "包含两个名词，第一个名词后接'比'，再接一个形容词的句子"
+    },
+    {
+        "query": "n比n a",
+        "description": "包含两个名词，第一个名词后接'比'，再接一个名词的句子"
+    },
+    {
+        "query": "a农具",
+        "description": "包含形容词'农具'的句子"
+    },
+    {
+        "query": "a反抗",
+        "description": "包含形容词'反抗'的句子"
+    },
+    {
+        "query": "确实了W",
+        "description": "包含形容词'确实'后接的二字短句的句子"
+    },
+    {
+        "query": "v他q",
+        "description": "包含动词'他'的句子"
+    },
+    {
+        "query": "已经d",
+        "description": "包含副词'已经'的句子"
+    },
+    {
+        "query": "很ad",
+        "description": "包含形容词'很'的句子"
+    },
+    {
+        "query": "猜测v",
+        "description": "包含动词'猜测'的句子"
+    },
+    {
+        "query": "在N里塞",
+        "description": "包含介词'在'后接'N'，再接'里'，最后接动词的句子"
+    },
+    {
+        "query": "a钥匙",
+        "description": "包含形容词'钥匙'的句子"
+    },
+    {
+        "query": "只+t",
+        "description": "包含副词'只'的句子"
+    },
+    {
+        "query": "只 t",
+        "description": "包含副词'只'的句子"
+    },
+    {
+        "query": "a交手",
+        "description": "包含形容词'交手'的句子"
+    },
+    {
+        "query": "a动身",
+        "description": "包含形容词'动身'的句子"
+    },
+    {
+        "query": "关+ad",
+        "description": "包含动词'关'后接形容词的句子"
+    },
+    {
+        "query": "关 ad",
+        "description": "包含动词'关'后接形容词的句子"
+    },
+    {
+        "query": "在+n+上",
+        "description": "包含介词'在'后接名词，再接'上'的句子"
+    },
+    {
+        "query": "在 n 上",
+        "description": "包含介词'在'后接名词，再接'上'的句子"
+    },
+    {
+        "query": "唔V",
+        "description": "包含叹词'唔'的句子"
+    },
+    {
+        "query": "a友爱",
+        "description": "包含形容词'友爱'的句子"
+    },
+    {
+        "query": "v得vn",
+        "description": "包含动词'得'后接动词的句子"
+    },
+    {
+        "query": "这小n+a的",
+        "description": "包含形容词修饰名词的句子"
+    },
+    {
+        "query": "这小n a的",
+        "description": "包含形容词修饰名词的句子"
+    },
+    {
+        "query": "v是非",
+        "description": "包含动词'是非'的句子"
+    },
+    {
+        "query": "a借助",
+        "description": "包含形容词'借助'的句子"
+    },
+    {
+        "query": "v下班",
+        "description": "包含动词'下班'的句子"
+    },
+    {
+        "query": "v+n+m次",
+        "description": "包含动词后接一个名词和两个数字的句子"
+    },
+    {
+        "query": "v n m次",
+        "description": "包含动词后接一个名词和两个数字的句子"
+    },
+    {
+        "query": "a合营",
+        "description": "包含形容词'合营'的句子"
+    },
+    {
+        "query": "a+王",
+        "description": "包含形容词修饰名词'王'的句子"
+    },
+    {
+        "query": "a 王",
+        "description": "包含形容词修饰名词'王'的句子"
+    },
+    {
+        "query": "杭州G20峰会",
+        "description": "包含地点'杭州'和事件'G20峰会'的句子"
+    },
+    {
+        "query": "定期把n+v了",
+        "description": "包含介词'把'后接名词和动词过去式构成的句子"
+    },
+    {
+        "query": "定期把n v了",
+        "description": "包含介词'把'后接名词和动词过去式构成的句子"
+    },
+    {
+        "query": "nt里",
+        "description": "包含机构团体'nt'的句子"
+    }
+]
+```

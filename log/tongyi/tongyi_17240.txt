@@ -1,0 +1,166 @@
+根据给出的检索式，我们可以将其转换为带有含义的JSON结构如下：
+
+```json
+[
+    {
+        "query": "[后+左+右][头+边+侧+方+面]的m个n",
+        "description": "后、左、右与头、边、侧、方、面组合后的名词，前面加上'm个'修饰，后面跟'n'"
+    },
+    {
+        "query": "[后 左 右][头 边 侧 方 面]的m个n",
+        "description": "后、左、右、头、边、侧、方、面的组合，前面加上'm个'修饰，后面跟'n'"
+    },
+    {
+        "query": "[削+规定+打开+享受+更新]个",
+        "description": "削、规定、打开、享受、更新的组合，后面跟'个'"
+    },
+    {
+        "query": "[削 规定 打开 享受 更新]个",
+        "description": "削、规定、打开、享受、更新的组合，后面跟'个'"
+    },
+    {
+        "query": "[n+r]+的加强",
+        "description": "n+r的组合，后面加上'的加强'"
+    },
+    {
+        "query": "[n r] 的加强",
+        "description": "n、r的组合，后面加上'的加强'"
+    },
+    {
+        "query": "w歹.好[q+r+d+c+v+a++n+m++p]w",
+        "description": "w歹后面跟好[q+r+d+c+v+a]，再跟n+m+p，最后加上w"
+    },
+    {
+        "query": "w歹.好[q r d c v a  n m  p]w",
+        "description": "w歹后面跟好[q r d c v a]，再跟n m p，最后加上w"
+    },
+    {
+        "query": "v+着n+v[，+。]",
+        "description": "v后面跟着着n，再跟着另一个v，后面可跟逗号或句号"
+    },
+    {
+        "query": "v 着n v[， 。]",
+        "description": "v后面跟着着n，再跟着另一个v，后面可跟逗号或句号"
+    },
+    {
+        "query": " ../[v+n+a+g]+感+w",
+        "description": "以句点开头，后面跟着[v+n+a+g]的组合，再跟着'感'，最后加上w"
+    },
+    {
+        "query": " ../[v n a g] 感 w",
+        "description": "以句点开头，后面跟着[v n a g]的组合，再跟着'感'，最后加上w"
+    },
+    {
+        "query": " [，+。]c+u+r+[，+。]",
+        "description": "逗号或句号开头，后面跟着c+u+r的组合，再跟着逗号或句号"
+    },
+    {
+        "query": " [， 。]c u r [， 。]",
+        "description": "逗号或句号开头，后面跟着c u r的组合，再跟着逗号或句号"
+    },
+    {
+        "query": " 胡乱v+a[，+。]",
+        "description": "胡乱后面跟着v+a，再跟着逗号或句号"
+    },
+    {
+        "query": " 胡乱v a[， 。]",
+        "description": "胡乱后面跟着v a，再跟着逗号或句号"
+    },
+    {
+        "query": " [赏+增加+办理+认+截+耍+动]个",
+        "description": "赏、增加、办理、认、截、耍、动的组合，后面跟'个'"
+    },
+    {
+        "query": " [赏 增加 办理 认 截 耍 动]个",
+        "description": "赏、增加、办理、认、截、耍、动的组合，后面跟'个'"
+    },
+    {
+        "query": " [相继+向来+新近]v[q+m+]n[，+。]",
+        "description": "相继、向来、新近的组合，后面跟着v，再跟着[q+m+]n，最后可跟逗号或句号"
+    },
+    {
+        "query": " [相继 向来 新近]v[q m ]n[， 。]",
+        "description": "相继、向来、新近的组合，后面跟着v，再跟着[q m ]n，最后可跟逗号或句号"
+    },
+    {
+        "query": " w[q+r+d+c+v+a++n+m++p]古.今w",
+        "description": "w后面跟着[q+r+d+c+v+a]，再跟着n+m+p，中间加上古.今，最后加上w"
+    },
+    {
+        "query": " w[q r d c v a  n m  p]古.今w",
+        "description": "w后面跟着[q r d c v a]，再跟着n m p，中间加上古.今，最后加上w"
+    },
+    {
+        "query": " 尽快d+a[，+。]",
+        "description": "尽快后面跟着d+a，再跟着逗号或句号"
+    },
+    {
+        "query": " 尽快d a[， 。]",
+        "description": "尽快后面跟着d a，再跟着逗号或句号"
+    },
+    {
+        "query": " w宽.窄[q+r+d+c+v+a++n+m++p]w",
+        "description": "w后面跟着宽.窄，再跟着[q+r+d+c+v+a]，中间加上n+m+p，最后加上w"
+    },
+    {
+        "query": " w宽.窄[q r d c v a  n m  p]w",
+        "description": "w后面跟着宽.窄，再跟着[q r d c v a]，中间加上n m p，最后加上w"
+    },
+    {
+        "query": " m年代[，+。]",
+        "description": "m年代后面跟着逗号或句号"
+    },
+    {
+        "query": " m年代[， 。]",
+        "description": "m年代后面跟着逗号或句号"
+    },
+    {
+        "query": " 民d+v[，+。]",
+        "description": "民d后面跟着v，再跟着逗号或句号"
+    },
+    {
+        "query": " 民d v[， 。]",
+        "description": "民d后面跟着v，再跟着逗号或句号"
+    },
+    {
+        "query": " 中途a[，+。]",
+        "description": "中途后面跟着a，再跟着逗号或句号"
+    },
+    {
+        "query": " 中途a[， 。]",
+        "description": "中途后面跟着a，再跟着逗号或句号"
+    },
+    {
+        "query": " v+v不a的n[，+。]",
+        "description": "v+v后面跟着不a的n，再跟着逗号或句号"
+    },
+    {
+        "query": " v v不a的n[， 。]",
+        "description": "v v后面跟着不a的n，再跟着逗号或句号"
+    },
+    {
+        "query": " 哪些n[，+。]",
+        "description": "哪些后面跟着n，再跟着逗号或句号"
+    },
+    {
+        "query": " 哪些n[， 。]",
+        "description": "哪些后面跟着n，再跟着逗号或句号"
+    },
+    {
+        "query": " [。+？+！+，+、+：+；]~呗w",
+        "description": "句点、问号、感叹号、逗号、顿号、冒号、分号后面跟着~呗，最后加上w"
+    },
+    {
+        "query": " [。 ？ ！ ， 、 ： ；]~呗w",
+        "description": "句点、问号、感叹号、逗号、顿号、冒号、分号后面跟着~呗，最后加上w"
+    },
+    {
+        "query": " 专门d+a[，+。]",
+        "description": "专门后面跟着d+a，再跟着逗号或句号"
+    },
+    {
+        "query": " 专门d a[， 。]",
+        "description": "专门后面跟着d a，再跟着逗号或句号"
+    }
+]
+```

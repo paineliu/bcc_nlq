@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "n.....n",
+        "description": "名词之间隔着多个空格"
+    },
+    {
+        "query": "上下..。",
+        "description": "上下之间隔着多个点"
+    },
+    {
+        "query": "进*退",
+        "description": "进后面离合出现退"
+    },
+    {
+        "query": "n*有m",
+        "description": "名词后面离合出现有+名形词"
+    },
+    {
+        "query": "旧*新",
+        "description": "旧后面离合出现新"
+    },
+    {
+        "query": "*一回w",
+        "description": "单音节字后面离合出现一回"
+    },
+    {
+        "query": "农民*n",
+        "description": "农民后面跟着名词"
+    },
+    {
+        "query": ".来.去",
+        "description": "句尾有空格隔开的来和去"
+    },
+    {
+        "query": "看在@的面上",
+        "description": "看在特定词性后面，再接表示面上的词"
+    },
+    {
+        "query": "是*的习惯w",
+        "description": "是后面离合出现习惯的句尾"
+    },
+    {
+        "query": "你们..+回去w",
+        "description": "你们后面加上空格，然后离合出现回去"
+    },
+    {
+        "query": "你们.. 回去w",
+        "description": "你们后面多个空格，然后离合出现回去"
+    },
+    {
+        "query": "在*上",
+        "description": "在后面离合出现上"
+    },
+    {
+        "query": "谁*谁*",
+        "description": "谁后面离合出现谁"
+    },
+    {
+        "query": "大约*呢？",
+        "description": "大约后面离合出现呢，句尾有问号"
+    },
+    {
+        "query": "是*的涨幅w",
+        "description": "是后面离合出现的的，后面跟着名词"
+    },
+    {
+        "query": "就是......也.......",
+        "description": "就是后面多个点，再接多个点，最后也点结束"
+    },
+    {
+        "query": "看在@的脸上",
+        "description": "看在特定词性后面，再接表示脸上的词"
+    },
+    {
+        "query": "v*心房",
+        "description": "动词后面离合出现心房"
+    },
+    {
+        "query": "朝*V",
+        "description": "朝后面离合出现V"
+    },
+    {
+        "query": "梅花*v",
+        "description": "梅花后面跟着动词"
+    },
+    {
+        "query": "他一个..，",
+        "description": "他后面多个空格，然后逗号结束"
+    },
+    {
+        "query": "w首.末w",
+        "description": "句首有空格，然后是首，最后空格和句尾的末"
+    },
+    {
+        "query": "他.+回来w",
+        "description": "他后面加上空格，然后离合出现回来"
+    },
+    {
+        "query": "他. 回来w",
+        "description": "他后面空格，然后离合出现回来"
+    },
+    {
+        "query": "~的口味",
+        "description": "表示一个词后面跟着的口味"
+    },
+    {
+        "query": "v几.是几",
+        "description": "动词后面离合出现几是几"
+    },
+    {
+        "query": "a.回忆",
+        "description": "形容词后面跟着的回忆"
+    },
+    {
+        "query": "吃*苦",
+        "description": "吃后面离合出现苦"
+    },
+    {
+        "query": "恐怕*一定要",
+        "description": "恐怕后面离合出现一定要"
+    },
+    {
+        "query": "说句*话",
+        "description": "说句后面离合出现话"
+    },
+    {
+        "query": "*得很",
+        "description": "单音节字后面离合出现得很"
+    },
+    {
+        "query": "洗.........澡",
+        "description": "洗后面隔着多个点，然后澡"
+    },
+    {
+        "query": "怕*恐怕",
+        "description": "怕后面离合出现恐怕"
+    },
+    {
+        "query": "似乎*决不",
+        "description": "似乎后面离合出现决不"
+    },
+    {
+        "query": "似乎*难免v",
+        "description": "似乎后面离合出现难免的动词"
+    },
+    {
+        "query": "清*楚",
+        "description": "清后面离合出现楚"
+    },
+    {
+        "query": "似乎*明明",
+        "description": "似乎后面离合出现明明"
+    },
+    {
+        "query": "说...就...",
+        "description": "说后面多个点，然后就多个点结束"
+    },
+    {
+        "query": "树叶*v",
+        "description": "树叶后面跟着动词"
+    }
+]
+```

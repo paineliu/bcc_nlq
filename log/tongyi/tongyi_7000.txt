@@ -1,0 +1,162 @@
+以下是将给定的检索式转换为带含义的json结构：
+
+```json
+[
+    {
+        "query": "依然有v",
+        "description": "依然后接动词"
+    },
+    {
+        "query": "一磅n",
+        "description": "一后接名词磅"
+    },
+    {
+        "query": "v及v",
+        "description": "动词后接动词及"
+    },
+    {
+        "query": "m+q+知识",
+        "description": "名形词后接量词、知识"
+    },
+    {
+        "query": "m q 知识",
+        "description": "名形词、量词后接知识"
+    },
+    {
+        "query": "n风味",
+        "description": "名词后接风味"
+    },
+    {
+        "query": "昂贵N",
+        "description": "形容词后接名词昂贵"
+    },
+    {
+        "query": "a出席",
+        "description": "形容词后接动词出席"
+    },
+    {
+        "query": "在N上罩",
+        "description": "动词在后接名词上、动词罩"
+    },
+    {
+        "query": "p认识",
+        "description": "代词后接动词认识"
+    },
+    {
+        "query": "vn+n",
+        "description": "动语素后接名词"
+    },
+    {
+        "query": "vn n",
+        "description": "动语素后接名词"
+    },
+    {
+        "query": "q分析",
+        "description": "量词后接动词分析"
+    },
+    {
+        "query": "m口a",
+        "description": "名形词后接口、形容词"
+    },
+    {
+        "query": "比较把n+v了",
+        "description": "比较后接动词把、名词、动词了"
+    },
+    {
+        "query": "比较把n v了",
+        "description": "比较后接动词把、名词、动词了"
+    },
+    {
+        "query": "a加重",
+        "description": "形容词后接动词加重"
+    },
+    {
+        "query": "吃醉了n",
+        "description": "动词吃后接形容词醉、名词"
+    },
+    {
+        "query": "照这么V",
+        "description": "照后接动词这么"
+    },
+    {
+        "query": "v一向",
+        "description": "动词后接一向"
+    },
+    {
+        "query": "a全局",
+        "description": "形容词后接全局"
+    },
+    {
+        "query": "污v",
+        "description": "动词后接污"
+    },
+    {
+        "query": "m把子n",
+        "description": "名形词后接把子、名词"
+    },
+    {
+        "query": "闺房v",
+        "description": "名词闺房后接动词"
+    },
+    {
+        "query": "的n+上+w",
+        "description": "名词的后接上、助词"
+    },
+    {
+        "query": "的n 上 w",
+        "description": "名词的后接上、助词"
+    },
+    {
+        "query": "a党章",
+        "description": "形容词后接党章"
+    },
+    {
+        "query": "r势必",
+        "description": "代词后接势必"
+    },
+    {
+        "query": "a动态",
+        "description": "形容词后接动态"
+    },
+    {
+        "query": "劳动v",
+        "description": "动词劳动"
+    },
+    {
+        "query": "v什么呀",
+        "description": "动词后接什么呀"
+    },
+    {
+        "query": "v上来n",
+        "description": "动词后接上来、名词"
+    },
+    {
+        "query": "将这q+n",
+        "description": "副词将这、量词后接名词"
+    },
+    {
+        "query": "将这q n",
+        "description": "副词将这、量词后接名词"
+    },
+    {
+        "query": "毫无n",
+        "description": "毫无、名词"
+    },
+    {
+        "query": "v过n来。",
+        "description": "动词后接过、名词、动词来、句尾点"
+    },
+    {
+        "query": "巨v",
+        "description": "动词后接巨"
+    },
+    {
+        "query": "行了w",
+        "description": "动词行后接了、句尾点"
+    },
+    {
+        "query": "d+细",
+        "description": "区别词后接细"
+    }
+]
+```

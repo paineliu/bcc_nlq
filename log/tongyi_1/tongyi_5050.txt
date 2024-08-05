@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "记者 (nr){count<192}",
+        "description": "包含记者的名词，且记者出现次数少于192次"
+    },
+    {
+        "query": "(v) 避免 (v){len($2)=2}",
+        "description": "动词避免后面跟一个长度为2的动词"
+    },
+    {
+        "query": "， (n) 说明{end($1)=[需 或 倒 何]}",
+        "description": "逗号后面接一个名词，且说明的末尾不包含需、倒或何"
+    },
+    {
+        "query": "驻 (ns) 记者{count>4}",
+        "description": "驻地名词后面接记者，且记者出现次数大于4次"
+    },
+    {
+        "query": "缺乏/v 实质",
+        "description": "缺乏后面接动词，动词后面接实质"
+    },
+    {
+        "query": "本报 (v) 韩国{count<544}",
+        "description": "本报后面接动词，动词后面接韩国，且次数少于544次"
+    },
+    {
+        "query": "(d) 来自 (n){count>2}",
+        "description": "副词来自后面接名词，且来自后面接的名词出现次数大于2次"
+    },
+    {
+        "query": "： ~",
+        "description": "冒号后面接任意字符"
+    },
+    {
+        "query": "时 ..",
+        "description": "时后面接任意字符"
+    },
+    {
+        "query": "中国",
+        "description": "直接匹配中国"
+    },
+    {
+        "query": "、 (n){end($1)!=[代 黄 躲 祝]}",
+        "description": "顿号后面接一个名词，且末尾不包含代、黄、躲或祝"
+    },
+    {
+        "query": "(n) 是 (v){len($1)>1; begin($2)!=[包 熬]}",
+        "description": "名词后面接动词是，且动词的长度大于1，且不是包或熬开头"
+    },
+    {
+        "query": "~ 核心",
+        "description": "匹配一个词后接核心"
+    },
+    {
+        "query": "@/[ns v] 自古",
+        "description": "匹配一个词性为名词或动词的词后接自古"
+    },
+    {
+        "query": "价值 (n){end($1)=[在 天 痒 扯]}",
+        "description": "价值后面接一个名词，且名词的末尾在、天、痒或扯"
+    },
+    {
+        "query": "文化 @/[n v]",
+        "description": "文化后面接一个词性为名词或动词的词"
+    },
+    {
+        "query": "也 (w){count>2}",
+        "description": "也出现次数大于2"
+    },
+    {
+        "query": "(n) 操斤{begin($1)!=[欠 高]}",
+        "description": "名词操斤，且操斤前面的词不包含欠或高"
+    },
+    {
+        "query": "优秀 .. 文化",
+        "description": "优秀后面接任意字符后接文化"
+    },
+    {
+        "query": "建设 ~ 取得",
+        "description": "建设后面接一个词"
+    },
+    {
+        "query": "规矩 (b) 的{count<581}",
+        "description": "规矩后面接一个状态词，且该状态词出现次数少于581次"
+    },
+    {
+        "query": "一 ./v 理想",
+        "description": "一后面接一个动词后接理想"
+    },
+    {
+        "query": "按时 (j) 叫好{begin($1)!=[戴 肥 被]}",
+        "description": "按时后面接一个形容词后接叫好，且叫好的前一个词不是戴、肥或被"
+    },
+    {
+        "query": "(nr) 太平{count>6}",
+        "description": "人名太平，且太平出现次数大于6次"
+    },
+    {
+        "query": "了",
+        "description": "匹配了字"
+    },
+    {
+        "query": "故事 ~ 有",
+        "description": "故事后面接一个词"
+    },
+    {
+        "query": "的 (vn){len($1)!=3}",
+        "description": "的后面接一个非长度为3的名动词"
+    },
+    {
+        "query": "坦言 ~",
+        "description": "坦言后面接一个词"
+    },
+    {
+        "query": "品位 ../[v v] 。",
+        "description": "品位后面接一个动词或动词后接句号"
+    },
+    {
+        "query": "’ ../[v v] ，",
+        "description": "撇号后面接一个动词或动词后接逗号"
+    },
+    {
+        "query": "(w) 不 靠 本本 ， 须 靠 (n){$1=$2}",
+        "description": "不、靠、本本、须、靠之间是同一个词"
+    },
+    {
+        "query": "让 (ns) 服务{len($1)>1}",
+        "description": "让后面接人名，人名后面接服务，且服务的前一个词的长度大于1"
+    },
+    {
+        "query": "(n) (a){len($2)>1}",
+        "description": "一个名词后面接一个形容词，且形容词的长度大于1"
+    },
+    {
+        "query": "提升 ~",
+        "description": "提升后面接一个词"
+    },
+    {
+        "query": "， 改革/v 开放",
+        "description": "逗号后面接改革，改革后面接开放"
+    },
+    {
+        "query": "说 (w){count>8}",
+        "description": "说出现次数大于8"
+    },
+    {
+        "query": "(c) 要{len($1)<3}",
+        "description": "要的长度小于3"
+    },
+    {
+        "query": "朱之鑫 ./[v v] 。",
+        "description": "朱之鑫后面接一个动词或动词后接句号"
+    },
+    {
+        "query": "全",
+        "description": "直接匹配全"
+    },
+    {
+        "query": "(n) 将 (ad){$1=$2}",
+        "description": "一个名词后面接一个副形词，且两者相同"
+    }
+]
+```

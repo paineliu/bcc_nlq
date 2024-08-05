@@ -1,0 +1,166 @@
+以下是将给定的检索式转换为带含义的JSON结构：
+
+```json
+[
+    {
+        "query": "a不了多少",
+        "description": "形容词后接不了多少"
+    },
+    {
+        "query": "v完n",
+        "description": "动词后接名词"
+    },
+    {
+        "query": "a不对",
+        "description": "形容词后接不对"
+    },
+    {
+        "query": "a出境",
+        "description": "形容词后接出境"
+    },
+    {
+        "query": "v得i",
+        "description": "动词后接得i"
+    },
+    {
+        "query": "a全民",
+        "description": "形容词后接全民"
+    },
+    {
+        "query": "a创造",
+        "description": "形容词后接创造"
+    },
+    {
+        "query": "v+起来",
+        "description": "动词后接+起来"
+    },
+    {
+        "query": "v 起来",
+        "description": "动词后接起来"
+    },
+    {
+        "query": "一桌n",
+        "description": "数字后接名词"
+    },
+    {
+        "query": "变V",
+        "description": "动词后接变"
+    },
+    {
+        "query": "不要n",
+        "description": "动词后接不要"
+    },
+    {
+        "query": "那同m+q+n",
+        "description": "那同后接m、疑问代词、名词"
+    },
+    {
+        "query": "那同m q n",
+        "description": "那同后接m、疑问代词、名词"
+    },
+    {
+        "query": "a便宜",
+        "description": "形容词后接便宜"
+    },
+    {
+        "query": "a传单",
+        "description": "形容词后接传单"
+    },
+    {
+        "query": "v一支",
+        "description": "动词后接一支"
+    },
+    {
+        "query": "n自身",
+        "description": "名词后接自身"
+    },
+    {
+        "query": "那叫一个a",
+        "description": "那叫一个后接形容词"
+    },
+    {
+        "query": "v树碑立传",
+        "description": "动词后接树碑立传"
+    },
+    {
+        "query": "m把",
+        "description": "量词后接把"
+    },
+    {
+        "query": "用N盖",
+        "description": "动词后接用N盖"
+    },
+    {
+        "query": "v一遍n",
+        "description": "动词后接一遍"
+    },
+    {
+        "query": "a合同",
+        "description": "形容词后接合同"
+    },
+    {
+        "query": "v平稳了",
+        "description": "动词后接平稳了"
+    },
+    {
+        "query": "耳房v",
+        "description": "动词后接耳房"
+    },
+    {
+        "query": "b王",
+        "description": "区别词后接王"
+    },
+    {
+        "query": "悲哀V下",
+        "description": "动词后接悲哀"
+    },
+    {
+        "query": "v连v",
+        "description": "动词后接连"
+    },
+    {
+        "query": "得还a+w",
+        "description": "动词后接得还"
+    },
+    {
+        "query": "得还a w",
+        "description": "动词后接得还"
+    },
+    {
+        "query": "m壮",
+        "description": "量词后接壮"
+    },
+    {
+        "query": "a得要死",
+        "description": "形容词后接得要死"
+    },
+    {
+        "query": "N之a",
+        "description": "名词后接之"
+    },
+    {
+        "query": "a发起",
+        "description": "形容词后接发起"
+    },
+    {
+        "query": "浅v",
+        "description": "动词后接浅"
+    },
+    {
+        "query": "产房v",
+        "description": "名词后接产房"
+    },
+    {
+        "query": "一辈n",
+        "description": "数字后接名词"
+    },
+    {
+        "query": "v一a",
+        "description": "动词后接一"
+    },
+    {
+        "query": "得怪a+w",
+        "description": "动词后接得怪"
+    }
+]
+```

@@ -1,0 +1,86 @@
+以下是根据您提供的检索式及其含义的JSON结构列表：
+
+```json
+[
+    {
+        "query": "ns 叫停",
+        "description": "地名后接叫停"
+    },
+    {
+        "query": "v 变",
+        "description": "动词后接变"
+    },
+    {
+        "query": "是 ~ 一",
+        "description": "是后面接一个词，再接一"
+    },
+    {
+        "query": "v n",
+        "description": "动词后接名词"
+    },
+    {
+        "query": "(nr) 说{len($1)<4}",
+        "description": "人名后接说，且人名长度小于4"
+    },
+    {
+        "query": "v w",
+        "description": "动词后接标点符号"
+    },
+    {
+        "query": "闻 @",
+        "description": "闻后面接任意词性"
+    },
+    {
+        "query": "../vn 改革",
+        "description": "双音节动名词后接改革"
+    },
+    {
+        "query": "大学 将/d 优化",
+        "description": "大学后接将字开头的单字副词，再接优化"
+    },
+    {
+        "query": "如何 @/[v v]",
+        "description": "如何后面接动词或动词短语"
+    },
+    {
+        "query": "很多 @ 钻",
+        "description": "很多后面接任意词性，再接钻"
+    },
+    {
+        "query": "... 说",
+        "description": "省略号后接说"
+    },
+    {
+        "query": "(n) 联手 促进 (n){len($1)>1; len($2)>1}",
+        "description": "名词后接联手和促进，再接名词，且两个名词长度都大于1"
+    },
+    {
+        "query": "英文 (n) 上线{begin($1)!=[着 刚 陪 专]}",
+        "description": "英文后接名词上线，且名词不以着、刚、陪、专开头"
+    },
+    {
+        "query": "荷兰 @/[ns v] 的",
+        "description": "荷兰后面接名词性或动词性词，再接的"
+    },
+    {
+        "query": "街景 ./w",
+        "description": "街景后隔一个标点符号"
+    },
+    {
+        "query": "扬帆 ~ 巨浪",
+        "description": "扬帆后接一个词，再接巨浪"
+    },
+    {
+        "query": "(n) 深处{count<692}",
+        "description": "名词后接深处，且该结构出现次数少于692"
+    },
+    {
+        "query": "回响 。/w",
+        "description": "回响后接句尾标点符号"
+    },
+    {
+        "query": "联通 (v) 发展{count>4}",
+        "description": "联通后接动词，再接发展，且该结构出现次数大于4"
+    }
+]
+```

@@ -1,0 +1,168 @@
+以下是将给定的检索式转换为带含义的JSON结构的结果：
+
+```json
+[
+    {
+        "query": "大约v",
+        "description": "包含'大约'这个动词的句子"
+    },
+    {
+        "query": "a侵略",
+        "description": "形容词'侵略'作为修饰语的句子"
+    },
+    {
+        "query": "把N垫在",
+        "description": "动词'把'后面跟名词，然后是'垫在'这个动词短语的句子"
+    },
+    {
+        "query": "怎么v",
+        "description": "动词'怎么'作为疑问词的句子"
+    },
+    {
+        "query": "a代办",
+        "description": "形容词'代办'作为描述性用语的句子"
+    },
+    {
+        "query": "不管是n还是n",
+        "description": "句子中包含'不管是'这个连词短语，后面跟着两个并列的名词"
+    },
+    {
+        "query": "满肚子n",
+        "description": "形容词'满肚子'作为修饰语的句子"
+    },
+    {
+        "query": "l",
+        "description": "单个汉字'l'的句子"
+    },
+    {
+        "query": "f+经历",
+        "description": "由单个汉字'f'加上'经历'组成的句子"
+    },
+    {
+        "query": "f 经历",
+        "description": "单个汉字'f'后面紧跟'经历'的句子"
+    },
+    {
+        "query": "a动静",
+        "description": "形容词'动静'作为描述性用语的句子"
+    },
+    {
+        "query": "放a点",
+        "description": "动词'放'后面跟形容词'点'的句子"
+    },
+    {
+        "query": "N+绿",
+        "description": "名词后面跟'绿'的句子"
+    },
+    {
+        "query": "N 绿",
+        "description": "名词后面紧跟'绿'的句子"
+    },
+    {
+        "query": "有+V有V",
+        "description": "句子中包含两次'有'动词的句子"
+    },
+    {
+        "query": "有 V有V",
+        "description": "动词'有'后面跟着另一个动词'有'的句子"
+    },
+    {
+        "query": "被她v",
+        "description": "动词'被'后面跟'她'作为施事者的句子"
+    },
+    {
+        "query": "nr在哪里v",
+        "description": "名词'nr'后面跟着疑问词'在哪里'的句子"
+    },
+    {
+        "query": "ad+更",
+        "description": "副词'ad'后面跟着'更'的句子"
+    },
+    {
+        "query": "ad 更",
+        "description": "副词'ad'后面紧跟'更'的句子"
+    },
+    {
+        "query": "大n",
+        "description": "名词'大'作为实体的句子"
+    },
+    {
+        "query": "m辫n",
+        "description": "名词'辫'后面跟'n'的句子"
+    },
+    {
+        "query": "；+n是n+。",
+        "description": "句子以分号开头，后面跟着名词，然后是'是'，再跟着名词，最后以句号结尾的句子"
+    },
+    {
+        "query": "； n是n 。",
+        "description": "句子以分号开头，后面跟着名词，然后是'是'，再跟着名词，最后以句号结尾的句子"
+    },
+    {
+        "query": "a宅",
+        "description": "形容词'宅'作为描述性用语的句子"
+    },
+    {
+        "query": "a养活",
+        "description": "形容词'养活'作为描述性用语的句子"
+    },
+    {
+        "query": "她就v她的",
+        "description": "名词'她'后面跟着动词'就'，再跟着另一个名词'她的'"
+    },
+    {
+        "query": "a半导体",
+        "description": "形容词'半导体'作为描述性用语的句子"
+    },
+    {
+        "query": "一万个v",
+        "description": "动词'一万个'作为数量形容词的句子"
+    },
+    {
+        "query": "w能v+w",
+        "description": "动词'能'后面跟着动词'v'，再跟着'w'的句子"
+    },
+    {
+        "query": "w能v w",
+        "description": "动词'能'后面跟着动词'v'，再跟着另一个动词'w'的句子"
+    },
+    {
+        "query": "r出s",
+        "description": "动词'r'后面跟着动词's'的句子"
+    },
+    {
+        "query": "一头n",
+        "description": "名词'一头'作为实体的句子"
+    },
+    {
+        "query": "跳n",
+        "description": "名词'跳'作为实体的句子"
+    },
+    {
+        "query": "有n没a",
+        "description": "名词'有'后面跟着否定词'没'的句子"
+    },
+    {
+        "query": "一直没v",
+        "description": "动词'一直'后面跟着动词'没'的句子"
+    },
+    {
+        "query": "a共计",
+        "description": "形容词'共计'作为描述性用语的句子"
+    },
+    {
+        "query": "m面n",
+        "description": "名词'面'后面跟着名词'n'的句子"
+    },
+    {
+        "query": "a专题",
+        "description": "形容词'专题'作为描述性用语的句子"
+    },
+    {
+        "query": "v跑",
+        "description": "动词'跑'作为动作的句子"
+    }
+]
+```
+
+以上JSON结构包含了对每个检索式的解释和描述。

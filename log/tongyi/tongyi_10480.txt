@@ -1,0 +1,166 @@
+以下是将给定的检索式转换为带含义的json结构：
+
+```json
+[
+    {
+        "query": "*一顿w",
+        "description": "一顿后面离合出现单音节字"
+    },
+    {
+        "query": "一.便千",
+        "description": "一后面隔一个字后接数字千"
+    },
+    {
+        "query": "似乎*却",
+        "description": "似乎后面离合出现却"
+    },
+    {
+        "query": "重.轻.",
+        "description": "重后面隔一个字后接轻"
+    },
+    {
+        "query": "朝@+v",
+        "description": "朝后接动词"
+    },
+    {
+        "query": "朝@ v",
+        "description": "朝后接动词"
+    },
+    {
+        "query": "太*y",
+        "description": "太后接语气词"
+    },
+    {
+        "query": "是*的内容w",
+        "description": "是后面离合出现内容后的单音节字"
+    },
+    {
+        "query": "V上*情绪",
+        "description": "动词上后面离合出现情绪"
+    },
+    {
+        "query": "你们一个.......，",
+        "description": "你们后接一个字，然后跟着多个点，最后是一个逗号"
+    },
+    {
+        "query": "她一个*。",
+        "description": "她后接一个字，然后句尾是一个句点"
+    },
+    {
+        "query": "连~也",
+        "description": "连后面接一个词，然后是也"
+    },
+    {
+        "query": "或许*未免",
+        "description": "或许后面离合出现未免"
+    },
+    {
+        "query": "恐怕*怪不得",
+        "description": "恐怕后面离合出现怪不得"
+    },
+    {
+        "query": "@的Q",
+        "description": "一个词性后的Q"
+    },
+    {
+        "query": "会*不多",
+        "description": "会后面离合出现不多"
+    },
+    {
+        "query": "依然..吗",
+        "description": "依然后面跟着一个字，然后是吗"
+    },
+    {
+        "query": "见不.",
+        "description": "见后面隔一个字后接不"
+    },
+    {
+        "query": "仿佛*反倒",
+        "description": "仿佛后面离合出现反倒"
+    },
+    {
+        "query": "他一个..........，",
+        "description": "他后接一个字，然后跟着多个点，最后是一个逗号"
+    },
+    {
+        "query": "是*的水准w",
+        "description": "是后面离合出现的后接水准后的单音节字"
+    },
+    {
+        "query": "帮...忙",
+        "description": "帮后面跟着一个字，然后是忙着"
+    },
+    {
+        "query": "一直*来着",
+        "description": "一直后面离合出现来着"
+    },
+    {
+        "query": "想来@大概",
+        "description": "想来后接大概"
+    },
+    {
+        "query": "~不知",
+        "description": "一个词后面接不知"
+    },
+    {
+        "query": "最*之一",
+        "description": "最后面离合出现之一"
+    },
+    {
+        "query": "也许*呢？",
+        "description": "也许后面离合出现呢后句尾是问号"
+    },
+    {
+        "query": "把*下下",
+        "description": "把后面离合出现下下"
+    },
+    {
+        "query": "w双.单w",
+        "description": "w后面隔一个字后接双，然后是单w"
+    },
+    {
+        "query": "w今.古w",
+        "description": "w后面隔一个字后接今，然后是古w"
+    },
+    {
+        "query": "迎接*周年",
+        "description": "迎接后面离合出现周年"
+    },
+    {
+        "query": "左....",
+        "description": "左后面跟着多个点"
+    },
+    {
+        "query": "或许*决不",
+        "description": "或许后面离合出现决不"
+    },
+    {
+        "query": "w开.关w",
+        "description": "w后面隔一个字后接开，然后是关w"
+    },
+    {
+        "query": "w里.外w",
+        "description": "w后面隔一个字后接里，然后是外w"
+    },
+    {
+        "query": "或许*终究",
+        "description": "或许后面离合出现终究"
+    },
+    {
+        "query": "你们..+过去w",
+        "description": "你们后接一个字，然后是加过去的w"
+    },
+    {
+        "query": "你们.. 过去w",
+        "description": "你们后接一个字，然后是过去w"
+    },
+    {
+        "query": "w呼.吸w",
+        "description": "w后面隔一个字后接呼，然后是吸w"
+    },
+    {
+        "query": "猜不.",
+        "description": "猜后面跟着一个字，然后是不."
+    }
+]
+```

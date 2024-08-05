@@ -1,0 +1,166 @@
+以下是将给定的检索式转换为带含义的json结构：
+
+```json
+[
+    {
+        "query": "n出s",
+        "description": "名词后接输出"
+    },
+    {
+        "query": "up主",
+        "description": "UP主的简称"
+    },
+    {
+        "query": "v在",
+        "description": "动词后接在"
+    },
+    {
+        "query": "在n中",
+        "description": "动词后接在，之后接名词中"
+    },
+    {
+        "query": "或许本来v",
+        "description": "或许后接动词，动词后接本来"
+    },
+    {
+        "query": "V一q就是一q",
+        "description": "动词后接一，之后接形容词就是，再接动词"
+    },
+    {
+        "query": "的n+里+w",
+        "description": "名词后接的，之后接里，再接形容词"
+    },
+    {
+        "query": "的n 里 w",
+        "description": "名词后接的，之后接里，再接名词"
+    },
+    {
+        "query": "w换句话说",
+        "description": "标点符号后接换句话说"
+    },
+    {
+        "query": "a体质",
+        "description": "形容词后接体质"
+    },
+    {
+        "query": "v人员",
+        "description": "动词后接人员"
+    },
+    {
+        "query": "完全v",
+        "description": "完全后接动词"
+    },
+    {
+        "query": "a半径",
+        "description": "形容词后接半径"
+    },
+    {
+        "query": "把N泼在",
+        "description": "动词后接把，之后接名词，再接在"
+    },
+    {
+        "query": "a加工",
+        "description": "形容词后接加工"
+    },
+    {
+        "query": "v上了n",
+        "description": "动词后接上，之后接名词"
+    },
+    {
+        "query": "既v也v",
+        "description": "动词后接既，之后接动词，再接也"
+    },
+    {
+        "query": "v了个n",
+        "description": "动词后接个，之后接名词"
+    },
+    {
+        "query": "n的n之一是n",
+        "description": "名词后接的，之后接名词，再接之一，最后接名词"
+    },
+    {
+        "query": "出来了n",
+        "description": "动词后接出来，之后接名词"
+    },
+    {
+        "query": "n而言",
+        "description": "名词后接而言"
+    },
+    {
+        "query": "创建n+n",
+        "description": "创建后接两个名词"
+    },
+    {
+        "query": "创建n n",
+        "description": "创建后接一个名词，然后重复该名词"
+    },
+    {
+        "query": "w再怎么说",
+        "description": "标点符号后接再怎么，之后接说"
+    },
+    {
+        "query": "口味+an",
+        "description": "标点符号后接口味，之后接an"
+    },
+    {
+        "query": "口味 an",
+        "description": "口味后接an"
+    },
+    {
+        "query": "该怎么v",
+        "description": "怎么后接动词"
+    },
+    {
+        "query": "nr导师",
+        "description": "nr作为专有名词"
+    },
+    {
+        "query": "a着v下去",
+        "description": "形容词后接着，之后接动词，再接下去"
+    },
+    {
+        "query": "毫无v",
+        "description": "毫无后接动词"
+    },
+    {
+        "query": "V+N+下来",
+        "description": "动词后接N，之后接下来"
+    },
+    {
+        "query": "V N 下来",
+        "description": "动词后接N，再接下来"
+    },
+    {
+        "query": "w听说",
+        "description": "标点符号后接听说"
+    },
+    {
+        "query": "a原谅",
+        "description": "形容词后接原谅"
+    },
+    {
+        "query": "v了n！！！！",
+        "description": "动词后接了，之后接名词，感叹号重复"
+    },
+    {
+        "query": "n垫上",
+        "description": "名词后接垫上"
+    },
+    {
+        "query": "v+a+我",
+        "description": "动词后接a，再接我"
+    },
+    {
+        "query": "v a 我",
+        "description": "动词后接a，再接我"
+    },
+    {
+        "query": "还z呢",
+        "description": "还后接z，再接呢"
+    },
+    {
+        "query": "a的笑容",
+        "description": "形容词后接笑容"
+    }
+]
+```

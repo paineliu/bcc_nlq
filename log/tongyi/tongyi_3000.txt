@@ -1,0 +1,156 @@
+```json
+[
+    {
+        "query": "入围奖",
+        "description": "包含入围奖的句子"
+    },
+    {
+        "query": "同情",
+        "description": "包含同情的句子"
+    },
+    {
+        "query": "暴风骤雨",
+        "description": "包含暴风骤雨的句子"
+    },
+    {
+        "query": "给以",
+        "description": "包含给以的句子"
+    },
+    {
+        "query": "跑倒是跑",
+        "description": "包含跑倒是跑的句子"
+    },
+    {
+        "query": "我刚工作",
+        "description": "包含我刚工作的句子"
+    },
+    {
+        "query": "先先后后",
+        "description": "包含先先后后的句子"
+    },
+    {
+        "query": "词穷理屈",
+        "description": "包含词穷理屈的句子"
+    },
+    {
+        "query": "塑造和谐",
+        "description": "包含塑造和谐的句子"
+    },
+    {
+        "query": "回历新年",
+        "description": "包含回历新年的句子"
+    },
+    {
+        "query": "跳水",
+        "description": "包含跳水的句子"
+    },
+    {
+        "query": "蹙",
+        "description": "包含蹙的句子"
+    },
+    {
+        "query": "乏力",
+        "description": "包含乏力的句子"
+    },
+    {
+        "query": "换我",
+        "description": "包含换我的句子"
+    },
+    {
+        "query": "辣的太阳",
+        "description": "包含辣的太阳的句子"
+    },
+    {
+        "query": "述人权",
+        "description": "包含述人权的句子"
+    },
+    {
+        "query": "乐得慌",
+        "description": "包含乐得慌的句子"
+    },
+    {
+        "query": "和谐为前",
+        "description": "包含和谐为前的句子"
+    },
+    {
+        "query": "语言迁移",
+        "description": "包含语言迁移的句子"
+    },
+    {
+        "query": "即便",
+        "description": "包含即便的句子"
+    },
+    {
+        "query": "封口",
+        "description": "包含封口的句子"
+    },
+    {
+        "query": "正太",
+        "description": "包含正太的句子"
+    },
+    {
+        "query": "思",
+        "description": "包含思的句子"
+    },
+    {
+        "query": "文体",
+        "description": "包含文体的句子"
+    },
+    {
+        "query": "对+对",
+        "description": "包含对+对的句子"
+    },
+    {
+        "query": "排泄",
+        "description": "包含排泄的句子"
+    },
+    {
+        "query": "栉比鳞次",
+        "description": "包含栉比鳞次的句子"
+    },
+    {
+        "query": "和谐中拓",
+        "description": "包含和谐中拓的句子"
+    },
+    {
+        "query": "奴人权",
+        "description": "包含奴人权的句子"
+    },
+    {
+        "query": "共享+共享",
+        "description": "包含共享+共享的句子"
+    },
+    {
+        "query": "不善",
+        "description": "包含不善的句子"
+    },
+    {
+        "query": "菊长",
+        "description": "包含菊长的句子"
+    },
+    {
+        "query": "南",
+        "description": "包含南的句子"
+    },
+    {
+        "query": "人权祁",
+        "description": "包含人权祁的句子"
+    },
+    {
+        "query": "小心谨慎",
+        "description": "包含小心谨慎的句子"
+    },
+    {
+        "query": "封建",
+        "description": "包含封建的句子"
+    },
+    {
+        "query": "稍稍没",
+        "description": "包含稍稍没的句子"
+    },
+    {
+        "query": "一个国家、",
+        "description": "包含一个国家、的句子"
+    }
+]
+```

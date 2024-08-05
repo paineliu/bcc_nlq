@@ -1,0 +1,116 @@
+```json
+[
+    {
+        "query": "这是 (n) 受{begin($1)=[地 男 餐 肥]}",
+        "description": "这是后面接受，受字之前可能是地、男、餐或肥"
+    },
+    {
+        "query": "样子 ./w",
+        "description": "样子作为形容词"
+    },
+    {
+        "query": "的 ./n",
+        "description": "的字后面接名词"
+    },
+    {
+        "query": "(b) 的 希望 是 他 的 创作 (v){len($1)>1; len($2)>1}",
+        "description": "两个连续的词性为v的词，且每个词的长度都大于1"
+    },
+    {
+        "query": "毒药 @",
+        "description": "毒药作为一个词进行检索"
+    },
+    {
+        "query": "的 @/[n v]",
+        "description": "的字后面接名词或动词"
+    },
+    {
+        "query": "(p) 特色 (v){len($1)=1}",
+        "description": "一个单字的动词特色"
+    },
+    {
+        "query": "(c) 要{count<744}",
+        "description": "要字出现的次数少于744次"
+    },
+    {
+        "query": "记忆 ~",
+        "description": "记忆作为一个词"
+    },
+    {
+        "query": "当地 ./[m v] 位",
+        "description": "当地后面接动词或名词"
+    },
+    {
+        "query": "有意 (w){count>2}",
+        "description": "有意这个词出现的次数大于2"
+    },
+    {
+        "query": "(d) 简单{end($1)!=[富 左 鞋]}",
+        "description": "简单字后面不接富、左或鞋"
+    },
+    {
+        "query": "非洲 中国画/n",
+        "description": "非洲后面接中国画，且是中国画"
+    },
+    {
+        "query": "农田水利 (v) 威力{len($1)>1}",
+        "description": "农田水利后面接一个长度大于1的词"
+    },
+    {
+        "query": "资源 ~ 消耗",
+        "description": "资源后面接一个词，可能是消耗"
+    },
+    {
+        "query": "(i) (w){$1!=$2}",
+        "description": "两个连续的词，且不相同"
+    },
+    {
+        "query": "， .. 绿色",
+        "description": "逗号后面可能接一个词，然后是绿色"
+    },
+    {
+        "query": "了",
+        "description": "单独的了字"
+    },
+    {
+        "query": "(n) ， 保护 发展 (n){count>7}",
+        "description": "逗号后面连续的三个名词，且保护和发展出现的次数大于7"
+    },
+    {
+        "query": "什么 (n){count<377}",
+        "description": "什么后面接的名词出现的次数少于377次"
+    },
+    {
+        "query": "何去何从 ~/[w v]",
+        "description": "何去何从后面可能是动词或形容词"
+    },
+    {
+        "query": "./u 少 了 ./u",
+        "description": "少和了作为两个连续的词"
+    },
+    {
+        "query": "下 (u) 压力{count<325}",
+        "description": "下字后面接压力，且压力出现的次数少于325次"
+    },
+    {
+        "query": "(n) 如何 转型 (v){len($1)>1}",
+        "description": "如何和转型连续，且转型是动词且长度大于1"
+    },
+    {
+        "query": "u 事儿 w",
+        "description": "u后面接事儿，事儿是句尾"
+    },
+    {
+        "query": "(j) 种地 (v){end($1)!=[害 完]}",
+        "description": "种地连续，且种字后面不接害或完"
+    },
+    {
+        "query": ". 优利 .",
+        "description": "点号后面接优利，点号可能是句尾"
+    },
+    {
+        "query": "管委会 (n) 康军{len($1)=2}",
+        "description": "管委会后面接康军，康军是两个字的词"
+    }
+]
+```

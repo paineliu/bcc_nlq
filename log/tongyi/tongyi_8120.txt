@@ -1,0 +1,166 @@
+以下是将给定的检索式转换为带含义的JSON结构：
+
+```json
+[
+    {
+        "query": "a友好",
+        "description": "形容词后接友好"
+    },
+    {
+        "query": "本着n+n+",
+        "description": "名词接两个名词，中间无间隔"
+    },
+    {
+        "query": "本着n n",
+        "description": "名词接名词，中间无间隔"
+    },
+    {
+        "query": "a公开",
+        "description": "形容词后接公开"
+    },
+    {
+        "query": "v妥了",
+        "description": "动词后接妥了"
+    },
+    {
+        "query": "v并v",
+        "description": "动词后接并，再接动词"
+    },
+    {
+        "query": "V不起来",
+        "description": "动词后接不，再接起来"
+    },
+    {
+        "query": "v特别",
+        "description": "动词后接特别"
+    },
+    {
+        "query": "v一项",
+        "description": "动词后接一项"
+    },
+    {
+        "query": "a充足",
+        "description": "形容词后接充足"
+    },
+    {
+        "query": "a便条",
+        "description": "形容词后接便条"
+    },
+    {
+        "query": "a仆人",
+        "description": "形容词后接仆人"
+    },
+    {
+        "query": "a例外",
+        "description": "形容词后接例外"
+    },
+    {
+        "query": "伪v",
+        "description": "动词后接伪"
+    },
+    {
+        "query": "a搭子",
+        "description": "形容词后接搭子"
+    },
+    {
+        "query": "宝贝n",
+        "description": "名词后接宝贝"
+    },
+    {
+        "query": "m捧",
+        "description": "量词后接捧"
+    },
+    {
+        "query": "N算什么V",
+        "description": "名词后接算什么，再接动词"
+    },
+    {
+        "query": "看n",
+        "description": "名词后接看"
+    },
+    {
+        "query": "a协调",
+        "description": "形容词后接协调"
+    },
+    {
+        "query": "r这个人",
+        "description": "代词后接这个人"
+    },
+    {
+        "query": "得颇a+w",
+        "description": "动词后接颇，再接形容词或副词"
+    },
+    {
+        "query": "得颇a w",
+        "description": "动词后接颇，再接形容词或副词"
+    },
+    {
+        "query": "v开",
+        "description": "动词后接开"
+    },
+    {
+        "query": "a减产",
+        "description": "形容词后接减产"
+    },
+    {
+        "query": "v而不得",
+        "description": "动词后接而，再接不得"
+    },
+    {
+        "query": "一口V",
+        "description": "数量词后接动词"
+    },
+    {
+        "query": "这么一V",
+        "description": "数量词后接动词"
+    },
+    {
+        "query": "a包",
+        "description": "形容词后接包"
+    },
+    {
+        "query": "n一样的n",
+        "description": "名词后接一样的，再接名词"
+    },
+    {
+        "query": "癫痫n",
+        "description": "名词后接癫痫"
+    },
+    {
+        "query": "V得多",
+        "description": "动词后接多，再接动词"
+    },
+    {
+        "query": "一支n",
+        "description": "数量词后接名词"
+    },
+    {
+        "query": "一户n",
+        "description": "数量词后接名词"
+    },
+    {
+        "query": "没n不n",
+        "description": "名词后接不，再接名词"
+    },
+    {
+        "query": "V+下+来+N",
+        "description": "动词后接下，再接来，最后接名词"
+    },
+    {
+        "query": "V 下 来 N",
+        "description": "动词后接下，再接来，最后接名词"
+    },
+    {
+        "query": "a蜡烛",
+        "description": "形容词后接蜡烛"
+    },
+    {
+        "query": "架势w",
+        "description": "副词后接架势"
+    },
+    {
+        "query": "a信仰",
+        "description": "形容词后接信仰"
+    }
+]
+```

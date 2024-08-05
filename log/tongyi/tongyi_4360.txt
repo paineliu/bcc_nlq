@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "不v不a",
+        "description": "动词不后面紧跟着否定形容词不"
+    },
+    {
+        "query": "a反感",
+        "description": "形容词反感"
+    },
+    {
+        "query": "n服",
+        "description": "名词服"
+    },
+    {
+        "query": "不妨把n+v了",
+        "description": "不妨后面接名词，然后是动词加上了"
+    },
+    {
+        "query": "不妨把n v了",
+        "description": "不妨后面接名词，然后是动词"
+    },
+    {
+        "query": "v一通n",
+        "description": "动词后面紧跟着一通名词"
+    },
+    {
+        "query": "大不v",
+        "description": "形容词大后面紧跟着否定动词不"
+    },
+    {
+        "query": "a勤劳",
+        "description": "形容词勤劳"
+    },
+    {
+        "query": "v+回+s",
+        "description": "动词后面紧跟着回s"
+    },
+    {
+        "query": "v 回 s",
+        "description": "动词后面紧跟着回，然后是s"
+    },
+    {
+        "query": "a便于",
+        "description": "形容词便于"
+    },
+    {
+        "query": "你也不V",
+        "description": "你后面紧跟着否定动词不，然后是V"
+    },
+    {
+        "query": "v上集",
+        "description": "动词后面紧跟着上集"
+    },
+    {
+        "query": "a检查",
+        "description": "形容词检查"
+    },
+    {
+        "query": "v来a",
+        "description": "动词后面紧跟着来，然后是形容词"
+    },
+    {
+        "query": "用N灌",
+        "description": "用后面紧跟着N灌"
+    },
+    {
+        "query": "a具体",
+        "description": "形容词具体"
+    },
+    {
+        "query": "V都没V",
+        "description": "动词V后面紧跟着没，然后是动词V"
+    },
+    {
+        "query": "a主观",
+        "description": "形容词主观"
+    },
+    {
+        "query": "a交际",
+        "description": "形容词交际"
+    },
+    {
+        "query": "n一点儿",
+        "description": "名词后面紧跟着一点儿"
+    },
+    {
+        "query": "n自己",
+        "description": "名词自己"
+    },
+    {
+        "query": "v啊v的",
+        "description": "动词啊后面紧跟着动词v，然后是的"
+    },
+    {
+        "query": "可爱的n",
+        "description": "形容词可爱后面紧跟着名词"
+    },
+    {
+        "query": "a地位",
+        "description": "形容词地位"
+    },
+    {
+        "query": "挺n",
+        "description": "形容词挺后面紧跟着名词"
+    },
+    {
+        "query": "N难V。",
+        "description": "N后面紧跟着难，然后是动词V，句尾是句号"
+    },
+    {
+        "query": "填房v",
+        "description": "动词填后面紧跟着房"
+    },
+    {
+        "query": "v你",
+        "description": "动词后面紧跟着你"
+    },
+    {
+        "query": "v气功",
+        "description": "动词后面紧跟着气功"
+    },
+    {
+        "query": "a手段",
+        "description": "形容词手段"
+    },
+    {
+        "query": "看r的w",
+        "description": "动词看后面紧跟着r，然后是的w"
+    },
+    {
+        "query": "v得疯狂",
+        "description": "动词后面紧跟着得，然后是疯狂"
+    },
+    {
+        "query": "启发v",
+        "description": "动词启发"
+    },
+    {
+        "query": "一集n",
+        "description": "名词一集"
+    },
+    {
+        "query": "w可以说w",
+        "description": "句首是w可以说，句尾也是w"
+    },
+    {
+        "query": "n念",
+        "description": "名词念"
+    },
+    {
+        "query": "n杀n",
+        "description": "名词后面紧跟着杀，然后是名词"
+    },
+    {
+        "query": "a假冒",
+        "description": "形容词假冒"
+    },
+    {
+        "query": "一只N",
+        "description": "名词一只后面紧跟着N"
+    }
+]
+```

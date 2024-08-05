@@ -1,0 +1,168 @@
+以下是将给出的检索式转换为带含义的JSON结构：
+
+```json
+[
+    {
+        "query": "在+n+中",
+        "description": "在名词中"
+    },
+    {
+        "query": "在 n 中",
+        "description": "在名词中"
+    },
+    {
+        "query": "a努力",
+        "description": "形容词后接努力"
+    },
+    {
+        "query": "v上课",
+        "description": "动词上课"
+    },
+    {
+        "query": "v了两v",
+        "description": "动词后接了、数字、动词"
+    },
+    {
+        "query": "v有",
+        "description": "动词有"
+    },
+    {
+        "query": "m+节+n",
+        "description": "名数构成的量词后接名词"
+    },
+    {
+        "query": "m 节 n",
+        "description": "名数构成的量词后接名词"
+    },
+    {
+        "query": "a不死r",
+        "description": "形容词不死后接副词"
+    },
+    {
+        "query": "v回来",
+        "description": "动词回来"
+    },
+    {
+        "query": "一口n",
+        "description": "量词口后接名词"
+    },
+    {
+        "query": "爆a",
+        "description": "形容词爆后接不定冠词"
+    },
+    {
+        "query": "a变动",
+        "description": "形容词变动"
+    },
+    {
+        "query": "n建筑",
+        "description": "名词建筑"
+    },
+    {
+        "query": "合理的N",
+        "description": "形容词合理后接名词"
+    },
+    {
+        "query": "小孩v小孩的",
+        "description": "动词后接名词的小孩的"
+    },
+    {
+        "query": "听起来a",
+        "description": "形容词听后接起来"
+    },
+    {
+        "query": "nr诽谤",
+        "description": "人名后接诽谤"
+    },
+    {
+        "query": "住在+n+",
+        "description": "住在名词后"
+    },
+    {
+        "query": "住在 n ",
+        "description": "住在名词后"
+    },
+    {
+        "query": "有些不v",
+        "description": "存在否定的动词"
+    },
+    {
+        "query": "哪q",
+        "description": "疑问代词后接问号"
+    },
+    {
+        "query": "n文化自信",
+        "description": "名词文化后接自信"
+    },
+    {
+        "query": "管他v不v",
+        "description": "动词管后接他、是否的动词"
+    },
+    {
+        "query": "什么a不a",
+        "description": "疑问形容词后接是否的形容词"
+    },
+    {
+        "query": "我就v我的",
+        "description": "我后接动词、我的"
+    },
+    {
+        "query": "m遍",
+        "description": "名数构成的量词后接遍"
+    },
+    {
+        "query": "d而言",
+        "description": "副词而言"
+    },
+    {
+        "query": "吹v",
+        "description": "动词吹"
+    },
+    {
+        "query": "n明白了",
+        "description": "名词明白后接了"
+    },
+    {
+        "query": "n文化",
+        "description": "名词文化"
+    },
+    {
+        "query": "欢迎的n",
+        "description": "形容词欢迎后接的、名词"
+    },
+    {
+        "query": "经历nz",
+        "description": "名词经历后接nz"
+    },
+    {
+        "query": "r+v+r+的",
+        "description": "副词后接动词、副词、再接的"
+    },
+    {
+        "query": "r v r 的",
+        "description": "副词后接动词、副词、再接的"
+    },
+    {
+        "query": "admin",
+        "description": "英文单词admin"
+    },
+    {
+        "query": "a出售",
+        "description": "形容词出售"
+    },
+    {
+        "query": "n于人",
+        "description": "名词后接于、人"
+    },
+    {
+        "query": "a+制造",
+        "description": "形容词加制造"
+    },
+    {
+        "query": "a 制造",
+        "description": "形容词制造"
+    }
+]
+```
+
+注意：这里假设每个给定的检索式都是独立的，因此它们分别作为JSON结构中的一个元素，而不是组合在一起形成一个更长的查询。

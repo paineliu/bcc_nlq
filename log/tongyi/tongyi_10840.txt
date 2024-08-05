@@ -1,0 +1,160 @@
+```json
+[
+    {
+        "query": "那...m q n",
+        "description": "那后面接一个多音节的量词和名词"
+    },
+    {
+        "query": "w罚.赏w",
+        "description": "w后面接罚，后面隔一个字后接赏，最后再接w"
+    },
+    {
+        "query": "听*话",
+        "description": "听后面离合出现话"
+    },
+    {
+        "query": "您一个*",
+        "description": "您后面离合出现一个"
+    },
+    {
+        "query": "听[V+a]",
+        "description": "听后面接一个由形容词或动词构成的词"
+    },
+    {
+        "query": "听[V a]",
+        "description": "听后面接一个由形容词和动词构成的词"
+    },
+    {
+        "query": "无非a[，+。]",
+        "description": "无非后面接逗号或句点"
+    },
+    {
+        "query": "无非a[， 。]",
+        "description": "无非后面接逗号或句点"
+    },
+    {
+        "query": "[让+叫+命令+指使+令]+n+把+n+v",
+        "description": "一系列动词接名词，再接把，然后名词加动词"
+    },
+    {
+        "query": "[让 叫 命令 指使 令] n 把 n v",
+        "description": "一系列动词接名词，再接把，然后名词加动词"
+    },
+    {
+        "query": "亲自v+u[，+。]",
+        "description": "亲自后面接u，u后面接逗号或句点"
+    },
+    {
+        "query": "亲自v u[， 。]",
+        "description": "亲自后面接u，u后面接逗号或句点"
+    },
+    {
+        "query": "v过了[，+。]",
+        "description": "动词后接逗号或句点"
+    },
+    {
+        "query": "v过了[， 。]",
+        "description": "动词后接逗号或句点"
+    },
+    {
+        "query": "告诉[nr+r]r的n",
+        "description": "告诉后面接nr+r，然后r的n"
+    },
+    {
+        "query": "告诉[nr r]r的n",
+        "description": "告诉后面接nr+r，然后r的n"
+    },
+    {
+        "query": "[n+nr]+把+n+v+给+[n+nr]",
+        "description": "一系列名词接把，然后名词加动词，最后接给，再一系列名词"
+    },
+    {
+        "query": "[n nr] 把 n v 给 [n nr]",
+        "description": "一系列名词接把，然后名词加动词，最后接给，再一系列名词"
+    },
+    {
+        "query": "一贯v+a[，+。]",
+        "description": "一贯后面接逗号或句点"
+    },
+    {
+        "query": "一贯v a[，+。]",
+        "description": "一贯后面接逗号或句点"
+    },
+    {
+        "query": "还是n[，+。]",
+        "description": "还是后面接逗号或句点"
+    },
+    {
+        "query": "还是n[， 。]",
+        "description": "还是后面接逗号或句点"
+    },
+    {
+        "query": "拼命[v+a+n+r][，+。]",
+        "description": "拼命后面接逗号或句点"
+    },
+    {
+        "query": "拼命[v a n r][，+。]",
+        "description": "拼命后面接逗号或句点"
+    },
+    {
+        "query": "[因而+不仅+不论][v+a][，+。]",
+        "description": "一系列词接动词，然后接逗号或句点"
+    },
+    {
+        "query": "[因而 不仅 不论][v a][，+。]",
+        "description": "一系列词接动词，然后接逗号或句点"
+    },
+    {
+        "query": "越+a[，+。]",
+        "description": "越后面接逗号或句点"
+    },
+    {
+        "query": "越 a[，+。]",
+        "description": "越后面接逗号或句点"
+    },
+    {
+        "query": "毫无n[，+。]",
+        "description": "毫无后面接逗号或句点"
+    },
+    {
+        "query": "毫无n[， 。]",
+        "description": "毫无后面接逗号或句点"
+    },
+    {
+        "query": "同年d+v[，+。]",
+        "description": "同年后面接逗号或句点"
+    },
+    {
+        "query": "同年d v[，+。]",
+        "description": "同年后面接逗号或句点"
+    },
+    {
+        "query": "没v上[，+。]",
+        "description": "没后面接动词，动词后接逗号或句点"
+    },
+    {
+        "query": "没v上[， 。]",
+        "description": "没后面接动词，动词后接逗号或句点"
+    },
+    {
+        "query": "决不v+v[，+。]",
+        "description": "决不后面接两次动词，两次动词后接逗号或句点"
+    },
+    {
+        "query": "决不v v[，+。]",
+        "description": "决不后面接两次动词，两次动词后接逗号或句点"
+    },
+    {
+        "query": "一举v+a[，+。]",
+        "description": "一举后面接逗号或句点"
+    },
+    {
+        "query": "一举v a[，+。]",
+        "description": "一举后面接逗号或句点"
+    },
+    {
+        "query": "出现在+n[f+s+ns]",
+        "description": "出现在接n，n后面接f+s+ns"
+    }
+]
+```

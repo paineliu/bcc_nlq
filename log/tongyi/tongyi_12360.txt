@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "特地v+v[，+。]", 
+        "description":"特地动词后，接着两个逗号或句号"
+    },
+    {
+        "query": "特地v v[， 。]", 
+        "description":"特地动词后，接着一个逗号或句号"
+    },
+    {
+        "query": "暗中v+n[，+。]", 
+        "description":"暗中动词后，接着名词，然后两个逗号或句号"
+    },
+    {
+        "query": "暗中v n[， 。]", 
+        "description":"暗中动词后，接着名词，然后一个逗号或句号"
+    },
+    {
+        "query": "原来[v+a+n+r][，+。]", 
+        "description":"原来动词后，接着形容词、名词、形容词、名词，然后两个逗号或句号"
+    },
+    {
+        "query": "原来[v a n r][， 。]", 
+        "description":"原来动词后，接着形容词、名词、形容词、名词，然后一个逗号或句号"
+    },
+    {
+        "query": "被v倒[，+。]", 
+        "description":"被动词后，接着两个逗号或句号"
+    },
+    {
+        "query": "被v倒[， 。]", 
+        "description":"被动词后，接着一个逗号或句号"
+    },
+    {
+        "query": "终年[v+a+n+r][，+。]", 
+        "description":"终年动词后，接着形容词、名词、形容词、名词，然后两个逗号或句号"
+    },
+    {
+        "query": "终年[v a n r][， 。]", 
+        "description":"终年动词后，接着形容词、名词、形容词、名词，然后一个逗号或句号"
+    },
+    {
+        "query": "r+n[，+。]", 
+        "description":"r后，接着名词，然后两个逗号或句号"
+    },
+    {
+        "query": "r n[， 。]", 
+        "description":"r后，接着名词，然后一个逗号或句号"
+    },
+    {
+        "query": "任意v+a[，+。]", 
+        "description":"任意动词后，接着形容词，然后两个逗号或句号"
+    },
+    {
+        "query": "任意v a[， 。]", 
+        "description":"任意动词后，接着形容词，然后一个逗号或句号"
+    },
+    {
+        "query": "还要v[，+。]", 
+        "description":"还要动词，然后两个逗号或句号"
+    },
+    {
+        "query": "还要v[， 。]", 
+        "description":"还要动词，然后一个逗号或句号"
+    },
+    {
+        "query": "赶紧n[，+。]", 
+        "description":"赶紧名词，然后两个逗号或句号"
+    },
+    {
+        "query": "赶紧n[， 。]", 
+        "description":"赶紧名词，然后一个逗号或句号"
+    },
+    {
+        "query": "困在[nt+ns+s+f+r]", 
+        "description":"困在前接nt、ns、s、f、r"
+    },
+    {
+        "query": "困在[nt ns s f r]", 
+        "description":"困在前接nt、ns、s、f、r"
+    },
+    {
+        "query": "w才不a[，+。]", 
+        "description":"w后，接着才、不、形容词，然后两个逗号或句号"
+    },
+    {
+        "query": "w才不a[， 。]", 
+        "description":"w后，接着才、不、形容词，然后一个逗号或句号"
+    },
+    {
+        "query": "w厚.薄[q+r+d+c+v+a++n+m++p]w", 
+        "description":"w后，接着厚、薄，中间夹杂各种词性，最后是w"
+    },
+    {
+        "query": "w厚.薄[q r d c v a  n m  p]w", 
+        "description":"w后，接着厚、薄，中间夹杂各种词性，最后是w"
+    },
+    {
+        "query": "似乎v+u[，+。]", 
+        "description":"似乎动词后，接着u，然后两个逗号或句号"
+    },
+    {
+        "query": "似乎v u[， 。]", 
+        "description":"似乎动词后，接着u，然后一个逗号或句号"
+    },
+    {
+        "query": "第m+[天+周+月+日+年+世纪]", 
+        "description":"第m后，接着天、周、月、日、年、世纪"
+    },
+    {
+        "query": "第m [天 周 月 日 年 世纪]", 
+        "description":"第m后，接着天、周、月、日、年、世纪"
+    },
+    {
+        "query": "w怨.恩[q+r+d+c+v+a++n+m++p]w", 
+        "description":"w后，接着怨、恩，中间夹杂各种词性，最后是w"
+    },
+    {
+        "query": "w怨.恩[q r d c v a  n m  p]w", 
+        "description":"w后，接着怨、恩，中间夹杂各种词性，最后是w"
+    },
+    {
+        "query": "w竖.横[q+r+d+c+v+a++n+m++p]w", 
+        "description":"w后，接着竖、横，中间夹杂各种词性，最后是w"
+    },
+    {
+        "query": "w竖.横[q r d c v a  n m  p]w", 
+        "description":"w后，接着竖、横，中间夹杂各种词性，最后是w"
+    },
+    {
+        "query": "从此n[，+。]", 
+        "description":"从此名词，然后两个逗号或句号"
+    },
+    {
+        "query": "从此n[， 。]", 
+        "description":"从此名词，然后一个逗号或句号"
+    },
+    {
+        "query": "很a+v[，+。]", 
+        "description":"很形容词后，接着动词，然后两个逗号或句号"
+    },
+    {
+        "query": "很a v[， 。]", 
+        "description":"很形容词后，接着动词，然后一个逗号或句号"
+    },
+    {
+        "query": "[游+折腾+创造+失+挪+冻死]个", 
+        "description":"游、折腾、创造、失、挪、冻死组合成的名词后接个"
+    },
+    {
+        "query": "[游 折腾 创造 失 挪 冻死]个", 
+        "description":"游、折腾、创造、失、挪、冻死组合成的名词后接个"
+    },
+    {
+        "query": "[，+。]c+a+a+[，+。]", 
+        "description":"逗号、加号、加号组合后的名词后接逗号、句号"
+    },
+    {
+        "query": "[， 。]c a a [， 。]", 
+        "description":"逗号、加号、加号组合后的名词后接逗号、句号"
+    }
+]
+```

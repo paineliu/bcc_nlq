@@ -1,0 +1,86 @@
+以下是检索式及其含义的json结构：
+
+```json
+[
+    {
+        "query": "苦干 (v) 刮目相看",
+        "description": "苦干后接动词刮目相看"
+    },
+    {
+        "query": "a 地 说 w",
+        "description": "形容词后接地，再接说作为句尾"
+    },
+    {
+        "query": "， (p) 济源不胜枚举{len($1)=1}",
+        "description": "逗号后接介词，济源不胜枚举，限定长度为1"
+    },
+    {
+        "query": "大 ~/[n v] 。",
+        "description": "大后面接一个词性为名词或动词的词，句尾为句号"
+    },
+    {
+        "query": "奔 @/[n v] ，",
+        "description": "奔后面接一个词性为名词或动词的词，后接逗号"
+    },
+    {
+        "query": "@ 市委",
+        "description": "任意词性后接市委"
+    },
+    {
+        "query": "今日 ~",
+        "description": "今日后面接一个任意词性的词"
+    },
+    {
+        "query": "../z 服务卡",
+        "description": "二字状态词后接服务卡"
+    },
+    {
+        "query": "说",
+        "description": "包含说的句子"
+    },
+    {
+        "query": "管 (w){count<687}",
+        "description": "管后面接标点符号，频次小于687"
+    },
+    {
+        "query": "~ 审批",
+        "description": "任意词性后接审批"
+    },
+    {
+        "query": "设立 ~ 排放",
+        "description": "设立后面接一个任意词性的词，再接排放"
+    },
+    {
+        "query": "(v) (n){len($1)=1; len($2)!=3}",
+        "description": "动词后面接名词，限定第一个括号内长度为1，第二个括号内长度不等于3"
+    },
+    {
+        "query": "难为情 (u) ！{count>6}",
+        "description": "难为情后接助词，感叹号，频次大于6"
+    },
+    {
+        "query": "提供 (a) 支撑{count>9}",
+        "description": "提供后接形容词支撑，频次大于9"
+    },
+    {
+        "query": "中国 ./[c v] 非洲",
+        "description": "中国后接单字连词或动词，再接非洲"
+    },
+    {
+        "query": "@ 从来",
+        "description": "任意词性后接从来"
+    },
+    {
+        "query": "(ns) 务实{len($1)<3}",
+        "description": "地名后接务实，限定地名长度小于3"
+    },
+    {
+        "query": "发展 @/[v v] 解决",
+        "description": "发展后面接动词性词，再接解决"
+    },
+    {
+        "query": "合作 ~ 新时代",
+        "description": "合作后面接一个任意词性的词，再接新时代"
+    }
+]
+```

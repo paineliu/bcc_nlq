@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "、以和谐",
+        "description": "以和谐为开头的句子"
+    },
+    {
+        "query": "和谐是企",
+        "description": "和谐之后是企业或企字的句子"
+    },
+    {
+        "query": "侵害",
+        "description": "包含侵害的句子"
+    },
+    {
+        "query": "和谐即美",
+        "description": "和谐之后紧接着是美的句子"
+    },
+    {
+        "query": "！完了",
+        "description": "感叹句，以感叹号结尾，表示完成或结束的句子"
+    },
+    {
+        "query": "人权去",
+        "description": "人权之后是去的句子"
+    },
+    {
+        "query": "人权亦",
+        "description": "人权之后是亦的句子"
+    },
+    {
+        "query": "坏",
+        "description": "包含坏的句子"
+    },
+    {
+        "query": "皇皇",
+        "description": "包含皇皇的句子"
+    },
+    {
+        "query": "③人权",
+        "description": "包含编号③之后跟人权的句子"
+    },
+    {
+        "query": "肯构肯堂",
+        "description": "包含肯构肯堂的句子"
+    },
+    {
+        "query": "弄得不好",
+        "description": "包含弄得不好的句子"
+    },
+    {
+        "query": "晾衣杆",
+        "description": "晾衣杆作为关键词的句子"
+    },
+    {
+        "query": "简直可以说是",
+        "description": "简直可以说是作为前缀的句子"
+    },
+    {
+        "query": "一般来讲",
+        "description": "一般来讲作为前缀的句子"
+    },
+    {
+        "query": "桃色",
+        "description": "包含桃色的句子"
+    },
+    {
+        "query": "饱饱",
+        "description": "包含饱饱的句子"
+    },
+    {
+        "query": "习习",
+        "description": "包含习习的句子"
+    },
+    {
+        "query": "导游",
+        "description": "包含导游的句子"
+    },
+    {
+        "query": "爱上一个人",
+        "description": "爱上一个人作为句子主体的句子"
+    },
+    {
+        "query": "真实和谐",
+        "description": "真实和谐作为句子主体的句子"
+    },
+    {
+        "query": "一条和谐",
+        "description": "一条和谐作为句子主体的句子"
+    },
+    {
+        "query": "命运",
+        "description": "包含命运的句子"
+    },
+    {
+        "query": "流行语",
+        "description": "包含流行语的句子"
+    },
+    {
+        "query": "从而",
+        "description": "从而作为句子主体的句子"
+    },
+    {
+        "query": "参谋",
+        "description": "包含参谋的句子"
+    },
+    {
+        "query": "合格",
+        "description": "包含合格的句子"
+    },
+    {
+        "query": "亚洲和谐",
+        "description": "亚洲和谐作为句子主体的句子"
+    },
+    {
+        "query": "句交代",
+        "description": "句交代作为句子主体的句子"
+    },
+    {
+        "query": "合围",
+        "description": "包含合围的句子"
+    },
+    {
+        "query": "走破",
+        "description": "包含走破的句子"
+    },
+    {
+        "query": "拉直",
+        "description": "包含拉直的句子"
+    },
+    {
+        "query": "讪讪",
+        "description": "包含讪讪的句子"
+    },
+    {
+        "query": "和谐与深",
+        "description": "和谐与深作为句子主体的句子"
+    },
+    {
+        "query": "总得",
+        "description": "总得作为句子主体的句子"
+    },
+    {
+        "query": "麻了",
+        "description": "包含麻了的句子"
+    },
+    {
+        "query": "播种",
+        "description": "包含播种的句子"
+    },
+    {
+        "query": "出人命",
+        "description": "包含出人命的句子"
+    },
+    {
+        "query": "出人命+出人命",
+        "description": "包含两个连续的出人命的句子"
+    },
+    {
+        "query": "冻住",
+        "description": "包含冻住的句子"
+    }
+]
+```

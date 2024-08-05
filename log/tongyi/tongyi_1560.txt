@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "静静儿的",
+        "description": "形容词+儿+的，用于修饰名词"
+    },
+    {
+        "query": "天幕",
+        "description": "专有名词，常指天空的广阔视野"
+    },
+    {
+        "query": "人权从",
+        "description": "专有名词，可能是指某个人权组织或者来源"
+    },
+    {
+        "query": "字里行间",
+        "description": "成语，指文字中隐含的意思或情感"
+    },
+    {
+        "query": "既定",
+        "description": "形容词，表示已经确定、无法改变的状态"
+    },
+    {
+        "query": "不太没",
+        "description": "副词，表示程度不高，不完全"
+    },
+    {
+        "query": "奔上来",
+        "description": "动词+上来，表示动作的方向"
+    },
+    {
+        "query": "你这里",
+        "description": "人称代词+这里，指代特定位置或空间"
+    },
+    {
+        "query": "好家伙",
+        "description": "口语词组，表示惊叹或赞许"
+    },
+    {
+        "query": "译审",
+        "description": "职业名称，翻译审查人员"
+    },
+    {
+        "query": "，却",
+        "description": "标点符号+转折连词，表示对比或转折关系"
+    },
+    {
+        "query": "女婿",
+        "description": "亲属称谓，指妻子的儿子"
+    },
+    {
+        "query": "忌讳",
+        "description": "动词，避免做某事以防止不吉利或冒犯"
+    },
+    {
+        "query": "不太昂贵",
+        "description": "形容词+程度副词，表示价格相对较高但并非极端"
+    },
+    {
+        "query": "大恩不言谢",
+        "description": "成语，表示大恩情不需要言语感谢"
+    },
+    {
+        "query": "构成和谐",
+        "description": "动词+和谐，表示形成协调一致的关系"
+    },
+    {
+        "query": "出新境界",
+        "description": "动词+新境界，表示达到新的高度或领域"
+    },
+    {
+        "query": "汉江",
+        "description": "河流名称，位于中国陕西省"
+    },
+    {
+        "query": "取消和谐",
+        "description": "动词+和谐，表示解除或停止协调一致的关系"
+    },
+    {
+        "query": "说不好",
+        "description": "动词+不好，表示难以准确描述或评价"
+    },
+    {
+        "query": "鸡皮鹤发",
+        "description": "成语，形容老人或经历过风霜的人"
+    },
+    {
+        "query": "过人权",
+        "description": "动词+人权，表示侵犯或超越人权的行为"
+    },
+    {
+        "query": "人权业",
+        "description": "专有名词，可能是指人权相关的职业或行业"
+    },
+    {
+        "query": "下不下",
+        "description": "疑问句，询问是否能进行或存在某种可能性"
+    },
+    {
+        "query": "被动",
+        "description": "形容词，表示受他人影响或被支配的状态"
+    },
+    {
+        "query": "全人权",
+        "description": "专有名词，可能是指全面的人权概念或领域"
+    },
+    {
+        "query": "和谐与正",
+        "description": "并列名词，表示和谐和平正的结合"
+    },
+    {
+        "query": "叹茶",
+        "description": "动词+茶，表示品茶或感叹饮茶之事"
+    },
+    {
+        "query": "热的",
+        "description": "形容词，表示温度较高"
+    },
+    {
+        "query": "大意",
+        "description": "名词，指粗心或疏忽"
+    },
+    {
+        "query": "达成和谐",
+        "description": "动词+和谐，表示实现协调一致的结果"
+    },
+    {
+        "query": "一副",
+        "description": "量词，用于表示数量，如一副眼镜"
+    },
+    {
+        "query": "麻烦",
+        "description": "动词，表示造成困扰或不便"
+    },
+    {
+        "query": "走走",
+        "description": "动词+走，表示行走或游走"
+    },
+    {
+        "query": "仗打起来",
+        "description": "动词+起来，表示战争开始或爆发"
+    },
+    {
+        "query": "不了几",
+        "description": "副词+数量词，表示不多，很少"
+    },
+    {
+        "query": "不太实用",
+        "description": "形容词+程度副词，表示实用性不高"
+    },
+    {
+        "query": "开来",
+        "description": "动词+来，表示到来或带来"
+    },
+    {
+        "query": "良辰美景",
+        "description": "成语，表示美好的时光或环境"
+    },
+    {
+        "query": "讲句心里话",
+        "description": "动词+心里话，表示诚恳地表达内心想法"
+    }
+]
+```

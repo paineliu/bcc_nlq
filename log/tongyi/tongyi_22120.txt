@@ -1,0 +1,152 @@
+```json
+[
+    {
+        "query": "短缺+。/w",
+        "description": "短缺后接单个标点符号"
+    },
+    {
+        "query": "短缺 。/w",
+        "description": "短缺后接空格和标点符号"
+    },
+    {
+        "query": "在+哪里/r+？",
+        "description": "在后接地点词，然后是疑问词"
+    },
+    {
+        "query": "在 哪里/r ？",
+        "description": "在后接地点词，然后是‘哪里’，最后是问号"
+    },
+    {
+        "query": "..../l",
+        "description": "三个连字符组成的语素"
+    },
+    {
+        "query": "光./a",
+        "description": "单个词性标记，表示光是形容词"
+    },
+    {
+        "query": "孙利/nr+摄/v",
+        "description": "孙利进行拍摄动作"
+    },
+    {
+        "query": "孙利/nr 摄/v",
+        "description": "孙利进行拍摄动作"
+    },
+    {
+        "query": "把/q",
+        "description": "表示动作的承受者，用于被动语态"
+    },
+    {
+        "query": "v*恩情/n",
+        "description": "动词后接名词，表示表达恩情的动作"
+    },
+    {
+        "query": "欧文+复出/v+骑士",
+        "description": "欧文从骑士队复出"
+    },
+    {
+        "query": "欧文 复出/v 骑士",
+        "description": "欧文从骑士队复出"
+    },
+    {
+        "query": "合章法+。/w",
+        "description": "合章法后接标点符号"
+    },
+    {
+        "query": "合章法 。/w",
+        "description": "合章法后接空格和标点符号"
+    },
+    {
+        "query": "甚至/c+更+少+。/w",
+        "description": "表示递进关系，甚至更少，后接标点符号"
+    },
+    {
+        "query": "甚至/c 更 少 。/w",
+        "description": "表示递进关系，甚至更多，后接空格和标点符号"
+    },
+    {
+        "query": "捶/v+得+响哟/z",
+        "description": "捶的动作使得声音响亮，后接拟声词"
+    },
+    {
+        "query": "捶/v 得 响哟/z",
+        "description": "捶的动作使得声音响亮，后接拟声词"
+    },
+    {
+        "query": "咀嚼/v",
+        "description": "表示咀嚼的动作"
+    },
+    {
+        "query": "用电+对/p+难民",
+        "description": "使用电力对难民提供服务"
+    },
+    {
+        "query": "用电 对/p 难民",
+        "description": "使用电力对难民提供服务"
+    },
+    {
+        "query": "n+真情/n",
+        "description": "表示真实的情感"
+    },
+    {
+        "query": "n 真情/n",
+        "description": "表示真实的情感"
+    },
+    {
+        "query": "江河+。/w",
+        "description": "江河后接标点符号"
+    },
+    {
+        "query": "江河 。/w",
+        "description": "江河后接空格和标点符号"
+    },
+    {
+        "query": "攥/v+紧",
+        "description": "表示紧紧握住的动作"
+    },
+    {
+        "query": "攥/v 紧",
+        "description": "表示紧紧握住的动作"
+    },
+    {
+        "query": "n+的+热情/a",
+        "description": "表示拥有的热情属性"
+    },
+    {
+        "query": "n 的 热情/a",
+        "description": "表示拥有的热情属性"
+    },
+    {
+        "query": "万全+会见/v+孟加拉国",
+        "description": "万全与孟加拉国进行会面"
+    },
+    {
+        "query": "万全 会见/v 孟加拉国",
+        "description": "万全与孟加拉国进行会面"
+    },
+    {
+        "query": "更+高/a+起点",
+        "description": "表示更高层次的起点"
+    },
+    {
+        "query": "但+现在/t+不同",
+        "description": "表示对比，现在的状态与过去不同"
+    },
+    {
+        "query": "是+增设/v+按",
+        "description": "表示增加设置并按下"
+    },
+    {
+        "query": "./v穷了",
+        "description": "表示经济状况变差的动作"
+    },
+    {
+        "query": "队员/n+们",
+        "description": "表示队员群体"
+    },
+    {
+        "query": "队员/n 们",
+        "description": "表示队员群体"
+    }
+]
+```

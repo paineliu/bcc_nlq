@@ -1,0 +1,166 @@
+以下是将检索式转换为带含义的json结构的结果：
+
+```json
+[
+    {
+        "query": "一再v+u[，+。]", 
+        "description": "一再之后接动词u，动词u后面可以接逗号或句号"
+    },
+    {
+        "query": "一再v u[， 。]", 
+        "description": "一再之后接动词u，动词u后面只能接句号"
+    },
+    {
+        "query": "[n+a+v]欢乐", 
+        "description": "名词加形容词加动词构成的欢乐"
+    },
+    {
+        "query": "[n a v]欢乐", 
+        "description": "名词、形容词、动词顺序排列构成的欢乐"
+    },
+    {
+        "query": "就地d+a[，+。]", 
+        "description": "就地之后接副词a，副词a后面可以接逗号或句号"
+    },
+    {
+        "query": "就地d a[， 。]", 
+        "description": "就地之后接副词a，副词a后面只能接句号"
+    },
+    {
+        "query": "无从v+n[，+。]", 
+        "description": "无从之后接动词v，动词v后面可以接名词n或逗号或句号"
+    },
+    {
+        "query": "无从v n[， 。]", 
+        "description": "无从之后接动词v，动词v后面只能接名词n或句号"
+    },
+    {
+        "query": "[过分+过于+还是]v[q+m+]v[，+。]", 
+        "description": "由过分、过于、还是组成的序列之后接动词v，动词v后面可以接形容词或副词或逗号或句号"
+    },
+    {
+        "query": "[过分 过于 还是]v[q m ]v[， 。]", 
+        "description": "由过分、过于、还是组成的序列之后接动词v，动词v后面只能接形容词或副词或句号"
+    },
+    {
+        "query": "[定点+定期+定向]v[v+a+n+][，+。]", 
+        "description": "由定点、定期、定向组成的序列之后接动词v，动词v后面可以接动词、副词、名词或逗号或句号"
+    },
+    {
+        "query": "[定点 定期 定向]v[v a n ][， 。]", 
+        "description": "由定点、定期、定向组成的序列之后接动词v，动词v后面只能接动词、副词、名词或句号"
+    },
+    {
+        "query": "同期v+a[，+。]", 
+        "description": "同期之后接动词v，动词v后面可以接副词a或逗号或句号"
+    },
+    {
+        "query": "同期v a[， 。]", 
+        "description": "同期之后接动词v，动词v后面只能接副词a或句号"
+    },
+    {
+        "query": "[s+t]丢了n", 
+        "description": "由s和t组成的序列之后接名词n"
+    },
+    {
+        "query": "[s t]丢了n", 
+        "description": "由s和t组成的序列之后接名词n"
+    },
+    {
+        "query": "立刻v+y[，+。]", 
+        "description": "立刻之后接动词v，动词v后面可以接助词y或逗号或句号"
+    },
+    {
+        "query": "立刻v y[， 。]", 
+        "description": "立刻之后接动词v，动词v后面只能接助词y或句号"
+    },
+    {
+        "query": "[a+d+n+v+l]上书", 
+        "description": "由a、d、n、v、l组成的序列之后接上书"
+    },
+    {
+        "query": "[a d n v l]上书", 
+        "description": "由a、d、n、v、l组成的序列之后接上书"
+    },
+    {
+        "query": "幸亏v+y[，+。]", 
+        "description": "幸亏之后接动词v，动词v后面可以接助词y或逗号或句号"
+    },
+    {
+        "query": "幸亏v y[， 。]", 
+        "description": "幸亏之后接动词v，动词v后面只能接助词y或句号"
+    },
+    {
+        "query": "[v+a]着+V", 
+        "description": "由动词v和形容词a组成的序列之后接着，然后接任意动词"
+    },
+    {
+        "query": "[v a]着 V", 
+        "description": "由动词v和形容词a组成的序列之后接着，然后接任意动词"
+    },
+    {
+        "query": "快速v+a[，+。]", 
+        "description": "快速之后接动词v，动词v后面可以接形容词a或逗号或句号"
+    },
+    {
+        "query": "快速v a[， 。]", 
+        "description": "快速之后接动词v，动词v后面只能接形容词a或句号"
+    },
+    {
+        "query": "被迫v+v[，+。]", 
+        "description": "被迫之后接动词v，动词v后面可以接另一个动词或逗号或句号"
+    },
+    {
+        "query": "被迫v v[， 。]", 
+        "description": "被迫之后接动词v，动词v后面只能接另一个动词或句号"
+    },
+    {
+        "query": "[a+d+n+v++l]交角", 
+        "description": "由a、d、n、v、l组成的序列之后接交角"
+    },
+    {
+        "query": "[a d n v  l]交角", 
+        "description": "由a、d、n、v、l组成的序列之后接交角"
+    },
+    {
+        "query": "w好.歹[q+r+d+c+v+a++n+m++p]w", 
+        "description": "w之后接好歹，然后接由q、r、d、c、v、a、n、m、p组成的序列，最后再接w"
+    },
+    {
+        "query": "w好.歹[q r d c v a  n m  p]w", 
+        "description": "w之后接好歹，然后接由q、r、d、c、v、a、n、m、p组成的序列，最后再接w"
+    },
+    {
+        "query": "v不a+n[，+。]", 
+        "description": "动词v之后接不，然后接形容词a，形容词a后面可以接名词n或逗号或句号"
+    },
+    {
+        "query": "v不a n[， 。]", 
+        "description": "动词v之后接不，然后接形容词a，形容词a后面只能接名词n或句号"
+    },
+    {
+        "query": "[败+并+落+结+没+垮++忌]n+t", 
+        "description": "由败、并、落、结、没、垮、忌组成的序列之后接名词n，然后接t"
+    },
+    {
+        "query": "[败 并 落 结 没 垮  忌]n t", 
+        "description": "由败、并、落、结、没、垮、忌组成的序列之后接名词n，然后接t"
+    },
+    {
+        "query": "先后v[，+。]", 
+        "description": "先后之后接动词v，动词v后面可以接逗号或句号"
+    },
+    {
+        "query": "先后v[， 。]", 
+        "description": "先后之后接动词v，动词v后面只能接逗号或句号"
+    },
+    {
+        "query": "一条n[，+。]", 
+        "description": "一条之后接名词n，名词n后面可以接逗号或句号"
+    },
+    {
+        "query": "一条n[， 。]", 
+        "description": "一条之后接名词n，名词n后面只能接逗号或句号"
+    }
+]
+```

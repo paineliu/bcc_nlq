@@ -1,0 +1,168 @@
+以下是将给出的检索式转换为带含义的json结构的结果：
+
+```json
+[
+    {
+        "query": "不太熟",
+        "description": "包含'不太熟'这个短语的句子"
+    },
+    {
+        "query": "冲上去",
+        "description": "包含'冲上去'这个动作的句子"
+    },
+    {
+        "query": "人水和谐",
+        "description": "包含'人水和谐'这个短语的句子"
+    },
+    {
+        "query": "能够和谐",
+        "description": "包含'能够和谐'这个短语的句子"
+    },
+    {
+        "query": "真少女",
+        "description": "包含'真少女'这个短语的句子"
+    },
+    {
+        "query": "一堆一堆",
+        "description": "包含'一堆一堆'这个短语的句子"
+    },
+    {
+        "query": "准确讲",
+        "description": "包含'准确讲'这个短语的句子"
+    },
+    {
+        "query": "逛街",
+        "description": "包含'逛街'这个短语的句子"
+    },
+    {
+        "query": "不太正常",
+        "description": "包含'不太正常'这个短语的句子"
+    },
+    {
+        "query": "多加",
+        "description": "包含'多加'这个短语的句子"
+    },
+    {
+        "query": "发疯",
+        "description": "包含'发疯'这个短语的句子"
+    },
+    {
+        "query": "批判",
+        "description": "包含'批判'这个动作或状态的句子"
+    },
+    {
+        "query": "和谐侨团",
+        "description": "包含'和谐侨团'这个短语的句子"
+    },
+    {
+        "query": "老实",
+        "description": "包含'老实'这个短语的句子"
+    },
+    {
+        "query": "包字",
+        "description": "包含'包字'这个短语的句子"
+    },
+    {
+        "query": "放",
+        "description": "包含'放'这个动作的句子"
+    },
+    {
+        "query": "独身",
+        "description": "包含'独身'这个短语的句子"
+    },
+    {
+        "query": "够朋友",
+        "description": "包含'够朋友'这个短语的句子"
+    },
+    {
+        "query": "匿迹销声",
+        "description": "包含'匿迹销声'这个短语的句子"
+    },
+    {
+        "query": "找到了",
+        "description": "包含'找到了'这个短语的句子"
+    },
+    {
+        "query": "泡影",
+        "description": "包含'泡影'这个短语的句子"
+    },
+    {
+        "query": "打成",
+        "description": "包含'打成'这个短语的句子"
+    },
+    {
+        "query": "但是我",
+        "description": "包含'但是我'这个短语的句子"
+    },
+    {
+        "query": "一个回身",
+        "description": "包含'一个回身'这个短语的句子"
+    },
+    {
+        "query": "提倡和谐",
+        "description": "包含'提倡和谐'这个短语的句子"
+    },
+    {
+        "query": "人类命运共同体",
+        "description": "包含'人类命运共同体'这个短语的句子"
+    },
+    {
+        "query": "完美和谐",
+        "description": "包含'完美和谐'这个短语的句子"
+    },
+    {
+        "query": "看尽",
+        "description": "包含'看尽'这个短语的句子"
+    },
+    {
+        "query": "人群",
+        "description": "包含'人群'这个短语的句子"
+    },
+    {
+        "query": "吃饭",
+        "description": "包含'吃饭'这个短语的句子"
+    },
+    {
+        "query": "起一起",
+        "description": "包含'起一起'这个短语的句子"
+    },
+    {
+        "query": "和谐与全",
+        "description": "包含'和谐与全'这个短语的句子"
+    },
+    {
+        "query": "勾勾搭搭",
+        "description": "包含'勾勾搭搭'这个短语的句子"
+    },
+    {
+        "query": "黄",
+        "description": "包含'黄'这个颜色词的句子"
+    },
+    {
+        "query": "打印机",
+        "description": "包含'打印机'这个短语的句子"
+    },
+    {
+        "query": "归根结底",
+        "description": "包含'归根结底'这个短语的句子"
+    },
+    {
+        "query": "土豪",
+        "description": "包含'土豪'这个短语的句子"
+    },
+    {
+        "query": "人权二",
+        "description": "包含'人权二'这个短语的句子"
+    },
+    {
+        "query": "回来+",
+        "description": "包含'回来+'这个短语的句子"
+    },
+    {
+        "query": "回来",
+        "description": "包含'回来'这个短语的句子"
+    }
+]
+```
+
+以上json结构包含了对每个检索式进行的解释，每条记录都有一个唯一的查询字符串和对应的描述说明。

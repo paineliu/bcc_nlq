@@ -1,0 +1,166 @@
+以下是将给定的检索式转换为带含义的JSON结构：
+
+```json
+[
+    {
+        "query": "不曾v+a[，+。]",
+        "description": "不曾动词，后接形容词和标点符号"
+    },
+    {
+        "query": "不曾v a[， 。]",
+        "description": "不曾动词，后接形容词，句尾标点符号"
+    },
+    {
+        "query": "忽然v[v+a+n+r][，+。]",
+        "description": "忽然动词，后接形容词、名词、人名和标点符号"
+    },
+    {
+        "query": "忽然v[v a n r][， 。]",
+        "description": "忽然动词，后接形容词、名词、人名，句尾标点符号"
+    },
+    {
+        "query": "持续a[，+。]",
+        "description": "持续形容词，后接标点符号"
+    },
+    {
+        "query": "持续a[， 。]",
+        "description": "持续形容词，后接句点"
+    },
+    {
+        "query": "时常v+u[，+。]",
+        "description": "时常动词，后接助词，再接形容词和标点符号"
+    },
+    {
+        "query": "时常v u[， 。]",
+        "description": "时常动词，后接助词，再接形容词，句尾标点符号"
+    },
+    {
+        "query": "好在v+a[，+。]",
+        "description": "好在动词，后接形容词和标点符号"
+    },
+    {
+        "query": "好在v a[， 。]",
+        "description": "好在动词，后接形容词，句尾标点符号"
+    },
+    {
+        "query": "真的不a[，+。]",
+        "description": "真的形容词，后接否定词和标点符号"
+    },
+    {
+        "query": "真的不a[， 。]",
+        "description": "真的形容词，后接否定词，句尾标点符号"
+    },
+    {
+        "query": "何必n[，+。]",
+        "description": "何必名词，后接标点符号"
+    },
+    {
+        "query": "何必n[， 。]",
+        "description": "何必名词，后接句点"
+    },
+    {
+        "query": "一心a[，+。]",
+        "description": "一心形容词，后接标点符号"
+    },
+    {
+        "query": "一心a[， 。]",
+        "description": "一心形容词，后接句点"
+    },
+    {
+        "query": "天生d+v[，+。]",
+        "description": "天生副词，后接动词和标点符号"
+    },
+    {
+        "query": "天生d v[， 。]",
+        "description": "天生副词，后接动词，句尾标点符号"
+    },
+    {
+        "query": "过度v+y[，+。]",
+        "description": "过度动词，后接副词和标点符号"
+    },
+    {
+        "query": "过度v y[， 。]",
+        "description": "过度动词，后接副词，句尾标点符号"
+    },
+    {
+        "query": "首先v+y[，+。]",
+        "description": "首先动词，后接副词和标点符号"
+    },
+    {
+        "query": "首先v y[， 。]",
+        "description": "首先动词，后接副词，句尾标点符号"
+    },
+    {
+        "query": "[如果+要是+假如]*挺好的",
+        "description": "一系列条件组合后，表达‘挺好的’"
+    },
+    {
+        "query": "[如果 要是 假如]*挺好的",
+        "description": "一系列条件组合后，表达‘挺好的’"
+    },
+    {
+        "query": "极其v[，+。]",
+        "description": "极其动词，后接标点符号"
+    },
+    {
+        "query": "极其v[， 。]",
+        "description": "极其动词，后接句点"
+    },
+    {
+        "query": "到处d+n[，+。]",
+        "description": "到处副词，后接名词和标点符号"
+    },
+    {
+        "query": "到处d n[， 。]",
+        "description": "到处副词，后接名词，句尾标点符号"
+    },
+    {
+        "query": "戴在[nt+ns+s+f+r]+",
+        "description": "戴在前接特定名词序列，后接后缀"
+    },
+    {
+        "query": "戴在[nt ns s f r] ",
+        "description": "戴在前接特定名词序列，后接后缀，句尾无标点"
+    },
+    {
+        "query": "w降.升[q+r+d+c+v+a++n+m++p]w",
+        "description": "w降后面接w升，中间有特定的词和标点符号"
+    },
+    {
+        "query": "w降.升[q r d c v a  n m  p]w",
+        "description": "w降后面接w升，中间有特定的词和标点符号"
+    },
+    {
+        "query": "[成心+乘机+持续][v+a+n+r][，+。]",
+        "description": "一系列条件组合后，表达动词、形容词和名词的组合"
+    },
+    {
+        "query": "[成心 乘机 持续][v a n r][， 。]",
+        "description": "一系列条件组合后，表达动词、形容词和名词的组合"
+    },
+    {
+        "query": "四处v+a[，+。]",
+        "description": "四处动词，后接形容词和标点符号"
+    },
+    {
+        "query": "四处v a[， 。]",
+        "description": "四处动词，后接形容词，句尾标点符号"
+    },
+    {
+        "query": "v了r[，+。]",
+        "description": "动词后接副词和标点符号"
+    },
+    {
+        "query": "v了r[， 。]",
+        "description": "动词后接副词，句尾标点符号"
+    },
+    {
+        "query": "曾经v+a[，+。]",
+        "description": "曾经动词，后接形容词和标点符号"
+    },
+    {
+        "query": "曾经v a[， 。]",
+        "description": "曾经动词，后接形容词，句尾标点符号"
+    }
+]
+```

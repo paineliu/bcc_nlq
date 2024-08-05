@@ -1,0 +1,162 @@
+以下是检索式及其含义的JSON结构：
+
+```json
+[
+    {
+        "query": "感慨 ./[u v] 说",
+        "description": "感慨后跟一个介词或动词，然后是说"
+    },
+    {
+        "query": "对接 @/[n v] 才",
+        "description": "对接后跟名词或动词，然后是才"
+    },
+    {
+        "query": "你 v 青年观",
+        "description": "你后面接动词，然后是青年观"
+    },
+    {
+        "query": "问 ../n ，",
+        "description": "问后面离合出现名词，然后是逗号"
+    },
+    {
+        "query": "~ 便",
+        "description": "一个词后接便"
+    },
+    {
+        "query": "格局 ./[w v] 还要",
+        "description": "格局后跟一个动词或形容词，然后是还要"
+    },
+    {
+        "query": "@ 其它",
+        "description": "一个词性标记为其它"
+    },
+    {
+        "query": "时代 @/[d v] 定",
+        "description": "时代后跟一个副词或动词，然后是定"
+    },
+    {
+        "query": "大于 天/n 。",
+        "description": "大于天后接名词，然后是句点"
+    },
+    {
+        "query": "是 ./[w v] 速度",
+        "description": "是后跟一个词或动词，然后是速度"
+    },
+    {
+        "query": "陈建军 ~/[v v] 。",
+        "description": "陈建军后跟一个动词，可能是两个连续的动词，然后是句点"
+    },
+    {
+        "query": "陈建军 (v) 。{len($1)=1}",
+        "description": "陈建军后面紧跟一个单字动词，然后是句点"
+    },
+    {
+        "query": "赢家 (u) 密码{len($1)!=2}",
+        "description": "赢家后面紧跟一个非两个字的词，可能是形容词或动词，然后是密码"
+    },
+    {
+        "query": "他",
+        "description": "他"
+    },
+    {
+        "query": "的 密码/n ，",
+        "description": "的后面接名词，然后是逗号"
+    },
+    {
+        "query": "(n) 分化 (v){$1=$2}",
+        "description": "名词分化后跟一个相同的词"
+    },
+    {
+        "query": "俄",
+        "description": "俄"
+    },
+    {
+        "query": "介入",
+        "description": "介入"
+    },
+    {
+        "query": "(n) 联盟{count>2}",
+        "description": "名词联盟，至少出现三次"
+    },
+    {
+        "query": "(n) 政党 大 (n){end($1)=[n 昂 每]; len($2)=3}",
+        "description": "名词政党后接一个特定长度的名词"
+    },
+    {
+        "query": "(n) 之上 的 伦理 (n){begin($1)=[技 敏]}",
+        "description": "名词之上后接一个特定开始的名词，然后是伦理"
+    },
+    {
+        "query": "(r) 的 选择 应该 是 (r){end($1)=[们 达 哟 克]}",
+        "description": "代词的选择后接特定结尾的词，然后是应该是"
+    },
+    {
+        "query": "的 @/[n v] 问题",
+        "description": "的后面接名词或动词，然后是问题"
+    },
+    {
+        "query": "合适 ./[u v] ？",
+        "description": "合适后跟一个介词或动词，然后是问号"
+    },
+    {
+        "query": "(n)、 制造商 (c){end($1)=[主 尽 今 忘]}",
+        "description": "名词后接制造商，然后是特定结尾的词"
+    },
+    {
+        "query": "是",
+        "description": "是"
+    },
+    {
+        "query": "动力 增强/v",
+        "description": "动力增强动词"
+    },
+    {
+        "query": "持续",
+        "description": "持续"
+    },
+    {
+        "query": "经济 ../n 提升",
+        "description": "经济后跟一个名词，然后是提升"
+    },
+    {
+        "query": "内需 .. 加大",
+        "description": "内需后跟一个词，然后是加大"
+    },
+    {
+        "query": "(n) 相对{begin($1)=[外 马 省]}",
+        "description": "名词相对后接特定开始的词"
+    },
+    {
+        "query": "(p) (n){len($2)=2}",
+        "description": "介词后接一个特定长度的名词"
+    },
+    {
+        "query": "说 ./w",
+        "description": "说后跟一个词"
+    },
+    {
+        "query": "(v) 已{end($1)=[苏 盘 忘 对]}",
+        "description": "动词后跟一个特定结尾的词"
+    },
+    {
+        "query": "(v) (l){len($2)>3}",
+        "description": "动词后跟一个长度大于3的词"
+    },
+    {
+        "query": "经济",
+        "description": "经济"
+    },
+    {
+        "query": "， ../r 的",
+        "description": "逗号后离合出现一个代词，然后是的"
+    },
+    {
+        "query": "－ 。/w",
+        "description": "破折号后接一个词，然后是句点"
+    },
+    {
+        "query": "搅动 (n) 格局{len($1)=2}",
+        "description": "搅动后跟一个长度为2的名词，然后是格局"
+    }
+]
+```

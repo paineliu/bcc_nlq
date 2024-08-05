@@ -1,0 +1,86 @@
+以下是检索式及其含义的JSON结构：
+
+```json
+[
+    {
+        "query": "../网友",
+        "description": "双音节动词后接网友"
+    },
+    {
+        "query": "为何 (v) ？{begin($1)!=[句 某 军]}",
+        "description": "为何后接一个动词，该动词不以句、某、军为开始"
+    },
+    {
+        "query": "亲朋 ../[v v] 擅权",
+        "description": "亲朋后接两个动词，然后接擅权"
+    },
+    {
+        "query": "花",
+        "description": "包含花的句子"
+    },
+    {
+        "query": "之",
+        "description": "包含之的句子"
+    },
+    {
+        "query": "到此 (v){begin($1)!=[罗 占 骑 座]}",
+        "description": "到此后接一个动词，该动词不以罗、占、骑、座为开始"
+    },
+    {
+        "query": "../v 情",
+        "description": "双音节动词后接情"
+    },
+    {
+        "query": "化解 (vn) 难{len($1)=2}",
+        "description": "化解后接动名词，动名词长度为2"
+    },
+    {
+        "query": ". 基点 .",
+        "description": "包含基点的句子"
+    },
+    {
+        "query": "做好 (vn) 工作{end($1)!=[吊 怎 熬]}",
+        "description": "做好后接动名词，动名词不以吊、怎、熬为结束"
+    },
+    {
+        "query": "。",
+        "description": "包含句号的句子"
+    },
+    {
+        "query": "增值 (v) ？{len($1)=2}",
+        "description": "增值后接一个动词，该动词长度为2"
+    },
+    {
+        "query": "大学 (v) 国家{len($1)=1}",
+        "description": "大学后接一个动词，然后接国家，动词长度为1"
+    },
+    {
+        "query": "n w",
+        "description": "名词后接标点符号"
+    },
+    {
+        "query": "龙门 ./w",
+        "description": "龙门后接一个词性为w的词"
+    },
+    {
+        "query": "暗箱 ../[v v] 难",
+        "description": "暗箱后接两个动词，然后接难"
+    },
+    {
+        "query": "！",
+        "description": "包含感叹号的句子"
+    },
+    {
+        "query": "请",
+        "description": "包含请的句子"
+    },
+    {
+        "query": "一条心",
+        "description": "包含一条心的句子"
+    },
+    {
+        "query": "福建 @ 县委",
+        "description": "福建后接一个词，再接县委，统计时按照词性归并"
+    }
+]
+```

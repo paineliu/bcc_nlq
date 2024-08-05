@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "今天+推出/v+的",
+        "description": "今天 + 推出/v + 的"
+    },
+    {
+        "query": "今天 推出/v 的",
+        "description": "今天 + 推出/v + 的"
+    },
+    {
+        "query": "本场+比赛/v+，",
+        "description": "本场 + 比赛/v + ，"
+    },
+    {
+        "query": "本场 比赛/v ，",
+        "description": "本场 + 比赛/v + ，"
+    },
+    {
+        "query": "这是/r+习近平",
+        "description": "这是/r + 习近平"
+    },
+    {
+        "query": "这是/r 习近平",
+        "description": "这是/r + 习近平"
+    },
+    {
+        "query": "干部/n+画像",
+        "description": "干部/n + 画像"
+    },
+    {
+        "query": "干部/n 画像",
+        "description": "干部/n + 画像"
+    },
+    {
+        "query": "贴./v",
+        "description": "贴./v"
+    },
+    {
+        "query": "巾帼/n+了望者",
+        "description": "巾帼/n + 了望者"
+    },
+    {
+        "query": "巾帼/n 了望者",
+        "description": "巾帼/n + 了望者"
+    },
+    {
+        "query": "时光/n+回溯",
+        "description": "时光/n + 回溯"
+    },
+    {
+        "query": "时光/n 回溯",
+        "description": "时光/n + 回溯"
+    },
+    {
+        "query": "朋友/n+。/w",
+        "description": "朋友/n + 。/w"
+    },
+    {
+        "query": "朋友/n 。/w",
+        "description": "朋友/n + 。/w"
+    },
+    {
+        "query": "v*好感/n",
+        "description": "感情/n * 好感/n"
+    },
+    {
+        "query": "感情/n*a",
+        "description": "感情/n * a"
+    },
+    {
+        "query": "模式+。/w",
+        "description": "模式 。/w"
+    },
+    {
+        "query": "模式 。/w",
+        "description": "模式 。/w"
+    },
+    {
+        "query": "云/n+是+东京+才子+、/w",
+        "description": "云/n 是 东京 才子 、/w"
+    },
+    {
+        "query": "云/n 是 东京 才子 、/w",
+        "description": "云/n 是 东京 才子 、/w"
+    },
+    {
+        "query": "里/f+看+优势+，+短板+里+找/v",
+        "description": "里/f 看 优势 ， 短板 里 找/v"
+    },
+    {
+        "query": "里/f 看 优势 ， 短板 里 找/v",
+        "description": "里/f 看 优势 ， 短板 里 找/v"
+    },
+    {
+        "query": "说+，/w+老师",
+        "description": "说 ，/w 老师"
+    },
+    {
+        "query": "说 ，/w 老师",
+        "description": "说 ，/w 老师"
+    },
+    {
+        "query": "的+？/w",
+        "description": "的 ？/w"
+    },
+    {
+        "query": "的 ？/w",
+        "description": "的 ？/w"
+    },
+    {
+        "query": "转型+升级/v",
+        "description": "转型 升级/v"
+    },
+    {
+        "query": "转型 升级/v",
+        "description": "转型 升级/v"
+    },
+    {
+        "query": "./v长了",
+        "description": "长了"
+    },
+    {
+        "query": "吃/v+a",
+        "description": "吃/v + a"
+    },
+    {
+        "query": "吃/v a",
+        "description": "吃/v + a"
+    },
+    {
+        "query": "大+.../n的w",
+        "description": "大 .../n的w"
+    },
+    {
+        "query": "大 .../n的w",
+        "description": "大 .../n的w"
+    },
+    {
+        "query": "在+福利院/n+探望",
+        "description": "在 福利院/n 探望"
+    },
+    {
+        "query": "在 福利院/n 探望",
+        "description": "在 福利院/n 探望"
+    },
+    {
+        "query": "忧患/n+意识/n",
+        "description": "忧患/n + 意识/n"
+    },
+    {
+        "query": "忧患/n 意识/n",
+        "description": "忧患/n + 意识/n"
+    },
+    {
+        "query": "启示+。/w",
+        "description": "启示 。/w"
+    },
+    {
+        "query": "启示 。/w",
+        "description": "启示 。/w"
+    }
+]
+```

@@ -1,0 +1,88 @@
+以下是根据提供的检索式和含义，转换成的JSON结构：
+
+```json
+[
+  {
+    "query": "(ns) 李某案{begin($1)!=[岁 乱]}",
+    "description": "以地名开头不是岁或乱的李某案"
+  },
+  {
+    "query": "石某 案/n",
+    "description": "石某后接案并且案作为名词"
+  },
+  {
+    "query": "(ns) 陈某{begin($1)=[河 操 底]}",
+    "description": "以地名开头是河、操或底的陈某"
+  },
+  {
+    "query": "湖北 .../[ns v]",
+    "description": "湖北后接任意词序列，结束于地名或动词"
+  },
+  {
+    "query": "中国 ../n",
+    "description": "中国后接双音节名词"
+  },
+  {
+    "query": "政府 (n) 座谈会{count>3}",
+    "description": "政府后接名词并且包含座谈会，次数大于3"
+  },
+  {
+    "query": "(n) (n){len($2)=2}",
+    "description": "两个名词相连，第二个名词长度为2"
+  },
+  {
+    "query": "死刑 (v){len($1)!=3}",
+    "description": "死刑后接动词，动词长度不是3"
+  },
+  {
+    "query": "清理 (n) 事业{len($1)=2}",
+    "description": "清理后接名词并且是事业，名词长度为2"
+  },
+  {
+    "query": "(n) 党建 好不 (a){begin($1)=[基 马]}",
+    "description": "名词后接党建，好不后接形容词，且名词开始于基或马"
+  },
+  {
+    "query": "../v 评议",
+    "description": "双音节动词后接评议"
+  },
+  {
+    "query": "群众 (n){begin($1)=[点 农 专]}",
+    "description": "群众后接名词，名词以点、农或专开头"
+  },
+  {
+    "query": "一 ~ 一",
+    "description": "一后接一个词再接一"
+  },
+  {
+    "query": "汉字 (u) 美{count<665}",
+    "description": "汉字后接助词美，频次小于665"
+  },
+  {
+    "query": "： (nr){end($1)=[嵩 爸 没 饿]}",
+    "description": "冒号后接人名，人名以嵩、爸、没或饿结束"
+  },
+  {
+    "query": "r d",
+    "description": "代词后接副词"
+  },
+  {
+    "query": "喜欢 . 所以",
+    "description": "喜欢后接一个字再接所以"
+  },
+  {
+    "query": "寥寥无几 ./[w v]",
+    "description": "寥寥无几后接单字词，词性为标点或动词"
+  },
+  {
+    "query": "下来",
+    "description": "下来这个词语"
+  },
+  {
+    "query": "../p 目前",
+    "description": "双音节介词后接目前"
+  }
+]
+```
+
+请注意，JSON中的描述是根据您提供的检索式及其含义进行解释的，可能需要根据具体的使用环境进行调整。

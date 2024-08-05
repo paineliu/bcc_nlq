@@ -1,0 +1,166 @@
+以下是将给出的检索式转换为带含义的json结构：
+
+```json
+[
+    {
+        "query": "残人权",
+        "description": "包含残人权的句子"
+    },
+    {
+        "query": "深为不",
+        "description": "包含深为不的句子"
+    },
+    {
+        "query": "'在'",
+        "description": "包含'在'的句子"
+    },
+    {
+        "query": "奔上去",
+        "description": "包含奔上去的句子"
+    },
+    {
+        "query": "饭碗",
+        "description": "包含饭碗的句子"
+    },
+    {
+        "query": "何为",
+        "description": "包含何为的句子"
+    },
+    {
+        "query": "自是",
+        "description": "包含自是的句子"
+    },
+    {
+        "query": "内在",
+        "description": "包含内在的句子"
+    },
+    {
+        "query": "总的来说，",
+        "description": "包含总的来说，的句子"
+    },
+    {
+        "query": "难过",
+        "description": "包含难过的句子"
+    },
+    {
+        "query": "出活",
+        "description": "包含出活的句子"
+    },
+    {
+        "query": "腥风血雨",
+        "description": "包含腥风血雨的句子"
+    },
+    {
+        "query": "韩流",
+        "description": "包含韩流的句子"
+    },
+    {
+        "query": "这样做是",
+        "description": "包含这样做是的句子"
+    },
+    {
+        "query": "下课",
+        "description": "包含下课的句子"
+    },
+    {
+        "query": "乐道安贫",
+        "description": "包含乐道安贫的句子"
+    },
+    {
+        "query": "简直了。",
+        "description": "包含简直了的句子"
+    },
+    {
+        "query": "地狱",
+        "description": "包含地狱的句子"
+    },
+    {
+        "query": "能力",
+        "description": "包含能力的句子"
+    },
+    {
+        "query": "甘愿",
+        "description": "包含甘愿的句子"
+    },
+    {
+        "query": "对外汉语",
+        "description": "包含对外汉语的句子"
+    },
+    {
+        "query": "人",
+        "description": "包含人这个单字的句子"
+    },
+    {
+        "query": "一分和谐",
+        "description": "包含一分和谐的句子"
+    },
+    {
+        "query": "福音",
+        "description": "包含福音的句子"
+    },
+    {
+        "query": "不多少",
+        "description": "包含不多少的句子"
+    },
+    {
+        "query": "亮剑",
+        "description": "包含亮剑的句子"
+    },
+    {
+        "query": "姐",
+        "description": "包含姐这个单字的句子"
+    },
+    {
+        "query": "翘课",
+        "description": "包含翘课的句子"
+    },
+    {
+        "query": "没太",
+        "description": "包含没太的句子"
+    },
+    {
+        "query": "官宣",
+        "description": "包含官宣的句子"
+    },
+    {
+        "query": "和谐宜居",
+        "description": "包含和谐宜居的句子"
+    },
+    {
+        "query": "见敬",
+        "description": "包含见敬的句子"
+    },
+    {
+        "query": "想倒是想",
+        "description": "包含想倒是想的句子"
+    },
+    {
+        "query": "好惹",
+        "description": "包含好惹的句子"
+    },
+    {
+        "query": "糟糕的是",
+        "description": "包含糟糕的是的句子"
+    },
+    {
+        "query": "谣言",
+        "description": "包含谣言的句子"
+    },
+    {
+        "query": "够爷们",
+        "description": "包含够爷们的句子"
+    },
+    {
+        "query": "心人权",
+        "description": "包含心人权的句子"
+    },
+    {
+        "query": "迷惑",
+        "description": "包含迷惑的句子"
+    },
+    {
+        "query": "，每个人",
+        "description": "包含，每个人的句子"
+    }
+]
+```

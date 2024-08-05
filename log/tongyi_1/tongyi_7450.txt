@@ -1,0 +1,160 @@
+```json
+[
+    {
+        "query": ". 应该", 
+        "description": "句首有一个点的句子，后面跟应该"
+    },
+    {
+        "query": "为什么 @/[v v] 提前", 
+        "description": "为什么后面跟一个或两个单音节动词并提到前面"
+    },
+    {
+        "query": "放 @/[w v]", 
+        "description": "放后面跟一个动词或一个单字"
+    },
+    {
+        "query": "扣好 .../[n v] ?", 
+        "description": "扣好后面可能隔一个或多个字，接名词或动词，后面可能是问号"
+    },
+    {
+        "query": "(r) 洗手间 有时 要 (v){len($1)=3}", 
+        "description": "洗手间后面接三个字的副词，再接有时和要"
+    },
+    {
+        "query": "(n) 中心 (v){len($2)=2}", 
+        "description": "中心后面接两个字的动词"
+    },
+    {
+        "query": "图片 @ 人民", 
+        "description": "图片后面接单字人民"
+    },
+    {
+        "query": "实效 w", 
+        "description": "实效做句首"
+    },
+    {
+        "query": "借鉴 @ 经验", 
+        "description": "借鉴后面接经验，且经验可能是单字"
+    },
+    {
+        "query": "展开 ~/[vn v] 。", 
+        "description": "展开后面可能接一个双音节名词或动词，后面是句点"
+    },
+    {
+        "query": "(v) (vn){count>2}", 
+        "description": "至少包含两个连续的动词"
+    },
+    {
+        "query": "一 (q){len($1)=1}", 
+        "description": "句首是单个量词"
+    },
+    {
+        "query": "不 (v) ，{len($1)<3}", 
+        "description": "不后面跟一个不超过两个字的动词，后面是逗号"
+    },
+    {
+        "query": "(v) (vn){len($1)!=3; len($2)!=3}", 
+        "description": "两个动词，但都不是三个字"
+    },
+    {
+        "query": "畅通 ~/[p v] 困难", 
+        "description": "畅通后面接一个介词或动词，后面是困难"
+    },
+    {
+        "query": "(v) (vn){$1=$2}", 
+        "description": "两个连续动词内容相同"
+    },
+    {
+        "query": "张小红 (t) 布绣{len($1)=1}", 
+        "description": "张小红后面接单字布绣"
+    },
+    {
+        "query": "(v) (v){len($1)!=2; len($2)=2}", 
+        "description": "两个连续动词，但第一个不是两个字，第二个是两个字"
+    },
+    {
+        "query": "夏布 ./[p v] 刺绣", 
+        "description": "夏布后面接一个介词或动词，后面是刺绣"
+    },
+    {
+        "query": "坚守 @ 让", 
+        "description": "坚守后面接让，让可能是单字"
+    },
+    {
+        "query": "， ../a 文化", 
+        "description": "句尾是逗号，前面是形容词和文化"
+    },
+    {
+        "query": "(t) (vn){len($1)=2}", 
+        "description": "两个字的动词后面接两个字的名词"
+    },
+    {
+        "query": "延续 惊喜 (n){len($1)>1; len($2)=2}", 
+        "description": "延续后面接一个超过一个字的名词，惊喜后面接两个字的名词"
+    },
+    {
+        "query": "对于/p 这个", 
+        "description": "对于后面接介词，然后是这个"
+    },
+    {
+        "query": "软件 @ 硬", 
+        "description": "软件后面接硬，可能是单字"
+    },
+    {
+        "query": "拳击 (d) 升温{len($1)=2}", 
+        "description": "拳击后面接两个字的副词，再接升温"
+    },
+    {
+        "query": "四 n", 
+        "description": "数字四后面接名词"
+    },
+    {
+        "query": "找回 (v){len($1)!=3}", 
+        "description": "找回后面不是三个字的动词"
+    },
+    {
+        "query": "(r) 糟糕{count>2}", 
+        "description": "糟糕这个词出现次数多于两次"
+    },
+    {
+        "query": "助力 中甲/j 联赛", 
+        "description": "助力后面接中甲级别的联赛"
+    },
+    {
+        "query": "(j) 组织{begin($1)=[环 什 本 国]}", 
+        "description": "组织后面以环、什、本、国开头的成分"
+    },
+    {
+        "query": "(r) 看 (w){len($1)=2}", 
+        "description": "看后面接两个字"
+    },
+    {
+        "query": "什么 @ ?", 
+        "description": "什么后面可能是单字疑问词"
+    },
+    {
+        "query": "的 .. ，", 
+        "description": "的后面可能隔一个或多个字，后面是逗号"
+    },
+    {
+        "query": "评价 @", 
+        "description": "评价后面可能是单字"
+    },
+    {
+        "query": "这么 (v) 有{len($1)=1}", 
+        "description": "这么后面跟一个单字动词，再接有"
+    },
+    {
+        "query": "才能 (v) 实效{len($1)!=2}", 
+        "description": "才能后面跟一个不是两个字的动词，再接实效"
+    },
+    {
+        "query": "不外乎 . 个", 
+        "description": "不外乎后面可能隔一个字，再接单字个"
+    },
+    {
+        "query": "串 (v){end($1)=[来 为 胸]}", 
+        "description": "串后面接动词，动词后面可能是来、为或胸"
+    }
+]
+```

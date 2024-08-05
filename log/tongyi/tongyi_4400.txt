@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "消除n",
+        "description": "包含消除的名词"
+    },
+    {
+        "query": "小+n+v着",
+        "description": "小后接名词再接动词着"
+    },
+    {
+        "query": "小 n v着",
+        "description": "小后接名词再接动词着"
+    },
+    {
+        "query": "V着下去",
+        "description": "动词后接着再接下去"
+    },
+    {
+        "query": "a务必",
+        "description": "形容词后接务必"
+    },
+    {
+        "query": "a专制",
+        "description": "形容词后接专制"
+    },
+    {
+        "query": "m垧",
+        "description": "量词后接垧"
+    },
+    {
+        "query": "N+V+给+N+N",
+        "description": "名词后接动词再接给再接名词再接名词"
+    },
+    {
+        "query": "N V 给 N N",
+        "description": "名词后接动词再接给再接名词再接名词"
+    },
+    {
+        "query": "已经了W",
+        "description": "动词后接已经再接标点"
+    },
+    {
+        "query": "出n",
+        "description": "动词后接名词"
+    },
+    {
+        "query": "a得不像",
+        "description": "形容词后接得再接不像"
+    },
+    {
+        "query": "终生a",
+        "description": "形容词后接终生"
+    },
+    {
+        "query": "n+n+n",
+        "description": "三个连续的名词"
+    },
+    {
+        "query": "n n n",
+        "description": "三个连续的名词"
+    },
+    {
+        "query": "a出访",
+        "description": "形容词后接出访"
+    },
+    {
+        "query": "v我自己",
+        "description": "动词后接自己"
+    },
+    {
+        "query": "s是",
+        "description": "动词后接是"
+    },
+    {
+        "query": "v栈房",
+        "description": "动词后接栈房"
+    },
+    {
+        "query": "达到s",
+        "description": "动词后接达到再接动词"
+    },
+    {
+        "query": "m挺",
+        "description": "量词后接挺"
+    },
+    {
+        "query": "看nr的w",
+        "description": "动词后接nr再接的再接标点"
+    },
+    {
+        "query": "努力n+v+a",
+        "description": "名词后接动词再接形容词"
+    },
+    {
+        "query": "努力n v a",
+        "description": "名词后接动词再接形容词"
+    },
+    {
+        "query": "v+n+v+得",
+        "description": "动词后接名词再接动词再接得"
+    },
+    {
+        "query": "v n v 得",
+        "description": "动词后接名词再接动词再接得"
+    },
+    {
+        "query": "V+N+下去",
+        "description": "动词后接名词再接动词再接下去"
+    },
+    {
+        "query": "V N 下去",
+        "description": "动词后接名词再接动词再接下去"
+    },
+    {
+        "query": "w这么一说",
+        "description": "标点后接这么再接一再接说"
+    },
+    {
+        "query": "n方式",
+        "description": "名词后接方式"
+    },
+    {
+        "query": "。N嘛，",
+        "description": "标点后接N再接嘛再接标点"
+    },
+    {
+        "query": "这下就a了",
+        "description": "名词后接这再接下再接就再接形容词"
+    },
+    {
+        "query": "东n西n",
+        "description": "名词后接名词"
+    },
+    {
+        "query": "偷了n",
+        "description": "动词后接偷再接名词"
+    },
+    {
+        "query": "a修复",
+        "description": "形容词后接修复"
+    },
+    {
+        "query": "顶不a",
+        "description": "动词后接顶再接不再接形容词"
+    },
+    {
+        "query": "(v)+n+(v)了",
+        "description": "动词后接名词再接动词再接了"
+    },
+    {
+        "query": "(v) n (v)了",
+        "description": "动词后接名词再接动词再接了"
+    },
+    {
+        "query": "躺+s",
+        "description": "动词后接s"
+    },
+    {
+        "query": "躺 s",
+        "description": "动词后接s"
+    }
+]
+```

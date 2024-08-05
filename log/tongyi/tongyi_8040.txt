@@ -1,0 +1,167 @@
+根据给出的检索式及其含义的JSON结构样式，以下是将提供的检索式转换为带含义的JSON结构的结果：
+
+```json
+[
+    {
+        "query": "团结n",
+        "description": "包含'团结'这个名词的句子"
+    },
+    {
+        "query": "a亲手",
+        "description": "形容词'亲'后面跟着动词'手'的句子"
+    },
+    {
+        "query": "n到来",
+        "description": "名词'来'后面跟着名词的句子"
+    },
+    {
+        "query": "a利害",
+        "description": "形容词'利'和'害'连续出现的句子"
+    },
+    {
+        "query": "w我敢说",
+        "description": "以'我敢说'作为句子开头的句子"
+    },
+    {
+        "query": "进行N",
+        "description": "以'进行'作为动词的句子"
+    },
+    {
+        "query": "r却",
+        "description": "以'却'作为语气词的句子"
+    },
+    {
+        "query": "n事与愿违",
+        "description": "名词'事'与'愿违'连续出现的句子"
+    },
+    {
+        "query": "我v了",
+        "description": "以'我'作为主语，后面跟着动词的句子"
+    },
+    {
+        "query": "v着",
+        "description": "以动词结尾的句子，动词后面跟着'着'"
+    },
+    {
+        "query": "a决定",
+        "description": "形容词'决'后面跟着动词'定'的句子"
+    },
+    {
+        "query": "a化肥",
+        "description": "形容词'化'后面跟着名词'肥'的句子"
+    },
+    {
+        "query": "月亮是a的",
+        "description": "以'月亮是'开头，后面跟着形容词和名词的句子"
+    },
+    {
+        "query": "vn起来",
+        "description": "以动词'起来'结尾的句子"
+    },
+    {
+        "query": "n的v+n",
+        "description": "名词后面跟着动词，再跟着另一个名词的句子"
+    },
+    {
+        "query": "n的v n",
+        "description": "名词后面跟着动词，再跟着名词的句子"
+    },
+    {
+        "query": "v上",
+        "description": "以动词'上'结尾的句子"
+    },
+    {
+        "query": "n+nr",
+        "description": "名词后面跟着另一个名词的句子"
+    },
+    {
+        "query": "n nr",
+        "description": "名词后面跟着名词的句子"
+    },
+    {
+        "query": "v认识",
+        "description": "以动词'认识'结尾的句子"
+    },
+    {
+        "query": "c+r",
+        "description": "以连词'c'和'r'连续出现的句子"
+    },
+    {
+        "query": "c r",
+        "description": "以连词'c'和'r'连续出现的句子"
+    },
+    {
+        "query": "w+a到了",
+        "description": "以'w'开头，后面跟着形容词'到'的句子"
+    },
+    {
+        "query": "w a到了",
+        "description": "以'w'开头，后面跟着形容词'到'的句子"
+    },
+    {
+        "query": "你a不a",
+        "description": "以'你'开头，后面跟着形容词'不'两次的句子"
+    },
+    {
+        "query": "v把n包围",
+        "description": "以动词'把'开头，后面跟着名词，再跟着动词'包围'的句子"
+    },
+    {
+        "query": "a估计",
+        "description": "形容词'估'后面跟着动词'计'的句子"
+    },
+    {
+        "query": "大ns",
+        "description": "以名词'大'开头，后面跟着量词和名词的句子"
+    },
+    {
+        "query": "一盆n",
+        "description": "以数量词'一'开头，后面跟着量词和名词的句子"
+    },
+    {
+        "query": "有r这样a的吗",
+        "description": "以动词'有'开头，后面跟着助词'这样'和形容词'的'，再跟着疑问词的句子"
+    },
+    {
+        "query": "a传授",
+        "description": "形容词'传'后面跟着动词'授'的句子"
+    },
+    {
+        "query": "v一曲",
+        "description": "以动词'一'开头，后面跟着量词和动词的句子"
+    },
+    {
+        "query": "一大n",
+        "description": "以形容词'大'开头，后面跟着量词和名词的句子"
+    },
+    {
+        "query": "怪a的",
+        "description": "以形容词'怪'后面跟着名词的句子"
+    },
+    {
+        "query": "a动机",
+        "description": "形容词'动'后面跟着名词'机'的句子"
+    },
+    {
+        "query": "a兑换",
+        "description": "形容词'换'后面跟着动词'兑'的句子"
+    },
+    {
+        "query": "得特a+w",
+        "description": "以形容词'得特'后面跟着助词'w'的句子"
+    },
+    {
+        "query": "得特a w",
+        "description": "以形容词'得特'后面跟着助词'w'的句子"
+    },
+    {
+        "query": "v七分",
+        "description": "以动词'七'开头，后面跟着量词和动词的句子"
+    },
+    {
+        "query": "进一步说w",
+        "description": "以动词'进'开头，后面跟着动词'一步'，再跟着助词'说'和'w'的句子"
+    }
+]
+```
+以上JSON结构包含了所有给定检索式的描述，每条记录都对应一个检索式及其对应的含义说明。

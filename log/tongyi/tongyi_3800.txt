@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "沉淀",
+        "description": "包含沉淀这个词汇的句子"
+    },
+    {
+        "query": "九九",
+        "description": "包含九九这个词汇的句子"
+    },
+    {
+        "query": "醒狮",
+        "description": "包含醒狮这个词汇的句子"
+    },
+    {
+        "query": "很水",
+        "description": "包含很水这个词汇的句子"
+    },
+    {
+        "query": "和谐之花",
+        "description": "包含和谐之花这个词汇的句子"
+    },
+    {
+        "query": "零发展",
+        "description": "包含零发展这个词汇的句子"
+    },
+    {
+        "query": "美丽",
+        "description": "包含美丽这个词汇的句子"
+    },
+    {
+        "query": "高压",
+        "description": "包含高压这个词汇的句子"
+    },
+    {
+        "query": "坏没",
+        "description": "包含坏没这个词汇的句子"
+    },
+    {
+        "query": "发财",
+        "description": "包含发财这个词汇的句子"
+    },
+    {
+        "query": "合龙",
+        "description": "包含合龙这个词汇的句子"
+    },
+    {
+        "query": "对劲",
+        "description": "包含对劲这个词汇的句子"
+    },
+    {
+        "query": "绘本",
+        "description": "包含绘本这个词汇的句子"
+    },
+    {
+        "query": "人权伎",
+        "description": "包含人权伎这个词汇的句子"
+    },
+    {
+        "query": "之谓",
+        "description": "包含之谓这个词汇的句子"
+    },
+    {
+        "query": "挨边",
+        "description": "包含挨边这个词汇的句子"
+    },
+    {
+        "query": "全球生态",
+        "description": "包含全球生态这个词汇的句子"
+    },
+    {
+        "query": "那一来",
+        "description": "包含那一来这个词汇的句子"
+    },
+    {
+        "query": "就好了",
+        "description": "包含就好了这个词汇的句子"
+    },
+    {
+        "query": "人不人",
+        "description": "包含人不人这个词汇的句子"
+    },
+    {
+        "query": "很现代",
+        "description": "包含很现代这个词汇的句子"
+    },
+    {
+        "query": "独立式",
+        "description": "包含独立式这个词汇的句子"
+    },
+    {
+        "query": "城墙和谐",
+        "description": "包含城墙和谐这个词汇的句子"
+    },
+    {
+        "query": "大概应",
+        "description": "包含大概应这个词汇的句子"
+    },
+    {
+        "query": "脱去",
+        "description": "包含脱去这个词汇的句子"
+    },
+    {
+        "query": "民族和谐",
+        "description": "包含民族和谐这个词汇的句子"
+    },
+    {
+        "query": "我们这是",
+        "description": "包含我们这是这个词汇的句子"
+    },
+    {
+        "query": "墨瓦蜡",
+        "description": "包含墨瓦蜡这个词汇的句子"
+    },
+    {
+        "query": "朝三暮四",
+        "description": "包含朝三暮四这个词汇的句子"
+    },
+    {
+        "query": "大吉",
+        "description": "包含大吉这个词汇的句子"
+    },
+    {
+        "query": "别管",
+        "description": "包含别管这个词汇的句子"
+    },
+    {
+        "query": "定期",
+        "description": "包含定期这个词汇的句子"
+    },
+    {
+        "query": "掰掰",
+        "description": "包含掰掰这个词汇的句子"
+    },
+    {
+        "query": "快快",
+        "description": "包含快快这个词汇的句子"
+    },
+    {
+        "query": "怎样才能",
+        "description": "包含怎样才能这个词汇的句子"
+    },
+    {
+        "query": "乐不可支",
+        "description": "包含乐不可支这个词汇的句子"
+    },
+    {
+        "query": ",要和谐",
+        "description": "包含,要和谐这个词汇的句子"
+    },
+    {
+        "query": "嘞",
+        "description": "包含嘞这个词汇的句子"
+    },
+    {
+        "query": "鬼晓得",
+        "description": "包含鬼晓得这个词汇的句子"
+    },
+    {
+        "query": "是我的菜",
+        "description": "包含是我的菜这个词汇的句子"
+    }
+]
+```

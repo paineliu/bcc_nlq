@@ -1,0 +1,166 @@
+以下是将给定的检索式转换为带含义的JSON结构后的完整列表：
+
+```json
+[
+    {
+        "query": "不看僧面*看佛面",
+        "description": "不看僧面后面离合出现看佛面"
+    },
+    {
+        "query": "不*不",
+        "description": "不后面离合出现不"
+    },
+    {
+        "query": "你一个.........，",
+        "description": "你一个后面隔多个字后接逗号"
+    },
+    {
+        "query": "他.+上来w",
+        "description": "他后接单字连词连接的上来"
+    },
+    {
+        "query": "他. 上来w",
+        "description": "他后接单字上，后面接动词"
+    },
+    {
+        "query": "w攻.守w",
+        "description": "单字攻后面接单字守"
+    },
+    {
+        "query": "大概*偏偏",
+        "description": "大概后面离合出现偏偏"
+    },
+    {
+        "query": "有什么.的",
+        "description": "有什么后面隔一个字后接的是"
+    },
+    {
+        "query": "w否.是w",
+        "description": "单字否后面接单字是"
+    },
+    {
+        "query": "大约*却",
+        "description": "大约后面离合出现却"
+    },
+    {
+        "query": "v*树碑立传",
+        "description": "动词后面离合出现树碑立传"
+    },
+    {
+        "query": "之所以*因为",
+        "description": "之所以后面离合出现因为"
+    },
+    {
+        "query": "有什么....的。",
+        "description": "有什么后面隔多个字后接的是句尾的句点"
+    },
+    {
+        "query": "以*为目标",
+        "description": "以后面离合出现目标"
+    },
+    {
+        "query": "他..+进去w",
+        "description": "他后接单字连词连接的进去"
+    },
+    {
+        "query": "他.. 进去w",
+        "description": "他后接单字进，后面接动词"
+    },
+    {
+        "query": "吃*食堂",
+        "description": "吃后面离合出现食堂"
+    },
+    {
+        "query": "至少*大约",
+        "description": "至少后面离合出现大约"
+    },
+    {
+        "query": "w远.近w",
+        "description": "单字远后面接单字近"
+    },
+    {
+        "query": "关不.",
+        "description": "关后面隔一个字后接句点"
+    },
+    {
+        "query": "你一个*",
+        "description": "你一个后面离合出现任意字符"
+    },
+    {
+        "query": "也许*未必v",
+        "description": "也许后面离合出现未必动词"
+    },
+    {
+        "query": "我.+回去w",
+        "description": "我后接单字连词连接的回去"
+    },
+    {
+        "query": "我. 回去w",
+        "description": "我后接单字回，后面接动词"
+    },
+    {
+        "query": "简直*仿佛",
+        "description": "简直后面离合出现仿佛"
+    },
+    {
+        "query": "w恩.仇w",
+        "description": "单字恩后面接单字仇"
+    },
+    {
+        "query": "把*捧",
+        "description": "把后面离合出现捧"
+    },
+    {
+        "query": "却~",
+        "description": "却后面接一个词"
+    },
+    {
+        "query": "p*原因",
+        "description": "p后面离合出现原因"
+    },
+    {
+        "query": "正*a起来",
+        "description": "正后接形容词a，后面接起来"
+    },
+    {
+        "query": "a+*+m倍",
+        "description": "a后面接任意字符，后面接m倍"
+    },
+    {
+        "query": "a * m倍",
+        "description": "a后面接m倍"
+    },
+    {
+        "query": "w夕.朝w",
+        "description": "单字夕后面接单字朝"
+    },
+    {
+        "query": "革*命",
+        "description": "革后面离合出现革命"
+    },
+    {
+        "query": "w反.正w",
+        "description": "单字反后面接单字正"
+    },
+    {
+        "query": "大约*就是v",
+        "description": "大约后面离合出现就是动词"
+    },
+    {
+        "query": "好像*偏偏v",
+        "description": "好像后面离合出现偏偏动词"
+    },
+    {
+        "query": "w穷.富w",
+        "description": "单字穷后面接单字富"
+    },
+    {
+        "query": "不是*吗w",
+        "description": "不是后面离合出现吗句尾"
+    },
+    {
+        "query": "似乎*难怪",
+        "description": "似乎后面离合出现难怪"
+    }
+]
+```

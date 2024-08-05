@@ -1,0 +1,97 @@
+以下是根据您提供的检索式转换为带含义的JSON结构：
+
+```json
+[
+  {
+    "query": "(v) 游戏 再 打针 不 (a)",
+    "description": "动词后面接游戏再接打针不接形容词，且动词长度不等于2，形容词长度等于2",
+    "restriction": "len($1)!=2; len($2)=2"
+  },
+  {
+    "query": "(m) 来 场 头脑 (n)",
+    "description": "数词后面接来场头脑再接名词，且数词长度小于3，名词长度大于1",
+    "restriction": "len($1)<3; len($2)>1"
+  },
+  {
+    "query": "~/[n v] 风暴",
+    "description": "任意词后面接名词或动词再接风暴"
+  },
+  {
+    "query": "(n) (n)",
+    "description": "名词后面接名词，且第一个名词长度大于1，第二个名词的开头不是照或北",
+    "restriction": "len($1)>1; begin($2)!=[照 北]"
+  },
+  {
+    "query": "(v) (n)",
+    "description": "动词后面接名词，且动词长度大于1，名词开头不是支、艳或叔",
+    "restriction": "len($1)>1; begin($2)!=[支 艳 叔]"
+  },
+  {
+    "query": "下 . 风行",
+    "description": "下后面隔一个字接风行"
+  },
+  {
+    "query": "新 ../[n v] ？",
+    "description": "新后面接双音节名词或动词再接问号"
+  },
+  {
+    "query": "解决 (vn) 难题",
+    "description": "解决后面接动名词再接难题，且动名词长度不等于3",
+    "restriction": "len($1)!=3"
+  },
+  {
+    "query": "如何 (v) 互联网",
+    "description": "如何后面接动词再接互联网，且动词长度大于1",
+    "restriction": "len($1)>1"
+  },
+  {
+    "query": "(n) 就是",
+    "description": "名词后面接就是，且名词长度等于2",
+    "restriction": "len($1)=2"
+  },
+  {
+    "query": "搞 ...",
+    "description": "搞后面接任意长度的词语"
+  },
+  {
+    "query": "(n) 志愿者 服务 暖 (n)",
+    "description": "名词后面接志愿者服务暖再接名词，且第一个名词的结尾是n、夜、唐、则之一，第二个名词长度等于2",
+    "restriction": "end($1)=[n 夜 唐 则]; len($2)=2"
+  },
+  {
+    "query": "严格 @",
+    "description": "严格后面接一个词，且在统计时按照词性归并"
+  },
+  {
+    "query": "(n) 的 要求 也 (d)",
+    "description": "名词后面的要求也接副词，且副词长度小于3",
+    "restriction": "len($2)<3"
+  },
+  {
+    "query": ": @/[n v] 党校",
+    "description": "冒号后面接名词或动词再接党校，且在统计时按照词性归并"
+  },
+  {
+    "query": "一路 .../v 亮",
+    "description": "一路后面接任意长度的词语再接动词亮"
+  },
+  {
+    "query": "市民 (v)",
+    "description": "市民后面接动词，且动词长度小于4",
+    "restriction": "len($1)<4"
+  },
+  {
+    "query": "学校 应运而生/i。",
+    "description": "学校后面接成语应运而生"
+  },
+  {
+    "query": "评估 (v) 的",
+    "description": "评估后面接动词再接的，且动词长度大于1",
+    "restriction": "len($1)>1"
+  },
+  {
+    "query": "有为 ./d 有",
+    "description": "有为后面接单音节副词再接有"
+  }
+]
+```

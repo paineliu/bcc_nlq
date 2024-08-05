@@ -1,0 +1,167 @@
+以下是将给定的检索式转换为带含义的json结构：
+
+```json
+[
+    {
+        "query": "a传记",
+        "description": "形容词后接传记"
+    },
+    {
+        "query": "n目的",
+        "description": "名词后接目的"
+    },
+    {
+        "query": "太m",
+        "description": "程度副词后接m"
+    },
+    {
+        "query": "能力a",
+        "description": "形容词后接能力"
+    },
+    {
+        "query": "都是n",
+        "description": "都是这个名词"
+    },
+    {
+        "query": "有什么好+v+的",
+        "description": "有什么后接好，再接动词，最后接形容词"
+    },
+    {
+        "query": "有什么好 v 的",
+        "description": "有什么后接好，再接动词，最后接形容词"
+    },
+    {
+        "query": "在电影院V",
+        "description": "在电影院这个地点做动作"
+    },
+    {
+        "query": "v不a",
+        "description": "动词后接不，再接形容词"
+    },
+    {
+        "query": "v捏",
+        "description": "动词后接捏"
+    },
+    {
+        "query": "安排a",
+        "description": "形容词后接安排"
+    },
+    {
+        "query": "v了一气",
+        "description": "动词后接了一气"
+    },
+    {
+        "query": "得很w",
+        "description": "程度副词后接得很"
+    },
+    {
+        "query": "a代表",
+        "description": "形容词后接代表"
+    },
+    {
+        "query": "n的臭气",
+        "description": "名词后接的臭气"
+    },
+    {
+        "query": "v着去v",
+        "description": "动词后接着去动词"
+    },
+    {
+        "query": "立s",
+        "description": "立这个动词"
+    },
+    {
+        "query": "a人员",
+        "description": "形容词后接人员"
+    },
+    {
+        "query": "n+栽种",
+        "description": "名词后接栽种"
+    },
+    {
+        "query": "n 栽种",
+        "description": "名词后接栽种"
+    },
+    {
+        "query": "a可行",
+        "description": "形容词后接可行"
+    },
+    {
+        "query": "要n不要v",
+        "description": "要这个名词，不要这个动词"
+    },
+    {
+        "query": "V学习",
+        "description": "学习这个动词"
+    },
+    {
+        "query": "v大",
+        "description": "动词后接大"
+    },
+    {
+        "query": "佛系n",
+        "description": "佛系这个名词"
+    },
+    {
+        "query": "不容n",
+        "description": "不容这个名词"
+    },
+    {
+        "query": "v进去",
+        "description": "动词后接进去"
+    },
+    {
+        "query": "a共产党",
+        "description": "形容词后接共产党"
+    },
+    {
+        "query": "j+j",
+        "description": "简称略语后接简称略语"
+    },
+    {
+        "query": "j j",
+        "description": "简称略语后接简称略语"
+    },
+    {
+        "query": "v++了+m++钟头+的+N",
+        "description": "动词后接了，再接m个钟头，最后接形容词和名词"
+    },
+    {
+        "query": "v  了 m  钟头 的 N",
+        "description": "动词后接了，再接m个钟头，最后接形容词和名词"
+    },
+    {
+        "query": "饱受v",
+        "description": "饱受这个动词"
+    },
+    {
+        "query": "拒绝V",
+        "description": "拒绝这个动词"
+    },
+    {
+        "query": "总v",
+        "description": "总这个动词"
+    },
+    {
+        "query": "情绪V下",
+        "description": "在情绪下这个动词"
+    },
+    {
+        "query": "，但是v",
+        "description": "逗号后接但是这个连词"
+    },
+    {
+        "query": "本来v+v了",
+        "description": "本来这个动词，然后又接了这个动词"
+    },
+    {
+        "query": "本来v v了",
+        "description": "本来这个动词，然后又接了这个动词"
+    },
+    {
+        "query": "产生N",
+        "description": "产生这个动词后的名词"
+    }
+]
+```
+这些json结构清晰地描述了每个检索式的含义，便于理解和应用。

@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "(nr) 剑航{count>8}",
+        "description": "包含'剑航'，且剑航的频次大于8"
+    },
+    {
+        "query": "会 (v) 他{count<813}",
+        "description": "会后跟动词，且动词后接'他'的频次小于813"
+    },
+    {
+        "query": "权利 (v) 可以{count>3}",
+        "description": "权利后跟动词，且动词'可以'的频次大于3"
+    },
+    {
+        "query": "作案 m 起",
+        "description": "作案后面接'起'"
+    },
+    {
+        "query": "周文锋 (v) 。{count>6}",
+        "description": "周文锋后跟动词，且动词后面是句点，频次大于6"
+    },
+    {
+        "query": "./[v v] 了",
+        "description": "连续两个动词后接'了'"
+    },
+    {
+        "query": "挽回 沉沦/a 的",
+        "description": "挽回后接形容词沉沦，且后面接'的'"
+    },
+    {
+        "query": "被 @/[n v] 接",
+        "description": "被后接名词或动词"
+    },
+    {
+        "query": "的 (r) 说{begin($1)!=[戴 久]}",
+        "description": "的后接说，但不说'戴'或'久'"
+    },
+    {
+        "query": "了 ~",
+        "description": "句尾是'了'，后面可能是一个词"
+    },
+    {
+        "query": "周文锋 (v) 。{count<829}",
+        "description": "周文锋后跟动词，且动词后面是句点，频次小于829"
+    },
+    {
+        "query": "我 .. 很",
+        "description": "我后接两个连续的词，且第二个词是'很'"
+    },
+    {
+        "query": "本期 (v) ：{count<274}",
+        "description": "本期后跟动词，且动词是'：'，频次小于274"
+    },
+    {
+        "query": "增％ @/[w v]",
+        "description": "增％后接单词或动词"
+    },
+    {
+        "query": "（ns）社会 贫富 差距 进一步 (v){$1=$2}",
+        "description": "社会贫富差距后接同一个词，可能是'进一步'"
+    },
+    {
+        "query": "../j 旋转门",
+        "description": "动词后接'旋转门'"
+    },
+    {
+        "query": "~ 在",
+        "description": "一个词后接'在'"
+    },
+    {
+        "query": "左翼 (v) 搅动{len($1)<3}",
+        "description": "左翼后跟动词，且动词长度小于3"
+    },
+    {
+        "query": "信息 ./v 泄露",
+        "description": "单音节动词后接'信息'泄露"
+    },
+    {
+        "query": "ad 取消 对 欧元 汇率 n",
+        "description": "ad后接取消，然后是对，接着是欧元，最后是名词"
+    },
+    {
+        "query": "总统 (v) 临时{len($1)!=3}",
+        "description": "总统后跟动词，但动词长度不是3"
+    },
+    {
+        "query": "必要 @/[vx v] 局部",
+        "description": "必要后接单音节或双音节动词，然后是局部"
+    },
+    {
+        "query": "超级 (n) 刻不容缓{end($1)=[菌 腰 泡]}",
+        "description": "超级后接名词，且名词结尾是'菌'、'腰'或'泡'"
+    },
+    {
+        "query": "一 q 可怕",
+        "description": "一后接量词，然后是可怕的词"
+    },
+    {
+        "query": "当务之急 w",
+        "description": "当务之急是句尾"
+    },
+    {
+        "query": "的 (vn) 。{count>2}",
+        "description": "的后接动名词，且频次大于2"
+    },
+    {
+        "query": "， (j) 下放{count<802}",
+        "description": "逗号后接'下放'，频次小于802"
+    },
+    {
+        "query": "法令 (d) 提交{len($1)!=2}",
+        "description": "法令后跟动词，但动词长度不是2"
+    },
+    {
+        "query": "(t) 权责 越发 明确 (y){len($1)!=3; len($2)=1}",
+        "description": "权责越发明确，且'越发'长度不是3，'明确'长度是1"
+    },
+    {
+        "query": "（ns）咖啡{end($1)=[西 多]}",
+        "description": "ns后接咖啡，且咖啡结尾是'西'或'多'"
+    },
+    {
+        "query": "扎伊罗 (i) 。{begin($1)=[忧 准 迷]}",
+        "description": "扎伊罗后开始的词不在忧、准、迷之中，且句尾是句点"
+    },
+    {
+        "query": "外交官 . 世界",
+        "description": "外交官后接句点，然后是'世界'"
+    },
+    {
+        "query": "监管 ？/w",
+        "description": "监管后接问号，且可能接一个词"
+    },
+    {
+        "query": "科研 ../n 催生",
+        "description": "科研后接动名词催生"
+    },
+    {
+        "query": "堵死 ../[n v]",
+        "description": "堵死后接名词或动词"
+    },
+    {
+        "query": "(i) ，{begin($1)!=[忍 记 抓]}",
+        "description": "逗号后开始的词不在忍、记、抓之中"
+    },
+    {
+        "query": "驻 (ns) 记者{len($1)=2}",
+        "description": "驻后接ns，然后是长度为2的记者"
+    },
+    {
+        "query": "大学",
+        "description": "大学单独作为一个词"
+    },
+    {
+        "query": "课题 @/[n v] 结余",
+        "description": "课题后接名词或动词，然后是结余"
+    },
+    {
+        "query": "项目 @ 要",
+        "description": "项目后接一个词"
+    }
+]
+```

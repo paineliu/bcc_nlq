@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "年青",
+        "description": "包含年青这个词汇的句子"
+    },
+    {
+        "query": "手足",
+        "description": "包含手足这个词汇的句子"
+    },
+    {
+        "query": "不更其",
+        "description": "包含不更其这个词汇的句子"
+    },
+    {
+        "query": "不要",
+        "description": "包含不要这个词汇的句子"
+    },
+    {
+        "query": "打稳",
+        "description": "包含打稳这个词汇的句子"
+    },
+    {
+        "query": "音乐和谐",
+        "description": "包含音乐和谐这个词汇的句子"
+    },
+    {
+        "query": "和谐与凝",
+        "description": "包含和谐与凝这个词汇的句子"
+    },
+    {
+        "query": "文化不文化",
+        "description": "包含文化不文化这个词汇的句子"
+    },
+    {
+        "query": "爱做啥就",
+        "description": "包含爱做啥就这个词汇的句子"
+    },
+    {
+        "query": "这一问就",
+        "description": "包含这一问就这个词汇的句子"
+    },
+    {
+        "query": "抛弃",
+        "description": "包含抛弃这个词汇的句子"
+    },
+    {
+        "query": "免费",
+        "description": "包含免费这个词汇的句子"
+    },
+    {
+        "query": "足见",
+        "description": "包含足见这个词汇的句子"
+    },
+    {
+        "query": "你说",
+        "description": "包含你说这个词汇的句子"
+    },
+    {
+        "query": "够不",
+        "description": "包含够不这个词汇的句子"
+    },
+    {
+        "query": "怪蜀黍",
+        "description": "包含怪蜀黍这个词汇的句子"
+    },
+    {
+        "query": "苦刑",
+        "description": "包含苦刑这个词汇的句子"
+    },
+    {
+        "query": "来人权",
+        "description": "包含来人权这个词汇的句子"
+    },
+    {
+        "query": "人权除",
+        "description": "包含人权除这个词汇的句子"
+    },
+    {
+        "query": "得啦",
+        "description": "包含得啦这个词汇的句子"
+    },
+    {
+        "query": "看饱",
+        "description": "包含看饱这个词汇的句子"
+    },
+    {
+        "query": "准定",
+        "description": "包含准定这个词汇的句子"
+    },
+    {
+        "query": "一种新的",
+        "description": "包含一种新的这个词汇的句子"
+    },
+    {
+        "query": "现代化",
+        "description": "包含现代化这个词汇的句子"
+    },
+    {
+        "query": "研究生",
+        "description": "包含研究生这个词汇的句子"
+    },
+    {
+        "query": "其实",
+        "description": "包含其实这个词汇的句子"
+    },
+    {
+        "query": "和谐上思",
+        "description": "包含和谐上思这个词汇的句子"
+    },
+    {
+        "query": "和谐（",
+        "description": "包含和谐（这个词汇的句子"
+    },
+    {
+        "query": "有被",
+        "description": "包含有被这个词汇的句子"
+    },
+    {
+        "query": "问题处理起来",
+        "description": "包含问题处理起来这个词汇的句子"
+    },
+    {
+        "query": "举",
+        "description": "包含举这个词汇的句子"
+    },
+    {
+        "query": "不太顺利",
+        "description": "包含不太顺利这个词汇的句子"
+    },
+    {
+        "query": "克人权",
+        "description": "包含克人权这个词汇的句子"
+    },
+    {
+        "query": "霸道横行",
+        "description": "包含霸道横行这个词汇的句子"
+    },
+    {
+        "query": "广东话",
+        "description": "包含广东话这个词汇的句子"
+    },
+    {
+        "query": "过劳死",
+        "description": "包含过劳死这个词汇的句子"
+    },
+    {
+        "query": "优秀",
+        "description": "包含优秀这个词汇的句子"
+    },
+    {
+        "query": "改变不了什么",
+        "description": "包含改变不了什么这个词汇的句子"
+    },
+    {
+        "query": "留学生作文",
+        "description": "包含留学生作文这个词汇的句子"
+    },
+    {
+        "query": "下学",
+        "description": "包含下学这个词汇的句子"
+    }
+]
+```

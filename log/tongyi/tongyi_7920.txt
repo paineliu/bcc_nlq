@@ -1,0 +1,167 @@
+根据给定的检索式规则，以下是转换为带含义的json结构的检索式列表：
+
+```json
+[
+    {
+        "query": "a其实",
+        "description": "形容词后接其实"
+    },
+    {
+        "query": "但是+v",
+        "description": "但是后接动词"
+    },
+    {
+        "query": "但是 v",
+        "description": "但是后接动词"
+    },
+    {
+        "query": "不过a",
+        "description": "不过后接形容词"
+    },
+    {
+        "query": "暴风a",
+        "description": "暴风后接形容词"
+    },
+    {
+        "query": "一点n",
+        "description": "一点后接名词"
+    },
+    {
+        "query": "v回了n。",
+        "description": "动词后接名词，句尾标点"
+    },
+    {
+        "query": "分析a",
+        "description": "分析后接形容词"
+    },
+    {
+        "query": "后m+q",
+        "description": "后接量词"
+    },
+    {
+        "query": "后m q",
+        "description": "后接量词"
+    },
+    {
+        "query": "有点太A",
+        "description": "有点后接太和形容词"
+    },
+    {
+        "query": "v不及",
+        "description": "动词后接不及"
+    },
+    {
+        "query": "用+N",
+        "description": "用后接名语素"
+    },
+    {
+        "query": "用 N",
+        "description": "用后接名词"
+    },
+    {
+        "query": "n一般",
+        "description": "名词后接一般"
+    },
+    {
+        "query": "中国v美国",
+        "description": "中国后接动词，美国"
+    },
+    {
+        "query": "a交换",
+        "description": "形容词后接交换"
+    },
+    {
+        "query": "真的是v了w",
+        "description": "真的后接动词，后接了，w"
+    },
+    {
+        "query": "m+支+n",
+        "description": "m后接支和名词"
+    },
+    {
+        "query": "m 支 n",
+        "description": "m后接支和名词"
+    },
+    {
+        "query": "w+在n+f+",
+        "description": "w后接在，n后接f和"
+    },
+    {
+        "query": "w 在n f",
+        "description": "w后接在，n后接f"
+    },
+    {
+        "query": "必定v+v了",
+        "description": "必定后接动词，后接了"
+    },
+    {
+        "query": "必定v v了",
+        "description": "必定后接动词，后接了"
+    },
+    {
+        "query": "v民房",
+        "description": "动词后接民房"
+    },
+    {
+        "query": "n让n+v",
+        "description": "名词后接名词，后接动词"
+    },
+    {
+        "query": "n让n v",
+        "description": "名词后接名词，后接动词"
+    },
+    {
+        "query": "d太好了",
+        "description": "d后接太好了"
+    },
+    {
+        "query": "经历+r",
+        "description": "经历后接r"
+    },
+    {
+        "query": "经历 r",
+        "description": "经历后接r"
+    },
+    {
+        "query": "评价n",
+        "description": "评价后接名词"
+    },
+    {
+        "query": "你少v",
+        "description": "你后接少和动词"
+    },
+    {
+        "query": "一层n",
+        "description": "一层后接名词"
+    },
+    {
+        "query": "V住了",
+        "description": "V后接住"
+    },
+    {
+        "query": "a友人",
+        "description": "形容词后接友人"
+    },
+    {
+        "query": "v过几q",
+        "description": "动词后接过，后接几和量词"
+    },
+    {
+        "query": "佩带n",
+        "description": "佩带后接名词"
+    },
+    {
+        "query": "发生n",
+        "description": "发生后接名词"
+    },
+    {
+        "query": "a偏见",
+        "description": "形容词后接偏见"
+    },
+    {
+        "query": "a公有制",
+        "description": "形容词后接公有制"
+    }
+]
+```
+请注意，上述JSON结构中的描述已经根据提供的检索式进行了转换，确保了每个检索式的含义都被正确解释并包含在内。

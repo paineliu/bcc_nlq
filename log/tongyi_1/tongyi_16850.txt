@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "人人 ./[d v] 将",
+        "description": "人人后面接单字的副词或动词并将"
+    },
+    {
+        "query": "需要 (d) 共同{count<691}",
+        "description": "需要，后面接副词共同，且实例频次小于691"
+    },
+    {
+        "query": "@/[n v] 都",
+        "description": "以@开头，后面接名词或动词，后面跟着都"
+    },
+    {
+        "query": "家长 (n){end($1)=[音 血 生]}",
+        "description": "家长这个词的结尾必须是音、血或生"
+    },
+    {
+        "query": "， ~ 安",
+        "description": "逗号后面跟一个词，安"
+    },
+    {
+        "query": "保护 .. ，",
+        "description": "保护后面可能有一个词，然后是逗号"
+    },
+    {
+        "query": "@/[nr v] 图",
+        "description": "以@开头，后面接人名或动词，然后是图"
+    },
+    {
+        "query": "不是/c 最好 保护 纵横/v",
+        "description": "不是，最好，保护，然后是横向或纵向的动词"
+    },
+    {
+        "query": "安全 (v) 泰山{count>2}",
+        "description": "安全，后面接泰山，且实例频次大于2"
+    },
+    {
+        "query": "@ 的",
+        "description": "后面接一个词，可能是任何词性"
+    },
+    {
+        "query": "不妨 ~/[v v] 个",
+        "description": "不妨后面离合出现一个动词或另一个动词，后面接个"
+    },
+    {
+        "query": "自 n 向上",
+        "description": "自后面接名词，然后是向上"
+    },
+    {
+        "query": "人法 (v) 之后{end($1)!=[吗 疼 烂]}",
+        "description": "人法，后面接动词，但后面不是吗、疼或烂"
+    },
+    {
+        "query": "了 (s) 探访{len($1)=2}",
+        "description": "了，后面是两个字的探访"
+    },
+    {
+        "query": "(a) 人法 (r){len($1)=1}",
+        "description": "形容词后接人法，人法是一个单字"
+    },
+    {
+        "query": "扶 (w){count<275}",
+        "description": "扶，频次小于275"
+    },
+    {
+        "query": "(v) (i){$1!=$2}",
+        "description": "两个连续的动词，且不相同"
+    },
+    {
+        "query": "~ 提升",
+        "description": "一个词后接提升"
+    },
+    {
+        "query": "人员 . 不准",
+        "description": "人员后面接一个点，然后是不准"
+    },
+    {
+        "query": "老人 @/[v v] 。",
+        "description": "老人后面接一个动词或动词，然后是句点"
+    },
+    {
+        "query": "战士 ~ 在",
+        "description": "战士后面跟一个词，然后是在"
+    },
+    {
+        "query": "人民 (n){begin($1)!=[娃 李]}",
+        "description": "人民这个词的开头不是娃或李"
+    },
+    {
+        "query": "农业 (a) 了{len($1)=1}",
+        "description": "农业后面接一个单字的了"
+    },
+    {
+        "query": "(v) 资源型 (n){len($1)!=2; len($2)!=3}",
+        "description": "两个连续动词后面接一个不是两个字也不是三个字的名词"
+    },
+    {
+        "query": "~/[t v] ，",
+        "description": "一个词后接t或v，然后是逗号"
+    },
+    {
+        "query": "说 (w){count>8}",
+        "description": "说，频次大于8"
+    },
+    {
+        "query": "(n) (n){len($1)=2}",
+        "description": "两个相邻的名词，每个名词都是两个字"
+    },
+    {
+        "query": "难 . 难",
+        "description": "难后面可能有一个词，然后是难"
+    },
+    {
+        "query": "沈 (nr) 说{end($1)=[丽 犯]}",
+        "description": "沈后面接人名，然后是说，但说的结尾是丽或犯"
+    },
+    {
+        "query": "(v) (w){count<299}",
+        "description": "两个连续的动词，频次小于299"
+    },
+    {
+        "query": "改革 (n) 产权{count>9}",
+        "description": "改革后面接产权，且实例频次大于9"
+    },
+    {
+        "query": "付昭祥 ../v 。",
+        "description": "付昭祥后面接一个动词，然后是句点"
+    },
+    {
+        "query": "哪 @/[v v] ？",
+        "description": "哪后面接一个动词或动词，然后是问号"
+    },
+    {
+        "query": "(v) 与{begin($1)=[协 永]}",
+        "description": "一个动词后面接与，且与的前面是协或永"
+    },
+    {
+        "query": "小康 (w) 重在{count<272}",
+        "description": "小康后面接重在，频次小于272"
+    },
+    {
+        "query": "要",
+        "description": "单独的要"
+    },
+    {
+        "query": "(p) 整体 关系 (a){len($2)=2}",
+        "description": "整体后面接关系，关系是一个两个字的形容词"
+    },
+    {
+        "query": "坚持 n 协同",
+        "description": "坚持后面接名词，然后是协同"
+    },
+    {
+        "query": "精神文明 @/[v v] 。",
+        "description": "精神文明后面接一个动词或动词，然后是句点"
+    },
+    {
+        "query": "大局 @ ，",
+        "description": "大局后面接一个词，然后是逗号"
+    }
+]
+```

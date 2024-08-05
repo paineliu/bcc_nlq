@@ -1,0 +1,160 @@
+```json
+[
+    {
+        "query": "(v) (a){count<513}",
+        "description": "动词后跟一个形容词，且形容词实例频次小于513"
+    },
+    {
+        "query": "贷款 @",
+        "description": "贷款，统计时按照词性@归并"
+    },
+    {
+        "query": "制图 @ 宋嵩",
+        "description": "制图，后面接宋嵩，统计时按照词性@归并"
+    },
+    {
+        "query": "(vx) 了 采访 (w){count<281}",
+        "description": "动词变调后跟了，后面离合出现采访，实例频次小于281"
+    },
+    {
+        "query": "后来 家人/n 出去",
+        "description": "后来，后面跟着家人这个名词，然后是出去"
+    },
+    {
+        "query": "进一步 (v){len($1)=2}",
+        "description": "进一步，后面接一个长度为2的动词"
+    },
+    {
+        "query": "担保 @ 的",
+        "description": "担保，统计时按照词性@归并，后面接一个字"
+    },
+    {
+        "query": "发展 (n) 经济{len($1)=2}",
+        "description": "发展后面接两个字的名词经济"
+    },
+    {
+        "query": "经济 时评/n",
+        "description": "经济后面接时评这个名词"
+    },
+    {
+        "query": "(v) (n){len($1)!=3; len($2)!=3}",
+        "description": "动词后面接一个不是3个字的名词，且接的名词也不是3个字"
+    },
+    {
+        "query": "工业 (vn) 学院{len($1)>1}",
+        "description": "工业后面接一个长度大于1的动名词学院"
+    },
+    {
+        "query": "(ns) 知名{len($1)!=3}",
+        "description": "知名，但长度不是3个字"
+    },
+    {
+        "query": "一批 .. 巨贪",
+        "description": "一批后面可能接一个词，后面接巨贪"
+    },
+    {
+        "query": "(p) 一 (n){len($1)=1; len($2)=1}",
+        "description": "一个单字的介词后面接一个长度为1的名词"
+    },
+    {
+        "query": "， ~ 建议",
+        "description": "逗号后面接一个词，建议"
+    },
+    {
+        "query": "做 ./a 价格",
+        "description": "做后跟一个形容词，价格"
+    },
+    {
+        "query": "， ~/[v v] 电费",
+        "description": "逗号后离合出现一个动词或另一个动词，后面接电费"
+    },
+    {
+        "query": "卡 . 。",
+        "description": "卡后面可能接一个字符，然后是一个句点"
+    },
+    {
+        "query": "茶叶 (n){end($1)!=[听 白 惹 流]}",
+        "description": "茶叶后面不接听、白、惹或流"
+    },
+    {
+        "query": "培育 医药 (an){count>6}",
+        "description": "培育后面接医药这个名形词，实例频次大于6"
+    },
+    {
+        "query": "(ns) 严查{len($1)=2}",
+        "description": "知名后面接一个长度为2的严查"
+    },
+    {
+        "query": "d 逐案",
+        "description": "副词逐案"
+    },
+    {
+        "query": "全面 @ 核查",
+        "description": "全面，统计时按照词性@归并，后面接核查"
+    },
+    {
+        "query": "严惩 ~",
+        "description": "严惩后面接一个词"
+    },
+    {
+        "query": "(t) ， 该案 (d){count<981}",
+        "description": "逗号后面接一个案子，且案子实例频次小于981"
+    },
+    {
+        "query": "关注 ~ 两会",
+        "description": "关注后面接一个词，两会"
+    },
+    {
+        "query": "下调 ~/[v v] 至",
+        "description": "下调后离合出现一个动词或另一个动词，后面接至"
+    },
+    {
+        "query": "留住 @/[n v]",
+        "description": "留住，统计时按照词性@归并，后面接名词或动词"
+    },
+    {
+        "query": "老",
+        "description": "老，单独作为一个词"
+    },
+    {
+        "query": "简政 @ 先手",
+        "description": "简政，统计时按照词性@归并，后面接先手"
+    },
+    {
+        "query": "澳门 (n) 合作{len($1)>2}",
+        "description": "澳门后面接一个长度大于2的名词合作"
+    },
+    {
+        "query": "~/[ns v] 巴金",
+        "description": "可能是名词或动词后接巴金"
+    },
+    {
+        "query": "(ns) 雨果{end($1)!=[久 愁 困]}",
+        "description": "知名后面接雨果，但不接久、愁或困"
+    },
+    {
+        "query": "请 (a){len($1)<3}",
+        "description": "请后面接一个长度小于3的形容词"
+    },
+    {
+        "query": "上海 ~ 故居",
+        "description": "上海后面接一个词，故居"
+    },
+    {
+        "query": "雨果家 ./[u v] 小",
+        "description": "雨果家后面可能是助词或动词，后面接小"
+    },
+    {
+        "query": "， (n) 里{count>6}",
+        "description": "逗号后面接一个名词，且该名词实例频次大于6，里"
+    },
+    {
+        "query": "(n) 楼窗{len($1)!=2}",
+        "description": "名词楼窗，但长度不是2个字"
+    },
+    {
+        "query": "自己 ~/[n v] 一样",
+        "description": "自己后离合出现名词或动词，后面接一样"
+    }
+]
+```

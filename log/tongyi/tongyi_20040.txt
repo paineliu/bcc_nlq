@@ -1,0 +1,136 @@
+```json
+[
+    {
+        "query": "话题+。",
+        "description": "话题后紧跟一个句点"
+    },
+    {
+        "query": "话题 。",
+        "description": "话题后紧跟一个空格再跟句点"
+    },
+    {
+        "query": "信誉度+如何/r+？",
+        "description": "信誉度后紧跟如何，后面再跟问号"
+    },
+    {
+        "query": "信誉度 如何/r ？",
+        "description": "信誉度后紧跟如何，之后是句尾"
+    },
+    {
+        "query": "做/v+家长/n",
+        "description": "做动词后紧跟家长名词"
+    },
+    {
+        "query": "做/v 家长/n",
+        "description": "做动词后紧跟一个空格再跟家长名词"
+    },
+    {
+        "query": "痛苦/a",
+        "description": "痛苦形容词"
+    },
+    {
+        "query": "其他+法律/n+服务",
+        "description": "其他后紧跟法律名词，之后是服务"
+    },
+    {
+        "query": "其他 法律/n 服务",
+        "description": "其他后紧跟一个空格，再跟法律名词，最后是服务"
+    },
+    {
+        "query": "跑./v",
+        "description": "跑单音节动词"
+    },
+    {
+        "query": "比较/v",
+        "description": "比较动词"
+    },
+    {
+        "query": "推广+标兵/n+公布",
+        "description": "推广后紧跟标兵名词，之后是公布"
+    },
+    {
+        "query": "推广 标兵/n 公布",
+        "description": "推广后紧跟一个空格，再跟标兵名词，最后是公布"
+    },
+    {
+        "query": "去+管/v+这么",
+        "description": "去动词后紧跟管动词，再紧跟这么"
+    },
+    {
+        "query": "去 管/v 这么",
+        "description": "去动词后紧跟一个空格，再跟管动词，最后是这么"
+    },
+    {
+        "query": "眼神+，/w",
+        "description": "眼神后紧跟一个逗号"
+    },
+    {
+        "query": "眼神 ，/w",
+        "description": "眼神后紧跟一个空格，再跟一个逗号"
+    },
+    {
+        "query": "检讨/v",
+        "description": "检讨动词"
+    },
+    {
+        "query": "的确/d+，",
+        "description": "的确副词后紧跟一个逗号"
+    },
+    {
+        "query": "的确/d ，",
+        "description": "的确副词后紧跟一个空格，再跟一个逗号"
+    },
+    {
+        "query": "．/v窄了",
+        "description": "一个空格后跟窄了"
+    },
+    {
+        "query": "没有+被/p+难倒",
+        "description": "没有动词后紧跟被动词，再紧跟难倒"
+    },
+    {
+        "query": "没有 被/p 难倒",
+        "description": "没有动词后紧跟一个空格，再跟被动词，最后是难倒"
+    },
+    {
+        "query": "扶贫/v+之",
+        "description": "扶贫动词后紧跟之"
+    },
+    {
+        "query": "扶贫/v 之",
+        "description": "扶贫动词后紧跟一个空格，再跟之"
+    },
+    {
+        "query": "香港/ns+举办",
+        "description": "香港名词后紧跟举办"
+    },
+    {
+        "query": "香港/ns 举办",
+        "description": "香港名词后紧跟一个空格，再跟举办"
+    },
+    {
+        "query": "．/v党",
+        "description": "一个空格后跟党"
+    },
+    {
+        "query": "同样/b+的/u",
+        "description": "同样副词后紧跟一个空格，再跟的"
+    },
+    {
+        "query": "同样/b 的/u",
+        "description": "同样副词后紧跟一个空格，再跟一个空格，最后是的"
+    },
+    {
+        "query": "搞/v",
+        "description": "搞动词"
+    },
+    {
+        "query": "第三方+利益/n+。",
+        "description": "第三方后紧跟利益名词，之后是句点"
+    },
+    {
+        "query": "第三方 利益/n 。",
+        "description": "第三方后紧跟一个空格，再跟利益名词，最后是句点"
+    }
+]
+```

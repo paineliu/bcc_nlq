@@ -1,0 +1,86 @@
+以下是根据提供的检索式及其含义的JSON结构列表：
+
+```json
+[
+    {
+        "query": "(d) 不是{count>6}",
+        "description": "副词不是，频次大于6"
+    },
+    {
+        "query": "力度 @/[w v] 的确",
+        "description": "力度后面接一个词性为w或v的词，然后是的确"
+    },
+    {
+        "query": "扰民 ../[n v]",
+        "description": "扰民后接单音节名词或动词"
+    },
+    {
+        "query": "(r) 驻 德国 记者 冯 (nr){len($1)<3; len($2)>1}",
+        "description": "人名冯后面接一个长度小于3的名词，再接一个长度大于1的名词"
+    },
+    {
+        "query": "记者",
+        "description": "包含记者的句子"
+    },
+    {
+        "query": "， (n) 向{begin($1)=[记 由 尼]}",
+        "description": "逗号后面接名词，名词以记、由、尼开始"
+    },
+    {
+        "query": "邻居 (d) 老实{begin($1)=[终 照 听]}",
+        "description": "邻居后接副词老实，老实以终、照、听开始"
+    },
+    {
+        "query": "强调 w",
+        "description": "强调后面接标点符号w"
+    },
+    {
+        "query": "可能 ~/[v v]",
+        "description": "可能后面接一个词，再接动词"
+    },
+    {
+        "query": "记者 (nr){end($1)=[泓 工 枪]}",
+        "description": "人名记者后面接一个以泓、工、枪结束的词"
+    },
+    {
+        "query": "等 (t) 再{len($1)>1}",
+        "description": "等后面接时间词，时间词长度大于1"
+    },
+    {
+        "query": "(v) (w){begin($1)!=[以 压 便 月]}",
+        "description": "动词后面接一个词性为w的词，该词不以以、压、便、月开始"
+    },
+    {
+        "query": "缺一不可",
+        "description": "包含缺一不可的句子"
+    },
+    {
+        "query": "创业 ~/[v v] 上",
+        "description": "创业后面接一个词，再接动词，然后是上"
+    },
+    {
+        "query": "(n) 说明{len($1)>1}",
+        "description": "名词后面接说明，说明长度大于1"
+    },
+    {
+        "query": "： (nr){count>6}",
+        "description": "冒号后面接人名，人名频次大于6"
+    },
+    {
+        "query": "点火 ../[n v] 刷新",
+        "description": "点火后接单音节名词或动词，然后是刷新"
+    },
+    {
+        "query": "思维 @/[w v]",
+        "description": "思维后面接一个词性为w或v的词"
+    },
+    {
+        "query": "电商 (w) 天上地下{count>5}",
+        "description": "电商后面接标点符号，然后是天上地下，天上地下频次大于5"
+    },
+    {
+        "query": "正是 .../n 思维",
+        "description": "正是后面接省略号和单音节名词，然后是思维"
+    }
+]
+```

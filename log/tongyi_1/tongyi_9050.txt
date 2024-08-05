@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "监管 @ 到",
+        "description": "监管后跟一个词，再到"
+    },
+    {
+        "query": "建议 ~",
+        "description": "建议后跟一个词"
+    },
+    {
+        "query": "延伸 (v) 田间{len($1)=1}",
+        "description": "延伸后跟一个一字动词，且动词后接田间"
+    },
+    {
+        "query": "政协 (n){end($1)!=[梦 涛]}",
+        "description": "政协后接名词，但不接梦或涛"
+    },
+    {
+        "query": "写 (n) 的{len($1)=2}",
+        "description": "写后接一个二字名词，且名词长度为2"
+    },
+    {
+        "query": "把握 ../[vn v] 方向",
+        "description": "把握后接动名词或动词，然后是方向"
+    },
+    {
+        "query": "(n) (n){$1!=$2}",
+        "description": "前后两个名词，且两者不同"
+    },
+    {
+        "query": "(p) 文轩 (v){count>3}",
+        "description": "文轩后跟一个动词，且该动词出现次数大于3"
+    },
+    {
+        "query": "收复 . 东部",
+        "description": "收复后隔一个字后接东部"
+    },
+    {
+        "query": "完全 (v) 艾因阿拉伯{len($1)=2}",
+        "description": "完全后接一个二字动词，且动词后接艾因阿拉伯"
+    },
+    {
+        "query": "塞内加尔 (v) 重开{count>6}",
+        "description": "塞内加尔后跟一个动词，且动词重开出现次数大于6"
+    },
+    {
+        "query": "在 (ns) 坠毁{len($1)=3}",
+        "description": "在后接一个地名，且地名坠毁长度为3"
+    },
+    {
+        "query": "抢劫 ~/[n v] 趋于",
+        "description": "抢劫后离合出现名词或动词，然后是趋于"
+    },
+    {
+        "query": "(n) (n){len($1)>1; len($2)>1}",
+        "description": "前后两个名词，且两者长度都大于1"
+    },
+    {
+        "query": "引发 ../[n v] 动荡",
+        "description": "引发后接名词或动词，然后是动荡"
+    },
+    {
+        "query": "欧元",
+        "description": "欧元"
+    },
+    {
+        "query": "@/[ns v] 力图",
+        "description": "力图前可能是名词或动词"
+    },
+    {
+        "query": "会议 (v){len($1)!=3}",
+        "description": "会议后接的动词不是三个字"
+    },
+    {
+        "query": "大增",
+        "description": "大增"
+    },
+    {
+        "query": "持续 (u) 几{count>3}",
+        "description": "持续后跟一个‘几’字，且‘几’字出现次数大于3"
+    },
+    {
+        "query": "预期",
+        "description": "预期"
+    },
+    {
+        "query": "时节 (w) 正值{count<897}",
+        "description": "时节后接正值，且正值出现次数少于897"
+    },
+    {
+        "query": "在/p 上海 。/w",
+        "description": "在后接上海，上海后面可能是句尾标点"
+    },
+    {
+        "query": "从 @ 到",
+        "description": "从后跟一个词，再到"
+    },
+    {
+        "query": "到 (v){len($1)!=3}",
+        "description": "到后接的动词不是三个字"
+    },
+    {
+        "query": "(v) (w){len($1)=1}",
+        "description": "一个动词后接一个一字词"
+    },
+    {
+        "query": "从 (v) 到{len($1)!=3}",
+        "description": "从后接一个不是三个字的动词，再到"
+    },
+    {
+        "query": "关门 ~/[v v] 的",
+        "description": "关门后离合出现两个动词，然后是的"
+    },
+    {
+        "query": "的 (n) 情怀{end($1)!=[耍 撒 处 发]}",
+        "description": "的后接名词情怀，但不接耍、撒、处或发"
+    },
+    {
+        "query": "(nr) (d){middle($1)=[洁 订 花]}",
+        "description": "一个人名后接一个副词，且副词中间是洁、订或花"
+    },
+    {
+        "query": "挺进 nz 决赛",
+        "description": "挺进后接其他专名决赛"
+    },
+    {
+        "query": "选手 (v) 出色{end($1)!=[王 修 扣]}",
+        "description": "选手后接动词出色，但不接王、修或扣"
+    },
+    {
+        "query": "@ 《",
+        "description": "后跟一个左书名号"
+    },
+    {
+        "query": "怎么 ~/[q v] 事",
+        "description": "怎么后离合出现疑问词或动词，然后是事"
+    },
+    {
+        "query": "不 (v) 她{count>6}",
+        "description": "不后接一个动词，且动词跟在她后面出现次数大于6"
+    },
+    {
+        "query": "../v 了 吗 ./w",
+        "description": "两个动词连续，中间可能有‘了’，然后是吗，可能是句尾"
+    },
+    {
+        "query": "什么 (a) 了{count>2}",
+        "description": "什么后接形容词，且形容词后出现‘了’的次数大于2"
+    },
+    {
+        "query": "学校 (n) 吗{begin($1)=[学 能 活]}",
+        "description": "学校后接的可能是学、能或活开头的词，然后是吗"
+    },
+    {
+        "query": "办法 ./w",
+        "description": "办法可能是句尾"
+    },
+    {
+        "query": "我 (v) 听{len($1)>1}",
+        "description": "我后接一个动词，且动词长度大于1"
+    }
+]
+```

@@ -17,11 +17,13 @@ def make_train_dataset(desc_filename, train_pathname):
         if 'query' in item and 'description' in item:
             query = item['query']
             description = item['description']
+            type = item['type']
             data = {
                 "conversations": [
                     {
                         "role": "user",
-                        "content": "{}{}".format("请将下文解析成BCC检索式：\n", description)
+                        "content": "{}{}".format("请将下文解析成BCC检索式：\n", description),
+                        "type" :type 
                     }, 
                     {
                         "role": "assistant", 
@@ -29,13 +31,37 @@ def make_train_dataset(desc_filename, train_pathname):
                     }
                 ]
             }
-            
+
+            if int(type) <= 6:
+                data2 = {
+                    "conversations": [
+                        {
+                            "role": "user",
+                            "content": "{}{}".format("请将下文解析成BCC检索式：\n", query),
+                            "type": '10' + type
+                        },
+                        {
+                            "role": "assistant",
+                            "content": "{}".format(query)
+                        }
+                    ]
+                }
+            else:
+                data2 = None
+
             if (line_total % 10) < 8:
                 train_data.append(data)
+                if data2 is not None:
+                    train_data.append(data2)       
             elif (line_total % 10) < 9:
                 test_data.append(data)
+                if data2 is not None:
+                    test_data.append(data2) 
             else:
                 val_data.append(data)
+                if data2 is not None:
+                    val_data.append(data2)
+                    
             line_total += 1    
 
     f = open(os.path.join(train_pathname, "bcc_train.json"), 'w', encoding='utf-8')
@@ -57,4 +83,4 @@ def make_train_dataset(desc_filename, train_pathname):
     f.close()
 
 if __name__ == '__main__':
-    make_train_dataset('./data/rmrb_desc_tongyi.json', './chatglm3/dataset_glm_tongyi')
+    make_train_dataset('./data/bcc_query_desc_type_fixed_tongyi.json', './chatglm3/bcc_glm_tongyi')

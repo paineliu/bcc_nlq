@@ -1,0 +1,167 @@
+以下是将给定的检索式转换为带含义的JSON结构：
+
+```json
+[
+    {
+        "query": "玉叶金枝",
+        "description": "包含玉叶金枝的句子"
+    },
+    {
+        "query": "真不",
+        "description": "真后面接不的句子"
+    },
+    {
+        "query": "纯洁",
+        "description": "包含纯洁的句子"
+    },
+    {
+        "query": "拿手",
+        "description": "包含拿手的句子"
+    },
+    {
+        "query": "比方说",
+        "description": "包含比方说的句子"
+    },
+    {
+        "query": "根据",
+        "description": "包含根据的句子"
+    },
+    {
+        "query": "报销",
+        "description": "包含报销的句子"
+    },
+    {
+        "query": "书馆",
+        "description": "包含书馆的句子"
+    },
+    {
+        "query": "后",
+        "description": "句子的结尾为后"
+    },
+    {
+        "query": "冲着",
+        "description": "包含冲着的句子"
+    },
+    {
+        "query": "没慌",
+        "description": "包含没慌的句子"
+    },
+    {
+        "query": "向来",
+        "description": "包含向来的句子"
+    },
+    {
+        "query": "起来和谐",
+        "description": "包含起来和谐的句子"
+    },
+    {
+        "query": "文艺大家",
+        "description": "包含文艺大家的句子"
+    },
+    {
+        "query": "真没",
+        "description": "真后面接没的句子"
+    },
+    {
+        "query": "坏作用",
+        "description": "包含坏作用的句子"
+    },
+    {
+        "query": "他们还说什么",
+        "description": "包含他们还说什么的句子"
+    },
+    {
+        "query": "或许竟",
+        "description": "包含或许竟的句子"
+    },
+    {
+        "query": "边缘",
+        "description": "包含边缘的句子"
+    },
+    {
+        "query": "婊子",
+        "description": "包含婊子的句子"
+    },
+    {
+        "query": "伯父",
+        "description": "包含伯父的句子"
+    },
+    {
+        "query": "弟妹",
+        "description": "包含弟妹的句子"
+    },
+    {
+        "query": "压抑",
+        "description": "包含压抑的句子"
+    },
+    {
+        "query": "和谐友谊",
+        "description": "包含和谐友谊的句子"
+    },
+    {
+        "query": "谁都怪不了",
+        "description": "包含谁都怪不了的句子"
+    },
+    {
+        "query": "自讨苦吃",
+        "description": "包含自讨苦吃的句子"
+    },
+    {
+        "query": "一位",
+        "description": "包含一位的句子"
+    },
+    {
+        "query": "颜色",
+        "description": "包含颜色的句子"
+    },
+    {
+        "query": "发热",
+        "description": "包含发热的句子"
+    },
+    {
+        "query": "没有和谐",
+        "description": "包含没有和谐的句子"
+    },
+    {
+        "query": "人权人",
+        "description": "包含人权人的句子"
+    },
+    {
+        "query": "车辆管理所",
+        "description": "包含车辆管理所的句子"
+    },
+    {
+        "query": "百合控",
+        "description": "包含百合控的句子"
+    },
+    {
+        "query": "和谐了干",
+        "description": "包含和谐了干的句子"
+    },
+    {
+        "query": "吃个",
+        "description": "包含吃个的句子"
+    },
+    {
+        "query": "分派",
+        "description": "包含分派的句子"
+    },
+    {
+        "query": "丛林",
+        "description": "包含丛林的句子"
+    },
+    {
+        "query": "与心和谐",
+        "description": "包含与心和谐的句子"
+    },
+    {
+        "query": "一个纵身",
+        "description": "包含一个纵身的句子"
+    },
+    {
+        "query": "笑饱",
+        "description": "包含笑饱的句子"
+    }
+]
+```
+这个JSON列表包含了每个检索式的描述，说明了它们分别对应于哪些类型的句子。

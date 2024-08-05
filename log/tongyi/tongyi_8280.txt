@@ -1,0 +1,162 @@
+根据提供的检索式及其含义，我们将其转换为json结构如下：
+
+```json
+[
+    {
+        "query": "尤其+a",
+        "description": "尤其后接形容词"
+    },
+    {
+        "query": "尤其 a",
+        "description": "尤其后接单个a"
+    },
+    {
+        "query": "m+幅+n",
+        "description": "m后接幅，幅后接n"
+    },
+    {
+        "query": "m 幅 n",
+        "description": "m后接幅后接n"
+    },
+    {
+        "query": "a偷窃",
+        "description": "a后接偷窃"
+    },
+    {
+        "query": "v一楼",
+        "description": "v后接一楼"
+    },
+    {
+        "query": "nt",
+        "description": "nt作为检索式"
+    },
+    {
+        "query": "你个n",
+        "description": "你后接个，个后接n"
+    },
+    {
+        "query": "d+a一点w",
+        "description": "d后接a，a后接一点，一点后接w"
+    },
+    {
+        "query": "d a一点w",
+        "description": "d后接a，a后接一点后接w"
+    },
+    {
+        "query": "抱出来n",
+        "description": "抱后接出来，出来后接n"
+    },
+    {
+        "query": "让+N+V",
+        "description": "让后接N，N后接V"
+    },
+    {
+        "query": "让 N V",
+        "description": "让后接N后接V"
+    },
+    {
+        "query": "m+q方法",
+        "description": "m后接q，q后接方法"
+    },
+    {
+        "query": "m q方法",
+        "description": "m后接q后接方法"
+    },
+    {
+        "query": "我+n",
+        "description": "我后接n"
+    },
+    {
+        "query": "我 n",
+        "description": "我后接n"
+    },
+    {
+        "query": "把r",
+        "description": "把作为检索式"
+    },
+    {
+        "query": "综合n",
+        "description": "综合后接n"
+    },
+    {
+        "query": "v+m+面",
+        "description": "v后接m，m后接面"
+    },
+    {
+        "query": "v m 面",
+        "description": "v后接m后接面"
+    },
+    {
+        "query": "A吧",
+        "description": "A后接吧"
+    },
+    {
+        "query": "难以v",
+        "description": "难以后接v"
+    },
+    {
+        "query": "整整一q",
+        "description": "整整后接一，一后接q"
+    },
+    {
+        "query": "w说来也巧",
+        "description": "w后接说来也巧"
+    },
+    {
+        "query": "条n",
+        "description": "条作为检索式"
+    },
+    {
+        "query": "a主人翁",
+        "description": "a后接主人翁"
+    },
+    {
+        "query": "大有n",
+        "description": "大有后接n"
+    },
+    {
+        "query": "a的标准",
+        "description": "a后接标准"
+    },
+    {
+        "query": "把r+a的w",
+        "description": "把后接a，a后接的，的后接w"
+    },
+    {
+        "query": "把r a的w",
+        "description": "把后接a后接的，的后接w"
+    },
+    {
+        "query": "a公路",
+        "description": "a后接公路"
+    },
+    {
+        "query": "n不同",
+        "description": "n后接不同"
+    },
+    {
+        "query": "万一r",
+        "description": "万一作为检索式"
+    },
+    {
+        "query": "刷n",
+        "description": "刷作为检索式"
+    },
+    {
+        "query": "V开来",
+        "description": "V后接开来"
+    },
+    {
+        "query": "无v不n",
+        "description": "无后接v，v后接不后接n"
+    },
+    {
+        "query": "v一堂",
+        "description": "v后接一，一后接堂"
+    },
+    {
+        "query": "v上载",
+        "description": "v后接上，上后接载"
+    }
+]
+```

@@ -1,0 +1,166 @@
+以下是将给定的检索式转换为带含义的json结构的结果：
+
+```json
+[
+    {
+        "query": "倒在s",
+        "description": "包含倒在s的句子"
+    },
+    {
+        "query": "v着也是v着",
+        "description": "动词后紧跟着也是，然后又是动词"
+    },
+    {
+        "query": "看我不v",
+        "description": "看后紧跟着我，然后是动词"
+    },
+    {
+        "query": "a叠字",
+        "description": "形容词后紧跟着叠字"
+    },
+    {
+        "query": "一双n",
+        "description": "数量词后紧跟着名词"
+    },
+    {
+        "query": "没v前",
+        "description": "没后面紧跟着动词，然后是前"
+    },
+    {
+        "query": "vn上去",
+        "description": "动词后紧跟着上，然后是名词"
+    },
+    {
+        "query": "a反映",
+        "description": "形容词后紧跟着反映"
+    },
+    {
+        "query": "a+经验",
+        "description": "形容词后紧跟着经验"
+    },
+    {
+        "query": "a 经验",
+        "description": "形容词后空格，然后紧跟着经验"
+    },
+    {
+        "query": "w+你一个n+w",
+        "description": "以w开头，后面紧跟着你，然后是一个名词，最后以w结尾的句子"
+    },
+    {
+        "query": "w 你一个n w",
+        "description": "以w开头，后面紧跟着你，然后是一个名词，最后以w结尾的句子"
+    },
+    {
+        "query": "没人v+r",
+        "description": "没人后面紧跟着动词，然后是r"
+    },
+    {
+        "query": "没人v r",
+        "description": "没人后面紧跟着动词，然后是r"
+    },
+    {
+        "query": "a得半死",
+        "description": "形容词后紧跟着得半死"
+    },
+    {
+        "query": "v+n+v+了",
+        "description": "动词后紧跟着名词，然后是动词，最后以了结尾"
+    },
+    {
+        "query": "v n v 了",
+        "description": "动词后紧跟着名词，然后是动词，最后以了结尾"
+    },
+    {
+        "query": "a交往",
+        "description": "形容词后紧跟着交往"
+    },
+    {
+        "query": "a可巧",
+        "description": "形容词后紧跟着可巧"
+    },
+    {
+        "query": "太s",
+        "description": "太后面紧跟着s"
+    },
+    {
+        "query": "a区别",
+        "description": "形容词后紧跟着区别"
+    },
+    {
+        "query": "a健美",
+        "description": "形容词后紧跟着健美"
+    },
+    {
+        "query": "a印染",
+        "description": "形容词后紧跟着印染"
+    },
+    {
+        "query": "见解v",
+        "description": "见解后紧跟着动词"
+    },
+    {
+        "query": "呗w",
+        "description": "呗后面紧跟着w"
+    },
+    {
+        "query": "提n",
+        "description": "提后紧跟着名词"
+    },
+    {
+        "query": "仿佛就是v",
+        "description": "仿佛后紧跟着就是，然后是动词"
+    },
+    {
+        "query": "被n+v一下",
+        "description": "被后紧跟着名词，然后是动词，最后以一下结尾"
+    },
+    {
+        "query": "被n v一下",
+        "description": "被后紧跟着名词，然后是动词，最后以一下结尾"
+    },
+    {
+        "query": "未V以前",
+        "description": "未后面紧跟着V，然后是以前"
+    },
+    {
+        "query": "V你个N",
+        "description": "V后面紧跟着你个，然后是名词"
+    },
+    {
+        "query": "说不a",
+        "description": "说后面紧跟着不，然后是形容词"
+    },
+    {
+        "query": "a了就v",
+        "description": "形容词后紧跟着了，然后是就，最后是动词"
+    },
+    {
+        "query": "偷n",
+        "description": "偷后紧跟着名词"
+    },
+    {
+        "query": "a办法",
+        "description": "形容词后紧跟着办法"
+    },
+    {
+        "query": "算什么+N",
+        "description": "算什么后面紧跟着名词"
+    },
+    {
+        "query": "算什么 N",
+        "description": "算什么后面紧跟着名词"
+    },
+    {
+        "query": "v老年",
+        "description": "动词后紧跟着老年"
+    },
+    {
+        "query": "a号称",
+        "description": "形容词后紧跟着号称"
+    },
+    {
+        "query": "v+了+m+q",
+        "description": "动词后紧跟着了，然后是m，最后以q结尾"
+    }
+]
+```

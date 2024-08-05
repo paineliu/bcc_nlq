@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "香椿/n+树+的+芽+被+主人/n",
+        "description": "香椿后接树、的、芽、被、主人组成的句子"
+    },
+    {
+        "query": "香椿/n 树 的 芽 被 主人/n",
+        "description": "香椿后接树、的、芽、被、主人组成的句子"
+    },
+    {
+        "query": "..员/n",
+        "description": "员前有一个字的描述"
+    },
+    {
+        "query": "n+./n+v",
+        "description": "名词后接单音节动词，再接动词"
+    },
+    {
+        "query": "n ./n v",
+        "description": "名词后接单音节动词，再接动词"
+    },
+    {
+        "query": "奈何+斗/v+酒乐",
+        "description": "奈何后接斗、酒乐组成的句子"
+    },
+    {
+        "query": "奈何 斗/v 酒乐",
+        "description": "奈何后接斗、酒乐组成的句子"
+    },
+    {
+        "query": "爱好/n*v",
+        "description": "爱好后接动词"
+    },
+    {
+        "query": "的+花朵/n",
+        "description": "的后接花朵组成的句子"
+    },
+    {
+        "query": "的 花朵/n",
+        "description": "的后接花朵组成的句子"
+    },
+    {
+        "query": "国企+是/v+腐败",
+        "description": "国企后接是、腐败组成的句子"
+    },
+    {
+        "query": "国企 是/v 腐败",
+        "description": "国企后接是、腐败组成的句子"
+    },
+    {
+        "query": "v*善意/n",
+        "description": "动词后接善意组成的句子"
+    },
+    {
+        "query": "伸./v",
+        "description": "伸后接单音节动词组成的句子"
+    },
+    {
+        "query": "a+真情/n",
+        "description": "形容词后接真情组成的句子"
+    },
+    {
+        "query": "a 真情/n",
+        "description": "形容词后接真情组成的句子"
+    },
+    {
+        "query": "工业+集团/n+董事长",
+        "description": "工业后接集团、董事长组成的句子"
+    },
+    {
+        "query": "工业 集团/n 董事长",
+        "description": "工业后接集团、董事长组成的句子"
+    },
+    {
+        "query": "拉+中/f+合作",
+        "description": "拉后接中、合作组成的句子"
+    },
+    {
+        "query": "拉 中/f 合作",
+        "description": "拉后接中、合作组成的句子"
+    },
+    {
+        "query": "企盼/v+回+天术/n",
+        "description": "企盼后接回、天术组成的句子"
+    },
+    {
+        "query": "企盼/v 回 天术/n",
+        "description": "企盼后接回、天术组成的句子"
+    },
+    {
+        "query": "为/v+中国+工业/n",
+        "description": "为后接中国、工业组成的句子"
+    },
+    {
+        "query": "为/v 中国 工业/n",
+        "description": "为后接中国、工业组成的句子"
+    },
+    {
+        "query": "消费+成/v+热门",
+        "description": "消费后接成、热门组成的句子"
+    },
+    {
+        "query": "消费 成/v 热门",
+        "description": "消费后接成、热门组成的句子"
+    },
+    {
+        "query": "体制+机制/n+。",
+        "description": "体制后接机制、。组成的句子"
+    },
+    {
+        "query": "体制 机制/n 。",
+        "description": "体制后接机制、。组成的句子"
+    },
+    {
+        "query": "同志/n+逝世/v",
+        "description": "同志后接逝世组成的句子"
+    },
+    {
+        "query": "同志/n 逝世/v",
+        "description": "同志后接逝世组成的句子"
+    },
+    {
+        "query": "：/w+羊/n",
+        "description": "：后接羊组成的句子"
+    },
+    {
+        "query": "：/w 羊/n",
+        "description": "：后接羊组成的句子"
+    },
+    {
+        "query": "支持+力度/n+。",
+        "description": "支持后接力度、。组成的句子"
+    },
+    {
+        "query": "支持 力度/n 。",
+        "description": "支持后接力度、。组成的句子"
+    },
+    {
+        "query": "全/d",
+        "description": "全组成的句子"
+    },
+    {
+        "query": "只/d",
+        "description": "只组成的句子"
+    },
+    {
+        "query": "好心/n*v",
+        "description": "好心后接动词组成的句子"
+    },
+    {
+        "query": "九旬/m+曹鹏+：+古典+音乐+苦行+僧速/n",
+        "description": "九旬后接曹鹏、：、古典、音乐、苦行、僧速组成的句子"
+    },
+    {
+        "query": "九旬/m 曹鹏 ： 古典 音乐 苦行 僧速/n",
+        "description": "九旬后接曹鹏、：、古典、音乐、苦行、僧速组成的句子"
+    },
+    {
+        "query": "欧洲/ns+智库+欧洲+之+友+秘书长/n",
+        "description": "欧洲后接智库、欧洲、之、友、秘书长组成的句子"
+    }
+]
+```

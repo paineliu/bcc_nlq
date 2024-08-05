@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "江苏 ~/[ns v] 吴",
+        "description": "包含‘江苏’后面接任一地名和‘吴’的句子"
+    },
+    {
+        "query": "评估 v 立法",
+        "description": "评估动词后面接‘立法’"
+    },
+    {
+        "query": "该 v 矣",
+        "description": "‘该’后面接动词‘矣’"
+    },
+    {
+        "query": "(ns) 徐 (nr){len($1)<3}",
+        "description": "姓徐的人名，名字长度小于3"
+    },
+    {
+        "query": "(n) 上 (v){len($1)<3}",
+        "description": "名词后面接长度小于3的动词"
+    },
+    {
+        "query": "该 ./[v v] 矣",
+        "description": "‘该’后面接两个连续的动词‘矣’"
+    },
+    {
+        "query": "(n) 纠正 错案 应 (d){end($1)!=[茶 穷]}",
+        "description": "名词后面接纠正、错案、应，但不接‘茶’或‘穷’"
+    },
+    {
+        "query": "异地 (v) 十分{count>6}",
+        "description": "‘异地’后面接动词，且该动词出现次数大于6次"
+    },
+    {
+        "query": "诉讼/v 搬到 线/n",
+        "description": "诉讼动词后面接搬到，再接名词‘线’"
+    },
+    {
+        "query": "避免/v 暗箱",
+        "description": "避免动词后面接‘暗箱’"
+    },
+    {
+        "query": "说 (w){count<963}",
+        "description": "‘说’作为单字出现的次数小于963"
+    },
+    {
+        "query": "@/[nr v] 说",
+        "description": "任一名词或动词后接‘说’"
+    },
+    {
+        "query": "把/p 死",
+        "description": "‘把’后接介词‘死’"
+    },
+    {
+        "query": "说 。/w",
+        "description": "‘说’后接句点作为单字"
+    },
+    {
+        "query": "在 全球/n 引发",
+        "description": "‘在’后面接‘全球’，然后是名词，整体引发什么"
+    },
+    {
+        "query": "呵护 ~/[v v]",
+        "description": "呵护后面离合出现两个动词"
+    },
+    {
+        "query": "新",
+        "description": "单字‘新’"
+    },
+    {
+        "query": "(nr) 感叹{len($1)<4}",
+        "description": "姓氏后接长度小于4的感叹词"
+    },
+    {
+        "query": "坎坷 @/[w v]",
+        "description": "坎坷后跟一个词，可能是形容词或动词"
+    },
+    {
+        "query": "正义 @/[w v]",
+        "description": "正义后跟一个词，可能是形容词或动词"
+    },
+    {
+        "query": "织密 ~ 寄递",
+        "description": "织密后面接一个词，可能是任意词性"
+    },
+    {
+        "query": "(n) 防技 防 全面 (v){len($1)=2}",
+        "description": "防技、防、全面三个词，其中第二个词是长度为2的动词"
+    },
+    {
+        "query": "云南 @ 加强",
+        "description": "云南后接‘加强’"
+    },
+    {
+        "query": "行政 @ ，",
+        "description": "行政后接逗号，可能是单字或标点"
+    },
+    {
+        "query": "再次 (v) 社会{count<543}",
+        "description": "再次动词后面接社会，且次数小于543"
+    },
+    {
+        "query": "服务",
+        "description": "单独的‘服务’"
+    },
+    {
+        "query": "../n 老罗",
+        "description": "两个连续的名词后接老罗"
+    },
+    {
+        "query": "小孩 (v) ？{len($1)!=3}",
+        "description": "小孩后面接动词，且动词长度不等于3，可能带有问号"
+    },
+    {
+        "query": "~ 在",
+        "description": "一个词后接‘在’"
+    },
+    {
+        "query": "改革 (w){count>6}",
+        "description": "‘改革’作为单字出现的次数大于6"
+    },
+    {
+        "query": "(r) 作用{begin($1)!=[哇 华]}",
+        "description": "任一状态词后接‘作用’，但不以‘哇’或‘华’开头"
+    },
+    {
+        "query": "大力 发展/v 清洁",
+        "description": "大力后面接动词‘发展’，再接‘清洁’"
+    },
+    {
+        "query": "： ...",
+        "description": "冒号后可能是省略号或其他字符"
+    },
+    {
+        "query": "(n) 政协{count>6}",
+        "description": "‘政协’出现次数大于6"
+    },
+    {
+        "query": "博弈 (w) 中东{count>7}",
+        "description": "‘博弈’作为单字出现的次数大于7，后面接‘中东’"
+    },
+    {
+        "query": "的 ~/[n v] 往往",
+        "description": "‘的’后面接任一名词或动词，后面接‘往往’"
+    },
+    {
+        "query": "不 @/[v v] 削弱",
+        "description": "不后接任一动词，再接削弱"
+    },
+    {
+        "query": "孤家寡人 ./w",
+        "description": "孤家寡人后接单字"
+    },
+    {
+        "query": "决心",
+        "description": "单独的‘决心’"
+    },
+    {
+        "query": "(v) 具体 (vn){len($1)!=2}",
+        "description": "任一动词后面接具体，且具体不是两个字的动词"
+    }
+]
+```

@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "同样v+a[，+。]", 
+        "description":"同样后接动词，然后接逗号或句点"
+    },
+    {
+        "query": "同样v a[， 。]", 
+        "description":"同样后接动词，然后接逗号或句点"
+    },
+    {
+        "query": "[未必+未免+无偿]v[q+m+]n[，+。]", 
+        "description":"由未必、未免、无偿组成的序列后接动词，然后接逗号或句点"
+    },
+    {
+        "query": "[未必 未免 无偿]v[q m ]n[， 。]", 
+        "description":"由未必、未免、无偿组成的序列后接动词，然后接逗号或句点"
+    },
+    {
+        "query": "我有n[，+。]", 
+        "description":"我后接名词，然后接逗号或句点"
+    },
+    {
+        "query": "我有n[， 。]", 
+        "description":"我后接名词，然后接逗号或句点"
+    },
+    {
+        "query": "不曾d+n[，+。]", 
+        "description":"不曾后接名词，然后接逗号或句点"
+    },
+    {
+        "query": "不曾d n[， 。]", 
+        "description":"不曾后接名词，然后接逗号或句点"
+    },
+    {
+        "query": "员d+v[，+。]", 
+        "description":"员后接副词，然后接动词，最后接逗号或句点"
+    },
+    {
+        "query": "员d v[， 。]", 
+        "description":"员后接副词，然后接动词，最后接逗号或句点"
+    },
+    {
+        "query": "v了n[，+。]", 
+        "description":"动词后接名词，然后接逗号或句点"
+    },
+    {
+        "query": "v了n[， 。]", 
+        "description":"动词后接名词，然后接逗号或句点"
+    },
+    {
+        "query": "[得上n+m++]v+a[，+。]", 
+        "description":"由得上、n、m组成的序列后接动词，然后接逗号或句点"
+    },
+    {
+        "query": "[得上n m ]v+a[， 。]", 
+        "description":"由得上、n、m组成的序列后接动词，然后接逗号或句点"
+    },
+    {
+        "query": "w[q+r+d+c+v+a++n+m++p]友.敌w", 
+        "description":"由q、r、d、c、v、a、n、m、p组成的序列后接友和敌，中间有一个句点"
+    },
+    {
+        "query": "w[q r d c v a  n m  p]友.敌w", 
+        "description":"由q、r、d、c、v、a、n、m、p组成的序列后接友和敌，中间有一个句点"
+    },
+    {
+        "query": "单独v+u[，+。]", 
+        "description":"单独后接动词，然后接逗号或句点"
+    },
+    {
+        "query": "单独v u[， 。]", 
+        "description":"单独后接动词，然后接逗号或句点"
+    },
+    {
+        "query": "[从不+从此+从来]v[v+a+n+][，+。]", 
+        "description":"由从不、从此、从来组成的序列后接动词，然后接逗号或句点"
+    },
+    {
+        "query": "[从不 从此 从来]v[v a n ][， 。]", 
+        "description":"由从不、从此、从来组成的序列后接动词，然后接逗号或句点"
+    },
+    {
+        "query": "[根本+更加+公然]v[q+m+]n[，+。]", 
+        "description":"由根本、更加、公然组成的序列后接动词，然后接逗号或句点"
+    },
+    {
+        "query": "[根本 更加 公然]v[q m ]n[， 。]", 
+        "description":"由根本、更加、公然组成的序列后接动词，然后接逗号或句点"
+    },
+    {
+        "query": "一齐d+v[，+。]", 
+        "description":"一齐后接副词，然后接动词，最后接逗号或句点"
+    },
+    {
+        "query": "一齐d v[， 。]", 
+        "description":"一齐后接副词，然后接动词，最后接逗号或句点"
+    },
+    {
+        "query": "始终v+u[，+。]", 
+        "description":"始终后接动词，然后接逗号或句点"
+    },
+    {
+        "query": "始终v u[， 。]", 
+        "description":"始终后接动词，然后接逗号或句点"
+    },
+    {
+        "query": "千万d+n[，+。]", 
+        "description":"千万后接副词，然后接名词，最后接逗号或句点"
+    },
+    {
+        "query": "千万d n[， 。]", 
+        "description":"千万后接副词，然后接名词，最后接逗号或句点"
+    },
+    {
+        "query": "w[q+r+d+c+v+a++n+m++p]稀.稠w", 
+        "description":"由q、r、d、c、v、a、n、m、p组成的序列后接稀和稠，中间有一个句点"
+    },
+    {
+        "query": "w[q r d c v a  n m  p]稀.稠w", 
+        "description":"由q、r、d、c、v、a、n、m、p组成的序列后接稀和稠，中间有一个句点"
+    },
+    {
+        "query": "[，+。]v不了", 
+        "description":"逗号或句点后接动词，然后接不了"
+    },
+    {
+        "query": "[， 。]v不了", 
+        "description":"逗号或句点后接动词，然后接不了"
+    },
+    {
+        "query": "就近v[v+a+n+r][，+。]", 
+        "description":"就近后接动词，然后接逗号或句点"
+    },
+    {
+        "query": "就近v[v a n r][， 。]", 
+        "description":"就近后接动词，然后接逗号或句点"
+    },
+    {
+        "query": "单独v+v[，+。]", 
+        "description":"单独后接动词两次，然后接逗号或句点"
+    },
+    {
+        "query": "单独v v[， 。]", 
+        "description":"单独后接动词两次，然后接逗号或句点"
+    },
+    {
+        "query": "w[q+r+d+c+v+a++n+m++p]老.幼w", 
+        "description":"由q、r、d、c、v、a、n、m、p组成的序列后接老和幼，中间有一个句点"
+    },
+    {
+        "query": "w[q r d c v a  n m  p]老.幼w", 
+        "description":"由q、r、d、c、v、a、n、m、p组成的序列后接老和幼，中间有一个句点"
+    },
+    {
+        "query": "[不可+不愧+不料][v+a+n+r][，+。]", 
+        "description":"由不可、不愧、不料组成的序列后接动词，然后接逗号或句点"
+    },
+    {
+        "query": "[不可 不愧 不料][v a n r][， 。]", 
+        "description":"由不可、不愧、不料组成的序列后接动词，然后接逗号或句点"
+    }
+]
+```

@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "美满和谐",
+        "description": "包含美满和和谐的句子"
+    },
+    {
+        "query": "动不动",
+        "description": "动词后接动不动的短语"
+    },
+    {
+        "query": "坐就坐",
+        "description": "坐后接就坐的短语"
+    },
+    {
+        "query": "别太伤心了",
+        "description": "包含别太和伤心了的句子"
+    },
+    {
+        "query": "没人权",
+        "description": "包含没人权的句子"
+    },
+    {
+        "query": "彼岸",
+        "description": "包含彼岸的句子"
+    },
+    {
+        "query": "编导",
+        "description": "包含编导的句子"
+    },
+    {
+        "query": "皮肉之苦",
+        "description": "包含皮肉之苦的句子"
+    },
+    {
+        "query": "一起分享",
+        "description": "包含一起和分享的句子"
+    },
+    {
+        "query": "没准",
+        "description": "包含没准的句子"
+    },
+    {
+        "query": "新征程",
+        "description": "包含新征程的句子"
+    },
+    {
+        "query": "人权实",
+        "description": "包含人权实的句子"
+    },
+    {
+        "query": "和谐危害",
+        "description": "包含和谐和危害的句子"
+    },
+    {
+        "query": "热战",
+        "description": "包含热战的句子"
+    },
+    {
+        "query": "不能再",
+        "description": "包含不能再的句子"
+    },
+    {
+        "query": "有一点儿",
+        "description": "包含有一点儿的句子"
+    },
+    {
+        "query": "固然",
+        "description": "包含固然的句子"
+    },
+    {
+        "query": "至于吗",
+        "description": "包含至于和吗的句子"
+    },
+    {
+        "query": "出租汽车",
+        "description": "包含出租汽车的句子"
+    },
+    {
+        "query": "和谐及追",
+        "description": "包含和谐和及追的句子"
+    },
+    {
+        "query": "来看",
+        "description": "包含来看的句子"
+    },
+    {
+        "query": "和谐传播",
+        "description": "包含和谐和传播的句子"
+    },
+    {
+        "query": "不太踏实",
+        "description": "包含不太和踏实的句子"
+    },
+    {
+        "query": "这类东西",
+        "description": "包含这类和东西的句子"
+    },
+    {
+        "query": "软软",
+        "description": "包含软软的句子"
+    },
+    {
+        "query": "严格讲",
+        "description": "包含严格和讲的句子"
+    },
+    {
+        "query": "清清",
+        "description": "包含清清的句子"
+    },
+    {
+        "query": "改天",
+        "description": "包含改天的句子"
+    },
+    {
+        "query": "作人权",
+        "description": "包含作权和人权的句子"
+    },
+    {
+        "query": "句叮嘱",
+        "description": "包含句和叮嘱的句子"
+    },
+    {
+        "query": "人权平",
+        "description": "包含人权和平的句子"
+    },
+    {
+        "query": "房间",
+        "description": "包含房间的句子"
+    },
+    {
+        "query": "车辆",
+        "description": "包含车辆的句子"
+    },
+    {
+        "query": "也不和谐",
+        "description": "包含也和不和谐的句子"
+    },
+    {
+        "query": "千万莫",
+        "description": "包含千万和莫的句子"
+    },
+    {
+        "query": "部门",
+        "description": "包含部门的句子"
+    },
+    {
+        "query": "特低",
+        "description": "包含特低的句子"
+    },
+    {
+        "query": "房产",
+        "description": "包含房产的句子"
+    },
+    {
+        "query": "那么",
+        "description": "包含那么的句子"
+    },
+    {
+        "query": "不咎既往",
+        "description": "包含不咎和既往的句子"
+    }
+]
+```

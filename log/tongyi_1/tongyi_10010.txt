@@ -1,0 +1,160 @@
+```json
+[
+    {
+        "query": "(v) 环节{len($1)=2}",
+        "description": "检索含有两个字的动词环节"
+    },
+    {
+        "query": "， (j) 评审{count<573}",
+        "description": "检索评审的实例，但频次少于573次"
+    },
+    {
+        "query": "千里 . 鄂",
+        "description": "千里后面可能跟一个点，然后是地名鄂"
+    },
+    {
+        "query": "(r) (v){len($1)!=3}",
+        "description": "检索以一个非三个字的动词开头的句子"
+    },
+    {
+        "query": "(v) 他们{begin($1)=[看 服 耍]}",
+        "description": "检索他们后面紧跟看、服或耍的动词"
+    },
+    {
+        "query": "唐 ~/[nr v] 说",
+        "description": "检索唐后面接人名或动词，然后是说"
+    },
+    {
+        "query": "老人 ~ 同情",
+        "description": "检索老人后面跟一个词同情"
+    },
+    {
+        "query": "(t) 嘉阳 (a){count>5}",
+        "description": "检索嘉阳后面跟着一个形容词，且该形容词频次大于5"
+    },
+    {
+        "query": "说 ~",
+        "description": "检索说后面可能有一个词"
+    },
+    {
+        "query": "之 ~/[n v]",
+        "description": "检索之后面可能是名词或动词"
+    },
+    {
+        "query": "帮 ~ 把",
+        "description": "检索帮后面可能跟一个词，然后是把"
+    },
+    {
+        "query": "的 @ 力量",
+        "description": "检索的后面跟一个词力量，统计时按词性归并"
+    },
+    {
+        "query": "总会 ~/[v v] 好报",
+        "description": "检索总会后面离合出现两个动词，然后是好报"
+    },
+    {
+        "query": "师龙 (v) 摄{len($1)=1}",
+        "description": "检索师龙后面跟一个长度为1的动词"
+    },
+    {
+        "query": ".. ： ...",
+        "description": "检索连续的三个点"
+    },
+    {
+        "query": "白皮书 @/[d v] 具",
+        "description": "检索白皮书后面可能是副词或动词，然后是具"
+    },
+    {
+        "query": "(ns) 法制办{middle($1)!=[姓 笔 保]}",
+        "description": "检索法制办，但中间的字不包括姓、笔或保"
+    },
+    {
+        "query": "四海 ~ 春",
+        "description": "检索四海后面跟一个词春"
+    },
+    {
+        "query": "(f) 一 站 体坛 (v){end($2)!=[生 任 牛]}",
+        "description": "检索一、站、体坛后面跟一个非生、任或牛的动词"
+    },
+    {
+        "query": "难说 @/[v v]",
+        "description": "检索难说后面可能是两个动词"
+    },
+    {
+        "query": "角色 v 新苗",
+        "description": "检索角色后面跟一个动词新苗"
+    },
+    {
+        "query": "(d) 是 发展 (u){len($1)=1; len($2)!=2}",
+        "description": "检索是后面跟一个长度为1的词，且该词后面不是一个长度为2的词"
+    },
+    {
+        "query": "要 ~/[p v] 强",
+        "description": "检索要后面可能是介词或动词，然后是强"
+    },
+    {
+        "query": "坐 头/n 把",
+        "description": "检索坐后面跟名词头，然后是把"
+    },
+    {
+        "query": "(nt) 获得{len($1)=4}",
+        "description": "检索获得这个词，长度为4"
+    },
+    {
+        "query": "羽 (w) 您{count>2}",
+        "description": "检索羽后面跟一个词，且该词频次大于2"
+    },
+    {
+        "query": "(n) (v){len($1)!=4; len($2)=2}",
+        "description": "检索一个非4字的名词后面跟一个2字的动词"
+    },
+    {
+        "query": "飞翔 ~ 感觉",
+        "description": "检索飞翔后面跟一个词感觉"
+    },
+    {
+        "query": "(v) 世界{begin($1)!=[前 晒]}",
+        "description": "检索世界后面，但不以前或晒开头的动词"
+    },
+    {
+        "query": "棒球 ~ 体育",
+        "description": "检索棒球后面跟一个词体育"
+    },
+    {
+        "query": "东城区 (v) 快乐{len($1)!=3}",
+        "description": "检索东城区后面跟一个非3字的动词快乐"
+    },
+    {
+        "query": "生态 (n){begin($1)!=[万 劲]}",
+        "description": "检索生态后面，但不以万或劲开头的名词"
+    },
+    {
+        "query": "叫 (n) ？{begin($1)!=[穿 醒 般]}",
+        "description": "检索叫后面跟一个名词，但不以穿、醒或般开头"
+    },
+    {
+        "query": "不是 。/w",
+        "description": "检索不是后面跟一个句点，但不是普通单词"
+    },
+    {
+        "query": "制图 ~ 蔡华伟",
+        "description": "检索制图后面跟一个词蔡华伟"
+    },
+    {
+        "query": "金南 (v) 。{count<823}",
+        "description": "检索金南后面跟一个动词，且该动词频次小于823"
+    },
+    {
+        "query": "问题 (w){count<680}",
+        "description": "检索问题，但频次少于680次"
+    },
+    {
+        "query": "电动 @/[n v] 不",
+        "description": "检索电动后面可能是名词或动词，然后是不"
+    },
+    {
+        "query": "此举 (v) 争议{len($1)!=3}",
+        "description": "检索此举后面跟一个非三个字的动词争议"
+    }
+]
+```

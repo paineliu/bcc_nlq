@@ -1,0 +1,160 @@
+以下是将给定的检索式转换为带含义的json结构后的完整列表：
+
+```json
+[
+    {
+        "query": "a翻了",
+        "description": "形容词后接翻了"
+    },
+    {
+        "query": "跟踪v",
+        "description": "动词后接跟踪"
+    },
+    {
+        "query": "了又v了又",
+        "description": "动词后接了，然后又接动词，再接了，再接动词"
+    },
+    {
+        "query": "要是再a点",
+        "description": "如果再接形容词（a），然后一点"
+    },
+    {
+        "query": "v多少就v多少",
+        "description": "动词后接多少，再接动词，表示选择关系"
+    },
+    {
+        "query": "a优势",
+        "description": "形容词后接优势"
+    },
+    {
+        "query": "v樟树",
+        "description": "动词后接樟树"
+    },
+    {
+        "query": "v大事",
+        "description": "动词后接大事"
+    },
+    {
+        "query": "v在一边",
+        "description": "动词后接在一边"
+    },
+    {
+        "query": "nr欺骗",
+        "description": "人名后接欺骗"
+    },
+    {
+        "query": "n热",
+        "description": "名词后接热"
+    },
+    {
+        "query": "n那儿",
+        "description": "名词后接那儿"
+    },
+    {
+        "query": "一v就m",
+        "description": "动词后接一，接着接程度副词（m）"
+    },
+    {
+        "query": "v一类",
+        "description": "动词后接一类"
+    },
+    {
+        "query": "adj和adj",
+        "description": "形容词后接和，再接形容词"
+    },
+    {
+        "query": "再v也",
+        "description": "再接动词，之后也"
+    },
+    {
+        "query": "v自然",
+        "description": "动词后接自然"
+    },
+    {
+        "query": "整一个Y",
+        "description": "动词后接整一个Y"
+    },
+    {
+        "query": "。+n是n+；",
+        "description": "句尾标点后接名词，是，再接名词，句尾标点"
+    },
+    {
+        "query": "一袭N",
+        "description": "数量词后接名词"
+    },
+    {
+        "query": "看r的y",
+        "description": "动词后接的，再接形容词"
+    },
+    {
+        "query": "不v这n",
+        "description": "动词后接不，然后这，再接名词"
+    },
+    {
+        "query": "Vg讲",
+        "description": "动语素后接讲"
+    },
+    {
+        "query": "爱好n",
+        "description": "动词后接爱好"
+    },
+    {
+        "query": "m帧",
+        "description": "名数词后接帧"
+    },
+    {
+        "query": "a动力",
+        "description": "形容词后接动力"
+    },
+    {
+        "query": "对+n+V",
+        "description": "动词后接对，再接名词，最后接动词"
+    },
+    {
+        "query": "对 n V",
+        "description": "动词后接对，再接名词，最后接动词"
+    },
+    {
+        "query": "再v吧",
+        "description": "再接动词，之后吧"
+    },
+    {
+        "query": "不比n+n+",
+        "description": "动词后接不，然后比，再接两个名词"
+    },
+    {
+        "query": "不比n n",
+        "description": "动词后接不，然后比，再接两个名词"
+    },
+    {
+        "query": "v是不可能的",
+        "description": "动词后接是不可能的"
+    },
+    {
+        "query": "a亲自",
+        "description": "形容词后接亲自"
+    },
+    {
+        "query": "v+v+了",
+        "description": "动词后接动词，再接了"
+    },
+    {
+        "query": "v v 了",
+        "description": "动词后接动词，再接了"
+    },
+    {
+        "query": "r情况",
+        "description": "动词后接情况"
+    },
+    {
+        "query": "经历vn",
+        "description": "名动词后接经历"
+    },
+    {
+        "query": "Ag手",
+        "description": "语素后接手"
+    }
+]
+```
+
+以上json结构包含了给定检索式的详细描述，每个条目都对应了一个具体的语言模式和其对应的含义。

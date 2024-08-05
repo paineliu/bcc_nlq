@@ -1,0 +1,168 @@
+根据提供的检索式规则和示例，我们可以将这些检索式转换为具有描述含义的JSON结构。以下是对应的转换结果：
+
+```json
+[
+    {
+        "query": "N 创造",
+        "description": "创造之后的名词"
+    },
+    {
+        "query": "把N抹在",
+        "description": "把一个名词放在或涂抹在另一个实体上"
+    },
+    {
+        "query": "一刻n",
+        "description": "时间单位'一刻'"
+    },
+    {
+        "query": "颇a+n",
+        "description": "形容词颇修饰的名词"
+    },
+    {
+        "query": "颇a n",
+        "description": "形容词颇修饰的名词，强调了形容词的位置关系"
+    },
+    {
+        "query": "a力求",
+        "description": "形容词力求用于表示努力的程度或性质"
+    },
+    {
+        "query": "既不v也不v",
+        "description": "表示连续的两个否定动词，如\"既不走也不留\""
+    },
+    {
+        "query": "有一点儿v",
+        "description": "动词后跟表示程度的形容词‘一点儿’"
+    },
+    {
+        "query": "非a不可",
+        "description": "形容词非修饰的名词，表示必要性或强制性"
+    },
+    {
+        "query": "现象w",
+        "description": "现象类的词汇"
+    },
+    {
+        "query": "在N外包",
+        "description": "在名词N的外部或周围"
+    },
+    {
+        "query": "一场n",
+        "description": "一次活动或事件"
+    },
+    {
+        "query": "a侧重",
+        "description": "形容词侧重用于强调重视或关注"
+    },
+    {
+        "query": "局面w",
+        "description": "当前的状态或情况"
+    },
+    {
+        "query": "几百q",
+        "description": "数量词表示大量的数目"
+    },
+    {
+        "query": "m主意",
+        "description": "想法、主意、意见等"
+    },
+    {
+        "query": "回头N",
+        "description": "回到名词N的原位置或状态"
+    },
+    {
+        "query": "一v就v",
+        "description": "一个动词紧接着另一个动词，形成连贯的动作"
+    },
+    {
+        "query": "这么q+n",
+        "description": "形容词这么修饰的名词，表示程度或数量"
+    },
+    {
+        "query": "这么q n",
+        "description": "形容词这么修饰的名词，强调形容词的位置"
+    },
+    {
+        "query": "m+q情况",
+        "description": "情况、状况等，强调了情况的具体描述"
+    },
+    {
+        "query": "m q情况",
+        "description": "情况、状况等，强调了描述的详细程度"
+    },
+    {
+        "query": "寒a",
+        "description": "形容词寒修饰的名词或抽象概念"
+    },
+    {
+        "query": "看把r+v的",
+        "description": "动作行为后的结果或状态，强调了动作的影响"
+    },
+    {
+        "query": "看把r v的",
+        "description": "动作行为后的结果或状态，强调了动作的结果"
+    },
+    {
+        "query": "d汆",
+        "description": "烹饪方法之一，用于描述食物的处理方式"
+    },
+    {
+        "query": "超v",
+        "description": "动词超表示超越或超出的含义"
+    },
+    {
+        "query": "半夜+f",
+        "description": "时间表述，表示特定的时间段或时刻"
+    },
+    {
+        "query": "半夜 f",
+        "description": "时间表述，强调了具体的时刻或时间段"
+    },
+    {
+        "query": "看N多V",
+        "description": "动作行为后的数量或程度，强调了动作产生的效果"
+    },
+    {
+        "query": "抢v",
+        "description": "动词抢表示迅速夺取或争抢"
+    },
+    {
+        "query": "信息n",
+        "description": "数据、消息或知识的载体"
+    },
+    {
+        "query": "a头盔",
+        "description": "形容词头盔修饰的名词，表示头盔的性质或状态"
+    },
+    {
+        "query": "东a西a",
+        "description": "形容词东、西分别修饰名词，表示方位或方向"
+    },
+    {
+        "query": "a代价",
+        "description": "形容词代价用于描述付出或损失的程度"
+    },
+    {
+        "query": "a长a短",
+        "description": "形容词长、短用于描述长度或时间的长短"
+    },
+    {
+        "query": "效率a",
+        "description": "形容词效率用于描述工作或过程的效能"
+    },
+    {
+        "query": "a死了+",
+        "description": "形容词死了用于描述死亡或终止的状态"
+    },
+    {
+        "query": "a死了 ",
+        "description": "形容词死了用于描述死亡或终止的状态，强调了结果"
+    },
+    {
+        "query": "摆n",
+        "description": "名词摆表示放置或布置的动作"
+    }
+]
+```
+
+以上JSON结构提供了每个检索式的含义描述，帮助理解其应用场景和具体意义。

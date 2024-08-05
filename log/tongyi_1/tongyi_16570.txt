@@ -1,0 +1,160 @@
+```json
+[
+    {
+        "query": "(j) (n){len($2)=2}",
+        "description": "一个接一个的两个字的名词"
+    },
+    {
+        "query": "@/[n v] 育种",
+        "description": "动词或名词后接育种"
+    },
+    {
+        "query": "人民 ~",
+        "description": "人民后面有一个词"
+    },
+    {
+        "query": "(v) 享 外债 资金 (vn){len($1)=1; len($2)=2}",
+        "description": "动词享后接两个字的动词和名词"
+    },
+    {
+        "query": "正 @/[v v]",
+        "description": "正后接一个或两个动词"
+    },
+    {
+        "query": "办法 ../d 都",
+        "description": "办法后面接一个动词和一个都"
+    },
+    {
+        "query": "以前 (p) 亲戚{len($1)=1}",
+        "description": "以前后接一个单字的亲戚"
+    },
+    {
+        "query": "(nr) (v){middle($1)!=[只 星 程]}",
+        "description": "人名后接一个不包含只、星、程的动词"
+    },
+    {
+        "query": "难 ~ 还是",
+        "description": "难后面接一个词，可能是还是"
+    },
+    {
+        "query": "陈立平 @/[v v] 。",
+        "description": "陈立平后面接一个或两个动词，句尾是句号"
+    },
+    {
+        "query": "(v) 中国 邮政 转型 (vn){len($1)!=3}",
+        "description": "动词后接中国邮政转型，但不接三个字的词"
+    },
+    {
+        "query": "(r) (q){$1!=$2}",
+        "description": "两个并列的词，但不相同"
+    },
+    {
+        "query": "改革 ，/w 企业",
+        "description": "改革后接一个逗号，然后接企业"
+    },
+    {
+        "query": "(v) 市场{len($1)=2}",
+        "description": "动词后接两个字的市场"
+    },
+    {
+        "query": "迈出 ~/[a v] 一",
+        "description": "迈出后接一个形容词或动词，后面可能接一个一"
+    },
+    {
+        "query": "中国 (n) 、{count<496}",
+        "description": "中国后接一个名词，但这个名词出现次数少于496次"
+    },
+    {
+        "query": "对接 (ns) 铁路{len($1)=2}",
+        "description": "对接后接一个两字的地名"
+    },
+    {
+        "query": "和 ../ns 地区",
+        "description": "和后接地区，可能是地区的一部分"
+    },
+    {
+        "query": "(nr) (v){end($2)!=[巴 吻]}",
+        "description": "人名后接一个动词，但不以巴或吻结尾"
+    },
+    {
+        "query": "@/[j v] 冲突",
+        "description": "动词或接头词后接冲突"
+    },
+    {
+        "query": "都 @/[v v] 给予",
+        "description": "都后接一个或两个动词，然后接给予"
+    },
+    {
+        "query": "(v) 原油 (vn){count>3}",
+        "description": "动词原油后面接的动名词出现次数多于3次"
+    },
+    {
+        "query": "越南 (n) 主席{len($1)=2}",
+        "description": "越南后接一个两字的名词，主席"
+    },
+    {
+        "query": "(j) 外交 与 安全 战略 对话 (v){count>3}",
+        "description": "外交、安全、战略和对话四个词，后面接的动词出现次数多于3次"
+    },
+    {
+        "query": "(ns) 载百{count<840}",
+        "description": "一个两字的地名后载百，但出现次数少于840次"
+    },
+    {
+        "query": "美方 ad 反省",
+        "description": "美方后接副词和反省"
+    },
+    {
+        "query": "中方 . 何",
+        "description": "中方后接一个句号，然后接何"
+    },
+    {
+        "query": "~ 旅领",
+        "description": "一个词后接旅领"
+    },
+    {
+        "query": "飞 ./[w v] 往前",
+        "description": "飞后接一个可能是动词或助词的词，然后接往前"
+    },
+    {
+        "query": "哪",
+        "description": "疑问词哪"
+    },
+    {
+        "query": "最 ~ 的",
+        "description": "最后面接一个词"
+    },
+    {
+        "query": "选择 (w){count<623}",
+        "description": "选择后接一个词，但这个词出现次数少于623次"
+    },
+    {
+        "query": "飞",
+        "description": "单个动词飞"
+    },
+    {
+        "query": "起 n 来",
+        "description": "起后接一个名词，然后接来"
+    },
+    {
+        "query": "成果 (v){end($1)!=[赶 怕]}",
+        "description": "成果后接一个动词，但不以赶或怕结尾"
+    },
+    {
+        "query": "有 (n) ，{begin($1)!=[稳 出 勇 领]}",
+        "description": "有后接一个名词，但这个名词前面的词不包括稳、出、勇、领"
+    },
+    {
+        "query": "着 ../[n v] 返航",
+        "description": "着后接一个可能是名词或动词的词，然后接返航"
+    },
+    {
+        "query": "(v) 赵理准 的 (b){len($2)=2}",
+        "description": "赵理准后接一个两个字的定语"
+    },
+    {
+        "query": "， (v) 完成{count<676}",
+        "description": "逗号后接一个动词，但这个动词出现次数少于676次"
+    }
+]
+```

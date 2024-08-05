@@ -1,0 +1,156 @@
+```json
+[
+    {
+        "query": "[，+。]c+a+y+[，+。]",
+        "description": "逗号或句号后接c、a、y，再接逗号或句号"
+    },
+    {
+        "query": "[， 。]c a y [， 。]",
+        "description": "逗号或句号后接c、a、y，再接逗号或句号"
+    },
+    {
+        "query": "高度v+a[，+。]",
+        "description": "动词高度后接a，再接逗号或句号"
+    },
+    {
+        "query": "高度v a[， 。]",
+        "description": "动词高度后接a，再接逗号或句号"
+    },
+    {
+        "query": "v上n[，+。]",
+        "description": "动词后接上，再接名词，最后接逗号或句号"
+    },
+    {
+        "query": "v上n[， 。]",
+        "description": "动词后接上，再接名词，最后接逗号或句号"
+    },
+    {
+        "query": "奋战+n[f+s+ns]",
+        "description": "奋战后接n，其中n为[f, s, ns]之一"
+    },
+    {
+        "query": "奋战 n[f s ns]",
+        "description": "奋战后接n，其中n为[f, s, ns]之一"
+    },
+    {
+        "query": "[出来+摔+占+查+为+安排+缺]个",
+        "description": "组合词出来、摔、占、查、为、安排、缺中任选组成，后接个"
+    },
+    {
+        "query": "[出来 摔 占 查 为 安排 缺]个",
+        "description": "组合词出来、摔、占、查、为、安排、缺中任选组成，后接个"
+    },
+    {
+        "query": "n委n政府[，+。]",
+        "description": "名词后接委，再接名词，最后接政府，再接逗号或句号"
+    },
+    {
+        "query": "n委n政府[， 。]",
+        "description": "名词后接委，再接名词，最后接政府，再接逗号或句号"
+    },
+    {
+        "query": "不断d+v[，+。]",
+        "description": "副词不断后接动词，再接逗号或句号"
+    },
+    {
+        "query": "不断d v[， 。]",
+        "description": "副词不断后接动词，再接逗号或句号"
+    },
+    {
+        "query": "终究d+a[，+。]",
+        "description": "副词终究后接形容词，再接逗号或句号"
+    },
+    {
+        "query": "终究d a[， 。]",
+        "description": "副词终究后接形容词，再接逗号或句号"
+    },
+    {
+        "query": "就近v+v[，+。]",
+        "description": "动词就近后接动词，再接逗号或句号"
+    },
+    {
+        "query": "就近v v[， 。]",
+        "description": "动词就近后接动词，再接逗号或句号"
+    },
+    {
+        "query": "自然v+n[，+。]",
+        "description": "动词自然后接名词，再接逗号或句号"
+    },
+    {
+        "query": "自然v n[， 。]",
+        "description": "动词自然后接名词，再接逗号或句号"
+    },
+    {
+        "query": "w[q+r+d+c+v+a++n+m++p]卖.买w",
+        "description": "w后接q、r、d、c、v、a、n、m、p组成的序列，中间可能有多个加号，最后接卖、.、买、w"
+    },
+    {
+        "query": "w[q r d c v a  n m  p]卖.买w",
+        "description": "w后接q、r、d、c、v、a、n、m、p组成的序列，中间可能有多个加号，最后接卖、.、买、w"
+    },
+    {
+        "query": "[酌情+自动+自发]v[q+m+]v[，+。]",
+        "description": "组合词酌情、自动、自发中任选组成动词，再接q、m、+组成的序列，最后接逗号或句号"
+    },
+    {
+        "query": "[酌情 自动 自发]v[q m ]v[， 。]",
+        "description": "组合词酌情、自动、自发中任选组成动词，再接q、m、+组成的序列，最后接逗号或句号"
+    },
+    {
+        "query": "[a+d+n+v+l]ÒÏ",
+        "description": "组合词a、d、n、v、l中任选组成，最后接ÒÏ"
+    },
+    {
+        "query": "[a d n v l]ÒÏ",
+        "description": "组合词a、d、n、v、l中任选组成，最后接ÒÏ"
+    },
+    {
+        "query": "一律v[，+。]",
+        "description": "动词一律后接逗号或句号"
+    },
+    {
+        "query": "一律v[， 。]",
+        "description": "动词一律后接逗号或句号"
+    },
+    {
+        "query": "千万d+a[，+。]",
+        "description": "副词千万后接形容词，再接逗号或句号"
+    },
+    {
+        "query": "千万d a[， 。]",
+        "description": "副词千万后接形容词，再接逗号或句号"
+    },
+    {
+        "query": "时刻v+u[，+。]",
+        "description": "动词时刻后接u，再接逗号或句号"
+    },
+    {
+        "query": "时刻v u[， 。]",
+        "description": "动词时刻后接u，再接逗号或句号"
+    },
+    {
+        "query": "w[q+r+d+c+v+a++n+m++p]隐.现w",
+        "description": "w后接q、r、d、c、v、a、n、m、p组成的序列，中间可能有多个加号，最后接隐、.、现、w"
+    },
+    {
+        "query": "w[q r d c v a  n m  p]隐.现w",
+        "description": "w后接q、r、d、c、v、a、n、m、p组成的序列，中间可能有多个加号，最后接隐、.、现、w"
+    },
+    {
+        "query": "稍有v[，+。]",
+        "description": "动词稍有后接逗号或句号"
+    },
+    {
+        "query": "稍有v[， 。]",
+        "description": "动词稍有后接逗号或句号"
+    },
+    {
+        "query": "终于d+n[，+。]",
+        "description": "副词终于后接名词，再接逗号或句号"
+    },
+    {
+        "query": "终于d n[， 。]",
+        "description": "副词终于后接名词，再接逗号或句号"
+    }
+]
+```

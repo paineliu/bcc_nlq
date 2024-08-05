@@ -1,0 +1,160 @@
+```json
+[
+    {
+        "query": "n 来 搞 建设 是 d",
+        "description": "名词 + 来 + 动词 + 搞 + 名词 + 是 + 副词"
+    },
+    {
+        "query": "张 (nr) 出席{end($1)=[丽 有 差 木]}",
+        "description": "人名张 + 出席，出席后面不接丽、有、差、木"
+    },
+    {
+        "query": "(d) ， 双方 (v){begin($2)=[商 强]}",
+        "description": "副词 + ， + 动词双方，双方前面是商或强"
+    },
+    {
+        "query": "(vn) 及其 使用 范围 (w){len($1)=2}",
+        "description": "动词 + 及其 + 名词范围，范围是两个字的词"
+    },
+    {
+        "query": "(c) 其他{count<341}",
+        "description": "其他，但出现次数少于341次"
+    },
+    {
+        "query": "中华 (n) 共和国{end($1)!=[头 题 直]}",
+        "description": "名词中华 + 共和国，共和国不以头、题、直结尾"
+    },
+    {
+        "query": "~ 联邦",
+        "description": "一个词联邦"
+    },
+    {
+        "query": "国务院 (n){end($1)=[理 如]}",
+        "description": "国务院，后面不接理或如"
+    },
+    {
+        "query": "........./[nr v]",
+        "description": "省略号后接名词或动词"
+    },
+    {
+        "query": "(t) 十二月 十七日 (p){len($1)!=6; len($2)=1}",
+        "description": "时间词 + 十二月 + 十七日，十二月十七日总长度不是6，第二部分是单字"
+    },
+    {
+        "query": "俄罗斯 (n) 戈洛杰茨{len($1)!=4}",
+        "description": "名词俄罗斯 + 戈洛杰茨，戈洛杰茨不是四个字"
+    },
+    {
+        "query": "(ns) 有{end($1)=[国 喜 狠]}",
+        "description": "名词 + 有，有后面不接国、喜、狠"
+    },
+    {
+        "query": "是 (n) 挑衅{len($1)<3}",
+        "description": "是 + 名词挑衅，挑衅长度小于3"
+    },
+    {
+        "query": "本",
+        "description": "单字本"
+    },
+    {
+        "query": "宋涛 ../[v v] 老挝",
+        "description": "宋涛后面接任意两个连续动词再接老挝"
+    },
+    {
+        "query": "建立 (a) 的{count>5}",
+        "description": "形容词建立 + 的，'的'修饰的实例多于5次"
+    },
+    {
+        "query": "则 ~/[a v] 。",
+        "description": "则后面接任意一个词后接句号"
+    },
+    {
+        "query": "为 . 。",
+        "description": "为 + 句号"
+    },
+    {
+        "query": "(j) 人员 (n){len($2)=2}",
+        "description": "代词 + 人员，人员后面是两个字的名词"
+    },
+    {
+        "query": "主席 ~/[w v]",
+        "description": "主席后面接任意一个词"
+    },
+    {
+        "query": "通信 @ 院长",
+        "description": "通信 + 院长，院长按词性统计"
+    },
+    {
+        "query": "(nr) 兴 中国 工程院 (n){len($1)=2}",
+        "description": "人名 + 兴 + 中国工程院，兴后面是中国工程院，工程院是两个字"
+    },
+    {
+        "query": "鲁乙己 (j) 数字{count>8}",
+        "description": "鲁乙己 + 代词 + 数字，数字实例多于8次"
+    },
+    {
+        "query": "中国 (nz) 网络{end($1)=[联 园 牙]}",
+        "description": "中国 + 其他专名网络，网络不以联、园、牙结尾"
+    },
+    {
+        "query": "全球 (vn) 副总裁{len($1)=2}",
+        "description": "全球 + 动词 + 副总裁，副总裁是两个字的词"
+    },
+    {
+        "query": "(nr){middle($2)=[基 国 追]}",
+        "description": "两个名词中间是基、国、追"
+    },
+    {
+        "query": "宽带 (n) 董事长{end($1)=[本 难 吗]}",
+        "description": "宽带 + 名词 + 董事长，董事长后面不接本、难、吗"
+    },
+    {
+        "query": "蔡绍 @/[f v] 旺旺",
+        "description": "蔡绍 + 动词或方位词 + 旺旺"
+    },
+    {
+        "query": "吴朝晖 (ns) 大学{len($1)=2}",
+        "description": "人名 + 地名 + 大学，大学长度是两个字"
+    },
+    {
+        "query": "(n) 秘书长{len($1)!=4}",
+        "description": "名词 + 秘书长，秘书长不是四个字"
+    },
+    {
+        "query": "协商 @",
+        "description": "协商，按词性统计"
+    },
+    {
+        "query": "@ ，",
+        "description": "逗号，按词性统计"
+    },
+    {
+        "query": "(v) 本币{count<246}",
+        "description": "动词 + 本币，本币出现次数少于246次"
+    },
+    {
+        "query": "企业 (f) 文件{count>4}",
+        "description": "企业 + 介词 + 文件，文件实例多于4次"
+    },
+    {
+        "query": "人民 (n){len($1)>2}",
+        "description": "人民 + 名词，人民后面是长度大于2的名词"
+    },
+    {
+        "query": "俄罗斯 (n){begin($1)!=[天 果 爸 雷]}",
+        "description": "俄罗斯，不以天、果、爸、雷开头"
+    },
+    {
+        "query": "(nt) 总理{count<856}",
+        "description": "名词 + 总理，总理出现次数少于856次"
+    },
+    {
+        "query": "...../t 十二月",
+        "description": "省略号后接时间词，具体到十二月"
+    },
+    {
+        "query": "市民化 @/[v v] 例",
+        "description": "市民化 + 动词或动词 + 例"
+    }
+]
+```

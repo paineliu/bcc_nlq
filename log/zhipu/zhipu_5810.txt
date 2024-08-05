@@ -1,0 +1,88 @@
+以下是您提供的检索式转换为带含义的json结构：
+
+```json
+[
+    {
+        "query": "可",
+        "description": "包含可的句子"
+    },
+    {
+        "query": "枯寂.莲蓬",
+        "description": "枯寂后面隔一个字后接莲蓬"
+    },
+    {
+        "query": "·(n)丛谈{begin($1)=[编服]}",
+        "description": "名词丛谈以编或服开头"
+    },
+    {
+        "query": "意思(z)。{end($1)=[然懂修]}",
+        "description": "状态词意思以然、懂、修结尾"
+    },
+    {
+        "query": "即..而",
+        "description": "即后面有两个字再接而"
+    },
+    {
+        "query": "(d)能{len($1)!=2}",
+        "description": "副词能的长度不等于2"
+    },
+    {
+        "query": "文字./w",
+        "description": "文字后面接标点符号"
+    },
+    {
+        "query": "(n)(a){count<913}",
+        "description": "名词和形容词组合出现的频次小于913"
+    },
+    {
+        "query": "这",
+        "description": "包含这的句子"
+    },
+    {
+        "query": "一@/[q v]习惯",
+        "description": "一后面接量词或动词，再接习惯"
+    },
+    {
+        "query": "鲜能(n)也{len($1)<3}",
+        "description": "鲜能后面接名词，且名词长度小于3"
+    },
+    {
+        "query": "召开",
+        "description": "包含召开的句子"
+    },
+    {
+        "query": "叫(u)响{len($1)=1}",
+        "description": "叫后面接助词，且助词长度为1"
+    },
+    {
+        "query": "纪律~/[n v]带出",
+        "description": "纪律后面接一个词，再接名词或动词带出"
+    },
+    {
+        "query": "联运(n)班列{middle($1)!=[婷缺]}",
+        "description": "联运后面接名词班列，且名词中不包含婷或缺"
+    },
+    {
+        "query": "不是.有",
+        "description": "不是后面隔一个字后接有"
+    },
+    {
+        "query": "一直@人",
+        "description": "一直后面接一个词性为人"
+    },
+    {
+        "query": "退休~",
+        "description": "退休后面接一个词"
+    },
+    {
+        "query": "会(v)吗{len($1)=2}",
+        "description": "会后面接动词，且动词长度为2"
+    },
+    {
+        "query": "有@？",
+        "description": "有后面接一个词性，句子以问号结尾"
+    }
+]
+```
+
+请注意，这些描述是基于对您提供的检索式和特殊符号的理解。如果有任何不准确之处，请指出，以便进行修正。

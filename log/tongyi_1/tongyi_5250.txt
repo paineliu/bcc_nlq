@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "追寻 .. 流星", 
+        "description": "追寻后面接任意数量的字，然后是流"
+    },
+    {
+        "query": "坐 (u){len($1)!=2}", 
+        "description": "坐后面接不是两个字的词"
+    },
+    {
+        "query": "不 @ 眨眼", 
+        "description": "不后跟任意词性的一个词"
+    },
+    {
+        "query": "乞巧节 ./f 下凡", 
+        "description": "乞巧节后面接方位词下凡"
+    },
+    {
+        "query": "梦 (f) 的{count>3}", 
+        "description": "梦后接三个或更多个的字"
+    },
+    {
+        "query": "(t) 即{len($1)>2}", 
+        "description": "即后面接两个或更多字的词"
+    },
+    {
+        "query": "那 @", 
+        "description": "那后跟任意词性的一个词"
+    },
+    {
+        "query": "(r) (v){count<292}", 
+        "description": "一个副词后面接频次小于292的动词"
+    },
+    {
+        "query": "的 (n){begin($1)=[故 亲 习 永]}", 
+        "description": "的后面以故、亲、习、永之一开始的名词"
+    },
+    {
+        "query": "只能 ./[n v] 中", 
+        "description": "只能后接名词或动词"
+    },
+    {
+        "query": "成 (n){len($1)=1}", 
+        "description": "成后接单个字的名词"
+    },
+    {
+        "query": "(n) 天空 (z){begin($1)=[故园 砸 及]; len($2)=2}", 
+        "description": "名词后接天空，天空后面以故园、砸、及之一开始，且后面接两个字的词"
+    },
+    {
+        "query": "水流 @/[a v] 树", 
+        "description": "水流后接形容词或动词，然后接树"
+    },
+    {
+        "query": "如诗如画 ./u 美丽", 
+        "description": "如诗如画后接优美"
+    },
+    {
+        "query": "(v) 道理 (n){count>3}", 
+        "description": "动词后接道理，且道理出现次数大于3"
+    },
+    {
+        "query": "a n", 
+        "description": "形容词后接名词"
+    },
+    {
+        "query": ", @ 留影", 
+        "description": "逗号后跟任意词性的一个词"
+    },
+    {
+        "query": "的 ../[n v] 功底", 
+        "description": "的后面接名词或动词的底"
+    },
+    {
+        "query": "n w", 
+        "description": "名词后接任意词性的一个词"
+    },
+    {
+        "query": "关注 (a) 文化{begin($1)=[传 赌 痛 提]}", 
+        "description": "关注后接形容词文化，文化前可能接传、赌、痛或提"
+    },
+    {
+        "query": "就 ~ 获奖", 
+        "description": "就后跟任意词性的一个词"
+    },
+    {
+        "query": "表示 ./w", 
+        "description": "表示后接任意词性的一个词"
+    },
+    {
+        "query": "加强 .. 建设", 
+        "description": "加强后面接任意数量的字，然后是建设"
+    },
+    {
+        "query": "n 是", 
+        "description": "名词后接是"
+    },
+    {
+        "query": ", ../v 就", 
+        "description": "逗号后接动词，然后是就"
+    },
+    {
+        "query": "一个 ../[vn v] 工程", 
+        "description": "一个后接单音节动词或名词的工程"
+    },
+    {
+        "query": "高速 @ 网络", 
+        "description": "高速后接任意词性的一个词"
+    },
+    {
+        "query": "意外 @ !", 
+        "description": "意外后接任意词性的一个词，且该词末尾是感叹号"
+    },
+    {
+        "query": "两 ./q 当", 
+        "description": "两后接数量词当"
+    },
+    {
+        "query": "问题 ，/w 必须", 
+        "description": "问题后接逗号，然后是必须"
+    },
+    {
+        "query": "(n) (v){len($2)>1}", 
+        "description": "名词后接动词，且动词长度大于1"
+    },
+    {
+        "query": "基层 (v){count>6}", 
+        "description": "基层后接频次大于6的动词"
+    },
+    {
+        "query": ".. 挪用", 
+        "description": "两个或更多字的词后接挪用"
+    },
+    {
+        "query": "侵占 ../[n v] 资产", 
+        "description": "侵占后接名词或动词，然后是资产"
+    },
+    {
+        "query": "怎样 ../[vx v] 贪腐", 
+        "description": "怎样后接动词或副动词，然后是贪腐"
+    },
+    {
+        "query": "法治 ../[n v]", 
+        "description": "法治后接名词或动词"
+    },
+    {
+        "query": "强化 (v) 监管{end($1)!=[量 中]}", 
+        "description": "强化后接动词监管，监管后面不接量或中"
+    },
+    {
+        "query": "低俗 (n) 反弹{end($1)=[息 伤 下]}", 
+        "description": "低俗后接名词反弹，反弹后面接息、伤或下"
+    },
+    {
+        "query": "(r) 部署{middle($1)!=[及 撞]}", 
+        "description": "一个副词后接部署，部署中间不包含及或撞"
+    },
+    {
+        "query": "吃 ~/[w v]", 
+        "description": "吃后接任意词性的一个词"
+    }
+]
+```

@@ -1,0 +1,164 @@
+```json
+[
+    {
+        "query": "不 ~ 社区",
+        "description": "不后面接任意词但不接社区"
+    },
+    {
+        "query": "(n) 工资 变成 (a){len($1)!=2}",
+        "description": "工资后面接一个非二字的形容词"
+    },
+    {
+        "query": "企业 ../v 增效",
+        "description": "企业后面接一个双音节动词并接增效"
+    },
+    {
+        "query": "面 v :",
+        "description": "面后面接一个动词并以冒号结尾"
+    },
+    {
+        "query": ".... 走向",
+        "description": "三个点后接任意数量的字符后接走向"
+    },
+    {
+        "query": "(v) 偶然 (w){begin($1)=[绝 杰]}",
+        "description": "偶然后面接一个以绝或杰开头的词"
+    },
+    {
+        "query": "(v) (n){begin($2)!=[招 解 听]}",
+        "description": "动词后面接一个不以招、解、听开头的名词"
+    },
+    {
+        "query": "(v) 时代{count<414}",
+        "description": "动词后面接时代，且时代出现次数少于414次"
+    },
+    {
+        "query": "的 @ 。",
+        "description": "的后面接一个词，且句尾是句号"
+    },
+    {
+        "query": "(u) 花 结 出 (a){len($1)=1}",
+        "description": "花、结、出后面分别接一个一字形容词"
+    },
+    {
+        "query": "(ns) (n){$1=$2}",
+        "description": "两个地名前后相同"
+    },
+    {
+        "query": "真是 (r) ?{len($1)<3}",
+        "description": "真是后面接一个疑问词，且疑问词长度小于3"
+    },
+    {
+        "query": "../c 是",
+        "description": "双音节词后面接是"
+    },
+    {
+        "query": "。",
+        "description": "句尾是一个点"
+    },
+    {
+        "query": "第二",
+        "description": "第二"
+    },
+    {
+        "query": "航运",
+        "description": "航运"
+    },
+    {
+        "query": "(m) 是{len($1)>1}",
+        "description": "一个数词后面接一个长度大于1的名词，且数词后面有空格"
+    },
+    {
+        "query": "(ns) 以上{begin($1)!=[请 艹]}",
+        "description": "以上后面接一个不是请或艹开头的地名"
+    },
+    {
+        "query": "../[b v] 地利",
+        "description": "双音节词后面接地利"
+    },
+    {
+        "query": "的 (n) 最{len($1)<3}",
+        "description": "的后面接一个长度小于3的名词"
+    },
+    {
+        "query": "人",
+        "description": "人"
+    },
+    {
+        "query": "能",
+        "description": "能"
+    },
+    {
+        "query": "是 (n) 。{len($1)=2}",
+        "description": "是后面接一个长度为2的名词，且句尾是句号"
+    },
+    {
+        "query": "寻捕 (n) ，{count<241}",
+        "description": "寻捕后面接一个名词，且该名词出现次数少于241次"
+    },
+    {
+        "query": "../v 小",
+        "description": "双音节动词后面接小"
+    },
+    {
+        "query": "去 (v) 暗物质{len($1)=2}",
+        "description": "去后面接一个长度为2的暗物质"
+    },
+    {
+        "query": "(v) 拥有{begin($1)!=[书 富 音 内]}",
+        "description": "动词后面接拥有，但不接书、富、音、内"
+    },
+    {
+        "query": "需要 ../v 其中",
+        "description": "需要后面接一个双音节动词并接其中"
+    },
+    {
+        "query": "悟空",
+        "description": "悟空"
+    },
+    {
+        "query": "(v) (w){len($1)=1}",
+        "description": "动词后面接一个一字词"
+    },
+    {
+        "query": "嘉兴市 @ 副",
+        "description": "嘉兴市后面接一个副词，统计时按副词词性归并"
+    },
+    {
+        "query": "， (d) 拿{len($1)!=2}",
+        "description": "逗号后面接一个非二字的副词"
+    },
+    {
+        "query": "易事 w",
+        "description": "易事后面接一个词"
+    },
+    {
+        "query": "说 w",
+        "description": "说后面接一个词"
+    },
+    {
+        "query": "(v) 哪 (v){count<823}",
+        "description": "动词后面接哪，且该动词出现次数少于823次"
+    },
+    {
+        "query": "(v) (w){$1!=$2}",
+        "description": "动词后面接一个与前面动词不同的词"
+    },
+    {
+        "query": "~ 这话",
+        "description": "一个词后接这话"
+    },
+    {
+        "query": "单位 (n) 自动{count>8}",
+        "description": "单位后面接一个名词，且该名词出现次数大于8"
+    },
+    {
+        "query": "运河 (n) 防污{len($1)=2}",
+        "description": "运河后面接防污，长度为2"
+    },
+    {
+        "query": "江西 .. 柘林湖",
+        "description": "江西后面接任意数量的字符后接柘林湖"
+    }
+]
+```

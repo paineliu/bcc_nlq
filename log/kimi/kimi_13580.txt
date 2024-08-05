@@ -1,0 +1,86 @@
+以下是根据给定的检索式及其含义的JSON结构列表：
+
+```json
+[
+    {
+        "query": "也 ~/[d v]", 
+        "description":"也后面接一个词，这个词是副词或动词"
+    },
+    {
+        "query": "开创 ../[n v]", 
+        "description":"开创后面接一个双音节名词或动词"
+    },
+    {
+        "query": "互联网 @/[v v] 越来越", 
+        "description":"互联网后面接一个词性为动词的词，再接越来越"
+    },
+    {
+        "query": "创 ../n", 
+        "description":"创后面接一个单音节名词"
+    },
+    {
+        "query": "的", 
+        "description":"包含“的”的句子"
+    },
+    {
+        "query": ".../[nr v] 说", 
+        "description":"三个字符的专有名词或动词后面接说"
+    },
+    {
+        "query": "牵手 (d) 创业{count>9}", 
+        "description":"牵手和副词一起出现超过9次的句子"
+    },
+    {
+        "query": "效应", 
+        "description":"包含“效应”的句子"
+    },
+    {
+        "query": "年 (v) ，{begin($1)=[积 烂 房]}",
+        "description":"年后面接一个动词，这个动词以积、烂或房开始"
+    },
+    {
+        "query": "(u) (n){len($2)!=4}", 
+        "description":"助词后面接名词，这个名词长度不等于4"
+    },
+    {
+        "query": "(ns) 大明湖{count<982}", 
+        "description":"地名大明湖出现频次小于982"
+    },
+    {
+        "query": "(ns) 瘦西湖{end($1)!=[累 燕]}",
+        "description":"地名瘦西湖不以累或燕结束"
+    },
+    {
+        "query": "(nr) (u){len($1)>2}", 
+        "description":"人名后面接助词，人名长度大于2"
+    },
+    {
+        "query": "烟水迷离", 
+        "description":"包含“烟水迷离”的句子"
+    },
+    {
+        "query": "飞棹 v 如梭", 
+        "description":"飞棹后面接动词，再接如梭"
+    },
+    {
+        "query": "透明 . 游鱼", 
+        "description":"透明和游鱼之间有一个空格"
+    },
+    {
+        "query": "添 了/u 一半", 
+        "description":"添后面接助词了，再接一半"
+    },
+    {
+        "query": "(n) 远{begin($1)!=[校 从]}",
+        "description":"名词后面接远，这个名词不以校或从开始"
+    },
+    {
+        "query": "龙潭西 . 趵", 
+        "description":"龙潭西和趵之间有一个空格"
+    },
+    {
+        "query": "(n) ， 三更 画舫 ， 锦绣 (z){$1!=$2}",
+        "description":"名词后面接三更画舫锦绣，且名词和锦绣不同"
+    }
+]
+```

@@ -1,0 +1,160 @@
+```json
+[
+    {
+        "query": "少説",
+        "description": "包含\"少説\"这个词汇的句子"
+    },
+    {
+        "query": "回一回",
+        "description": "包含\"回一回\"这个词汇的句子"
+    },
+    {
+        "query": "旅馆",
+        "description": "直接包含\"旅馆\"这个词的句子"
+    },
+    {
+        "query": "坑爹",
+        "description": "包含\"坑爹\"这个词汇的句子"
+    },
+    {
+        "query": "大风",
+        "description": "直接包含\"大风\"这个词的句子"
+    },
+    {
+        "query": "国",
+        "description": "直接包含\"国\"这个词的句子"
+    },
+    {
+        "query": "要么",
+        "description": "包含\"要么\"这个词汇的句子"
+    },
+    {
+        "query": "咬破",
+        "description": "包含\"咬破\"这个词汇的句子"
+    },
+    {
+        "query": "多么和谐",
+        "description": "包含\"多么和谐\"这个词汇的句子"
+    },
+    {
+        "query": "意义",
+        "description": "直接包含\"意义\"这个词的句子"
+    },
+    {
+        "query": "于是乎",
+        "description": "包含\"于是乎\"这个词汇的句子"
+    },
+    {
+        "query": "废话",
+        "description": "直接包含\"废话\"这个词的句子"
+    },
+    {
+        "query": "躲避",
+        "description": "直接包含\"躲避\"这个词的句子"
+    },
+    {
+        "query": "跑偏",
+        "description": "包含\"跑偏\"这个词汇的句子"
+    },
+    {
+        "query": "砸",
+        "description": "直接包含\"砸\"这个词的句子"
+    },
+    {
+        "query": "宽宽",
+        "description": "直接包含\"宽宽\"这个词的句子"
+    },
+    {
+        "query": "人权载",
+        "description": "包含\"人权载\"这个词汇的句子"
+    },
+    {
+        "query": "，果",
+        "description": "直接包含\"，果\"这个词汇的句子"
+    },
+    {
+        "query": "有意见",
+        "description": "包含\"有意见\"这个词汇的句子"
+    },
+    {
+        "query": "灭在",
+        "description": "包含\"灭在\"这个词汇的句子"
+    },
+    {
+        "query": "或许果真",
+        "description": "包含\"或许果真\"这个词汇的句子"
+    },
+    {
+        "query": "蹦蹦跳跳",
+        "description": "包含\"蹦蹦跳跳\"这个词汇的句子"
+    },
+    {
+        "query": "似乎总归",
+        "description": "包含\"似乎总归\"这个词汇的句子"
+    },
+    {
+        "query": "多大点事",
+        "description": "包含\"多大点事\"这个词汇的句子"
+    },
+    {
+        "query": "写错",
+        "description": "直接包含\"写错\"这个词的句子"
+    },
+    {
+        "query": "栽种",
+        "description": "直接包含\"栽种\"这个词的句子"
+    },
+    {
+        "query": "现出和谐",
+        "description": "包含\"现出和谐\"这个词汇的句子"
+    },
+    {
+        "query": "跑",
+        "description": "直接包含\"跑\"这个词的句子"
+    },
+    {
+        "query": "轻手轻脚",
+        "description": "包含\"轻手轻脚\"这个词汇的句子"
+    },
+    {
+        "query": "吃惊的是",
+        "description": "包含\"吃惊的是\"这个词汇的句子"
+    },
+    {
+        "query": "短短",
+        "description": "直接包含\"短短\"这个词的句子"
+    },
+    {
+        "query": "时机",
+        "description": "直接包含\"时机\"这个词的句子"
+    },
+    {
+        "query": "犯不着",
+        "description": "包含\"犯不着\"这个词汇的句子"
+    },
+    {
+        "query": "傻傻",
+        "description": "直接包含\"傻傻\"这个词的句子"
+    },
+    {
+        "query": "除人权",
+        "description": "包含\"除人权\"这个词汇的句子"
+    },
+    {
+        "query": "归其国",
+        "description": "包含\"归其国\"这个词汇的句子"
+    },
+    {
+        "query": "满满",
+        "description": "直接包含\"满满\"这个词的句子"
+    },
+    {
+        "query": "人权全",
+        "description": "包含\"人权全\"这个词汇的句子"
+    },
+    {
+        "query": "就。",
+        "description": "直接包含\"就.\"这个词汇的句子"
+    }
+]
+```
