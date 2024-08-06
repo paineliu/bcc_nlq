@@ -8,4 +8,4 @@ export NCCL_IB_DISABLE="1"
 # 执行 Python 脚本
 
 
-python test_hf.py output/checkpoint-200000 --test-file ./dataset_glm_tongyi/bcc_test_case.json --output-file ./dataset_glm_tongyi/bcc_test_case_out.json
+python test_hf.py output-0806/checkpoint-100000 --test-file ./bcc_glm_tongyi/bcc_test.json --output-file ./bcc_glm_tongyi/bcc_test_out.json
