@@ -66980,12 +66980,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\n恐怕根本--根本的",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "恐怕根本--根本的"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -66994,12 +66994,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\n说实话--w说实话",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "说实话--w说实话"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -67008,12 +67008,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\n就./v--+就是",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "就./v--+就是"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -67022,12 +67022,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\nm+家+n--[一 两] 家 n",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "m+家+n--[一 两] 家 n"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -67036,12 +67036,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“^”",
+                "value": "请将下文解析成BCC检索式：\n刚才/t v^^刚才 ../v",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "刚才/t v^^刚才 ../v"
+                "value": "语法错误，存在无效符号“^”"
             }
         ]
     },
@@ -67050,12 +67050,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“^”",
+                "value": "请将下文解析成BCC检索式：\n谁都v不了^^谁都给不了",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "谁都v不了^^谁都给不了"
+                "value": "语法错误，存在无效符号“^”"
             }
         ]
     },
@@ -67064,12 +67064,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“^”",
+                "value": "请将下文解析成BCC检索式：\n好像实在^^忍不住",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "好像实在^^忍不住"
+                "value": "语法错误，存在无效符号“^”"
             }
         ]
     },
@@ -67078,12 +67078,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\nn器--n器材",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "n器--n器材"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -67092,12 +67092,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\nv弱了--变弱了",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "v弱了--变弱了"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -67106,12 +67106,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\nv矮了--变矮了",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "v矮了--变矮了"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -67120,12 +67120,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“^”",
+                "value": "请将下文解析成BCC检索式：\n情感^^情感n",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "情感^^情感n"
+                "value": "语法错误，存在无效符号“^”"
             }
         ]
     },
@@ -67134,12 +67134,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\n应该说--w应该说",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "应该说--w应该说"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -67148,12 +67148,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\n把--把[、+，+。+！+……+？]",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "把--把[、+，+。+！+……+？]"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -67162,12 +67162,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\n一~一个--唯一",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "一~一个--唯一"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -67176,12 +67176,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\n几--几乎",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "几--几乎"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -67190,12 +67190,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\nm手n--千手观音",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "m手n--千手观音"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -67204,12 +67204,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“^”",
+                "value": "请将下文解析成BCC检索式：\n李宇春^^男",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "李宇春^^男"
+                "value": "语法错误，存在无效符号“^”"
             }
         ]
     },
@@ -67218,12 +67218,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“^”",
+                "value": "请将下文解析成BCC检索式：\nw这样说^^这样说来",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "w这样说^^这样说来"
+                "value": "语法错误，存在无效符号“^”"
             }
         ]
     },
@@ -67232,12 +67232,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\n也许*非v--并非",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "也许*非v--并非"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -67246,12 +67246,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“^”",
+                "value": "请将下文解析成BCC检索式：\n红^^红",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "红^^红"
+                "value": "语法错误，存在无效符号“^”"
             }
         ]
     },
@@ -67260,12 +67260,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\n大概*竟--竟然",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "大概*竟--竟然"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -67274,12 +67274,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\nv高兴了--可高兴了",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "v高兴了--可高兴了"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -67288,12 +67288,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\na+的+爱好/n--爱好和平",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "a+的+爱好/n--爱好和平"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -67302,12 +67302,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\n讲实话--w讲实话",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "讲实话--w讲实话"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -67316,12 +67316,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\n有意--有意思",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "有意--有意思"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -67330,12 +67330,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\nm领--一些领",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "m领--一些领"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -67344,12 +67344,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“^”",
+                "value": "请将下文解析成BCC检索式：\nw我很a w^^，我很a w",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "w我很a w^^，我很a w"
+                "value": "语法错误，存在无效符号“^”"
             }
         ]
     },
@@ -67358,12 +67358,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\n仿佛*绝对--绝对的",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "仿佛*绝对--绝对的"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -67372,12 +67372,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\n好像可--好像可以",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "好像可--好像可以"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -67386,12 +67386,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\nv死了--v死了w",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "v死了--v死了w"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -67400,12 +67400,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“^”",
+                "value": "请将下文解析成BCC检索式：\n当即^^以致",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "当即^^以致"
+                "value": "语法错误，存在无效符号“^”"
             }
         ]
     },
@@ -67414,12 +67414,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“^”",
+                "value": "请将下文解析成BCC检索式：\n说心里话^^w说心里话",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "说心里话^^w说心里话"
+                "value": "语法错误，存在无效符号“^”"
             }
         ]
     },
@@ -67428,12 +67428,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\n../n 控--控制",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "../n 控--控制"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -67442,12 +67442,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\n了呢--了呢？",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "了呢--了呢？"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -67456,12 +67456,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“^”",
+                "value": "请将下文解析成BCC检索式：\n的脸^^丢",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "的脸^^丢"
+                "value": "语法错误，存在无效符号“^”"
             }
         ]
     },
@@ -67470,12 +67470,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\n[n nr] v 给 [n nr] n--[n nr] n v",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "[n nr] v 给 [n nr] n--[n nr] n v"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -67484,12 +67484,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\n别只看--",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "别只看--"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -67498,12 +67498,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\n[。 ，“ ‘]你说，--[。 ，“ ‘]你说，“",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "[。 ，“ ‘]你说，--[。 ，“ ‘]你说，“"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -67512,12 +67512,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\n好像*实在--实在的",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "好像*实在--实在的"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -67526,12 +67526,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\n打/v--打/v v",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "打/v--打/v v"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -67540,12 +67540,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\n进[进 一进]--进进出出",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "进[进 一进]--进进出出"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -67554,12 +67554,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\n你一个*。--你一个n。",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "你一个*。--你一个n。"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -67568,12 +67568,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\n更 n--更ad",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "更 n--更ad"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -67582,12 +67582,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“^”",
+                "value": "请将下文解析成BCC检索式：\nV于^^../v于",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "V于^^../v于"
+                "value": "语法错误，存在无效符号“^”"
             }
         ]
     },
@@ -67596,12 +67596,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\n光盘--数据",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "光盘--数据"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -67610,12 +67610,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\n仿佛*本来--本来的",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "仿佛*本来--本来的"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -67624,12 +67624,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\n和--和平",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "和--和平"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -67638,12 +67638,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\nv给[y nr]v--是",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "v给[y nr]v--是"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -67652,12 +67652,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\n恐怕*绝大--绝大关系",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "恐怕*绝大--绝大关系"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -67666,12 +67666,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\n很n--很有",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "很n--很有"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -67680,12 +67680,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“^”",
+                "value": "请将下文解析成BCC检索式：\n一点n^^一点n+w",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "一点n^^一点n+w"
+                "value": "语法错误，存在无效符号“^”"
             }
         ]
     },
@@ -67694,12 +67694,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“^”",
+                "value": "请将下文解析成BCC检索式：\n[婚 姻]^^男",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "[婚 姻]^^男"
+                "value": "语法错误，存在无效符号“^”"
             }
         ]
     },
@@ -67708,12 +67708,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\n[v+a]着--随着",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "[v+a]着--随着"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -67722,12 +67722,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\n一边--另一边",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "一边--另一边"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -67736,12 +67736,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\n和--",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "和--"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -67750,12 +67750,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\n一对n--a",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "一对n--a"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -67764,12 +67764,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\n把*上上--把*上上[下下 个 百]",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "把*上上--把*上上[下下 个 百]"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -67778,12 +67778,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\n过了[过 一过]--过了过[了 过了]",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "过了[过 一过]--过了过[了 过了]"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -67792,12 +67792,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\n有v--没有v",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "有v--没有v"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -67806,12 +67806,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\nv精--精神文明",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "v精--精神文明"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -67820,12 +67820,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\n呀w--呀，",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "呀w--呀，"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -67834,12 +67834,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\nv给[r n] m--[能 会 想]给[r n] m",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "v给[r n] m--[能 会 想]给[r n] m"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -67848,12 +67848,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\n回一回--[一 那 不 二]回一回",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "回一回--[一 那 不 二]回一回"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -67862,12 +67862,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“^”",
+                "value": "请将下文解析成BCC检索式：\n固然^^接着",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "固然^^接着"
+                "value": "语法错误，存在无效符号“^”"
             }
         ]
     },
@@ -67876,12 +67876,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\nm 家 n--一 家 n",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "m 家 n--一 家 n"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -67890,12 +67890,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\n[n nr r]  v给了 [n nr r]  n--把 [n nr r]",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "[n nr r]  v给了 [n nr r]  n--把 [n nr r]"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -67904,12 +67904,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“^”",
+                "value": "请将下文解析成BCC检索式：\n即刻^^所以",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "即刻^^所以"
+                "value": "语法错误，存在无效符号“^”"
             }
         ]
     },
@@ -67918,12 +67918,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“^”",
+                "value": "请将下文解析成BCC检索式：\nw我很a+w^^“我很a+w",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "w我很a+w^^“我很a+w"
+                "value": "语法错误，存在无效符号“^”"
             }
         ]
     },
@@ -67932,12 +67932,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\n来[a n q]--V来",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "来[a n q]--V来"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -67946,12 +67946,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\n这样一.就--这样一来",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "这样一.就--这样一来"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -67960,12 +67960,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“^”",
+                "value": "请将下文解析成BCC检索式：\n或许*准v^^准是",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "或许*准v^^准是"
+                "value": "语法错误，存在无效符号“^”"
             }
         ]
     },
@@ -67974,12 +67974,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\nv员--员工",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "v员--员工"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -67988,12 +67988,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“^”",
+                "value": "请将下文解析成BCC检索式：\n刚/d+v^^刚+./v",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "刚/d+v^^刚+./v"
+                "value": "语法错误，存在无效符号“^”"
             }
         ]
     },
@@ -68002,12 +68002,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\n流/v+在+s--流在一起",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "流/v+在+s--流在一起"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -68016,12 +68016,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\n不+n--不ad",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "不+n--不ad"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -68030,12 +68030,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\n送--送n+，",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "送--送n+，"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -68044,12 +68044,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\n，f v 着--，f v 着 的",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "，f v 着--，f v 着 的"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -68058,12 +68058,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“^”",
+                "value": "请将下文解析成BCC检索式：\n刚刚/d+v^^刚刚+./v",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "刚刚/d+v^^刚刚+./v"
+                "value": "语法错误，存在无效符号“^”"
             }
         ]
     },
@@ -68072,12 +68072,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\n我--我们",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "我--我们"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -68086,12 +68086,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\n似乎*的确--确认",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "似乎*的确--确认"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -68100,12 +68100,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\nv轻松了--觉得轻松了",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "v轻松了--觉得轻松了"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -68114,12 +68114,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\nv软了--变软了",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "v软了--变软了"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -68128,12 +68128,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\n回回--[回 一 是 “]回回",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "回回--[回 一 是 “]回回"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -68142,12 +68142,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\nm标--9000标",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "m标--9000标"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -68156,12 +68156,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\nm 盘 n--九盘婆婆",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "m 盘 n--九盘婆婆"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -68170,12 +68170,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“^”",
+                "value": "请将下文解析成BCC检索式：\n或许*非得v^^那儿走一趟",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "或许*非得v^^那儿走一趟"
+                "value": "语法错误，存在无效符号“^”"
             }
         ]
     },
@@ -68184,12 +68184,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\n必须--那必须",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "必须--那必须"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -68198,12 +68198,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\n的呢--的呢？",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "的呢--的呢？"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -68212,12 +68212,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\n巴到--巴到天明",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "巴到--巴到天明"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -68226,12 +68226,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“^”",
+                "value": "请将下文解析成BCC检索式：\nn n^^屁股",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "n n^^屁股"
+                "value": "语法错误，存在无效符号“^”"
             }
         ]
     },
@@ -68240,12 +68240,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“^”",
+                "value": "请将下文解析成BCC检索式：\n[婚 姻]^^女",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "[婚 姻]^^女"
+                "value": "语法错误，存在无效符号“^”"
             }
         ]
     },
@@ -68254,12 +68254,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\nn好v--好[有 想 让 起]",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "n好v--好[有 想 让 起]"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -68268,12 +68268,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\n着--不着",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "着--不着"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -68282,12 +68282,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\n相反--[相反的+相反地]",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "相反--[相反的+相反地]"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -68296,12 +68296,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“^”",
+                "value": "请将下文解析成BCC检索式：\n一定^^一定先",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "一定^^一定先"
+                "value": "语法错误，存在无效符号“^”"
             }
         ]
     },
@@ -68310,12 +68310,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\nv m脚--临门一脚",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "v m脚--临门一脚"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -68324,12 +68324,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\n激情 ../v--v*激情",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "激情 ../v--v*激情"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -68338,12 +68338,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“^”",
+                "value": "请将下文解析成BCC检索式：\n恐怕*本来v^^想说",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "恐怕*本来v^^想说"
+                "value": "语法错误，存在无效符号“^”"
             }
         ]
     },
@@ -68352,12 +68352,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\n人看起来--让人看起来",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "人看起来--让人看起来"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -68366,12 +68366,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\n二--二十",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "二--二十"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -68380,12 +68380,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\n大概正--正常",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "大概正--正常"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -68394,12 +68394,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\nw我很a w--[， 。 ！ ； ？ “ ： 、 …]我很a w",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "w我很a w--[， 。 ！ ； ？ “ ： 、 …]我很a w"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -68408,12 +68408,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\n秒v--秒杀",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "秒v--秒杀"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -68422,12 +68422,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\nv过分了--是过分了",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "v过分了--是过分了"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -68436,12 +68436,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\n据云--据云南",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "据云--据云南"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -68450,12 +68450,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\n似乎可--似乎可以",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "似乎可--似乎可以"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -68464,12 +68464,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\n将*进行到底--革命",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "将*进行到底--革命"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -68478,12 +68478,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\n[nr+r]+v+n+给[nr+r]+--给[nr+r]+v",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "[nr+r]+v+n+给[nr+r]+--给[nr+r]+v"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -68492,12 +68492,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“^”",
+                "value": "请将下文解析成BCC检索式：\n程度副词^^名词",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "程度副词^^名词"
+                "value": "语法错误，存在无效符号“^”"
             }
         ]
     },
@@ -68506,12 +68506,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\n一n一个--人",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "一n一个--人"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -68520,12 +68520,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\n唯--唯一",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "唯--唯一"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -68534,12 +68534,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\n你一个*。--你一个n",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "你一个*。--你一个n"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -68548,12 +68548,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“^”",
+                "value": "请将下文解析成BCC检索式：\n那* m q n^^的",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "那* m q n^^的"
+                "value": "语法错误，存在无效符号“^”"
             }
         ]
     },
@@ -68562,12 +68562,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\n./v 来--如来",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "./v 来--如来"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -68576,12 +68576,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“^”",
+                "value": "请将下文解析成BCC检索式：\n不得不说^^我不得不说",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "不得不说^^我不得不说"
+                "value": "语法错误，存在无效符号“^”"
             }
         ]
     },
@@ -68590,12 +68590,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\nn没有n+a--没有*一样",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "n没有n+a--没有*一样"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -68604,12 +68604,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“^”",
+                "value": "请将下文解析成BCC检索式：\n一定^^一定去",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "一定^^一定去"
+                "value": "语法错误，存在无效符号“^”"
             }
         ]
     },
@@ -68618,12 +68618,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\n联系在[nt ns s f r]--联系在一起",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "联系在[nt ns s f r]--联系在一起"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -68632,12 +68632,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\nv下--v[下去 下来]",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "v下--v[下去 下来]"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -68646,12 +68646,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\n无 .可.--可能，可以",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "无 .可.--可能，可以"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -68660,12 +68660,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\n似乎*一定能--能传了种",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "似乎*一定能--能传了种"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -68674,12 +68674,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“^”",
+                "value": "请将下文解析成BCC检索式：\n少说^^话少说",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "少说^^话少说"
+                "value": "语法错误，存在无效符号“^”"
             }
         ]
     },
@@ -68688,12 +68688,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“^”",
+                "value": "请将下文解析成BCC检索式：\n位^^q",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "位^^q"
+                "value": "语法错误，存在无效符号“^”"
             }
         ]
     },
@@ -68702,12 +68702,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“^”",
+                "value": "请将下文解析成BCC检索式：\n谁都v不了^^谁都影响不了",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "谁都v不了^^谁都影响不了"
+                "value": "语法错误，存在无效符号“^”"
             }
         ]
     },
@@ -68716,12 +68716,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\n下[下 一下]--下下停停",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "下[下 一下]--下下停停"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -68730,12 +68730,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\nv变形了--要变形了",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "v变形了--要变形了"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -68744,12 +68744,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\n[， 。]我说，--[， 。]我说，“",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "[， 。]我说，--[， 。]我说，“"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -68758,12 +68758,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”",
+                "value": "请将下文解析成BCC检索式：\nn 挺好的--感觉挺好的",
                 "type": "7"
             },
             {
                 "from": "assistant",
-                "value": "n 挺好的--感觉挺好的"
+                "value": "语法错误，存在无效符号“-”"
             }
         ]
     },
@@ -68772,12 +68772,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，限制条件格式错误",
+                "value": "请将下文解析成BCC检索式：\n满{len(1)}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "满{len(1)}"
+                "value": "语法错误，限制条件格式错误"
             }
         ]
     },
@@ -68786,12 +68786,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n做(n){len($1)=1}",
+                "value": "请将下文解析成BCC检索式：\n做n{len($1)=1}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "做n{len($1)=1}"
+                "value": "做(n){len($1)=1}"
             }
         ]
     },
@@ -68800,12 +68800,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，限制条件格式错误",
+                "value": "请将下文解析成BCC检索式：\n思娈{len(2)}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "思娈{len(2)}"
+                "value": "语法错误，限制条件格式错误"
             }
         ]
     },
@@ -68814,12 +68814,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n(r)着{len($1)<3}",
+                "value": "请将下文解析成BCC检索式：\n(r)着{($1)<3}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "(r)着{($1)<3}"
+                "value": "(r)着{len($1)<3}"
             }
         ]
     },
@@ -68828,12 +68828,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，限制条件格式错误",
+                "value": "请将下文解析成BCC检索式：\n买买江{len(3)}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "买买江{len(3)}"
+                "value": "语法错误，限制条件格式错误"
             }
         ]
     },
@@ -68842,12 +68842,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，限制条件格式错误",
+                "value": "请将下文解析成BCC检索式：\n风景线{len(3)}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "风景线{len(3)}"
+                "value": "语法错误，限制条件格式错误"
             }
         ]
     },
@@ -68856,12 +68856,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n(d)子{len($1)>1}",
+                "value": "请将下文解析成BCC检索式：\n(d)子{($1)>1}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "(d)子{($1)>1}"
+                "value": "(d)子{len($1)>1}"
             }
         ]
     },
@@ -68870,12 +68870,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n(n)女孩{len($1)<3}",
+                "value": "请将下文解析成BCC检索式：\n(n)女孩{($1)<3}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "(n)女孩{($1)<3}"
+                "value": "(n)女孩{len($1)<3}"
             }
         ]
     },
@@ -68884,12 +68884,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n(w)干什么{len($1)>1}",
+                "value": "请将下文解析成BCC检索式：\n(w)干什么{($1)>1}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "(w)干什么{($1)>1}"
+                "value": "(w)干什么{len($1)>1}"
             }
         ]
     },
@@ -68898,12 +68898,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n(r)交{len($1)<3}",
+                "value": "请将下文解析成BCC检索式：\n(r)交{($1)<3}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "(r)交{($1)<3}"
+                "value": "(r)交{len($1)<3}"
             }
         ]
     },
@@ -68912,12 +68912,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n(v)哎{len($1)>2}",
+                "value": "请将下文解析成BCC检索式：\n(v)哎{($1)>2}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "(v)哎{($1)>2}"
+                "value": "(v)哎{len($1)>2}"
             }
         ]
     },
@@ -68926,12 +68926,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n(v)当然{len($1)>2}",
+                "value": "请将下文解析成BCC检索式：\n(v)当然{($1)>2}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "(v)当然{($1)>2}"
+                "value": "(v)当然{len($1)>2}"
             }
         ]
     },
@@ -68940,12 +68940,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n(v)开始{len($1)=2}",
+                "value": "请将下文解析成BCC检索式：\n(v)开始{($1)=2}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "(v)开始{($1)=2}"
+                "value": "(v)开始{len($1)=2}"
             }
         ]
     },
@@ -68954,12 +68954,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n(an)着{len($1)=2}",
+                "value": "请将下文解析成BCC检索式：\n(an)着{($1)=2}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "(an)着{($1)=2}"
+                "value": "(an)着{len($1)=2}"
             }
         ]
     },
@@ -68968,12 +68968,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，限制条件格式错误",
+                "value": "请将下文解析成BCC检索式：\n、{len(1)}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "、{len(1)}"
+                "value": "语法错误，限制条件格式错误"
             }
         ]
     },
@@ -68982,12 +68982,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n(m)着{len($1)=2}",
+                "value": "请将下文解析成BCC检索式：\n(m)着{($1)=2}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "(m)着{($1)=2}"
+                "value": "(m)着{len($1)=2}"
             }
         ]
     },
@@ -68996,12 +68996,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，限制条件格式错误",
+                "value": "请将下文解析成BCC检索式：\n人口{len(2)}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "人口{len(2)}"
+                "value": "语法错误，限制条件格式错误"
             }
         ]
     },
@@ -69010,12 +69010,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，限制条件格式错误",
+                "value": "请将下文解析成BCC检索式：\n人民{len(2)}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "人民{len(2)}"
+                "value": "语法错误，限制条件格式错误"
             }
         ]
     },
@@ -69024,12 +69024,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n(n)着{len($1)=3}",
+                "value": "请将下文解析成BCC检索式：\n(n)着{($1)=3}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "(n)着{($1)=3}"
+                "value": "(n)着{len($1)=3}"
             }
         ]
     },
@@ -69038,12 +69038,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，限制条件格式错误",
+                "value": "请将下文解析成BCC检索式：\n元{len(1)}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "元{len(1)}"
+                "value": "语法错误，限制条件格式错误"
             }
         ]
     },
@@ -69052,12 +69052,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n(w)差{len($1)<2}",
+                "value": "请将下文解析成BCC检索式：\n(w)差{($1)<2}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "(w)差{($1)<2}"
+                "value": "(w)差{len($1)<2}"
             }
         ]
     },
@@ -69066,12 +69066,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n法庭*为",
+                "value": "请将下文解析成BCC检索式：\n法庭***为",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "法庭***为"
+                "value": "法庭*为"
             }
         ]
     },
@@ -69080,12 +69080,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n(ns)还有{len($1)<3}",
+                "value": "请将下文解析成BCC检索式：\n(ns)还有{($1)<3}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "(ns)还有{($1)<3}"
+                "value": "(ns)还有{len($1)<3}"
             }
         ]
     },
@@ -69094,12 +69094,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n村(n)，(l){$1=$2}",
+                "value": "请将下文解析成BCC检索式：\n村n，l{$1=$2}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "村n，l{$1=$2}"
+                "value": "村(n)，(l){$1=$2}"
             }
         ]
     },
@@ -69108,12 +69108,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，限制条件格式错误",
+                "value": "请将下文解析成BCC检索式：\n徇私舞弊{len(4)}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "徇私舞弊{len(4)}"
+                "value": "语法错误，限制条件格式错误"
             }
         ]
     },
@@ -69122,12 +69122,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n(w)最好{len($1)>1}",
+                "value": "请将下文解析成BCC检索式：\n(w)最好{($1)>1}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "(w)最好{($1)>1}"
+                "value": "(w)最好{len($1)>1}"
             }
         ]
     },
@@ -69136,12 +69136,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n(nr)一辈子{len($1)=2}",
+                "value": "请将下文解析成BCC检索式：\n(nr)一辈子{($1)=2}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "(nr)一辈子{($1)=2}"
+                "value": "(nr)一辈子{len($1)=2}"
             }
         ]
     },
@@ -69150,12 +69150,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n(q)情{len($1)=1}",
+                "value": "请将下文解析成BCC检索式：\n(q)情{($1)=1}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "(q)情{($1)=1}"
+                "value": "(q)情{len($1)=1}"
             }
         ]
     },
@@ -69164,12 +69164,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n(v)金{len($1)<3}",
+                "value": "请将下文解析成BCC检索式：\n(v)金{($1)<3}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "(v)金{($1)<3}"
+                "value": "(v)金{len($1)<3}"
             }
         ]
     },
@@ -69178,12 +69178,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n(v)呵呵{len($1)<2}",
+                "value": "请将下文解析成BCC检索式：\n(v)呵呵{($1)<2}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "(v)呵呵{($1)<2}"
+                "value": "(v)呵呵{len($1)<2}"
             }
         ]
     },
@@ -69192,12 +69192,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n(n)试{len($1)>2}",
+                "value": "请将下文解析成BCC检索式：\n(n)试{($1)>2}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "(n)试{($1)>2}"
+                "value": "(n)试{len($1)>2}"
             }
         ]
     },
@@ -69206,12 +69206,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，限制条件格式错误",
+                "value": "请将下文解析成BCC检索式：\n禁塑{len(2)}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "禁塑{len(2)}"
+                "value": "语法错误，限制条件格式错误"
             }
         ]
     },
@@ -69220,12 +69220,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n(v)没有{len($1)>2}",
+                "value": "请将下文解析成BCC检索式：\n(v)没有{($1)>2}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "(v)没有{($1)>2}"
+                "value": "(v)没有{len($1)>2}"
             }
         ]
     },
@@ -69234,12 +69234,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，限制条件格式错误",
+                "value": "请将下文解析成BCC检索式：\n达{len(1)}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "达{len(1)}"
+                "value": "语法错误，限制条件格式错误"
             }
         ]
     },
@@ -69248,12 +69248,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n(ns)不上{len($1)<3}",
+                "value": "请将下文解析成BCC检索式：\n(ns)不上{($1)<3}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "(ns)不上{($1)<3}"
+                "value": "(ns)不上{len($1)<3}"
             }
         ]
     },
@@ -69262,12 +69262,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，限制条件格式错误",
+                "value": "请将下文解析成BCC检索式：\n宣讲员{len(3)}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "宣讲员{len(3)}"
+                "value": "语法错误，限制条件格式错误"
             }
         ]
     },
@@ -69276,12 +69276,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n(v)一{len($1)>1}",
+                "value": "请将下文解析成BCC检索式：\n(v)一{($1)>1}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "(v)一{($1)>1}"
+                "value": "(v)一{len($1)>1}"
             }
         ]
     },
@@ -69290,12 +69290,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n(v)回{len($1)>2}",
+                "value": "请将下文解析成BCC检索式：\n(v)回{($1)>2}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "(v)回{($1)>2}"
+                "value": "(v)回{len($1)>2}"
             }
         ]
     },
@@ -69304,12 +69304,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n(ns)着{len($1)>2}",
+                "value": "请将下文解析成BCC检索式：\n(ns)着{($1)>2}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "(ns)着{($1)>2}"
+                "value": "(ns)着{len($1)>2}"
             }
         ]
     },
@@ -69318,12 +69318,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n(n)结{len($1)>2}",
+                "value": "请将下文解析成BCC检索式：\n(n)结{($1)>2}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "(n)结{($1)>2}"
+                "value": "(n)结{len($1)>2}"
             }
         ]
     },
@@ -69332,12 +69332,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n*是",
+                "value": "请将下文解析成BCC检索式：\n***是",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "***是"
+                "value": "*是"
             }
         ]
     },
@@ -69346,12 +69346,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n(w)想{len($1)>1}",
+                "value": "请将下文解析成BCC检索式：\n(w)想{($1)>1}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "(w)想{($1)>1}"
+                "value": "(w)想{len($1)>1}"
             }
         ]
     },
@@ -69360,12 +69360,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n(v)进{len($1)>1}",
+                "value": "请将下文解析成BCC检索式：\nv进{len($1)>1}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "v进{len($1)>1}"
+                "value": "(v)进{len($1)>1}"
             }
         ]
     },
@@ -69374,12 +69374,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n(v)干{len($1)=1}",
+                "value": "请将下文解析成BCC检索式：\n(v)干{($1)=1}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "(v)干{($1)=1}"
+                "value": "(v)干{len($1)=1}"
             }
         ]
     },
@@ -69388,12 +69388,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n(nr)着{len($1)<3}",
+                "value": "请将下文解析成BCC检索式：\n(nr)着{($1)<3}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "(nr)着{($1)<3}"
+                "value": "(nr)着{len($1)<3}"
             }
         ]
     },
@@ -69402,12 +69402,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n(n)还要{len($1)>2}",
+                "value": "请将下文解析成BCC检索式：\n(n)还要{($1)>2}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "(n)还要{($1)>2}"
+                "value": "(n)还要{len($1)>2}"
             }
         ]
     },
@@ -69416,12 +69416,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n(n)哥{len($1)>2}",
+                "value": "请将下文解析成BCC检索式：\n(n)哥{($1)>2}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "(n)哥{($1)>2}"
+                "value": "(n)哥{len($1)>2}"
             }
         ]
     },
@@ -69430,12 +69430,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n何为(n)大学(h){$1=$2}",
+                "value": "请将下文解析成BCC检索式：\n何为n大学h{$1=$2}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "何为n大学h{$1=$2}"
+                "value": "何为(n)大学(h){$1=$2}"
             }
         ]
     },
@@ -69444,12 +69444,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n大(nt){len($1)=1}",
+                "value": "请将下文解析成BCC检索式：\n大nt{len($1)=1}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "大nt{len($1)=1}"
+                "value": "大(nt){len($1)=1}"
             }
         ]
     },
@@ -69458,12 +69458,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n(v)？{len($1)>1}",
+                "value": "请将下文解析成BCC检索式：\nv？{len($1)>1}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "v？{len($1)>1}"
+                "value": "(v)？{len($1)>1}"
             }
         ]
     },
@@ -69472,12 +69472,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n*交通",
+                "value": "请将下文解析成BCC检索式：\n***交通",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "***交通"
+                "value": "*交通"
             }
         ]
     },
@@ -69486,12 +69486,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n(n)浪费{len($1)=2}",
+                "value": "请将下文解析成BCC检索式：\n(n)浪费{($1)=2}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "(n)浪费{($1)=2}"
+                "value": "(n)浪费{len($1)=2}"
             }
         ]
     },
@@ -69500,12 +69500,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n三(n)农(d){$1=$2}",
+                "value": "请将下文解析成BCC检索式：\n三n农d{$1=$2}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "三n农d{$1=$2}"
+                "value": "三(n)农(d){$1=$2}"
             }
         ]
     },
@@ -69514,12 +69514,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n(ns)火{len($1)<4}",
+                "value": "请将下文解析成BCC检索式：\n(ns)火{($1)<4}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "(ns)火{($1)<4}"
+                "value": "(ns)火{len($1)<4}"
             }
         ]
     },
@@ -69528,12 +69528,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n小微*企业",
+                "value": "请将下文解析成BCC检索式：\n小微***企业",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "小微***企业"
+                "value": "小微*企业"
             }
         ]
     },
@@ -69542,12 +69542,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n(w)三个{len($1)=1}",
+                "value": "请将下文解析成BCC检索式：\n(w)三个{($1)=1}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "(w)三个{($1)=1}"
+                "value": "(w)三个{len($1)=1}"
             }
         ]
     },
@@ -69556,12 +69556,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n(vn)但是{len($1)>2}",
+                "value": "请将下文解析成BCC检索式：\n(vn)但是{($1)>2}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "(vn)但是{($1)>2}"
+                "value": "(vn)但是{len($1)>2}"
             }
         ]
     },
@@ -69570,12 +69570,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n(ad)着{len($1)<2}",
+                "value": "请将下文解析成BCC检索式：\n(ad)着{($1)<2}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "(ad)着{($1)<2}"
+                "value": "(ad)着{len($1)<2}"
             }
         ]
     },
@@ -69584,12 +69584,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，限制条件格式错误",
+                "value": "请将下文解析成BCC检索式：\n鹰{len(1)}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "鹰{len(1)}"
+                "value": "语法错误，限制条件格式错误"
             }
         ]
     },
@@ -69598,12 +69598,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n(v)情况{len($1)=1}",
+                "value": "请将下文解析成BCC检索式：\n(v)情况{($1)=1}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "(v)情况{($1)=1}"
+                "value": "(v)情况{len($1)=1}"
             }
         ]
     },
@@ -69612,12 +69612,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n(u)江西省{len($1)>3}",
+                "value": "请将下文解析成BCC检索式：\nu江西省{len($1)>3}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "u江西省{len($1)>3}"
+                "value": "(u)江西省{len($1)>3}"
             }
         ]
     },
@@ -69626,12 +69626,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n(ns)通{len($1)>2}",
+                "value": "请将下文解析成BCC检索式：\n(ns)通{($1)>2}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "(ns)通{($1)>2}"
+                "value": "(ns)通{len($1)>2}"
             }
         ]
     },
@@ -69640,12 +69640,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n(ns)着{len($1)=2}",
+                "value": "请将下文解析成BCC检索式：\n(ns)着{($1)=2}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "(ns)着{($1)=2}"
+                "value": "(ns)着{len($1)=2}"
             }
         ]
     },
@@ -69654,12 +69654,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n(v)北京{len($1)=1}",
+                "value": "请将下文解析成BCC检索式：\n(v)北京{($1)=1}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "(v)北京{($1)=1}"
+                "value": "(v)北京{len($1)=1}"
             }
         ]
     },
@@ -69668,12 +69668,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n书画(un)将(v){$1=$2}",
+                "value": "请将下文解析成BCC检索式：\n书画un将v{$1=$2}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "书画un将v{$1=$2}"
+                "value": "书画(un)将(v){$1=$2}"
             }
         ]
     },
@@ -69682,12 +69682,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n(w)理由{len($1)<2}",
+                "value": "请将下文解析成BCC检索式：\n(w)理由{($1)<2}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "(w)理由{($1)<2}"
+                "value": "(w)理由{len($1)<2}"
             }
         ]
     },
@@ -69696,12 +69696,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，限制条件格式错误",
+                "value": "请将下文解析成BCC检索式：\n广州{len(2)}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "广州{len(2)}"
+                "value": "语法错误，限制条件格式错误"
             }
         ]
     },
@@ -69710,12 +69710,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n不够@强",
+                "value": "请将下文解析成BCC检索式：\n不够@@@强",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "不够@@@强"
+                "value": "不够@强"
             }
         ]
     },
@@ -69724,12 +69724,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n(b)着{len($1)<2}",
+                "value": "请将下文解析成BCC检索式：\n(b)着{($1)<2}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "(b)着{($1)<2}"
+                "value": "(b)着{len($1)<2}"
             }
         ]
     },
@@ -69738,12 +69738,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n(r)来{len($1)=1}",
+                "value": "请将下文解析成BCC检索式：\n(r)来{($1)=1}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "(r)来{($1)=1}"
+                "value": "(r)来{len($1)=1}"
             }
         ]
     },
@@ -69752,12 +69752,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n(d)讨厌{len($1)<3}",
+                "value": "请将下文解析成BCC检索式：\n(d)讨厌{($1)<3}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "(d)讨厌{($1)<3}"
+                "value": "(d)讨厌{len($1)<3}"
             }
         ]
     },
@@ -69766,12 +69766,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，限制条件格式错误",
+                "value": "请将下文解析成BCC检索式：\n主教练{len(3)}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "主教练{len(3)}"
+                "value": "语法错误，限制条件格式错误"
             }
         ]
     },
@@ -69780,12 +69780,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n(u)听说{len($1)>1}",
+                "value": "请将下文解析成BCC检索式：\n(u)听说{($1)>1}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "(u)听说{($1)>1}"
+                "value": "(u)听说{len($1)>1}"
             }
         ]
     },
@@ -69794,12 +69794,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n(v)不能{len($1)<3}",
+                "value": "请将下文解析成BCC检索式：\n(v)不能{($1)<3}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "(v)不能{($1)<3}"
+                "value": "(v)不能{len($1)<3}"
             }
         ]
     },
@@ -69808,12 +69808,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，限制条件格式错误",
+                "value": "请将下文解析成BCC检索式：\n利益{len(2)}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "利益{len(2)}"
+                "value": "语法错误，限制条件格式错误"
             }
         ]
     },
@@ -69822,12 +69822,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n难(x){len($1)=1}",
+                "value": "请将下文解析成BCC检索式：\n难x{len($1)=1}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "难x{len($1)=1}"
+                "value": "难(x){len($1)=1}"
             }
         ]
     },
@@ -69836,12 +69836,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n永不(Ag)打烊(v){$1=$2}",
+                "value": "请将下文解析成BCC检索式：\n永不Ag打烊v{$1=$2}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "永不Ag打烊v{$1=$2}"
+                "value": "永不(Ag)打烊(v){$1=$2}"
             }
         ]
     },
@@ -69850,12 +69850,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，限制条件格式错误",
+                "value": "请将下文解析成BCC检索式：\n政府{len(2)}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "政府{len(2)}"
+                "value": "语法错误，限制条件格式错误"
             }
         ]
     },
@@ -69864,12 +69864,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n(n)包{len($1)>2}",
+                "value": "请将下文解析成BCC检索式：\n(n)包{($1)>2}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "(n)包{($1)>2}"
+                "value": "(n)包{len($1)>2}"
             }
         ]
     },
@@ -69878,12 +69878,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n(w)怕{len($1)<2}",
+                "value": "请将下文解析成BCC检索式：\n(w)怕{($1)<2}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "(w)怕{($1)<2}"
+                "value": "(w)怕{len($1)<2}"
             }
         ]
     },
@@ -69892,12 +69892,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，限制条件格式错误",
+                "value": "请将下文解析成BCC检索式：\n内涵{len(2)}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "内涵{len(2)}"
+                "value": "语法错误，限制条件格式错误"
             }
         ]
     },
@@ -69906,12 +69906,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n李国庆@说",
+                "value": "请将下文解析成BCC检索式：\n李国庆@@@@说",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "李国庆@@@@说"
+                "value": "李国庆@说"
             }
         ]
     },
@@ -69920,12 +69920,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，限制条件格式错误",
+                "value": "请将下文解析成BCC检索式：\n滴答{len(2)}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "滴答{len(2)}"
+                "value": "语法错误，限制条件格式错误"
             }
         ]
     },
@@ -69934,12 +69934,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n(v)那个{len($1)>1}",
+                "value": "请将下文解析成BCC检索式：\n(v)那个{($1)>1}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "(v)那个{($1)>1}"
+                "value": "(v)那个{len($1)>1}"
             }
         ]
     },
@@ -69948,12 +69948,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，限制条件格式错误",
+                "value": "请将下文解析成BCC检索式：\n格局{len(2)}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "格局{len(2)}"
+                "value": "语法错误，限制条件格式错误"
             }
         ]
     },
@@ -69962,12 +69962,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n，*最",
+                "value": "请将下文解析成BCC检索式：\n，**最",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "，**最"
+                "value": "，*最"
             }
         ]
     },
@@ -69976,12 +69976,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n(c)难受{len($1)>1}",
+                "value": "请将下文解析成BCC检索式：\n(c)难受{($1)>1}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "(c)难受{($1)>1}"
+                "value": "(c)难受{len($1)>1}"
             }
         ]
     },
@@ -69990,12 +69990,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n艰难(Tg)。(h){$1=$2}",
+                "value": "请将下文解析成BCC检索式：\n艰难Tg。h{$1=$2}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "艰难Tg。h{$1=$2}"
+                "value": "艰难(Tg)。(h){$1=$2}"
             }
         ]
     },
@@ -70004,12 +70004,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n(ns)拜{len($1)<3}",
+                "value": "请将下文解析成BCC检索式：\n(ns)拜{($1)<3}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "(ns)拜{($1)<3}"
+                "value": "(ns)拜{len($1)<3}"
             }
         ]
     },
@@ -70018,12 +70018,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n(n)男{len($1)>2}",
+                "value": "请将下文解析成BCC检索式：\n(n)男{($1)>2}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "(n)男{($1)>2}"
+                "value": "(n)男{len($1)>2}"
             }
         ]
     },
@@ -70032,12 +70032,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，限制条件格式错误",
+                "value": "请将下文解析成BCC检索式：\n暗箱{len(2)}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "暗箱{len(2)}"
+                "value": "语法错误，限制条件格式错误"
             }
         ]
     },
@@ -70046,12 +70046,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n(r)一会{len($1)>2}",
+                "value": "请将下文解析成BCC检索式：\n(r)一会{($1)>2}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "(r)一会{($1)>2}"
+                "value": "(r)一会{len($1)>2}"
             }
         ]
     },
@@ -70060,12 +70060,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n语法错误，限制条件格式错误",
+                "value": "请将下文解析成BCC检索式：\n意味着{len(3)}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "意味着{len(3)}"
+                "value": "语法错误，限制条件格式错误"
             }
         ]
     },
@@ -70074,12 +70074,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n(w)报{len($1)=1}",
+                "value": "请将下文解析成BCC检索式：\n(w)报{($1)=1}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "(w)报{($1)=1}"
+                "value": "(w)报{len($1)=1}"
             }
         ]
     },
@@ -70088,12 +70088,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n(l)着{len($1)<4}",
+                "value": "请将下文解析成BCC检索式：\n(l)着{($1)<4}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "(l)着{($1)<4}"
+                "value": "(l)着{len($1)<4}"
             }
         ]
     },
@@ -70102,12 +70102,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n(v)那边{len($1)>2}",
+                "value": "请将下文解析成BCC检索式：\n(v)那边{($1)>2}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "(v)那边{($1)>2}"
+                "value": "(v)那边{len($1)>2}"
             }
         ]
     },
@@ -70116,12 +70116,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n*抛物",
+                "value": "请将下文解析成BCC检索式：\n***抛物",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "***抛物"
+                "value": "*抛物"
             }
         ]
     },
@@ -70130,12 +70130,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n(j)洗澡{len($1)=2}",
+                "value": "请将下文解析成BCC检索式：\n(j)洗澡{($1)=2}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "(j)洗澡{($1)=2}"
+                "value": "(j)洗澡{len($1)=2}"
             }
         ]
     },
@@ -70144,12 +70144,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n(v)每次{len($1)<3}",
+                "value": "请将下文解析成BCC检索式：\n(v)每次{($1)<3}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "(v)每次{($1)<3}"
+                "value": "(v)每次{len($1)<3}"
             }
         ]
     },
@@ -70158,12 +70158,12 @@
         "conversations": [
             {
                 "from": "user",
-                "value": "请将下文解析成BCC检索式：\n(n)张{len($1)>2}",
+                "value": "请将下文解析成BCC检索式：\n(n)张{($1)>2}",
                 "type": "8"
             },
             {
                 "from": "assistant",
-                "value": "(n)张{($1)>2}"
+                "value": "(n)张{len($1)>2}"
             }
         ]
     }

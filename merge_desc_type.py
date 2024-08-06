@@ -69,17 +69,16 @@ def add_fixed(fix_filename, query_filename, out_filename):
     f_query.close()
 
     df = pd.read_csv(fix_filename)
-    map_query_type = {}
 
     for i in range(len(df)):
         query = df['query'][i]
         desc = df['respond'][i]
         type = str(df['type'][i])
-        data = {'query':query, 'description':desc, 'type':type}
+        data = {'query':desc, 'description':query, 'type':type}
         desc_data2.append(data)
         if '+' in query:
             query2 = query.replace('+', ' ')
-            data2 = {'query':query2, 'description':desc, 'type':type}    
+            data2 = {'query':desc, 'description':query2, 'type':type}    
             desc_data2.append(data2)
 
     data2 = sorted(desc_data2, key=lambda keys: keys.get("type"), reverse=False)

@@ -4782,231 +4782,231 @@
 {"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n报不.", "type": "106"}, {"role": "assistant", "content": "报不."}]}
 {"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n谁后面隔一个字后接 能", "type": "6"}, {"role": "assistant", "content": "谁.能"}]}
 {"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n谁.能", "type": "106"}, {"role": "assistant", "content": "谁.能"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "恐怕根本--根本的"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "说实话--w说实话"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "就./v--+就是"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "m+家+n--[一 两] 家 n"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“^”", "type": "7"}, {"role": "assistant", "content": "刚才/t v^^刚才 ../v"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“^”", "type": "7"}, {"role": "assistant", "content": "谁都v不了^^谁都给不了"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“^”", "type": "7"}, {"role": "assistant", "content": "好像实在^^忍不住"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "n器--n器材"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "v弱了--变弱了"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "v矮了--变矮了"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“^”", "type": "7"}, {"role": "assistant", "content": "情感^^情感n"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "应该说--w应该说"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "把--把[、+，+。+！+……+？]"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "一~一个--唯一"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "几--几乎"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "m手n--千手观音"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“^”", "type": "7"}, {"role": "assistant", "content": "李宇春^^男"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“^”", "type": "7"}, {"role": "assistant", "content": "w这样说^^这样说来"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "也许*非v--并非"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“^”", "type": "7"}, {"role": "assistant", "content": "红^^红"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "大概*竟--竟然"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "v高兴了--可高兴了"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "a+的+爱好/n--爱好和平"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "讲实话--w讲实话"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "有意--有意思"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "m领--一些领"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“^”", "type": "7"}, {"role": "assistant", "content": "w我很a w^^，我很a w"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "仿佛*绝对--绝对的"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "好像可--好像可以"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "v死了--v死了w"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“^”", "type": "7"}, {"role": "assistant", "content": "当即^^以致"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“^”", "type": "7"}, {"role": "assistant", "content": "说心里话^^w说心里话"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "../n 控--控制"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "了呢--了呢？"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“^”", "type": "7"}, {"role": "assistant", "content": "的脸^^丢"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "[n nr] v 给 [n nr] n--[n nr] n v"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "别只看--"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "[。 ，“ ‘]你说，--[。 ，“ ‘]你说，“"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "好像*实在--实在的"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "打/v--打/v v"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "进[进 一进]--进进出出"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "你一个*。--你一个n。"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "更 n--更ad"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“^”", "type": "7"}, {"role": "assistant", "content": "V于^^../v于"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "光盘--数据"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "仿佛*本来--本来的"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "和--和平"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "v给[y nr]v--是"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "恐怕*绝大--绝大关系"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "很n--很有"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“^”", "type": "7"}, {"role": "assistant", "content": "一点n^^一点n+w"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“^”", "type": "7"}, {"role": "assistant", "content": "[婚 姻]^^男"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "[v+a]着--随着"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "一边--另一边"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "和--"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "一对n--a"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "把*上上--把*上上[下下 个 百]"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "过了[过 一过]--过了过[了 过了]"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "有v--没有v"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "v精--精神文明"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "呀w--呀，"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "v给[r n] m--[能 会 想]给[r n] m"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "回一回--[一 那 不 二]回一回"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“^”", "type": "7"}, {"role": "assistant", "content": "固然^^接着"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "m 家 n--一 家 n"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "[n nr r]  v给了 [n nr r]  n--把 [n nr r]"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“^”", "type": "7"}, {"role": "assistant", "content": "即刻^^所以"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“^”", "type": "7"}, {"role": "assistant", "content": "w我很a+w^^“我很a+w"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "来[a n q]--V来"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "这样一.就--这样一来"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“^”", "type": "7"}, {"role": "assistant", "content": "或许*准v^^准是"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "v员--员工"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“^”", "type": "7"}, {"role": "assistant", "content": "刚/d+v^^刚+./v"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "流/v+在+s--流在一起"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "不+n--不ad"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "送--送n+，"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "，f v 着--，f v 着 的"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“^”", "type": "7"}, {"role": "assistant", "content": "刚刚/d+v^^刚刚+./v"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "我--我们"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "似乎*的确--确认"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "v轻松了--觉得轻松了"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "v软了--变软了"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "回回--[回 一 是 “]回回"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "m标--9000标"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "m 盘 n--九盘婆婆"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“^”", "type": "7"}, {"role": "assistant", "content": "或许*非得v^^那儿走一趟"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "必须--那必须"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "的呢--的呢？"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "巴到--巴到天明"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“^”", "type": "7"}, {"role": "assistant", "content": "n n^^屁股"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“^”", "type": "7"}, {"role": "assistant", "content": "[婚 姻]^^女"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "n好v--好[有 想 让 起]"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "着--不着"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "相反--[相反的+相反地]"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“^”", "type": "7"}, {"role": "assistant", "content": "一定^^一定先"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "v m脚--临门一脚"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "激情 ../v--v*激情"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“^”", "type": "7"}, {"role": "assistant", "content": "恐怕*本来v^^想说"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "人看起来--让人看起来"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "二--二十"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "大概正--正常"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "w我很a w--[， 。 ！ ； ？ “ ： 、 …]我很a w"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "秒v--秒杀"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "v过分了--是过分了"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "据云--据云南"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "似乎可--似乎可以"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "将*进行到底--革命"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "[nr+r]+v+n+给[nr+r]+--给[nr+r]+v"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“^”", "type": "7"}, {"role": "assistant", "content": "程度副词^^名词"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "一n一个--人"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "唯--唯一"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "你一个*。--你一个n"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“^”", "type": "7"}, {"role": "assistant", "content": "那* m q n^^的"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "./v 来--如来"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“^”", "type": "7"}, {"role": "assistant", "content": "不得不说^^我不得不说"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "n没有n+a--没有*一样"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“^”", "type": "7"}, {"role": "assistant", "content": "一定^^一定去"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "联系在[nt ns s f r]--联系在一起"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "v下--v[下去 下来]"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "无 .可.--可能，可以"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "似乎*一定能--能传了种"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“^”", "type": "7"}, {"role": "assistant", "content": "少说^^话少说"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“^”", "type": "7"}, {"role": "assistant", "content": "位^^q"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“^”", "type": "7"}, {"role": "assistant", "content": "谁都v不了^^谁都影响不了"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "下[下 一下]--下下停停"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "v变形了--要变形了"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "[， 。]我说，--[， 。]我说，“"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，存在无效符号“-”", "type": "7"}, {"role": "assistant", "content": "n 挺好的--感觉挺好的"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，限制条件格式错误", "type": "8"}, {"role": "assistant", "content": "满{len(1)}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n做(n){len($1)=1}", "type": "8"}, {"role": "assistant", "content": "做n{len($1)=1}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，限制条件格式错误", "type": "8"}, {"role": "assistant", "content": "思娈{len(2)}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(r)着{len($1)<3}", "type": "8"}, {"role": "assistant", "content": "(r)着{($1)<3}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，限制条件格式错误", "type": "8"}, {"role": "assistant", "content": "买买江{len(3)}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，限制条件格式错误", "type": "8"}, {"role": "assistant", "content": "风景线{len(3)}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(d)子{len($1)>1}", "type": "8"}, {"role": "assistant", "content": "(d)子{($1)>1}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(n)女孩{len($1)<3}", "type": "8"}, {"role": "assistant", "content": "(n)女孩{($1)<3}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(w)干什么{len($1)>1}", "type": "8"}, {"role": "assistant", "content": "(w)干什么{($1)>1}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(r)交{len($1)<3}", "type": "8"}, {"role": "assistant", "content": "(r)交{($1)<3}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(v)哎{len($1)>2}", "type": "8"}, {"role": "assistant", "content": "(v)哎{($1)>2}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(v)当然{len($1)>2}", "type": "8"}, {"role": "assistant", "content": "(v)当然{($1)>2}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(v)开始{len($1)=2}", "type": "8"}, {"role": "assistant", "content": "(v)开始{($1)=2}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(an)着{len($1)=2}", "type": "8"}, {"role": "assistant", "content": "(an)着{($1)=2}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，限制条件格式错误", "type": "8"}, {"role": "assistant", "content": "、{len(1)}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(m)着{len($1)=2}", "type": "8"}, {"role": "assistant", "content": "(m)着{($1)=2}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，限制条件格式错误", "type": "8"}, {"role": "assistant", "content": "人口{len(2)}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，限制条件格式错误", "type": "8"}, {"role": "assistant", "content": "人民{len(2)}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(n)着{len($1)=3}", "type": "8"}, {"role": "assistant", "content": "(n)着{($1)=3}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，限制条件格式错误", "type": "8"}, {"role": "assistant", "content": "元{len(1)}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(w)差{len($1)<2}", "type": "8"}, {"role": "assistant", "content": "(w)差{($1)<2}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n法庭*为", "type": "8"}, {"role": "assistant", "content": "法庭***为"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(ns)还有{len($1)<3}", "type": "8"}, {"role": "assistant", "content": "(ns)还有{($1)<3}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n村(n)，(l){$1=$2}", "type": "8"}, {"role": "assistant", "content": "村n，l{$1=$2}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，限制条件格式错误", "type": "8"}, {"role": "assistant", "content": "徇私舞弊{len(4)}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(w)最好{len($1)>1}", "type": "8"}, {"role": "assistant", "content": "(w)最好{($1)>1}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(nr)一辈子{len($1)=2}", "type": "8"}, {"role": "assistant", "content": "(nr)一辈子{($1)=2}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(q)情{len($1)=1}", "type": "8"}, {"role": "assistant", "content": "(q)情{($1)=1}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(v)金{len($1)<3}", "type": "8"}, {"role": "assistant", "content": "(v)金{($1)<3}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(v)呵呵{len($1)<2}", "type": "8"}, {"role": "assistant", "content": "(v)呵呵{($1)<2}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(n)试{len($1)>2}", "type": "8"}, {"role": "assistant", "content": "(n)试{($1)>2}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，限制条件格式错误", "type": "8"}, {"role": "assistant", "content": "禁塑{len(2)}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(v)没有{len($1)>2}", "type": "8"}, {"role": "assistant", "content": "(v)没有{($1)>2}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，限制条件格式错误", "type": "8"}, {"role": "assistant", "content": "达{len(1)}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(ns)不上{len($1)<3}", "type": "8"}, {"role": "assistant", "content": "(ns)不上{($1)<3}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，限制条件格式错误", "type": "8"}, {"role": "assistant", "content": "宣讲员{len(3)}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(v)一{len($1)>1}", "type": "8"}, {"role": "assistant", "content": "(v)一{($1)>1}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(v)回{len($1)>2}", "type": "8"}, {"role": "assistant", "content": "(v)回{($1)>2}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(ns)着{len($1)>2}", "type": "8"}, {"role": "assistant", "content": "(ns)着{($1)>2}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(n)结{len($1)>2}", "type": "8"}, {"role": "assistant", "content": "(n)结{($1)>2}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n*是", "type": "8"}, {"role": "assistant", "content": "***是"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(w)想{len($1)>1}", "type": "8"}, {"role": "assistant", "content": "(w)想{($1)>1}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(v)进{len($1)>1}", "type": "8"}, {"role": "assistant", "content": "v进{len($1)>1}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(v)干{len($1)=1}", "type": "8"}, {"role": "assistant", "content": "(v)干{($1)=1}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(nr)着{len($1)<3}", "type": "8"}, {"role": "assistant", "content": "(nr)着{($1)<3}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(n)还要{len($1)>2}", "type": "8"}, {"role": "assistant", "content": "(n)还要{($1)>2}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(n)哥{len($1)>2}", "type": "8"}, {"role": "assistant", "content": "(n)哥{($1)>2}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n何为(n)大学(h){$1=$2}", "type": "8"}, {"role": "assistant", "content": "何为n大学h{$1=$2}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n大(nt){len($1)=1}", "type": "8"}, {"role": "assistant", "content": "大nt{len($1)=1}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(v)？{len($1)>1}", "type": "8"}, {"role": "assistant", "content": "v？{len($1)>1}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n*交通", "type": "8"}, {"role": "assistant", "content": "***交通"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(n)浪费{len($1)=2}", "type": "8"}, {"role": "assistant", "content": "(n)浪费{($1)=2}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n三(n)农(d){$1=$2}", "type": "8"}, {"role": "assistant", "content": "三n农d{$1=$2}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(ns)火{len($1)<4}", "type": "8"}, {"role": "assistant", "content": "(ns)火{($1)<4}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n小微*企业", "type": "8"}, {"role": "assistant", "content": "小微***企业"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(w)三个{len($1)=1}", "type": "8"}, {"role": "assistant", "content": "(w)三个{($1)=1}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(vn)但是{len($1)>2}", "type": "8"}, {"role": "assistant", "content": "(vn)但是{($1)>2}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(ad)着{len($1)<2}", "type": "8"}, {"role": "assistant", "content": "(ad)着{($1)<2}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，限制条件格式错误", "type": "8"}, {"role": "assistant", "content": "鹰{len(1)}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(v)情况{len($1)=1}", "type": "8"}, {"role": "assistant", "content": "(v)情况{($1)=1}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(u)江西省{len($1)>3}", "type": "8"}, {"role": "assistant", "content": "u江西省{len($1)>3}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(ns)通{len($1)>2}", "type": "8"}, {"role": "assistant", "content": "(ns)通{($1)>2}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(ns)着{len($1)=2}", "type": "8"}, {"role": "assistant", "content": "(ns)着{($1)=2}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(v)北京{len($1)=1}", "type": "8"}, {"role": "assistant", "content": "(v)北京{($1)=1}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n书画(un)将(v){$1=$2}", "type": "8"}, {"role": "assistant", "content": "书画un将v{$1=$2}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(w)理由{len($1)<2}", "type": "8"}, {"role": "assistant", "content": "(w)理由{($1)<2}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，限制条件格式错误", "type": "8"}, {"role": "assistant", "content": "广州{len(2)}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n不够@强", "type": "8"}, {"role": "assistant", "content": "不够@@@强"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(b)着{len($1)<2}", "type": "8"}, {"role": "assistant", "content": "(b)着{($1)<2}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(r)来{len($1)=1}", "type": "8"}, {"role": "assistant", "content": "(r)来{($1)=1}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(d)讨厌{len($1)<3}", "type": "8"}, {"role": "assistant", "content": "(d)讨厌{($1)<3}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，限制条件格式错误", "type": "8"}, {"role": "assistant", "content": "主教练{len(3)}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(u)听说{len($1)>1}", "type": "8"}, {"role": "assistant", "content": "(u)听说{($1)>1}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(v)不能{len($1)<3}", "type": "8"}, {"role": "assistant", "content": "(v)不能{($1)<3}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，限制条件格式错误", "type": "8"}, {"role": "assistant", "content": "利益{len(2)}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n难(x){len($1)=1}", "type": "8"}, {"role": "assistant", "content": "难x{len($1)=1}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n永不(Ag)打烊(v){$1=$2}", "type": "8"}, {"role": "assistant", "content": "永不Ag打烊v{$1=$2}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，限制条件格式错误", "type": "8"}, {"role": "assistant", "content": "政府{len(2)}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(n)包{len($1)>2}", "type": "8"}, {"role": "assistant", "content": "(n)包{($1)>2}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(w)怕{len($1)<2}", "type": "8"}, {"role": "assistant", "content": "(w)怕{($1)<2}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，限制条件格式错误", "type": "8"}, {"role": "assistant", "content": "内涵{len(2)}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n李国庆@说", "type": "8"}, {"role": "assistant", "content": "李国庆@@@@说"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，限制条件格式错误", "type": "8"}, {"role": "assistant", "content": "滴答{len(2)}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(v)那个{len($1)>1}", "type": "8"}, {"role": "assistant", "content": "(v)那个{($1)>1}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，限制条件格式错误", "type": "8"}, {"role": "assistant", "content": "格局{len(2)}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n，*最", "type": "8"}, {"role": "assistant", "content": "，**最"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(c)难受{len($1)>1}", "type": "8"}, {"role": "assistant", "content": "(c)难受{($1)>1}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n艰难(Tg)。(h){$1=$2}", "type": "8"}, {"role": "assistant", "content": "艰难Tg。h{$1=$2}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(ns)拜{len($1)<3}", "type": "8"}, {"role": "assistant", "content": "(ns)拜{($1)<3}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(n)男{len($1)>2}", "type": "8"}, {"role": "assistant", "content": "(n)男{($1)>2}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，限制条件格式错误", "type": "8"}, {"role": "assistant", "content": "暗箱{len(2)}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(r)一会{len($1)>2}", "type": "8"}, {"role": "assistant", "content": "(r)一会{($1)>2}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n语法错误，限制条件格式错误", "type": "8"}, {"role": "assistant", "content": "意味着{len(3)}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(w)报{len($1)=1}", "type": "8"}, {"role": "assistant", "content": "(w)报{($1)=1}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(l)着{len($1)<4}", "type": "8"}, {"role": "assistant", "content": "(l)着{($1)<4}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(v)那边{len($1)>2}", "type": "8"}, {"role": "assistant", "content": "(v)那边{($1)>2}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n*抛物", "type": "8"}, {"role": "assistant", "content": "***抛物"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(j)洗澡{len($1)=2}", "type": "8"}, {"role": "assistant", "content": "(j)洗澡{($1)=2}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(v)每次{len($1)<3}", "type": "8"}, {"role": "assistant", "content": "(v)每次{($1)<3}"}]}
-{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(n)张{len($1)>2}", "type": "8"}, {"role": "assistant", "content": "(n)张{($1)>2}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n恐怕根本--根本的", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n说实话--w说实话", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n就./v--+就是", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\nm+家+n--[一 两] 家 n", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n刚才/t v^^刚才 ../v", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“^”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n谁都v不了^^谁都给不了", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“^”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n好像实在^^忍不住", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“^”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\nn器--n器材", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\nv弱了--变弱了", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\nv矮了--变矮了", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n情感^^情感n", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“^”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n应该说--w应该说", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n把--把[、+，+。+！+……+？]", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n一~一个--唯一", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n几--几乎", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\nm手n--千手观音", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n李宇春^^男", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“^”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\nw这样说^^这样说来", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“^”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n也许*非v--并非", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n红^^红", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“^”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n大概*竟--竟然", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\nv高兴了--可高兴了", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\na+的+爱好/n--爱好和平", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n讲实话--w讲实话", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n有意--有意思", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\nm领--一些领", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\nw我很a w^^，我很a w", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“^”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n仿佛*绝对--绝对的", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n好像可--好像可以", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\nv死了--v死了w", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n当即^^以致", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“^”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n说心里话^^w说心里话", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“^”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n../n 控--控制", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n了呢--了呢？", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n的脸^^丢", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“^”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n[n nr] v 给 [n nr] n--[n nr] n v", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n别只看--", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n[。 ，“ ‘]你说，--[。 ，“ ‘]你说，“", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n好像*实在--实在的", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n打/v--打/v v", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n进[进 一进]--进进出出", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n你一个*。--你一个n。", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n更 n--更ad", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\nV于^^../v于", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“^”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n光盘--数据", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n仿佛*本来--本来的", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n和--和平", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\nv给[y nr]v--是", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n恐怕*绝大--绝大关系", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n很n--很有", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n一点n^^一点n+w", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“^”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n[婚 姻]^^男", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“^”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n[v+a]着--随着", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n一边--另一边", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n和--", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n一对n--a", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n把*上上--把*上上[下下 个 百]", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n过了[过 一过]--过了过[了 过了]", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n有v--没有v", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\nv精--精神文明", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n呀w--呀，", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\nv给[r n] m--[能 会 想]给[r n] m", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n回一回--[一 那 不 二]回一回", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n固然^^接着", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“^”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\nm 家 n--一 家 n", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n[n nr r]  v给了 [n nr r]  n--把 [n nr r]", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n即刻^^所以", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“^”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\nw我很a+w^^“我很a+w", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“^”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n来[a n q]--V来", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n这样一.就--这样一来", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n或许*准v^^准是", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“^”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\nv员--员工", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n刚/d+v^^刚+./v", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“^”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n流/v+在+s--流在一起", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n不+n--不ad", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n送--送n+，", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n，f v 着--，f v 着 的", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n刚刚/d+v^^刚刚+./v", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“^”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n我--我们", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n似乎*的确--确认", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\nv轻松了--觉得轻松了", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\nv软了--变软了", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n回回--[回 一 是 “]回回", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\nm标--9000标", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\nm 盘 n--九盘婆婆", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n或许*非得v^^那儿走一趟", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“^”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n必须--那必须", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n的呢--的呢？", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n巴到--巴到天明", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\nn n^^屁股", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“^”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n[婚 姻]^^女", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“^”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\nn好v--好[有 想 让 起]", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n着--不着", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n相反--[相反的+相反地]", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n一定^^一定先", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“^”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\nv m脚--临门一脚", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n激情 ../v--v*激情", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n恐怕*本来v^^想说", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“^”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n人看起来--让人看起来", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n二--二十", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n大概正--正常", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\nw我很a w--[， 。 ！ ； ？ “ ： 、 …]我很a w", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n秒v--秒杀", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\nv过分了--是过分了", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n据云--据云南", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n似乎可--似乎可以", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n将*进行到底--革命", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n[nr+r]+v+n+给[nr+r]+--给[nr+r]+v", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n程度副词^^名词", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“^”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n一n一个--人", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n唯--唯一", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n你一个*。--你一个n", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n那* m q n^^的", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“^”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n./v 来--如来", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n不得不说^^我不得不说", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“^”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\nn没有n+a--没有*一样", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n一定^^一定去", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“^”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n联系在[nt ns s f r]--联系在一起", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\nv下--v[下去 下来]", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n无 .可.--可能，可以", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n似乎*一定能--能传了种", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n少说^^话少说", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“^”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n位^^q", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“^”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n谁都v不了^^谁都影响不了", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“^”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n下[下 一下]--下下停停", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\nv变形了--要变形了", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n[， 。]我说，--[， 。]我说，“", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\nn 挺好的--感觉挺好的", "type": "7"}, {"role": "assistant", "content": "语法错误，存在无效符号“-”"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n满{len(1)}", "type": "8"}, {"role": "assistant", "content": "语法错误，限制条件格式错误"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n做n{len($1)=1}", "type": "8"}, {"role": "assistant", "content": "做(n){len($1)=1}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n思娈{len(2)}", "type": "8"}, {"role": "assistant", "content": "语法错误，限制条件格式错误"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(r)着{($1)<3}", "type": "8"}, {"role": "assistant", "content": "(r)着{len($1)<3}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n买买江{len(3)}", "type": "8"}, {"role": "assistant", "content": "语法错误，限制条件格式错误"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n风景线{len(3)}", "type": "8"}, {"role": "assistant", "content": "语法错误，限制条件格式错误"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(d)子{($1)>1}", "type": "8"}, {"role": "assistant", "content": "(d)子{len($1)>1}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(n)女孩{($1)<3}", "type": "8"}, {"role": "assistant", "content": "(n)女孩{len($1)<3}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(w)干什么{($1)>1}", "type": "8"}, {"role": "assistant", "content": "(w)干什么{len($1)>1}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(r)交{($1)<3}", "type": "8"}, {"role": "assistant", "content": "(r)交{len($1)<3}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(v)哎{($1)>2}", "type": "8"}, {"role": "assistant", "content": "(v)哎{len($1)>2}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(v)当然{($1)>2}", "type": "8"}, {"role": "assistant", "content": "(v)当然{len($1)>2}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(v)开始{($1)=2}", "type": "8"}, {"role": "assistant", "content": "(v)开始{len($1)=2}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(an)着{($1)=2}", "type": "8"}, {"role": "assistant", "content": "(an)着{len($1)=2}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n、{len(1)}", "type": "8"}, {"role": "assistant", "content": "语法错误，限制条件格式错误"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(m)着{($1)=2}", "type": "8"}, {"role": "assistant", "content": "(m)着{len($1)=2}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n人口{len(2)}", "type": "8"}, {"role": "assistant", "content": "语法错误，限制条件格式错误"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n人民{len(2)}", "type": "8"}, {"role": "assistant", "content": "语法错误，限制条件格式错误"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(n)着{($1)=3}", "type": "8"}, {"role": "assistant", "content": "(n)着{len($1)=3}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n元{len(1)}", "type": "8"}, {"role": "assistant", "content": "语法错误，限制条件格式错误"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(w)差{($1)<2}", "type": "8"}, {"role": "assistant", "content": "(w)差{len($1)<2}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n法庭***为", "type": "8"}, {"role": "assistant", "content": "法庭*为"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(ns)还有{($1)<3}", "type": "8"}, {"role": "assistant", "content": "(ns)还有{len($1)<3}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n村n，l{$1=$2}", "type": "8"}, {"role": "assistant", "content": "村(n)，(l){$1=$2}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n徇私舞弊{len(4)}", "type": "8"}, {"role": "assistant", "content": "语法错误，限制条件格式错误"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(w)最好{($1)>1}", "type": "8"}, {"role": "assistant", "content": "(w)最好{len($1)>1}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(nr)一辈子{($1)=2}", "type": "8"}, {"role": "assistant", "content": "(nr)一辈子{len($1)=2}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(q)情{($1)=1}", "type": "8"}, {"role": "assistant", "content": "(q)情{len($1)=1}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(v)金{($1)<3}", "type": "8"}, {"role": "assistant", "content": "(v)金{len($1)<3}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(v)呵呵{($1)<2}", "type": "8"}, {"role": "assistant", "content": "(v)呵呵{len($1)<2}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(n)试{($1)>2}", "type": "8"}, {"role": "assistant", "content": "(n)试{len($1)>2}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n禁塑{len(2)}", "type": "8"}, {"role": "assistant", "content": "语法错误，限制条件格式错误"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(v)没有{($1)>2}", "type": "8"}, {"role": "assistant", "content": "(v)没有{len($1)>2}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n达{len(1)}", "type": "8"}, {"role": "assistant", "content": "语法错误，限制条件格式错误"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(ns)不上{($1)<3}", "type": "8"}, {"role": "assistant", "content": "(ns)不上{len($1)<3}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n宣讲员{len(3)}", "type": "8"}, {"role": "assistant", "content": "语法错误，限制条件格式错误"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(v)一{($1)>1}", "type": "8"}, {"role": "assistant", "content": "(v)一{len($1)>1}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(v)回{($1)>2}", "type": "8"}, {"role": "assistant", "content": "(v)回{len($1)>2}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(ns)着{($1)>2}", "type": "8"}, {"role": "assistant", "content": "(ns)着{len($1)>2}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(n)结{($1)>2}", "type": "8"}, {"role": "assistant", "content": "(n)结{len($1)>2}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n***是", "type": "8"}, {"role": "assistant", "content": "*是"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(w)想{($1)>1}", "type": "8"}, {"role": "assistant", "content": "(w)想{len($1)>1}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\nv进{len($1)>1}", "type": "8"}, {"role": "assistant", "content": "(v)进{len($1)>1}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(v)干{($1)=1}", "type": "8"}, {"role": "assistant", "content": "(v)干{len($1)=1}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(nr)着{($1)<3}", "type": "8"}, {"role": "assistant", "content": "(nr)着{len($1)<3}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(n)还要{($1)>2}", "type": "8"}, {"role": "assistant", "content": "(n)还要{len($1)>2}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(n)哥{($1)>2}", "type": "8"}, {"role": "assistant", "content": "(n)哥{len($1)>2}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n何为n大学h{$1=$2}", "type": "8"}, {"role": "assistant", "content": "何为(n)大学(h){$1=$2}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n大nt{len($1)=1}", "type": "8"}, {"role": "assistant", "content": "大(nt){len($1)=1}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\nv？{len($1)>1}", "type": "8"}, {"role": "assistant", "content": "(v)？{len($1)>1}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n***交通", "type": "8"}, {"role": "assistant", "content": "*交通"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(n)浪费{($1)=2}", "type": "8"}, {"role": "assistant", "content": "(n)浪费{len($1)=2}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n三n农d{$1=$2}", "type": "8"}, {"role": "assistant", "content": "三(n)农(d){$1=$2}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(ns)火{($1)<4}", "type": "8"}, {"role": "assistant", "content": "(ns)火{len($1)<4}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n小微***企业", "type": "8"}, {"role": "assistant", "content": "小微*企业"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(w)三个{($1)=1}", "type": "8"}, {"role": "assistant", "content": "(w)三个{len($1)=1}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(vn)但是{($1)>2}", "type": "8"}, {"role": "assistant", "content": "(vn)但是{len($1)>2}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(ad)着{($1)<2}", "type": "8"}, {"role": "assistant", "content": "(ad)着{len($1)<2}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n鹰{len(1)}", "type": "8"}, {"role": "assistant", "content": "语法错误，限制条件格式错误"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(v)情况{($1)=1}", "type": "8"}, {"role": "assistant", "content": "(v)情况{len($1)=1}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\nu江西省{len($1)>3}", "type": "8"}, {"role": "assistant", "content": "(u)江西省{len($1)>3}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(ns)通{($1)>2}", "type": "8"}, {"role": "assistant", "content": "(ns)通{len($1)>2}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(ns)着{($1)=2}", "type": "8"}, {"role": "assistant", "content": "(ns)着{len($1)=2}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(v)北京{($1)=1}", "type": "8"}, {"role": "assistant", "content": "(v)北京{len($1)=1}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n书画un将v{$1=$2}", "type": "8"}, {"role": "assistant", "content": "书画(un)将(v){$1=$2}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(w)理由{($1)<2}", "type": "8"}, {"role": "assistant", "content": "(w)理由{len($1)<2}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n广州{len(2)}", "type": "8"}, {"role": "assistant", "content": "语法错误，限制条件格式错误"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n不够@@@强", "type": "8"}, {"role": "assistant", "content": "不够@强"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(b)着{($1)<2}", "type": "8"}, {"role": "assistant", "content": "(b)着{len($1)<2}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(r)来{($1)=1}", "type": "8"}, {"role": "assistant", "content": "(r)来{len($1)=1}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(d)讨厌{($1)<3}", "type": "8"}, {"role": "assistant", "content": "(d)讨厌{len($1)<3}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n主教练{len(3)}", "type": "8"}, {"role": "assistant", "content": "语法错误，限制条件格式错误"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(u)听说{($1)>1}", "type": "8"}, {"role": "assistant", "content": "(u)听说{len($1)>1}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(v)不能{($1)<3}", "type": "8"}, {"role": "assistant", "content": "(v)不能{len($1)<3}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n利益{len(2)}", "type": "8"}, {"role": "assistant", "content": "语法错误，限制条件格式错误"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n难x{len($1)=1}", "type": "8"}, {"role": "assistant", "content": "难(x){len($1)=1}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n永不Ag打烊v{$1=$2}", "type": "8"}, {"role": "assistant", "content": "永不(Ag)打烊(v){$1=$2}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n政府{len(2)}", "type": "8"}, {"role": "assistant", "content": "语法错误，限制条件格式错误"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(n)包{($1)>2}", "type": "8"}, {"role": "assistant", "content": "(n)包{len($1)>2}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(w)怕{($1)<2}", "type": "8"}, {"role": "assistant", "content": "(w)怕{len($1)<2}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n内涵{len(2)}", "type": "8"}, {"role": "assistant", "content": "语法错误，限制条件格式错误"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n李国庆@@@@说", "type": "8"}, {"role": "assistant", "content": "李国庆@说"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n滴答{len(2)}", "type": "8"}, {"role": "assistant", "content": "语法错误，限制条件格式错误"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(v)那个{($1)>1}", "type": "8"}, {"role": "assistant", "content": "(v)那个{len($1)>1}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n格局{len(2)}", "type": "8"}, {"role": "assistant", "content": "语法错误，限制条件格式错误"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n，**最", "type": "8"}, {"role": "assistant", "content": "，*最"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(c)难受{($1)>1}", "type": "8"}, {"role": "assistant", "content": "(c)难受{len($1)>1}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n艰难Tg。h{$1=$2}", "type": "8"}, {"role": "assistant", "content": "艰难(Tg)。(h){$1=$2}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(ns)拜{($1)<3}", "type": "8"}, {"role": "assistant", "content": "(ns)拜{len($1)<3}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(n)男{($1)>2}", "type": "8"}, {"role": "assistant", "content": "(n)男{len($1)>2}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n暗箱{len(2)}", "type": "8"}, {"role": "assistant", "content": "语法错误，限制条件格式错误"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(r)一会{($1)>2}", "type": "8"}, {"role": "assistant", "content": "(r)一会{len($1)>2}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n意味着{len(3)}", "type": "8"}, {"role": "assistant", "content": "语法错误，限制条件格式错误"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(w)报{($1)=1}", "type": "8"}, {"role": "assistant", "content": "(w)报{len($1)=1}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(l)着{($1)<4}", "type": "8"}, {"role": "assistant", "content": "(l)着{len($1)<4}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(v)那边{($1)>2}", "type": "8"}, {"role": "assistant", "content": "(v)那边{len($1)>2}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n***抛物", "type": "8"}, {"role": "assistant", "content": "*抛物"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(j)洗澡{($1)=2}", "type": "8"}, {"role": "assistant", "content": "(j)洗澡{len($1)=2}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(v)每次{($1)<3}", "type": "8"}, {"role": "assistant", "content": "(v)每次{len($1)<3}"}]}
+{"conversations": [{"role": "user", "content": "请将下文解析成BCC检索式：\n(n)张{($1)>2}", "type": "8"}, {"role": "assistant", "content": "(n)张{len($1)>2}"}]}
