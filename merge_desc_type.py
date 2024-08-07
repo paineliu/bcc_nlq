@@ -1,7 +1,7 @@
 import os
 import json
 import pandas as pd
-from stat_bcc_query import get_query_type6
+from stat_sql_query import get_query_type6
 
 
 def merge_desc(query_filename, log_pathname, json_filename):

@@ -29,5 +29,5 @@ def conv_log_cvs(log_filename, loss_filename, rate_filename):
 
 
 if __name__ == '__main__':
-    conv_log_cvs('./log/chatglm3_log_0805.txt', './data/chatglm3_0805_loss.csv', './data/chatglm3_0805_rate.csv')
+    conv_log_cvs('./chatglm3/chatglm3_log_0806.txt', './data/chatglm3_loss.csv', './data/chatglm3_rate.csv')
     # conv_log_cvs('./log/qwen_log.txt', './data/qwen_loss.csv', './data/qwen_rate.csv')
