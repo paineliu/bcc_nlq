@@ -4,9 +4,9 @@ os.environ['CUDA_VISIBLE_DEVICES'] = "2"  #（代表仅使用第0，1号GPU）
 
 from transformers import AutoModelForCausalLM, AutoTokenizer, GenerationConfig
 
-tokenizer = AutoTokenizer.from_pretrained("qwen-7b-finetune", trust_remote_code=True)
+tokenizer = AutoTokenizer.from_pretrained("qwen-7b-finetune-0806", trust_remote_code=True)
 
-model = AutoModelForCausalLM.from_pretrained("qwen-7b-finetune", device_map="auto",
+model = AutoModelForCausalLM.from_pretrained("qwen-7b-finetune-0806", device_map="auto",
 
 trust_remote_code=True).eval()
 
