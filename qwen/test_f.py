@@ -47,4 +47,4 @@ def test_acc(test_filename, result_filename):
     f_o.close()
     
 if __name__ == "__main__":
-    test_acc('./qwen/bcc_test.json', './qwen/bcc_test_out.json')
+    test_acc('./bcc_qwen_tongyi/bcc_test.json', './bcc_qwen_tongyi/bcc_test_out.json')
