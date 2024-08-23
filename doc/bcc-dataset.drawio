@@ -1,0 +1,90 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.5 Chrome/126.0.6478.183 Electron/31.3.0 Safari/537.36" version="24.7.5">
+  <diagram name="Page-1" id="YzF1wYIKMdavqr_pMihd">
+    <mxGraphModel dx="1004" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ajgn6oq-DAd7ekMlXT-4-3" value="检索&#xa;式分&#xa;类" style="rounded=0;fontSize=14;fontFamily=SimSun;" parent="1" vertex="1">
+          <mxGeometry x="200" y="181" width="40" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ajgn6oq-DAd7ekMlXT-4-5" value="补充&#xa;检索&#xa;式数&#xa;据" style="rounded=0;fontSize=14;fontFamily=SimSun;" parent="1" vertex="1">
+          <mxGeometry x="320" y="181" width="40" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ajgn6oq-DAd7ekMlXT-4-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=SimSun;" parent="1" source="ajgn6oq-DAd7ekMlXT-4-7" target="ajgn6oq-DAd7ekMlXT-4-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ajgn6oq-DAd7ekMlXT-4-7" value="输入&#xa;错误&#xa;分类" style="rounded=0;fontSize=14;fontFamily=SimSun;" parent="1" vertex="1">
+          <mxGeometry x="200" y="340" width="40" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ajgn6oq-DAd7ekMlXT-4-8" value="" style="rounded=0;fontSize=14;fontFamily=SimSun;" parent="1" vertex="1">
+          <mxGeometry x="440" y="180" width="90" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="ajgn6oq-DAd7ekMlXT-4-11" value="分类&#xa;存储&#xa;检索&#xa;式" style="rounded=0;fontSize=14;fontFamily=SimSun;" parent="1" vertex="1">
+          <mxGeometry x="260" y="181" width="40" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ajgn6oq-DAd7ekMlXT-4-18" value="" style="rounded=0;fontFamily=SimSun;" parent="1" vertex="1">
+          <mxGeometry x="90" y="180" width="90" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="ajgn6oq-DAd7ekMlXT-4-19" value="BCC&#xa;日志数据" style="rounded=0;fontSize=14;strokeColor=none;fontFamily=SimSun;" parent="1" vertex="1">
+          <mxGeometry x="108" y="191" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ajgn6oq-DAd7ekMlXT-4-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=SimSun;" parent="1" source="ajgn6oq-DAd7ekMlXT-4-20" target="ajgn6oq-DAd7ekMlXT-4-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ajgn6oq-DAd7ekMlXT-4-20" value="查询日志" style="rounded=0;fontFamily=SimSun;" parent="1" vertex="1">
+          <mxGeometry x="102.5" y="240" width="65" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ajgn6oq-DAd7ekMlXT-4-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=SimSun;" parent="1" source="ajgn6oq-DAd7ekMlXT-4-21" target="ajgn6oq-DAd7ekMlXT-4-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ajgn6oq-DAd7ekMlXT-4-21" value="错误日志" style="rounded=0;fontFamily=SimSun;" parent="1" vertex="1">
+          <mxGeometry x="103" y="360" width="65" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ajgn6oq-DAd7ekMlXT-4-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=SimSun;" parent="1" source="ajgn6oq-DAd7ekMlXT-4-15" target="ajgn6oq-DAd7ekMlXT-4-27" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ajgn6oq-DAd7ekMlXT-4-15" value="补充&#xa;数据" style="rounded=0;fontSize=14;fontFamily=SimSun;" parent="1" vertex="1">
+          <mxGeometry x="380" y="340" width="40" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ajgn6oq-DAd7ekMlXT-4-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=SimSun;" parent="1" source="ajgn6oq-DAd7ekMlXT-4-23" target="ajgn6oq-DAd7ekMlXT-4-24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ajgn6oq-DAd7ekMlXT-4-23" value="分类&#xa;存储&#xa;错误&#xa;数据" style="rounded=0;fontSize=14;fontFamily=SimSun;" parent="1" vertex="1">
+          <mxGeometry x="260" y="340" width="40" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ajgn6oq-DAd7ekMlXT-4-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=SimSun;" parent="1" source="ajgn6oq-DAd7ekMlXT-4-24" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="405" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ajgn6oq-DAd7ekMlXT-4-24" value="添加&#xa;纠错&#xa;信息" style="rounded=0;fontSize=14;fontFamily=SimSun;" parent="1" vertex="1">
+          <mxGeometry x="320" y="340" width="40" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ajgn6oq-DAd7ekMlXT-4-25" value="BCC&#xa;检索式&#xa;数据集" style="rounded=0;fontSize=14;strokeColor=none;fontFamily=SimSun;" parent="1" vertex="1">
+          <mxGeometry x="457.5" y="191" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ajgn6oq-DAd7ekMlXT-4-26" value="正确&#xa;检索式数据" style="rounded=0;fontFamily=SimSun;" parent="1" vertex="1">
+          <mxGeometry x="452.5" y="240" width="65" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ajgn6oq-DAd7ekMlXT-4-27" value="纠错&#xa;检索式数据" style="rounded=0;fontFamily=SimSun;" parent="1" vertex="1">
+          <mxGeometry x="455" y="359.5" width="65" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ajgn6oq-DAd7ekMlXT-4-32" value="" style="endArrow=classic;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=SimSun;" parent="1" source="ajgn6oq-DAd7ekMlXT-4-3" target="ajgn6oq-DAd7ekMlXT-4-11" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="380" as="sourcePoint" />
+            <mxPoint x="260" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ajgn6oq-DAd7ekMlXT-4-34" value="" style="endArrow=classic;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=SimSun;" parent="1" source="ajgn6oq-DAd7ekMlXT-4-11" target="ajgn6oq-DAd7ekMlXT-4-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="256" as="sourcePoint" />
+            <mxPoint x="270" y="256" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ajgn6oq-DAd7ekMlXT-4-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;fontFamily=SimSun;" parent="1" source="ajgn6oq-DAd7ekMlXT-4-5" target="ajgn6oq-DAd7ekMlXT-4-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
